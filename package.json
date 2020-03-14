@@ -1,0 +1,68 @@
+{
+  "name": "care-local",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.0.2",
+    "axios": "^0.19.2",
+    "drag-scroll-provider": "^1.0.6",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "node-sass": "^4.13.1",
+    "prettier": "^1.19.1",
+    "react": "^16.13.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.13.0",
+    "react-facebook": "^8.1.4",
+    "react-google-places-autocomplete": "^1.6.2",
+    "react-loading-skeleton": "^2.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-scroll": "^1.7.16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-links": "^5.3.17",
+    "@storybook/addons": "^5.3.17",
+    "@storybook/preset-create-react-app": "^2.0.0",
+    "@storybook/react": "^5.3.17",
+    "eslint-plugin-import": "^2.20.1"
+  },
+  "proxy": "http://localhost:8000",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
+}

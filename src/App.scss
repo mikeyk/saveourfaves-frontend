@@ -1,0 +1,585 @@
+@import "./shared.scss";
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+  font-family: "open sans", -apple-system, blinkmacsystemfont, "segoe ui",
+    "roboto", "oxygen", "ubuntu", "cantarell", "fira sans", "droid sans",
+    "helvetica neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "roboto slab", serif;
+  font-weight: 400;
+}
+
+@media only screen and (max-device-width: 576px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  .call-to-action-outer {
+    margin-left: -4px !important;
+    margin-top: 6px;
+    text-align: left !important;
+  }
+  .place-address {
+    font-size: 0.9em;
+  }
+}
+
+.app {
+  text-align: center;
+  overscroll-behavior: none;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
+  }
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-link {
+  color: $tertiary-text;
+}
+
+.main-results {
+  background-color: white;
+  border-color: lightgray;
+  border-radius: 26px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 20px;
+  overscroll-behavior: none;
+}
+
+.hero-row {
+  height: 450px;
+  background-color: $primary-color;
+  padding-top: 20px;
+  overscroll-behavior: none;
+}
+
+.footer-content {
+  margin-top: 24px;
+}
+
+.footer-content h3 {
+  color: $tertiary-text !important;
+}
+
+.call-to-action-outer {
+  text-align: right;
+  margin-left: 20px;
+}
+
+.primary-button {
+  background-color: $primary-color !important;
+  color: white !important;
+}
+.primary-button:hover,
+.primary-button:active {
+  background-color: $primary-color !important;
+  color: white !important;
+}
+
+.large-primary-button {
+  border: 0;
+  background-color: $primary-color !important;
+  color: white !important;
+}
+.header-button {
+  color: $primary-color;
+  background-color: white;
+}
+
+.secondary-button {
+  border: 0;
+  color: $tertiary-text !important;
+  background-color: $tertiary-color !important;
+}
+
+.secondary-button:hover {
+  color: $primary-color;
+}
+
+h2.place-title,
+h3.place-title,
+h4.place-title {
+  color: $tertiary-text !important;
+  margin-bottom: 0;
+}
+
+.primary-link {
+  color: $primary-color;
+}
+.primary-link:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.place-address {
+  color: darkgray;
+}
+
+h4.suggestion-title {
+  color: $text-color;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+h4.section-title {
+  font-family: "open sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-top: 0px;
+  color: $text-color;
+}
+
+h1.ant-typography,
+h2.ant-typography,
+h3.ant-typography,
+h4.ant-typography {
+  color: $text-color;
+}
+
+.top-header {
+  padding: 0px 12px;
+}
+
+.top-header h1,
+.top-header h2,
+.top-header h3,
+.top-header h4 {
+  color: white !important;
+  font-weight: 400;
+  font-family: "open sans", sans-serif;
+}
+
+div.header-sans {
+  color: white;
+  font-family: "open sans", sans-serif;
+  font-size: 1.6em;
+}
+
+.autosuggest-outer {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.area-picker {
+  background-color: $tertiary-color;
+  border: 0px solid;
+  outline: none;
+  height: 25px;
+}
+
+.area-picker:active {
+  border: 0px solid;
+}
+
+.place-result {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 678px;
+  margin: auto;
+  min-height: 140px;
+}
+
+.place-result:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.suggestions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: $max-content-width;
+  margin: 24px auto 0px auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .suggestions-container {
+    margin-top: 0px !important;
+  }
+}
+
+.suggested-place {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-bottom: 0px;
+  min-width: 150px;
+  width: 30%;
+
+  margin: 0px 16px 16px 0px;
+}
+
+.suggested-place span.photo-attribution {
+  display: none;
+}
+
+.suggested-place:hover span.photo-attribution {
+  display: inline;
+  background-color: white;
+}
+
+.suggested-place:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.suggested-place h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 400;
+}
+
+.suggested-place .suggestion-details {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: darkgray;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-variant: small-caps;
+}
+
+.add-link-modal-input {
+  border: 1px solid $primary-color;
+  margin-top: 10px;
+  padding: 6px;
+  width: 100%;
+  outline: none;
+}
+
+.neighborhood-card-container-outer {
+  padding: 0px 20px;
+}
+@media only screen and (max-width: 576px) {
+  .neighborhood-card-container-outer {
+    padding: 0px 0px !important;
+  }
+}
+
+.neighborhood-card-container {
+  height: 130px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overscroll-behavior: none;
+  margin: 0 auto;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+  padding: 0px 4px;
+}
+::webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .neighborhood-card-container {
+    margin-bottom: 12px !important;
+  }
+}
+
+.neighborhood-card {
+  width: 120px;
+  min-height: 140px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  display: block;
+}
+
+.neighborhood-card-arrow {
+  user-select: none;
+
+  font-size: 1.5em;
+  color: $tertiary-text;
+  background-color: transparent;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 65%
+  );
+  font-size: 2.5em;
+  padding-top: 36px;
+}
+
+.neighborhood-card-arrow-right {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 95%
+  );
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: right;
+}
+
+.neighborhood-card-arrow-left {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 95%
+  );
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+}
+
+.explore-neighborhood-section {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  h4.section-title {
+    padding-top: 0px !important;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .neighborhood-card-arrow {
+    display: none !important;
+  }
+  .neighborhood-card-container {
+    overflow-x: scroll;
+  }
+}
+
+.neighborhood-card-image {
+  margin-bottom: 12px;
+  width: 120px;
+  height: 120px;
+  border-radius: 80px;
+  background-position: center center;
+  background-color: $tertiary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+}
+
+.neighborhood-card-image-selected {
+  background-color: $primary-color;
+  color: white;
+  box-shadow: 0 0 4px darkslategray;
+}
+
+.neighborhood-card-image:hover {
+  cursor: pointer;
+  box-shadow: 0 0 4px darkslategray;
+}
+
+.neighborhood-card-title {
+  font-family: "roboto slab", serif;
+  font-size: 1.1em;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  color: $primary-color;
+}
+
+.neighborhood-card-title-selected {
+  font-weight: 600;
+  color: white;
+}
+
+.email-popover {
+  width: 320px;
+  background-color: transparent;
+}
+.email-popover-inner {
+  margin: 0 auto;
+}
+
+.email-popover p {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.email-popover-input {
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  margin-right: 4px;
+  padding: 6px;
+  margin-bottom: 4px;
+  width: 210px;
+  color: $search-text-color;
+}
+
+.email-popover-input::placeholder {
+  color: $search-text-color !important;
+  opacity: 1;
+}
+
+.email-popover-input:focus {
+  border-color: $primary-color;
+}
+.email-popover .ant-popover-inner {
+  background-color: transparent;
+}
+.email-popover div {
+  background-color: transparent;
+}
+
+.email-popover .ant-popover-arrow {
+  border-left-color: $primary-color !important;
+  border-top-color: $primary-color !important;
+}
+.email-popover a {
+  color: white;
+  text-decoration: underline;
+}
+
+.email-popover .ant-popover-inner-content {
+  background-color: $primary-color !important;
+  border: 1px solid $primary-color;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+}
+.email-confirm-button {
+  background-color: $tertiary-text;
+  color: white;
+  height: 36px;
+  border-width: 2px;
+}
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__wrapper {
+  max-width: 600px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 2px 8px 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 0 auto 20px auto;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.react-autosuggest__input {
+  font-family: "Open Sans", sans-serif;
+  color: $text-color;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  border: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.react-autosuggest__input::placeholder {
+  font-weight: 400;
+  color: $text-color;
+  opacity: 1;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__left-icon {
+  position: absolute;
+  left: 9px;
+  top: 1px;
+  font-size: 26px;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 40px;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.autosuggest-address {
+  font-size: 0.8em;
+}
+
+.google-places-autocomplete__suggestions-container {
+  padding: 4px 6px;
+  font-size: 1.1em;
+  background-color: white;
+  position: relative;
+  top: -2px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: $primary-color;
+}
+
+.google-places-autocomplete__suggestion {
+  cursor: pointer;
+  padding: 2px 0px;
+  &:hover {
+    background-color: $tertiary-color;
+  }
+}
