@@ -1,0 +1,106 @@
+@import '~antd/dist/antd.css';
+@import './shared.scss';
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-results {
+  background-color: white;
+  border-color: lightgray;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+}
+
+.hero-row {
+  height: 600px;
+  background-color: $primary-color;
+  padding-top: 20px;
+}
+
+.primary-button {
+  background-color: $primary-color;
+  color: white;
+}
+.primary-button:hover {
+  background-color: $primary-color;
+  color: white;
+}
+
+.large-primary-button {
+  background-color: $primary-color;
+  color: white;
+}
+
+.secondary-button {
+  color: $primary-color;
+}
+
+.secondary-button:hover {
+  color: $primary-color;
+}
+
+h2.place-title, h3.place-title {
+  color: $primary-color;
+  margin-bottom: 0;
+}
+
+h1.ant-typography, h2.ant-typography, h3.ant-typography, h4.ant-typography {
+  color: darkslategray;
+}
