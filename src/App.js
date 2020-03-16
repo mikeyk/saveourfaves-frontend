@@ -14,24 +14,21 @@ const { Meta } = Card;
 const { Title, Paragraph, Text } = Typography;
 const { Option } = AutoComplete;
 
-function renderCallToActionButton(place) {
-  var emailBody = "Hi there! I was on SaveYourFave.com and saw that " + place.name + " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy."
-}
-
 class CallToActionButton extends React.Component {
 
   render() {
     var place = this.props.place;
+    var size = this.props.size;
     const emailBody = "Hi there! I was on SaveYourFave.com and saw that " + place.name + " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy.";
     return(
       <>
           {place.giftCardURL && 
-              <Button shape="round" size="large" className="large-primary-button" type="default" onClick={ (event) => { window.open(place.giftCardURL)}}>
+              <Button shape="round" size={size} className="large-primary-button" type="default" onClick={ (event) => { window.open(place.giftCardURL)}}>
                 See Gift Cards
               </Button>
           }
           {!place.GiftCardURL && place.emailContact &&
-              <Button shape="round" size="large" className="large-primary-button" type="default" onClick={ (event) => { window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody}}>
+              <Button shape="round" size={size} className="large-primary-button" type="default" onClick={ (event) => { window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody}}>
                 Email them
               </Button>
           }
@@ -100,27 +97,33 @@ class NeighborhoodCards extends React.Component {
   }
 }
 
-function imgTagFromURL(url) {
-  return (
-    <div style={{width: '100%', height: '140px'}}>
-    <img src={url} style={{width: '100%', objectFit: 'cover', height: '100%'}}/>
-    </div>
-  )
-}
-
 class SuggestedPlaceCards extends React.Component {
+
+  textForDetails(suggestion) {
+    if (suggestion.giftCardURL) {
+      return "SELLS ONLINE";
+    } else if (suggestion.emailContact) {
+      return "OFFERS VIA EMAIL";
+    }
+  }
   render() {
     const suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
-      <Col xs={24} sm={24} md={8} lg={6} xl={6}>
-        <Card width={240} cover={imgTagFromURL(suggestion.imageURL)} bordered={true}>
-          <Title level={4}>{suggestion.name}</Title>
-
-          {renderCallToActionButton(suggestion)}
-        </Card>
-      </Col>
+        <div className="suggested-place">
+          <Row style={{backgroundSize: "cover", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "110px"}}>
+          </Row>
+          <Row style={{minHeight: "110px"}}>
+            <Title className="place-title" style={{textAlign: "center", width: "100%", marginTop: "12px", padding: "0px 6px"}} level={4}>{suggestion.name}</Title>
+            <div className="suggestion-details">
+              {this.textForDetails(suggestion)}
+            </div>
+            <div style={{margin: "0px auto"}}>
+              <CallToActionButton place={suggestion} size={"default"} />
+            </div>
+          </Row>
+        </div>
     );
     return(
-      <Row gutter={[16, 16]}>
+      <Row gutter={[16, 16]} className="suggestions-container">
         {suggestedPlaceCards}
       </Row>
     )
@@ -155,13 +158,14 @@ class PlaceResultMain extends React.Component {
         "emailContact": "m@mikek.co",
         "imageURL": "https://lh3.googleusercontent.com/p/AF1QipM09mIPRVymgGeEM5ZSYH21AhYHk-uZQPKrC8c=s1600-w800"
       }
+      return null;
     }
     var cardStyle = 'marginBottom: 20px';
     return (
-      <Row style={{border: "1px solid lightgray", borderRadius: "4px", overflow: "hidden", maxWidth: "620px", margin: "auto", minHeight: "100px"}}>
+      <Row className="place-result" style=>
         <Col xs={24} sm={24} md={8} lg={8} xl={8} style={{minHeight: "100px", backgroundSize: "cover", backgroundImage: "url(" + place.imageURL + ")"}}>
         </Col>
-        <Col xs={24} sm={24} md={16} lg={16} xl={16} style={{padding: "8px 12px"}}>
+        <Col xs={24} sm={24} md={16} lg={16} xl={16} style={{padding: "8px 16px"}}>
         <Row>
           <Col span={14} className="flex-vertical">
             <h2 className="place-title">{place.name}</h2>
@@ -185,7 +189,7 @@ class PlaceResultMain extends React.Component {
           </Col>
           <Col className="flex-vertical" xs={10} sm={10} md={10} lg={10} xl={10}>
             <div style={{textAlign: "right", marginLeft: "20px"}}>
-            <CallToActionButton place={place}  />
+            <CallToActionButton place={place} size="large" />
             </div>
           </Col>
           

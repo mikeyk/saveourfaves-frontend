@@ -12,7 +12,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Roboto Slab', serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .App {
@@ -79,13 +79,13 @@ h1, h2, h3, h4 {
   color: white;
 }
 .primary-button:hover {
-  background-color: $primary-color;
-  color: white;
+  background-color: $primary-color !important;
+  color: white !important;
 }
 
 .large-primary-button {
-  background-color: $primary-color;
-  color: white;
+  background-color: $primary-color !important;
+  color: white !important;
 }
 
 .secondary-button {
@@ -96,11 +96,50 @@ h1, h2, h3, h4 {
   color: $primary-color;
 }
 
-h2.place-title, h3.place-title {
-  color: $primary-color;
+h2.place-title, h3.place-title, h4.place-title {
+  color: $primary-color !important;
   margin-bottom: 0;
 }
 
 h1.ant-typography, h2.ant-typography, h3.ant-typography, h4.ant-typography {
   color: darkslategray;
+}
+
+.place-result {
+  border: "1px solid lightgray";
+  border-radius: "4px";
+  overflow: "hidden";
+  max-width: "680px";
+  margin: "auto";
+  min-height: "140px";
+}
+
+.suggestions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.suggested-place {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-bottom: 8px;
+  width: 220px;
+  margin: 0px 8px 8px 0px;
+}
+
+.suggested-place h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.suggested-place .suggestion-details {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: darkgray;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-variant: small-caps;
 }

@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-autocomplete": "^1.8.1",
     "react-dom": "^16.13.0",
     "react-facebook": "^8.1.4",
     "react-router-dom": "^5.1.2",
