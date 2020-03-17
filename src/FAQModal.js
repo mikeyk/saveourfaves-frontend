@@ -66,9 +66,9 @@ class FAQModal extends React.Component {
       footer={<span></span>}
     >
       <h2>For Restaurant-goers</h2>
-      {this.consumerFAQs.map((faq) => <FAQEntry title={faq.title} body={faq.body} />)}
+      {this.consumerFAQs.map((faq) => <FAQEntry key={faq.title} title={faq.title} body={faq.body} />)}
       <h2>For Businesses</h2>
-      {this.bizFAQs.map((faq) => <FAQEntry title={faq.title} body={faq.body} />)}
+      {this.bizFAQs.map((faq) => <FAQEntry key={faq.title} title={faq.title} body={faq.body} />)}
     </Modal>
     )
   }

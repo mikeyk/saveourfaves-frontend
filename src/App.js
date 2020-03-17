@@ -21,6 +21,13 @@ const { Title, Paragraph, Text } = Typography;
 
 const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
 
+function LogEngagementEvent(action, label) {
+  window.gtag(action, {
+    "event_category": "engagement",
+    "event_label": label,
+  });
+}
+
 class EmailSubscription extends React.Component {
 
   constructor(props) {
@@ -393,6 +400,9 @@ class PlaceAutosuggestion extends React.Component {
       const results = placeNames.filter(place => 
         place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
       ).slice(0, this.maxSuggestions);
+      if (results.length == 0) {
+        LogEngagementEvent("user-roadblock", "no-results");
+      }
       results.push(
         {'special': 'letUsKnowRow'}
       );
@@ -468,7 +478,12 @@ class PlaceAutosuggestion extends React.Component {
     const inputProps = {
       placeholder: '‍Search for SF coffee spots, restaurants...',
       value,
-      onChange: this.onChange
+      onChange: this.onChange,
+      onFocus: (event) => {
+        LogEngagementEvent(
+          "user-action",
+          "search-entered"
+        )}
     };
 
     return (
@@ -567,7 +582,7 @@ class ShareOptions extends React.Component {
             shape="round"
             className='secondary-button'
             onClick={() => {
-              window.open("https://twitter.com/intent/tweet?url=http://saveourfaves.org")
+              window.open("https://twitter.com/intent/tweet?url=http://saveourfaves.org&text=San%20Francisco%20businesses%20need%20us%20more%20than%20ever%20%E2%80%93%20gift%20cards%20can%20make%20a%20big%20difference.%20Please%20join%20me%20in%20supporting%20your%20favorite%20restaurants%20at")
             }}
           >
             Twitter</Button>
