@@ -582,7 +582,7 @@ class ShareOptions extends React.Component {
             shape="round"
             className='secondary-button'
             onClick={() => {
-              window.open("https://twitter.com/intent/tweet?url=http://saveourfaves.org&text=San%20Francisco%20businesses%20need%20us%20more%20than%20ever%20%E2%80%93%20gift%20cards%20can%20make%20a%20big%20difference.%20Please%20join%20me%20in%20supporting%20your%20favorite%20restaurants%20at")
+              window.open("https://twitter.com/intent/tweet?url=https://saveourfaves.org&text=San%20Francisco%20businesses%20need%20us%20more%20than%20ever%20%E2%80%93%20gift%20cards%20can%20make%20a%20big%20difference.%20Please%20join%20me%20in%20supporting%20your%20favorite%20restaurants%20at")
             }}
           >
             Twitter</Button>
