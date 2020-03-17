@@ -22,7 +22,7 @@ const { Title, Paragraph, Text } = Typography;
 const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
 
 function LogEngagementEvent(action, label) {
-  window.gtag(action, {
+  window.gtag('event', action, {
     "event_category": "engagement",
     "event_label": label,
   });
