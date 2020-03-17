@@ -21,10 +21,11 @@ const { Title, Paragraph, Text } = Typography;
 
 const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
 
-function LogEngagementEvent(action, label) {
+function LogEngagementEvent(action, label, value) {
   window.gtag('event', action, {
     "event_category": "engagement",
     "event_label": label,
+    "value": value
   });
 }
 
@@ -73,7 +74,13 @@ class EmailSubscription extends React.Component {
 
   render() {
     return (
-      <Popover overlayClassName="email-popover" trigger="click" placement="bottomRight" content={
+      <Popover overlayClassName="email-popover" trigger="click"
+       onVisibleChange={(visible) => {
+        if (visible) {
+          LogEngagementEvent("user-click", "show-email-request-menu", this.props.place.placeID);
+        }
+       }}
+       placement="bottomRight" content={
         <div className="email-popover-inner">
           {!this.state.emailSuccess && 
           <>
@@ -118,12 +125,18 @@ class CallToActionButton extends React.Component {
     return(
       <div key={place.placeID}>
           {place.giftCardURL && 
-              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => { window.open(place.giftCardURL)}}>
+              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => {
+                LogEngagementEvent("user-click", "get-gift-card-" + size, place.placeID);
+                 window.open(place.giftCardURL);
+                 }}>
                 Get Gift Card
               </Button>
           }
           {!place.giftCardURL && place.emailContact &&
-              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => { window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody}}>
+              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => {
+                LogEngagementEvent("user-click", "email-for-gift-card-" + size, place.placeID);
+                 window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody
+                 }}>
                 Get Gift Card
               </Button>
           }
