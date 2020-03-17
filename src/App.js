@@ -619,7 +619,7 @@ class App extends React.Component {
           </Row>
 
           <Col xs={{span: 18, offset: 3}} span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
-            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite restaurant might close forever. Help save it.</Title>
+            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite SF restaurant might close forever. Help save it.</Title>
             <div className="header-sans">Gift cards help "flatten the curve" of lost income from COVID-19.</div>
           </Col>
           <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}} lg={{span:20, offset:2}}>
