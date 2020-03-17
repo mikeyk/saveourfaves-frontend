@@ -466,7 +466,7 @@ class PlaceAutosuggestion extends React.Component {
     const { value, suggestions } = this.state;
 
     const inputProps = {
-      placeholder: '‍Search for your fave',
+      placeholder: '‍Search for SF coffee spots, restaurants...',
       value,
       onChange: this.onChange
     };
@@ -619,8 +619,8 @@ class App extends React.Component {
           </Row>
 
           <Col xs={{span: 18, offset: 3}} span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
-            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite café might close because of COVID-19. Help save it.</Title>
-            <div className="header-sans">Gift cards help "flatten the curve" of lost cash flow.</div>
+            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite restaurant might close forever. Help save it.</Title>
+            <div className="header-sans">Gift cards help "flatten the curve" of lost income from COVID-19.</div>
           </Col>
           <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}} lg={{span:20, offset:2}}>
             <div className="main-results">
@@ -635,12 +635,12 @@ class App extends React.Component {
           <Row className="footer-content">
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
             <Title level={3}>Our duty as San Franciscans</Title>
-            <p>Small businesses need our help now more than ever. Even though we can’t leave our homes, we can still support local restaurants by buying a gift card. It’s basically a mini-loan, so buy one for yourself, or for that friend you want to see after things calm down.
+            <p>Our city has 12,000 small businesses, employing 359,000 people. They need us more than ever. Even though we can’t leave home, we can still support local restaurants by buying gift cards. It’s basically a mini-loan, so buy one now and make a plan to use it later.
             </p>
           </Col>
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
             <Title level={3}>3 weeks can kill a business</Title>
-            <p>Restaurants have tons of fixed costs: rent, labor, loan repayments, insurance, supplies, repairs – the list goes on. Even successful restaurants have razor thin margins of 3-5%. The “shelter-in-place” ordinance keeping customers at home could tip the balance into bankruptcy.
+            <p>Restaurants have tons of fixed costs: rent, labor, loan repayments, insurance, supplies, repairs – the list goes on. Even successful restaurants have razor thin margins of 3-5%, and a third have struggled to pay employees at least once. The “shelter-in-place” ordinance keeping customers at home could tip the balance into bankruptcy.
 
             </p>
           </Col>
