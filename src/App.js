@@ -66,7 +66,6 @@ class EmailSubscription extends React.Component {
 
   render() {
     return (
-
       <Popover overlayClassName="email-popover" trigger="click" placement="bottomRight" content={
         <div className="email-popover-inner">
           {!this.state.emailSuccess && 
@@ -227,26 +226,28 @@ class NeighborhoodCards extends React.Component {
       <div className="explore-neighborhood-section">
         <Title className="section-title" level={4}>Or explore by neighborhood</Title>
       </div>
-        <section class="neighborhood-card-container" style={{maxWidth: (this.state.windowWidth >= 576 ? (this.state.windowWidth - 200) : (this.state.windowWidth - 60))}}>
+        <section class="neighborhood-card-container" style={{maxWidth: (this.state.windowWidth >= 576 ? (this.state.windowWidth - 200) : (this.state.windowWidth))}}>
         
         {this.state.offset != 0 && <a
-          className={this.state.offset == 0 ? "neighborhood-card-arrow neighborhood-card-arrow-disabled" : "neighborhood-card-arrow"}
-          style={{position: "absolute", left: 0, top: 50}}
+          className={
+            "neighborhood-card-arrow neighborhood-card-arrow-left " + (this.state.offset >= this.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
+          }
           onClick={(event) => {
             this.setState({
               'offset': Math.max(0, this.state.offset - 1)
             })
-          }}>{"<"}</a>}
+          }}>{"‹"}</a>}
         {this.getCardsForCurrentPage()}
         {(this.state.offset < this.neighborhoods.length - 1) &&
         <a
-          style={{position: "absolute", right: 0, top: 50}}
-          className={this.state.offset < this.neighborhoods.length - 1 ? "neighborhood-card-arrow neighborhood-card-arrow-disabled" : "neighborhood-card-arrow"}
+          className={
+            "neighborhood-card-arrow neighborhood-card-arrow-right " + (this.state.offset >= this.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
+          }
           onClick={(event) => {
             this.setState({
               'offset': Math.min(this.neighborhoods.length - 1, this.state.offset + 1)
             })
-          }}>>
+          }}>›
         </a>}
         </section>
         {(this.state.loading || (this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0)) &&
@@ -623,8 +624,12 @@ class App extends React.Component {
           </Col>
           <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}} lg={{span:20, offset:2}}>
             <div className="main-results">
+              <div style={{padding: 20}}>
             <PlaceFilterDisplay  />
+            </div>
+            <div className="neighborhood-card-container-outer">
             <NeighborhoodCards />
+            </div>
             </div>
           </Col>
           <Row className="footer-content">
