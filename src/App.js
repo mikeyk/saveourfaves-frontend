@@ -94,7 +94,7 @@ class EmailSubscription extends React.Component {
             <div class='email-popover-success'>Thanks! We'll let them know.</div>}
         </div>
       }>
-          <Button shape="round" size="default" className="large-primary-button" type="default">
+          <Button shape="round" size="default" className={this.props.buttonClass} type="default">
             Request Gift Card
           </Button>
       </Popover> 
@@ -121,7 +121,7 @@ class CallToActionButton extends React.Component {
               </Button>
           }
           {(!place.giftCardURL && !place.emailContact) &&
-            <EmailSubscription place={this.props.place} />
+            <EmailSubscription place={this.props.place} buttonClass={className} />
           }
       </div>
     )
