@@ -74,6 +74,10 @@ h1, h2, h3, h4 {
   margin-top: 24px;
 }
 
+.footer-content h3 {
+  color: $tertiary-text !important;
+}
+
 .call-to-action-outer {
   text-align: right;
   margin-left: 20px;
@@ -113,12 +117,20 @@ h2.place-title, h3.place-title, h4.place-title {
   margin-bottom: 0;
 }
 
+.primary-link {
+  color: $primary-color;
+}
+.primary-link:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
 .place-address {
   color: darkgray;
 }
 
 h4.suggestion-title {
-  color: darkslategray;
+  color: $text-color;
   margin-bottom: 0;
   font-size: 1.2em;
 }
@@ -128,10 +140,11 @@ h4.section-title {
   font-size: 1.1em;
   font-weight: 400;
   padding-top: 16px;
+  color: $text-color;
 }
 
 h1.ant-typography, h2.ant-typography, h3.ant-typography, h4.ant-typography {
-  color: darkslategray;
+  color: $text-color;
 }
 
 .top-header {
@@ -388,23 +401,24 @@ div.header-sans {
   border: 1px solid lightgray;
   border-radius: 4px;
   margin: 0 auto 20px auto;
-  background-color: white;
+  background-color: #F1F1F1;
   overflow: hidden;
 }
 
 .react-autosuggest__input {
   font-family: "Open Sans", sans-serif;
-  color: $search-text-color;
+  color: $text-color;
   font-weight: 500;
   font-size: 16px;
   width: 100%;
   border: 0;
   padding: 0;
+  background-color: #F1F1F1;
 }
 
 .react-autosuggest__input::placeholder {
   font-weight: 400;
-  color: $search-text-color;
+  color: $text-color;
   opacity: 1.0;
 }  
 

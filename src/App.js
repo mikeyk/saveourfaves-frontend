@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Card, Modal, Popover } from 'antd';
 import './App.scss';
 import AllOptions from './AllOptions.js'
+import FAQModal from './FAQModal.js'
 import Neighborhoods from './Neighborhoods.js'
 import Autosuggest from 'react-autosuggest';
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
@@ -11,12 +12,14 @@ import { Row, Col } from 'antd';
 import axios from 'axios';
 import { FacebookProvider, Share } from 'react-facebook';
 
+import Skeleton from 'react-loading-skeleton';
+
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = "X-CSRFTOKEN"
 
 const { Title, Paragraph, Text } = Typography;
 
-const FormURL = 'http://TODO';
+const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
 
 class EmailSubscription extends React.Component {
 
@@ -101,8 +104,6 @@ class EmailSubscription extends React.Component {
 }
 
 class CallToActionButton extends React.Component {
-
-
   render() {
     var place = this.props.place;
     var size = this.props.size;
@@ -164,6 +165,7 @@ class NeighborhoodCards extends React.Component {
 
 
   fetchSuggestionsForNeighborhood(neighborhood, ref, fetchOffset) {
+    this.setState({'loading': true});
     axios.get('/api/places/by_neighborhood', {
       params: {
         'neighborhood': neighborhood.key,
@@ -175,9 +177,12 @@ class NeighborhoodCards extends React.Component {
       const merged = (this.state.suggestedPlaces || []).concat(suggestions);
       ref.setState( (state, props) => {
         const nextOffset = state.fetchOffset + suggestions.length;
-        return {'suggestedPlaces': merged, 'fetchOffset': nextOffset, 'moreAvailable': moreAvailable}
+        return {'loading': false, 
+          'suggestedPlaces': merged, 'fetchOffset': nextOffset, 'moreAvailable': moreAvailable}
       })
-    })
+    }).catch((error) => {
+      ref.setState({'loading': false});
+    });
   }
   loadMoreForCurrentNeighborhood() {
     this.fetchSuggestionsForNeighborhood(
@@ -220,7 +225,7 @@ class NeighborhoodCards extends React.Component {
     return (
       <>
       <div className="explore-neighborhood-section">
-        <Title className="section-title" level={4}>Or, explore by neighborhood</Title>
+        <Title className="section-title" level={4}>Or explore by neighborhood</Title>
       </div>
         <section class="neighborhood-card-container" style={{maxWidth: (this.state.windowWidth >= 576 ? (this.state.windowWidth - 200) : (this.state.windowWidth - 60))}}>
         
@@ -244,7 +249,7 @@ class NeighborhoodCards extends React.Component {
           }}>>
         </a>}
         </section>
-        {(this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0) && 
+        {(this.state.loading || (this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0)) &&
           <SuggestedPlaceCards 
             passRef={this.ref}
             suggestedPlaces={this.state.suggestedPlaces} 
@@ -265,7 +270,9 @@ class NeighborhoodCards extends React.Component {
 
 class SuggestedPlaceCards extends React.Component {
   render() {
-    const suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
+    var suggestedPlaceCards;
+    if (this.props.suggestedPlaces && this.props.suggestedPlaces.length) {
+      suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
         <div className="suggested-place">
           <Row style={{backgroundSize: "cover", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "80px"}}>
           </Row>
@@ -276,7 +283,16 @@ class SuggestedPlaceCards extends React.Component {
             </div>
           </Row>
         </div>
-    );
+      );
+    } else {
+      suggestedPlaceCards = [...Array(9).keys()].map((placeholder) => 
+        <div className="suggested-place">
+          <div style={{marginTop: -4}}>
+          <Skeleton height={168} />
+          </div>
+        </div>
+      );
+    }
     return(
       <div ref={this.props.passRef}>
       <section class="suggestions-container">
@@ -375,27 +391,41 @@ class PlaceAutosuggestion extends React.Component {
     } else {
       const results = placeNames.filter(place => 
         place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+      ).slice(0, this.maxSuggestions);
+      results.push(
+        {'special': 'letUsKnowRow'}
       );
-      return results.slice(0, this.maxSuggestions);
+      return results;
     }
   };
   
-  // When suggestion is clicked, Autosuggest needs to populate the input
-  // based on the clicked suggestion. Teach Autosuggest how to calculate the
-  // input value for every given suggestion.
-  getSuggestionValue = suggestion => suggestion.name;
+  getSuggestionValue = suggestion => suggestion.name || "";
   
-  // Use your imagination to render suggestions.
-  renderSuggestion = suggestion => (
-    <div>
-    <div>
-      {suggestion.name}
-    </div>
-    <div class="autosuggest-address">
-      {suggestion.address}
-    </div>
-    </div>
-  );
+  renderSuggestion = (suggestion) => {
+    if (suggestion.special) {
+      return(
+        <div>
+        <div>
+          Don't see your fave?
+        </div>
+        <div>
+          <a href={FormURL} target="_new" className="primary-link">Let us know</a>
+        </div>
+        </div>
+      )
+    } else {
+      return(
+        <div>
+        <div>
+          {suggestion.name}
+        </div>
+        <div class="autosuggest-address">
+          {suggestion.address}
+        </div>
+        </div>
+        )
+    }
+  };
 
   constructor(props) {
     super(props);
@@ -440,7 +470,6 @@ class PlaceAutosuggestion extends React.Component {
       onChange: this.onChange
     };
 
-    // Finally, render it!
     return (
       <div className="autosuggest-outer">
         <Autosuggest
@@ -451,8 +480,12 @@ class PlaceAutosuggestion extends React.Component {
           getSuggestionValue={this.getSuggestionValue}
           renderInputComponent={this.renderInputComponent}
           onSuggestionSelected={(event, data) => {
-            const key = data.suggestion.key;
-            this.props.onPlaceSelected(key);
+            if (data.suggestion.special) {
+              window.open(FormURL);
+            } else {
+              const key = data.suggestion.key;
+              this.props.onPlaceSelected(key);
+            }
           }}
           renderSuggestion={this.renderSuggestion}
           inputProps={inputProps}
@@ -511,50 +544,6 @@ class PlaceFilterDisplay extends React.Component {
     )
   }
 
-}
-
-class FAQModal extends React.Component {
-  render() {
-    return(
-    <Modal
-      title="FAQs"
-      visible={this.props.shouldShow}
-      onOk={this.handleFAQDismiss}
-      width="80%"
-      onCancel={this.props.onClose}
-      footer={<span></span>}
-    >
-      <h2>For Consumers</h2>
-      <h3>Why isn’t my favorite business on your site?</h3>
-      <p>We put this site together over a weekend and had to take a few shortcuts.
-      We currently focus on food and beverage businesses in San Francisco, including restaurants, coffee shops, and bakeries. Bars that don’t serve restaurant food aren’t on our site (yet), because most don’t offer gift cards. If your favorite bar offers gift cards, [let us know].
-      We also started with businesses that get great reviews online, but we are happy to include any restaurant, coffee shop, bar, or bakery. If you’d like a business to be listed on our site, [let us know].</p>
-      <h3>How else can I support our local businesses?</h3>
-      <p>Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup during the pandemic. 
-      Some places are staying open. Check their social media or website to see what extra precautions they’re taking (e.g. frequent sanitization of all surfaces, removing tables so guests sit further apart, etc.). Obviously make sure you’re not experiencing any symptoms and haven’t been exposed to anyone with the virus.
-      Tip generously, since employees are doing extra work and putting their health at risk.
-      Honor your reservations or cancel 48 hours in advance. Restaurants buy food and schedule staff based on reservations, so now isn’t the time to be flaky.</p>
-      <h3>Why is this just for San Francisco? Can you do this for my city?</h3>
-      <p>This is a side project for us, so we started where we live. Tweet to let us know if you want this in your city too: @mikeyk @kaitlyntrigger. If there’s enough demand we’ll consider adding.</p>
-      <h3>Who built this? And why?</h3>
-      <p>We’re Kaitlyn & Mike Krieger -- a husband and wife duo in San Francisco. We’re going out less often because of COVID, so we started buying gift cards to help our favorite cafes and restaurants with cash flow. SaveYourFave is our simple way to spread the word and make it easier for people to help local businesses through this difficult time.</p>
-
-
-      <h2>For businesses</h2>
-      <h3>Why isn’t my business showing up in your search results?</h3>
-      <p>We put this site together over a weekend and had to take a few shortcuts. 
-      We currently focus on food and beverage businesses in San Francisco, including restaurants, coffee shops, and bakeries. Bars that don’t serve food aren’t on our site (yet), because most don’t offer gift cards. If your bar offers gift cards, [let us know].
-      We also started with businesses that get great reviews Google, but we are happy to include any restaurant, coffee shop, bar, or bakery. If you’d like to be listed on our site, [let us know].</p>
-      <h3>My business offers gift certificates, but your site says we don’t</h3>
-      <p>Please let us know the details [here]</p>
-      <h3>How can I start offering online gift cards?</h3>
-      <p>The first step is to check with your POS provider. Many offer their own gift card features (e.g. Square, Toast, ShopKeep), and others integrate with specific third-party providers.
-      If your POS provider doesn’t offer gift cards or integrate with third-party providers, there are some reasonable standalone eGift Card apps like GiftUp or GiftFly. If you’re considering other options:
-      Make sure that they’ll send your business the money as soon as the customer purchases the card. Some apps like Yiftee keep the money until the customer redeems the card. That won’t help you during the COVID crisis.
-      Some services ask customers to pay an additional fee when they buy a gift card. Be sure it’s a small amount.</p>
-    </Modal>
-    )
-  }
 }
 
 class ShareOptions extends React.Component {
@@ -645,7 +634,7 @@ class App extends React.Component {
             </p>
           </Col>
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
-            <Title level={3}>Three weeks can kill a business</Title>
+            <Title level={3}>3 weeks can kill a business</Title>
             <p>Restaurants have tons of fixed costs: rent, labor, loan repayments, insurance, supplies, repairs – the list goes on. Even successful restaurants have razor thin margins of 3-5%. The “shelter-in-place” ordinance keeping customers at home could tip the balance into bankruptcy.
 
             </p>
