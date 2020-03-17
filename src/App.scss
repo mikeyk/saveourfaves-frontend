@@ -1,5 +1,5 @@
-@import '~antd/dist/antd.css';
 @import './shared.scss';
+@import '~antd/dist/antd.css';
 
 body {
   margin: 0;
@@ -83,7 +83,7 @@ h1, h2, h3, h4 {
   background-color: $primary-color;
   color: white;
 }
-.primary-button:hover {
+.primary-button:hover, .primary-button:active {
   background-color: $primary-color !important;
   color: white !important;
 }
@@ -176,11 +176,19 @@ div.header-sans {
   margin: 24px auto 0px auto;
 }
 
+@media only screen and (max-width: 576px) {
+  .suggestions-container {
+    margin-top: 0px !important;
+  }
+}
+
 .suggested-place {
   border: 1px solid lightgray;
   border-radius: 5px;
   padding-bottom: 0px;
-  width: 200px;
+  min-width: 150px;
+  width: 30%;
+  
   margin: 0px 16px 16px 0px;
 }
 
@@ -193,6 +201,7 @@ div.header-sans {
   white-space: nowrap;
   overflow: hidden;
   font-weight: 400;
+  text-size: 1.1em;
 }
 
 .suggested-place .suggestion-details {
@@ -206,41 +215,81 @@ div.header-sans {
 }
 
 .neighborhood-card-container {
-  padding-left: 20px;
-  height: 164px;
-  width: 90%;
-  overflow: hidden;
+  height: 160px;
+  overflow-x: hidden;
+  overflow-y: hidden;
   margin: 0 auto;
   position: relative;
+  white-space: nowrap;
+  display: flex;
+  padding: 0px 4px;
+
+}
+::webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .neighborhood-card {
-  width: 100px;
+  width: 120px;
   min-height: 140px;
-  float: left;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 8px;
   margin-bottom: 10px;
   margin-top: 4px;
+  display: block;
 }
 
 .neighborhood-card-arrow {
+  user-select:none;
+
   font-size: 1.5em;
   color: $tertiary-text;
+  background-color: white;
+  border-radius: 15px;
+  width: 30px;
+  text-align: center;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.explore-neighborhood-section {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+@media only screen and (max-width: 576px) {
+  h4.section-title {
+    padding-top: 0px !important;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .neighborhood-card-arrow {
+    display: none !important;
+  }
+  .neighborhood-card-container {
+    overflow-x: scroll;
+  }
 }
 
 .neighborhood-card-image {
   margin-bottom: 12px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 120px;
+  height: 120px;
+  border-radius: 80px;
   background-position: center center;
+  background-color: $tertiary-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
 }
 
 .neighborhood-card-image-selected {
-  border-width: 4px;
-  border-color: $tertiary-text;
-  border-style: solid;
+  background-color: $primary-color;
+  color: white;
   box-shadow:  0 0 4px darkslategray;
 }
 
@@ -252,12 +301,14 @@ div.header-sans {
 .neighborhood-card-title {
   font-family: "roboto slab", serif;
   font-size: 1.1em;
-  min-height: 45px;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  color: $primary-color;
 }
 
 .neighborhood-card-title-selected {
   font-weight: 700;
-  color: $primary-color;
+  color: white;
 }
 
 .email-popover {

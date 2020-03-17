@@ -4,6 +4,7 @@ import './App.scss';
 import AllOptions from './AllOptions.js'
 import Neighborhoods from './Neighborhoods.js'
 import Autosuggest from 'react-autosuggest';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 import { Typography, Divider } from 'antd';
 import { Row, Col } from 'antd';
@@ -16,7 +17,6 @@ axios.defaults.xsrfHeaderName = "X-CSRFTOKEN"
 const { Title, Paragraph, Text } = Typography;
 
 const FormURL = 'http://TODO';
-
 
 class EmailSubscription extends React.Component {
 
@@ -137,32 +137,53 @@ class NeighborhoodCards extends React.Component {
       'suggestedPlaces': null,
       'selectedNeighborhood': null,
       'offset': 0,
-      'fetchOffset': 0
+      'fetchOffset': 0,
+      'windowWidth': 0,
+      'loading': false
     }
+    this.ref = React.createRef();
   }
-
   neighborhoods = Neighborhoods;
 
-  fetchSuggestionsForNeighborhood(neighborhood, offset, ref) {
+  componentDidMount = () => {
+    this.updateWindowDimensions();
+    window.addEventListener('resize', this.updateWindowDimensions);
+    this.setState({
+      'selectedNeighborhood': this.neighborhoods[0],
+    })
+    this.fetchSuggestionsForNeighborhood(this.neighborhoods[0], this, 0);
+  }
+
+  componentWillUnmount = () => {
+    window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+  
+  updateWindowDimensions = () => {
+    this.setState({ windowWidth: window.innerWidth});
+  }
+
+
+  fetchSuggestionsForNeighborhood(neighborhood, ref, fetchOffset) {
     axios.get('/api/places/by_neighborhood', {
       params: {
         'neighborhood': neighborhood.key,
-        'offset': offset
+        'offset': fetchOffset
       },
     }).then((response) => {
       const suggestions = response.data.suggestedPlaces;
       const moreAvailable = response.data.moreAvailable;
+      const merged = (this.state.suggestedPlaces || []).concat(suggestions);
       ref.setState( (state, props) => {
-        return {'suggestedPlaces': suggestions, 'fetchOffset': offset, 'moreAvailable': moreAvailable}
+        const nextOffset = state.fetchOffset + suggestions.length;
+        return {'suggestedPlaces': merged, 'fetchOffset': nextOffset, 'moreAvailable': moreAvailable}
       })
     })
   }
   loadMoreForCurrentNeighborhood() {
-    const offset = this.state.fetchOffset + this.state.suggestedPlaces.length;
     this.fetchSuggestionsForNeighborhood(
       this.state.selectedNeighborhood,
-      offset,
-      this
+      this,
+      this.state.fetchOffset
     )
   }
 
@@ -178,20 +199,17 @@ class NeighborhoodCards extends React.Component {
             onClick={(event) => {
               this.setState({
                 'selectedNeighborhood': neighborhood,
-                'fetchOffset': 0
+                'fetchOffset': 0,
+                'suggestedPlaces': null
               })
-              this.fetchSuggestionsForNeighborhood(neighborhood, 0, this);
-            }}
-            style={{backgroundImage: "url(" +
-              neighborhood.image
-             + ")"}}>
-
-          </div>
-          <div className={"neighborhood-card-title" + 
-            ((this.state.selectedNeighborhood && (this.state.selectedNeighborhood.key == neighborhood.key)) 
-              ? " neighborhood-card-title-selected" :
-              "")}>
-          {neighborhood.name}
+              this.fetchSuggestionsForNeighborhood(neighborhood, this, 0);
+            }}>
+            <div className={"neighborhood-card-title" + 
+              ((this.state.selectedNeighborhood && (this.state.selectedNeighborhood.key == neighborhood.key)) 
+                ? " neighborhood-card-title-selected" :
+                "")}>
+              {neighborhood.name}
+            </div>
           </div>
         </div>
       )
@@ -201,10 +219,10 @@ class NeighborhoodCards extends React.Component {
   render() {
     return (
       <>
-      <div style={{marginBottom: "20px", marginTop: "20px", textAlign: "center"}}>
-        <Title className="section-title" level={4}>Explore by Neighborhood</Title>
+      <div className="explore-neighborhood-section">
+        <Title className="section-title" level={4}>Or, explore by neighborhood</Title>
       </div>
-        <section class="neighborhood-card-container">
+        <section class="neighborhood-card-container" style={{maxWidth: (this.state.windowWidth >= 576 ? (this.state.windowWidth - 200) : (this.state.windowWidth - 60))}}>
         
         {this.state.offset != 0 && <a
           className={this.state.offset == 0 ? "neighborhood-card-arrow neighborhood-card-arrow-disabled" : "neighborhood-card-arrow"}
@@ -217,7 +235,8 @@ class NeighborhoodCards extends React.Component {
         {this.getCardsForCurrentPage()}
         {(this.state.offset < this.neighborhoods.length - 1) &&
         <a
-          style={{fontSize: "1.5em", position: "absolute", right: 0, top: 50}}
+          style={{position: "absolute", right: 0, top: 50}}
+          className={this.state.offset < this.neighborhoods.length - 1 ? "neighborhood-card-arrow neighborhood-card-arrow-disabled" : "neighborhood-card-arrow"}
           onClick={(event) => {
             this.setState({
               'offset': Math.min(this.neighborhoods.length - 1, this.state.offset + 1)
@@ -227,6 +246,7 @@ class NeighborhoodCards extends React.Component {
         </section>
         {(this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0) && 
           <SuggestedPlaceCards 
+            passRef={this.ref}
             suggestedPlaces={this.state.suggestedPlaces} 
             moreAvailable={this.state.moreAvailable}
             onLoadMore={() => {
@@ -236,7 +256,7 @@ class NeighborhoodCards extends React.Component {
         }
         
         {this.state.suggestedPlaces && this.state.suggestedPlaces.length == 0 && this.state.selectedNeighborhood &&
-          <p>No results for {this.state.selectedNeighborhood}</p>
+          <p>No results for {this.state.selectedNeighborhood.name}</p>
         }
       </>
     )
@@ -258,7 +278,7 @@ class SuggestedPlaceCards extends React.Component {
         </div>
     );
     return(
-      <div>
+      <div ref={this.props.passRef}>
       <section class="suggestions-container">
       <Row style={{justifyContent: "center"}}>
         {suggestedPlaceCards}
@@ -266,7 +286,7 @@ class SuggestedPlaceCards extends React.Component {
       </section>
       {this.props.moreAvailable &&
         <div style={{textAlign: "center"}}>
-        <a onClick={this.props.onLoadMore}>Load More</a> 
+        <Button className="primary-button" shape="round" size="default" onClick={this.props.onLoadMore}>Load More</Button> 
         </div>
       }
       </div>
@@ -303,8 +323,8 @@ class PlaceResultMain extends React.Component {
         "placeID": "ChIJ-_7qDsaAhYARKG4Gj6yw2ho"
 
       }
+      return null;
     }
-    var cardStyle = 'marginBottom: 20px';
     return (
       <Row className="place-result">
         <Col xs={24} sm={24} md={8} lg={8} xl={8} style={{minHeight: "100px", backgroundPosition: "center center", backgroundSize: "cover", backgroundImage: "url(" + place.imageURL + ")"}}>
@@ -325,7 +345,7 @@ class PlaceResultMain extends React.Component {
           {!place.giftCardURL && place.emailContact &&
             <p>Consider prepaying for a month of spending.</p>}
           {!place.giftCardURL && !place.emailContact &&
-          <p>Their gift card link isn't up yet, but tell them you're interested.</p>
+          <p>We haven't found their gift card link, but we'll tell them you're interested.</p>
           }
           </Col>
           <Col className="flex-vertical" xs={24} sm={10} md={10} lg={10} xl={10}>
@@ -344,13 +364,20 @@ class PlaceResultMain extends React.Component {
 const placeNames = AllOptions;
 
 class PlaceAutosuggestion extends React.Component {
+  maxSuggestions = 8;
+
   getSuggestions = value => {
     const inputValue = value.trim().toLowerCase();
     const inputLength = inputValue.length;
   
-    return inputLength < 3 ? [] : placeNames.filter(place => 
-      place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
-    );
+    if (inputLength < 3) {
+      return [];
+    } else {
+      const results = placeNames.filter(place => 
+        place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+      );
+      return results.slice(0, this.maxSuggestions);
+    }
   };
   
   // When suggestion is clicked, Autosuggest needs to populate the input
@@ -601,7 +628,7 @@ class App extends React.Component {
           </Col>
           </Row>
 
-          <Col span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
+          <Col xs={{span: 18, offset: 3}} span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
             <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite café might close because of COVID-19. Help save it.</Title>
             <div className="header-sans">Gift cards help "flatten the curve" of lost cash flow.</div>
           </Col>
@@ -614,12 +641,13 @@ class App extends React.Component {
           <Row className="footer-content">
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
             <Title level={3}>Our duty as San Franciscans</Title>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            <p>Small businesses need our help now more than ever. Even though we can’t leave our homes, we can still support local restaurants by buying a gift card. It’s basically a mini-loan, so buy one for yourself, or for that friend you want to see after things calm down.
             </p>
           </Col>
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
-            <Title level={3}>Just 10 days can kill a business</Title>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            <Title level={3}>Three weeks can kill a business</Title>
+            <p>Restaurants have tons of fixed costs: rent, labor, loan repayments, insurance, supplies, repairs – the list goes on. Even successful restaurants have razor thin margins of 3-5%. The “shelter-in-place” ordinance keeping customers at home could tip the balance into bankruptcy.
+
             </p>
           </Col>
           </Row>
