@@ -146,7 +146,7 @@ h4.section-title {
   font-family: "open sans", sans-serif;
   font-size: 1.1em;
   font-weight: 400;
-  padding-top: 16px;
+  padding-top: 0px;
   color: $text-color;
 }
 
@@ -244,7 +244,7 @@ div.header-sans {
 }
 
 .neighborhood-card-container {
-  height: 160px;
+  height: 130px;
   overflow-x: hidden;
   overflow-y: hidden;
   overscroll-behavior: none;
