@@ -510,6 +510,7 @@ class PlaceAutosuggestion extends React.Component {
           renderInputComponent={this.renderInputComponent}
           onSuggestionSelected={(event, data) => {
             if (data.suggestion.special) {
+              LogEngagementEvent("user-click", "tell-us-missing-place", this.state.value);
               window.open(FormURL);
             } else {
               const key = data.suggestion.key;
