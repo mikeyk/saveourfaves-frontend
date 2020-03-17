@@ -1,38 +1,129 @@
 import React from 'react';
-import { Button, Card, Modal, Popover, AutoComplete } from 'antd';
+import { Button, Card, Modal, Popover } from 'antd';
 import './App.scss';
-import  AllOptions from './AllOptions.js'
+import AllOptions from './AllOptions.js'
+import Neighborhoods from './Neighborhoods.js'
+import Autosuggest from 'react-autosuggest';
+
 import { Typography, Divider } from 'antd';
 import { Row, Col } from 'antd';
 import axios from 'axios';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { FacebookProvider, Share } from 'react-facebook';
 
-const { Meta } = Card;
-
+axios.defaults.xsrfCookieName = 'csrftoken'
+axios.defaults.xsrfHeaderName = "X-CSRFTOKEN"
 
 const { Title, Paragraph, Text } = Typography;
-const { Option } = AutoComplete;
+
+const FormURL = 'http://TODO';
+
+
+class EmailSubscription extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      'email': null,
+      'emailSubmitted': false,
+      'emailError': null,
+      'emailSuccess': null
+    }
+  }
+
+  onEmailChange = (event) => {
+    this.setState({
+      'email': event.target.value,
+      'emailSubmitted': false
+    })
+  }
+
+  onEmailSubmit = (event) => {
+    if (!this.state.email || !this.state.email.length || this.state.email.indexOf('@') == -1) {
+      this.setState({
+        'emailError': 'Please enter an email.'
+      })
+      return;
+    }
+
+    axios.post('/api/places/submit_email', {
+      'email': this.state.email,
+      'place_id': this.props.place.placeID
+      
+    }).then((response) => {
+      this.setState({
+        'emailError': null,
+        'emailSuccess': true
+      })
+    }).catch((error) => {
+      this.setState({
+        'emailError': "Sorry, we couldn't save your email."
+      })
+    })
+  }
+
+  render() {
+    return (
+
+      <Popover overlayClassName="email-popover" trigger="click" placement="bottomRight" content={
+        <div className="email-popover-inner">
+          {!this.state.emailSuccess && 
+          <>
+          <div>
+          <input onChange={this.onEmailChange} type="email" value={this.state.email} className="email-popover-input" placeholder="Enter your email" />
+          <Button 
+            className="email-confirm-button" 
+            shape="round" 
+            size="default" 
+            onClick={this.onEmailSubmit}
+            type="default">
+              OK
+          </Button>
+          </div>
+          </>}
+          {this.state.emailError && 
+            <div class='email-popover-error'>{this.state.emailError}</div>}
+          {!this.state.emailSuccess && 
+          <>
+            <p>We'll let the business know you're interested. We promise not to spam you.</p>
+            <p>(If you've found their link <a href={FormURL}>let us know</a>)</p>
+          </>
+          }
+          {this.state.emailSuccess && 
+            <div class='email-popover-success'>Thanks! We'll let them know.</div>}
+        </div>
+      }>
+          <Button shape="round" size="default" className="large-primary-button" type="default">
+            Request Gift Card
+          </Button>
+      </Popover> 
+    )
+  }
+}
 
 class CallToActionButton extends React.Component {
+
 
   render() {
     var place = this.props.place;
     var size = this.props.size;
     const emailBody = "Hi there! I was on SaveYourFave.com and saw that " + place.name + " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy.";
+    const className = (size == "large") ? "large-primary-button" : "secondary-button";
     return(
-      <>
+      <div key={place.placeID}>
           {place.giftCardURL && 
-              <Button shape="round" size={size} className="large-primary-button" type="default" onClick={ (event) => { window.open(place.giftCardURL)}}>
-                See Gift Cards
+              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => { window.open(place.giftCardURL)}}>
+                Get Gift Card
               </Button>
           }
-          {!place.GiftCardURL && place.emailContact &&
-              <Button shape="round" size={size} className="large-primary-button" type="default" onClick={ (event) => { window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody}}>
-                Email them
+          {!place.giftCardURL && place.emailContact &&
+              <Button shape="round" size={size} className={className} type="default" onClick={ (event) => { window.location.href = "mailto:" + place.emailContact + "?subject=Buying a Gift Card%3F&body=" + emailBody}}>
+                Get Gift Card
               </Button>
           }
-      </>
+          {(!place.giftCardURL && !place.emailContact) &&
+            <EmailSubscription place={this.props.place} />
+          }
+      </div>
     )
 
   }
@@ -44,51 +135,106 @@ class NeighborhoodCards extends React.Component {
     super(props);
     this.state = {
       'suggestedPlaces': null,
-      'selectedNeighborhood': null
+      'selectedNeighborhood': null,
+      'offset': 0,
+      'fetchOffset': 0
     }
   }
-  render() {
-    const neighborhoods = [
-      {"name": "Mission", key: "mission"},
-      {"name": "SoMa", key: "soma"},
-      {"name": "Pac Heights", key: "pac_heights"},
-    ]
-    const neighborhoodCards = neighborhoods.map((neighborhood) =>  {
-      return(
-        <Col xs={24} sm={24} md={6} lg={4} xl={4}>
-          <Card 
-            bordered={true}
-            hoverable={true}
-            onClick={(event) => {
-              axios.get('/api/places/by_neighborhood', {
-                params: {
-                  'neighborhood': neighborhood.key
-                },
-              }).then((response) => {
-                const suggestions = response.data.suggestedPlaces;
-                this.setState( (state, props) => {
-                  return {'suggestedPlaces': suggestions, 'selectedNeighborhood': neighborhood.name}
-                })
-              })
-            }}
-            cover={<img alt="example" style={{objectFit: 'contain'}} src="https://vanguardproperties.com/cms/resources/mission-dolores-basilica-w680.jpg" />}>
-                  <Meta title={neighborhood.name} description="" />
 
-          </Card>
-        </Col>
+  neighborhoods = Neighborhoods;
+
+  fetchSuggestionsForNeighborhood(neighborhood, offset, ref) {
+    axios.get('/api/places/by_neighborhood', {
+      params: {
+        'neighborhood': neighborhood.key,
+        'offset': offset
+      },
+    }).then((response) => {
+      const suggestions = response.data.suggestedPlaces;
+      const moreAvailable = response.data.moreAvailable;
+      ref.setState( (state, props) => {
+        return {'suggestedPlaces': suggestions, 'fetchOffset': offset, 'moreAvailable': moreAvailable}
+      })
+    })
+  }
+  loadMoreForCurrentNeighborhood() {
+    const offset = this.state.fetchOffset + this.state.suggestedPlaces.length;
+    this.fetchSuggestionsForNeighborhood(
+      this.state.selectedNeighborhood,
+      offset,
+      this
+    )
+  }
+
+  getCardsForCurrentPage() {
+    const neighborhoodCards = this.neighborhoods.slice(this.state.offset).map((neighborhood) =>  {
+      return(
+        <div className="neighborhood-card" style={{textAlign: "center"}}>
+          <div 
+            className={"neighborhood-card-image" + 
+            ((this.state.selectedNeighborhood && (this.state.selectedNeighborhood.key == neighborhood.key)) 
+              ? " neighborhood-card-image-selected" :
+              "")}
+            onClick={(event) => {
+              this.setState({
+                'selectedNeighborhood': neighborhood,
+                'fetchOffset': 0
+              })
+              this.fetchSuggestionsForNeighborhood(neighborhood, 0, this);
+            }}
+            style={{backgroundImage: "url(" +
+              neighborhood.image
+             + ")"}}>
+
+          </div>
+          <div className={"neighborhood-card-title" + 
+            ((this.state.selectedNeighborhood && (this.state.selectedNeighborhood.key == neighborhood.key)) 
+              ? " neighborhood-card-title-selected" :
+              "")}>
+          {neighborhood.name}
+          </div>
+        </div>
       )
     })
+    return neighborhoodCards;
+  }
+  render() {
     return (
       <>
       <div style={{marginBottom: "20px", marginTop: "20px", textAlign: "center"}}>
-        <Title level={4}>Explore neighborhood spots with gift cards</Title>
+        <Title className="section-title" level={4}>Explore by Neighborhood</Title>
       </div>
-        <Row gutter={8} style={{marginBottom: "20px"}}>
-          {neighborhoodCards}
-        </Row>
-        {this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0 && 
-          <SuggestedPlaceCards suggestedPlaces={this.state.suggestedPlaces} />
+        <section class="neighborhood-card-container">
+        
+        {this.state.offset != 0 && <a
+          className={this.state.offset == 0 ? "neighborhood-card-arrow neighborhood-card-arrow-disabled" : "neighborhood-card-arrow"}
+          style={{position: "absolute", left: 0, top: 50}}
+          onClick={(event) => {
+            this.setState({
+              'offset': Math.max(0, this.state.offset - 1)
+            })
+          }}>{"<"}</a>}
+        {this.getCardsForCurrentPage()}
+        {(this.state.offset < this.neighborhoods.length - 1) &&
+        <a
+          style={{fontSize: "1.5em", position: "absolute", right: 0, top: 50}}
+          onClick={(event) => {
+            this.setState({
+              'offset': Math.min(this.neighborhoods.length - 1, this.state.offset + 1)
+            })
+          }}>>
+        </a>}
+        </section>
+        {(this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0) && 
+          <SuggestedPlaceCards 
+            suggestedPlaces={this.state.suggestedPlaces} 
+            moreAvailable={this.state.moreAvailable}
+            onLoadMore={() => {
+              this.loadMoreForCurrentNeighborhood()}
+            } 
+            />
         }
+        
         {this.state.suggestedPlaces && this.state.suggestedPlaces.length == 0 && this.state.selectedNeighborhood &&
           <p>No results for {this.state.selectedNeighborhood}</p>
         }
@@ -98,24 +244,13 @@ class NeighborhoodCards extends React.Component {
 }
 
 class SuggestedPlaceCards extends React.Component {
-
-  textForDetails(suggestion) {
-    if (suggestion.giftCardURL) {
-      return "SELLS ONLINE";
-    } else if (suggestion.emailContact) {
-      return "OFFERS VIA EMAIL";
-    }
-  }
   render() {
     const suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
         <div className="suggested-place">
-          <Row style={{backgroundSize: "cover", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "110px"}}>
+          <Row style={{backgroundSize: "cover", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "80px"}}>
           </Row>
-          <Row style={{minHeight: "110px"}}>
-            <Title className="place-title" style={{textAlign: "center", width: "100%", marginTop: "12px", padding: "0px 6px"}} level={4}>{suggestion.name}</Title>
-            <div className="suggestion-details">
-              {this.textForDetails(suggestion)}
-            </div>
+          <Row style={{minHeight: "88px"}}>
+            <Title className="suggestion-title" style={{textAlign: "center", width: "100%", marginTop: "12px", padding: "0px 6px"}} level={4}>{suggestion.name}</Title>
             <div style={{margin: "0px auto"}}>
               <CallToActionButton place={suggestion} size={"default"} />
             </div>
@@ -123,9 +258,18 @@ class SuggestedPlaceCards extends React.Component {
         </div>
     );
     return(
-      <Row gutter={[16, 16]} className="suggestions-container">
+      <div>
+      <section class="suggestions-container">
+      <Row style={{justifyContent: "center"}}>
         {suggestedPlaceCards}
       </Row>
+      </section>
+      {this.props.moreAvailable &&
+        <div style={{textAlign: "center"}}>
+        <a onClick={this.props.onLoadMore}>Load More</a> 
+        </div>
+      }
+      </div>
     )
   }
 }
@@ -136,7 +280,7 @@ class NearbySpots extends React.Component {
     return(
       <>
       <Row style={{textAlign: "center", marginTop: "20px", marginBottom: "20px"}}>
-        <Title style={{margin: "auto"}} level={4}>Other spots nearby with gift certificates</Title>
+        <Title className="section-title" style={{margin: "auto"}} level={4}>Local Gems Nearby</Title>
       </Row>
       <SuggestedPlaceCards suggestedPlaces={this.props.suggestedPlaces} />
       </>
@@ -148,25 +292,25 @@ class PlaceResultMain extends React.Component {
   render() {
     var place = this.props.place;
     if (!place) {
-      // return null;
       place = {
         "name": "The Snug",
         "address": "2301 Fillmore Street",
         //"giftCardURL": "https://www.toasttab.com/the-snug-san-francisco/giftcards",
         "giftCardURL": null,
         "placeURL": null,
-        "emailContact": "m@mikek.co",
-        "imageURL": "https://lh3.googleusercontent.com/p/AF1QipM09mIPRVymgGeEM5ZSYH21AhYHk-uZQPKrC8c=s1600-w800"
+        "emailContact": null,
+        "imageURL": "https://lh3.googleusercontent.com/p/AF1QipM09mIPRVymgGeEM5ZSYH21AhYHk-uZQPKrC8c=s1600-w800",
+        "placeID": "ChIJ-_7qDsaAhYARKG4Gj6yw2ho"
+
       }
-      return null;
     }
     var cardStyle = 'marginBottom: 20px';
     return (
-      <Row className="place-result" style=>
-        <Col xs={24} sm={24} md={8} lg={8} xl={8} style={{minHeight: "100px", backgroundSize: "cover", backgroundImage: "url(" + place.imageURL + ")"}}>
+      <Row className="place-result">
+        <Col xs={24} sm={24} md={8} lg={8} xl={8} style={{minHeight: "100px", backgroundPosition: "center center", backgroundSize: "cover", backgroundImage: "url(" + place.imageURL + ")"}}>
         </Col>
         <Col xs={24} sm={24} md={16} lg={16} xl={16} style={{padding: "8px 16px"}}>
-        <Row>
+        <Row align="center">
           <Col span={14} className="flex-vertical">
             <h2 className="place-title">{place.name}</h2>
           </Col>
@@ -174,21 +318,18 @@ class PlaceResultMain extends React.Component {
             <div style={{ textAlign: "right"}} className="place-address">{place.address}</div>
           </Col>
         </Row>
-        <Row style={{marginTop: 6}}>
-          <Col xs={14} sm={14} md={14} lg={14} xl={14}>
-          <div style={{}}>
+        <Row style={{minHeight: 80}} align="bottom">
+          <Col xs={24} sm={14} md={14} lg={14} xl={14} style={{position: "relative", top: 12}}>
           {place.giftCardURL &&
-            <div>Yay, they sell gift cards online, so help save your fave!</div>}
+            <p>{place.name} offers gift cards online. Consider prepaying for a month of spending.</p>}
           {!place.giftCardURL && place.emailContact &&
-          <p>{place.name} sells gift cards over email. Contact them today to show your support.</p>}
+            <p>Consider prepaying for a month of spending.</p>}
           {!place.giftCardURL && !place.emailContact &&
-          <p>We don’t know if {place.name} sells gift cards online.
-          Visit their <a href="{place.placeURL}" target="_blank">website</a> to ask, and <a href="TODO">let us know</a> if we missed something.
-          </p>}
-          </div>
+          <p>Their gift card link isn't up yet, but tell them you're interested.</p>
+          }
           </Col>
-          <Col className="flex-vertical" xs={10} sm={10} md={10} lg={10} xl={10}>
-            <div style={{textAlign: "right", marginLeft: "20px"}}>
+          <Col className="flex-vertical" xs={24} sm={10} md={10} lg={10} xl={10}>
+            <div className="call-to-action-outer" >
             <CallToActionButton place={place} size="large" />
             </div>
           </Col>
@@ -200,12 +341,121 @@ class PlaceResultMain extends React.Component {
   }
 }
 
+const placeNames = AllOptions;
+
+class PlaceAutosuggestion extends React.Component {
+  getSuggestions = value => {
+    const inputValue = value.trim().toLowerCase();
+    const inputLength = inputValue.length;
+  
+    return inputLength < 3 ? [] : placeNames.filter(place => 
+      place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+    );
+  };
+  
+  // When suggestion is clicked, Autosuggest needs to populate the input
+  // based on the clicked suggestion. Teach Autosuggest how to calculate the
+  // input value for every given suggestion.
+  getSuggestionValue = suggestion => suggestion.name;
+  
+  // Use your imagination to render suggestions.
+  renderSuggestion = suggestion => (
+    <div>
+    <div>
+      {suggestion.name}
+    </div>
+    <div class="autosuggest-address">
+      {suggestion.address}
+    </div>
+    </div>
+  );
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: '',
+      suggestions: []
+    };
+  }
+
+  onChange = (event, { newValue }) => {
+    this.setState({
+      value: newValue
+    });
+    this.props.onSearchChanged(newValue);
+  };
+
+  onSuggestionsFetchRequested = ({ value }) => {
+    this.setState({
+      suggestions: this.getSuggestions(value)
+    });
+  };
+
+  onSuggestionsClearRequested = () => {
+    this.setState({
+      suggestions: []
+    });
+  };
+
+  renderInputComponent = inputProps => (
+    <div className="react-autosuggest__wrapper">
+    <div className="react-autosuggest__left-icon">🍽</div>
+    <input {...inputProps} />
+    </div>
+  );
+
+  render() {
+    const { value, suggestions } = this.state;
+
+    const inputProps = {
+      placeholder: '‍Search for your fave',
+      value,
+      onChange: this.onChange
+    };
+
+    // Finally, render it!
+    return (
+      <div className="autosuggest-outer">
+        <Autosuggest
+          suggestions={suggestions}
+          focusInputOnSuggestionClick={false}
+          onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
+          onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+          getSuggestionValue={this.getSuggestionValue}
+          renderInputComponent={this.renderInputComponent}
+          onSuggestionSelected={(event, data) => {
+            const key = data.suggestion.key;
+            this.props.onPlaceSelected(key);
+          }}
+          renderSuggestion={this.renderSuggestion}
+          inputProps={inputProps}
+        />
+      </div>
+    );
+  }
+}
+
 class PlaceFilterDisplay extends React.Component {
+  fetchPlaceInfo(scrollElementRef, placeKey) {
+    axios.get('/api/places/detail', {
+      params: {
+        'place_id': placeKey
+      },
+    }).then((response) => {
+      const place = response.data.place;
+      const suggestions = response.data.suggestedPlaces;
+      this.setState( (state, props) => {
+        return {'place': place, 'suggestedPlaces': suggestions}
+      })
+    })
+
+  }
+
   constructor(props) {
     super(props);
     this.state = {
       error: null,
-      hasFetched: false,
+    hasFetched: false,
       place: null,
       suggestedPlaces: null
     };
@@ -215,42 +465,18 @@ class PlaceFilterDisplay extends React.Component {
   render() {
 
     return(
-      <div style={{ textAlign: "center"}}>
-        <Title level={4} style={{ textAlign: "center"}}>Support that brunch spot, that perfect latte, that bar burger...</Title>
-        <AutoComplete 
-          style={{ maxWidth: "400px", width: "100%", marginBottom: "20px"}}
-          onFocus={() => {return;} }
-          defaultActiveFirstOption={false}
-          placeholder="Enter your favorite place"
-          onSelect={ (value, option) => {
-            var that = this;
-            document.activeElement.blur();
-            axios.get('/api/places/detail', {
-              params: {
-                'place_id': option.key
-              },
-            }).then((response) => {
-              const place = response.data.place;
-              const suggestions = response.data.suggestedPlaces;
-              const topOffset = that.elementRef.current.getBoundingClientRect().top;
-              window.setTimeout(() => {
-                scroll.scrollTo(topOffset);
-              }, 0);
-              this.setState( (state, props) => {
-                return {'place': place, 'suggestedPlaces': suggestions}
-              })
-            })
+      <div ref={this.elementRef}>
+        <PlaceAutosuggestion 
+          onPlaceSelected={(placeID) => {
+            this.fetchPlaceInfo(this.elementRef, placeID);
+          }} 
+          onSearchChanged={(newValue) => {
+            if (newValue.length === 0) {
+              this.setState({place: null, suggestedPlaces: null})
+            }
           }}
-          onChange= { (value) => {
-            this.setState({'place': null, 'suggestedPlaces': null});
-          }}
-          filterOption={(inputValue, option) => {
-            return inputValue.length >= 0 && option.value.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
-          }  }
-        >
-          {AllOptions}
-        </AutoComplete>
-        <div ref={this.elementRef} style={{textAlign: "left"}}>
+        />
+        <div style={{textAlign: "left"}}>
           <PlaceResultMain place={this.state.place} />
           {this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0 && <NearbySpots suggestedPlaces={this.state.suggestedPlaces} />}
         </div>
@@ -314,13 +540,14 @@ class ShareOptions extends React.Component {
           <FacebookProvider appId="202370887681802">
         <Share href="https://saveourfaves.org">
           {({ handleClick, loading }) => (
-            <Button onClick={handleClick} className='secondary-button'>Facebook</Button>
+            <Button onClick={handleClick} shape="round" className='secondary-button'>Facebook</Button>
           )}
         </Share>
       </FacebookProvider>
 
           <Button 
             style={{marginLeft: 12}}
+            shape="round"
             className='secondary-button'
             onClick={() => {
               window.open("https://twitter.com/intent/tweet?url=http://saveourfaves.org")
@@ -358,39 +585,46 @@ class App extends React.Component {
     return (
       <div>
         <div style={{marginTop: "0px"}}>
-        <Typography>
         <FAQModal shouldShow={this.state.faqVisible} onClose={() => {this.hideFAQModal()} } />
         <Row className="hero-row" >
-          <div style={{maxWidth: "1200px", margin:"0px auto"}}>
-          <Row className>
-          <Col span={2} offset={2}>
-            <Title style={{color: "white"}} level={4}>SaveOurFaves</Title>
-          </Col>
-          <Col span={6} offset={12} style={{textAlign: "right"}}>
+          <div style={{maxWidth: "1100px", margin:"0px auto"}}>
+          <Row className="top-header" >
+          <Col span={24} offset={0}>
+            <Title style={{float:"left", color: "white"}} level={4}>SaveOurFaves</Title>
+          <div style={{float: "right"}}>
             
-            <a href="#"><Title onClick={() => { this.showFAQModal()} } style={{color: "white", display: "inline", marginRight: "8px"}} level={4}>FAQs</Title></a>
+            <a href="#"><Title onClick={() => { this.showFAQModal()} } style={{color: "white", display: "inline", marginRight: "16px"}} level={4}>FAQ</Title></a>
             <Popover content={<ShareOptions />}>
-            <Button className="secondary-button">Share</Button>
+            <Button shape="round" className="header-button">Tell friends</Button>
             </Popover>
+          </div>
           </Col>
           </Row>
 
-          <Col span={12} offset={6} style={{textAlign: "left", paddingTop: "40px" }}>
-            <Title level={1} style={{color: "white", textAlign: "center"}}>Gift cards help local businesses survive the COVID-19 crisis</Title>
+          <Col span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
+            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite café might close because of COVID-19. Help save it.</Title>
+            <div className="header-sans">Gift cards help "flatten the curve" of lost cash flow.</div>
           </Col>
-          <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}}>
+          <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}} lg={{span:20, offset:2}}>
             <div className="main-results">
             <PlaceFilterDisplay  />
             <NeighborhoodCards />
             </div>
           </Col>
+          <Row className="footer-content">
+          <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
+            <Title level={3}>Our duty as San Franciscans</Title>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+          </Col>
+          <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
+            <Title level={3}>Just 10 days can kill a business</Title>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            </p>
+          </Col>
+          </Row>
           </div>
         </Row>
-        <Row>
-          <Col span={16} offset={4} style={{textAlign: "left"}}>
-          </Col>
-        </Row>
-        </Typography>
       </div>
       </div>
     );

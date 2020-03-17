@@ -3,41 +3,45 @@
 
 body {
   margin: 0;
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'open sans', -apple-system, blinkmacsystemfont, 'segoe ui', 'roboto', 'oxygen',
+    'ubuntu', 'cantarell', 'fira sans', 'droid sans', 'helvetica neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'roboto slab', serif;
   font-weight: 400;
 }
 
-.App {
+@media only screen and (max-device-width: 576px) {
+  h1 {
+    font-size: 28px !important;
+  }
+  .call-to-action-outer {
+    margin-left: -4px !important;
+    margin-top: 6px;
+    text-align: left !important;
+  }
+  .place-address {
+    font-size: 0.9em;
+  }
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
+.app-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .app-logo {
+    animation: app-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .flex-vertical {
@@ -46,32 +50,33 @@ h1, h2, h3, h4 {
   justify-content: center;
 }
 
-.App-link {
+.app-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .main-results {
   background-color: white;
   border-color: lightgray;
-  border-radius: 8px;
+  border-radius: 26px;
   border-style: solid;
   border-width: 1px;
   padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .hero-row {
-  height: 600px;
+  height: 450px;
   background-color: $primary-color;
   padding-top: 20px;
+}
+
+.footer-content {
+  margin-top: 24px;
+}
+
+.call-to-action-outer {
+  text-align: right;
+  margin-left: 20px;
 }
 
 .primary-button {
@@ -84,12 +89,19 @@ h1, h2, h3, h4 {
 }
 
 .large-primary-button {
+  border: 0;
   background-color: $primary-color !important;
   color: white !important;
 }
+.header-button {
+  color: $primary-color;
+  background-color: white;
+}
 
 .secondary-button {
-  color: $primary-color;
+  border: 0;
+  color: $tertiary-text !important;
+  background-color: $tertiary-color !important;
 }
 
 .secondary-button:hover {
@@ -97,41 +109,90 @@ h1, h2, h3, h4 {
 }
 
 h2.place-title, h3.place-title, h4.place-title {
-  color: $primary-color !important;
+  color: $tertiary-text !important;
   margin-bottom: 0;
+}
+
+.place-address {
+  color: darkgray;
+}
+
+h4.suggestion-title {
+  color: darkslategray;
+  margin-bottom: 0;
+  font-size: 1.2em;
+}
+
+h4.section-title {
+  font-family: "open sans", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-top: 16px;
 }
 
 h1.ant-typography, h2.ant-typography, h3.ant-typography, h4.ant-typography {
   color: darkslategray;
 }
 
+.top-header {
+  padding: 0px 12px;
+}
+
+.top-header h1, .top-header h2, .top-header h3, .top-header h4 {
+  color: white !important;
+  font-weight: 400;
+  font-family: "open sans", sans-serif;
+}
+
+div.header-sans {
+  color: white;
+  font-family: "open sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.autosuggest-outer {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .place-result {
-  border: "1px solid lightgray";
-  border-radius: "4px";
-  overflow: "hidden";
-  max-width: "680px";
-  margin: "auto";
-  min-height: "140px";
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 678px;
+  margin: auto;
+  min-height: 140px;
+}
+
+.place-result:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .suggestions-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  max-width: $max-content-width;
+  margin: 24px auto 0px auto;
 }
 
 .suggested-place {
   border: 1px solid lightgray;
   border-radius: 5px;
-  padding-bottom: 8px;
-  width: 220px;
-  margin: 0px 8px 8px 0px;
+  padding-bottom: 0px;
+  width: 200px;
+  margin: 0px 16px 16px 0px;
+}
+
+.suggested-place:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .suggested-place h4 {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-weight: 400;
 }
 
 .suggested-place .suggestion-details {
@@ -142,4 +203,212 @@ h1.ant-typography, h2.ant-typography, h3.ant-typography, h4.ant-typography {
   font-weight: 600;
   font-size: 0.8em;
   font-variant: small-caps;
+}
+
+.neighborhood-card-container {
+  padding-left: 20px;
+  height: 164px;
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.neighborhood-card {
+  width: 100px;
+  min-height: 140px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+
+.neighborhood-card-arrow {
+  font-size: 1.5em;
+  color: $tertiary-text;
+}
+
+.neighborhood-card-image {
+  margin-bottom: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-position: center center;
+}
+
+.neighborhood-card-image-selected {
+  border-width: 4px;
+  border-color: $tertiary-text;
+  border-style: solid;
+  box-shadow:  0 0 4px darkslategray;
+}
+
+.neighborhood-card-image:hover {
+  cursor: pointer;
+  box-shadow:  0 0 4px darkslategray;
+}
+
+.neighborhood-card-title {
+  font-family: "roboto slab", serif;
+  font-size: 1.1em;
+  min-height: 45px;
+}
+
+.neighborhood-card-title-selected {
+  font-weight: 700;
+  color: $primary-color;
+}
+
+.email-popover {
+  width: 320px;
+  background-color: transparent;
+}
+.email-popover-inner {
+  margin: 0 auto;
+}
+
+.email-popover p {
+  margin-top: 7px;
+  margin-bottom: 0px;
+}
+
+.email-popover-input {
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  margin-right: 4px;
+  padding: 6px;
+  margin-bottom: 4px;
+  width: 210px;
+  color: $search-text-color;
+}
+
+.email-popover-input::placeholder {
+  color: $search-text-color !important;
+  opacity: 1.0;
+}
+
+.email-popover-input:focus {
+  border-color: $primary-color;
+}
+.email-popover .ant-popover-inner {
+  background-color: transparent;
+}
+.email-popover div {
+  background-color: transparent;
+}
+
+.email-popover .ant-popover-arrow {
+  border-left-color: $primary-color !important;
+  border-top-color: $primary-color !important;
+}
+.email-popover a {
+  color: white;
+  text-decoration: underline;
+}
+
+.email-popover .ant-popover-inner-content {
+  background-color: $primary-color !important;
+  border: 1px solid $primary-color;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+}
+.email-confirm-button {
+  background-color: $tertiary-text;
+  color: white;
+  height: 36px;
+  border-width: 2px;
+}
+
+
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__wrapper {
+
+  max-width: 600px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 2px 8px 44px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 0 auto 20px auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+.react-autosuggest__input {
+  font-family: "Open Sans", sans-serif;
+  color: $search-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  border: 0;
+  padding: 0;
+}
+
+.react-autosuggest__input::placeholder {
+  font-weight: 400;
+  color: $search-text-color;
+  opacity: 1.0;
+}  
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__left-icon {
+  position: absolute;
+  left: 9px;
+  top: 1px;
+  font-size: 26px;
+
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 40px;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.autosuggest-address {
+  font-size: 0.8em;
 }
