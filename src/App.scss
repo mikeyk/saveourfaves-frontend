@@ -261,6 +261,13 @@ div.header-sans {
   height: 0;
 }
 
+@media only screen and (max-width: 576px) {
+  .neighborhood-card-container {
+    margin-bottom: 12px !important;
+  }
+}
+
+
 .neighborhood-card {
   width: 120px;
   min-height: 140px;
