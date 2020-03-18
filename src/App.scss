@@ -212,6 +212,15 @@ div.header-sans {
   margin: 0px 16px 16px 0px;
 }
 
+.suggested-place span.photo-attribution {
+  display:none;
+}
+
+.suggested-place:hover span.photo-attribution {
+  display: inline;
+  background-color: white;
+}
+
 .suggested-place:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

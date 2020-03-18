@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Button, Card, Modal, Popover } from 'antd';
 import './App.scss';
-import AllOptions from './AllOptions.js'
+import SFPlaces from './Places-SF.js';
 import FAQModal from './FAQModal.js'
 import Neighborhoods from './Neighborhoods.js'
 import Autosuggest from 'react-autosuggest';
@@ -20,6 +20,16 @@ axios.defaults.xsrfHeaderName = "X-CSRFTOKEN"
 const { Title, Paragraph, Text } = Typography;
 
 const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
+
+const Areas = {
+  "sf": "San Francisco",
+  "eastbay": "East Bay"
+}
+
+const AreaContext = React.createContext({
+  currentArea: null,
+  updateArea: () => {}
+});
 
 function LogEngagementEvent(action, label, value) {
   window.gtag('event', action, {
@@ -150,32 +160,67 @@ class CallToActionButton extends React.Component {
 
 }
 
+function AreaDropdown(props) {
+
+  return (
+      <select value={props.currentArea} onChange={(event) => { 
+        const newArea = event.target.value;
+        console.log(newArea);
+        props.updateArea(newArea);
+      }}>
+        <option value="sf">San Francisco</option>
+        <option value="eastbay">East Bay</option>
+        <option value="marin">Marin</option>
+        <option value="southbay">South Bay</option>
+      </select>
+  );
+
+}
+
+
 class NeighborhoodCards extends React.Component {
   constructor(props) {
     super(props);
+    const neighborhoods = Neighborhoods[props.currentArea];
     this.state = {
       'suggestedPlaces': null,
-      'selectedNeighborhood': null,
+      'selectedNeighborhood': neighborhoods[0],
       'offset': 0,
       'fetchOffset': 0,
       'windowWidth': 0,
-      'loading': false
+      'loading': true,
+      'neighborhoods': neighborhoods
     }
     this.ref = React.createRef();
+    this.fetchSuggestionsForNeighborhood(this.state.neighborhoods[0], this, 0);
   }
-  neighborhoods = Neighborhoods;
-
   componentDidMount = () => {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
-    this.setState({
-      'selectedNeighborhood': this.neighborhoods[0],
-    })
-    this.fetchSuggestionsForNeighborhood(this.neighborhoods[0], this, 0);
   }
 
   componentWillUnmount = () => {
     window.removeEventListener('resize', this.updateWindowDimensions);
+  }
+
+  componentWillUpdate = (nextProps, nextState) => {
+    console.log(nextProps.currentArea, this.props.currentArea);
+    if (nextProps.currentArea != this.props.currentArea) {
+      const newNeighborhoods = Neighborhoods[nextProps.currentArea];
+      console.log('comp will update!', newNeighborhoods);
+      this.setState({
+        'selectedNeighborhood': newNeighborhoods[0],
+        'loading': true,
+        'suggestedPlaces': null,
+        'neighborhoods': newNeighborhoods
+      })
+    }
+  }
+
+  componentDidUpdate = (prevProps, prevState) => {
+    if (prevProps.currentArea != this.props.currentArea && this.state.neighborhoods) {
+      this.fetchSuggestionsForNeighborhood(this.state.neighborhoods[0], this, 0);
+    }
   }
   
   updateWindowDimensions = () => {
@@ -212,7 +257,8 @@ class NeighborhoodCards extends React.Component {
   }
 
   getCardsForCurrentPage() {
-    const neighborhoodCards = this.neighborhoods.slice(this.state.offset).map((neighborhood) =>  {
+    console.log(this.state.selectedNeighborhood);
+    const neighborhoodCards = this.state.neighborhoods.slice(this.state.offset).map((neighborhood) =>  {
       return(
         <div className="neighborhood-card" style={{textAlign: "center"}}>
           <div 
@@ -240,17 +286,20 @@ class NeighborhoodCards extends React.Component {
     })
     return neighborhoodCards;
   }
+
   render() {
     return (
       <>
       <div className="explore-neighborhood-section">
-        <Title className="section-title" level={4}>Or explore by neighborhood</Title>
+        <Title className="section-title" level={4}>Or explore by neighborhood in <AreaDropdown currentArea={this.props.currentArea} updateArea={this.props.updateArea} />
+        </Title>
       </div>
+      {this.state.neighborhoods && 
         <section class="neighborhood-card-container" style={{maxWidth: (this.state.windowWidth >= 576 ? (this.state.windowWidth - 200) : (this.state.windowWidth))}}>
         
         {this.state.offset != 0 && <a
           className={
-            "neighborhood-card-arrow neighborhood-card-arrow-left " + (this.state.offset >= this.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
+            "neighborhood-card-arrow neighborhood-card-arrow-left " + (this.state.offset >= this.state.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
           }
           onClick={(event) => {
             this.setState({
@@ -258,18 +307,19 @@ class NeighborhoodCards extends React.Component {
             })
           }}>{"‹"}</a>}
         {this.getCardsForCurrentPage()}
-        {(this.state.offset < this.neighborhoods.length - 1) &&
+        {(this.state.offset < this.state.neighborhoods.length - 1) &&
         <a
           className={
-            "neighborhood-card-arrow neighborhood-card-arrow-right " + (this.state.offset >= this.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
+            "neighborhood-card-arrow neighborhood-card-arrow-right " + (this.state.offset >= this.state.neighborhoods.length - 1 ? "neighborhood-card-arrow-disabled" : "") 
           }
           onClick={(event) => {
             this.setState({
-              'offset': Math.min(this.neighborhoods.length - 1, this.state.offset + 1)
+              'offset': Math.min(this.state.neighborhoods.length - 1, this.state.offset + 1)
             })
           }}>›
         </a>}
         </section>
+        }
         {(this.state.loading || (this.state.suggestedPlaces && this.state.suggestedPlaces.length > 0)) &&
           <SuggestedPlaceCards 
             passRef={this.ref}
@@ -295,7 +345,8 @@ class SuggestedPlaceCards extends React.Component {
     if (this.props.suggestedPlaces && this.props.suggestedPlaces.length) {
       suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
         <div className="suggested-place">
-          <Row style={{backgroundSize: "cover", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "80px"}}>
+          <Row style={{backgroundSize: "cover", position: "relative", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "80px"}}>
+            <span className="attribution" style={{marginLeft: 0, padding: '0px 2px', height: 22, color: "#ccc", opacity: 0.9, position: "absolute", right: 0}}  className="photo-attribution">📷<a style={{color: "#ccc"}} href="moop">mooperson</a></span>
           </Row>
           <Row style={{minHeight: "88px"}}>
             <Title className="suggestion-title" style={{textAlign: "center", width: "100%", marginTop: "12px", padding: "0px 6px"}} level={4}>{suggestion.name}</Title>
@@ -398,7 +449,7 @@ class PlaceResultMain extends React.Component {
   }
 }
 
-const placeNames = AllOptions;
+const placeNames = SFPlaces;
 
 class PlaceAutosuggestion extends React.Component {
   maxSuggestions = 8;
@@ -610,14 +661,25 @@ class ShareOptions extends React.Component {
   }
 }
 
+const CityInfo = {
+  'sf': {
+    'name': 'San Francisco',
+    'places': SFPlaces
+  }
+}
+
 class App extends React.Component {
 
   constructor(props) {
     super(props);
+    const cityPath = window.location.pathname.slice(1);
+    const currentArea = Areas[cityPath] || 'sf';
     this.state = {
       'faqVisible': false,
-      'shareVisible': true
+      'shareVisible': true,
+      'currentArea': currentArea
     }
+    
     this.selfRef = React.createRef()
   }
   showFAQModal() {
@@ -633,7 +695,14 @@ class App extends React.Component {
     this.setState({'shareVisible': false});
   }
   render() {
+
     return (
+      <AreaContext.Provider value={{
+        currentArea: this.state.currentArea,
+        updateArea: (newArea) => {
+          this.setState({'currentArea': newArea})
+        }
+      }}>
       <div>
         <div style={{marginTop: "0px"}}>
         <FAQModal shouldShow={this.state.faqVisible} onClose={() => {this.hideFAQModal()} } />
@@ -662,7 +731,11 @@ class App extends React.Component {
             <PlaceFilterDisplay  />
             </div>
             <div className="neighborhood-card-container-outer">
-            <NeighborhoodCards />
+            <AreaContext.Consumer>
+            { value => {
+              return <NeighborhoodCards currentArea={value.currentArea} updateArea={value.updateArea} />
+            }}
+            </AreaContext.Consumer>
             </div>
             </div>
           </Col>
@@ -683,6 +756,7 @@ class App extends React.Component {
         </Row>
       </div>
       </div>
+      </AreaContext.Provider>
     );
   }
 }
