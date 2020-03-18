@@ -544,7 +544,7 @@ class PlaceAutosuggestion extends React.Component {
     const { value, suggestions } = this.state;
 
     const inputProps = {
-      placeholder: '‍Search for SF coffee spots, restaurants...',
+      placeholder: '‍Search for a Bay Area restaurant, coffee...',
       value,
       onChange: this.onChange,
       onFocus: (event) => {
@@ -741,8 +741,8 @@ class App extends React.Component {
           </Col>
           <Row className="footer-content">
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
-            <Title level={3}>Our duty as San Franciscans</Title>
-            <p>Our city has 12,000 small businesses, employing 359,000 people. They need us more than ever. Even though we can’t leave home, we can still support local restaurants by buying gift cards. It’s basically a mini-loan, so buy one now and make a plan to use it later.
+            <Title level={3}>Our duty as loyal customers</Title>
+            <p>Our small businesses need us more than ever. Even though we can’t leave home, we can still support local restaurants by buying gift cards. It’s basically a mini-loan, so buy one now and make a plan to use it later.
             </p>
           </Col>
           <Col offset={2} xs={18} sm={18} md={9} lg={9} xl={9} style={{textAlign: "left"}}>
