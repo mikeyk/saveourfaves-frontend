@@ -403,15 +403,19 @@ const placeNames = AllOptions;
 class PlaceAutosuggestion extends React.Component {
   maxSuggestions = 8;
 
+  sanitizeInput = (input) => {
+    return input.trim().toLowerCase().replace('é', 'e');
+  }
+
   getSuggestions = value => {
-    const inputValue = value.trim().toLowerCase();
+    const inputValue = this.sanitizeInput(value);
     const inputLength = inputValue.length;
   
     if (inputLength < 3) {
       return [];
     } else {
       const results = placeNames.filter(place => 
-        place.name.toUpperCase().indexOf(inputValue.toUpperCase()) !== -1
+        this.sanitizeInput(place.name).indexOf(inputValue) !== -1
       ).slice(0, this.maxSuggestions);
       if (results.length == 0) {
         LogEngagementEvent("user-roadblock", "no-results");
