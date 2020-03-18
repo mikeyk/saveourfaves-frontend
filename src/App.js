@@ -120,7 +120,7 @@ class CallToActionButton extends React.Component {
   render() {
     var place = this.props.place;
     var size = this.props.size;
-    const emailBody = "Hi there! I was on SaveYourFave.com and saw that " + place.name + " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy.";
+    const emailBody = "Hi there! I was on SaveYourFave.org and saw that " + place.name + " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy.";
     const className = (size == "large") ? "large-primary-button" : "secondary-button";
     return(
       <div key={place.placeID}>
@@ -507,6 +507,7 @@ class PlaceAutosuggestion extends React.Component {
           onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
           onSuggestionsClearRequested={this.onSuggestionsClearRequested}
           getSuggestionValue={this.getSuggestionValue}
+          highlightFirstSuggestion={true}
           renderInputComponent={this.renderInputComponent}
           onSuggestionSelected={(event, data) => {
             if (data.suggestion.special) {
