@@ -62,6 +62,7 @@ function AddLinkModal(props) {
 
   function handleLinkSubmission() {
     setHasSubmitted(true);
+    LogEngagementEvent("user-action", "submitted-card-link");
     incrementCounter(1);
     axios.post('/api/places/submit_gift_card_link', {
       'place_id': props.place.placeID,
@@ -176,7 +177,9 @@ class EmailSubscription extends React.Component {
           <>
             <AddLinkModal shouldShow={this.state.showAddModal} place={this.props.place} onClose={() => {this.hideAddLinkModal()} } />
             <p>We'll let the business know you're interested. We promise not to spam you.</p>
-            <p>(If you've found their link <a onClick={() => this.setState({'showAddModal': true})}>let us know</a>)</p>
+            <p>(If you've found their link <a onClick={() => {
+              this.setState({'showAddModal': true})
+            }}>let us know</a>)</p>
           </>
           }
           {this.state.emailSuccess && 
@@ -245,7 +248,7 @@ function AreaDropdown(props) {
 class NeighborhoodCards extends React.Component {
   constructor(props) {
     super(props);
-    const neighborhoods = Neighborhoods[props.currentArea];
+    const neighborhoods = this.neighborhoodsForArea(props.currentArea);
     this.state = {
       'suggestedPlaces': null,
       'selectedNeighborhood': neighborhoods[0],
@@ -259,6 +262,20 @@ class NeighborhoodCards extends React.Component {
     this.ref = React.createRef();
     this.fetchSuggestionsForNeighborhood(this.state.neighborhoods[0], this, 0);
   }
+
+  neighborhoodsForArea = (area) => {
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+    const neighborhoods = Neighborhoods[area];
+    const firstBatch = neighborhoods.slice(0, 6);
+    const rest = neighborhoods.slice(6);
+    shuffleArray(rest);
+    return firstBatch.concat(rest);
+  }
   componentDidMount = () => {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
@@ -269,10 +286,8 @@ class NeighborhoodCards extends React.Component {
   }
 
   componentWillUpdate = (nextProps, nextState) => {
-    console.log('going to change to', nextProps.currentArea, 'from', this.props.currentArea);
     if (nextProps.currentArea != this.props.currentArea) {
-      const newNeighborhoods = Neighborhoods[nextProps.currentArea];
-      console.log('comp will update!', newNeighborhoods);
+      const newNeighborhoods = this.neighborhoodsForArea(nextProps.currentArea);
       this.setState({
         'selectedNeighborhood': newNeighborhoods[0],
         'loading': true,
@@ -284,10 +299,8 @@ class NeighborhoodCards extends React.Component {
   }
 
   componentDidUpdate = (prevProps, prevState) => {
-    console.log('comp did update', prevProps.currentArea, this.props.currentArea)
     if (prevProps.currentArea != this.props.currentArea && this.state.neighborhoods) {
-      const newNeighborhoods = Neighborhoods[this.props.currentArea];
-      console.log('going to fetch hoods', newNeighborhoods[0]);
+      const newNeighborhoods = this.neighborhoodsForArea(this.props.currentArea);
       this.fetchSuggestionsForNeighborhood(newNeighborhoods[0], this, 0);
     }
   }
@@ -328,7 +341,6 @@ class NeighborhoodCards extends React.Component {
   }
 
   getCardsForCurrentPage() {
-    console.log('getting cards for selected', this.state.selectedNeighborhood);
     const neighborhoodCards = this.state.neighborhoods.slice(this.state.offset).map((neighborhood) =>  {
       return(
         <div className="neighborhood-card" style={{textAlign: "center"}}>
@@ -454,7 +466,6 @@ class SuggestedPlaceCards extends React.Component {
 
 class NearbySpots extends React.Component {
   render() {
-
     return(
       <>
       <Row style={{textAlign: "center", marginTop: "20px", marginBottom: "20px"}}>
@@ -776,6 +787,7 @@ class App extends React.Component {
       <AreaContext.Provider value={{
         currentArea: this.state.currentArea,
         updateArea: (newArea) => {
+          LogEngagementEvent("user-action", "selected-area", newArea);
           this.setState({'currentArea': newArea})
         }
       }}>

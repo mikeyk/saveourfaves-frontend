@@ -177,6 +177,13 @@ div.header-sans {
 
 .area-picker {
   background-color: $tertiary-color;
+  border: 0px solid;
+  outline: none;
+  height: 25px;
+}
+
+.area-picker:active {
+  border: 0px solid;
 }
 
 .place-result {
