@@ -56,7 +56,7 @@ h1, h2, h3, h4 {
 }
 
 .app-link {
-  color: #61dafb;
+  color: $tertiary-text;
 }
 
 .main-results {
@@ -91,8 +91,8 @@ h1, h2, h3, h4 {
 }
 
 .primary-button {
-  background-color: $primary-color;
-  color: white;
+  background-color: $primary-color !important;
+  color: white !important;
 }
 .primary-button:hover, .primary-button:active {
   background-color: $primary-color !important;
@@ -175,6 +175,10 @@ div.header-sans {
   margin: 0 auto;
 }
 
+.area-picker {
+  background-color: $tertiary-color;
+}
+
 .place-result {
   border: 1px solid lightgray;
   border-radius: 4px;
@@ -241,6 +245,13 @@ div.header-sans {
   font-weight: 600;
   font-size: 0.8em;
   font-variant: small-caps;
+}
+
+.add-link-modal-input {
+  border: 1px solid $primary-color;
+  margin-top: 10px;
+  padding: 6px;
+  width: 100%;
 }
 
 .neighborhood-card-container-outer {

@@ -23,7 +23,9 @@ const FormURL = 'https://forms.gle/w1ekg1coiLSJQfQt6';
 
 const Areas = {
   "sf": "San Francisco",
-  "eastbay": "East Bay"
+  "eastbay": "East Bay",
+  "southbay": "South Bay",
+  "marin": "Marin",
 }
 
 const AreaContext = React.createContext({
@@ -39,6 +41,63 @@ function LogEngagementEvent(action, label, value) {
   });
 }
 
+function AddLinkModal(props) {
+
+  const [giftLink, setGiftLink] = useState(null);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
+  const [counter, incrementCounter] = useState(0);
+
+  function resetAndClose() {
+    setGiftLink(null);
+    setHasSubmitted(false);
+    incrementCounter(0);
+    props.onClose();
+  }
+
+  function closeSoon() {
+    window.setTimeout(() => {
+      resetAndClose();
+    }, 5000);
+  }
+
+  function handleLinkSubmission() {
+    setHasSubmitted(true);
+    incrementCounter(1);
+    axios.post('/api/places/submit_gift_card_link', {
+      'place_id': props.place.placeID,
+      'gift_card_url': giftLink 
+      
+    }).then((response) => {
+      closeSoon();
+    }).catch((error) => {
+      closeSoon();
+    })
+  }
+
+  return (
+    <Modal
+    title={<span>Add a Gift Card link for <b>{props.place.name}</b></span>}
+    visible={props.shouldShow}
+    onOk={(args) => { (counter == 0) ? handleLinkSubmission() : resetAndClose()}}
+    width="400px"
+    destroyOnClose={true}
+    okButtonProps={{shape: "round", className: "primary-button"}}
+    cancelButtonProps={{shape: "round"}}
+    okText={hasSubmitted ? "Done" : "Submit"}
+    onCancel={resetAndClose}
+  >
+    {hasSubmitted && <div>Thanks! We'll add this to our queue and get the listing updated as soon as possible.</div>}
+    {!hasSubmitted && <input 
+      className="add-link-modal-input" 
+      onChange={(event) => { setGiftLink(event.target.value) }}
+      type="text"
+      placeholder="Please paste in the link to their gift card site"
+      value={giftLink} />}
+
+  </Modal>
+  )
+}
+
 class EmailSubscription extends React.Component {
 
   constructor(props) {
@@ -47,7 +106,8 @@ class EmailSubscription extends React.Component {
       'email': null,
       'emailSubmitted': false,
       'emailError': null,
-      'emailSuccess': null
+      'emailSuccess': null,
+      'showAddModal': false
     }
   }
 
@@ -82,6 +142,10 @@ class EmailSubscription extends React.Component {
     })
   }
 
+  hideAddLinkModal = () => {
+    this.setState({"showAddModal": false});
+  }
+
   render() {
     return (
       <Popover overlayClassName="email-popover" trigger="click"
@@ -110,8 +174,9 @@ class EmailSubscription extends React.Component {
             <div class='email-popover-error'>{this.state.emailError}</div>}
           {!this.state.emailSuccess && 
           <>
+            <AddLinkModal shouldShow={this.state.showAddModal} place={this.props.place} onClose={() => {this.hideAddLinkModal()} } />
             <p>We'll let the business know you're interested. We promise not to spam you.</p>
-            <p>(If you've found their link <a href={FormURL}>let us know</a>)</p>
+            <p>(If you've found their link <a onClick={() => this.setState({'showAddModal': true})}>let us know</a>)</p>
           </>
           }
           {this.state.emailSuccess && 
@@ -163,9 +228,8 @@ class CallToActionButton extends React.Component {
 function AreaDropdown(props) {
 
   return (
-      <select value={props.currentArea} onChange={(event) => { 
+      <select className="area-picker" value={props.currentArea} onChange={(event) => { 
         const newArea = event.target.value;
-        console.log(newArea);
         props.updateArea(newArea);
       }}>
         <option value="sf">San Francisco</option>
@@ -189,7 +253,8 @@ class NeighborhoodCards extends React.Component {
       'fetchOffset': 0,
       'windowWidth': 0,
       'loading': true,
-      'neighborhoods': neighborhoods
+      'neighborhoods': neighborhoods,
+      'showingNeighborhoodsFor': props.currentArea
     }
     this.ref = React.createRef();
     this.fetchSuggestionsForNeighborhood(this.state.neighborhoods[0], this, 0);
@@ -204,7 +269,7 @@ class NeighborhoodCards extends React.Component {
   }
 
   componentWillUpdate = (nextProps, nextState) => {
-    console.log(nextProps.currentArea, this.props.currentArea);
+    console.log('going to change to', nextProps.currentArea, 'from', this.props.currentArea);
     if (nextProps.currentArea != this.props.currentArea) {
       const newNeighborhoods = Neighborhoods[nextProps.currentArea];
       console.log('comp will update!', newNeighborhoods);
@@ -212,14 +277,18 @@ class NeighborhoodCards extends React.Component {
         'selectedNeighborhood': newNeighborhoods[0],
         'loading': true,
         'suggestedPlaces': null,
+        'offset': 0,
         'neighborhoods': newNeighborhoods
       })
     }
   }
 
   componentDidUpdate = (prevProps, prevState) => {
+    console.log('comp did update', prevProps.currentArea, this.props.currentArea)
     if (prevProps.currentArea != this.props.currentArea && this.state.neighborhoods) {
-      this.fetchSuggestionsForNeighborhood(this.state.neighborhoods[0], this, 0);
+      const newNeighborhoods = Neighborhoods[this.props.currentArea];
+      console.log('going to fetch hoods', newNeighborhoods[0]);
+      this.fetchSuggestionsForNeighborhood(newNeighborhoods[0], this, 0);
     }
   }
   
@@ -242,7 +311,9 @@ class NeighborhoodCards extends React.Component {
       ref.setState( (state, props) => {
         const nextOffset = state.fetchOffset + suggestions.length;
         return {'loading': false, 
-          'suggestedPlaces': merged, 'fetchOffset': nextOffset, 'moreAvailable': moreAvailable}
+          'suggestedPlaces': merged, 
+          'fetchOffset': nextOffset,
+           'moreAvailable': moreAvailable}
       })
     }).catch((error) => {
       ref.setState({'loading': false});
@@ -257,7 +328,7 @@ class NeighborhoodCards extends React.Component {
   }
 
   getCardsForCurrentPage() {
-    console.log(this.state.selectedNeighborhood);
+    console.log('getting cards for selected', this.state.selectedNeighborhood);
     const neighborhoodCards = this.state.neighborhoods.slice(this.state.offset).map((neighborhood) =>  {
       return(
         <div className="neighborhood-card" style={{textAlign: "center"}}>
@@ -346,7 +417,6 @@ class SuggestedPlaceCards extends React.Component {
       suggestedPlaceCards = this.props.suggestedPlaces.map((suggestion) => 
         <div className="suggested-place">
           <Row style={{backgroundSize: "cover", position: "relative", backgroundImage: "url(" + suggestion.imageURL + ")", minHeight: "80px"}}>
-            <span className="attribution" style={{marginLeft: 0, padding: '0px 2px', height: 22, color: "#ccc", opacity: 0.9, position: "absolute", right: 0}}  className="photo-attribution">📷<a style={{color: "#ccc"}} href="moop">mooperson</a></span>
           </Row>
           <Row style={{minHeight: "88px"}}>
             <Title className="suggestion-title" style={{textAlign: "center", width: "100%", marginTop: "12px", padding: "0px 6px"}} level={4}>{suggestion.name}</Title>
@@ -397,9 +467,21 @@ class NearbySpots extends React.Component {
 }
 
 class PlaceResultMain extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state ={
+      'showAddModal': false
+    }
+  }
+  hideAddLinkModal = () => {
+    this.setState({
+      'showAddModal': false
+    })
+  }
   render() {
     var place = this.props.place;
     if (!place) {
+      return null;
       place = {
         "name": "The Snug",
         "address": "2301 Fillmore Street",
@@ -411,8 +493,8 @@ class PlaceResultMain extends React.Component {
         "placeID": "ChIJ-_7qDsaAhYARKG4Gj6yw2ho"
 
       }
-      return null;
     }
+
     return (
       <Row className="place-result">
         <Col xs={24} sm={24} md={8} lg={8} xl={8} style={{minHeight: "100px", backgroundPosition: "center center", backgroundSize: "cover", backgroundImage: "url(" + place.imageURL + ")"}}>
@@ -423,7 +505,7 @@ class PlaceResultMain extends React.Component {
             <h2 className="place-title">{place.name}</h2>
           </Col>
           <Col span={10} className="flex-vertical">
-            <div style={{ textAlign: "right"}} className="place-address">{place.address}</div>
+            <div style={{ textAlign: "right"}} className="place-address">{place.address.split(",")[0]}</div>
           </Col>
         </Row>
         <Row style={{minHeight: 80}} align="bottom">
@@ -433,7 +515,7 @@ class PlaceResultMain extends React.Component {
           {!place.giftCardURL && place.emailContact &&
             <p>Consider prepaying for a month of spending.</p>}
           {!place.giftCardURL && !place.emailContact &&
-          <p>We haven't found their gift card link, but we'll tell them you're interested.</p>
+          <p>Do they have a link to sell gift cards? <a className="app-link" onClick={()=> this.setState({'showAddModal': true})}>Point us to it here.</a></p>
           }
           </Col>
           <Col className="flex-vertical" xs={24} sm={10} md={10} lg={10} xl={10}>
@@ -441,6 +523,7 @@ class PlaceResultMain extends React.Component {
             <CallToActionButton place={place} size="large" />
             </div>
           </Col>
+          <AddLinkModal shouldShow={this.state.showAddModal} place={place} onClose={() => {this.hideAddLinkModal()} } />
           
         </Row>
         </Col>
@@ -661,19 +744,12 @@ class ShareOptions extends React.Component {
   }
 }
 
-const CityInfo = {
-  'sf': {
-    'name': 'San Francisco',
-    'places': SFPlaces
-  }
-}
-
 class App extends React.Component {
 
   constructor(props) {
     super(props);
     const cityPath = window.location.pathname.slice(1);
-    const currentArea = Areas[cityPath] || 'sf';
+    const currentArea = Areas[cityPath] ? cityPath : 'sf';
     this.state = {
       'faqVisible': false,
       'shareVisible': true,
@@ -722,7 +798,7 @@ class App extends React.Component {
           </Row>
 
           <Col xs={{span: 18, offset: 3}} span={16} offset={4} style={{textAlign: "center", padding: "20px 0px" }}>
-            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite SF restaurant might close forever. Help save it.</Title>
+            <Title level={1} style={{color: "white", textAlign: "center"}}>Your favorite Bay Area restaurant might close forever. Help save it.</Title>
             <div className="header-sans">Gift cards help "flatten the curve" of lost income from COVID-19.</div>
           </Col>
           <Col sm={{span:20, offset: 2}} md={{span: 20, offset: 2}} lg={{span:20, offset:2}}>
