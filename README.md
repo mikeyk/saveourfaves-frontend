@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and modified by [@mikeyk](https://github.com/mikeyk/)
 
+You'll need to copy over the src/Config.js.example file to src/Config.js and update it with your own Google Maps API key (needs Places API enabled) and a Google Analytics ID.
+
 ## Available Scripts
 
 In the project directory, you can run:
