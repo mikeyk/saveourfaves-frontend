@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and modified by [@mikeyk](https://github.com/mikeyk/)
+This is the frontend to saveourfaves.org; it pairs with [the backend code, also open source](https://github.com/mikeyk/saveourfaves-server), so please read the README there as well.
 
 You'll need to copy over the src/Config.js.example file to src/Config.js and update it with your own Google Maps API key (needs Places API enabled) and a Google Analytics ID.
 
