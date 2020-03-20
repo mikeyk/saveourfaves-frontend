@@ -12,7 +12,7 @@ import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 
 export function AddNewPlaceModal(props) {
   const [giftLink, setGiftLink] = useState("");
-  const [website, setWebsite] = useState("");
+  const [email, setEmail] = useState("");
   const [error, setError] = useState(null);
   const [placeDetails, setPlaceDetails] = useState(null);
   var googleURL =
@@ -26,7 +26,7 @@ export function AddNewPlaceModal(props) {
   const [counter, setCounter] = useState(0);
   function resetAndClose() {
     setGiftLink("");
-    setWebsite("");
+    setEmail("");
     setHasSubmitted(false);
     setCounter(0);
     props.onClose();
@@ -47,7 +47,7 @@ export function AddNewPlaceModal(props) {
     axios
       .post("/api/places/submit_new_place", {
         place_details: placeDetails,
-        website: website,
+        email: email,
         gift_card_url: giftLink
       })
       .then(response => {
@@ -69,7 +69,7 @@ export function AddNewPlaceModal(props) {
   }
   return (
     <Modal
-      title={<span>Add a New Place</span>}
+      title={<span>Add a New Bay Area Small Business</span>}
       visible={props.shouldShow}
       onOk={args => {
         counter === 0 ? handleLinkSubmission() : resetAndClose();
@@ -113,17 +113,17 @@ export function AddNewPlaceModal(props) {
               setGiftLink(event.target.value);
             }}
             type="text"
-            placeholder="If you know it, paste in the link to their gift card site"
+            placeholder="Gift Card Link (if you know it)"
             value={giftLink}
           />
           <input
             className="add-link-modal-input"
             onChange={event => {
-              setWebsite(event.target.value);
+              setEmail(event.target.value);
             }}
             type="text"
-            placeholder="If you know it, paste in the link to their website"
-            value={website}
+            placeholder="Contact Email (optional)"
+            value={email}
           />
           {error && <div style={{ marginTop: 8 }}>{error}</div>}
         </div>
