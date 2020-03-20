@@ -3,7 +3,7 @@ import React from "react";
 import axios from "axios";
 
 import { Button, Popover, Typography, Row, Col } from "antd";
-import Areas from "./CityData/Areas-SF";
+import Areas from "./CityData/Areas";
 
 import Config from "./Config";
 import GoogleAnalyticsTag from "./Components/GoogleAnalyticsTag";

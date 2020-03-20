@@ -3,7 +3,7 @@ import axios from "axios";
 import { NearbySpots } from "./NearbySpots";
 import { PlaceResultMain } from "./PlaceResultMain";
 import { PlaceAutosuggestion } from "./PlacesAutosuggestion";
-import Areas from "../CityData/Areas-SF";
+import Areas from "../CityData/Areas";
 
 export class PlaceFilterDisplay extends React.Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React from "react";
-import SFPlaces from "../CityData/Places-SF";
+import SFPlaces from "../CityData/Places";
 import Autosuggest from "react-autosuggest";
 import { LogEngagementEvent } from "../Logging";
 import { AddNewPlaceModal } from "./AddNewPlaceModal";
