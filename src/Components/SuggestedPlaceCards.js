@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Row, Typography } from "antd";
 import Skeleton from "react-loading-skeleton";
 import { CallToActionButton } from "./CallToActionButton";
+import { ExtraActionButtons } from "./ExtraActionButtons";
 
 export class SuggestedPlaceCards extends React.Component {
   render() {
@@ -17,7 +18,9 @@ export class SuggestedPlaceCards extends React.Component {
               backgroundImage: "url(" + suggestion.imageURL + ")",
               minHeight: "80px"
             }}
-          ></Row>
+          >
+            <ExtraActionButtons place={suggestion} />
+          </Row>
           <Row style={{ minHeight: "88px" }}>
             <Title
               className="suggestion-title"
