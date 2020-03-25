@@ -45,7 +45,7 @@ function FAQModal(props) {
     {
       title: "What is SaveOurFaves?",
       body:
-        "SaveOurFaves is a directory of Bay Area restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town."
+        "SaveOurFaves is a directory of Bay Area restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town. We also link to staff donation sites, if they are available."
     },
     {
       title: "Why isn’t my favorite business on your site?",
@@ -103,6 +103,13 @@ function FAQModal(props) {
       title:
         "My business offers gift certificates, but your site says we don’t",
       body: "Please let us know the details " + addPlaceLink("here") + "."
+    },
+    {
+      title:
+        "I'm running a GoFundMe for my staff, and I'd like to list it on your site",
+      body:
+        "Please drop us a note via email at " +
+        renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org")
     },
     {
       title: "How can I start offering online gift cards?",
