@@ -26,7 +26,7 @@ export class PlaceResultMain extends React.Component {
           "https://www.toasttab.com/the-snug-san-francisco/giftcards",
         donationURL:
           "https://www.toasttab.com/the-snug-san-francisco/giftcards",
-        takeoutURL: "https://www.toasttab.com/the-snug-san-francisco/giftcards",
+        takeoutURL: null,
         placeURL: null,
         emailContact: null,
         imageURL:

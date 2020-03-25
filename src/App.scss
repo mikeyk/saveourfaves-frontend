@@ -319,12 +319,22 @@ div.header-sans {
   }
   .extra-action-button-2 {
     float: left !important;
+    margin-left: 0px !important;
     clear: both;
   }
 }
 
+.place-result .extra-action-button-1 {
+  float: left !important;
+}
+
 .extra-action-button-2 {
   float: left;
+}
+
+.place-result .extra-action-button-1 {
+  float: left !important;
+  margin-right: 8px;
 }
 
 .add-link-modal-input {
