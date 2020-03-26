@@ -112,6 +112,20 @@ h4 {
 .header-button {
   color: $primary-color;
   background-color: white;
+  position: relative;
+  bottom: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-share-link {
+    display: none !important;
+  }
+}
+
+.header-link {
+  color: white;
+  display: inline;
+  margin-right: 20px;
 }
 
 .secondary-button {

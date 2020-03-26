@@ -88,7 +88,7 @@ class App extends React.Component {
             />
             <Row className="hero-row">
               <div style={{ maxWidth: "1100px", margin: "0px auto" }}>
-                <Row className="top-header">
+                <Row className="top-header" justify="center">
                   <Col span={24} offset={0}>
                     <Title style={{ float: "left", color: "white" }} level={4}>
                       SaveOurFaves
@@ -99,21 +99,31 @@ class App extends React.Component {
                           onClick={() => {
                             this.showFAQModal();
                           }}
-                          style={{
-                            color: "white",
-                            display: "inline",
-                            marginRight: "16px"
-                          }}
+                          className="header-link"
                           level={4}
                         >
                           FAQ
                         </Title>
                       </a>
                       <Popover content={<ShareOptions />}>
-                        <Button shape="round" className="header-button">
-                          Tell friends
-                        </Button>
+                        <a>
+                          <Title
+                            className="header-link header-share-link"
+                            level={4}
+                          >
+                            Tell friends
+                          </Title>
+                        </a>
                       </Popover>
+                      <Button
+                        onClick={event => {
+                          window.location.href = "/addplace";
+                        }}
+                        shape="round"
+                        className="header-button header-add-place-button"
+                      >
+                        Add a Place
+                      </Button>
                     </div>
                   </Col>
                 </Row>
