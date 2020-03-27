@@ -68,6 +68,7 @@ class App extends React.Component {
           currentArea: this.state.currentArea,
           updateArea: newArea => {
             LogEngagementEvent("user-action", "selected-area", newArea);
+            window.history.pushState({}, null, "/" + newArea);
             this.setState({ currentArea: newArea });
           }
         }}
