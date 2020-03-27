@@ -7,6 +7,13 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/116418254005302142023\">Winnie S</a>']"
   },
   {
+    name: "Danville Harvest",
+    address: "500 Hartz Ave, Danville",
+    key: "ChIJcci756uMj4ARDgYgEQGJiTw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107184271214221847041\">Danville Harvest</a>']"
+  },
+  {
     name: "La For\u00eat",
     address: "21747 Bertram Rd, San Jose",
     key: "ChIJlf2787o6joARxMGakRMWOKg",
@@ -21,10 +28,11 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/114501061290497756208\">Revel Kitchen &amp; Bar</a>']"
   },
   {
-    name: "Bonjour Bakehouse",
-    address: "Delivers in SF",
-    key: "MANUAL_BONJOURBAKEHOUSE",
-    image_attribution: ""
+    name: "La Note",
+    address: "2377 Shattuck Ave, Berkeley",
+    key: "ChIJB_-A0oJ-hYARwmbyJJR3sUo",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111754449309439321714\">Michael Kahn</a>']"
   },
   {
     name: "Esin Restaurant & Bar",
@@ -34,17 +42,18 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/108316776698369914640\">Esin Restaurant &amp; Bar</a>']"
   },
   {
-    name: "The Dinner Detective Murder Mystery Show",
-    address: "10050 S De Anza Blvd, Cupertino",
-    key: "ChIJbUmh-K_Mj4ARdEvB-kUFC_Y",
-    image_attribution: null
+    name: "Steepers",
+    address: "346 E Campbell Ave, Campbell",
+    key: "ChIJSw12Vt40joARnlqHK5gilSE",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111756015721140978768\">Steepers</a>']"
   },
   {
-    name: "Whirlygig",
-    address: "919 The Alameda, San Jose",
-    key: "ChIJMZil9NrLj4AR-T9oVJM64WY",
+    name: "ADAM'S GRUB TRUCK",
+    address: "1084 Montgomery St, San Carlos",
+    key: "ChIJuflMlgSij4AR1I9RXcI44eE",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/101018582611620011682\">Whirlygig</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/104319312255717466158\">Connor Bennette</a>']"
   },
   {
     name: "Dishdash",
@@ -61,11 +70,24 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/105699964785398628918\">Humble Sea Brewing Co.</a>']"
   },
   {
-    name: "ADAM'S GRUB TRUCK",
-    address: "1084 Montgomery St, San Carlos",
-    key: "ChIJuflMlgSij4AR1I9RXcI44eE",
+    name: "Whirlygig",
+    address: "919 The Alameda, San Jose",
+    key: "ChIJMZil9NrLj4AR-T9oVJM64WY",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/104319312255717466158\">Connor Bennette</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/101018582611620011682\">Whirlygig</a>']"
+  },
+  {
+    name: "The Dinner Detective Murder Mystery Show",
+    address: "10050 S De Anza Blvd, Cupertino",
+    key: "ChIJbUmh-K_Mj4ARdEvB-kUFC_Y",
+    image_attribution: null
+  },
+  {
+    name: "Spinning Bones",
+    address: "1205 Park St, Alameda",
+    key: "ChIJQQ6hA2d_hYARApFdrGN4wuw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/110087855182018876350\">Jason Meyer</a>']"
   },
   {
     name: "Maverick Jack\u2019s",
@@ -75,38 +97,11 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/116002371089300000601\">Maverick Jack\u2019s</a>']"
   },
   {
-    name: "La Note",
-    address: "2377 Shattuck Ave, Berkeley",
-    key: "ChIJB_-A0oJ-hYARwmbyJJR3sUo",
+    name: "St. Stephen's Green",
+    address: "223 Castro St, Mountain View",
+    key: "ChIJsfMnDjS3j4ARoUdVDMJyqMU",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/111754449309439321714\">Michael Kahn</a>']"
-  },
-  {
-    name: "Chug Pub",
-    address: "1849 Lincoln Way, San Francisco",
-    key: "ChIJE1f9pW-HhYARGVLA7z1Haqo",
-    image_attribution: null
-  },
-  {
-    name: "Dohatsuten",
-    address: "799 San Antonio Rd, Palo Alto",
-    key: "ChIJBVNwaxK6j4ARUPhWmCDHXYk",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/112502238614808979046\">Philip Suh</a>']"
-  },
-  {
-    name: "Steepers",
-    address: "346 E Campbell Ave, Campbell",
-    key: "ChIJSw12Vt40joARnlqHK5gilSE",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/111756015721140978768\">Steepers</a>']"
-  },
-  {
-    name: "All Spice",
-    address: "1602 S El Camino Real, San Mateo",
-    key: "ChIJc3R6j16ej4ARSX5Uq0eROqI",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/115142915682626406015\">All Spice</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/113025153426380820256\">Greg Henderson</a>']"
   },
   {
     name: "Sushirrito",
@@ -123,17 +118,18 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/110268553666755305462\">Kirk S</a>']"
   },
   {
-    name: "Cuisinett",
-    address: "1105 San Carlos Ave, San Carlos",
-    key: "ChIJbZWzZwOij4ARoeY7r6xqfw0",
+    name: "Liba",
+    address: "380 17th St, Oakland",
+    key: "ChIJg6muVC1-j4ARMEILMzA05aw",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/102407737212152428424\">Cuisinett</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/102743241446786759939\">Liba Falafel</a>']"
   },
   {
-    name: "Arizmendi Bakery & Caf\u00e9",
-    address: "nan",
-    key: "ChIJX9DOaPqZhYARn1wLsXGHw3Y",
-    image_attribution: null
+    name: "Dad's Luncheonette",
+    address: "225 Cabrillo Highway South at, Kelly Ave, Half Moon Bay",
+    key: "ChIJd898_7J0j4ARX5hTjbDciT4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111350160292353423872\">michael montalvo</a>']"
   },
   {
     name: "Teo Chow Noodle Shack",
@@ -143,10 +139,11 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/101065701712645450340\">Pieter M\u00fcller</a>']"
   },
   {
-    name: "Comforts",
-    address: "nan",
-    key: "ChIJwz8tqT-XhYARqxbrPPoAqzk",
-    image_attribution: null
+    name: "Pokeatery",
+    address: "18911 Lake Chabot Rd, Castro Valley",
+    key: "ChIJAzIb7fCRj4ARtUGnc1P9hDQ",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111427688661944427113\">Steve</a>']"
   },
   {
     name: "Red Whale Coffee",
@@ -167,22 +164,11 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caf\u00e9 del Soul",
-    address: "nan",
-    key: "ChIJZXfkmfyZhYARjm1uFn33RKI",
-    image_attribution: null
-  },
-  {
-    name: "Kiki Japanese",
-    address: "1269 9th Avenue, San Francisco",
-    key: "ChIJcUsS4FyHhYARnWU9lRcJ1gE",
-    image_attribution: null
-  },
-  {
-    name: "The Coffee Roastery",
-    address: "nan",
-    key: "ChIJCRv1lxWXhYAR3LU3eb0-aTw",
-    image_attribution: null
+    name: "Espresso Rosetta",
+    address: "206 S J St, Livermore",
+    key: "ChIJoT3xAJ_nj4ARIGbYx8Jv0UQ",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106309146255259607393\">Nabil Lothae</a>']"
   },
   {
     name: "Cetrella",
@@ -192,13 +178,6 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/116139724146889937722\">Cetrella</a>']"
   },
   {
-    name: "Smuggler's Cove",
-    address: "650 Gough St, San Francisco",
-    key: "ChIJZYKHDZiAhYARXV0sNJgKAi8",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/115838534303300254403\">Smuggler&#39;s Cove</a>']"
-  },
-  {
     name: "Sushirrito - Palo Alto",
     address: "448 University Ave, Palo Alto",
     key: "ChIJQ1s1_Ti7j4ARwdpxYOuYKAY",
@@ -206,16 +185,41 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/104240959950214775860\">Sushirrito - Palo Alto</a>']"
   },
   {
-    name: "ROOH Palo Alto",
-    address: "473 University Ave, Palo Alto",
-    key: "ChIJD_pTEsy7j4ARmC6OuQ2GZ0k",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/113910810304151154629\">ROOH Palo Alto</a>']"
+    name: "Comforts",
+    address: "nan",
+    key: "ChIJwz8tqT-XhYARqxbrPPoAqzk",
+    image_attribution: null
   },
   {
-    name: "Fairfax Coffee Roastery",
+    name: "Arizmendi Bakery & Caf\u00e9",
     address: "nan",
-    key: "ChIJ--wEElaWhYARFoQZLrNyHOQ",
+    key: "ChIJX9DOaPqZhYARn1wLsXGHw3Y",
+    image_attribution: ""
+  },
+  {
+    name: "Cuisinett",
+    address: "1105 San Carlos Ave, San Carlos",
+    key: "ChIJbZWzZwOij4ARoeY7r6xqfw0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102407737212152428424\">Cuisinett</a>']"
+  },
+  {
+    name: "Caf\u00e9 del Soul",
+    address: "nan",
+    key: "ChIJZXfkmfyZhYARjm1uFn33RKI",
+    image_attribution: null
+  },
+  {
+    name: "Redfield Cider Bar & Bottle Shop",
+    address: "5815 College Ave, Oakland",
+    key: "ChIJ5aqECz59hYARffNQyfAERns",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/117124956269427045148\">Redfield Cider Bar &amp; Bottle Shop</a>']"
+  },
+  {
+    name: "The Coffee Roastery",
+    address: "nan",
+    key: "ChIJCRv1lxWXhYAR3LU3eb0-aTw",
     image_attribution: null
   },
   {
@@ -226,17 +230,45 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/101914927410313536501\">Mika&#39;ele Keni&#39;</a>']"
   },
   {
-    name: "20th Century Cafe",
-    address: "198 Gough St, San Francisco",
-    key: "ChIJHdSzOJ-AhYARhKGKEoPTIuo",
-    image_attribution: null
-  },
-  {
     name: "Tea Lyfe Drinks",
     address: "8018, 989 Story Rd, San Jose",
     key: "ChIJhcr9ddXMj4ARUJgHyGdzEBI",
     image_attribution:
       "['<a href=\"https://maps.google.com/maps/contrib/102404230694832200754\">Tea Lyfe Drinks</a>']"
+  },
+  {
+    name: "Pokeatery",
+    address: "2855 Stevens Creek Blvd #2337, Santa Clara",
+    key: "ChIJGXSd9G_Lj4ARwlKScj9vSfc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103865004799694653986\">Mike Ambrose</a>']"
+  },
+  {
+    name: "Grub",
+    address: "3536 Santa Fe Dr, Merced",
+    key: "ChIJq6pWlg9qkYARp9DoR7pkDsk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/109465060027237481133\">Grub</a>']"
+  },
+  {
+    name: "Sideboard Danville",
+    address: "90 Railroad Ave, Danville",
+    key: "ChIJjTGMn6mMj4ARLoEZ3jv382I",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114014404490788409428\">Sideboard Danville</a>']"
+  },
+  {
+    name: "Hilda's Coffee Shop",
+    address: "nan",
+    key: "ChIJrWPWnRWXhYARvi5P7__fenM",
+    image_attribution: null
+  },
+  {
+    name: "Bay Leaf Cafe",
+    address: "2123 Pacheco St #2309, Concord",
+    key: "ChIJY5D04CZnhYARetOEjb6v8Nk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/109193858786403389001\">miguel garcia</a>']"
   },
   {
     name: "Noodle Girl",
@@ -246,53 +278,23 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/104633928623326320127\">Noodle Girl</a>']"
   },
   {
+    name: "Coupa Cafe - Colonnade",
+    address: "4748 W El Camino Real, Los Altos",
+    key: "ChIJRYr-zZKxj4ARAjY61a9M-7M",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/105059031891736569680\">Coupa Cafe - Colonnade</a>']"
+  },
+  {
+    name: "Pokeatery",
+    address: "1345 Newell Ave Ste B, Walnut Creek",
+    key: "ChIJlYs-RcNhhYARS-3DhIVxVk4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/118364676688845939577\">Pokeatery</a>']"
+  },
+  {
     name: "Bean Sprouts Caf\u00e9",
     address: "nan",
     key: "ChIJIdvGoCaEhYARz_oMiKfchaA",
-    image_attribution: null
-  },
-  {
-    name: "Hilda's Coffee Shop",
-    address: "nan",
-    key: "ChIJrWPWnRWXhYARvi5P7__fenM",
-    image_attribution: null
-  },
-  {
-    name: "Knockout",
-    address: "3223 Mission St, San Francisco",
-    key: "ChIJMyk1DEN-j4ARzwVUTMhc4jA",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/108430051696898041877\">Jeffrey Hayashida</a>']"
-  },
-  {
-    name: "Aroma Cafe",
-    address: "nan",
-    key: "ChIJSfxOU_qZhYARFqyWcMGCdoI",
-    image_attribution: null
-  },
-  {
-    name: "Fox & Kit",
-    address: "nan",
-    key: "ChIJ_ze22-yZhYAR5piw2XyAafE",
-    image_attribution: null
-  },
-  {
-    name: "Third Culture Bakery",
-    address: "2701 Eighth St, Berkeley",
-    key: "ChIJy_LqU91-hYARrF2Z8bMXT-w",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
-  },
-  {
-    name: "Angel Island Caf\u00e9",
-    address: "nan",
-    key: "ChIJ_____-yDhYARXDgqgSABSiI",
-    image_attribution: null
-  },
-  {
-    name: "Pink Owl Coffee",
-    address: "nan",
-    key: "ChIJI-z9hD-XhYARySOrnOAuG8c",
     image_attribution: null
   },
   {
@@ -303,18 +305,29 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/111872088342950393196\">Story Coffee</a>']"
   },
   {
-    name: "Coupa Cafe - Colonnade",
-    address: "4748 W El Camino Real, Los Altos",
-    key: "ChIJRYr-zZKxj4ARAjY61a9M-7M",
+    name: "Proyecto Diaz Coffee",
+    address: "1933 Davis St #201, San Leandro",
+    key: "ChIJ9awzsEd-j4ARaVWDeIG7Wc4",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/105059031891736569680\">Coupa Cafe - Colonnade</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/108131562646003577838\">Proyecto Diaz Coffee</a>']"
   },
   {
-    name: "Altamont Beer Works",
-    address: "2402 Research Dr, Livermore",
-    key: "ChIJhQ_1DADej4ARVzO220UJDuY",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/116085064769711839084\">cheree angus</a>']"
+    name: "Angel Island Caf\u00e9",
+    address: "nan",
+    key: "ChIJ_____-yDhYARXDgqgSABSiI",
+    image_attribution: null
+  },
+  {
+    name: "Mission Hunan",
+    address: "2960 16th Street, San Francisco",
+    key: "ChIJ2XVbgiN-j4ARn11syQ5XgY4",
+    image_attribution: null
+  },
+  {
+    name: "Pink Owl Coffee",
+    address: "nan",
+    key: "ChIJI-z9hD-XhYARySOrnOAuG8c",
+    image_attribution: null
   },
   {
     name: "Bagel Street",
@@ -329,16 +342,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Baby Bull - Oracle Park",
-    address: "San Francisco Bay Trail, San Francisco",
-    key: "ChIJ8WPEsNl_j4ARhKCLUnCHNlk",
+    name: "District",
+    address: "65 N San Pedro St, San Jose",
+    key: "ChIJfS-oT6LMj4ARqmWyZ3jrg9k",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114973583042265878459\">District</a>']"
+  },
+  {
+    name: "Sausalito Bakery & Cafe",
+    address: "nan",
+    key: "ChIJL6q-2EWEhYARugEeGalQckQ",
     image_attribution: null
   },
   {
-    name: "Sausalito Equator",
+    name: "Stella Alpina Osteria",
+    address: "401 Primrose Rd, Burlingame",
+    key: "ChIJD1hlWPGdj4ARnx5LiyOUYnc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114154962569673154909\">Stella Alpina Osteria</a>']"
+  },
+  {
+    name: "My Thai Restaurant",
+    address: "1230 4th St, San Rafael",
+    key: "ChIJBUQ1dfuZhYAR3s1205HeInY",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102938942673644384739\">My Thai Restaurant</a>']"
+  },
+  {
+    name: "Banana Leaf Restaurant",
+    address: "182 Ranch Dr, Milpitas",
+    key: "ChIJ1Z_3Id_Ij4ARFkIKYjV1-Y4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102105325963168823201\">suntick1</a>']"
+  },
+  {
+    name: "Noah's NY Bagels",
     address: "nan",
-    key: "ChIJix1ZlBWFhYARYGvaX0v1wHY",
+    key: "ChIJNxLFmHKahYARDUZNd0BwsD8",
     image_attribution: null
+  },
+  {
+    name: "Mumbai Chowk",
+    address: "35144 Newark Blvd, Newark",
+    key: "ChIJt_UnT1C-j4ARN8-GJd0hwxw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116821044827645380323\">Hemanshu Narsana</a>']"
   },
   {
     name: "Caff\u0113 Acri",
@@ -353,44 +401,11 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "District",
-    address: "827 Washington St, Oakland",
-    key: "ChIJ4wJqPLeAj4ARCTGNdIr6H9U",
+    name: "Canyon Club Brewery",
+    address: "1558 Canyon Rd, Moraga",
+    key: "ChIJe7Rft7KJj4ARutwH24PRWQg",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/115338949808291109373\">District</a>']"
-  },
-  {
-    name: "Noah's NY Bagels",
-    address: "nan",
-    key: "ChIJNxLFmHKahYARDUZNd0BwsD8",
-    image_attribution: null
-  },
-  {
-    name: "Pausa Bar & Cookery",
-    address: "223 E 4th Ave, San Mateo",
-    key: "ChIJjcw0nnqej4ARvrndVxyQY60",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/118304964485435398781\">Pausa Bar &amp; Cookery</a>']"
-  },
-  {
-    name: "cucina sa",
-    address: "510 San Anselmo Ave, San Anselmo",
-    key: "ChIJxbmAzj-XhYARl3VJqwnIROw",
-    image_attribution: null
-  },
-  {
-    name: "Mitchell's Ice Cream",
-    address: "688 San Jose Avenue, San Francisco",
-    key: "ChIJQVAijUJ-j4ARfJZLVQMz1Dw",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/113135672842008041501\">Mitchell&#39;s Ice Cream</a>']"
-  },
-  {
-    name: "District",
-    address: "65 N San Pedro St, San Jose",
-    key: "ChIJfS-oT6LMj4ARqmWyZ3jrg9k",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/114973583042265878459\">District</a>']"
+      "['<a href=\"https://maps.google.com/maps/contrib/108109400166270814607\">Craig Villamor</a>']"
   },
   {
     name: "Cafe 152 Bread Co.",
@@ -407,34 +422,34 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/117753808249130321817\">Brendan Chia</a>']"
   },
   {
-    name: "Rustic Bakery",
-    address: "nan",
-    key: "ChIJ05cvT4iEhYARW5QmRh1OQO4",
-    image_attribution: null
-  },
-  {
-    name: "Kitchen Sunnyside",
-    address: "nan",
-    key: "ChIJ3409-3KQhYARBJTJiiFJPxI",
-    image_attribution: null
-  },
-  {
     name: "Rio Rock Acai Cafe",
     address: "nan",
     key: "ChIJdT5PswGRhYAR58bhi9uYtQM",
     image_attribution: null
   },
   {
-    name: "Stella Alpina Osteria",
-    address: "401 Primrose Rd, Burlingame",
-    key: "ChIJD1hlWPGdj4ARnx5LiyOUYnc",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/114154962569673154909\">Stella Alpina Osteria</a>']"
+    name: "cucina sa",
+    address: "510 San Anselmo Ave, San Anselmo",
+    key: "ChIJxbmAzj-XhYARl3VJqwnIROw",
+    image_attribution: null
   },
   {
-    name: "Sausalito Bakery & Cafe",
+    name: "El Rio",
+    address: "3158 Mission Street, San Francisco",
+    key: "ChIJQxZzkUN-j4ARMz_GqIvQJyI",
+    image_attribution: null
+  },
+  {
+    name: "District",
+    address: "827 Washington St, Oakland",
+    key: "ChIJ4wJqPLeAj4ARCTGNdIr6H9U",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115338949808291109373\">District</a>']"
+  },
+  {
+    name: "Rustic Bakery",
     address: "nan",
-    key: "ChIJL6q-2EWEhYARugEeGalQckQ",
+    key: "ChIJ05cvT4iEhYARW5QmRh1OQO4",
     image_attribution: null
   },
   {
@@ -444,48 +459,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Taste of the Himalayas",
-    address: "1494 2633, Bridgeway, Sausalito",
-    key: "ChIJtSQrYgWFhYARyBKnneUNM-4",
-    image_attribution: null
-  },
-  {
-    name: "The Dinner Detective Murder Mystery Show - San Francisco",
-    address: "500 California St, San Francisco",
-    key: "ChIJNz-GLWCAhYARXwTgGNiemKw",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/104978988445235574301\">The Dinner Detective Murder Mystery Show - San Francisco</a>']"
-  },
-  {
-    name: "Almanac Beer Co.",
-    address: "651 W Tower Ave, Alameda",
-    key: "ChIJ-XzNsrl_j4AR1DXzNTJi7D0",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/113182513245284746391\">Almanac Beer Co.</a>']"
-  },
-  {
-    name: "Sears Fine Food",
-    address: "439 Powell Street, San Francisco",
-    key: "ChIJlW39lY6AhYAR-kYSJfvNY6A",
-    image_attribution: null
-  },
-  {
-    name: "Dos Coyotes Border Cafe",
-    address: "3191 Crow Canyon Pl suite l, San Ramon",
-    key: "ChIJZW50KMDyj4ARXWyQhOBVr38",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/112758031728684540952\">Dos Coyotes Border Cafe</a>']"
-  },
-  {
-    name: "Tam Tam Ramen",
-    address: "1526, 745 E Blithedale Ave, Mill Valley",
-    key: "ChIJN64jB2SahYAReJq1MW6G9Ww",
-    image_attribution: null
-  },
-  {
-    name: "Juice Girl",
-    address: "45 Camino Alto, Mill Valley",
-    key: "ChIJA-DcG6yahYARbS91kJri4tA",
+    name: "Sausalito Equator",
+    address: "nan",
+    key: "ChIJix1ZlBWFhYARYGvaX0v1wHY",
     image_attribution: null
   },
   {
@@ -495,28 +471,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chloe's Cafe",
-    address: "1399 Church St, San Francisco",
-    key: "ChIJj4GLAWt-j4AROYqTjtKmM2A",
-    image_attribution: null
-  },
-  {
-    name: "Massimo's",
-    address: "5200 Mowry Ave Ste M, Fremont",
-    key: "ChIJ38kuGFy_j4AR1bs9y8kiK6I",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/101865903975591987626\">Cindy Shipway</a>']"
-  },
-  {
-    name: "Woodlands Cafe",
-    address: "799 College Ave, Kentfield",
-    key: "ChIJ9ZvmC7CQhYARMz6wvuljC6Y",
-    image_attribution: null
-  },
-  {
-    name: "Insalata's",
-    address: "120 Sir Francis Drake Blvd, San Anselmo",
-    key: "ChIJVc9lCj-XhYARIt2GNYcPZOg",
+    name: "Tam Tam Ramen",
+    address: "1526, 745 E Blithedale Ave, Mill Valley",
+    key: "ChIJN64jB2SahYAReJq1MW6G9Ww",
     image_attribution: null
   },
   {
@@ -526,9 +483,90 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Tamarine Restaurant & Gallery",
+    address: "546 University Ave, Palo Alto",
+    key: "ChIJwWcdxzi7j4ARSPpV37nhr58",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111421460378105628572\">Tamarine Restaurant &amp; Gallery</a>']"
+  },
+  {
+    name: "Lotus Curry House",
+    address: "807 Grant Ave, Novato",
+    key: "ChIJPynvrrO9hYARrVp-0H_ICxM",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102328646756137002013\">Lotus Curry House</a>']"
+  },
+  {
+    name: "Pokeatery",
+    address: "407 S B St, San Mateo",
+    key: "ChIJG0WivXqej4ARXCBHfra83oI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/117267533540809705708\">Pokeatery</a>']"
+  },
+  {
     name: "Sandrino Pizza & Vino",
     address: "45 Caledonia St, Sausalito",
     key: "ChIJtzWkmVGEhYAR8_Ty0HiM6vc",
+    image_attribution: null
+  },
+  {
+    name: "Meso Modern Mediterranean",
+    address: "3060 Olsen Dr Ste 50, San Jose",
+    key: "ChIJj7Bodt_Kj4ARiVIfRrZGYMM",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115667976774981676427\">Meso Modern Mediterranean</a>']"
+  },
+  {
+    name: "Woodlands Cafe",
+    address: "799 College Ave, Kentfield",
+    key: "ChIJ9ZvmC7CQhYARMz6wvuljC6Y",
+    image_attribution: null
+  },
+  {
+    name: "Almanac Beer Co.",
+    address: "651 W Tower Ave, Alameda",
+    key: "ChIJ-XzNsrl_j4AR1DXzNTJi7D0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/113182513245284746391\">Almanac Beer Co.</a>']"
+  },
+  {
+    name: "Dos Coyotes Border Cafe",
+    address: "3191 Crow Canyon Pl suite l, San Ramon",
+    key: "ChIJZW50KMDyj4ARXWyQhOBVr38",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112758031728684540952\">Dos Coyotes Border Cafe</a>']"
+  },
+  {
+    name: "Massimo's",
+    address: "5200 Mowry Ave Ste M, Fremont",
+    key: "ChIJ38kuGFy_j4AR1bs9y8kiK6I",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/101865903975591987626\">Cindy Shipway</a>']"
+  },
+  {
+    name: "Sweet Diplomacy Modern Gluten-Free Patisserie",
+    address: "209 1st St, Los Altos",
+    key: "ChIJVVWFYUK7j4ARdxGD3jJeyx4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103756592263455012235\">Elliott Ng</a>']"
+  },
+  {
+    name: "PRANZI",
+    address: "777 Laurel St, San Carlos",
+    key: "ChIJdYu1chuij4ARujIuEgcV_jE",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106401526533217728196\">Mike Harms</a>']"
+  },
+  {
+    name: "Juice Girl",
+    address: "45 Camino Alto, Mill Valley",
+    key: "ChIJA-DcG6yahYARbS91kJri4tA",
+    image_attribution: null
+  },
+  {
+    name: "Insalata's",
+    address: "120 Sir Francis Drake Blvd, San Anselmo",
+    key: "ChIJVc9lCj-XhYARIt2GNYcPZOg",
     image_attribution: null
   },
   {
@@ -538,27 +576,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bogie's Too",
-    address: "1335 4th St, San Rafael",
-    key: "ChIJXyW-mdCZhYARrkmRrQaDzb8",
-    image_attribution: null
-  },
-  {
-    name: "Mahila",
-    address: "1320 Castro St, San Francisco",
-    key: "ChIJ3d-mnPh_j4ARImIQcNFYHNk",
-    image_attribution: null
-  },
-  {
-    name: "High Tech Burrito",
-    address: "800 Redwood Hwy Ste 118, Mill Valley",
-    key: "ChIJ__SK0DKFhYARr_4SXhOmf9w",
-    image_attribution: null
-  },
-  {
-    name: "Tataki Sushi and Sake Bar",
-    address: "2827 California Street, San Francisco",
-    key: "ChIJ33hHYcmAhYARwjfB2pmcuOA",
+    name: "Taste of the Himalayas",
+    address: "1494 2633, Bridgeway, Sausalito",
+    key: "ChIJtSQrYgWFhYARyBKnneUNM-4",
     image_attribution: null
   },
   {
@@ -568,21 +588,76 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Left Bank",
+    address: "377 Santana Row Suite 1100, San Jose",
+    key: "ChIJM8WXzt_Kj4ARlAxHGNNuUuc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103685098329992297374\">Left Bank</a>']"
+  },
+  {
+    name: "Vinocruz Wine Bar + Kitchen",
+    address: "4901 Soquel Dr, Soquel",
+    key: "ChIJ3-JTOHwVjoARDD54KAr-COM",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/110368500598839053807\">Vinocruz Wine Bar + Kitchen</a>']"
+  },
+  {
+    name: "LB Steak",
+    address: "334 Santana Row #1000, San Jose",
+    key: "ChIJqcnd-9_Kj4ARKHm9BImvexk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112487984895724831239\">Caroline Tudor</a>']"
+  },
+  {
+    name: "Tomato Thyme",
+    address: "1560 Hamilton Ave, San Jose",
+    key: "ChIJASqIn6I0joARDyVGaWRWfe0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/101667744935589967569\">Tomato Thyme</a>']"
+  },
+  {
+    name: "Bevri",
+    address: "530 Bryant St, Palo Alto",
+    key: "ChIJi9iYmjm7j4AR904-JYOQQN4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102396231505175099881\">Bevri</a>']"
+  },
+  {
+    name: "Boba Drive",
+    address: "677 Tasman Dr, Sunnyvale",
+    key: "ChIJyYqzXSC3j4AR0ZkPrV7GD2s",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106614913802906032020\">Boba Drive</a>']"
+  },
+  {
+    name: "High Tech Burrito",
+    address: "800 Redwood Hwy Ste 118, Mill Valley",
+    key: "ChIJ__SK0DKFhYARr_4SXhOmf9w",
+    image_attribution: null
+  },
+  {
     name: "The Trident",
     address: "558 Bridgeway, Sausalito",
     key: "ChIJnYVsd0aEhYAR374A-ibVfQE",
     image_attribution: null
   },
   {
-    name: "Angelino Restaurant",
-    address: "621 Bridgeway, Sausalito",
-    key: "ChIJgSTYw0WEhYAR__WYBPa3ZEs",
-    image_attribution: null
-  },
-  {
     name: "Gott's Roadside",
     address: "302 Bon Air Center, Greenbrae",
     key: "ChIJL2eBLWyahYARV9rZssSDcbc",
+    image_attribution: null
+  },
+  {
+    name: "Brewed Awakening",
+    address: "1807 Euclid Ave, Berkeley",
+    key: "ChIJ_x_MjyF8hYARwSGsrL7Qwic",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106794307075917434797\">Brewed Awakening</a>']"
+  },
+  {
+    name: "Angelino Restaurant",
+    address: "621 Bridgeway, Sausalito",
+    key: "ChIJgSTYw0WEhYAR__WYBPa3ZEs",
     image_attribution: null
   },
   {
@@ -598,6 +673,13 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Sobre Mesa - Temporarily Closed",
+    address: "1618 Franklin St, Oakland",
+    key: "ChIJ8woxVx6Bj4AR_mXZGfjz_Qc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102842731270178374657\">Patrick Suzuki</a>']"
+  },
+  {
     name: "Belcampo Meat Co. (Larkspur)",
     address: "2405 Larkspur Landing Cir, Larkspur",
     key: "ChIJl7gohEOahYARjLx9BFJGu20",
@@ -610,27 +692,50 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Boardroom",
-    address: "1600 Powell Street, San Francisco",
-    key: "ChIJCxXWkPGAhYARXwt61gGhLl8",
-    image_attribution: null
-  },
-  {
-    name: "Wok This Way",
-    address: "560 Balboa Street, San Francisco",
-    key: "ChIJAzTZXj-HhYAR4Yn0f3VPb0U",
-    image_attribution: null
-  },
-  {
-    name: "Stang's",
-    address: "1618 Redwood Hwy, Corte Madera",
-    key: "ChIJpRL6LYuahYAR1d5rmcNNpjI",
-    image_attribution: null
-  },
-  {
     name: "Fast Food Fran\u00e7ais",
     address: "39 Caledonia St, Sausalito",
     key: "ChIJP6uDl1GEhYAR0tRfOMZkVTU",
+    image_attribution: null
+  },
+  {
+    name: "Dry Creek Grill",
+    address: "1580 Hamilton Ave, San Jose",
+    key: "ChIJU2atA5g0joARqr3SRweOdf4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/104802375876496560976\">Dry Creek Grill</a>']"
+  },
+  {
+    name: "Rocket Fizz",
+    address: "220 E Campbell Ave, Campbell",
+    key: "ChIJw4m7ct80joARDKqby6sPXUA",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
+  },
+  {
+    name: "Karl's Beacon",
+    address: "1355 Taraval St, San Francisco",
+    key: "ChIJ15WkL199j4ARBAmCgkONA1k",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115981138354255445866\">Zack McQueen</a>']"
+  },
+  {
+    name: "Piatti",
+    address: "100 Sycamore Valley Rd, Danville",
+    key: "ChIJh8pwl7OMj4ARs6N-zHkS818",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114876281866474751774\">Malik Husnain Arshad</a>']"
+  },
+  {
+    name: "Executive Order Bar & Lounge",
+    address: "868 Mission St, San Francisco",
+    key: "ChIJsblsYoaAhYARZg55oM4aIbU",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/105480132427765197888\">Jonathan Fong</a>']"
+  },
+  {
+    name: "Burmatown",
+    address: "60 Corte Madera Ave, Corte Madera",
+    key: "ChIJtRjqR4eahYAR6P-fNevxGfc",
     image_attribution: null
   },
   {
@@ -640,39 +745,35 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Le Garage",
-    address: "85 Liberty Ship Way #109, Sausalito",
-    key: "ChIJhcZdW1WEhYARRMfq7HugAX8",
+    name: "Caf\u00e9 Lotus",
+    address: "1912 Sir Francis Drake Blvd, Fairfax",
+    key: "ChIJnR9UC1aWhYARi0_ndyZ0SBo",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106381448701791250830\">Caf\u00e9 Lotus</a>']"
+  },
+  {
+    name: "Half Day Cafe",
+    address: "848 College Ave, Kentfield",
+    key: "ChIJnW81Ia6QhYAR_Q-118MeEc4",
     image_attribution: null
   },
   {
-    name: "Taste of Rome",
-    address: "1000 Bridgeway, Sausalito",
-    key: "ChIJGw7uS1CEhYARSN3Wg0jdG7w",
+    name: "Tony Tutto Pizza",
+    address: "16 Ross Common, Ross",
+    key: "ChIJ9cQfyIGXhYARrBJvFhsi2q0",
     image_attribution: null
   },
   {
-    name: "Seafood Peddler Restaurant and Fish Market",
-    address: "303 Johnson St, Sausalito",
-    key: "ChIJn7-dUlCEhYARaaZQxq8z6rM",
-    image_attribution: null
+    name: "Rocket Fizz",
+    address: "1356 Park St, Alameda",
+    key: "ChIJzxlRlxeHj4ARF3RXjw5Rid8",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103902479257433415476\">Rosely Mastrapa</a>']"
   },
   {
-    name: "Soma Eats",
-    address: "186 2nd Street, San Francisco",
-    key: "ChIJHWYBIH2AhYARkLsQQGWQQR8",
-    image_attribution: null
-  },
-  {
-    name: "Finn Town",
-    address: "2251 Market Street, San Francisco",
-    key: "ChIJhXshQxx-j4ARKYwz8t6R5ZU",
-    image_attribution: null
-  },
-  {
-    name: "Burmatown",
-    address: "60 Corte Madera Ave, Corte Madera",
-    key: "ChIJtRjqR4eahYAR6P-fNevxGfc",
+    name: "M & G Burgers",
+    address: "989 Magnolia Ave, Larkspur",
+    key: "ChIJTbpfnqOQhYARZnYW9Wr1Q2k",
     image_attribution: null
   },
   {
@@ -688,33 +789,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Half Day Cafe",
-    address: "848 College Ave, Kentfield",
-    key: "ChIJnW81Ia6QhYAR_Q-118MeEc4",
+    name: "Le Garage",
+    address: "85 Liberty Ship Way #109, Sausalito",
+    key: "ChIJhcZdW1WEhYARRMfq7HugAX8",
     image_attribution: null
   },
   {
-    name: "Tony Tutto Pizza",
-    address: "16 Ross Common, Ross",
-    key: "ChIJ9cQfyIGXhYARrBJvFhsi2q0",
+    name: "Taste of Rome",
+    address: "1000 Bridgeway, Sausalito",
+    key: "ChIJGw7uS1CEhYARSN3Wg0jdG7w",
     image_attribution: null
   },
   {
-    name: "M & G Burgers",
-    address: "989 Magnolia Ave, Larkspur",
-    key: "ChIJTbpfnqOQhYARZnYW9Wr1Q2k",
+    name: "Don Antonio Ristorante",
+    address: "455 Magnolia Ave, Larkspur",
+    key: "ChIJRyTJPniahYAR7dZr9I-U9AI",
     image_attribution: null
   },
   {
-    name: "Out the Door",
-    address: "Ferry Building, One, #5, San Francisco",
-    key: "ChIJWTGPjmaAhYARUxKI6M_KDjA",
+    name: "Kawika's Ocean Beach Deli",
+    address: "734 La Playa St, San Francisco",
+    key: "ChIJVUW7JLeHhYARUXt-HNerAE4",
     image_attribution: null
   },
   {
-    name: "NICO",
-    address: "710 Montgomery St, San Francisco",
-    key: "ChIJJ5BEyYqAhYAR2Xim_Tv4XhE",
+    name: "CyBelle's Front Room",
+    address: "1385 9th Avenue, San Francisco",
+    key: "ChIJdeLTgV6HhYARWnd3auwv1Ck",
+    image_attribution: null
+  },
+  {
+    name: "Gorkha Kitchen",
+    address: "1386 9th Avenue, San Francisco",
+    key: "ChIJq9iSgl6HhYARARc_CCmuLgQ",
+    image_attribution: null
+  },
+  {
+    name: "Ebisu Restaurant",
+    address: "1283 9th Avenue, San Francisco",
+    key: "ChIJ93MU4FyHhYARNsN1cMElpgo",
+    image_attribution: null
+  },
+  {
+    name: "Honey Creme",
+    address: "839 Irving Street, San Francisco",
+    key: "ChIJm0BVsF2HhYAR7ZhiOpw9Vok",
+    image_attribution: null
+  },
+  {
+    name: "Tommaso's Ristorante Italiano",
+    address: "1042 Kearny Street, San Francisco",
+    key: "ChIJD-7c9fSAhYARO7hy4de6RBY",
     image_attribution: null
   },
   {
@@ -742,27 +867,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Don Antonio Ristorante",
-    address: "455 Magnolia Ave, Larkspur",
-    key: "ChIJRyTJPniahYAR7dZr9I-U9AI",
-    image_attribution: null
-  },
-  {
-    name: "Kawika's Ocean Beach Deli",
-    address: "734 La Playa St, San Francisco",
-    key: "ChIJVUW7JLeHhYARUXt-HNerAE4",
-    image_attribution: null
-  },
-  {
     name: "Casa Lupe",
     address: "185 Main St, Los Altos",
     key: "ChIJbcTCru-wj4ARc6Q5mxRxth4",
-    image_attribution: null
-  },
-  {
-    name: "Como Esta Taqueria",
-    address: "2605 Middlefield Rd, Palo Alto",
-    key: "ChIJd0Absfi6j4ARJUQZcc5Tzu0",
     image_attribution: null
   },
   {
@@ -772,21 +879,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Equator Coffees",
-    address: "222 2nd St, San Francisco",
-    key: "ChIJgXCr_HyAhYARwuh0KYbwaMc",
+    name: "New Canton Restaurant",
+    address: "1160 Laurel St, San Carlos",
+    key: "ChIJW7bnwReij4ARYSHjhNcHCrM",
     image_attribution: null
   },
   {
-    name: "Vaso Azzurro",
-    address: "108 Castro St, Mountain View",
-    key: "ChIJFfCOLjS3j4ARySqj-9dlmv4",
+    name: "Leann\u2019s Cafe",
+    address: "777 Airport Blvd, Burlingame",
+    key: "ChIJPf9ixI6dj4ARafzLjvB5kxs",
     image_attribution: null
   },
   {
-    name: "Jade Cafe",
-    address: "1688 Bryant Street, San Francisco",
-    key: "ChIJ272z2i9-j4AR3VlvNJCCDlE",
+    name: "Como Esta Taqueria",
+    address: "2605 Middlefield Rd, Palo Alto",
+    key: "ChIJd0Absfi6j4ARJUQZcc5Tzu0",
     image_attribution: null
   },
   {
@@ -802,9 +909,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "New Canton Restaurant",
-    address: "1160 Laurel St, San Carlos",
-    key: "ChIJW7bnwReij4ARYSHjhNcHCrM",
+    name: "Mexican Grill",
+    address: "641 Irving Street, San Francisco",
+    key: "ChIJ7yw7a1yHhYARCpSmXmlguzY",
+    image_attribution: null
+  },
+  {
+    name: "Vaso Azzurro",
+    address: "108 Castro St, Mountain View",
+    key: "ChIJFfCOLjS3j4ARySqj-9dlmv4",
     image_attribution: null
   },
   {
@@ -814,15 +927,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Leann\u2019s Cafe",
-    address: "777 Airport Blvd, Burlingame",
-    key: "ChIJPf9ixI6dj4ARafzLjvB5kxs",
+    name: "Chez TJ",
+    address: "938 Villa St, Mountain View",
+    key: "ChIJPUL8UjS3j4ARdCh-Ys_Bgqs",
+    image_attribution: null
+  },
+  {
+    name: "71 Saint Peter",
+    address: "71 N San Pedro St, San Jose",
+    key: "ChIJ2dnTWqLMj4AREyo-tgh8RaE",
     image_attribution: null
   },
   {
     name: "Bon Appetit 500 Cafe",
     address: "500 Oracle Pkwy, Redwood City",
     key: "ChIJ-YLHWbSYj4ARrgH0lIn6OMs",
+    image_attribution: null
+  },
+  {
+    name: "Bussaba",
+    address: "534 Irving Street, San Francisco",
+    key: "ChIJZRZw9VuHhYARn3Ndv7R728M",
     image_attribution: null
   },
   {
@@ -838,15 +963,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chez TJ",
-    address: "938 Villa St, Mountain View",
-    key: "ChIJPUL8UjS3j4ARdCh-Ys_Bgqs",
-    image_attribution: null
-  },
-  {
-    name: "LITTLE SWEET",
-    address: "3836 Geary Boulevard, San Francisco",
-    key: "ChIJc8ZIfSKHhYARBluHlQpJgZU",
+    name: "City Beer Store",
+    address: "1148 Mission Street, San Francisco",
+    key: "ChIJSYtze4KAhYAR-2-5drQRBWM",
     image_attribution: null
   },
   {
@@ -862,12 +981,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "71 Saint Peter",
-    address: "71 N San Pedro St, San Jose",
-    key: "ChIJ2dnTWqLMj4AREyo-tgh8RaE",
-    image_attribution: null
-  },
-  {
     name: "Hongs Gourmet",
     address: "14510 Big Basin Way #9, Saratoga",
     key: "ChIJycBqmeBKjoAR4Cp1yFqgU8E",
@@ -880,45 +993,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Hai's Restaurant",
+    address: "227 Hyde Street, San Francisco",
+    key: "ChIJx2KuhpCAhYARz-kZTNV4la4",
+    image_attribution: null
+  },
+  {
     name: "TIBCO Cafe",
     address: "3301 Hillview Ave, Palo Alto",
     key: "ChIJcYMg9ZC6j4AReIe25DwCTCc",
     image_attribution: null
   },
   {
-    name: "Sunstream Coffee",
-    address: "2884 Geary Blvd, San Francisco",
-    key: "ChIJ4y8UgzWHhYARKl-vCWzkCUk",
+    name: "Bebebar",
+    address: "3809 18th Street, San Francisco",
+    key: "ChIJuVc7lBl-j4ARF6dhcZiUcjs",
     image_attribution: null
   },
   {
-    name: "Angel Cafe & Deli",
-    address: "700 Geary St, San Francisco",
-    key: "ChIJd_o4vZGAhYARXi5ujtrUc5c",
-    image_attribution: null
-  },
-  {
-    name: "Kokkari Estiatorio",
-    address: "200 Jackson Street, San Francisco",
-    key: "ChIJTel9dGCAhYARQGwrTfGZ07M",
-    image_attribution: null
-  },
-  {
-    name: "Bella Vita",
-    address: "376 1st St, Los Altos",
-    key: "ChIJi93waeWwj4ARshUaIwQnb10",
+    name: "EPIC Steak",
+    address: "369 The Embarcadero, San Francisco",
+    key: "ChIJJVhdD3CAhYARw2KuKNaUCEg",
     image_attribution: null
   },
   {
     name: "Restaurant Soleil",
     address: "675 El Camino Real, Palo Alto",
     key: "ChIJIe9vfzC7j4ARKMPewN6Czv4",
-    image_attribution: null
-  },
-  {
-    name: "Hankow Cuisine",
-    address: "1071 S De Anza Blvd, San Jose",
-    key: "ChIJ8fiQYwO1j4ARIpej7lX-sPU",
     image_attribution: null
   },
   {
@@ -934,6 +1035,18 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bella Vita",
+    address: "376 1st St, Los Altos",
+    key: "ChIJi93waeWwj4ARshUaIwQnb10",
+    image_attribution: null
+  },
+  {
+    name: "Hankow Cuisine",
+    address: "1071 S De Anza Blvd, San Jose",
+    key: "ChIJ8fiQYwO1j4ARIpej7lX-sPU",
+    image_attribution: null
+  },
+  {
     name: "Crepevine Restaurants",
     address: "367 University Ave, Palo Alto",
     key: "ChIJgbClrTm7j4ARJhcj3TrrG9g",
@@ -943,6 +1056,12 @@ const SFPlaces = [
     name: "Thi\u00ean Long Restaurant",
     address: "3005 Silver Creek Rd #138, San Jose",
     key: "ChIJR8Gmg4EyjoARst0Nhk0KXvM",
+    image_attribution: null
+  },
+  {
+    name: "Clarke's Charcoal Broiler",
+    address: "615 W El Camino Real, Mountain View",
+    key: "ChIJW6hzHy23j4ARZPv9US8xIvc",
     image_attribution: null
   },
   {
@@ -958,9 +1077,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Clarke's Charcoal Broiler",
-    address: "615 W El Camino Real, Mountain View",
-    key: "ChIJW6hzHy23j4ARZPv9US8xIvc",
+    name: "The Duo Entourage",
+    address: "1199 Broadway Suite 2, Burlingame",
+    key: "ChIJVWFmqyV2j4ARG66_fsF9Lzo",
     image_attribution: null
   },
   {
@@ -973,12 +1092,6 @@ const SFPlaces = [
     name: "Veggie Grill",
     address: "565 San Antonio Rd #26, Mountain View",
     key: "ChIJ-0gSHZywj4ARQGh008-HoLA",
-    image_attribution: null
-  },
-  {
-    name: "The Duo Entourage",
-    address: "1199 Broadway Suite 2, Burlingame",
-    key: "ChIJVWFmqyV2j4ARG66_fsF9Lzo",
     image_attribution: null
   },
   {
@@ -1003,36 +1116,6 @@ const SFPlaces = [
     name: "Ju Fu Restaurant",
     address: "1045 Terra Nova Blvd, Pacifica",
     key: "ChIJcbV5qJRwj4ARyK8yPQv2qg8",
-    image_attribution: null
-  },
-  {
-    name: "Yami Grill",
-    address: "699 Calderon Ave, Mountain View",
-    key: "ChIJf4JP2C63j4ARrdcZW1kYdsM",
-    image_attribution: null
-  },
-  {
-    name: "New Eritrea Restaurant",
-    address: "907 Irving Street, San Francisco",
-    key: "ChIJjZ9co12HhYARj1fN3tL6WDo",
-    image_attribution: null
-  },
-  {
-    name: "Presidio Social Club",
-    address: "563 Ruger St, San Francisco",
-    key: "ChIJt5TuaSuHhYARYj412gmqenY",
-    image_attribution: null
-  },
-  {
-    name: "Tannourine Restaurant",
-    address: "120 W 25th Ave, San Mateo",
-    key: "ChIJrzidLPmej4ARioxd87uGxKk",
-    image_attribution: null
-  },
-  {
-    name: "Las Muchachas Restaurant",
-    address: "2483 Old Middlefield Way A, Mountain View",
-    key: "ChIJP5O3OAm6j4ARfVxtJXRoiNA",
     image_attribution: null
   },
   {
@@ -1078,6 +1161,18 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cafe Wisteria",
+    address: "75 Arbor Rd, Menlo Park",
+    key: "ChIJAQB0y8ukj4ARIh3K6QumFHc",
+    image_attribution: null
+  },
+  {
+    name: "Yami Grill",
+    address: "699 Calderon Ave, Mountain View",
+    key: "ChIJf4JP2C63j4ARrdcZW1kYdsM",
+    image_attribution: null
+  },
+  {
     name: "Lulu's on the Alameda",
     address: "3539 Alameda de las Pulgas, Menlo Park",
     key: "ChIJn8Cf4uukj4ARJ3Z-8BqZ5EI",
@@ -1090,10 +1185,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Wisteria",
-    address: "75 Arbor Rd, Menlo Park",
-    key: "ChIJAQB0y8ukj4ARIh3K6QumFHc",
+    name: "Las Muchachas Restaurant",
+    address: "2483 Old Middlefield Way A, Mountain View",
+    key: "ChIJP5O3OAm6j4ARfVxtJXRoiNA",
     image_attribution: null
+  },
+  {
+    name: "Orson's Belly",
+    address: "1737 Balboa St, San Francisco",
+    key: "ChIJGZmBsxOHhYARs5KqzKKbLwM",
+    image_attribution: ""
   },
   {
     name: "Gyu-Kaku Japanese BBQ",
@@ -1114,15 +1215,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Tannourine Restaurant",
+    address: "120 W 25th Ave, San Mateo",
+    key: "ChIJrzidLPmej4ARioxd87uGxKk",
+    image_attribution: null
+  },
+  {
+    name: "Nabe",
+    address: "1325 9th Avenue, San Francisco",
+    key: "ChIJ8R1DNVyHhYAR22_xxz-1gso",
+    image_attribution: null
+  },
+  {
     name: "Boba Bao Bei",
     address: "2761 Mission Street, San Francisco",
     key: "ChIJH8Hmpf9_j4ARaSxVmTgrgIw",
     image_attribution: null
   },
   {
-    name: "Mel's Drive-In",
-    address: "801 Mission Street, San Francisco",
-    key: "ChIJiVY2rYeAhYARJ90OnmrJw24",
+    name: "Parkview Kitchen & Spirits",
+    address: "10050 S De Anza Blvd, Cupertino",
+    key: "ChIJNRnjma61j4ARq-9yX5TOZE8",
     image_attribution: null
   },
   {
@@ -1132,15 +1245,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Artemis",
-    address: "1875 S Bascom Ave #300, Campbell",
-    key: "ChIJQ3BYYsI0joAR9cuHDrnIF6Q",
+    name: "Taqueria Gonzalez",
+    address: "3194 Middlefield Rd, Redwood City",
+    key: "ChIJZXIJX2yjj4ARB4En0symZQM",
     image_attribution: null
   },
   {
-    name: "Cariblue",
-    address: "1660 Broadway, Redwood City",
-    key: "ChIJKRw6gqqjj4ARzHcZphirA0Q",
+    name: "Oak + Violet",
+    address: "1400 El Camino Real, Menlo Park",
+    key: "ChIJ_-T3GD-lj4ARuK5KmNgcQBQ",
     image_attribution: null
   },
   {
@@ -1150,15 +1263,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sipan Peruvian Restaurant & Bar",
-    address: "14486 Big Basin Way, Saratoga",
-    key: "ChIJW7O1oOBKjoARQeTZJcJp_Hg",
+    name: "The Village Cafe",
+    address: "1426 Polk St, San Francisco",
+    key: "ChIJxfPUxJSAhYARg1jPZ8AMKQc",
     image_attribution: null
   },
   {
-    name: "Taqueria Gonzalez",
-    address: "3194 Middlefield Rd, Redwood City",
-    key: "ChIJZXIJX2yjj4ARB4En0symZQM",
+    name: "Broiler Express",
+    address: "895 Laurel St, San Carlos",
+    key: "ChIJoYyTMRqij4ARfm7W1012IOM",
     image_attribution: null
   },
   {
@@ -1168,9 +1281,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Broiler Express",
-    address: "895 Laurel St, San Carlos",
-    key: "ChIJoYyTMRqij4ARfm7W1012IOM",
+    name: "Cafe Artemis",
+    address: "1875 S Bascom Ave #300, Campbell",
+    key: "ChIJQ3BYYsI0joAR9cuHDrnIF6Q",
     image_attribution: null
   },
   {
@@ -1204,9 +1317,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pancho Villa Taqueria",
-    address: "365 S B St, San Mateo",
-    key: "ChIJfRMInHqej4AR-4NtZnaL4q0",
+    name: "Sipan Peruvian Restaurant & Bar",
+    address: "14486 Big Basin Way, Saratoga",
+    key: "ChIJW7O1oOBKjoARQeTZJcJp_Hg",
     image_attribution: null
   },
   {
@@ -1228,15 +1341,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Parkview Kitchen & Spirits",
-    address: "10050 S De Anza Blvd, Cupertino",
-    key: "ChIJNRnjma61j4ARq-9yX5TOZE8",
+    name: "Cariblue",
+    address: "1660 Broadway, Redwood City",
+    key: "ChIJKRw6gqqjj4ARzHcZphirA0Q",
     image_attribution: null
   },
   {
-    name: "Oak + Violet",
-    address: "1400 El Camino Real, Menlo Park",
-    key: "ChIJ_-T3GD-lj4ARuK5KmNgcQBQ",
+    name: "Pancho Villa Taqueria",
+    address: "365 S B St, San Mateo",
+    key: "ChIJfRMInHqej4AR-4NtZnaL4q0",
     image_attribution: null
   },
   {
@@ -1258,33 +1371,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Frida's Colibri",
-    address: "820 Veterans Blvd ste b, Redwood City",
-    key: "ChIJgfgcMVKij4AR-z3JbSi4X88",
-    image_attribution: null
-  },
-  {
-    name: "Javalencia",
-    address: "1594 Market St, San Francisco",
-    key: "ChIJdb5s-p6AhYAR14CQqU9V_7k",
-    image_attribution: null
-  },
-  {
     name: "Dianda's Italian American Pastry",
     address: "2883 Mission Street, San Francisco",
     key: "ChIJu1591UZ-j4AR3bmg-RLRopw",
     image_attribution: null
   },
   {
-    name: "Cal-Mart",
-    address: "3585 California Street, San Francisco",
-    key: "ChIJsz4h-zOHhYARkWnZE58MTUg",
+    name: "Cafe Torre",
+    address: "20343 Stevens Creek Blvd, Cupertino",
+    key: "ChIJQdtcAa-1j4ARfDoFbeMI1ok",
     image_attribution: null
   },
   {
-    name: "Blush! Wine Bar",
-    address: "476 Castro Street, San Francisco",
-    key: "ChIJpyuHNRt-j4ARi-WLHR3Fsto",
+    name: "Frida's Colibri",
+    address: "820 Veterans Blvd ste b, Redwood City",
+    key: "ChIJgfgcMVKij4AR-z3JbSi4X88",
+    image_attribution: null
+  },
+  {
+    name: "Milagros Latin Kitchen",
+    address: "1099 Middlefield Rd, Redwood City",
+    key: "ChIJZ7aTcKyjj4ARkzKUPHGGGrA",
+    image_attribution: null
+  },
+  {
+    name: "La Pe\u00f1ita",
+    address: "601 S 1st St, San Jose",
+    key: "ChIJXz5Fp7bMj4ARqftkoqvNtcM",
     image_attribution: null
   },
   {
@@ -1300,27 +1413,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Torre",
-    address: "20343 Stevens Creek Blvd, Cupertino",
-    key: "ChIJQdtcAa-1j4ARfDoFbeMI1ok",
-    image_attribution: null
-  },
-  {
-    name: "La Pe\u00f1ita",
-    address: "601 S 1st St, San Jose",
-    key: "ChIJXz5Fp7bMj4ARqftkoqvNtcM",
-    image_attribution: null
-  },
-  {
-    name: "Milagros Latin Kitchen",
-    address: "1099 Middlefield Rd, Redwood City",
-    key: "ChIJZ7aTcKyjj4ARkzKUPHGGGrA",
-    image_attribution: null
-  },
-  {
     name: "Chef Ming's Chinese Restaurant",
     address: "61 Washington St, Santa Clara",
     key: "ChIJwTiZfgbLj4ARlKVEygIeE7w",
+    image_attribution: null
+  },
+  {
+    name: "Morton's The Steakhouse",
+    address: "170 S Market St, San Jose",
+    key: "ChIJYVuT2aTMj4ARVoWJdxjG69A",
+    image_attribution: null
+  },
+  {
+    name: "CreoLa Bistro",
+    address: "344 El Camino Real #2408, San Carlos",
+    key: "ChIJ_aEGkgGij4ARnpAP3ZsfIEY",
     image_attribution: null
   },
   {
@@ -1354,21 +1461,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "CreoLa Bistro",
-    address: "344 El Camino Real #2408, San Carlos",
-    key: "ChIJ_aEGkgGij4ARnpAP3ZsfIEY",
-    image_attribution: null
-  },
-  {
     name: "IHOP",
     address: "531 Foster City Blvd, Foster City",
     key: "ChIJPYsgLMyej4ARgtYj6UmCzfI",
     image_attribution: null
   },
   {
-    name: "Morton's The Steakhouse",
-    address: "170 S Market St, San Jose",
-    key: "ChIJYVuT2aTMj4ARVoWJdxjG69A",
+    name: "Javalencia",
+    address: "1594 Market St, San Francisco",
+    key: "ChIJdb5s-p6AhYAR14CQqU9V_7k",
     image_attribution: null
   },
   {
@@ -1396,15 +1497,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Le Marais Bakery",
+    address: "498 Sanchez Street, San Francisco",
+    key: "ChIJ8RGRMxp-j4ARRBNEAtU1o24",
+    image_attribution: ""
+  },
+  {
     name: "Obed",
     address: "911 E Duane Ave, Sunnyvale",
     key: "ChIJNY_e1Tq2j4AR9coNS-dovf0",
     image_attribution: null
   },
   {
-    name: "Mr. T Cafe",
-    address: "4689 Mission St, San Francisco",
-    key: "ChIJiYhI9IV-j4AR_E608UKRzyM",
+    name: "Bini's Kitchen",
+    address: "2948 Folsom Street, San Francisco",
+    key: "ChIJhTCodEZ-j4AR3YBjm4mje74",
+    image_attribution: ""
+  },
+  {
+    name: "Mardini's Deli Cafe",
+    address: "408 Willow Rd, Menlo Park",
+    key: "ChIJx_z8YNa7j4ARz1dXw2JYbAY",
     image_attribution: null
   },
   {
@@ -1414,15 +1527,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Mi Taqueria",
+    address: "875 Hamilton Ave, Menlo Park",
+    key: "ChIJUW8_cZi8j4ARlXrMi3FLNhE",
+    image_attribution: null
+  },
+  {
+    name: "Al Fin Restaurant",
+    address: "7398 Mission St, Daly City",
+    key: "ChIJ2fGzow18j4AR1gRdwOd4Y50",
+    image_attribution: null
+  },
+  {
     name: "La Collina Italian Restaurant",
     address: "355 El Camino Real, Millbrae",
     key: "ChIJ56l43qR3j4AR9VlHeiF1NpY",
     image_attribution: null
   },
   {
-    name: "Shanghai China Restaurant",
-    address: "1559 Mission Street, San Francisco",
-    key: "ChIJEROC452AhYAR_DwZhHu6Lg4",
+    name: "Celia's",
+    address: "379 Gellert Blvd, Daly City",
+    key: "ChIJrWowAut7j4ARzXSNL7aP0eg",
     image_attribution: null
   },
   {
@@ -1438,9 +1563,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Al Fin Restaurant",
-    address: "7398 Mission St, Daly City",
-    key: "ChIJ2fGzow18j4AR1gRdwOd4Y50",
+    name: "Los Gallos Taqueria",
+    address: "3726 Florence St, Redwood City",
+    key: "ChIJ1_3qwUejj4ARR2LFfqhuGCo",
     image_attribution: null
   },
   {
@@ -1462,45 +1587,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sasaki",
-    address: "2400 Harrison Street, San Francisco",
-    key: "ChIJUYlfXzd-j4ARTpb9yOeCg-c",
-    image_attribution: null
-  },
-  {
     name: "Dan Izakaya Restaurant",
     address: "1306 Saratoga Ave, San Jose",
     key: "ChIJsbLE36_Kj4ARgp_-rkOUYpg",
     image_attribution: null
   },
   {
-    name: "Los Gallos Taqueria",
-    address: "3726 Florence St, Redwood City",
-    key: "ChIJ1_3qwUejj4ARR2LFfqhuGCo",
-    image_attribution: null
-  },
-  {
-    name: "Mi Taqueria",
-    address: "875 Hamilton Ave, Menlo Park",
-    key: "ChIJUW8_cZi8j4ARlXrMi3FLNhE",
-    image_attribution: null
-  },
-  {
     name: "Porta Blu",
     address: "Lobby Level, 200 Independence Dr, Menlo Park",
     key: "ChIJ0cHjuEqjj4ARXVD3djzV2fI",
-    image_attribution: null
-  },
-  {
-    name: "Mardini's Deli Cafe",
-    address: "408 Willow Rd, Menlo Park",
-    key: "ChIJx_z8YNa7j4ARz1dXw2JYbAY",
-    image_attribution: null
-  },
-  {
-    name: "IKEA Restaurant",
-    address: "1700 E W Bayshore Rd, East Palo Alto",
-    key: "ChIJA8609XG7j4ARvkYM5D0EaPM",
     image_attribution: null
   },
   {
@@ -1522,15 +1617,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cascal",
-    address: "400 Castro St, Mountain View",
-    key: "ChIJ03QfnzO3j4ARC0p7TSYoCpA",
+    name: "Sizzling Pot King",
+    address: "139 8th Street, San Francisco",
+    key: "ChIJYZp9LYOAhYAR-zYOp1qMPbE",
     image_attribution: null
   },
   {
-    name: "Celia's",
-    address: "379 Gellert Blvd, Daly City",
-    key: "ChIJrWowAut7j4ARzXSNL7aP0eg",
+    name: "E&O Kitchen and Bar",
+    address: "314 Sutter Street, San Francisco",
+    key: "ChIJGXWXQYmAhYAR-Nr_OyKvI2o",
+    image_attribution: null
+  },
+  {
+    name: "IKEA Restaurant",
+    address: "1700 E W Bayshore Rd, East Palo Alto",
+    key: "ChIJA8609XG7j4ARvkYM5D0EaPM",
+    image_attribution: null
+  },
+  {
+    name: "Cascal",
+    address: "400 Castro St, Mountain View",
+    key: "ChIJ03QfnzO3j4ARC0p7TSYoCpA",
     image_attribution: null
   },
   {
@@ -1546,22 +1653,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Castro Fountain",
-    address: "554 Castro St, San Francisco",
-    key: "ChIJffN_1hp-j4ART60fN2z-PBw",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
-  },
-  {
-    name: "YakiniQ BBQ",
-    address: "1640 Post Street, San Francisco",
-    key: "ChIJK_5e2L6AhYARFRqdUybyQ0I",
-    image_attribution: null
-  },
-  {
-    name: "Urfa Bistro",
-    address: "233 State St, Los Altos",
-    key: "ChIJrxWXNu6wj4ARYLJli-ApALY",
+    name: "Angies Pizza Italian Restaurant",
+    address: "1535 S Winchester Blvd, San Jose",
+    key: "ChIJIao5Cyk1joARl_ic3MU7sAk",
     image_attribution: null
   },
   {
@@ -1589,10 +1683,11 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sumika",
-    address: "236 Central Plz, Los Altos",
-    key: "ChIJzYrvNO6wj4AR8INu1uGm4ds",
-    image_attribution: null
+    name: "The Castro Fountain",
+    address: "554 Castro St, San Francisco",
+    key: "ChIJffN_1hp-j4ART60fN2z-PBw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
   },
   {
     name: "Vivace Ristorante",
@@ -1604,6 +1699,12 @@ const SFPlaces = [
     name: "Restaurant 3000",
     address: "3000 Sand Hill Rd, Menlo Park",
     key: "ChIJmTSAaFikj4ARF3bb5ZgogHE",
+    image_attribution: null
+  },
+  {
+    name: "Thai Tamarind Restaurant",
+    address: "1316 El Camino Real, Belmont",
+    key: "ChIJ69NpAFGfj4AROfcL_JjqWkE",
     image_attribution: null
   },
   {
@@ -1649,21 +1750,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Angies Pizza Italian Restaurant",
-    address: "1535 S Winchester Blvd, San Jose",
-    key: "ChIJIao5Cyk1joARl_ic3MU7sAk",
-    image_attribution: null
-  },
-  {
-    name: "Thai Tamarind Restaurant",
-    address: "1316 El Camino Real, Belmont",
-    key: "ChIJ69NpAFGfj4AROfcL_JjqWkE",
-    image_attribution: null
-  },
-  {
     name: "Hanamaru",
     address: "675 S Bernardo Ave, Sunnyvale",
     key: "ChIJ2_drFum2j4ARdQ3ok0PiRrw",
+    image_attribution: null
+  },
+  {
+    name: "Urfa Bistro",
+    address: "233 State St, Los Altos",
+    key: "ChIJrxWXNu6wj4ARYLJli-ApALY",
+    image_attribution: null
+  },
+  {
+    name: "Sumika",
+    address: "236 Central Plz, Los Altos",
+    key: "ChIJzYrvNO6wj4AR8INu1uGm4ds",
     image_attribution: null
   },
   {
@@ -1673,9 +1774,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Red Pepper Bar and Grill",
-    address: "2310 Homestead Rd J, Los Altos",
-    key: "ChIJieswgBm0j4ARDSKwScWK5gw",
+    name: "Bumble",
+    address: "145 1st St, Los Altos",
+    key: "ChIJj_HE6fGwj4ARb8K8GtWLdRM",
     image_attribution: null
   },
   {
@@ -1685,21 +1786,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bumble",
-    address: "145 1st St, Los Altos",
-    key: "ChIJj_HE6fGwj4ARb8K8GtWLdRM",
-    image_attribution: null
-  },
-  {
-    name: "AltoVino",
-    address: "1358 Mason Street, San Francisco",
-    key: "ChIJCUs0YfKAhYARR2NFzL6xY-w",
-    image_attribution: null
-  },
-  {
-    name: "El Pipila",
-    address: "879 Brannan Street, San Francisco",
-    key: "ChIJVzS5uep_j4AR9vEsumwEuww",
+    name: "Red Pepper Bar and Grill",
+    address: "2310 Homestead Rd J, Los Altos",
+    key: "ChIJieswgBm0j4ARDSKwScWK5gw",
     image_attribution: null
   },
   {
@@ -1709,9 +1798,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dagwood & Scoops",
-    address: "2736 24th Street, San Francisco",
-    key: "ChIJQWE9X0l-j4ARWFzThKLmADA",
+    name: "The City Fish",
+    address: "30 E Santa Clara St, San Jose",
+    key: "ChIJ-8-00bzMj4AR0wpN69zoCSU",
     image_attribution: null
   },
   {
@@ -1724,6 +1813,12 @@ const SFPlaces = [
     name: "The Post",
     address: "395 Main St, Los Altos",
     key: "ChIJNR-Z3u-wj4ARqG-56lDF-4c",
+    image_attribution: null
+  },
+  {
+    name: "Na Na's Kitchen",
+    address: "301 Visitacion Ave, Brisbane",
+    key: "ChIJZzg_JSB5j4AR7eFZe9TOxJs",
     image_attribution: null
   },
   {
@@ -1757,21 +1852,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ter\u00fan",
-    address: "448 California Ave, Palo Alto",
-    key: "ChIJtXQ38-W6j4AR44dFBS3v120",
+    name: "Pressed Juicery",
+    address: "2162A Union Street, San Francisco",
+    key: "ChIJ53_fm9qAhYARSPvAA5Tn5SU",
     image_attribution: null
   },
   {
-    name: "Sun Of Wolf",
-    address: "406 California Ave, Palo Alto",
-    key: "ChIJ8RX-6uW6j4ARyxo26LXPQ0k",
+    name: "Amoura",
+    address: "713 Linden Ave, South San Francisco",
+    key: "ChIJ7ernuKl5j4ARsU0VQwKh0cA",
     image_attribution: null
   },
   {
-    name: "The City Fish",
-    address: "30 E Santa Clara St, San Jose",
-    key: "ChIJ-8-00bzMj4AR0wpN69zoCSU",
+    name: "Dagwood & Scoops",
+    address: "2736 24th Street, San Francisco",
+    key: "ChIJQWE9X0l-j4ARWFzThKLmADA",
     image_attribution: null
   },
   {
@@ -1787,15 +1882,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Amoura",
-    address: "713 Linden Ave, South San Francisco",
-    key: "ChIJ7ernuKl5j4ARsU0VQwKh0cA",
+    name: "Ter\u00fan",
+    address: "448 California Ave, Palo Alto",
+    key: "ChIJtXQ38-W6j4AR44dFBS3v120",
     image_attribution: null
   },
   {
-    name: "Na Na's Kitchen",
-    address: "301 Visitacion Ave, Brisbane",
-    key: "ChIJZzg_JSB5j4AR7eFZe9TOxJs",
+    name: "Sun Of Wolf",
+    address: "406 California Ave, Palo Alto",
+    key: "ChIJ8RX-6uW6j4ARyxo26LXPQ0k",
     image_attribution: null
   },
   {
@@ -1811,15 +1906,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Parada 22",
-    address: "1805 Haight St, San Francisco",
-    key: "ChIJ1c-fK1KHhYAR319Uwh4VKUA",
+    name: "Country Cottage Cafe",
+    address: "238 Grand Ave, South San Francisco",
+    key: "ChIJETni2655j4ARFF_Lq29oL7s",
     image_attribution: null
   },
   {
-    name: "Garibaldis Restaurant",
-    address: "347 Presidio Ave, San Francisco",
-    key: "ChIJP_8MPBV-j4ARrB65PMFjA-Y",
+    name: "Stick & Steam",
+    address: "350 Adrian Rd, Millbrae",
+    key: "ChIJmReAz793j4ARpgLxybdmiGA",
+    image_attribution: null
+  },
+  {
+    name: "Pacific Catch",
+    address: "243 S B St, San Mateo",
+    key: "ChIJY5OlhXCej4ARTewMKKVfI2Q",
+    image_attribution: null
+  },
+  {
+    name: "Viognier",
+    address: "222 E 4th Ave, San Mateo",
+    key: "ChIJ86VgoXqej4ARS02cXDxSv1E",
     image_attribution: null
   },
   {
@@ -1901,15 +2008,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Country Cottage Cafe",
-    address: "238 Grand Ave, South San Francisco",
-    key: "ChIJETni2655j4ARFF_Lq29oL7s",
+    name: "Bangkok Patio Bar & Restaurant",
+    address: "615 E 3rd Ave, San Mateo",
+    key: "ChIJUYYERnqej4ARdXnmVHNAK3Y",
     image_attribution: null
   },
   {
-    name: "Stick & Steam",
-    address: "350 Adrian Rd, Millbrae",
-    key: "ChIJmReAz793j4ARpgLxybdmiGA",
+    name: "Manna",
+    address: "845 Irving Street, San Francisco",
+    key: "ChIJwS0XsF2HhYARas-FkJML0q4",
     image_attribution: null
   },
   {
@@ -1919,21 +2026,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pacific Catch",
-    address: "243 S B St, San Mateo",
-    key: "ChIJY5OlhXCej4ARTewMKKVfI2Q",
+    name: "Slider's Diner",
+    address: "1202 Sutter Street, San Francisco",
+    key: "ChIJ4bp5RJSAhYARLa6wrz4U3Co",
     image_attribution: null
   },
   {
-    name: "Viognier",
-    address: "222 E 4th Ave, San Mateo",
-    key: "ChIJ86VgoXqej4ARS02cXDxSv1E",
+    name: "The Social Study",
+    address: "1795 Geary Boulevard, San Francisco",
+    key: "ChIJ76SKCLmAhYARe15t27RAbwY",
     image_attribution: null
   },
   {
-    name: "Bangkok Patio Bar & Restaurant",
-    address: "615 E 3rd Ave, San Mateo",
-    key: "ChIJUYYERnqej4ARdXnmVHNAK3Y",
+    name: "Cumaica: Artesanos del Cafe",
+    address: "1398 Mission St, San Francisco",
+    key: "ChIJwWFeq52AhYARTvqup77A3MQ",
+    image_attribution: null
+  },
+  {
+    name: "La Nueva Perla",
+    address: "222 Lux Ave, South San Francisco",
+    key: "ChIJjTvPOKl5j4AR5kk0v1kT9aw",
+    image_attribution: null
+  },
+  {
+    name: "Di Napoli Pizzeria & Ristorante",
+    address: "202 Grand Ave, South San Francisco",
+    key: "ChIJfy1a6q55j4ARL7lUXfBr7ik",
+    image_attribution: null
+  },
+  {
+    name: "Yas Restaurant",
+    address: "1138 Saratoga Ave, San Jose",
+    key: "ChIJGZ9n87rKj4ARCQJyLGXD6vM",
+    image_attribution: null
+  },
+  {
+    name: "Sun Kwong Restaurant",
+    address: "1400 Jackson Street, San Francisco",
+    key: "ChIJ-ZZTduyAhYARzyxellr3s6Q",
+    image_attribution: null
+  },
+  {
+    name: "Isla Vida",
+    address: "1325 Fillmore St, San Francisco",
+    key: "ChIJ22IEGyuBhYARb1pc6eVXDPg",
+    image_attribution: null
+  },
+  {
+    name: "Quattro",
+    address: "2050 University Ave, East Palo Alto",
+    key: "ChIJHwrwc267j4ARHOEESTlTwF4",
     image_attribution: null
   },
   {
@@ -1973,48 +2116,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Citrus Club",
-    address: "1790 Haight Street #2823, San Francisco",
-    key: "ChIJJeFjMlKHhYARNLCecryoS2k",
-    image_attribution: null
-  },
-  {
-    name: "California Pizza Kitchen at 53 Third Street",
-    address: "53 3rd Street, San Francisco",
-    key: "ChIJrU1zCoiAhYARROMfNKqIWQM",
-    image_attribution: null
-  },
-  {
-    name: "La Nueva Perla",
-    address: "222 Lux Ave, South San Francisco",
-    key: "ChIJjTvPOKl5j4AR5kk0v1kT9aw",
-    image_attribution: null
-  },
-  {
-    name: "Quattro",
-    address: "2050 University Ave, East Palo Alto",
-    key: "ChIJHwrwc267j4ARHOEESTlTwF4",
-    image_attribution: null
-  },
-  {
-    name: "Yas Restaurant",
-    address: "1138 Saratoga Ave, San Jose",
-    key: "ChIJGZ9n87rKj4ARCQJyLGXD6vM",
-    image_attribution: null
-  },
-  {
-    name: "Di Napoli Pizzeria & Ristorante",
-    address: "202 Grand Ave, South San Francisco",
-    key: "ChIJfy1a6q55j4ARL7lUXfBr7ik",
-    image_attribution: null
-  },
-  {
-    name: "Dashi Japanese Restaurant",
-    address: "873 Hamilton Ave, Menlo Park",
-    key: "ChIJo0NIcZi8j4ARjJ9Kj6BWEnc",
-    image_attribution: null
-  },
-  {
     name: "Soong Soong Restaurant",
     address: "3680 Stevens Creek Blvd, San Jose",
     key: "ChIJpziIOezKj4ARn4VC_ZM1_WA",
@@ -2024,6 +2125,78 @@ const SFPlaces = [
     name: "Two Pesos Taqueria",
     address: "1452 Pollard Rd, Los Gatos",
     key: "ChIJM4mDAm41joARkHwwrhi0_Ws",
+    image_attribution: null
+  },
+  {
+    name: "Jack's Restaurant and Bar",
+    address: "1750 S El Camino Real, San Mateo",
+    key: "ChIJCzbe2Viej4ARxdm0aQzctUo",
+    image_attribution: null
+  },
+  {
+    name: "Donut World",
+    address: "1399 9th Avenue, San Francisco",
+    key: "ChIJfY-tgV6HhYARrdR1f4FcdrY",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Los Mayas",
+    address: "331 Clement St, San Francisco",
+    key: "ChIJ-w2D4zuHhYAROYAF0fL-EXo",
+    image_attribution: null
+  },
+  {
+    name: "CamboWan Restaurant",
+    address: "4300 S El Camino Real, San Mateo",
+    key: "ChIJtdo4ID6fj4ARu8W-orGCnp4",
+    image_attribution: null
+  },
+  {
+    name: "Fernando's M\u00e9xican Restaurant",
+    address: "63 37th Ave, San Mateo",
+    key: "ChIJkTQUbxqfj4ARnwE0LebF5Gg",
+    image_attribution: null
+  },
+  {
+    name: "The Van's Restaurant",
+    address: "815 Belmont Ave, Belmont",
+    key: "ChIJC390lD-fj4ARemTTTcqQ3ps",
+    image_attribution: null
+  },
+  {
+    name: "The House",
+    address: "1230 Grant Avenue, San Francisco",
+    key: "ChIJ5TeZivOAhYARDXYf1snFeLA",
+    image_attribution: null
+  },
+  {
+    name: "Coconuts",
+    address: "642 Ramona St, Palo Alto",
+    key: "ChIJQ7QsMzq7j4ARidQmfZss-Wc",
+    image_attribution: null
+  },
+  {
+    name: "Il Fornaio",
+    address: "520 Cowper St, Palo Alto",
+    key: "ChIJpf2l3zi7j4ARq9jTYIKdfb0",
+    image_attribution: null
+  },
+  {
+    name: "El Sinaloense Restaurant",
+    address: "1622 Palm Ave, San Mateo",
+    key: "ChIJHwExAV-ej4ARTtO8nKuvAy8",
+    image_attribution: null
+  },
+  {
+    name: "Hi-T Cafe & Deli",
+    address: "6012 Mission St, Daly City",
+    key: "ChIJ03_aeiN8j4ARkwMh93zYiDo",
+    image_attribution: null
+  },
+  {
+    name: "Mistral Restaurant and Bar",
+    address: "370-6 Bridge Pkwy, Redwood City",
+    key: "ChIJMZAdxbCYj4ARvab868SQ4iI",
     image_attribution: null
   },
   {
@@ -2045,99 +2218,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "CamboWan Restaurant",
-    address: "4300 S El Camino Real, San Mateo",
-    key: "ChIJtdo4ID6fj4ARu8W-orGCnp4",
-    image_attribution: null
-  },
-  {
-    name: "Fernando's M\u00e9xican Restaurant",
-    address: "63 37th Ave, San Mateo",
-    key: "ChIJkTQUbxqfj4ARnwE0LebF5Gg",
-    image_attribution: null
-  },
-  {
-    name: "Jack's Restaurant and Bar",
-    address: "1750 S El Camino Real, San Mateo",
-    key: "ChIJCzbe2Viej4ARxdm0aQzctUo",
-    image_attribution: null
-  },
-  {
-    name: "El Sinaloense Restaurant",
-    address: "1622 Palm Ave, San Mateo",
-    key: "ChIJHwExAV-ej4ARTtO8nKuvAy8",
-    image_attribution: null
-  },
-  {
-    name: "The Van's Restaurant",
-    address: "815 Belmont Ave, Belmont",
-    key: "ChIJC390lD-fj4ARemTTTcqQ3ps",
-    image_attribution: null
-  },
-  {
-    name: "Hi-T Cafe & Deli",
-    address: "6012 Mission St, Daly City",
-    key: "ChIJ03_aeiN8j4ARkwMh93zYiDo",
-    image_attribution: null
-  },
-  {
-    name: "Mistral Restaurant and Bar",
-    address: "370-6 Bridge Pkwy, Redwood City",
-    key: "ChIJMZAdxbCYj4ARvab868SQ4iI",
-    image_attribution: null
-  },
-  {
-    name: "Beit Rima",
-    address: "138 Church Street, San Francisco",
-    key: "ChIJl9NqEC1_j4ARE2Xf-ZIztFM",
-    image_attribution: ""
-  },
-  {
-    name: "The Keystone Social House",
-    address: "68 4th Street, San Francisco",
-    key: "ChIJRcqFN4aAhYARSvdFY6nNytM",
-    image_attribution: null
-  },
-  {
-    name: "Coconuts",
-    address: "642 Ramona St, Palo Alto",
-    key: "ChIJQ7QsMzq7j4ARidQmfZss-Wc",
-    image_attribution: null
-  },
-  {
-    name: "Il Fornaio",
-    address: "520 Cowper St, Palo Alto",
-    key: "ChIJpf2l3zi7j4ARq9jTYIKdfb0",
-    image_attribution: null
-  },
-  {
-    name: "Ristorante Buon Gusto",
-    address: "224 Grand Ave, South San Francisco",
-    key: "ChIJ9yAqw655j4ARNVk5ngbHDRI",
-    image_attribution: null
-  },
-  {
     name: "Taiwan Restaurant",
     address: "1306 Lincoln Ave, San Jose",
     key: "ChIJs0lTBVkzjoAR2w9E6CG9bv8",
     image_attribution: null
   },
   {
-    name: "Higuma Japanese Restaurant",
-    address: "540 El Camino Real, Redwood City",
-    key: "ChIJo_HfEUmij4ARTD1tcd8Xfg8",
+    name: "Nutrition Restaurant",
+    address: "10935 N Wolfe Rd, Cupertino",
+    key: "ChIJQ6qxFZa1j4ARs2CX5yTlGaw",
     image_attribution: null
   },
   {
-    name: "Good Earth Cafe",
-    address: "835 Kearny St, San Francisco",
-    key: "ChIJjTyczvSAhYARGjIGM8NkEnQ",
+    name: "Lazy Dog Restaurant & Bar",
+    address: "19359 Stevens Creek Blvd, Cupertino",
+    key: "ChIJAb33GUS0j4ARjGKbpYi5jR4",
     image_attribution: null
   },
   {
-    name: "Thai Satay Restaurant & Bar",
-    address: "265 Grand Ave, South San Francisco",
-    key: "ChIJxzxl2K55j4ARD7NfmmvxbfY",
+    name: "A Bellagio Italian Restaurant",
+    address: "33 S Central Ave, Campbell",
+    key: "ChIJ3YYhUd40joAR3xeb6sqneBc",
+    image_attribution: null
+  },
+  {
+    name: "Chang's Kitchen Restaurant",
+    address: "1030 Irving Street, San Francisco",
+    key: "ChIJGTU4f12HhYARRE71Wht2xvs",
     image_attribution: null
   },
   {
@@ -2147,27 +2254,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ragazza",
-    address: "311 Divisadero St, San Francisco",
-    key: "ChIJeVZDPa-AhYARsGb5B7JsJAY",
-    image_attribution: ""
-  },
-  {
-    name: "Nutrition Restaurant",
-    address: "10935 N Wolfe Rd, Cupertino",
-    key: "ChIJQ6qxFZa1j4ARs2CX5yTlGaw",
-    image_attribution: null
-  },
-  {
-    name: "Toyama Japanese Restaurant",
-    address: "3727 Geary Boulevard, San Francisco",
-    key: "ChIJa_2ASjiHhYARxZ0v2aJaDMU",
+    name: "Godfather's Burger Lounge",
+    address: "1500 El Camino Real, Belmont",
+    key: "ChIJVYfuqVafj4ARsjl40gxQnJw",
     image_attribution: null
   },
   {
     name: "Denny's",
     address: "1745 El Camino Real, Santa Clara",
     key: "ChIJSYh6NE_Kj4ARtPe6qUMxW2I",
+    image_attribution: null
+  },
+  {
+    name: "Torraku Ramen",
+    address: "300 De Haro Street #338, San Francisco",
+    key: "ChIJidSArSh-j4AROFC-XNYUsXA",
     image_attribution: null
   },
   {
@@ -2183,33 +2284,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Higuma Japanese Restaurant",
+    address: "540 El Camino Real, Redwood City",
+    key: "ChIJo_HfEUmij4ARTD1tcd8Xfg8",
+    image_attribution: null
+  },
+  {
     name: "Hula Hoops Restaurant & Tiki Bar",
     address: "2278 Westborough Blvd #203, South San Francisco",
     key: "ChIJVVUVfix6j4ARaXQvwLTTn4Y",
     image_attribution: null
   },
   {
-    name: "Moonraker",
-    address: "105 Rockaway Beach Ave, Pacifica",
-    key: "ChIJz6JdXIl6j4AR0M4U78Jwz10",
-    image_attribution: null
-  },
-  {
-    name: "Nick's Rockaway",
-    address: "100 Rockaway Beach Ave, Pacifica",
-    key: "ChIJudEwT4l6j4AR8kruJkjSG7k",
-    image_attribution: null
-  },
-  {
-    name: "Lazy Dog Restaurant & Bar",
-    address: "19359 Stevens Creek Blvd, Cupertino",
-    key: "ChIJAb33GUS0j4ARjGKbpYi5jR4",
-    image_attribution: null
-  },
-  {
-    name: "Effie's Restaurant & Bar",
-    address: "331 W Hacienda Ave, Campbell",
-    key: "ChIJg0stEAU1joARNYEZvdDwWkk",
+    name: "Oren's Hummus",
+    address: "71 3rd St, San Francisco",
+    key: "ChIJhWX_g6-BhYARuyGn5I4CYnY",
     image_attribution: null
   },
   {
@@ -2219,15 +2308,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Godfather's Burger Lounge",
-    address: "1500 El Camino Real, Belmont",
-    key: "ChIJVYfuqVafj4ARsjl40gxQnJw",
-    image_attribution: null
-  },
-  {
-    name: "A Bellagio Italian Restaurant",
-    address: "33 S Central Ave, Campbell",
-    key: "ChIJ3YYhUd40joAR3xeb6sqneBc",
+    name: "Moonraker",
+    address: "105 Rockaway Beach Ave, Pacifica",
+    key: "ChIJz6JdXIl6j4AR0M4U78Jwz10",
     image_attribution: null
   },
   {
@@ -2237,9 +2320,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Ristorante Buon Gusto",
+    address: "224 Grand Ave, South San Francisco",
+    key: "ChIJ9yAqw655j4ARNVk5ngbHDRI",
+    image_attribution: null
+  },
+  {
+    name: "Nick's Rockaway",
+    address: "100 Rockaway Beach Ave, Pacifica",
+    key: "ChIJudEwT4l6j4AR8kruJkjSG7k",
+    image_attribution: null
+  },
+  {
+    name: "Thai Satay Restaurant & Bar",
+    address: "265 Grand Ave, South San Francisco",
+    key: "ChIJxzxl2K55j4ARD7NfmmvxbfY",
+    image_attribution: null
+  },
+  {
     name: "Gunter's Restaurant",
     address: "1057 El Camino Real, South San Francisco",
     key: "ChIJNddu0Hl5j4AR43eLSZBEa2o",
+    image_attribution: null
+  },
+  {
+    name: "Effie's Restaurant & Bar",
+    address: "331 W Hacienda Ave, Campbell",
+    key: "ChIJg0stEAU1joARNYEZvdDwWkk",
+    image_attribution: null
+  },
+  {
+    name: "Fort McKinley Restaurant, Bar & Banquet",
+    address: "101 Brentwood Dr, South San Francisco",
+    key: "ChIJ4xYy55V5j4ARyBXkgCcCAvY",
+    image_attribution: null
+  },
+  {
+    name: "AL's Place",
+    address: "1499 Valencia St, San Francisco",
+    key: "ChIJzch6bEF-j4AR6MPa2jK_naA",
+    image_attribution: null
+  },
+  {
+    name: "Equator Coffees",
+    address: "222 2nd St, San Francisco",
+    key: "ChIJgXCr_HyAhYARwuh0KYbwaMc",
     image_attribution: null
   },
   {
@@ -2249,9 +2374,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Benihana",
-    address: "2074 Vallco Pkwy, Cupertino",
-    key: "ChIJy_jI65i1j4ARhkl5AjxRYU8",
+    name: "Naschmarkt Restaurant",
+    address: "384 E Campbell Ave, Campbell",
+    key: "ChIJnQ50Z940joARnN7L2Yff9AY",
     image_attribution: null
   },
   {
@@ -2261,27 +2386,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Naschmarkt Restaurant",
-    address: "384 E Campbell Ave, Campbell",
-    key: "ChIJnQ50Z940joARnN7L2Yff9AY",
-    image_attribution: null
-  },
-  {
-    name: "O Sole Mio",
-    address: "352 Broadway, Millbrae",
-    key: "ChIJdY1XHKV3j4ARoqed9zXnooo",
+    name: "Parada 22",
+    address: "1805 Haight St, San Francisco",
+    key: "ChIJ1c-fK1KHhYAR319Uwh4VKUA",
     image_attribution: null
   },
   {
     name: "Achilles",
     address: "2521 Newhall St, Santa Clara",
     key: "ChIJ9YVdRIzLj4ARKp3PpZ5qu38",
-    image_attribution: null
-  },
-  {
-    name: "Hubei Restaurant",
-    address: "1055 El Camino Real, Millbrae",
-    key: "ChIJyRgOxqF3j4AR3ZCxGbc-fAs",
     image_attribution: null
   },
   {
@@ -2315,15 +2428,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fort McKinley Restaurant, Bar & Banquet",
-    address: "101 Brentwood Dr, South San Francisco",
-    key: "ChIJ4xYy55V5j4ARyBXkgCcCAvY",
-    image_attribution: null
+    name: "Azalina's",
+    address: "1355 Market St, San Francisco",
+    key: "ChIJbWHIFJyAhYARrsMEqiOdQOo",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102077203613052810199\">vexx786</a>']"
   },
   {
-    name: "Celia's M\u00e9xican Restaurant",
-    address: "201 El Camino Real, San Bruno",
-    key: "ChIJ3VlsiHt3j4ARHAEVlInU764",
+    name: "Benihana",
+    address: "2074 Vallco Pkwy, Cupertino",
+    key: "ChIJy_jI65i1j4ARhkl5AjxRYU8",
     image_attribution: null
   },
   {
@@ -2345,75 +2459,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Crepe House III",
-    address: "1132 Valencia Street, San Francisco",
-    key: "ChIJfzlQAT9-j4ARbbjL26b2R6M",
+    name: "O Sole Mio",
+    address: "352 Broadway, Millbrae",
+    key: "ChIJdY1XHKV3j4ARoqed9zXnooo",
     image_attribution: null
   },
   {
-    name: "Hahn's Hibachi",
-    address: "1710 Polk Street, San Francisco",
-    key: "ChIJT-CnA-uAhYAR-l5CuF6-ZA0",
+    name: "Hubei Restaurant",
+    address: "1055 El Camino Real, Millbrae",
+    key: "ChIJyRgOxqF3j4AR3ZCxGbc-fAs",
     image_attribution: null
   },
   {
-    name: "Town Hall Restaurant",
-    address: "342 Howard Street, San Francisco",
-    key: "ChIJs6-YsWSAhYAR_9_dvdFDUww",
-    image_attribution: null
-  },
-  {
-    name: "Cafe del sol restaurant",
-    address: "1010 Doyle St, Menlo Park",
-    key: "ChIJCdtT17Gkj4ARcFT3doaPy10",
-    image_attribution: null
-  },
-  {
-    name: "Crouching Tiger Restaurant",
-    address: "2644 Broadway, Redwood City",
-    key: "ChIJLyVE4kyij4ARPBqE12qfUxE",
-    image_attribution: null
-  },
-  {
-    name: "Pane e Vino",
-    address: "1715 Union Street, San Francisco",
-    key: "ChIJYZV_MsOAhYAR8LBb3YV34ic",
-    image_attribution: null
-  },
-  {
-    name: "La Viga Seafood & Cocina Mexicana",
-    address: "1772 Broadway, Redwood City",
-    key: "ChIJwYL-H6ujj4ARS7ZReMWhm9M",
-    image_attribution: null
-  },
-  {
-    name: "Val's",
-    address: "2468 Junipero Serra Blvd, Daly City",
-    key: "ChIJeZmvHW18j4ARc8KhDOR05kI",
-    image_attribution: null
-  },
-  {
-    name: "LV Mar Tapas & Cocktails",
-    address: "2042 Broadway, Redwood City",
-    key: "ChIJkwr5tayjj4ARkXakMZrJOYo",
-    image_attribution: null
-  },
-  {
-    name: "Great Eastern Restaurant",
-    address: "649 Jackson Street #649, San Francisco",
-    key: "ChIJPe15ufSAhYARf6hhhS-Kq7w",
-    image_attribution: null
-  },
-  {
-    name: "DAEHO KOREAN BBQ & BEEF SOUP",
-    address: "1620 Post Street, San Francisco",
-    key: "ChIJVf29bvOBhYARVIE6JZtMYsk",
-    image_attribution: null
-  },
-  {
-    name: "IHOP",
-    address: "491 Veterans Blvd, Redwood City",
-    key: "ChIJRcUqgEWij4ARyR57zWLExWA",
+    name: "Celia's M\u00e9xican Restaurant",
+    address: "201 El Camino Real, San Bruno",
+    key: "ChIJ3VlsiHt3j4ARHAEVlInU764",
     image_attribution: null
   },
   {
@@ -2429,9 +2489,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Beer Nerds",
+    address: "3331 24th Street, San Francisco",
+    key: "ChIJ__9PuEB-j4AR2Be2q7eXL5Q",
+    image_attribution: null
+  },
+  {
     name: "Celia's",
     address: "504 Peninsula Ave, San Mateo",
     key: "ChIJi3DsR-idj4ARYhSvmuHVNmQ",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Guadalajara",
+    address: "3146 24th Street, San Francisco",
+    key: "ChIJYSx6r0d-j4AREaWCgiz689A",
+    image_attribution: null
+  },
+  {
+    name: "Val's",
+    address: "2468 Junipero Serra Blvd, Daly City",
+    key: "ChIJeZmvHW18j4ARc8KhDOR05kI",
+    image_attribution: null
+  },
+  {
+    name: "IHOP",
+    address: "491 Veterans Blvd, Redwood City",
+    key: "ChIJRcUqgEWij4ARyR57zWLExWA",
     image_attribution: null
   },
   {
@@ -2459,39 +2543,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cafe del sol restaurant",
+    address: "1010 Doyle St, Menlo Park",
+    key: "ChIJCdtT17Gkj4ARcFT3doaPy10",
+    image_attribution: null
+  },
+  {
+    name: "Crouching Tiger Restaurant",
+    address: "2644 Broadway, Redwood City",
+    key: "ChIJLyVE4kyij4ARPBqE12qfUxE",
+    image_attribution: null
+  },
+  {
+    name: "La Viga Seafood & Cocina Mexicana",
+    address: "1772 Broadway, Redwood City",
+    key: "ChIJwYL-H6ujj4ARS7ZReMWhm9M",
+    image_attribution: null
+  },
+  {
+    name: "Marina Submarine",
+    address: "2299 Union Street, San Francisco",
+    key: "ChIJLeGcQ9CAhYAR9WfvtgxAnJ8",
+    image_attribution: null
+  },
+  {
+    name: "LV Mar Tapas & Cocktails",
+    address: "2042 Broadway, Redwood City",
+    key: "ChIJkwr5tayjj4ARkXakMZrJOYo",
+    image_attribution: null
+  },
+  {
     name: "Pronto Wood Fired Pizzeria and Rotisserie",
     address: "2560 El Camino Real, Redwood City",
     key: "ChIJfQgSAgujj4ARzgWCNWrmPbo",
-    image_attribution: null
-  },
-  {
-    name: "Pho Hour",
-    address: "1114 Bryant Street, San Francisco",
-    key: "ChIJX5XkLyl-j4ARO4oppqmFq2Y",
-    image_attribution: null
-  },
-  {
-    name: "Fort Mason Market & Deli",
-    address: "1701 Greenwich Street, San Francisco",
-    key: "ChIJyQws7tyAhYARgj8gerHLlzw",
-    image_attribution: null
-  },
-  {
-    name: "Hobee's",
-    address: "680 River Oaks Pkwy, San Jose",
-    key: "ChIJV6WKJ2jJj4ARgb_GeQPkjQo",
-    image_attribution: null
-  },
-  {
-    name: "Menara Moroccan Restaurant",
-    address: "41 E Gish Rd, San Jose",
-    key: "ChIJv2Ebi4XLj4ARPFZ53NQmzm8",
-    image_attribution: null
-  },
-  {
-    name: "Hong Kong Clay Pot Restaurant",
-    address: "960 Grant Avenue, San Francisco",
-    key: "ChIJFUvxpPSAhYARe7KCl28GNo8",
     image_attribution: null
   },
   {
@@ -2501,15 +2585,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Dovre Club",
+    address: "1498 Valencia Street, San Francisco",
+    key: "ChIJgZ95bUF-j4ARwGYiEReWGJo",
+    image_attribution: null
+  },
+  {
+    name: "Hobee's",
+    address: "680 River Oaks Pkwy, San Jose",
+    key: "ChIJV6WKJ2jJj4ARgb_GeQPkjQo",
+    image_attribution: null
+  },
+  {
     name: "Il Fornaio",
     address: "302 S Market St, San Jose",
     key: "ChIJ06drj7rMj4AR4Y_OEpeT5LA",
     image_attribution: null
   },
   {
-    name: "La Enramada Restaurant",
-    address: "1635 McKee Rd, San Jose",
-    key: "ChIJxZ_4suTMj4ARj93eWSDlsKs",
+    name: "Menara Moroccan Restaurant",
+    address: "41 E Gish Rd, San Jose",
+    key: "ChIJv2Ebi4XLj4ARPFZ53NQmzm8",
     image_attribution: null
   },
   {
@@ -2519,9 +2615,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cibo Restaurant & Bar",
+    address: "3398 El Camino Real, Palo Alto",
+    key: "ChIJYXUmRfO6j4ARhMFbpl-Ra_c",
+    image_attribution: null
+  },
+  {
+    name: "Xanh",
+    address: "110 Castro St, Mountain View",
+    key: "ChIJJXxQLjS3j4ARyc48OPyTybw",
+    image_attribution: null
+  },
+  {
+    name: "Cucina Venti Restaurant",
+    address: "1390 Pear Ave ste d, Mountain View",
+    key: "ChIJC_3cdla3j4ARMgf4Pw8Irek",
+    image_attribution: null
+  },
+  {
+    name: "La Enramada Restaurant",
+    address: "1635 McKee Rd, San Jose",
+    key: "ChIJxZ_4suTMj4ARj93eWSDlsKs",
+    image_attribution: null
+  },
+  {
     name: "Fiorillo's Restaurant and Banquet Facilities",
     address: "638 El Camino Real, Santa Clara",
     key: "ChIJEwkILLLLj4AR8iOIT6UejPs",
+    image_attribution: null
+  },
+  {
+    name: "The Voya Restaurant",
+    address: "1390 Pear Ave suite b, Mountain View",
+    key: "ChIJg1Cnc1a3j4ARBJpna14RhDA",
     image_attribution: null
   },
   {
@@ -2549,39 +2675,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cibo Restaurant & Bar",
-    address: "3398 El Camino Real, Palo Alto",
-    key: "ChIJYXUmRfO6j4ARhMFbpl-Ra_c",
-    image_attribution: null
-  },
-  {
     name: "Dinah's Poolside Restaurant",
     address: "4261 El Camino Real, Palo Alto",
     key: "ChIJxUf2lnm6j4AROxY8N4vkocM",
     image_attribution: null
   },
   {
-    name: "Xanh",
-    address: "110 Castro St, Mountain View",
-    key: "ChIJJXxQLjS3j4ARyc48OPyTybw",
+    name: "The Beanery",
+    address: "602 Irving St, San Francisco",
+    key: "ChIJHUuvclyHhYARqK5A_gXmGDc",
     image_attribution: null
   },
   {
-    name: "Cucina Venti Restaurant",
-    address: "1390 Pear Ave ste d, Mountain View",
-    key: "ChIJC_3cdla3j4ARMgf4Pw8Irek",
+    name: "Pho Hour",
+    address: "1114 Bryant Street, San Francisco",
+    key: "ChIJX5XkLyl-j4ARO4oppqmFq2Y",
     image_attribution: null
   },
   {
-    name: "The Voya Restaurant",
-    address: "1390 Pear Ave suite b, Mountain View",
-    key: "ChIJg1Cnc1a3j4ARBJpna14RhDA",
-    image_attribution: null
-  },
-  {
-    name: "Mario's Italiano",
-    address: "861 Leong Dr, Mountain View",
-    key: "ChIJnaZ9aEG3j4ARwBhVygJ1Xrk",
+    name: "The Grove - Hayes",
+    address: "301 Hayes Street, San Francisco",
+    key: "ChIJIVD-WqKAhYAReHbjHnhsCNw",
     image_attribution: null
   },
   {
@@ -2591,27 +2705,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Squeeze In",
-    address: "3710 Florence St, Redwood City",
-    key: "ChIJ7Tskwkejj4ARldwK73tolBA",
-    image_attribution: null
-  },
-  {
-    name: "Sorrel",
-    address: "3228 Sacramento Street, San Francisco",
-    key: "ChIJSUqmKoyAhYARHqx0N3gnl8o",
-    image_attribution: null
-  },
-  {
     name: "Onyx Cafe",
     address: "950 King Dr, Daly City",
     key: "ChIJ4ddxJMh7j4ARgle92cWwXqc",
-    image_attribution: null
-  },
-  {
-    name: "Chili's Grill & Bar",
-    address: "2560 W El Camino Real, Mountain View",
-    key: "ChIJ8ZTVZJmwj4ARQFv0RXspg3A",
     image_attribution: null
   },
   {
@@ -2621,27 +2717,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Scratch",
-    address: "401 Castro St #100, Mountain View",
-    key: "ChIJTzWDpDO3j4ARI08nSK_WLeU",
+    name: "Camp BBQ",
+    address: "4014 Geary Boulevard, San Francisco",
+    key: "ChIJIUpPOTmHhYARKzq0tUi10b0",
+    image_attribution: null
+  },
+  {
+    name: "Squeeze In",
+    address: "3710 Florence St, Redwood City",
+    key: "ChIJ7Tskwkejj4ARldwK73tolBA",
+    image_attribution: null
+  },
+  {
+    name: "Mario's Italiano",
+    address: "861 Leong Dr, Mountain View",
+    key: "ChIJnaZ9aEG3j4ARwBhVygJ1Xrk",
+    image_attribution: null
+  },
+  {
+    name: "Local Brewing Co.",
+    address: "69 Bluxome Street, San Francisco",
+    key: "ChIJ18pfNdR_j4ARQLskcwCRBt4",
+    image_attribution: ""
+  },
+  {
+    name: "Chili's Grill & Bar",
+    address: "2560 W El Camino Real, Mountain View",
+    key: "ChIJ8ZTVZJmwj4ARQFv0RXspg3A",
     image_attribution: null
   },
   {
     name: "CHINA WOK RESTAURANT",
     address: "2633 California St, Mountain View",
     key: "ChIJgcBACZ6wj4AR1zeZyqrS6pk",
-    image_attribution: null
-  },
-  {
-    name: "La Fontaine",
-    address: "186 Castro St, Mountain View",
-    key: "ChIJZ54APTS3j4ARBYZD956MHq8",
-    image_attribution: null
-  },
-  {
-    name: "Zareen's",
-    address: "1477 Plymouth St suite c, Mountain View",
-    key: "ChIJQ8nPjFW3j4ARcAaUg5pF-Ts",
     image_attribution: null
   },
   {
@@ -2663,27 +2771,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Patxi's Pizza",
-    address: "511 Hayes Street, San Francisco",
-    key: "ChIJZcmnbaKAhYARlw87UJD_1Vw",
+    name: "Ananda Fuara",
+    address: "1298 Market Street, San Francisco",
+    key: "ChIJiaYceJyAhYARjyA70dD--UA",
+    image_attribution: null
+  },
+  {
+    name: "Scratch",
+    address: "401 Castro St #100, Mountain View",
+    key: "ChIJTzWDpDO3j4ARI08nSK_WLeU",
+    image_attribution: null
+  },
+  {
+    name: "Zareen's",
+    address: "1477 Plymouth St suite c, Mountain View",
+    key: "ChIJQ8nPjFW3j4ARcAaUg5pF-Ts",
     image_attribution: null
   },
   {
     name: "The Storehouse",
     address: "451 Galvez Ave Administrative Offices Dean, San Francisco",
     key: "ChIJMddO1lx_j4AROgP_oIF2XuA",
-    image_attribution: null
-  },
-  {
-    name: "Simple Pleasures Cafe",
-    address: "3434 Balboa St, San Francisco",
-    key: "ChIJgT8-R6aHhYARhSQG4Voq6L8",
-    image_attribution: null
-  },
-  {
-    name: "Rumors",
-    address: "398 7th Street, San Francisco",
-    key: "ChIJwUvmBCp-j4AR_oAezFIcY70",
     image_attribution: null
   },
   {
@@ -2705,28 +2813,17 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mediterranean Wraps",
-    address: "433 California Ave, Palo Alto",
-    key: "ChIJEWzP8uW6j4ARkmIR7vba8es",
+    name: "Bambu Desserts & Drinks",
+    address: "2223 Gellert Blvd, South San Francisco",
+    key: "ChIJRYusadN7j4ARJQ4Buw_i0wg",
     image_attribution: null
   },
   {
-    name: "Backyard Brew",
-    address: "444 California Ave, Palo Alto",
-    key: "ChIJtVNO8OW6j4AR9sfufgwNafQ",
-    image_attribution: null
-  },
-  {
-    name: "Olympus Caffe & Bakery",
-    address: "135 Castro St, Mountain View",
-    key: "ChIJZSOjJjS3j4AR1laX4fkSz08",
-    image_attribution: null
-  },
-  {
-    name: "Dana Street Roasting Company",
-    address: "744 W Dana St, Mountain View",
-    key: "ChIJDQDS8zO3j4AR90BTUEBwH1w",
-    image_attribution: null
+    name: "Arlequin Wine Merchant",
+    address: "372 Hayes St, San Francisco",
+    key: "ChIJr7uwv5iAhYARYkAkNkiMfZI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/109071827669299802642\">Charlie Englert</a>']"
   },
   {
     name: "Philz Coffee",
@@ -2735,15 +2832,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lou's Restaurant",
-    address: "15691 Los Gatos Blvd, Los Gatos",
-    key: "ChIJt2Tchsc1joAR13GjeRoXYqE",
-    image_attribution: null
-  },
-  {
-    name: "Bambu Desserts & Drinks",
-    address: "2223 Gellert Blvd, South San Francisco",
-    key: "ChIJRYusadN7j4ARJQ4Buw_i0wg",
+    name: "Lookout Cafe",
+    address: "nan",
+    key: "ChIJpfI6-LSHhYARWRbdFPvcc_g",
     image_attribution: null
   },
   {
@@ -2771,21 +2862,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Copenhagen Bakery & Cafe",
-    address: "1216 Burlingame Ave, Burlingame",
-    key: "ChIJbaUbkfGdj4AR6fN-d_gjBOE",
+    name: "Nourish Cafe",
+    address: "1030 Hyde St, San Francisco",
+    key: "ChIJ19cYa5OAhYARvyZWBkZiZIk",
+    image_attribution: ""
+  },
+  {
+    name: "Backyard Brew",
+    address: "444 California Ave, Palo Alto",
+    key: "ChIJtVNO8OW6j4AR9sfufgwNafQ",
     image_attribution: null
   },
   {
-    name: "Lookout Cafe",
-    address: "nan",
-    key: "ChIJpfI6-LSHhYARWRbdFPvcc_g",
+    name: "Olympus Caffe & Bakery",
+    address: "135 Castro St, Mountain View",
+    key: "ChIJZSOjJjS3j4AR1laX4fkSz08",
     image_attribution: null
   },
   {
-    name: "Lucky Strike",
-    address: "200 King Street, San Francisco",
-    key: "ChIJ89UQqNd_j4ARKoqcRIR-dhs",
+    name: "Lou's Restaurant",
+    address: "15691 Los Gatos Blvd, Los Gatos",
+    key: "ChIJt2Tchsc1joAR13GjeRoXYqE",
     image_attribution: null
   },
   {
@@ -2819,6 +2916,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Copenhagen Bakery & Cafe",
+    address: "1216 Burlingame Ave, Burlingame",
+    key: "ChIJbaUbkfGdj4AR6fN-d_gjBOE",
+    image_attribution: null
+  },
+  {
     name: "85\u00b0C Bakery Cafe - San Jose",
     address: "1183 South De Anza Boulevard #10&20, San Jose",
     key: "ChIJ743Ihhu1j4ARw0Ls6OyfwoQ",
@@ -2837,33 +2940,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Venga Empanadas",
-    address: "443 Valencia Street, San Francisco",
-    key: "ChIJhXtsMCJ-j4AR8fl_NkCgdWU",
-    image_attribution: null
-  },
-  {
-    name: "Lava Java",
-    address: "852 Stanyan St, San Francisco",
-    key: "ChIJXYkCU1GHhYARsaec5plJ1pg",
+    name: "Dana Street Roasting Company",
+    address: "744 W Dana St, Mountain View",
+    key: "ChIJDQDS8zO3j4AR90BTUEBwH1w",
     image_attribution: null
   },
   {
     name: "Konditorei",
     address: "3130 Alpine Rd, Portola Valley",
     key: "ChIJx9QRnkClj4ARWH8uTqkukl8",
-    image_attribution: null
-  },
-  {
-    name: "Village Pantry",
-    address: "184 2nd St, Los Altos",
-    key: "ChIJlWhjzu-wj4ARDWUaBphKinA",
-    image_attribution: null
-  },
-  {
-    name: "Regal Bagel Caf\u00e9",
-    address: "570 N Shoreline Blvd, Mountain View",
-    key: "ChIJ-5alDEy3j4ARAI2xnKNBwOg",
     image_attribution: null
   },
   {
@@ -2879,18 +2964,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jo Ann's Cafe",
-    address: "1131 El Camino Real, South San Francisco",
-    key: "ChIJUa4Q5Jt5j4ARp3sNK3Lo1UQ",
-    image_attribution: null
-  },
-  {
-    name: "Peter's Cafe",
-    address: "10 El Camino Real, Millbrae",
-    key: "ChIJv99iV7B3j4ARs1IkDQeDf1w",
-    image_attribution: null
-  },
-  {
     name: "Specialty's Caf\u00e9 & Bakery",
     address: "690 N McCarthy Blvd, Milpitas",
     key: "ChIJcwcmk8LIj4ARIjcNEgPACrY",
@@ -2903,21 +2976,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Village Pantry",
+    address: "184 2nd St, Los Altos",
+    key: "ChIJlWhjzu-wj4ARDWUaBphKinA",
+    image_attribution: null
+  },
+  {
     name: "Nexus Cafe",
     address: "318 Campus Drive, Stanford",
     key: "ChIJW6n8VCu7j4ARUfRs20MkcpA",
-    image_attribution: null
-  },
-  {
-    name: "Frena Bakery and Caf\u00e9",
-    address: "132 6th Street, San Francisco",
-    key: "ChIJ42NwCoSAhYARdR6onVu5cl8",
-    image_attribution: null
-  },
-  {
-    name: "Monsieur Benjamin",
-    address: "451 Gough Street, San Francisco",
-    key: "ChIJp0l1kZiAhYARSdsaDqr2fdc",
     image_attribution: null
   },
   {
@@ -2933,9 +3000,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Campus Cafe",
-    address: "2955 Campus Dr # 101, San Mateo",
-    key: "ChIJZ5MP8Euej4AR6yUymmRoLaU",
+    name: "The Varian Cafe",
+    address: "3130 Hansen Way, Palo Alto",
+    key: "ChIJLdfc1-y6j4ARl6sGAnadd4w",
+    image_attribution: null
+  },
+  {
+    name: "Bajis Cafe",
+    address: "2423 Old Middlefield Way, Mountain View",
+    key: "ChIJu_26IQm6j4AR_Pl-EyDdOwU",
     image_attribution: null
   },
   {
@@ -2945,9 +3018,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bajis Cafe",
-    address: "2423 Old Middlefield Way, Mountain View",
-    key: "ChIJu_26IQm6j4AR_Pl-EyDdOwU",
+    name: "Campus Cafe",
+    address: "2955 Campus Dr # 101, San Mateo",
+    key: "ChIJZ5MP8Euej4AR6yUymmRoLaU",
     image_attribution: null
   },
   {
@@ -2975,15 +3048,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Regal Bagel Caf\u00e9",
+    address: "570 N Shoreline Blvd, Mountain View",
+    key: "ChIJ-5alDEy3j4ARAI2xnKNBwOg",
+    image_attribution: null
+  },
+  {
     name: "Cafe Paradise",
     address: "2400 Monterey Rd, San Jose",
     key: "ChIJawMpNR0zjoARlEYX2fEqdaE",
     image_attribution: null
   },
   {
-    name: "The Varian Cafe",
-    address: "3130 Hansen Way, Palo Alto",
-    key: "ChIJLdfc1-y6j4ARl6sGAnadd4w",
+    name: "Jo Ann's Cafe",
+    address: "1131 El Camino Real, South San Francisco",
+    key: "ChIJUa4Q5Jt5j4ARp3sNK3Lo1UQ",
     image_attribution: null
   },
   {
@@ -2999,15 +3078,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Peter's Cafe",
+    address: "10 El Camino Real, Millbrae",
+    key: "ChIJv99iV7B3j4ARs1IkDQeDf1w",
+    image_attribution: null
+  },
+  {
     name: "Pacific Java Cafe",
     address: "3258, 450 Dondee Way # 6, Pacifica",
     key: "ChIJvcBuZIl6j4ARVtO21dZiDzY",
     image_attribution: null
   },
   {
+    name: "Steve's Cafe & Catering",
+    address: "303 Twin Dolphin Dr #110, Redwood City",
+    key: "ChIJi_MOb66Yj4ARtBBmEvOrtos",
+    image_attribution: null
+  },
+  {
+    name: "Caffe Central",
+    address: "1380 Burlingame Ave, Burlingame",
+    key: "ChIJ4yAec_Gdj4AR0xmQ_i0_EbA",
+    image_attribution: null
+  },
+  {
+    name: "Acquolina",
+    address: "1600 Stockton Street, San Francisco",
+    key: "ChIJuy5lEfGAhYAR9mmCBjB9aB0",
+    image_attribution: null
+  },
+  {
+    name: "Inle Burmese Cuisine",
+    address: "1298 Church Street, San Francisco",
+    key: "ChIJKwqhiLF_j4ARQAZuqDs509U",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "305 Primrose Rd, Burlingame",
+    key: "ChIJNS6tEvGdj4ARkbY0vJVzWQA",
+    image_attribution: null
+  },
+  {
     name: "Sue's Gallery Cafe",
     address: "14665 Big Basin Way, Saratoga",
     key: "ChIJvYn1GuBKjoARPxL6JHn5FAc",
+    image_attribution: null
+  },
+  {
+    name: "Cumaica Coffee",
+    address: "200 Clement St, San Francisco",
+    key: "ChIJM0Dn1juHhYARofJ_AYWtEEw",
     image_attribution: null
   },
   {
@@ -3035,49 +3156,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Washington Bakery & Restaurant",
-    address: "733 Washington St, San Francisco",
-    key: "ChIJX-6GTIuAhYAR-6AUKml2Lv0",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107602328530544278868\">Rock Smile</a>']"
-  },
-  {
-    name: "Steve's Cafe & Catering",
-    address: "303 Twin Dolphin Dr #110, Redwood City",
-    key: "ChIJi_MOb66Yj4ARtBBmEvOrtos",
-    image_attribution: null
-  },
-  {
-    name: "Caffe Central",
-    address: "1380 Burlingame Ave, Burlingame",
-    key: "ChIJ4yAec_Gdj4AR0xmQ_i0_EbA",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "305 Primrose Rd, Burlingame",
-    key: "ChIJNS6tEvGdj4ARkbY0vJVzWQA",
-    image_attribution: null
-  },
-  {
-    name: "Emperor Palace Restaurant",
-    address: "530 Balboa Street, San Francisco",
-    key: "ChIJj1tdWD-HhYARGy7FzEgUB-E",
-    image_attribution: null
-  },
-  {
-    name: "General Tso's Kitchen",
-    address: "3741 Geary Boulevard, San Francisco",
-    key: "ChIJuX9NSjiHhYARBM7CGrnl_Dc",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "300 Folsom St, San Francisco",
-    key: "ChIJF_paIXuAhYARO8nSqGWwaLo",
-    image_attribution: null
-  },
-  {
     name: "3 Bees Coffee",
     address: "224 E 3rd Ave, San Mateo",
     key: "ChIJbfvnfHCej4ARfiF3DCsIX7o",
@@ -3090,9 +3168,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wildseed",
+    address: "2000 Union Street, San Francisco",
+    key: "ChIJ5_oRTeiBhYAR2sL3MO11lnM",
+    image_attribution: null
+  },
+  {
     name: "Fiero Caffe",
     address: "106 S El Camino Real, San Mateo",
     key: "ChIJqxxHgnGej4ARtiKkJAXq-3E",
+    image_attribution: null
+  },
+  {
+    name: "Turtle Tower",
+    address: "501 6th Street, San Francisco",
+    key: "ChIJ_SK4z5CAhYARNyd8g30-qRs",
+    image_attribution: null
+  },
+  {
+    name: "La Cumbre Taqueria SF",
+    address: "515 Valencia Street, San Francisco",
+    key: "ChIJkb0BVCJ-j4ARqRxW4pyF9y4",
+    image_attribution: null
+  },
+  {
+    name: "Tender Greens",
+    address: "266 King Street, San Francisco",
+    key: "ChIJWbO9-9Z_j4ART_5TqrLypR8",
     image_attribution: null
   },
   {
@@ -3102,15 +3204,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Never Too Latte",
-    address: "486 San Mateo Ave, San Bruno",
-    key: "ChIJKZLVo9d5j4AR0Mj088jSGJs",
-    image_attribution: null
-  },
-  {
-    name: "Heartbeat Cafe",
-    address: "14392 Union Ave, San Jose",
-    key: "ChIJYVV-Rls0joARTrXxiOuDrqo",
+    name: "Drip Coffee Co.",
+    address: "14000 Fruitvale Ave, Saratoga",
+    key: "ChIJMYxNlZVKjoARnlek3Me17nM",
     image_attribution: null
   },
   {
@@ -3126,15 +3222,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "6th & B",
+    address: "452 Balboa Street #3938, San Francisco",
+    key: "ChIJZ8iJqkCHhYARbb04BKBPoUc",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "101 Forest Ave, Palo Alto",
+    key: "ChIJlcwEXzq7j4ARcTuyVs0riyM",
+    image_attribution: null
+  },
+  {
+    name: "Ada's Cafe",
+    address: "3700 Middlefield Rd, Palo Alto",
+    key: "ChIJx2ma7QO7j4ARV8nE1vzVd6w",
+    image_attribution: null
+  },
+  {
     name: "Bitter + Sweet",
     address: "20560 Town Center Ln, Cupertino",
     key: "ChIJEcZeeam1j4ARghq2dw5tUNE",
     image_attribution: null
   },
   {
-    name: "Barefoot Coffee",
-    address: "1819 S Bascom Ave, Campbell",
-    key: "ChIJk4QBtMM0joAR0t7u18qjWmY",
+    name: "Coupa Cafe - Green Library",
+    address: "571 Escondido Mall, Stanford",
+    key: "ChIJzz6JWNa6j4ARuFl1EXnBCf0",
+    image_attribution: ""
+  },
+  {
+    name: "Caf\u00e9 Lattea",
+    address: "19501 Stevens Creek Blvd STE 101, Cupertino",
+    key: "ChIJ8VTpSJ61j4ARW3dmwvPSig0",
     image_attribution: null
   },
   {
@@ -3144,33 +3264,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Orchard Valley Coffee",
-    address: "349 E Campbell Ave, Campbell",
-    key: "ChIJ9SA8-N40joAR1o_IKwOzojE",
-    image_attribution: null
-  },
-  {
     name: "P Town Coffee & Tea",
     address: "152 Reina Del Mar Ave, Pacifica",
     key: "ChIJYxyrT2F6j4AR397k4Xf6FoA",
     image_attribution: null
   },
   {
-    name: "China First Restaurant",
-    address: "336 Clement Street, San Francisco",
-    key: "ChIJGZ2s-juHhYAR9dk74ELV9Q0",
+    name: "Caf\u00e9 Banc",
+    address: "18472 Prospect Rd, Saratoga",
+    key: "ChIJvaeMSF00joARS_bF8Eg0UAA",
     image_attribution: null
   },
   {
-    name: "International Smoke",
-    address: "301 Mission St, San Francisco",
-    key: "ChIJq6p6ZGOAhYARGEvJw6wIWjE",
-    image_attribution: null
-  },
-  {
-    name: "Caf\u00e9 Lattea",
-    address: "19501 Stevens Creek Blvd STE 101, Cupertino",
-    key: "ChIJ8VTpSJ61j4ARW3dmwvPSig0",
+    name: "Little Delhi",
+    address: "83 Eddy Street, San Francisco",
+    key: "ChIJc92wj4WAhYAR7I5Vdu50VbQ",
     image_attribution: null
   },
   {
@@ -3186,15 +3294,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "101 Forest Ave, Palo Alto",
-    key: "ChIJlcwEXzq7j4ARcTuyVs0riyM",
+    name: "Mr. Pickle's Sandwich Shop",
+    address: "3380 20th Street, San Francisco",
+    key: "ChIJVdSY3jt-j4ARx5rWW_wUYMM",
     image_attribution: null
   },
   {
-    name: "Drip Coffee Co.",
-    address: "14000 Fruitvale Ave, Saratoga",
-    key: "ChIJMYxNlZVKjoARnlek3Me17nM",
+    name: "Barefoot Coffee",
+    address: "1819 S Bascom Ave, Campbell",
+    key: "ChIJk4QBtMM0joAR0t7u18qjWmY",
+    image_attribution: null
+  },
+  {
+    name: "Heartbeat Cafe",
+    address: "14392 Union Ave, San Jose",
+    key: "ChIJYVV-Rls0joARTrXxiOuDrqo",
+    image_attribution: null
+  },
+  {
+    name: "Orchard Valley Coffee",
+    address: "349 E Campbell Ave, Campbell",
+    key: "ChIJ9SA8-N40joAR1o_IKwOzojE",
     image_attribution: null
   },
   {
@@ -3204,39 +3324,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caffe Roma",
-    address: "143 S El Camino Real, Millbrae",
-    key: "ChIJG_frYLF3j4AR703Iq8zRTuU",
-    image_attribution: null
-  },
-  {
     name: "Coffee Drive Up",
     address: "999 Fremont Ave, Los Altos",
     key: "ChIJFU-nhEuxj4ARGtaR4s95__0",
     image_attribution: null
   },
   {
-    name: "Ada's Cafe",
-    address: "3700 Middlefield Rd, Palo Alto",
-    key: "ChIJx2ma7QO7j4ARV8nE1vzVd6w",
+    name: "Never Too Latte",
+    address: "486 San Mateo Ave, San Bruno",
+    key: "ChIJKZLVo9d5j4AR0Mj088jSGJs",
     image_attribution: null
   },
   {
-    name: "Caf\u00e9 Banc",
-    address: "18472 Prospect Rd, Saratoga",
-    key: "ChIJvaeMSF00joARS_bF8Eg0UAA",
+    name: "Caffe Roma",
+    address: "143 S El Camino Real, Millbrae",
+    key: "ChIJG_frYLF3j4AR703Iq8zRTuU",
     image_attribution: null
   },
   {
-    name: "Coupa Cafe - Green Library",
-    address: "571 Escondido Mall, Stanford",
-    key: "ChIJzz6JWNa6j4ARuFl1EXnBCf0",
-    image_attribution: ""
+    name: "Philz Coffee",
+    address: "549 Castro St, San Francisco",
+    key: "ChIJcfQ5MRp-j4ARn3eA9EH16OA",
+    image_attribution: null
   },
   {
-    name: "Jump Start Deli and Grocery",
-    address: "1192 Guerrero St, San Francisco",
-    key: "ChIJ77zH9j9-j4ARayBKbZIMyyI",
+    name: "What The Cluck",
+    address: "1782 Haight Street, San Francisco",
+    key: "ChIJM9vEjiyHhYARM9IeVfURMyg",
+    image_attribution: null
+  },
+  {
+    name: "Sparrow Bar and Kitchen",
+    address: "1640 Haight Street, San Francisco",
+    key: "ChIJa9Y-AVOHhYARhr1k84vIEqM",
     image_attribution: null
   },
   {
@@ -3252,63 +3372,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sightglass Coffee",
-    address: "301 Divisadero St, San Francisco",
-    key: "ChIJ0ZnTPK-AhYARbVoaoZLrzv8",
+    name: "Orenchi Beyond",
+    address: "174 Valencia Street, San Francisco",
+    key: "ChIJB5E6EyB-j4AR_uD-eg-z-j8",
     image_attribution: null
   },
   {
-    name: "Original Joe's",
-    address: "601 Union Street, San Francisco",
-    key: "ChIJfSGLEfGAhYARC8Egs7nINzk",
+    name: "Alexander's Steakhouse",
+    address: "448 Brannan Street, San Francisco",
+    key: "ChIJVST7ANZ_j4ARbkYi2s36GQ8",
     image_attribution: null
   },
   {
-    name: "Blanc Et Rouge",
-    address: "2 Embarcadero Center, San Francisco",
-    key: "ChIJJfajqGGAhYARu7QojfbMfUw",
+    name: "Cafe Ethiopia",
+    address: "878 Valencia Street, San Francisco",
+    key: "ChIJYRFpsj1-j4ARPjbLAGal4a0",
     image_attribution: null
   },
   {
-    name: "Cumaica Coffee",
-    address: "200 Clement St, San Francisco",
-    key: "ChIJM0Dn1juHhYARofJ_AYWtEEw",
+    name: "The Chapel",
+    address: "777 Valencia Street, San Francisco",
+    key: "ChIJzdMHHj1-j4ARCU4ZzZw5lBg",
     image_attribution: null
   },
   {
-    name: "Batter Bakery - Kiosk",
-    address: "555 California Street, San Francisco",
-    key: "ChIJ9astS4qAhYARxkZ-C1a62N8",
+    name: "Fogo de Ch\u00e3o Brazilian Steakhouse",
+    address: "201 S, 3rd Street Suite 100, San Francisco",
+    key: "ChIJR0iloX2AhYARVm3_utxjhTI",
     image_attribution: null
   },
   {
-    name: "Revolution Cafe",
-    address: "3248 22nd St, San Francisco",
-    key: "ChIJsfQS4D5-j4AREe1kqXnitHY",
+    name: "Umai Ramen House",
+    address: "22 Peace Plaza Suite 560, San Francisco",
+    key: "ChIJJUmMCzCBhYARnzw2XVLaLxw",
     image_attribution: null
   },
   {
-    name: "Taqueria Vallarta",
-    address: "3033 24th Street, San Francisco",
-    key: "ChIJ4_SogUh-j4ARaCUll4WKPzc",
-    image_attribution: null
-  },
-  {
-    name: "Holey Bagel",
-    address: "3872 24th Street, San Francisco",
-    key: "ChIJQ7ZfmhR-j4ARSHf0hENqUZw",
-    image_attribution: null
-  },
-  {
-    name: "Savor Open Kitchen",
-    address: "3913 24th Street, San Francisco",
-    key: "ChIJ52tuYxN-j4AR6Plpk7brI8s",
-    image_attribution: null
-  },
-  {
-    name: "Rosamunde Sausage Grill",
-    address: "2832 Mission Street, San Francisco",
-    key: "ChIJTdUqwKaAhYARyGg63wTM2qg",
+    name: "Hahn's Hibachi",
+    address: "1710 Polk Street, San Francisco",
+    key: "ChIJT-CnA-uAhYAR-l5CuF6-ZA0",
     image_attribution: null
   },
   {
@@ -3321,6 +3423,24 @@ const SFPlaces = [
     name: "Printers Cafe",
     address: "320 California Ave, Palo Alto",
     key: "ChIJoQNXvOW6j4ARz6rplng2s5c",
+    image_attribution: null
+  },
+  {
+    name: "Tony's Pizza Napoletana",
+    address: "1570 Stockton Street, San Francisco",
+    key: "ChIJHXHcEvGAhYARQPuHNN78s78",
+    image_attribution: null
+  },
+  {
+    name: "Toyama Japanese Restaurant",
+    address: "3727 Geary Boulevard, San Francisco",
+    key: "ChIJa_2ASjiHhYARxZ0v2aJaDMU",
+    image_attribution: null
+  },
+  {
+    name: "Moffitt Cafe - UCSF Medical Center",
+    address: "505 Parnassus Ave #294, San Francisco",
+    key: "ChIJKW1Q2FmHhYARA-VSVVrVPRo",
     image_attribution: null
   },
   {
@@ -3342,51 +3462,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Old Ship Saloon",
-    address: "298 Pacific Avenue, San Francisco",
-    key: "ChIJC9wG8l-AhYARfSw_a7FX_VM",
-    image_attribution: null
-  },
-  {
-    name: "La Fusion",
-    address: "475 Pine Street, San Francisco",
-    key: "ChIJ6cMAL4qAhYARKiIsnkNhl3c",
-    image_attribution: null
-  },
-  {
-    name: "Matching Half",
-    address: "1799 McAllister St, San Francisco",
-    key: "ChIJraGpLLKAhYARsWqJ-sBBQhM",
-    image_attribution: null
-  },
-  {
     name: "Thanh Long Restaurant",
     address: "4101 Judah Street, San Francisco",
     key: "ChIJKck2KJeHhYARBwfZ8NytyRY",
     image_attribution: null
   },
   {
-    name: "Lao Table",
-    address: "149 2nd Street, San Francisco",
-    key: "ChIJlzpQKH2AhYARxeGIpYu53Tw",
+    name: "Zushi Puzzle",
+    address: "1910 Lombard Street, San Francisco",
+    key: "ChIJy-nXMNqAhYAR40z3pkUofL8",
     image_attribution: null
   },
   {
-    name: "Serrano's Pizza and Pasta",
-    address: "3274 21st Street, San Francisco",
-    key: "ChIJM1_EhD5-j4ARWaXZV9B9DIs",
+    name: "Mission Bowling Club",
+    address: "3176 17th Street, San Francisco",
+    key: "ChIJ10DmyyR-j4ARBZDBrVVevpo",
+    image_attribution: ""
+  },
+  {
+    name: "KAIY\u014c",
+    address: "1838 Union Street, San Francisco",
+    key: "ChIJ4RXs7X-BhYAR08JJs5ZVHXM",
     image_attribution: null
   },
   {
-    name: "Foghorn Taproom",
-    address: "450 Balboa Street, San Francisco",
-    key: "ChIJ_4yHqR2HhYAReD1c3IpzCHg",
-    image_attribution: null
-  },
-  {
-    name: "Zingari Ristorante + Jazz Bar",
-    address: "501 Post Street, San Francisco",
-    key: "ChIJy69LXI6AhYARnXrUoi6q2GA",
+    name: "Ploy II Thai Cuisine",
+    address: "1770 Haight Street, San Francisco",
+    key: "ChIJ-QxuM1KHhYARQJ0UgggHU3k",
     image_attribution: null
   },
   {
@@ -3408,6 +3510,30 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Esperpento Restaurant",
+    address: "3295 22nd Street, San Francisco",
+    key: "ChIJpQ_u_D5-j4ARCfaD5-ockSA",
+    image_attribution: null
+  },
+  {
+    name: "Harvey's",
+    address: "500 Castro Street, San Francisco",
+    key: "ChIJ4TKEMRt-j4AR4tXLOm6Yp8o",
+    image_attribution: null
+  },
+  {
+    name: "Namu Stonepot",
+    address: "553 Divisadero St, San Francisco",
+    key: "ChIJq6uMta-AhYAR3Xxh-IGkHds",
+    image_attribution: ""
+  },
+  {
+    name: "23rd liquor store",
+    address: "3558 23rd Street, San Francisco",
+    key: "ChIJ3aU3xj9-j4ARKZOfYM6q2LU",
+    image_attribution: null
+  },
+  {
     name: "Philz Coffee",
     address: "3191 Middlefield Rd, Palo Alto",
     key: "ChIJq85YxVu6j4ARRnVyGDBbbtk",
@@ -3426,69 +3552,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Vega Coffee",
-    address: "1246 Folsom St, San Francisco",
-    key: "ChIJG_bIJih-j4ARxqBUWrFtz-c",
-    image_attribution: null
-  },
-  {
-    name: "Dough",
-    address: "1455 Market St #3C, San Francisco",
-    key: "ChIJySu0ImWBhYARGlc6QfGBCdM",
-    image_attribution: null
-  },
-  {
-    name: "Sushi On North Beach",
-    address: "745 Columbus Avenue, San Francisco",
-    key: "ChIJN5MFI_CAhYAROzrAZf_p8GY",
-    image_attribution: null
-  },
-  {
-    name: "La Lucha Coffee Bar",
-    address: "1600 17th St, San Francisco",
-    key: "ChIJOZbx6sx_j4ARUrweGXVTAyI",
-    image_attribution: null
-  },
-  {
-    name: "Escape From New York Pizza",
-    address: "333 Bush Street #104, San Francisco",
-    key: "ChIJhxhwkomAhYAReZ8jCsmHd5U",
-    image_attribution: null
-  },
-  {
-    name: "Tacko",
-    address: "3115 Fillmore St, San Francisco",
-    key: "ChIJXfulhtCAhYAR_F6aW1WfXik",
-    image_attribution: null
-  },
-  {
-    name: "CHAPEL HILL COFFEE CO",
-    address: "670 Commercial St, San Francisco",
-    key: "ChIJvRqG4oqAhYARX6hAcvw1Me0",
-    image_attribution: null
-  },
-  {
-    name: "Alamo Square Seafood Grill",
-    address: "803 Fillmore Street, San Francisco",
-    key: "ChIJucYTxKSAhYAR5GsX8qmLka4",
-    image_attribution: null
-  },
-  {
-    name: "Dandelion Chocolate",
-    address: "740 Valencia Street, San Francisco",
-    key: "ChIJ3d31Iz1-j4ARkwerSZRVQjM",
-    image_attribution: null
-  },
-  {
-    name: "Commons Club",
-    address: "250 4th Street, San Francisco",
-    key: "ChIJaYaoULeBhYAR6JIErJp7Fvk",
-    image_attribution: null
-  },
-  {
-    name: "Bob's Donuts and Pastries",
-    address: "1621 Polk Street, San Francisco",
-    key: "ChIJj-FdH-uAhYARIp6mvqK3HNM",
+    name: "Coffeebar Menlo Park",
+    address: "1149 Chestnut St, Menlo Park",
+    key: "ChIJ2aR2-6-kj4ARCRsRgFybxcc",
     image_attribution: null
   },
   {
@@ -3498,27 +3564,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "54 Mint Ristorante Italiano",
-    address: "16 Mint Plaza, San Francisco",
-    key: "ChIJP5PrLYSAhYARBcWhJXs55P4",
+    name: "The Commissary",
+    address: "101 Montgomery Street, San Francisco",
+    key: "ChIJKWI7SdiGhYAREScuc65uegA",
     image_attribution: null
   },
   {
-    name: "901 Columbus",
-    address: "901 Columbus Avenue, San Francisco",
-    key: "ChIJcd9DXeWAhYAR8dES4Y6pBt4",
+    name: "Delancey Street Restaurant",
+    address: "600 The Embarcadero, San Francisco",
+    key: "ChIJTRf2DXeAhYARsjppfRXu44s",
     image_attribution: null
   },
   {
-    name: "Jake's Steaks",
-    address: "3301 Buchanan Street, San Francisco",
-    key: "ChIJyeRZMdqAhYAR7ZK_DUQIEyI",
+    name: "NICO",
+    address: "710 Montgomery St, San Francisco",
+    key: "ChIJJ5BEyYqAhYAR2Xim_Tv4XhE",
     image_attribution: null
   },
   {
-    name: "SoMa StrEat Food Park",
-    address: "428 11th Street, San Francisco",
-    key: "ChIJeaJ_sSh-j4AR7jS8-7l5qgw",
+    name: "Le Marcel Bakery for Dogs",
+    address: "2066 Union Street, San Francisco",
+    key: "ChIJBzw2w9qAhYARz1GAWGkrkOg",
     image_attribution: null
   },
   {
@@ -3534,40 +3600,23 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Coffeebar Menlo Park",
-    address: "1149 Chestnut St, Menlo Park",
-    key: "ChIJ2aR2-6-kj4ARCRsRgFybxcc",
+    name: "Sultan\u2019s Kebab",
+    address: "3915 24th St, San Francisco",
+    key: "ChIJ05ybYxN-j4ARhOtZ7jRvUg0",
     image_attribution: null
   },
   {
-    name: "Menlo Cafe",
-    address: "620 Santa Cruz Ave # A, Menlo Park",
-    key: "ChIJJ-I5z6-kj4ARIr0WLwxDekM",
-    image_attribution: null
+    name: "Coupa Cafe - Ramona",
+    address: "538 Ramona St, Palo Alto",
+    key: "ChIJY5UIijm7j4ARPkLgY0DXJuI",
+    image_attribution: ""
   },
   {
-    name: "Cafe Borrone",
-    address: "1010 El Camino Real, Menlo Park",
-    key: "ChIJARB2O66kj4ARF-HVDDNeV7c",
-    image_attribution: null
-  },
-  {
-    name: "The Grind",
-    address: "783 Haight St, San Francisco",
-    key: "ChIJVZ6oHKaAhYAR7nvlwWEZajE",
-    image_attribution: null
-  },
-  {
-    name: "Robin's Caf\u00e9",
-    address: "3153 17th St #1332, San Francisco",
-    key: "ChIJX-7oMjt-j4ARu_dWWMKlHdA",
-    image_attribution: null
-  },
-  {
-    name: "RT Rotisserie",
-    address: "101 Oak St, San Francisco",
-    key: "ChIJk8dm4J6AhYAR8MCM6inxTgE",
-    image_attribution: null
+    name: "Liquid Gold",
+    address: "1040 Hyde St, San Francisco",
+    key: "ChIJd9toapOAhYARW8KsK-Q3OHw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/117247301160174146038\">J Russ</a>']"
   },
   {
     name: "Pink Pantherz Espresso",
@@ -3636,16 +3685,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Menlo Cafe",
+    address: "620 Santa Cruz Ave # A, Menlo Park",
+    key: "ChIJJ-I5z6-kj4ARIr0WLwxDekM",
+    image_attribution: null
+  },
+  {
     name: "Fina's Cafe",
     address: "1665 Laurel St, San Carlos",
     key: "ChIJ91fSOzmij4ARmaRiBKbb6eg",
     image_attribution: null
   },
   {
-    name: "Coupa Cafe - Ramona",
-    address: "538 Ramona St, Palo Alto",
-    key: "ChIJY5UIijm7j4ARPkLgY0DXJuI",
-    image_attribution: ""
+    name: "Cafe Borrone",
+    address: "1010 El Camino Real, Menlo Park",
+    key: "ChIJARB2O66kj4ARF-HVDDNeV7c",
+    image_attribution: null
+  },
+  {
+    name: "Farley's",
+    address: "1315 18th St, San Francisco",
+    key: "ChIJ8wEOK8p_j4ARkcmZrEfPDHU",
+    image_attribution: null
+  },
+  {
+    name: "Jamber Wine Pub",
+    address: "858 Folsom Street, San Francisco",
+    key: "ChIJp17WuICAhYAR7FFLYiAYHt4",
+    image_attribution: null
   },
   {
     name: "Connoisseur Coffee Company",
@@ -3658,6 +3725,13 @@ const SFPlaces = [
     address: "2137 Roosevelt Ave, Redwood City",
     key: "ChIJEzdocr-jj4AREHFTb6ckcpk",
     image_attribution: null
+  },
+  {
+    name: "Garden Creamery",
+    address: "3566 20th St, San Francisco",
+    key: "ChIJbZrTRzx-j4AR1AzhXfq8_4c",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107743290380854343422\">sang an</a>']"
   },
   {
     name: "FG Bakery Cafe",
@@ -3696,33 +3770,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "PLANTATION Coffee Roastery",
-    address: "784 Laurel St, San Carlos",
-    key: "ChIJ90haqRyij4ARzlh8h8fpOb8",
-    image_attribution: null
-  },
-  {
     name: "Spruce Cafe & Patisserie",
     address: "230 S Spruce Ave, South San Francisco",
     key: "ChIJhR8_zbx5j4ARN_5xmlVftCI",
-    image_attribution: null
-  },
-  {
-    name: "Patio Coffee Shop",
-    address: "25 W 25th Ave, San Mateo",
-    key: "ChIJV_LFWfmej4ARBVYW_8hBGNs",
-    image_attribution: null
-  },
-  {
-    name: "Slices Pizza",
-    address: "330 Townsend Street, San Francisco",
-    key: "ChIJO2AMCNx_j4AR6xjp18zWUNg",
-    image_attribution: null
-  },
-  {
-    name: "Birdsong",
-    address: "1085 Mission St, San Francisco",
-    key: "ChIJTwtvfIOAhYARHMEe0c2Xi4s",
     image_attribution: null
   },
   {
@@ -3750,27 +3800,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lafayette Coffee Shop",
-    address: "611 Larkin St, San Francisco",
-    key: "ChIJE1uwh5CAhYAR_dOKYatnfR8",
+    name: "PLANTATION Coffee Roastery",
+    address: "784 Laurel St, San Carlos",
+    key: "ChIJ90haqRyij4ARzlh8h8fpOb8",
     image_attribution: null
   },
   {
-    name: "Cafe Hana",
-    address: "1737 Post St #368, San Francisco",
-    key: "ChIJo0XH17iAhYARlY2RB67Gqdw",
+    name: "Patio Coffee Shop",
+    address: "25 W 25th Ave, San Mateo",
+    key: "ChIJV_LFWfmej4ARBVYW_8hBGNs",
     image_attribution: null
   },
   {
-    name: "Friends Coffee & Tea",
-    address: "1029 S Bascom Ave, San Jose",
-    key: "ChIJqX8Lzsw0joAR5FXTdDukuhI",
+    name: "Local Cafe",
+    address: "20956 Homestead Rd, Cupertino",
+    key: "ChIJUfCDo0sAMhURSLx-iM2PiZQ",
     image_attribution: null
   },
   {
-    name: "Vero's Coffee Bar",
-    address: "387 S 1st St, San Jose",
-    key: "ChIJTeOombDMj4ARSgm80ScUf3s",
+    name: "Coffee Society",
+    address: "10800 Torre Ave, Cupertino",
+    key: "ChIJy49-Pqi1j4ARY26xsgF1ZNA",
     image_attribution: null
   },
   {
@@ -3780,27 +3830,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rangoon Ruby Burmese Cuisine",
-    address: "590 Van Ness Avenue, San Francisco",
-    key: "ChIJc4qTI-uAhYAR0N2rbV_p8N8",
-    image_attribution: null
-  },
-  {
-    name: "Duboce Park Cafe",
-    address: "2 Sanchez St, San Francisco",
-    key: "ChIJXwOvbqeAhYARvzZ4jWRCBpo",
-    image_attribution: null
-  },
-  {
-    name: "Bel Bacio Cafe",
-    address: "350 W Julian St #4, San Jose",
-    key: "ChIJ2Rei0qHMj4ARBaDyY9dZLVQ",
+    name: "The Greenwich",
+    address: "3154 Fillmore Street, San Francisco",
+    key: "ChIJAzeIhCiBhYARKMxaXXYCLAw",
     image_attribution: null
   },
   {
     name: "Century Centre Cafe",
     address: "1450 Fashion Island Blvd Suite 110, San Mateo",
     key: "ChIJB_bNiMKej4ARd7XyFEQCKkA",
+    image_attribution: null
+  },
+  {
+    name: "The Grapevine Cafe",
+    address: "1726 S Amphlett Blvd, San Mateo",
+    key: "ChIJ6xis9vKej4ARcPvcdWREPmE",
+    image_attribution: null
+  },
+  {
+    name: "Cake Creations Bakery and Caf\u00e9",
+    address: "709 Bermuda Dr, San Mateo",
+    key: "ChIJ_3bHZ_Cej4ARhqJ6zf6UOwY",
     image_attribution: null
   },
   {
@@ -3819,6 +3869,12 @@ const SFPlaces = [
     name: "Las Palmas Cafe and Lounge",
     address: "755 S Mathilda Ave, Sunnyvale",
     key: "ChIJHXQi-Ym2j4ARUExwX9Ap1zM",
+    image_attribution: null
+  },
+  {
+    name: "Atlas Cafe",
+    address: "3049 20th St, San Francisco",
+    key: "ChIJe0KJajd-j4AR_KlqGB-MGyA",
     image_attribution: null
   },
   {
@@ -3846,6 +3902,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Friends Coffee & Tea",
+    address: "1029 S Bascom Ave, San Jose",
+    key: "ChIJqX8Lzsw0joAR5FXTdDukuhI",
+    image_attribution: null
+  },
+  {
     name: "Cocohodo Sunnyvale",
     address: "1082 E El Camino Real, Sunnyvale",
     key: "ChIJb2JRT_C1j4ARzhXZMd-sRY4",
@@ -3858,45 +3920,69 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Grapevine Cafe",
-    address: "1726 S Amphlett Blvd, San Mateo",
-    key: "ChIJ6xis9vKej4ARcPvcdWREPmE",
+    name: "Vero's Coffee Bar",
+    address: "387 S 1st St, San Jose",
+    key: "ChIJTeOombDMj4ARSgm80ScUf3s",
     image_attribution: null
   },
   {
-    name: "Cake Creations Bakery and Caf\u00e9",
-    address: "709 Bermuda Dr, San Mateo",
-    key: "ChIJ_3bHZ_Cej4ARhqJ6zf6UOwY",
+    name: "Cento Coffee",
+    address: "150 Broadway, San Francisco",
+    key: "ChIJkTVXNH-BhYARjji1yzl8BHg",
     image_attribution: null
   },
   {
-    name: "Local Cafe",
-    address: "20956 Homestead Rd, Cupertino",
-    key: "ChIJUfCDo0sAMhURSLx-iM2PiZQ",
+    name: "Marcella's Lasagneria",
+    address: "1099 Tennessee Street, San Francisco",
+    key: "ChIJq-zd8Ll_j4ARsCAV09I5dUU",
     image_attribution: null
   },
   {
-    name: "Coffee Society",
-    address: "10800 Torre Ave, Cupertino",
-    key: "ChIJy49-Pqi1j4ARY26xsgF1ZNA",
+    name: "Bel Bacio Cafe",
+    address: "350 W Julian St #4, San Jose",
+    key: "ChIJ2Rei0qHMj4ARBaDyY9dZLVQ",
     image_attribution: null
   },
   {
-    name: "Sausalito SeaHorse",
-    address: "305 Harbor Dr, Sausalito",
-    key: "ChIJhY0LaQSFhYAR3Ak-rRQBZJ4",
+    name: "20th Century Cafe",
+    address: "198 Gough St, San Francisco",
+    key: "ChIJHdSzOJ-AhYARhKGKEoPTIuo",
     image_attribution: null
   },
   {
-    name: "Nightbird",
-    address: "330 Gough St, San Francisco",
-    key: "ChIJyzdPuJiAhYARaLoaRwaGRGE",
+    name: "Miette Cakes",
+    address: "Ferry Building, San Francisco Bay Trail #10, San Francisco",
+    key: "ChIJWTGPjmaAhYARrOzloc3zyDo",
+    image_attribution: null
+  },
+  {
+    name: "Golden Goat Coffee",
+    address: "599 3rd St #100, San Francisco",
+    key: "ChIJ20Ta-TmBhYAR0sHU-G-fzs8",
     image_attribution: null
   },
   {
     name: "Allegro Coffee Company",
     address: "777 The Alameda, San Jose",
     key: "ChIJNV74-l7Lj4ARP53r9kr7b-E",
+    image_attribution: null
+  },
+  {
+    name: "Perry's on Magnolia",
+    address: "234 Magnolia Ave, Larkspur",
+    key: "ChIJOV3YwXiahYARjldZfrw4qsM",
+    image_attribution: null
+  },
+  {
+    name: "@YC",
+    address: "347 E Taylor St, San Jose",
+    key: "ChIJGfk_1IXMj4ARlmEgSlzRGno",
+    image_attribution: null
+  },
+  {
+    name: "Nordstrom Ebar Artisan Coffee",
+    address: "2400 Forest Ave, San Jose",
+    key: "ChIJDaPzHB7Lj4ARtF09XSQ4v4A",
     image_attribution: null
   },
   {
@@ -3918,57 +4004,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "@YC",
-    address: "347 E Taylor St, San Jose",
-    key: "ChIJGfk_1IXMj4ARlmEgSlzRGno",
-    image_attribution: null
-  },
-  {
     name: "Milano Restaurant",
     address: "1 Blackfield Dr #11, Belvedere Tiburon",
     key: "ChIJqY6dCIqEhYARA6jRrQknB5Y",
-    image_attribution: null
-  },
-  {
-    name: "Nordstrom Ebar Artisan Coffee",
-    address: "2400 Forest Ave, San Jose",
-    key: "ChIJDaPzHB7Lj4ARtF09XSQ4v4A",
-    image_attribution: null
-  },
-  {
-    name: "India Palace Restaurant",
-    address: "707 Redwood Highway Frontage Rd #66, Mill Valley",
-    key: "ChIJldWV37WahYARTQU9UX_VXzY",
-    image_attribution: null
-  },
-  {
-    name: "Bell Tower",
-    address: "1900 Polk Street, San Francisco",
-    key: "ChIJwR8dNeqAhYARhTfTijtXhAs",
-    image_attribution: null
-  },
-  {
-    name: "Pakwan Restaurant - Tenderloin",
-    address: "501 O'Farrell Street, San Francisco",
-    key: "ChIJM_8RLJCAhYARWccycSLlNWc",
-    image_attribution: null
-  },
-  {
-    name: "Piatti",
-    address: "625 Redwood Hwy, Mill Valley",
-    key: "ChIJT-iHWkqFhYARc1hos-QqzII",
-    image_attribution: null
-  },
-  {
-    name: "Perry's on Magnolia",
-    address: "234 Magnolia Ave, Larkspur",
-    key: "ChIJOV3YwXiahYARjldZfrw4qsM",
-    image_attribution: null
-  },
-  {
-    name: "B",
-    address: "720 Howard Street, San Francisco",
-    key: "ChIJ3VZMaoeAhYARqeDasg294TM",
     image_attribution: null
   },
   {
@@ -3984,33 +4022,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "6th & B",
-    address: "452 Balboa Street #3938, San Francisco",
-    key: "ChIJZ8iJqkCHhYARbb04BKBPoUc",
+    name: "Sausalito SeaHorse",
+    address: "305 Harbor Dr, Sausalito",
+    key: "ChIJhY0LaQSFhYAR3Ak-rRQBZJ4",
     image_attribution: null
   },
   {
-    name: "EPIC Steak",
-    address: "369 The Embarcadero, San Francisco",
-    key: "ChIJJVhdD3CAhYARw2KuKNaUCEg",
+    name: "India Palace Restaurant",
+    address: "707 Redwood Highway Frontage Rd #66, Mill Valley",
+    key: "ChIJldWV37WahYARTQU9UX_VXzY",
     image_attribution: null
   },
   {
-    name: "Curry Leaf",
-    address: "943 Columbus Avenue, San Francisco",
-    key: "ChIJE5_-a-WAhYARRlIJfd0IpL0",
-    image_attribution: null
-  },
-  {
-    name: "Crown & Crumpet Tea Salon",
-    address: "1746 Post St, San Francisco",
-    key: "ChIJg3132biAhYART9syUb_EObE",
-    image_attribution: null
-  },
-  {
-    name: "707 Sutter",
-    address: "707 Sutter Street, San Francisco",
-    key: "ChIJxzL0B46AhYARzJKzMPE5wJc",
+    name: "Piatti",
+    address: "625 Redwood Hwy, Mill Valley",
+    key: "ChIJT-iHWkqFhYARc1hos-QqzII",
     image_attribution: null
   },
   {
@@ -4020,21 +4046,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Thep Lela Thai Restaurant",
-    address: "615 Strawberry Village, Mill Valley",
-    key: "ChIJYcz9aSOFhYARW6tRjXFWwUE",
-    image_attribution: null
-  },
-  {
-    name: "Muir Woods Trading Company",
-    address: "1 Muir Woods Rd, Mill Valley",
-    key: "ChIJmydBCjeQhYARUopJJLMrasY",
-    image_attribution: null
-  },
-  {
     name: "Osteria Stellina",
     address: "11285 CA-1, Point Reyes Station",
     key: "ChIJe7tCUYDGhYARpJ-lRcT4cJw",
+    image_attribution: null
+  },
+  {
+    name: "Aunt Fanny's Hot Pretzels",
+    address: "39 Pier 39, San Francisco",
+    key: "ChIJHSGzi_yAhYARl7qPtckJOas",
     image_attribution: null
   },
   {
@@ -4044,21 +4064,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Lucinda's M\u00e9xican Food To Go",
+    address: "930 Redwood Highway Frontage Rd, Mill Valley",
+    key: "ChIJMZ9U5rWahYARFlXfqaBuefg",
+    image_attribution: null
+  },
+  {
+    name: "Mill Valley Beerworks",
+    address: "173 Throckmorton Ave, Mill Valley",
+    key: "ChIJt0bJdm2QhYARrOnuJ_0ngaY",
+    image_attribution: null
+  },
+  {
+    name: "Muir Woods Trading Company",
+    address: "1 Muir Woods Rd, Mill Valley",
+    key: "ChIJmydBCjeQhYARUopJJLMrasY",
+    image_attribution: null
+  },
+  {
+    name: "Thep Lela Thai Restaurant",
+    address: "615 Strawberry Village, Mill Valley",
+    key: "ChIJYcz9aSOFhYARW6tRjXFWwUE",
+    image_attribution: null
+  },
+  {
     name: "THAILAND Restaurant",
     address: "721 E Blithedale Ave b, Mill Valley",
     key: "ChIJD6hStbqahYARo4QUU4ihpjA",
     image_attribution: null
   },
   {
-    name: "Caf\u00e9 del Soul",
-    address: "247 Shoreline Hwy, Mill Valley",
-    key: "ChIJa80MQ0WFhYARpm-pqGfLo64",
+    name: "Cafe Destijl",
+    address: "1 Union St, San Francisco",
+    key: "ChIJ-UlLUl-AhYARfAPUnxHm3rM",
     image_attribution: null
   },
   {
-    name: "Lucinda's M\u00e9xican Food To Go",
-    address: "930 Redwood Highway Frontage Rd, Mill Valley",
-    key: "ChIJMZ9U5rWahYARFlXfqaBuefg",
+    name: "Patriot House Pub",
+    address: "2 Embarcadero Center 3rd floor, San Francisco",
+    key: "ChIJZ76fAGGAhYARjl9r8Nnoo6w",
     image_attribution: null
   },
   {
@@ -4074,9 +4118,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mill Valley Beerworks",
-    address: "173 Throckmorton Ave, Mill Valley",
-    key: "ChIJt0bJdm2QhYARrOnuJ_0ngaY",
+    name: "House of Dim Sum",
+    address: "735 Jackson Street, San Francisco",
+    key: "ChIJG94CX_OAhYAR5CiHP4D_mP0",
+    image_attribution: null
+  },
+  {
+    name: "The Lighthouse Caf\u00e9",
+    address: "12 Tamalpais Dr, Corte Madera",
+    key: "ChIJEe9oAIeahYARgbj7J9l0Q04",
+    image_attribution: null
+  },
+  {
+    name: "Central Kitchen",
+    address: "3000 20th St, San Francisco",
+    key: "ChIJr-EMFjd-j4ARHKaF3ehlmgY",
+    image_attribution: null
+  },
+  {
+    name: "HEYDAY - Organic Cafe, Coffee Bar and Bakery",
+    address: "180 Spear St, San Francisco",
+    key: "ChIJXzec4mSAhYARQrQAYXi8vOg",
     image_attribution: null
   },
   {
@@ -4089,6 +4151,12 @@ const SFPlaces = [
     name: "Sir and Star at the Olema",
     address: "10000 Sir Francis Drake Blvd, Olema",
     key: "ChIJd6J9pLXGhYARSQ_ymTW3JQI",
+    image_attribution: null
+  },
+  {
+    name: "Mountain Home Inn",
+    address: "810 Panoramic Hwy, Mill Valley",
+    key: "ChIJ_XPVHlSQhYARNHpbfLGuLVs",
     image_attribution: null
   },
   {
@@ -4134,72 +4202,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mountain Home Inn",
-    address: "810 Panoramic Hwy, Mill Valley",
-    key: "ChIJ_XPVHlSQhYARNHpbfLGuLVs",
-    image_attribution: null
-  },
-  {
-    name: "The Lighthouse Caf\u00e9",
-    address: "12 Tamalpais Dr, Corte Madera",
-    key: "ChIJEe9oAIeahYARgbj7J9l0Q04",
-    image_attribution: null
-  },
-  {
-    name: "Quicky Burgers",
-    address: "4092 18th Street, San Francisco",
-    key: "ChIJdQNBuNB_j4AR5GBzH7S1VlA",
-    image_attribution: null
-  },
-  {
-    name: "Street Taco",
-    address: "1607 Haight Street, San Francisco",
-    key: "ChIJaakVBVOHhYARFz7VTnf65pU",
-    image_attribution: null
-  },
-  {
-    name: "A La Turca",
-    address: "869 Geary Street, San Francisco",
-    key: "ChIJXSbYRZGAhYARhaelV0h5iPE",
-    image_attribution: null
-  },
-  {
-    name: "The Cove on Castro",
-    address: "434 Castro Street, San Francisco",
-    key: "ChIJVxhdqhx-j4AR6J2KZ0l_QGw",
-    image_attribution: null
-  },
-  {
-    name: "Zazie",
-    address: "941 Cole St, San Francisco",
-    key: "ChIJgSeZU1SHhYARQU-BswtkEiY",
-    image_attribution: ""
-  },
-  {
-    name: "Pete's Bar-B-Que",
-    address: "2399 Mission Street, San Francisco",
-    key: "ChIJq6qWDjx-j4ARnCG0F7ZuvGg",
-    image_attribution: null
-  },
-  {
-    name: "Foodniks",
-    address: "1 Blackfield Dr, Belvedere Tiburon",
-    key: "ChIJt0lr1dKahYARodBSEmiSLI0",
-    image_attribution: null
-  },
-  {
-    name: "Coyote Coffee",
-    address: "215 Shoreline Hwy, Mill Valley",
-    key: "ChIJjRqc5ESFhYARKmf1eta2rho",
-    image_attribution: null
-  },
-  {
-    name: "Equator Coffees",
-    address: "244 CA-1, Mill Valley",
-    key: "ChIJ_xysbEWFhYARaOgxXbOaEzg",
-    image_attribution: null
-  },
-  {
     name: "Shoreline Coffee Shop",
     address: "221 Shoreline Hwy, Mill Valley",
     key: "ChIJV57u5USFhYARKcNtbr0CEpU",
@@ -4218,6 +4220,42 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Seven Hills",
+    address: "1896 Hyde St, San Francisco",
+    key: "ChIJc1RqC-yAhYARWmmWMJ-xkDs",
+    image_attribution: null
+  },
+  {
+    name: "Extreme Pizza",
+    address: "1980 Union Street, San Francisco",
+    key: "ChIJj2vPJNuAhYARSgmTp9KnaxQ",
+    image_attribution: null
+  },
+  {
+    name: "Amarena",
+    address: "2162 Larkin Street, San Francisco",
+    key: "ChIJM7I8HemAhYARjCsAkDZd_D8",
+    image_attribution: null
+  },
+  {
+    name: "Foodniks",
+    address: "1 Blackfield Dr, Belvedere Tiburon",
+    key: "ChIJt0lr1dKahYARodBSEmiSLI0",
+    image_attribution: null
+  },
+  {
+    name: "Coyote Coffee",
+    address: "215 Shoreline Hwy, Mill Valley",
+    key: "ChIJjRqc5ESFhYARKmf1eta2rho",
+    image_attribution: null
+  },
+  {
+    name: "Equator Coffees",
+    address: "240 Magnolia Ave, Larkspur",
+    key: "ChIJKebd7HiahYARwmuokgSAmF0",
+    image_attribution: null
+  },
+  {
     name: "Philz Coffee",
     address: "403 Corte Madera Town Center, Corte Madera",
     key: "ChIJYZeTfIyahYARrLCESb59RTk",
@@ -4230,27 +4268,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Equator Coffees",
+    address: "244 CA-1, Mill Valley",
+    key: "ChIJ_xysbEWFhYARaOgxXbOaEzg",
+    image_attribution: null
+  },
+  {
     name: "FRED'S Place",
     address: "1917 Bridgeway, Sausalito",
     key: "ChIJMzSp9KqFhYARoZ4LfJ58Vgs",
-    image_attribution: null
-  },
-  {
-    name: "Equator Coffees",
-    address: "240 Magnolia Ave, Larkspur",
-    key: "ChIJKebd7HiahYARwmuokgSAmF0",
-    image_attribution: null
-  },
-  {
-    name: "Los Kuyas",
-    address: "3241 20th Avenue, San Francisco",
-    key: "ChIJw7Wgr9N9j4ARiMdnyS8uqv8",
-    image_attribution: null
-  },
-  {
-    name: "Pizzalina",
-    address: "914 Sir Francis Drake Blvd, San Anselmo",
-    key: "ChIJG1HfhBGXhYARHOmdldO5swk",
     image_attribution: null
   },
   {
@@ -4260,21 +4286,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Stanza Coffee",
-    address: "3126 16th St, San Francisco",
-    key: "ChIJjX_6QSJ-j4ARUKV1G9o5QxM",
-    image_attribution: null
-  },
-  {
     name: "Belotti Ristorante E Bottega",
     address: "5403 College Ave, Oakland",
     key: "ChIJtTVZ_-h9hYARC2dBu4ziR3o",
     image_attribution: ""
   },
   {
-    name: "AK Subs",
-    address: "397 8th Street, San Francisco",
-    key: "ChIJCzpwvil-j4ARK54zzgd_qXU",
+    name: "Bierhaus Oakland",
+    address: "360 40th St, Oakland",
+    key: "ChIJ82W-lzO3j4ARxi3mXgQJVtY",
+    image_attribution: null
+  },
+  {
+    name: "St. James Gate",
+    address: "1410 Old County Rd, Belmont",
+    key: "ChIJ_cu-CFSfj4ARID77KTIPlHY",
+    image_attribution: null
+  },
+  {
+    name: "Benchmark Oakland",
+    address: "499 9th St, Oakland",
+    key: "ChIJhzRPBieBj4ARRDRryfAD2Ck",
+    image_attribution: null
+  },
+  {
+    name: "Pizzalina",
+    address: "914 Sir Francis Drake Blvd, San Anselmo",
+    key: "ChIJG1HfhBGXhYARHOmdldO5swk",
+    image_attribution: null
+  },
+  {
+    name: "Creekside Pizza & Taproom",
+    address: "638 San Anselmo Ave, San Anselmo",
+    key: "ChIJ-dBsnxWXhYARpafb7V7k4lA",
+    image_attribution: null
+  },
+  {
+    name: "Belly",
+    address: "1901 San Pablo Ave, Oakland",
+    key: "ChIJBey8Wq6Aj4ARamLU43rgyLE",
     image_attribution: null
   },
   {
@@ -4290,63 +4340,69 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Scullery",
-    address: "687 Geary St, San Francisco",
-    key: "ChIJh10OvJGAhYAR3PXa3UKPE5A",
-    image_attribution: null
-  },
-  {
     name: "Melo's Pizza & Pasta Livermore",
     address: "4433 First St, Livermore",
     key: "ChIJq-PYNhbnj4ARk_HLmDw9kzk",
     image_attribution: null
   },
   {
-    name: "St. James Gate",
-    address: "1410 Old County Rd, Belmont",
-    key: "ChIJ_cu-CFSfj4ARID77KTIPlHY",
+    name: "Cafe Zoetrope",
+    address: "916 Kearny St, San Francisco",
+    key: "ChIJ1-6lw_SAhYARompFFvy2OA0",
     image_attribution: null
   },
   {
-    name: "Creekside Pizza & Taproom",
-    address: "638 San Anselmo Ave, San Anselmo",
-    key: "ChIJ-dBsnxWXhYARpafb7V7k4lA",
+    name: "Golden Gate Fortune Cookie Factory",
+    address: "56 Ross Alley, San Francisco",
+    key: "ChIJUXKZXfOAhYARkNN_ZEku9Oo",
     image_attribution: null
   },
   {
-    name: "Bierhaus Oakland",
-    address: "360 40th St, Oakland",
-    key: "ChIJ82W-lzO3j4ARxi3mXgQJVtY",
+    name: "The Fly Trap",
+    address: "606 Folsom Street, San Francisco",
+    key: "ChIJ0QcpaHyAhYAR87kciITM8SE",
     image_attribution: null
   },
   {
-    name: "Benchmark Oakland",
-    address: "499 9th St, Oakland",
-    key: "ChIJhzRPBieBj4ARRDRryfAD2Ck",
+    name: "Caffe Union",
+    address: "1830 Union St, San Francisco",
+    key: "ChIJ2WcOqdyAhYARkeNgeWzqFyA",
     image_attribution: null
   },
   {
-    name: "Z & Y Restaurant",
-    address: "655 Jackson Street, San Francisco",
-    key: "ChIJmevPu_SAhYARMmQlHRt_Rj4",
+    name: "Sister",
+    address: "3308 Grand Ave, Oakland",
+    key: "ChIJsTjQJ06Hj4ARIig3dtGmLqk",
     image_attribution: null
   },
   {
-    name: "Hunan Empire Restaurant",
-    address: "2001 Union Street, San Francisco",
-    key: "ChIJTdw_KNuAhYARjo4FrVXBmBI",
+    name: "Degrees Plato Tap Room Bottle Shop & Kitchen",
+    address: "4251 MacArthur Blvd, Oakland",
+    key: "ChIJ0xNnOj-Gj4ARAcO8zDIakLs",
     image_attribution: null
   },
   {
-    name: "Oasis Grill",
-    address: "91 Drumm Street, San Francisco",
-    key: "ChIJgetcRmGAhYARjDkShaWuWMs",
+    name: "Paradise Park Cafe",
+    address: "6334 San Pablo Ave, Oakland",
+    key: "ChIJRZY6LWF-hYARKlhywnw5qVA",
     image_attribution: null
   },
   {
-    name: "Belly",
-    address: "1901 San Pablo Ave, Oakland",
-    key: "ChIJBey8Wq6Aj4ARamLU43rgyLE",
+    name: "Limon Rotisserie Burlingame",
+    address: "1101 Burlingame Ave, Burlingame",
+    key: "ChIJU0mV-vGdj4ARTvs5m0l5JYc",
+    image_attribution: null
+  },
+  {
+    name: "Working Girls' Cafe",
+    address: "122 New Montgomery St, San Francisco",
+    key: "ChIJzbJSSH2AhYAROGCpM1aa_sU",
+    image_attribution: null
+  },
+  {
+    name: "Good Luck Cafe and Deli",
+    address: "621 Kearny St, San Francisco",
+    key: "ChIJF_bSGouAhYARLuv5BtmPb-4",
     image_attribution: null
   },
   {
@@ -4380,63 +4436,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Gogi Time",
-    address: "2600 Telegraph Ave, Oakland",
-    key: "ChIJqUgTD6uAj4ARkv-s_124I0k",
-    image_attribution: null
-  },
-  {
-    name: "Degrees Plato Tap Room Bottle Shop & Kitchen",
-    address: "4251 MacArthur Blvd, Oakland",
-    key: "ChIJ0xNnOj-Gj4ARAcO8zDIakLs",
-    image_attribution: null
-  },
-  {
-    name: "Paradise Park Cafe",
-    address: "6334 San Pablo Ave, Oakland",
-    key: "ChIJRZY6LWF-hYARKlhywnw5qVA",
-    image_attribution: null
-  },
-  {
-    name: "M\u00e4go",
-    address: "3762 Piedmont Ave, Oakland",
-    key: "ChIJ6Vo7Amh9hYARHqys1hFT8yw",
-    image_attribution: null
-  },
-  {
-    name: "Sister",
-    address: "3308 Grand Ave, Oakland",
-    key: "ChIJsTjQJ06Hj4ARIig3dtGmLqk",
-    image_attribution: null
-  },
-  {
-    name: "Mela Tandoori Kitchen",
-    address: "536 Golden Gate Avenue, San Francisco",
-    key: "ChIJz2eP2ZmAhYARl030KzAUg4U",
-    image_attribution: null
-  },
-  {
-    name: "Limon Rotisserie Burlingame",
-    address: "1101 Burlingame Ave, Burlingame",
-    key: "ChIJU0mV-vGdj4ARTvs5m0l5JYc",
-    image_attribution: null
-  },
-  {
-    name: "Turtle Tower",
-    address: "501 6th Street, San Francisco",
-    key: "ChIJ_SK4z5CAhYARNyd8g30-qRs",
-    image_attribution: null
-  },
-  {
     name: "Nachoria",
     address: "226 Lorton Ave, Burlingame",
     key: "ChIJVXPg2_Gdj4ARoVUg2ePDXic",
     image_attribution: null
   },
   {
-    name: "L'Ardoise",
-    address: "151 Noe St, San Francisco",
-    key: "ChIJ59pRbR1-j4ARKfQUFqmo33o",
+    name: "Gogi Time",
+    address: "2600 Telegraph Ave, Oakland",
+    key: "ChIJqUgTD6uAj4ARkv-s_124I0k",
+    image_attribution: null
+  },
+  {
+    name: "M\u00e4go",
+    address: "3762 Piedmont Ave, Oakland",
+    key: "ChIJ6Vo7Amh9hYARHqys1hFT8yw",
     image_attribution: null
   },
   {
@@ -4452,15 +4466,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "The Rake at Admiral Maltings",
+    address: "5047, 651A W Tower Ave, Alameda",
+    key: "ChIJoQp6Lu6Aj4ARlWCmMkY8ubk",
+    image_attribution: null
+  },
+  {
+    name: "Campo Di Bocce of Livermore",
+    address: "175 E Vineyard Ave, Livermore",
+    key: "ChIJdSH_Zlbdj4ARZoGMCVW07HI",
+    image_attribution: null
+  },
+  {
     name: "Crispian Bakery",
     address: "1700 Park St #120, Alameda",
     key: "ChIJCZHk8JSGj4AR0vWLfdHgM0E",
     image_attribution: null
   },
   {
-    name: "Fire Wings Alameda",
-    address: "1620 Park St, Alameda",
-    key: "ChIJQ4W0K1OHj4ARUcKTXNvKxTw",
+    name: "Manresa Bread",
+    address: "271 State St, Los Altos",
+    key: "ChIJT4g8Mu6wj4AR7vGGJK5E0XE",
     image_attribution: null
   },
   {
@@ -4470,9 +4496,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Rake at Admiral Maltings",
-    address: "5047, 651A W Tower Ave, Alameda",
-    key: "ChIJoQp6Lu6Aj4ARlWCmMkY8ubk",
+    name: "Tender Greens",
+    address: "30 Fremont Street, San Francisco",
+    key: "ChIJD95vCWOAhYARoArNRhm9cFM",
     image_attribution: null
   },
   {
@@ -4494,39 +4520,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Batter Bakery",
-    address: "1517 Pine Street, San Francisco",
-    key: "ChIJxy5EvemAhYARnBPZylIMnRI",
-    image_attribution: null
-  },
-  {
-    name: "Campo Di Bocce of Livermore",
-    address: "175 E Vineyard Ave, Livermore",
-    key: "ChIJdSH_Zlbdj4ARZoGMCVW07HI",
-    image_attribution: null
-  },
-  {
-    name: "Manresa Bread",
-    address: "271 State St, Los Altos",
-    key: "ChIJT4g8Mu6wj4AR7vGGJK5E0XE",
-    image_attribution: null
-  },
-  {
-    name: "Taqueria Cancun",
-    address: "2288 Mission Street, San Francisco",
-    key: "ChIJBxm1jjx-j4ARY3l-wL7YQss",
-    image_attribution: null
-  },
-  {
-    name: "Sai Jai Thai",
-    address: "771 O'Farrell Street, San Francisco",
-    key: "ChIJBTrAJJGAhYARiRVW0sWfOK0",
-    image_attribution: null
-  },
-  {
     name: "Flatiron",
     address: "724 B St, San Rafael",
     key: "ChIJTY5HffmZhYAR3SG3lGOBqk4",
+    image_attribution: null
+  },
+  {
+    name: "Amici's East Coast Pizzeria",
+    address: "2200 Lombard Street, San Francisco",
+    key: "ChIJr5hDK9eAhYAR2rMP50S2r0A",
+    image_attribution: null
+  },
+  {
+    name: "Caffe Trieste",
+    address: "601 Vallejo St, San Francisco",
+    key: "ChIJcyHa9fOAhYAR7reGSUvtLe4",
+    image_attribution: null
+  },
+  {
+    name: "State of Mind Public House and Pizzeria",
+    address: "101 Plaza N, Los Altos",
+    key: "ChIJbXQkXe6wj4ARdvBYlDi9YNM",
     image_attribution: null
   },
   {
@@ -4542,15 +4556,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "State of Mind Public House and Pizzeria",
-    address: "101 Plaza N, Los Altos",
-    key: "ChIJbXQkXe6wj4ARdvBYlDi9YNM",
+    name: "Fire Wings Alameda",
+    address: "1620 Park St, Alameda",
+    key: "ChIJQ4W0K1OHj4ARUcKTXNvKxTw",
     image_attribution: null
   },
   {
-    name: "Amarena",
-    address: "2162 Larkin Street, San Francisco",
-    key: "ChIJM7I8HemAhYARjCsAkDZd_D8",
+    name: "Fraiche Catering San Francisco",
+    address: "156 2nd St, San Francisco",
+    key: "ChIJswjIJX2AhYARlouYjazAfQY",
+    image_attribution: null
+  },
+  {
+    name: "Nick's Crispy Tacos",
+    address: "1500 Broadway, San Francisco",
+    key: "ChIJt3iYkOmAhYARofTl8oAaLN4",
+    image_attribution: ""
+  },
+  {
+    name: "Rickey's Restaurant",
+    address: "250 Entrada Dr, Novato",
+    key: "ChIJeV0JVyy9hYARGT8Ax4LIk08",
     image_attribution: null
   },
   {
@@ -4560,21 +4586,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Backyard Bayou",
-    address: "32280 Dyer St, Union City",
-    key: "ChIJDZqF6MSVj4ARCadOhPR8Mhw",
+    name: "Marin Coffee Roasters",
+    address: "466 Ignacio Blvd, Novato",
+    key: "ChIJi4Y9Fy69hYARbddLXQteqSg",
     image_attribution: null
   },
   {
-    name: "San Jose",
-    address: "San Jose",
-    key: "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
-    image_attribution: null
-  },
-  {
-    name: "Fire Wings San Mateo",
-    address: "206 S B St, San Mateo",
-    key: "ChIJo7QtiEOfj4ARPFSTaTIW0rY",
+    name: "I'a Poke",
+    address: "684 King Street, San Francisco",
+    key: "ChIJX7KNJy1-j4ARH22x24ewJRE",
     image_attribution: null
   },
   {
@@ -4584,27 +4604,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rickey's Restaurant",
-    address: "250 Entrada Dr, Novato",
-    key: "ChIJeV0JVyy9hYARGT8Ax4LIk08",
-    image_attribution: null
-  },
-  {
-    name: "La Cumbre Taqueria SF",
-    address: "515 Valencia Street, San Francisco",
-    key: "ChIJkb0BVCJ-j4ARqRxW4pyF9y4",
-    image_attribution: null
-  },
-  {
-    name: "Marin Coffee Roasters",
-    address: "466 Ignacio Blvd, Novato",
-    key: "ChIJi4Y9Fy69hYARbddLXQteqSg",
-    image_attribution: null
-  },
-  {
-    name: "Emporium SF - Arcade Bar Venue",
-    address: "616 Divisadero Street, San Francisco",
-    key: "ChIJaSBxxa-AhYARBotIvZ6iIbE",
+    name: "Brenda's Meat & Three",
+    address: "919 Divisadero Street, San Francisco",
+    key: "ChIJBZ2nB7GAhYAR1BUmlCHczaw",
     image_attribution: null
   },
   {
@@ -4614,15 +4616,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dandelion Chocolate 16th Street Factory",
-    address: "2600 16th Street, San Francisco",
-    key: "ChIJm1iH_qF_j4ARLC2W1AHKITA",
-    image_attribution: null
-  },
-  {
     name: "Bistro Tupaz",
     address: "5899 Santa Teresa Blvd #101, San Jose",
     key: "ChIJU6UH1MAxjoARBxq96tns9JE",
+    image_attribution: null
+  },
+  {
+    name: "Backyard Bayou",
+    address: "32280 Dyer St, Union City",
+    key: "ChIJDZqF6MSVj4ARCadOhPR8Mhw",
     image_attribution: null
   },
   {
@@ -4638,27 +4640,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "San Jose",
+    address: "San Jose",
+    key: "ChIJ9T_5iuTKj4ARe3GfygqMnbk",
+    image_attribution: null
+  },
+  {
+    name: "Fire Wings San Mateo",
+    address: "206 S B St, San Mateo",
+    key: "ChIJo7QtiEOfj4ARPFSTaTIW0rY",
+    image_attribution: null
+  },
+  {
+    name: "Amirah Restaurant",
+    address: "993 North Point Street, San Francisco",
+    key: "ChIJx0iRuBaBhYARvwoKazthrzQ",
+    image_attribution: null
+  },
+  {
     name: "Bay Meadows",
     address: "2750 S Delaware St, San Mateo",
     key: "ChIJUaudIf2ej4ARz2IX5SbVOfw",
     image_attribution: null
   },
   {
-    name: "Tai Chi",
-    address: "2031 Polk Street, San Francisco",
-    key: "ChIJ1dRZHNCBhYARXD50QQL1WsM",
-    image_attribution: null
-  },
-  {
-    name: "House of Sushi",
-    address: "2157 Polk Street, San Francisco",
-    key: "ChIJZXIQu-mAhYARwYVGdWZzoQw",
-    image_attribution: null
-  },
-  {
-    name: "Tropisueno",
-    address: "75 Yerba Buena Lane, San Francisco",
-    key: "ChIJfcaly4eAhYARSIvvfFpH64w",
+    name: "Ganim's",
+    address: "1135 18th Street, San Francisco",
+    key: "ChIJAxGhosl_j4ARsoBt0RmVsvQ",
     image_attribution: null
   },
   {
@@ -4668,9 +4676,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chantal Guillon Patisserie",
-    address: "1309 Howard Street, San Francisco",
-    key: "ChIJLYnaUZ2AhYARLTzr2hlIJkg",
+    name: "The City Taqueria",
+    address: "1836 Divisadero Street #2, San Francisco",
+    key: "ChIJe9ExmsmAhYARStIrAKjiN10",
     image_attribution: null
   },
   {
@@ -4680,9 +4688,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Devine Cheese & Wine",
-    address: "27 Devine St, San Jose",
-    key: "ChIJHwrYT5jMj4AR8UJgcTh2Zao",
+    name: "Sweet Maple",
+    address: "2101 Sutter Street, San Francisco",
+    key: "ChIJMT5TG7iAhYAREDkkUYkUSYg",
     image_attribution: null
   },
   {
@@ -4692,9 +4700,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jackie's Place",
-    address: "655 N 6th St, San Jose",
-    key: "ChIJ924cgmrNj4AR_zzWa-nJdVQ",
+    name: "Han's Coffee Shop",
+    address: "900 Sutter St, San Francisco",
+    key: "ChIJbQyGMZKAhYARvtrfndbObvQ",
     image_attribution: null
   },
   {
@@ -4704,9 +4712,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Lotta's Bakery",
+    address: "1720 Polk Street, San Francisco",
+    key: "ChIJSWF-AeuAhYARnxsK8XHG2ds",
+    image_attribution: null
+  },
+  {
     name: "Pekoe",
     address: "3276 S White Rd, San Jose",
     key: "ChIJP8nr8XQtjoARzyqzrNjh6ng",
+    image_attribution: null
+  },
+  {
+    name: "Jackie's Place",
+    address: "655 N 6th St, San Jose",
+    key: "ChIJ924cgmrNj4AR_zzWa-nJdVQ",
     image_attribution: null
   },
   {
@@ -4719,6 +4739,12 @@ const SFPlaces = [
     name: "Vintage Wine Bar",
     address: "368 Santana Row, San Jose",
     key: "ChIJqZCMj9_Kj4AR9EXrch8i9yU",
+    image_attribution: null
+  },
+  {
+    name: "Devine Cheese & Wine",
+    address: "27 Devine St, San Jose",
+    key: "ChIJHwrYT5jMj4AR8UJgcTh2Zao",
     image_attribution: null
   },
   {
@@ -4746,21 +4772,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Beer 39",
-    address: "Pier 39, #240, San Francisco",
-    key: "ChIJGacF4_yAhYARys00ee3rkrw",
+    name: "Cilantro SF Taqueria",
+    address: "2257 Mason Street, San Francisco",
+    key: "ChIJG9jGJeWAhYARE2wvx9yx7io",
     image_attribution: null
   },
   {
-    name: "Luce Restaurant",
-    address: "888 Howard Street #3011, San Francisco",
-    key: "ChIJF1lX2oaAhYARelgGaL_UtIc",
+    name: "Red Dog",
+    address: "303 2nd Street, San Francisco",
+    key: "ChIJR1lRCnyAhYARjnuMoCkf2BM",
     image_attribution: null
   },
   {
-    name: "Arinell Pizza",
-    address: "509 Valencia Street, San Francisco",
-    key: "ChIJDdusUSJ-j4ARXq2RH2f_S9A",
+    name: "JOE & THE JUICE",
+    address: "50 California Street, San Francisco",
+    key: "ChIJAQCQaWGAhYARnGWVypsM8A0",
+    image_attribution: null
+  },
+  {
+    name: "a Mano",
+    address: "450 Hayes St, San Francisco",
+    key: "ChIJjfhunpiAhYARL76pNCCCFvg",
+    image_attribution: ""
+  },
+  {
+    name: "Ocean Malasada Company",
+    address: "2433 Quintara St, San Francisco",
+    key: "ChIJ7X_xK4B9j4ARCeQrxb9YIw0",
+    image_attribution: null
+  },
+  {
+    name: "The Plant Cafe Organic",
+    address: "250 Montgomery St #101, San Francisco",
+    key: "ChIJj82CHYqAhYARe8UgTiOOOcY",
     image_attribution: null
   },
   {
@@ -4771,9 +4815,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Perry's on Union",
+    address: "1944 Union Street, San Francisco",
+    key: "ChIJy3_5ONuAhYARlKgaknpqI0k",
+    image_attribution: null
+  },
+  {
     name: "Lefty's Grill",
     address: "101 Broad St, Nevada City",
     key: "ChIJsyGMp3F6m4ARIp40VOr6KbI",
+    image_attribution: null
+  },
+  {
+    name: "Isa Restaurant",
+    address: "3324 Steiner Street, San Francisco",
+    key: "ChIJ-0fZLdeAhYARAVMwd0s61Vs",
     image_attribution: null
   },
   {
@@ -4781,48 +4837,6 @@ const SFPlaces = [
     address: "4001 Judah St, San Francisco",
     key: "ChIJf-NCNpeHhYARLeneHNw3WWs",
     image_attribution: ""
-  },
-  {
-    name: "Ocean Malasada Company",
-    address: "2433 Quintara St, San Francisco",
-    key: "ChIJ7X_xK4B9j4ARCeQrxb9YIw0",
-    image_attribution: null
-  },
-  {
-    name: "Geneva Steak",
-    address: "5130 Mission Street, San Francisco",
-    key: "ChIJddBMn5x-j4ARnjxTgKWQfyA",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "399 Golden Gate Ave, San Francisco",
-    key: "ChIJH7w1a5qAhYARSHYy_wjbPr4",
-    image_attribution: null
-  },
-  {
-    name: "Boba Guys Mission",
-    address: "3491 19th St, San Francisco",
-    key: "ChIJZZK4_Tx-j4ARcB8RQQyC4Io",
-    image_attribution: ""
-  },
-  {
-    name: "Barbary Coast Pastry and Coffee",
-    address: "55 Cyril Magnin St, San Francisco",
-    key: "ChIJd1kdjYWAhYAR6sW8xjHpsys",
-    image_attribution: null
-  },
-  {
-    name: "The Crepe House",
-    address: "1755 Polk Street, San Francisco",
-    key: "ChIJEyD7VOqAhYARGRnxuHZGAkY",
-    image_attribution: null
-  },
-  {
-    name: "Pera",
-    address: "1457 18th Street, San Francisco",
-    key: "ChIJf61nyst_j4AReiwQdF4Jy6k",
-    image_attribution: null
   },
   {
     name: "Campo Di Bocce of Los Gatos",
@@ -4843,12 +4857,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bootjack Wood Fired",
-    address: "17 Madrona St, Mill Valley",
-    key: "ChIJi8vtm22QhYAR43rUX5ZSReE",
-    image_attribution: null
-  },
-  {
     name: "Ben Frank's",
     address: "491 El Camino Real, Redwood City",
     key: "ChIJeZkn-Uiij4AROdXTdPgewpU",
@@ -4861,51 +4869,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Underdogs Too",
-    address: "3600 Taraval St, San Francisco",
-    key: "ChIJTbgLahV9j4ARgnPyxENpVq4",
-    image_attribution: null
-  },
-  {
-    name: "Taqueria Los Amigos",
-    address: "5300 Mission Street, San Francisco",
-    key: "ChIJ0aIaWZx-j4ARIy8LIGPsbN8",
-    image_attribution: null
-  },
-  {
     name: "Pizza Antica",
     address: "800 Redwood Hwy #705, Mill Valley",
     key: "ChIJn5pribWahYARLDZuaMQ8qlM",
     image_attribution: null
   },
   {
-    name: "Comal Next Door",
-    address: "2024 Shattuck Ave, Berkeley",
-    key: "ChIJ5T7diJ5-hYARzUFdts2yfR4",
+    name: "Bootjack Wood Fired",
+    address: "17 Madrona St, Mill Valley",
+    key: "ChIJi8vtm22QhYAR43rUX5ZSReE",
     image_attribution: null
   },
   {
-    name: "Taraval Okazu Ya Restaurant",
-    address: "1735 Taraval Street, San Francisco",
-    key: "ChIJLwyQZOZ9j4ARVbJ8kFH_vAM",
+    name: "Underdogs Too",
+    address: "3600 Taraval St, San Francisco",
+    key: "ChIJTbgLahV9j4ARgnPyxENpVq4",
+    image_attribution: null
+  },
+  {
+    name: "Horsefeather",
+    address: "528 Divisadero Street, San Francisco",
+    key: "ChIJBYNPuq-AhYARkLvNM_mLKhk",
+    image_attribution: null
+  },
+  {
+    name: "Box Kitchen",
+    address: "431 Natoma Street, San Francisco",
+    key: "ChIJrRKGrYaAhYARKatnpmluuMM",
     image_attribution: null
   },
   {
     name: "Yummy Dumpling",
     address: "1708 Irving Street, San Francisco",
     key: "ChIJE6Zd7WWHhYARliUVlyq7UrI",
-    image_attribution: null
-  },
-  {
-    name: "Fire Wings Berkeley",
-    address: "64 Shattuck Square suite d, Berkeley",
-    key: "ChIJEy2iZJ5-hYARsS9GZa-8IEQ",
-    image_attribution: null
-  },
-  {
-    name: "Martita Restaurant Salvadorian & Mexican Food",
-    address: "5278 Mission Street, San Francisco",
-    key: "ChIJ667jX5x-j4ARTFGG__9HsB0",
     image_attribution: null
   },
   {
@@ -4921,33 +4917,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Casey's Pizza",
-    address: "1170 4th Street, San Francisco",
-    key: "ChIJsUTg9NB_j4AR-2Uajiq9v4c",
+    name: "LITTLE SWEET",
+    address: "3836 Geary Boulevard, San Francisco",
+    key: "ChIJc8ZIfSKHhYARBluHlQpJgZU",
     image_attribution: null
   },
   {
-    name: "La Cuisine Cafe",
-    address: "1145 Market St, San Francisco",
-    key: "ChIJATlgTU6BhYAR_GqOgpcXxuc",
-    image_attribution: null
-  },
-  {
-    name: "Pasha",
-    address: "837 Jefferson Ave, Redwood City",
-    key: "ChIJp9_H3Kyjj4ARTvXmQwGc5fI",
-    image_attribution: null
-  },
-  {
-    name: "Common Sage",
-    address: "1552 Polk Street, San Francisco",
-    key: "ChIJeVZpJeuAhYARdp2QoYzlKpw",
-    image_attribution: null
-  },
-  {
-    name: "Blaze Pizza",
-    address: "3251 20th Avenue, San Francisco",
-    key: "ChIJhW1BTbp9j4ARG9F809ppCw0",
+    name: "Ti Piacera Ristorante",
+    address: "1507 Polk Street, San Francisco",
+    key: "ChIJiwCDLOuAhYARC9-cBOKhxLY",
     image_attribution: null
   },
   {
@@ -4963,9 +4941,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Comal Next Door",
+    address: "2024 Shattuck Ave, Berkeley",
+    key: "ChIJ5T7diJ5-hYARzUFdts2yfR4",
+    image_attribution: null
+  },
+  {
+    name: "Fire Wings Berkeley",
+    address: "64 Shattuck Square suite d, Berkeley",
+    key: "ChIJEy2iZJ5-hYARsS9GZa-8IEQ",
+    image_attribution: null
+  },
+  {
+    name: "Pasha",
+    address: "837 Jefferson Ave, Redwood City",
+    key: "ChIJp9_H3Kyjj4ARTvXmQwGc5fI",
+    image_attribution: null
+  },
+  {
+    name: "Double Decker",
+    address: "2956 24th Street, San Francisco",
+    key: "ChIJHSDGMtR_j4ARWmuQXtENuzU",
+    image_attribution: null
+  },
+  {
     name: "PROTEGE Studio - Photography, Video, and Film",
     address: "1002 Grayson Rd, Pleasant Hill",
     key: "ChIJEx_9dPhjhYARAM96WvTXLzc",
+    image_attribution: null
+  },
+  {
+    name: "Oren's Hummus",
+    address: "126 Castro St, Mountain View",
+    key: "ChIJsRJ_JTS3j4AR9RJPR8J3GB8",
+    image_attribution: null
+  },
+  {
+    name: "Steins",
+    address: "895 Villa St, Mountain View",
+    key: "ChIJuzFtRDS3j4AR1gfuHqaeG7k",
     image_attribution: null
   },
   {
@@ -4987,57 +5001,75 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Johnny Foley's Irish House",
+    address: "243 O'Farrell Street, San Francisco",
+    key: "ChIJYQrxFI-AhYARSkQbx58DuHE",
+    image_attribution: null
+  },
+  {
+    name: "Dumpling Time at Thrive City",
+    address: "191 Warriors Way Suite 101, San Francisco",
+    key: "ChIJR2AhaXJ_j4ARScj6r58240E",
+    image_attribution: null
+  },
+  {
+    name: "Alimento",
+    address: "507 Columbus Avenue, San Francisco",
+    key: "ChIJj8LBcPGAhYARz6Fb7CotEzo",
+    image_attribution: null
+  },
+  {
     name: "La Baguette",
     address: "170 Stanford Shopping Center, Palo Alto",
     key: "ChIJGUgSsDW7j4AR3BFPJElJ8SE",
     image_attribution: null
   },
   {
-    name: "Oren's Hummus",
-    address: "126 Castro St, Mountain View",
-    key: "ChIJsRJ_JTS3j4AR9RJPR8J3GB8",
+    name: "B",
+    address: "720 Howard Street, San Francisco",
+    key: "ChIJ3VZMaoeAhYARqeDasg294TM",
     image_attribution: null
   },
   {
-    name: "Steins",
-    address: "895 Villa St, Mountain View",
-    key: "ChIJuzFtRDS3j4AR1gfuHqaeG7k",
+    name: "Coffee To The People",
+    address: "1206 Masonic Ave, San Francisco",
+    key: "ChIJq2hmlayAhYARdAFlK0vs8cI",
     image_attribution: null
   },
   {
-    name: "Pronto Pizza",
-    address: "798 Eddy Street, San Francisco",
-    key: "ChIJVa1hEJeAhYARyYmff70y94U",
+    name: "Allegro Coffee Company",
+    address: "450 Rhode Island St, San Francisco",
+    key: "ChIJXcq2QDN-j4AR4IkFHc-Sswc",
     image_attribution: null
   },
   {
-    name: "M\u1ed9ng Thu Cafe",
-    address: "248 Hyde St, San Francisco",
-    key: "ChIJAXz2hpCAhYARglSWLEiRrvY",
+    name: "PIZZA SQUARED",
+    address: "885 Brannan Street b2, San Francisco",
+    key: "ChIJNapUGLJ_j4ARcBBCEOyQhtw",
     image_attribution: null
   },
   {
-    name: "Royal Ground Coffee",
-    address: "3101 Geary Blvd, San Francisco",
-    key: "ChIJoW3M4jWHhYARS0Sr4Upon1s",
+    name: "Palette Gallery",
+    address: "816 Folsom St, San Francisco",
+    key: "ChIJ7z4tOpCBhYARkOmmhFPVor8",
     image_attribution: null
   },
   {
-    name: "1428 HAIGHT Patio Cafe & Crepery",
-    address: "1428 Haight St, San Francisco",
-    key: "ChIJZcIExqyAhYARqLsfdzR85FU",
+    name: "El Norte\u00f1o Taco Truck",
+    address: "801 Bryant Street, San Francisco",
+    key: "ChIJddLAwCp-j4AR3DgcAcLNUeI",
     image_attribution: null
   },
   {
-    name: "Pacita's Salvadorian Bakery",
-    address: "10 Persia Avenue, San Francisco",
-    key: "ChIJ5bmo84V-j4ARCnsJnEuAbu8",
+    name: "Tacobar",
+    address: "2401 California Street, San Francisco",
+    key: "ChIJccf-tceAhYARLd4Kijiy3z8",
     image_attribution: null
   },
   {
-    name: "Station Cafe",
-    address: "1600 Holloway Ave, San Francisco",
-    key: "ChIJmxkF-rN9j4ARuFT4xoQzDno",
+    name: "Bi-Rite Market",
+    address: "3639 18th Street, San Francisco",
+    key: "ChIJ_WI-BRh-j4AR1EnWvxsCVOg",
     image_attribution: null
   },
   {
@@ -5065,6 +5097,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Waypoint Pizza",
+    address: "15 Main St, Tiburon",
+    key: "ChIJh22WEH2EhYARc7vs1ZGUr0Q",
+    image_attribution: null
+  },
+  {
     name: "Paradita Eatery",
     address: "5959 Shellmound St, Emeryville",
     key: "ChIJaX3aglx-hYARWPEHaUrKkIc",
@@ -5083,33 +5121,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Zaytoon",
-    address: "607 Divisadero Street, San Francisco",
-    key: "ChIJI3e-za-AhYARICCKcQnc7Uo",
+    name: "Bar Bocce",
+    address: "1250 Bridgeway, Sausalito",
+    key: "ChIJjxmWcVGEhYAR-8_664bvVcg",
     image_attribution: null
   },
   {
-    name: "Pause Wine Bar in Hayes Valley",
-    address: "1666 Market Street, San Francisco",
-    key: "ChIJIfzOrp-AhYARkjCJ-jzB0as",
-    image_attribution: null
-  },
-  {
-    name: "Waypoint Pizza",
-    address: "15 Main St, Tiburon",
-    key: "ChIJh22WEH2EhYARc7vs1ZGUr0Q",
-    image_attribution: null
-  },
-  {
-    name: "Red Cafe",
-    address: "2894 Mission St, San Francisco",
-    key: "ChIJpVIYK0F-j4ARHS7kSMEYE18",
-    image_attribution: null
-  },
-  {
-    name: "Joinery, Beerhall",
-    address: "300 Turney St, Sausalito",
-    key: "ChIJL-lZXVGEhYAR-UQIDfeUgf0",
+    name: "Mad Dog in the Fog",
+    address: "530 Haight Street, San Francisco",
+    key: "ChIJl7WTv6aAhYAR-PflVqm6yoY",
     image_attribution: null
   },
   {
@@ -5137,75 +5157,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sushi Ran",
-    address: "107 Caledonia St, Sausalito",
-    key: "ChIJC_5gglGEhYARrdLFpYh7ruo",
-    image_attribution: null
-  },
-  {
-    name: "Jamber Wine Pub",
-    address: "858 Folsom Street, San Francisco",
-    key: "ChIJp17WuICAhYAR7FFLYiAYHt4",
-    image_attribution: null
-  },
-  {
-    name: "Roma Pizza",
-    address: "5099 Mission Street, San Francisco",
-    key: "ChIJm-DYWpt-j4AR3wowuG3-FQg",
-    image_attribution: null
-  },
-  {
-    name: "Starbelly",
-    address: "3583 16th St, San Francisco",
-    key: "ChIJs6YBYhx-j4AR4LUJq9SFQt0",
-    image_attribution: null
-  },
-  {
     name: "number5kitchen",
     address: "663 Laurel St, San Carlos",
     key: "ChIJYbzc32yjj4ARiJ_QHb3zKvs",
     image_attribution: null
   },
   {
-    name: "Wooden Spoon",
-    address: "2172 Market St, San Francisco",
-    key: "ChIJB7_2ReF_j4ARs6lccUeGRwo",
-    image_attribution: ""
-  },
-  {
-    name: "Gyro King",
-    address: "25 Grove Street #4702, San Francisco",
-    key: "ChIJPTVTnJuAhYAR3G9Z4eVlTmU",
+    name: "Joinery, Beerhall",
+    address: "300 Turney St, Sausalito",
+    key: "ChIJL-lZXVGEhYAR-UQIDfeUgf0",
     image_attribution: null
   },
   {
-    name: "Bar Bocce",
-    address: "1250 Bridgeway, Sausalito",
-    key: "ChIJjxmWcVGEhYAR-8_664bvVcg",
-    image_attribution: null
-  },
-  {
-    name: "Brew Cha",
-    address: "3420 18th Street #001, San Francisco",
-    key: "ChIJm9T0GxJ_j4ARd56lDygK2j8",
-    image_attribution: null
-  },
-  {
-    name: "Chatz Roasting Company",
-    address: "301 Arkansas St, San Francisco",
-    key: "ChIJLRjqqMt_j4ARWXOd92wi5ak",
-    image_attribution: null
-  },
-  {
-    name: "Mizutani sushi bar",
-    address: "4406 California Street, San Francisco",
-    key: "ChIJ572CAIWHhYARMVYsGdm3Fng",
+    name: "Sushi Ran",
+    address: "107 Caledonia St, Sausalito",
+    key: "ChIJC_5gglGEhYARrdLFpYh7ruo",
     image_attribution: null
   },
   {
     name: "Berkeley Espresso",
     address: "1900 Shattuck Ave, Berkeley",
     key: "ChIJJ5MtD59-hYARB9wKo5dZPwQ",
+    image_attribution: null
+  },
+  {
+    name: "Victory Point Cafe",
+    address: "1797-A, Shattuck Ave, Berkeley",
+    key: "ChIJc4U-eZ9-hYAR5ih4d-bZpBI",
+    image_attribution: null
+  },
+  {
+    name: "Caravaggio Gelateria Italiana",
+    address: "1797 Shattuck Ave, Berkeley",
+    key: "ChIJlfhgeZ9-hYARwZHnZ5wFnI0",
+    image_attribution: null
+  },
+  {
+    name: "Hot Spud",
+    address: "2640 Mason Street, San Francisco",
+    key: "ChIJC-Y7QuOAhYARfjddBQjJBUk",
     image_attribution: null
   },
   {
@@ -5221,33 +5211,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Victory Point Cafe",
-    address: "1797-A, Shattuck Ave, Berkeley",
-    key: "ChIJc4U-eZ9-hYAR5ih4d-bZpBI",
+    name: "Philz Coffee",
+    address: "300 Folsom St, San Francisco",
+    key: "ChIJF_paIXuAhYARO8nSqGWwaLo",
     image_attribution: null
   },
   {
-    name: "Szechuan Taste Restaurant \u957f\u6c5f",
-    address: "917 Taraval Street, San Francisco",
-    key: "ChIJdy39nZF9j4ARopnX8wt-LrM",
+    name: "Oasis Grill",
+    address: "91 Drumm Street, San Francisco",
+    key: "ChIJgetcRmGAhYARjDkShaWuWMs",
     image_attribution: null
   },
   {
-    name: "Caravaggio Gelateria Italiana",
-    address: "1797 Shattuck Ave, Berkeley",
-    key: "ChIJlfhgeZ9-hYARwZHnZ5wFnI0",
+    name: "Andrea's Bakery",
+    address: "4511 Mission Street, San Francisco",
+    key: "ChIJDStv6oh-j4AR12XjBtzPcGw",
     image_attribution: null
   },
   {
-    name: "Breakfast At Tiffany's",
-    address: "2499 San Bruno Avenue, San Francisco",
-    key: "ChIJwXV93vx-j4ARHCdKPwWqFJE",
-    image_attribution: null
-  },
-  {
-    name: "Darwin Cafe",
-    address: "212 Ritch St, San Francisco",
-    key: "ChIJOxC4Nn-AhYARI0Fe_s9gAZk",
+    name: "Juice Portal",
+    address: "166 W Portal Ave, San Francisco",
+    key: "ChIJOeZQINl9j4ARFw9q0DwyJWU",
     image_attribution: null
   },
   {
@@ -5275,9 +5259,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "World Ground Cafe",
-    address: "3726 MacArthur Blvd, Oakland",
-    key: "ChIJEbTHdUiGj4ARJp7_GTMNMUs",
+    name: "Cafe N!ne",
+    address: "11100 San Pablo Ave #105, El Cerrito",
+    key: "ChIJvTQch_94hYARYuVfsQ-9z1U",
+    image_attribution: null
+  },
+  {
+    name: "8-Twelve Oriental Market",
+    address: "596 E 14th St, San Leandro",
+    key: "ChIJg-vqn5uPj4ARUKU0PDrMtDI",
     image_attribution: null
   },
   {
@@ -5293,6 +5283,18 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Perch Coffee House",
+    address: "440 Grand Ave, Oakland",
+    key: "ChIJZQZ_CkaHj4ARc07dpKREh6w",
+    image_attribution: null
+  },
+  {
+    name: "WONDER TEA",
+    address: "2250 Irving Street, San Francisco",
+    key: "ChIJa8joQXCHhYARw5nFbhfPMrI",
+    image_attribution: null
+  },
+  {
     name: "Koffee Pot",
     address: "2532 Telegraph Ave, Oakland",
     key: "ChIJyyAMC6uAj4AR9CxLAdeZ3SU",
@@ -5305,45 +5307,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Perch Coffee House",
-    address: "440 Grand Ave, Oakland",
-    key: "ChIJZQZ_CkaHj4ARc07dpKREh6w",
-    image_attribution: null
-  },
-  {
-    name: "Mc Garden Coffee & Bakery",
-    address: "5131 Mission St, San Francisco",
-    key: "ChIJC1JqXpt-j4ARf1aA9jpaspU",
-    image_attribution: null
-  },
-  {
-    name: "Bar at Hotel Kabuki",
-    address: "1625 Post Street, San Francisco",
-    key: "ChIJOd6H3L6AhYARh3nYXMIrZOo",
-    image_attribution: null
-  },
-  {
     name: "CAFE MONTE SION",
     address: "888 98th Ave Suite #105, Oakland",
     key: "ChIJj9gXq3WFj4ARgqzwuXONkXk",
-    image_attribution: null
-  },
-  {
-    name: "Antigua Coffee Shop - San Leandro",
-    address: "500A Davis St, San Leandro",
-    key: "ChIJ9bosTtyPj4ARzxrNCpkW5eI",
-    image_attribution: null
-  },
-  {
-    name: "Timeless Coffee",
-    address: "4252 Piedmont Ave, Oakland",
-    key: "ChIJF3Pix_Z9hYAREl-3wI4BX_I",
-    image_attribution: null
-  },
-  {
-    name: "Anton's Pizza & Deli",
-    address: "1196 Folsom Street, San Francisco",
-    key: "ChIJh5Yph4KAhYARm7XZPaO-Zko",
     image_attribution: null
   },
   {
@@ -5353,15 +5319,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe N!ne",
-    address: "11100 San Pablo Ave #105, El Cerrito",
-    key: "ChIJvTQch_94hYARYuVfsQ-9z1U",
-    image_attribution: null
-  },
-  {
-    name: "Hasta Muerte Coffee",
-    address: "2701 Fruitvale Ave, Oakland",
-    key: "ChIJsyKtV_-Gj4ARX-RJOFAtuR4",
+    name: "Timeless Coffee",
+    address: "4252 Piedmont Ave, Oakland",
+    key: "ChIJF3Pix_Z9hYAREl-3wI4BX_I",
     image_attribution: null
   },
   {
@@ -5371,21 +5331,46 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "8-Twelve Oriental Market",
-    address: "596 E 14th St, San Leandro",
-    key: "ChIJg-vqn5uPj4ARUKU0PDrMtDI",
+    name: "Caf\u00e9 NOSTOS",
+    address: "1930 Martin Luther King Jr Way, Berkeley",
+    key: "ChIJM0fd-ph-hYARBUUYvkXviPA",
     image_attribution: null
+  },
+  {
+    name: "Antigua Coffee Shop - San Leandro",
+    address: "500A Davis St, San Leandro",
+    key: "ChIJ9bosTtyPj4ARzxrNCpkW5eI",
+    image_attribution: null
+  },
+  {
+    name: "Mc Garden Coffee & Bakery",
+    address: "5131 Mission St, San Francisco",
+    key: "ChIJC1JqXpt-j4ARf1aA9jpaspU",
+    image_attribution: null
+  },
+  {
+    name: "Hasta Muerte Coffee",
+    address: "2701 Fruitvale Ave, Oakland",
+    key: "ChIJsyKtV_-Gj4ARX-RJOFAtuR4",
+    image_attribution: null
+  },
+  {
+    name: "World Ground Cafe",
+    address: "3726 MacArthur Blvd, Oakland",
+    key: "ChIJEbTHdUiGj4ARJp7_GTMNMUs",
+    image_attribution: null
+  },
+  {
+    name: "The Saratoga",
+    address: "1000 Larkin St, San Francisco",
+    key: "ChIJP6YM-ZOAhYARim7u_CAPfW8",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107452294478707370016\">Tony Deblauwe</a>']"
   },
   {
     name: "Subrosa Coffee",
     address: "419 40th St, Oakland",
     key: "ChIJWRznjvx9hYARtN8UHnwnJOA",
-    image_attribution: null
-  },
-  {
-    name: "Caf\u00e9 NOSTOS",
-    address: "1930 Martin Luther King Jr Way, Berkeley",
-    key: "ChIJM0fd-ph-hYARBUUYvkXviPA",
     image_attribution: null
   },
   {
@@ -5395,21 +5380,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "R Caffe",
+    address: "614 Polk Street, San Francisco",
+    key: "ChIJ1QtITpeAhYARs4M1P5-xtnA",
+    image_attribution: null
+  },
+  {
+    name: "Shalimar Restaurant",
+    address: "1409 Polk Street, San Francisco",
+    key: "ChIJ078x1JGAhYARuA97zmEK4Gc",
+    image_attribution: null
+  },
+  {
     name: "Farley's East",
     address: "33 Grand Ave, Oakland",
     key: "ChIJOfV-L62Aj4ARLK1zC4XxJJ8",
     image_attribution: null
   },
   {
-    name: "Gentilly",
-    address: "4826 Mission Street, San Francisco",
-    key: "ChIJ7UuRkmF_j4AR9Py1bDXwZ80",
+    name: "Lucky's Bakery & Cafe",
+    address: "2666 Geneva Ave, Daly City",
+    key: "ChIJCb8fhcV-j4AR6xh11YAagnE",
     image_attribution: null
   },
   {
-    name: "Cafe Santana Roasting Company",
-    address: "4100 MacArthur Blvd, Oakland",
-    key: "ChIJGxIZkDiGj4ARCFUCRdvls_o",
+    name: "Earthly Coffee and Tea",
+    address: "5506 Martin Luther King Jr Way, Oakland",
+    key: "ChIJfcFuXXR-hYARz4DCsOgl0tA",
     image_attribution: null
   },
   {
@@ -5419,21 +5416,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caf\u00e9 Mezzo",
-    address: "2442 Telegraph Ave, Berkeley",
-    key: "ChIJEeIzp-F9hYARAb2PODOZ73k",
+    name: "Cafe Santana Roasting Company",
+    address: "4100 MacArthur Blvd, Oakland",
+    key: "ChIJGxIZkDiGj4ARCFUCRdvls_o",
     image_attribution: null
   },
   {
-    name: "PIZZA SQUARED",
-    address: "885 Brannan Street b2, San Francisco",
-    key: "ChIJNapUGLJ_j4ARcBBCEOyQhtw",
+    name: "The CRO Cafe",
+    address: "Alley 49, Oakland",
+    key: "ChIJcdGPDeF9hYARrf-L17vFVzY",
     image_attribution: null
   },
   {
-    name: "The Social Study",
-    address: "1795 Geary Boulevard, San Francisco",
-    key: "ChIJ76SKCLmAhYARe15t27RAbwY",
+    name: "Neptune's",
+    address: "630 Central Ave, Alameda",
+    key: "ChIJ_c5WlSWBj4AReYWuTURvJc8",
+    image_attribution: null
+  },
+  {
+    name: "All Nite Pizza",
+    address: "5155 3rd Street, San Francisco",
+    key: "ChIJvWaN7Bp_j4ARzXHSDHUGelY",
     image_attribution: null
   },
   {
@@ -5449,33 +5452,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Northside Cafe",
-    address: "1878 Euclid Ave, Berkeley",
-    key: "ChIJ41kQeyF8hYARwcdepzgBPbc",
+    name: "Sabino's Coffee Shop",
+    address: "1273 MacArthur Blvd, San Leandro",
+    key: "ChIJoWJVx7CPj4ARj2KoENoj9vU",
     image_attribution: null
   },
   {
-    name: "Grand Coffee",
-    address: "2663 Mission St, San Francisco",
-    key: "ChIJC0tDSj9-j4AROcvQfiqe1y8",
-    image_attribution: null
-  },
-  {
-    name: "Earthly Coffee and Tea",
-    address: "5506 Martin Luther King Jr Way, Oakland",
-    key: "ChIJfcFuXXR-hYARz4DCsOgl0tA",
-    image_attribution: null
-  },
-  {
-    name: "Golden Moon Restaurant",
-    address: "2511 Geneva Avenue, Daly City",
-    key: "ChIJqet_xsV-j4ARa0n_qu06DzE",
-    image_attribution: null
-  },
-  {
-    name: "The CRO Cafe",
-    address: "Alley 49, Oakland",
-    key: "ChIJcdGPDeF9hYARrf-L17vFVzY",
+    name: "Montecristo",
+    address: "6286 3rd Street, San Francisco",
+    key: "ChIJQ1CM7SF_j4ARq5EAPcmH-E0",
     image_attribution: null
   },
   {
@@ -5485,27 +5470,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bica Coffeehouse",
-    address: "5701 College Ave, Oakland",
-    key: "ChIJ_Zw6A8N9hYAR9cQfUuiae7g",
+    name: "The Grove - Yerba Buena",
+    address: "690 Mission Street, San Francisco",
+    key: "ChIJiZyN7IeAhYARnCn-G6GH73Q",
     image_attribution: null
   },
   {
-    name: "Neptune's",
-    address: "630 Central Ave, Alameda",
-    key: "ChIJ_c5WlSWBj4AReYWuTURvJc8",
-    image_attribution: null
-  },
-  {
-    name: "Sabino's Coffee Shop",
-    address: "1273 MacArthur Blvd, San Leandro",
-    key: "ChIJoWJVx7CPj4ARj2KoENoj9vU",
-    image_attribution: null
+    name: "Knockout",
+    address: "3223 Mission St, San Francisco",
+    key: "ChIJMyk1DEN-j4ARzwVUTMhc4jA",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/108430051696898041877\">Jeffrey Hayashida</a>']"
   },
   {
     name: "Zazzi Foods",
     address: "1398 University Ave, Berkeley",
     key: "ChIJ7Zfz29p-hYARqLnA0zCGGLg",
+    image_attribution: null
+  },
+  {
+    name: "Caf\u00e9 Mezzo",
+    address: "2442 Telegraph Ave, Berkeley",
+    key: "ChIJEeIzp-F9hYARAb2PODOZ73k",
+    image_attribution: null
+  },
+  {
+    name: "Northside Cafe",
+    address: "1878 Euclid Ave, Berkeley",
+    key: "ChIJ41kQeyF8hYARwcdepzgBPbc",
     image_attribution: null
   },
   {
@@ -5515,9 +5507,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bica Coffeehouse",
+    address: "5701 College Ave, Oakland",
+    key: "ChIJ_Zw6A8N9hYAR9cQfUuiae7g",
+    image_attribution: null
+  },
+  {
     name: "Alchemy Collective Cafe and Roaster",
     address: "1741 Alcatraz Ave, Berkeley",
     key: "ChIJCeoIuHt-hYAR0OZUwj2Gqxk",
+    image_attribution: null
+  },
+  {
+    name: "It's A Grind Coffee House",
+    address: "1933 Davis St Suite 135B, San Leandro",
+    key: "ChIJMeOMZDWFj4ARRDAWL_vhlLM",
+    image_attribution: null
+  },
+  {
+    name: "Tala Coffee & Tea",
+    address: "10734 San Pablo Ave, El Cerrito",
+    key: "ChIJ03nVbwJ5hYARv1JYOGS8N_E",
+    image_attribution: null
+  },
+  {
+    name: "Sunny Side Up",
+    address: "1499 Solano Ave, Albany",
+    key: "ChIJFz0eh0p5hYAROYnzNUCDeok",
+    image_attribution: null
+  },
+  {
+    name: "City Lights Cafe",
+    address: "2121 Harrison St, Oakland",
+    key: "ChIJxQeEglKHj4ARv6xGdums8gY",
+    image_attribution: null
+  },
+  {
+    name: "Uptown Cafe & Crepe",
+    address: "410 21st St, Oakland",
+    key: "ChIJDfx1aK2Aj4ARp57cZE6xvlU",
+    image_attribution: null
+  },
+  {
+    name: "Bicycle Coffee",
+    address: "2201 Broadway, Oakland",
+    key: "ChIJwW_faR2Bj4ARHtcFbyUSgps",
     image_attribution: null
   },
   {
@@ -5539,123 +5573,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Wescafe",
-    address: "1518 Webster St, Alameda",
-    key: "ChIJmzP2I6n3MhURxNmI61FpYoo",
-    image_attribution: null
-  },
-  {
     name: "Sack's Coffee House",
     address: "2701 College Ave, Berkeley",
     key: "ChIJX9GbpDJ8hYARzIu23Ssq8cg",
     image_attribution: null
   },
   {
-    name: "Bayside Cafe",
-    address: "2011 Bayshore Blvd, San Francisco",
-    key: "ChIJCdThHid_j4ARmKf7ca0sL5o",
+    name: "Wescafe",
+    address: "1518 Webster St, Alameda",
+    key: "ChIJmzP2I6n3MhURxNmI61FpYoo",
     image_attribution: null
   },
   {
-    name: "Fancy Wheat Field Bakery",
-    address: "2684 San Bruno Avenue, San Francisco",
-    key: "ChIJrSzm4OJ-j4ARPwWi2rJYAes",
+    name: "Kibatsu",
+    address: "400 Haight Street, San Francisco",
+    key: "ChIJ_6lGs5OBhYARMZbrb4T5Os4",
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "3101 24th St, San Francisco",
-    key: "ChIJNZoFtUd-j4ARJedNpFz-mow",
+    name: "Arabian Nights",
+    address: "2345 Mission Street, San Francisco",
+    key: "ChIJ7021cTx-j4ARMsCzWEGEWDE",
     image_attribution: null
   },
   {
-    name: "Ike's Sandwiches",
-    address: "3251 20th Avenue #250c, San Francisco",
-    key: "ChIJD8sx2LN9j4ARrkbwuA-vRo4",
+    name: "Baiano Pizzeria",
+    address: "100 Gough Street, San Francisco",
+    key: "ChIJgaqMEZ-AhYARektJ_RuUq4E",
     image_attribution: null
   },
   {
-    name: "Tala Coffee & Tea",
-    address: "10734 San Pablo Ave, El Cerrito",
-    key: "ChIJ03nVbwJ5hYARv1JYOGS8N_E",
+    name: "Modern Thai",
+    address: "1247 Polk Street, San Francisco",
+    key: "ChIJRTuZWJSAhYARE0kNGsoxBTE",
     image_attribution: null
   },
   {
-    name: "Street Taco",
-    address: "83 9th Street, San Francisco",
-    key: "ChIJp-A28JyAhYARjNRqpaJuiQY",
-    image_attribution: null
-  },
-  {
-    name: "Henry's House of Coffee",
-    address: "1618 Noriega St, San Francisco",
-    key: "ChIJLX48SH2HhYARs2ZuZnT0Pz4",
-    image_attribution: null
-  },
-  {
-    name: "City Lights Cafe",
-    address: "2121 Harrison St, Oakland",
-    key: "ChIJxQeEglKHj4ARv6xGdums8gY",
-    image_attribution: null
-  },
-  {
-    name: "Uptown Cafe & Crepe",
-    address: "410 21st St, Oakland",
-    key: "ChIJDfx1aK2Aj4ARp57cZE6xvlU",
-    image_attribution: null
-  },
-  {
-    name: "It's A Grind Coffee House",
-    address: "1933 Davis St Suite 135B, San Leandro",
-    key: "ChIJMeOMZDWFj4ARRDAWL_vhlLM",
-    image_attribution: null
-  },
-  {
-    name: "Sunny Side Up",
-    address: "1499 Solano Ave, Albany",
-    key: "ChIJFz0eh0p5hYAROYnzNUCDeok",
-    image_attribution: null
-  },
-  {
-    name: "Bluestone Lane Theatre District Coffee Shop",
-    address: "562 Sutter St, San Francisco",
-    key: "ChIJ3da1WXCBhYAR7ye5adJwtqk",
-    image_attribution: null
-  },
-  {
-    name: "PLATFORM248",
-    address: "248 9th Street, San Francisco",
-    key: "ChIJV-_MQbmBhYARcS7ZT3nQKuM",
-    image_attribution: null
-  },
-  {
-    name: "Bicycle Coffee",
-    address: "2201 Broadway, Oakland",
-    key: "ChIJwW_faR2Bj4ARHtcFbyUSgps",
-    image_attribution: null
-  },
-  {
-    name: "Pho 2000",
-    address: "637 Larkin Street, San Francisco",
-    key: "ChIJI7jgz5CAhYAR4Qs5v6C7uBU",
-    image_attribution: null
-  },
-  {
-    name: "Buffalo Kitchen",
-    address: "107 Leland Avenue, San Francisco",
-    key: "ChIJYVQvntl-j4AR455G02iwYak",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Au Lait",
-    address: "3215 Encinal Ave D, Alameda",
-    key: "ChIJ9fje8ZyGj4ARu1tTBO7aql0",
-    image_attribution: null
-  },
-  {
-    name: "Blue Dot Cafe & Coffee Bar",
-    address: "1910 Encinal Ave, Alameda",
-    key: "ChIJJa_HdMiGj4AR378VVw3b24c",
+    name: "Jolt N Bolt",
+    address: "2325 3rd St # 100, San Francisco",
+    key: "ChIJw_bkubl_j4ARFN36QHMWrjo",
     image_attribution: null
   },
   {
@@ -5668,30 +5624,6 @@ const SFPlaces = [
     name: "Cafe Leila",
     address: "1724 San Pablo Ave, Berkeley",
     key: "ChIJO60MVcF-hYARx7apz-2Rr3Y",
-    image_attribution: null
-  },
-  {
-    name: "Bartavelle Coffee & Wine Bar",
-    address: "1603 San Pablo Ave, Berkeley",
-    key: "ChIJAYt4gMZ-hYARyMgp8yrKXpE",
-    image_attribution: null
-  },
-  {
-    name: "Nomad Cafe",
-    address: "6500 Shattuck Ave, Berkeley",
-    key: "ChIJLfOdgXh-hYARBJT5wWMaGGg",
-    image_attribution: null
-  },
-  {
-    name: "ICHI Sushi",
-    address: "3369 Mission Street, San Francisco",
-    key: "ChIJIWV6LF1-j4ARyMzMx-lTsIU",
-    image_attribution: null
-  },
-  {
-    name: "Bini's Kitchen",
-    address: "2948 Folsom Street, San Francisco",
-    key: "ChIJhTCodEZ-j4AR3YBjm4mje74",
     image_attribution: null
   },
   {
@@ -5713,6 +5645,36 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Mission Asia Noodle",
+    address: "5249 Mission Street, San Francisco",
+    key: "ChIJKZDgZpx-j4ARRiXJBG3E8hM",
+    image_attribution: null
+  },
+  {
+    name: "Bartavelle Coffee & Wine Bar",
+    address: "1603 San Pablo Ave, Berkeley",
+    key: "ChIJAYt4gMZ-hYARyMgp8yrKXpE",
+    image_attribution: null
+  },
+  {
+    name: "Nomad Cafe",
+    address: "6500 Shattuck Ave, Berkeley",
+    key: "ChIJLfOdgXh-hYARBJT5wWMaGGg",
+    image_attribution: null
+  },
+  {
+    name: "Moka Coffee",
+    address: "1605 Polk St, San Francisco",
+    key: "ChIJW_IBIeuAhYAR6Q7lO-o516c",
+    image_attribution: null
+  },
+  {
+    name: "The Chieftain Irish Pub & Restaurant",
+    address: "198 5th Street, San Francisco",
+    key: "ChIJ9TQVzIaAhYAR6d_TYsKIxq8",
+    image_attribution: null
+  },
+  {
     name: "HL's Cafe",
     address: "1952 Mountain Blvd, Oakland",
     key: "ChIJ_0qJEYWHj4ARkdiTWtgeSWQ",
@@ -5731,75 +5693,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Moka Coffee",
-    address: "1605 Polk St, San Francisco",
-    key: "ChIJW_IBIeuAhYAR6Q7lO-o516c",
+    name: "Curio",
+    address: "775 Valencia St, San Francisco",
+    key: "ChIJmV6hBvx_j4ARlEEVruBVFRU",
     image_attribution: null
   },
   {
-    name: "Glaze Donuts",
-    address: "4499 Mission Street, San Francisco",
-    key: "ChIJk8kc6Yh-j4ARVd7F7_8EFl4",
+    name: "Los Kuyas",
+    address: "3241 20th Avenue, San Francisco",
+    key: "ChIJw7Wgr9N9j4ARiMdnyS8uqv8",
     image_attribution: null
   },
   {
-    name: "Ultimate Grounds Et Al",
-    address: "4225 Park Blvd, Oakland",
-    key: "ChIJ0X6nogmHj4ARa6oqJJP0NKA",
+    name: "Cafe Au Lait",
+    address: "3215 Encinal Ave D, Alameda",
+    key: "ChIJ9fje8ZyGj4ARu1tTBO7aql0",
     image_attribution: null
   },
   {
-    name: "Timeless Coffee",
-    address: "2965 College Ave, Berkeley",
-    key: "ChIJFZLL5s19hYAR-PoPkSWG7yc",
-    image_attribution: null
-  },
-  {
-    name: "Jim's Coffee Shop",
-    address: "2333 Lincoln Ave, Alameda",
-    key: "ChIJe5yeoZWGj4ARphgrUlPpbtc",
-    image_attribution: null
-  },
-  {
-    name: "Ronaker's Coffee Shop",
-    address: "2123 Doolittle Dr, San Leandro",
-    key: "ChIJz5fK3VuFj4ARd9zlDTHDu7E",
-    image_attribution: null
-  },
-  {
-    name: "Bubble Loca",
-    address: "5953, 3288 Pierce St c116, Richmond",
-    key: "ChIJG_gPBSF5hYAR6YfFw0jeDjE",
-    image_attribution: null
-  },
-  {
-    name: "T4",
-    address: "1431 Park St A, Alameda",
-    key: "ChIJVWSl9pWGj4ARZHxlHXYKliE",
-    image_attribution: null
-  },
-  {
-    name: "Beit Rima",
-    address: "86 Carl Street, San Francisco",
-    key: "ChIJpZVljQ6HhYAR9TLkl6ziY_g",
-    image_attribution: ""
-  },
-  {
-    name: "Yank Sing (Rincon)",
-    address: "101 Spear Street, San Francisco",
-    key: "ChIJE_x2VGSAhYARoXDSoUvUjkI",
-    image_attribution: null
-  },
-  {
-    name: "Wilde Brothers Coffee",
-    address: "3206 Grand Ave, Oakland",
-    key: "ChIJefyf8kOHj4ARlewcbqxidug",
-    image_attribution: null
-  },
-  {
-    name: "Rooz Cafe",
-    address: "1918 Park Blvd, Oakland",
-    key: "ChIJoyj65juHj4ARRWQyW2MpG_o",
+    name: "Blue Dot Cafe & Coffee Bar",
+    address: "1910 Encinal Ave, Alameda",
+    key: "ChIJJa_HdMiGj4AR378VVw3b24c",
     image_attribution: null
   },
   {
@@ -5809,15 +5723,99 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Thornhill Coffee House",
-    address: "5772 Thornhill Dr, Oakland",
-    key: "ChIJmw79e4eHj4ARXVzPXCuUN1Q",
+    name: "Bubble Loca",
+    address: "5953, 3288 Pierce St c116, Richmond",
+    key: "ChIJG_gPBSF5hYAR6YfFw0jeDjE",
+    image_attribution: null
+  },
+  {
+    name: "Jim's Coffee Shop",
+    address: "2333 Lincoln Ave, Alameda",
+    key: "ChIJe5yeoZWGj4ARphgrUlPpbtc",
+    image_attribution: null
+  },
+  {
+    name: "T4",
+    address: "1431 Park St A, Alameda",
+    key: "ChIJVWSl9pWGj4ARZHxlHXYKliE",
+    image_attribution: null
+  },
+  {
+    name: "Ronaker's Coffee Shop",
+    address: "2123 Doolittle Dr, San Leandro",
+    key: "ChIJz5fK3VuFj4ARd9zlDTHDu7E",
+    image_attribution: null
+  },
+  {
+    name: "Ultimate Grounds Et Al",
+    address: "4225 Park Blvd, Oakland",
+    key: "ChIJ0X6nogmHj4ARa6oqJJP0NKA",
+    image_attribution: null
+  },
+  {
+    name: "Rooz Cafe",
+    address: "1918 Park Blvd, Oakland",
+    key: "ChIJoyj65juHj4ARRWQyW2MpG_o",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Delight",
+    address: "1946 Market Street, San Francisco",
+    key: "ChIJg7wKdqCAhYARBbUvZ2FivM0",
+    image_attribution: null
+  },
+  {
+    name: "Woody's Cafe",
+    address: "1841 Park Blvd, Oakland",
+    key: "ChIJpwg62juHj4ARGQsmogZhBrg",
+    image_attribution: null
+  },
+  {
+    name: "Smokin' Warehouse Barbecue",
+    address: "3336 Sacramento Street, San Francisco",
+    key: "ChIJpZkYRzOHhYARYYMim8-81V4",
+    image_attribution: null
+  },
+  {
+    name: "Wilde Brothers Coffee",
+    address: "3206 Grand Ave, Oakland",
+    key: "ChIJefyf8kOHj4ARlewcbqxidug",
+    image_attribution: null
+  },
+  {
+    name: "Tropisueno",
+    address: "75 Yerba Buena Lane, San Francisco",
+    key: "ChIJfcaly4eAhYARSIvvfFpH64w",
+    image_attribution: null
+  },
+  {
+    name: "Haddon Hill Cafe",
+    address: "504 Wesley Ave, Oakland",
+    key: "ChIJX946rDiHj4AR9IBVQMmvTNM",
     image_attribution: null
   },
   {
     name: "RAWR Coffee Bar",
     address: "2869 Broadway, Oakland",
     key: "ChIJo58W41SHj4ARyKIfl69_Iho",
+    image_attribution: null
+  },
+  {
+    name: "Fellini Coffeebar",
+    address: "1401 University Ave, Berkeley",
+    key: "ChIJgewSjZV-hYARn0CKPSD6xhU",
+    image_attribution: null
+  },
+  {
+    name: "Thornhill Coffee House",
+    address: "5772 Thornhill Dr, Oakland",
+    key: "ChIJmw79e4eHj4ARXVzPXCuUN1Q",
+    image_attribution: null
+  },
+  {
+    name: "Timeless Coffee",
+    address: "2965 College Ave, Berkeley",
+    key: "ChIJFZLL5s19hYAR-PoPkSWG7yc",
     image_attribution: null
   },
   {
@@ -5845,9 +5843,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fellini Coffeebar",
-    address: "1401 University Ave, Berkeley",
-    key: "ChIJgewSjZV-hYARn0CKPSD6xhU",
+    name: "Powderface",
+    address: "3411 E 12th St Ste 134, Oakland",
+    key: "ChIJ0U11yPSGj4ARSvr98SiSjDU",
     image_attribution: null
   },
   {
@@ -5857,63 +5855,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Woody's Cafe",
-    address: "1841 Park Blvd, Oakland",
-    key: "ChIJpwg62juHj4ARGQsmogZhBrg",
-    image_attribution: null
-  },
-  {
     name: "Baker & Commons",
     address: "2900 College Ave, Berkeley",
     key: "ChIJ1Rpga2p9hYARgmlzMSklkmk",
-    image_attribution: null
-  },
-  {
-    name: "Haddon Hill Cafe",
-    address: "504 Wesley Ave, Oakland",
-    key: "ChIJX946rDiHj4AR9IBVQMmvTNM",
-    image_attribution: null
-  },
-  {
-    name: "Powderface",
-    address: "3411 E 12th St Ste 134, Oakland",
-    key: "ChIJ0U11yPSGj4ARSvr98SiSjDU",
-    image_attribution: null
-  },
-  {
-    name: "Caff\u00e8 Chiave",
-    address: "2500 San Pablo Ave, Berkeley",
-    key: "ChIJOzwjFO1-hYARjAcqR5Xmh-s",
-    image_attribution: null
-  },
-  {
-    name: "Catahoula Kaffeegarten",
-    address: "2080 Fourth St, Berkeley",
-    key: "ChIJM5PKU91-hYARlLkDStOwitY",
-    image_attribution: null
-  },
-  {
-    name: "The Local",
-    address: "1333 Park St, Alameda",
-    key: "ChIJgRI_5r2Gj4ARy63fzuW1A2k",
-    image_attribution: null
-  },
-  {
-    name: "Hive",
-    address: "2139 MacArthur Blvd, Oakland",
-    key: "ChIJcVME0KuHj4AR-UzW22J4S58",
-    image_attribution: null
-  },
-  {
-    name: "Guerilla Cafe",
-    address: "1620 Shattuck Ave, Berkeley",
-    key: "ChIJoe7XC6F-hYARYIiq13W7xeM",
-    image_attribution: null
-  },
-  {
-    name: "Caf\u00e9 Aduuuu!!!",
-    address: "Oakland",
-    key: "ChIJ7fBL5d-Gj4ARlZ6f2B64Wmk",
     image_attribution: null
   },
   {
@@ -5923,33 +5867,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "It's A Grind Coffee House",
-    address: "2521 Seminary Ave, Oakland",
-    key: "ChIJ_4otFEGPj4ARMp_wlPcE8Vw",
-    image_attribution: null
-  },
-  {
-    name: "Julie's Coffee & Tea Garden",
-    address: "1223 Park St, Alameda",
-    key: "ChIJ51TNrb2Gj4ARZSuIKeDTHAs",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Liano",
-    address: "1540 San Leandro Blvd #4442, San Leandro",
-    key: "ChIJVxw2oFiPj4ARVE0dA_swZ60",
-    image_attribution: null
-  },
-  {
-    name: "Donut Farm Oakland",
-    address: "6037 San Pablo Ave, Oakland",
-    key: "ChIJs478Q2Z-hYARDC0ssaN0HTg",
-    image_attribution: null
-  },
-  {
-    name: "Mong Hoang Cafe",
-    address: "1846 International Blvd, Oakland",
-    key: "ChIJY4xuzuGGj4AR4i36SS6hFUw",
+    name: "The Local",
+    address: "1333 Park St, Alameda",
+    key: "ChIJgRI_5r2Gj4ARy63fzuW1A2k",
     image_attribution: null
   },
   {
@@ -5959,15 +5879,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Wrecking Ball Coffee Roasters",
-    address: "1600 Shattuck Ave Suite 100, Berkeley",
-    key: "ChIJv8ed1PB_hYARL22ih5yzLSQ",
+    name: "Bissap Baobab",
+    address: "3386 19th Street, San Francisco",
+    key: "ChIJTQclezx-j4ARMFZgsF-o5n4",
     image_attribution: null
   },
   {
-    name: "L'ACAJOU Bakery and Cafe",
-    address: "5020 Woodminster Ln, Oakland",
-    key: "ChIJT3sGAciHj4ARoNLzYrAECew",
+    name: "Donut Farm Oakland",
+    address: "6037 San Pablo Ave, Oakland",
+    key: "ChIJs478Q2Z-hYARDC0ssaN0HTg",
+    image_attribution: null
+  },
+  {
+    name: "Se\u00f1or Sisig - Restaurant",
+    address: "990 Valencia Street, San Francisco",
+    key: "ChIJNXQBDV9_j4ARA1fileVDACY",
+    image_attribution: ""
+  },
+  {
+    name: "Caf\u00e9 Aduuuu!!!",
+    address: "Oakland",
+    key: "ChIJ7fBL5d-Gj4ARlZ6f2B64Wmk",
+    image_attribution: null
+  },
+  {
+    name: "Mong Hoang Cafe",
+    address: "1846 International Blvd, Oakland",
+    key: "ChIJY4xuzuGGj4AR4i36SS6hFUw",
+    image_attribution: null
+  },
+  {
+    name: "Guerilla Cafe",
+    address: "1620 Shattuck Ave, Berkeley",
+    key: "ChIJoe7XC6F-hYARYIiq13W7xeM",
     image_attribution: null
   },
   {
@@ -5977,27 +5921,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Foam Tea House",
-    address: "1745 Taraval St, San Francisco",
-    key: "ChIJp4PaExt9j4ARtPjPGHg-aiE",
+    name: "Julie's Coffee & Tea Garden",
+    address: "1223 Park St, Alameda",
+    key: "ChIJ51TNrb2Gj4ARZSuIKeDTHAs",
     image_attribution: null
   },
   {
-    name: "Sushi Delight",
-    address: "1946 Market Street, San Francisco",
-    key: "ChIJg7wKdqCAhYARBbUvZ2FivM0",
+    name: "Caff\u00e8 Chiave",
+    address: "2500 San Pablo Ave, Berkeley",
+    key: "ChIJOzwjFO1-hYARjAcqR5Xmh-s",
     image_attribution: null
   },
   {
-    name: "Maison Danel",
-    address: "1030 Polk Street, San Francisco",
-    key: "ChIJeUE48jqBhYARrVWi_rFBrt4",
+    name: "Grandma\u2019s Deli & Cafe",
+    address: "1551 Mission St, San Francisco",
+    key: "ChIJYwUn5Z2AhYARUbqNBzDqHbU",
     image_attribution: null
   },
   {
-    name: "Pazzia Ristorante Italiano",
-    address: "337 3rd Street, San Francisco",
-    key: "ChIJrSASgn6AhYAR48OZb8J4nH8",
+    name: "Hive",
+    address: "2139 MacArthur Blvd, Oakland",
+    key: "ChIJcVME0KuHj4AR-UzW22J4S58",
     image_attribution: null
   },
   {
@@ -6007,15 +5951,87 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Catahoula Kaffeegarten",
+    address: "2080 Fourth St, Berkeley",
+    key: "ChIJM5PKU91-hYARlLkDStOwitY",
+    image_attribution: null
+  },
+  {
     name: "Fresh & Best II",
     address: "1428 Alice St, Oakland",
     key: "ChIJ1wap1rSAj4ARqyQMFO4Y62k",
     image_attribution: null
   },
   {
-    name: "Lou's Fish Shack",
-    address: "300 Jefferson Street, San Francisco",
-    key: "ChIJdTQj0uOAhYARC8BF0odUDA4",
+    name: "It's A Grind Coffee House",
+    address: "2521 Seminary Ave, Oakland",
+    key: "ChIJ_4otFEGPj4ARMp_wlPcE8Vw",
+    image_attribution: null
+  },
+  {
+    name: "L'ACAJOU Bakery and Cafe",
+    address: "5020 Woodminster Ln, Oakland",
+    key: "ChIJT3sGAciHj4ARoNLzYrAECew",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Liano",
+    address: "1540 San Leandro Blvd #4442, San Leandro",
+    key: "ChIJVxw2oFiPj4ARVE0dA_swZ60",
+    image_attribution: null
+  },
+  {
+    name: "Popsons Burgers",
+    address: "998 Market St, San Francisco",
+    key: "ChIJYbpOD4WAhYARbOASyN_S8EU",
+    image_attribution: null
+  },
+  {
+    name: "Wrecking Ball Coffee Roasters",
+    address: "1600 Shattuck Ave Suite 100, Berkeley",
+    key: "ChIJv8ed1PB_hYARL22ih5yzLSQ",
+    image_attribution: null
+  },
+  {
+    name: "Queen's Cajun S eafood",
+    address: "2211 International Blvd, Oakland",
+    key: "ChIJX33GxGGHj4ARtlsu_a_ezVQ",
+    image_attribution: null
+  },
+  {
+    name: "Nikkos",
+    address: "340 23rd Ave, Oakland",
+    key: "ChIJG-pdi-yGj4ARPQG00ZmTD60",
+    image_attribution: null
+  },
+  {
+    name: "Hayes Street Grill",
+    address: "320 Hayes Street, San Francisco",
+    key: "ChIJa0NZ3JiAhYARtFo33Kd7kTU",
+    image_attribution: ""
+  },
+  {
+    name: "Waterfront Deli",
+    address: "1070 Marina Village Pkwy #105, Alameda",
+    key: "ChIJR1t5w9OAj4ARXSHYIefWM9c",
+    image_attribution: null
+  },
+  {
+    name: "El Azteca Taqueria",
+    address: "5298 3rd Street #2602, San Francisco",
+    key: "ChIJC0qJTBp_j4ARDrJ7TOVfR8s",
+    image_attribution: null
+  },
+  {
+    name: "Ming Kee Restaurant",
+    address: "1548 Ocean Avenue, San Francisco",
+    key: "ChIJY79sms19j4ARyofumcSb1hA",
+    image_attribution: null
+  },
+  {
+    name: "Curry Up Now",
+    address: "2640 5th St, Alameda",
+    key: "ChIJPf7i2cSAj4AR4GkDdIIcTvQ",
     image_attribution: null
   },
   {
@@ -6025,27 +6041,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hawaiian Drive Inn",
-    address: "2600 San Bruno Avenue, San Francisco",
-    key: "ChIJC6BM1uJ-j4ARLPSa4sjrme8",
+    name: "Double Shot Coffee",
+    address: "4587 Mission St #2603, San Francisco",
+    key: "ChIJx0GJs4h-j4ARfCtCjZFIX_o",
     image_attribution: null
   },
   {
-    name: "Beep's Burgers",
-    address: "1051 Ocean Avenue, San Francisco",
-    key: "ChIJIYVDyix8j4ARqtH43HjqjiU",
-    image_attribution: null
-  },
-  {
-    name: "Cherry Blossom Bakery",
-    address: "1552 Ocean Avenue, San Francisco",
-    key: "ChIJNz-nkM19j4ARJnHa4f99kiY",
+    name: "Ohgane",
+    address: "3915 Broadway, Oakland",
+    key: "ChIJh7N4zft9hYARPVRV9D6dXP4",
     image_attribution: null
   },
   {
     name: "Branch Line Lounge",
     address: "5885 Hollis St #25, Emeryville",
     key: "ChIJA5mDM11-hYARmYJWwBkHU8U",
+    image_attribution: null
+  },
+  {
+    name: "Biryani Tika Kabab Halal Indian & Pakistani Cuisine",
+    address: "328 14th St, Oakland",
+    key: "ChIJN2sVYrSAj4AR1fTa98BfjKo",
+    image_attribution: null
+  },
+  {
+    name: "Pho Ga",
+    address: "1310 Noriega Street, San Francisco",
+    key: "ChIJF_oV4g2HhYARzzOwL-SRuLg",
     image_attribution: null
   },
   {
@@ -6073,129 +6095,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ohgane",
-    address: "3915 Broadway, Oakland",
-    key: "ChIJh7N4zft9hYARPVRV9D6dXP4",
-    image_attribution: null
-  },
-  {
-    name: "Biryani Tika Kabab Halal Indian & Pakistani Cuisine",
-    address: "328 14th St, Oakland",
-    key: "ChIJN2sVYrSAj4AR1fTa98BfjKo",
-    image_attribution: null
-  },
-  {
-    name: "Queen's Cajun S eafood",
-    address: "2211 International Blvd, Oakland",
-    key: "ChIJX33GxGGHj4ARtlsu_a_ezVQ",
-    image_attribution: null
-  },
-  {
-    name: "Nikkos",
-    address: "340 23rd Ave, Oakland",
-    key: "ChIJG-pdi-yGj4ARPQG00ZmTD60",
-    image_attribution: null
-  },
-  {
-    name: "Waterfront Deli",
-    address: "1070 Marina Village Pkwy #105, Alameda",
-    key: "ChIJR1t5w9OAj4ARXSHYIefWM9c",
-    image_attribution: null
-  },
-  {
-    name: "Curry Up Now",
-    address: "2640 5th St, Alameda",
-    key: "ChIJPf7i2cSAj4AR4GkDdIIcTvQ",
-    image_attribution: null
-  },
-  {
-    name: "La Boulangerie de San Francisco, Cole",
-    address: "1000 Cole St, San Francisco",
-    key: "ChIJScUDqlWHhYARBRj5rNnqNwA",
-    image_attribution: null
-  },
-  {
-    name: "alaMar Kitchen & Bar",
-    address: "100 Grand Ave #111, Oakland",
-    key: "ChIJf_lNz1KHj4AREq4yDWam36I",
-    image_attribution: null
-  },
-  {
-    name: "Huangcheng Noodle House",
-    address: "734 Webster St, Oakland",
-    key: "ChIJF1lFITKBj4ARcL0DuOxaAdE",
-    image_attribution: null
-  },
-  {
-    name: "Champion Smokehouse And Market",
-    address: "679 98th Ave, Oakland",
-    key: "ChIJa4CKVoSFj4ARDGcy_s_WtAE",
-    image_attribution: null
-  },
-  {
-    name: "Katsumi Sushi",
-    address: "2521 Durant Ave, Berkeley",
-    key: "ChIJw2Geay98hYAR8GN39NOr-Vs",
-    image_attribution: null
-  },
-  {
-    name: "Ladle & Leaf",
-    address: "2512 Bancroft Way, Berkeley",
-    key: "ChIJG5lCXC98hYARIqgu1rGYASE",
-    image_attribution: null
-  },
-  {
-    name: "MOD Pizza",
-    address: "2308 S Shore Center, Alameda",
-    key: "ChIJQTZdwqSGj4AR2VlhaqQd6SY",
-    image_attribution: null
-  },
-  {
-    name: "Yummy Home Plate",
-    address: "177 Townsend Street #135, San Francisco",
-    key: "ChIJ04p5xUd_j4AReL1-bg3u5IE",
-    image_attribution: null
-  },
-  {
-    name: "Upcider",
-    address: "1160 Polk Street 2nd floor, San Francisco",
-    key: "ChIJU2QEQZSAhYAR0DpVqUkvnNU",
-    image_attribution: null
-  },
-  {
-    name: "Aqua Fresh Seafoods",
-    address: "10823 MacArthur Blvd, San Leandro",
-    key: "ChIJbecK6QqPj4AReTlNSpbdgHo",
-    image_attribution: null
-  },
-  {
-    name: "El Torito",
-    address: "5 Monarch Bay Dr, San Leandro",
-    key: "ChIJoftgn0-Fj4ARKBMiTmijZ_M",
-    image_attribution: null
-  },
-  {
-    name: "Zaoh",
-    address: "1555 Mission Street, San Francisco",
-    key: "ChIJvUqK452AhYARkWQeut8-8-0",
-    image_attribution: null
-  },
-  {
-    name: "The Pig and Whistle",
-    address: "2801 Geary Boulevard, San Francisco",
-    key: "ChIJtbjafTWHhYARbxkpegkGNmY",
-    image_attribution: null
-  },
-  {
-    name: "Cafe M",
-    address: "1799 Fourth St, Berkeley",
-    key: "ChIJI2lNqdx-hYARlydJnQElo_w",
-    image_attribution: null
-  },
-  {
-    name: "Oakland Cafe",
-    address: "288 11th St D, Oakland",
-    key: "ChIJgVjNprWAj4ARDhEmXv-TePM",
+    name: "Stop N Wrap",
+    address: "1217 Geneva Ave, San Francisco",
+    key: "ChIJkeZY-5l-j4ARWUsIsbSxsWc",
     image_attribution: null
   },
   {
@@ -6205,9 +6107,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Dandelion Chocolate 16th Street Factory",
+    address: "2600 16th Street, San Francisco",
+    key: "ChIJm1iH_qF_j4ARLC2W1AHKITA",
+    image_attribution: null
+  },
+  {
     name: "Lucky Three Seven",
     address: "2868 Fruitvale Ave, Oakland",
     key: "ChIJARrHdVWGj4ARd7RozJnAwoA",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria El Buen Sabor",
+    address: "98 Leland Avenue, San Francisco",
+    key: "ChIJnQcFoNl-j4ARLggC0svRJu0",
+    image_attribution: null
+  },
+  {
+    name: "Pho Luen Fat",
+    address: "110 Leland Avenue, San Francisco",
+    key: "ChIJKSgJddl-j4ARgNLmnckEsWo",
+    image_attribution: null
+  },
+  {
+    name: "Big Joe's",
+    address: "717 Monterey Boulevard, San Francisco",
+    key: "ChIJ02wIJtd9j4ARw2ZKkm8M8aQ",
+    image_attribution: null
+  },
+  {
+    name: "MOD Pizza",
+    address: "2308 S Shore Center, Alameda",
+    key: "ChIJQTZdwqSGj4AR2VlhaqQd6SY",
+    image_attribution: null
+  },
+  {
+    name: "Restaurante San Vicente",
+    address: "4423 Mission Street, San Francisco",
+    key: "ChIJc9adooV-j4ARHEe1hF7v4kM",
     image_attribution: null
   },
   {
@@ -6217,9 +6155,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kui Shin Bo",
-    address: "22 Peace Plaza #2, San Francisco",
-    key: "ChIJN0l8xL6AhYARrlT2wxyRP24",
+    name: "Champion Smokehouse And Market",
+    address: "679 98th Ave, Oakland",
+    key: "ChIJa4CKVoSFj4ARDGcy_s_WtAE",
+    image_attribution: null
+  },
+  {
+    name: "Aqua Fresh Seafoods",
+    address: "10823 MacArthur Blvd, San Leandro",
+    key: "ChIJbecK6QqPj4AReTlNSpbdgHo",
+    image_attribution: null
+  },
+  {
+    name: "alaMar Kitchen & Bar",
+    address: "100 Grand Ave #111, Oakland",
+    key: "ChIJf_lNz1KHj4AREq4yDWam36I",
+    image_attribution: null
+  },
+  {
+    name: "QING SHU",
+    address: "816 Irving Street, San Francisco",
+    key: "ChIJRW2pheGHhYARXrCuxvmo2n8",
+    image_attribution: null
+  },
+  {
+    name: "Huangcheng Noodle House",
+    address: "734 Webster St, Oakland",
+    key: "ChIJF1lFITKBj4ARcL0DuOxaAdE",
+    image_attribution: null
+  },
+  {
+    name: "Oakland Cafe",
+    address: "288 11th St D, Oakland",
+    key: "ChIJgVjNprWAj4ARDhEmXv-TePM",
+    image_attribution: null
+  },
+  {
+    name: "Katsumi Sushi",
+    address: "2521 Durant Ave, Berkeley",
+    key: "ChIJw2Geay98hYAR8GN39NOr-Vs",
+    image_attribution: null
+  },
+  {
+    name: "El Torito",
+    address: "5 Monarch Bay Dr, San Leandro",
+    key: "ChIJoftgn0-Fj4ARKBMiTmijZ_M",
+    image_attribution: null
+  },
+  {
+    name: "Ladle & Leaf",
+    address: "2512 Bancroft Way, Berkeley",
+    key: "ChIJG5lCXC98hYARIqgu1rGYASE",
+    image_attribution: null
+  },
+  {
+    name: "Cafe M",
+    address: "1799 Fourth St, Berkeley",
+    key: "ChIJI2lNqdx-hYARlydJnQElo_w",
     image_attribution: null
   },
   {
@@ -6229,39 +6221,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rudy's Can't Fail Cafe",
-    address: "4081 Hollis St, Emeryville",
-    key: "ChIJwQ8DGBV-hYARjaVV1DJvSeo",
-    image_attribution: null
-  },
-  {
-    name: "Nation's Giant Hamburgers",
-    address: "317 Broadway, Oakland",
-    key: "ChIJFT-yHMiAj4AR3wXCmePe0Yo",
-    image_attribution: null
-  },
-  {
-    name: "Encuentro",
-    address: "550 2nd St, Oakland",
-    key: "ChIJZwz7_suAj4AR12a26n_EzvQ",
-    image_attribution: null
-  },
-  {
-    name: "Ajanta",
-    address: "1888 Solano Ave, Berkeley",
-    key: "ChIJV265sbJ-hYARG0oGZZqK-gQ",
-    image_attribution: null
-  },
-  {
     name: "Nama Japanese cuisine ( Ramen and Sushi)",
     address: "3400 Fruitvale Ave, Oakland",
     key: "ChIJQYnQuquHj4ARilFUhGNAlqw",
-    image_attribution: null
-  },
-  {
-    name: "Teni East Kitchen",
-    address: "4015 Broadway, Oakland",
-    key: "ChIJ-dahSvp9hYAR_WXjEVlEKmE",
     image_attribution: null
   },
   {
@@ -6271,15 +6233,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lungomare",
-    address: "1 Broadway, Oakland",
-    key: "ChIJHxERz8eAj4ARDk8tqeTCWrA",
-    image_attribution: null
-  },
-  {
     name: "Cafe Umami",
     address: "2224 MacArthur Blvd, Oakland",
     key: "ChIJxWBA6auHj4ARGqmepaOd4yk",
+    image_attribution: null
+  },
+  {
+    name: "Pho Nice Vietnamese Restaurant",
+    address: "880 Geneva Ave, San Francisco",
+    key: "ChIJI05HpJx-j4ARlnytMQlcYk0",
+    image_attribution: null
+  },
+  {
+    name: "Caffe Terzetto",
+    address: "400 Parnassus Ave, San Francisco",
+    key: "ChIJRXIt4VmHhYARE-QfWIrQuqc",
+    image_attribution: null
+  },
+  {
+    name: "Teni East Kitchen",
+    address: "4015 Broadway, Oakland",
+    key: "ChIJ-dahSvp9hYAR_WXjEVlEKmE",
     image_attribution: null
   },
   {
@@ -6289,39 +6263,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Nation's Giant Hamburgers",
+    address: "317 Broadway, Oakland",
+    key: "ChIJFT-yHMiAj4AR3wXCmePe0Yo",
+    image_attribution: null
+  },
+  {
+    name: "Ajanta",
+    address: "1888 Solano Ave, Berkeley",
+    key: "ChIJV265sbJ-hYARG0oGZZqK-gQ",
+    image_attribution: null
+  },
+  {
     name: "El Burrito Loco Oakland",
     address: "1755 Embarcadero, Oakland",
     key: "ChIJI9-M0zaHj4ARKiIFbdc3jtg",
-    image_attribution: null
-  },
-  {
-    name: "Tazza D'Amore Cafe",
-    address: "700 4th St, San Francisco",
-    key: "ChIJFWnyktZ_j4ARNA56tCuQdv8",
-    image_attribution: null
-  },
-  {
-    name: "Vinyl Coffee & Wine Bar",
-    address: "359 Divisadero St, San Francisco",
-    key: "ChIJY9qmGq-AhYARrULv5cUR7kw",
-    image_attribution: null
-  },
-  {
-    name: "Arabian Nights",
-    address: "2345 Mission Street, San Francisco",
-    key: "ChIJ7021cTx-j4ARMsCzWEGEWDE",
-    image_attribution: null
-  },
-  {
-    name: "Buttercup",
-    address: "1000 Cotton St, Oakland",
-    key: "ChIJo3P-J-aGj4ARv5i6npsahkk",
-    image_attribution: null
-  },
-  {
-    name: "Graffiti Pizza",
-    address: "719 Washington St, Oakland",
-    key: "ChIJ1XbPOeOBj4ARzIoLS4dK7dM",
     image_attribution: null
   },
   {
@@ -6331,9 +6287,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "The Fusion Factory",
+    address: "1776 Marina Blvd, San Leandro",
+    key: "ChIJ54J1mPaPj4ARiNaCRaGdB0s",
+    image_attribution: null
+  },
+  {
+    name: "Graffiti Pizza",
+    address: "719 Washington St, Oakland",
+    key: "ChIJ1XbPOeOBj4ARzIoLS4dK7dM",
+    image_attribution: null
+  },
+  {
+    name: "Dynasty Pot",
+    address: "1371 E 14th St unit d, San Leandro",
+    key: "ChIJuRU0k4mPj4ARXLsF2TOqAMw",
+    image_attribution: null
+  },
+  {
+    name: "Buttercup",
+    address: "1000 Cotton St, Oakland",
+    key: "ChIJo3P-J-aGj4ARv5i6npsahkk",
+    image_attribution: null
+  },
+  {
     name: "Caff\u00e8 Chiave",
     address: "4045 Piedmont Ave, Oakland",
     key: "ChIJh0yGcfd9hYARYTS6Jo3jJi8",
+    image_attribution: null
+  },
+  {
+    name: "Scullery",
+    address: "687 Geary St, San Francisco",
+    key: "ChIJh10OvJGAhYAR3PXa3UKPE5A",
     image_attribution: null
   },
   {
@@ -6349,99 +6335,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Fusion Factory",
-    address: "1776 Marina Blvd, San Leandro",
-    key: "ChIJ54J1mPaPj4ARiNaCRaGdB0s",
+    name: "Encuentro",
+    address: "550 2nd St, Oakland",
+    key: "ChIJZwz7_suAj4AR12a26n_EzvQ",
     image_attribution: null
   },
   {
-    name: "Dynasty Pot",
-    address: "1371 E 14th St unit d, San Leandro",
-    key: "ChIJuRU0k4mPj4ARXLsF2TOqAMw",
+    name: "Lungomare",
+    address: "1 Broadway, Oakland",
+    key: "ChIJHxERz8eAj4ARDk8tqeTCWrA",
     image_attribution: null
   },
   {
-    name: "Thai Taste Kitchen",
-    address: "3814 Piedmont Ave, Oakland",
-    key: "ChIJWeRPCbl9hYARGiiptMvH7hQ",
+    name: "Rudy's Can't Fail Cafe",
+    address: "4081 Hollis St, Emeryville",
+    key: "ChIJwQ8DGBV-hYARjaVV1DJvSeo",
     image_attribution: null
   },
   {
-    name: "Boston Market",
-    address: "3060 E 9th St Suite E, Oakland",
-    key: "ChIJxRL3w_KGj4ARTVLV6rYy2bI",
-    image_attribution: null
-  },
-  {
-    name: "Ono Hawaiian BBQ",
-    address: "2990 E 9th St, Oakland",
-    key: "ChIJWSYDgu2Gj4AROMdOQrFLw6k",
-    image_attribution: null
-  },
-  {
-    name: "Wild Ginger",
-    address: "1239 Park St, Alameda",
-    key: "ChIJqasut72Gj4ARl3fzjolj_OE",
-    image_attribution: null
-  },
-  {
-    name: "Jong Ga House",
-    address: "372 Grand Ave, Oakland",
-    key: "ChIJq_X1RE-Hj4ARVMeNS1IGW-8",
-    image_attribution: null
-  },
-  {
-    name: "Oasis Kitchen",
-    address: "344 Grand Ave, Oakland",
-    key: "ChIJGzbuGU-Hj4AReLaBswjdLw0",
-    image_attribution: null
-  },
-  {
-    name: "CoffeeSmith",
-    address: "401 Golden Gate Ave, San Francisco",
-    key: "ChIJ2cmBFJqAhYAREezI4MzCrJM",
-    image_attribution: null
-  },
-  {
-    name: "Yojimbo",
-    address: "1221 Park St, Alameda",
-    key: "ChIJz0M8rL2Gj4ARWFbeBl6hJYw",
-    image_attribution: null
-  },
-  {
-    name: "Up 2U Thai Eatery",
-    address: "1405 Webster St, Alameda",
-    key: "ChIJr7XaiiWBj4ARGoFy7Yt1LVA",
-    image_attribution: null
-  },
-  {
-    name: "Ritual Coffee Roasters",
-    address: "2299 Market St, San Francisco",
-    key: "ChIJm1CgiRx-j4ARDQdEEr4VELk",
-    image_attribution: null
-  },
-  {
-    name: "7-Mission Restaurant",
-    address: "151 7th Street, San Francisco",
-    key: "ChIJD4CudIOAhYARa7GXQutC9JA",
-    image_attribution: null
-  },
-  {
-    name: "Ahn's Quarter Pound Burger",
-    address: "439 Grand Ave, Oakland",
-    key: "ChIJ2VN5CUaHj4ARGIGtyvys4l0",
-    image_attribution: null
-  },
-  {
-    name: "Pho & Baguette",
-    address: "660 Central Ave, Alameda",
-    key: "ChIJTXOojiWBj4ARc0hts4OI3Iw",
-    image_attribution: null
-  },
-  {
-    name: "Pieology Pizzeria, San Leandro, CA",
-    address: "1269 Marina Blvd, San Leandro",
-    key: "ChIJ6QsqJu6Pj4ARXDshaWa46Yk",
+    name: "Pisco Latin Lounge",
+    address: "1817 Market Street, San Francisco",
+    key: "ChIJqX7P-Z-AhYAR3Uu-TKs9GSI",
     image_attribution: null
   },
   {
@@ -6451,21 +6365,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Pretty Please Bakeshop",
+    address: "291 3rd Avenue, San Francisco",
+    key: "ChIJV7Mg0TuHhYARrEQzDaKhIM0",
+    image_attribution: null
+  },
+  {
+    name: "Ahn's Quarter Pound Burger",
+    address: "439 Grand Ave, Oakland",
+    key: "ChIJ2VN5CUaHj4ARGIGtyvys4l0",
+    image_attribution: null
+  },
+  {
+    name: "Catch",
+    address: "2362 Market Street, San Francisco",
+    key: "ChIJMwJluhx-j4ARTzqj-cxukGA",
+    image_attribution: null
+  },
+  {
+    name: "Jong Ga House",
+    address: "372 Grand Ave, Oakland",
+    key: "ChIJq_X1RE-Hj4ARVMeNS1IGW-8",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Madeleine",
+    address: "43 O'Farrell St, San Francisco",
+    key: "ChIJB5IQl4iAhYARbZCpRkzsgRs",
+    image_attribution: null
+  },
+  {
+    name: "Tartine Manufactory",
+    address: "595 Alabama St, San Francisco",
+    key: "ChIJu9EujzB-j4ARoyuqElfT14g",
+    image_attribution: ""
+  },
+  {
+    name: "Oasis Kitchen",
+    address: "344 Grand Ave, Oakland",
+    key: "ChIJGzbuGU-Hj4AReLaBswjdLw0",
+    image_attribution: null
+  },
+  {
+    name: "Up 2U Thai Eatery",
+    address: "1405 Webster St, Alameda",
+    key: "ChIJr7XaiiWBj4ARGoFy7Yt1LVA",
+    image_attribution: null
+  },
+  {
     name: "3 Seasons",
     address: "1506 Leimert Blvd, Oakland",
     key: "ChIJ27Tqe6SHj4AR6z01TKRPMi8",
-    image_attribution: null
-  },
-  {
-    name: "La Capilla",
-    address: "1106 University Ave, Berkeley",
-    key: "ChIJcSWl2sF-hYARTN0DB-Yy8nA",
-    image_attribution: null
-  },
-  {
-    name: "The Cheese Steak Shop",
-    address: "1054 University Ave, Berkeley",
-    key: "ChIJ0fs-7sF-hYAR0jsDAneAYwU",
     image_attribution: null
   },
   {
@@ -6475,69 +6425,69 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Pho & Baguette",
+    address: "660 Central Ave, Alameda",
+    key: "ChIJTXOojiWBj4ARc0hts4OI3Iw",
+    image_attribution: null
+  },
+  {
+    name: "Wild Ginger",
+    address: "1239 Park St, Alameda",
+    key: "ChIJqasut72Gj4ARl3fzjolj_OE",
+    image_attribution: null
+  },
+  {
+    name: "Pieology Pizzeria, San Leandro, CA",
+    address: "1269 Marina Blvd, San Leandro",
+    key: "ChIJ6QsqJu6Pj4ARXDshaWa46Yk",
+    image_attribution: null
+  },
+  {
+    name: "Thai Taste Kitchen",
+    address: "3814 Piedmont Ave, Oakland",
+    key: "ChIJWeRPCbl9hYARGiiptMvH7hQ",
+    image_attribution: null
+  },
+  {
+    name: "Mr. Pizza Man",
+    address: "2680 22nd Street, San Francisco",
+    key: "ChIJx8KiHcx9j4AR7KYfgcUQk1g",
+    image_attribution: null
+  },
+  {
+    name: "La Capilla",
+    address: "1106 University Ave, Berkeley",
+    key: "ChIJcSWl2sF-hYARTN0DB-Yy8nA",
+    image_attribution: null
+  },
+  {
+    name: "Yojimbo",
+    address: "1221 Park St, Alameda",
+    key: "ChIJz0M8rL2Gj4ARWFbeBl6hJYw",
+    image_attribution: null
+  },
+  {
+    name: "Boston Market",
+    address: "3060 E 9th St Suite E, Oakland",
+    key: "ChIJxRL3w_KGj4ARTVLV6rYy2bI",
+    image_attribution: null
+  },
+  {
+    name: "The Cheese Steak Shop",
+    address: "1054 University Ave, Berkeley",
+    key: "ChIJ0fs-7sF-hYAR0jsDAneAYwU",
+    image_attribution: null
+  },
+  {
     name: "Everett & Jones Barbeque",
     address: "1955 San Pablo Ave, Berkeley",
     key: "ChIJ_7cnucF-hYARUiIqnabExpw",
     image_attribution: null
   },
   {
-    name: "Playa Azul",
-    address: "2818 International Blvd, Oakland",
-    key: "ChIJU2PTsPGGj4ARrC1NADImcm8",
-    image_attribution: null
-  },
-  {
-    name: "El Paisa Taco",
-    address: "2900 International Blvd, Oakland",
-    key: "ChIJ1812n_GGj4ARuokzmJ8kCqU",
-    image_attribution: null
-  },
-  {
-    name: "Papito",
-    address: "317 Connecticut Street, San Francisco",
-    key: "ChIJUcsftct_j4ARwXkPL4P0aBw",
-    image_attribution: null
-  },
-  {
-    name: "Pretty Please Bakeshop",
-    address: "291 3rd Avenue, San Francisco",
-    key: "ChIJV7Mg0TuHhYARrEQzDaKhIM0",
-    image_attribution: null
-  },
-  {
     name: "Ono Hawaiian BBQ",
-    address: "13808 E 14th St C, San Leandro",
-    key: "ChIJJUglQcWPj4ARVx0n7WqFla8",
-    image_attribution: null
-  },
-  {
-    name: "Alice Bistro",
-    address: "1707 Lincoln Ave, Alameda",
-    key: "ChIJrxC9MMGHj4ARgEq0dlkb3iw",
-    image_attribution: null
-  },
-  {
-    name: "Razzo's Pizza",
-    address: "4312 MacArthur Blvd, Oakland",
-    key: "ChIJCQKwHz-Gj4ARqMuXfx7ZXj8",
-    image_attribution: null
-  },
-  {
-    name: "Party Sushi",
-    address: "1776 Shattuck Ave, Berkeley",
-    key: "ChIJ7Zxke59-hYAR7EP2l9MAVfQ",
-    image_attribution: null
-  },
-  {
-    name: "Scolari's At The Point",
-    address: "2301 Monarch St, Alameda",
-    key: "ChIJ-ysIufWAj4ARA815kh5FIiE",
-    image_attribution: null
-  },
-  {
-    name: "Rosamunde Sausage Catering",
-    address: "2832 Mission Street, San Francisco",
-    key: "ChIJ9WAGzUB-j4ARnKq2GIYCXgA",
+    address: "2990 E 9th St, Oakland",
+    key: "ChIJWSYDgu2Gj4AROMdOQrFLw6k",
     image_attribution: null
   },
   {
@@ -6547,63 +6497,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bonchon",
-    address: "2050 Berkeley Way, Berkeley",
-    key: "ChIJvYVN455-hYARYgl-Gvk5SQc",
-    image_attribution: null
-  },
-  {
-    name: "\u200bKYU2 Sushi",
-    address: "6485 Hollis St, Emeryville",
-    key: "ChIJJYqg-l5-hYARdtxLviAxIEM",
-    image_attribution: null
-  },
-  {
-    name: "Pattys & Buns",
-    address: "2852 Mountain Blvd, Oakland",
-    key: "ChIJxfv_AbiHj4ARf5mChlXaEBs",
-    image_attribution: null
-  },
-  {
-    name: "Devaughn's Cajun Kitchen",
-    address: "6638 Bancroft Ave, Oakland",
-    key: "ChIJF6woEgeGj4ARDUGEhiC_krE",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Jolie",
-    address: "1500 Webster St, Alameda",
-    key: "ChIJx-UBliiBj4ARaMrxdTIlQ3U",
-    image_attribution: null
-  },
-  {
-    name: "Le Pho Vietnamese Restaurant",
-    address: "2501 San Pablo Ave, Berkeley",
-    key: "ChIJo__ZPu1-hYARy403YbV3b9o",
-    image_attribution: null
-  },
-  {
-    name: "Boston Market",
-    address: "5132 Broadway Suite C101, Oakland",
-    key: "ChIJraq6qe99hYARK_PD4Fh9ZBI",
-    image_attribution: null
-  },
-  {
-    name: "Wei Wang House",
-    address: "1501 23rd Ave #2, Oakland",
-    key: "ChIJp1yLQuSGj4ARjt3QZ6efs38",
-    image_attribution: null
-  },
-  {
     name: "Trueburger",
     address: "146 Grand Ave, Oakland",
     key: "ChIJ-ws7wFKHj4AR9MxmAR9sJoo",
-    image_attribution: null
-  },
-  {
-    name: "Kaffa",
-    address: "2987 Sacramento St, Berkeley",
-    key: "ChIJWQPmKIh-hYAR3VwGVEceUcM",
     image_attribution: null
   },
   {
@@ -6619,21 +6515,111 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Yummy Grill Afghan Kabob House",
-    address: "4300 International Blvd, Oakland",
-    key: "ChIJUTHFZZ-Hj4ARu5HZSsdOOd8",
+    name: "Trick Dog",
+    address: "3010 20th Street, San Francisco",
+    key: "ChIJFc-4Pzd-j4ARf66cV7PRZxw",
     image_attribution: null
   },
   {
-    name: "La Val's Pizza",
-    address: "1834 Euclid Ave, Berkeley",
-    key: "ChIJ3ZkzeCF8hYARzjjQwUE7fjo",
+    name: "Razzo's Pizza",
+    address: "4312 MacArthur Blvd, Oakland",
+    key: "ChIJCQKwHz-Gj4ARqMuXfx7ZXj8",
     image_attribution: null
   },
   {
-    name: "Avenues San Francisco",
-    address: "3606 Taraval St, San Francisco",
-    key: "ChIJ5SMtamN9j4ARvPB90rEOMVQ",
+    name: "Pattys & Buns",
+    address: "2852 Mountain Blvd, Oakland",
+    key: "ChIJxfv_AbiHj4ARf5mChlXaEBs",
+    image_attribution: null
+  },
+  {
+    name: "Devaughn's Cajun Kitchen",
+    address: "6638 Bancroft Ave, Oakland",
+    key: "ChIJF6woEgeGj4ARDUGEhiC_krE",
+    image_attribution: null
+  },
+  {
+    name: "Scolari's At The Point",
+    address: "2301 Monarch St, Alameda",
+    key: "ChIJ-ysIufWAj4ARA815kh5FIiE",
+    image_attribution: null
+  },
+  {
+    name: "Serpentine",
+    address: "2495 3rd Street, San Francisco",
+    key: "ChIJf5sXibl_j4AR5wRLyjqQelU",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Jolie",
+    address: "1500 Webster St, Alameda",
+    key: "ChIJx-UBliiBj4ARaMrxdTIlQ3U",
+    image_attribution: null
+  },
+  {
+    name: "Ono Hawaiian BBQ",
+    address: "13808 E 14th St C, San Leandro",
+    key: "ChIJJUglQcWPj4ARVx0n7WqFla8",
+    image_attribution: null
+  },
+  {
+    name: "Boston Market",
+    address: "5132 Broadway Suite C101, Oakland",
+    key: "ChIJraq6qe99hYARK_PD4Fh9ZBI",
+    image_attribution: null
+  },
+  {
+    name: "Alice Bistro",
+    address: "1707 Lincoln Ave, Alameda",
+    key: "ChIJrxC9MMGHj4ARgEq0dlkb3iw",
+    image_attribution: null
+  },
+  {
+    name: "Playa Azul",
+    address: "2818 International Blvd, Oakland",
+    key: "ChIJU2PTsPGGj4ARrC1NADImcm8",
+    image_attribution: null
+  },
+  {
+    name: "\u200bKYU2 Sushi",
+    address: "6485 Hollis St, Emeryville",
+    key: "ChIJJYqg-l5-hYARdtxLviAxIEM",
+    image_attribution: null
+  },
+  {
+    name: "Le Pho Vietnamese Restaurant",
+    address: "2501 San Pablo Ave, Berkeley",
+    key: "ChIJo__ZPu1-hYARy403YbV3b9o",
+    image_attribution: null
+  },
+  {
+    name: "Party Sushi",
+    address: "1776 Shattuck Ave, Berkeley",
+    key: "ChIJ7Zxke59-hYAR7EP2l9MAVfQ",
+    image_attribution: null
+  },
+  {
+    name: "Kaffa",
+    address: "2987 Sacramento St, Berkeley",
+    key: "ChIJWQPmKIh-hYAR3VwGVEceUcM",
+    image_attribution: null
+  },
+  {
+    name: "El Paisa Taco",
+    address: "2900 International Blvd, Oakland",
+    key: "ChIJ1812n_GGj4ARuokzmJ8kCqU",
+    image_attribution: null
+  },
+  {
+    name: "Wei Wang House",
+    address: "1501 23rd Ave #2, Oakland",
+    key: "ChIJp1yLQuSGj4ARjt3QZ6efs38",
+    image_attribution: null
+  },
+  {
+    name: "Bonchon",
+    address: "2050 Berkeley Way, Berkeley",
+    key: "ChIJvYVN455-hYARYgl-Gvk5SQc",
     image_attribution: null
   },
   {
@@ -6643,21 +6629,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pig In A Pickle",
-    address: "5959 Shellmound St kiosk 16, Emeryville",
-    key: "ChIJRSjOCVF_hYARmPypEJ-cfqw",
-    image_attribution: null
-  },
-  {
-    name: "Mandalay Restaurant",
-    address: "4348 California Street, San Francisco",
-    key: "ChIJZTCRmjyHhYAR1aeqChJLjng",
-    image_attribution: ""
-  },
-  {
-    name: "Mourad",
-    address: "140 New Montgomery St #1, San Francisco",
-    key: "ChIJg6QBP32AhYARNh3xlLGG46g",
+    name: "Shinmai",
+    address: "1825-3 San Pablo Ave, Oakland",
+    key: "ChIJOQKEO66Aj4ARZqumGtNaxPY",
     image_attribution: null
   },
   {
@@ -6667,33 +6641,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caffe Roma Coffee Roasting Co.",
-    address: "885 Bryant St, San Francisco",
-    key: "ChIJJz14VSp-j4ARbjv3dt0d_Dw",
-    image_attribution: null
-  },
-  {
-    name: "Oaks Corner",
-    address: "4099 San Pablo Ave, Emeryville",
-    key: "ChIJu86VEBN-hYARQghzj_ivEfw",
-    image_attribution: null
-  },
-  {
-    name: "Estrellas De Sinaloa",
-    address: "8119 San Leandro St, Oakland",
-    key: "ChIJM_a-juuFj4ARnt2P0NCVgyw",
-    image_attribution: null
-  },
-  {
-    name: "IN THE WOOD",
-    address: "2930 College Ave, Berkeley",
-    key: "ChIJF36Jks19hYARZC3CF7Kp5jw",
-    image_attribution: null
-  },
-  {
     name: "Mountain Mike's Pizza",
     address: "2042 Mountain Blvd #109, Oakland",
     key: "ChIJGbeyE6mHj4ARR0Gnr-aw9Mc",
+    image_attribution: null
+  },
+  {
+    name: "Five Degree Tea House",
+    address: "2527 San Bruno Avenue, San Francisco",
+    key: "ChIJHUzg2Px-j4ARQRbnV7YQs34",
+    image_attribution: null
+  },
+  {
+    name: "Ambrosia Bakery",
+    address: "2605 Ocean Avenue, San Francisco",
+    key: "ChIJQ93RNLl9j4ARkyyss9ru8xU",
+    image_attribution: null
+  },
+  {
+    name: "La Val's Pizza",
+    address: "1834 Euclid Ave, Berkeley",
+    key: "ChIJ3ZkzeCF8hYARzjjQwUE7fjo",
     image_attribution: null
   },
   {
@@ -6703,9 +6671,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Honolulu BBQ",
-    address: "845 Marina Village Pkwy suite b 118, Alameda",
-    key: "ChIJ4-S9EIOBj4ARFjx229rlBt4",
+    name: "Oaks Corner",
+    address: "4099 San Pablo Ave, Emeryville",
+    key: "ChIJu86VEBN-hYARQghzj_ivEfw",
+    image_attribution: null
+  },
+  {
+    name: "Go Go 7",
+    address: "1300 Ocean Avenue, San Francisco",
+    key: "ChIJd9gkz-J9j4AR2y-wHuAyAZ0",
+    image_attribution: null
+  },
+  {
+    name: "Yummy Grill Afghan Kabob House",
+    address: "4300 International Blvd, Oakland",
+    key: "ChIJUTHFZZ-Hj4ARu5HZSsdOOd8",
+    image_attribution: null
+  },
+  {
+    name: "IN THE WOOD",
+    address: "2930 College Ave, Berkeley",
+    key: "ChIJF36Jks19hYARZC3CF7Kp5jw",
     image_attribution: null
   },
   {
@@ -6715,9 +6701,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Avenues San Francisco",
+    address: "3606 Taraval St, San Francisco",
+    key: "ChIJ5SMtamN9j4ARvPB90rEOMVQ",
+    image_attribution: null
+  },
+  {
     name: "Los Cantaros Taqueria",
     address: "4115 San Pablo Ave, Emeryville",
     key: "ChIJhZAfPBN-hYAR_dH8fGaZj0s",
+    image_attribution: null
+  },
+  {
+    name: "Estrellas De Sinaloa",
+    address: "8119 San Leandro St, Oakland",
+    key: "ChIJM_a-juuFj4ARnt2P0NCVgyw",
+    image_attribution: null
+  },
+  {
+    name: "Umi",
+    address: "1328 18th Street, San Francisco",
+    key: "ChIJ9QE908t_j4ARB5LYFJO06rw",
+    image_attribution: null
+  },
+  {
+    name: "Honolulu BBQ",
+    address: "845 Marina Village Pkwy suite b 118, Alameda",
+    key: "ChIJ4-S9EIOBj4ARFjx229rlBt4",
+    image_attribution: null
+  },
+  {
+    name: "Pig In A Pickle",
+    address: "5959 Shellmound St kiosk 16, Emeryville",
+    key: "ChIJRSjOCVF_hYARmPypEJ-cfqw",
     image_attribution: null
   },
   {
@@ -6727,27 +6743,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Straw Hat Pizza",
-    address: "901 Marina Village Pkwy, Alameda",
-    key: "ChIJf0OfStGAj4ARAbkpciGsaNU",
-    image_attribution: null
-  },
-  {
-    name: "Shinmai",
-    address: "1825-3 San Pablo Ave, Oakland",
-    key: "ChIJOQKEO66Aj4ARZqumGtNaxPY",
-    image_attribution: null
-  },
-  {
     name: "Shrimp falafel mix truck",
     address: "1738 Telegraph Ave, Oakland",
     key: "ChIJH6cKPbKAj4ARVwAE561oXdE",
-    image_attribution: null
-  },
-  {
-    name: "Benkyodo Co",
-    address: "1747 Buchanan Street, San Francisco",
-    key: "ChIJz1JuzLiAhYARfnhULIGUL8g",
     image_attribution: null
   },
   {
@@ -6757,33 +6755,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Art's Cafe",
-    address: "747 Irving St, San Francisco",
-    key: "ChIJpxnXTlyHhYAR1RGedkD52Is",
+    name: "Glaze Donuts",
+    address: "4499 Mission Street, San Francisco",
+    key: "ChIJk8kc6Yh-j4ARVd7F7_8EFl4",
     image_attribution: null
   },
   {
-    name: "Bite Me Sandwiches",
-    address: "701 Cole Street, San Francisco",
-    key: "ChIJfeYztCR-j4ARB7fGttLxW9Y",
+    name: "Tasty Coffee",
+    address: "1818 San Jose Avenue, San Francisco",
+    key: "ChIJn_q1531-j4ARGZ6FnZ56mt4",
     image_attribution: null
   },
   {
-    name: "Barrio",
-    address: "1609 Powell Street, San Francisco",
-    key: "ChIJRRyK3gOBhYARapb9R8aqS7M",
-    image_attribution: null
-  },
-  {
-    name: "Bellota",
-    address: "888 Brannan Street, San Francisco",
-    key: "ChIJI6-Ajit-j4ARx_u2u-3vkOk",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Jacqueline",
-    address: "1454 Grant Avenue, San Francisco",
-    key: "ChIJaQylTvGAhYARhBlITbQgjvY",
+    name: "Bernal Star",
+    address: "410 Cortland Avenue, San Francisco",
+    key: "ChIJG_dIWVl-j4ARo7gm0yqY-Z0",
     image_attribution: null
   },
   {
@@ -6823,9 +6809,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Arizmendi Bakery",
-    address: "1331 9th Avenue, San Francisco",
-    key: "ChIJMdUfNVyHhYAR7pvCohDZC70",
+    name: "Triple Voodoo Brewery",
+    address: "2245 3rd St, San Francisco",
+    key: "ChIJvScNQbh_j4ARAGxvBme_2A0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115826028064429447653\">Ed Miller</a>']"
+  },
+  {
+    name: "City Lunch Restaurant",
+    address: "2101 Ingalls St, San Francisco",
+    key: "ChIJhS2_NhZ_j4AR3tWfSfeDA8Q",
+    image_attribution: null
+  },
+  {
+    name: "Ling Ling Cuisine Restaurant",
+    address: "2517 San Bruno Ave, San Francisco",
+    key: "ChIJ33L13vx-j4ARW1vdkySw5wE",
+    image_attribution: null
+  },
+  {
+    name: "The Gold Mirror Italian Restaurant",
+    address: "800 Taraval Street, San Francisco",
+    key: "ChIJbZ0UK5J9j4ARm1sAyGJogdI",
+    image_attribution: null
+  },
+  {
+    name: "Poke Bowl",
+    address: "1250 Ocean Avenue, San Francisco",
+    key: "ChIJOxF459J9j4ARw_gWwomBA6Y",
     image_attribution: null
   },
   {
@@ -6847,9 +6858,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "TJ Cups",
-    address: "2437 Noriega St, San Francisco",
-    key: "ChIJeWX3EH-HhYAR71c_f4pRYyA",
+    name: "Bakers of Paris",
+    address: "1101 Taraval Street, San Francisco",
+    key: "ChIJV0-nTZB9j4ARtMZA40g0xdA",
+    image_attribution: null
+  },
+  {
+    name: "Geneva Steak",
+    address: "5130 Mission Street, San Francisco",
+    key: "ChIJddBMn5x-j4ARnjxTgKWQfyA",
+    image_attribution: null
+  },
+  {
+    name: "The Yellow Submarine",
+    address: "503 Irving Street, San Francisco",
+    key: "ChIJk8KQ8FuHhYAR_aZ4aiDlt6c",
+    image_attribution: null
+  },
+  {
+    name: "Fiore Caffe",
+    address: "3599 24th Street, San Francisco",
+    key: "ChIJgZruCkB-j4ARBTl8cpeOCLI",
     image_attribution: null
   },
   {
@@ -6871,21 +6900,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Turo Cafe And Grill",
-    address: "2275 San Jose Avenue, San Francisco",
-    key: "ChIJPRBnWB5_j4ARJdX162P3c-Q",
+    name: "Snowbird Coffee",
+    address: "1352 9th Ave A, San Francisco",
+    key: "ChIJIztOzV2HhYAR0wpB5VfTGb0",
     image_attribution: null
   },
   {
-    name: "The City Taqueria",
-    address: "1836 Divisadero Street #2, San Francisco",
-    key: "ChIJe9ExmsmAhYARStIrAKjiN10",
+    name: "Mochica",
+    address: "1469 18th Street, San Francisco",
+    key: "ChIJK11ZFICAhYARoARGmABUrAU",
     image_attribution: null
   },
   {
-    name: "Lark",
-    address: "4068 18th Street, San Francisco",
-    key: "ChIJU4vRPBt-j4AR6-UHDqsgoy0",
+    name: "M.Y. China",
+    address: "845 Market Street 4th floor, San Francisco",
+    key: "ChIJ-_SoDIaAhYAR0eq5BkLUDxc",
+    image_attribution: null
+  },
+  {
+    name: "Zaoh",
+    address: "1555 Mission Street, San Francisco",
+    key: "ChIJvUqK452AhYARkWQeut8-8-0",
+    image_attribution: null
+  },
+  {
+    name: "Word. A cafe",
+    address: "5114 3rd St, San Francisco",
+    key: "ChIJL6U25BJ_j4ARc2ohs71M1eM",
     image_attribution: null
   },
   {
@@ -6901,33 +6942,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Zushi Puzzle",
-    address: "1910 Lombard Street, San Francisco",
-    key: "ChIJy-nXMNqAhYAR40z3pkUofL8",
+    name: "Yo Tambi\u00e9n Cantina",
+    address: "205 Hugo St, San Francisco",
+    key: "ChIJsRthmMCHhYARC4DrJyz7kWE",
     image_attribution: null
   },
   {
-    name: "Bar Agricole",
-    address: "355 11th Street, San Francisco",
-    key: "ChIJCSdjKSZ-j4ARY5HrLSxbatQ",
-    image_attribution: null
+    name: "Rich Table",
+    address: "199 Gough St, San Francisco",
+    key: "ChIJh_24QJ-AhYAR_xbUNVN2Xns",
+    image_attribution: ""
   },
   {
-    name: "Palette Gallery",
-    address: "816 Folsom St, San Francisco",
-    key: "ChIJ7z4tOpCBhYARkOmmhFPVor8",
-    image_attribution: null
-  },
-  {
-    name: "The Castro Republic",
-    address: "2295 Market Street, San Francisco",
-    key: "ChIJL2AVYBx-j4ARYIDcWYAlhyU",
-    image_attribution: null
-  },
-  {
-    name: "Mr. Pickle's Sandwich Shop",
-    address: "3380 20th Street, San Francisco",
-    key: "ChIJVdSY3jt-j4ARx5rWW_wUYMM",
+    name: "Cato's Ale House",
+    address: "3891 Piedmont Ave, Oakland",
+    key: "ChIJa79xLPh9hYARECRg-9zqtxM",
     image_attribution: null
   },
   {
@@ -6937,76 +6966,46 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Katz Bagels",
-    address: "3147 16th Street, San Francisco",
-    key: "ChIJK5AdbCJ-j4ARLBsXnZ5Enbk",
+    name: "Taqueria Los Amigos",
+    address: "5300 Mission Street, San Francisco",
+    key: "ChIJ0aIaWZx-j4ARIy8LIGPsbN8",
     image_attribution: null
   },
   {
-    name: "The Hotel Utah Saloon",
-    address: "500 4th Street, San Francisco",
-    key: "ChIJyUN-cX-AhYARLtsHniJ96Yg",
+    name: "San Tung",
+    address: "1031 Irving Street, San Francisco",
+    key: "ChIJVwLhg12HhYARcIdFDox3HxM",
     image_attribution: null
   },
   {
-    name: "The Grove - Hayes",
-    address: "301 Hayes Street, San Francisco",
-    key: "ChIJIVD-WqKAhYAReHbjHnhsCNw",
+    name: "Magic Flute",
+    address: "3673 Sacramento Street, San Francisco",
+    key: "ChIJc9sNcDGHhYARHkp86UcN5Gk",
     image_attribution: null
   },
   {
-    name: "Nojo Ramen Tavern",
-    address: "231 Franklin Street, San Francisco",
-    key: "ChIJQ9mJ1ZiAhYARQmPYLOs-h-g",
+    name: "Gallardo's",
+    address: "3248 18th Street, San Francisco",
+    key: "ChIJWzLV1CV-j4ARxNZycAc6NcU",
     image_attribution: null
   },
   {
-    name: "Cato's Ale House",
-    address: "3891 Piedmont Ave, Oakland",
-    key: "ChIJa79xLPh9hYARECRg-9zqtxM",
+    name: "Popeyes Louisiana Kitchen",
+    address: "599 Divisadero Street, San Francisco",
+    key: "ChIJbWezy6-AhYARSd0u0fvs1Mo",
     image_attribution: null
   },
   {
-    name: "Smashburger",
-    address: "2300 16th Street #293, San Francisco",
-    key: "ChIJNbPhyi9-j4ARUq1GnjW_iOE",
+    name: "Sons & Daughters",
+    address: "Btw. Powell & Mason Streets, 708 Bush Street, San Francisco",
+    key: "ChIJvXXIOoyAhYARe-ixq3WdmrY",
     image_attribution: null
   },
   {
-    name: "Alba Ray's",
-    address: "2293 Mission Street, San Francisco",
-    key: "ChIJUw5Mhjx-j4ARZktWFwXsZIs",
+    name: "Serrano's Pizza and Pasta",
+    address: "3274 21st Street, San Francisco",
+    key: "ChIJM1_EhD5-j4ARWaXZV9B9DIs",
     image_attribution: null
-  },
-  {
-    name: "Turner's Kitchen",
-    address: "3505 17th Street B, San Francisco",
-    key: "ChIJp0O8eBh-j4ARSq-eVI8Fe9E",
-    image_attribution: null
-  },
-  {
-    name: "Shabusen Restaurant",
-    address: "1726 Buchanan Street, San Francisco",
-    key: "ChIJeZyM0riAhYAROp2orykLUs8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Venue",
-    address: "67 5th St, San Francisco",
-    key: "ChIJn8BefoaAhYARG60zsVlCVRY",
-    image_attribution: null
-  },
-  {
-    name: "Poc-Chuc",
-    address: "2886 16th Street, San Francisco",
-    key: "ChIJUaWIjCR-j4ARR3YQRmBbujQ",
-    image_attribution: null
-  },
-  {
-    name: "Kin Khao",
-    address: "55 Cyril Magnin St, San Francisco",
-    key: "ChIJn_ZxYo-AhYAR22wJt4at2K0",
-    image_attribution: ""
   },
   {
     name: "Phnom Penh House",
@@ -7021,9 +7020,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Europa",
-    address: "4318 California Street, San Francisco",
-    key: "ChIJz3gDgzyHhYARToKaQBcGZeI",
+    name: "Harvest Wheat Field Bakery",
+    address: "431 Clement Street, San Francisco",
+    key: "ChIJnQVa79OHhYARox821XtvBwI",
+    image_attribution: null
+  },
+  {
+    name: "Old Shanghai Restaurant",
+    address: "5145 Geary Boulevard, San Francisco",
+    key: "ChIJ61a5yxaHhYARFGC6PCrii_8",
+    image_attribution: null
+  },
+  {
+    name: "Great Mongolia Restaurant",
+    address: "4828 Geary Boulevard, San Francisco",
+    key: "ChIJKVPEF6yHhYARqv1MEoulwvA",
+    image_attribution: null
+  },
+  {
+    name: "J.K's Brickhouse Sports Bar & Grill",
+    address: "360 Adeline St, Oakland",
+    key: "ChIJG5Cy45eAj4ARK-XCoQWifqM",
+    image_attribution: null
+  },
+  {
+    name: "Java Beach At The Zoo",
+    address: "2650 Sloat Blvd, San Francisco",
+    key: "ChIJTWKrGHB9j4ARxSQFqCUSFq8",
+    image_attribution: null
+  },
+  {
+    name: "The Spanish Table",
+    address: "130 Clement St, San Francisco",
+    key: "ChIJ_fPeKjqHhYARZc4X250_xPo",
+    image_attribution: null
+  },
+  {
+    name: "Sens",
+    address: "4 Embarcadero Center, San Francisco",
+    key: "ChIJBVDZR2GAhYARCy82N8HgD5I",
+    image_attribution: null
+  },
+  {
+    name: "First Cup Caf\u00e9",
+    address: "2911 Van Ness Ave, San Francisco",
+    key: "ChIJ2yA9k92AhYAR2OYvoOdoEoU",
+    image_attribution: null
+  },
+  {
+    name: "NorthStar Cafe",
+    address: "1560 Powell Street, San Francisco",
+    key: "ChIJ5VRAhfGAhYARwiCDOFwBycs",
     image_attribution: null
   },
   {
@@ -7045,75 +7092,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "J.K's Brickhouse Sports Bar & Grill",
-    address: "360 Adeline St, Oakland",
-    key: "ChIJG5Cy45eAj4ARK-XCoQWifqM",
+    name: "Violet's",
+    address: "2301 Clement St, San Francisco",
+    key: "ChIJdVJ8Yt-HhYARIV6aM2dpezk",
     image_attribution: null
   },
   {
-    name: "Old Shanghai Restaurant",
-    address: "5145 Geary Boulevard, San Francisco",
-    key: "ChIJ61a5yxaHhYARFGC6PCrii_8",
-    image_attribution: null
-  },
-  {
-    name: "Java Beach At The Zoo",
-    address: "2650 Sloat Blvd, San Francisco",
-    key: "ChIJTWKrGHB9j4ARxSQFqCUSFq8",
-    image_attribution: null
-  },
-  {
-    name: "Marcello's Pizza",
-    address: "420 Castro Street, San Francisco",
-    key: "ChIJG018Uxt-j4AR5eC7h8HKEY8",
-    image_attribution: null
-  },
-  {
-    name: "Mescolanza Restaurant",
-    address: "3750 Geary Boulevard, San Francisco",
-    key: "ChIJM0oxsTmHhYARA59beZo8Yyo",
-    image_attribution: null
-  },
-  {
-    name: "Tu Lan",
-    address: "8 6th Street, San Francisco",
-    key: "ChIJjdYi_4SAhYAR0sl58U1jsLk",
-    image_attribution: null
-  },
-  {
-    name: "Arsicault Civic Center",
-    address: "87 McAllister Street, San Francisco",
-    key: "ChIJ90JImRKBhYARXrwUAyZIhqw",
-    image_attribution: null
-  },
-  {
-    name: "Co Nam",
-    address: "1653 Polk Street, San Francisco",
-    key: "ChIJV2p1HuuAhYARaIJQ_Ir52XU",
-    image_attribution: null
-  },
-  {
-    name: "b. patisserie",
-    address: "2821 California Street, San Francisco",
-    key: "ChIJ59WgYcmAhYARu5gLD0FVpw4",
-    image_attribution: ""
-  },
-  {
-    name: "The Detour",
-    address: "2200A Market Street, San Francisco",
-    key: "ChIJUTUQTBx-j4ARgOrxfs3al7E",
-    image_attribution: null
-  },
-  {
-    name: "Alegrias",
-    address: "2018 Lombard Street, San Francisco",
-    key: "ChIJzSuDD9qAhYARw8hznmTYjBc",
-    image_attribution: null
-  },
-  {
-    name: "The Sycamore",
-    address: "2140 Mission Street, San Francisco",
-    key: "ChIJ0WvRSyN-j4ARpvLPuZyI3l4",
+    name: "Wayo Sushi Restaurant",
+    address: "1407 Van Ness Avenue, San Francisco",
+    key: "ChIJiXqrEZWAhYARSb8UtLjGEhk",
     image_attribution: null
   },
   {
@@ -7129,15 +7116,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dragon River Restaurant",
-    address: "5045 Geary Boulevard, San Francisco",
-    key: "ChIJbwgFwBaHhYARbP9tm9GK0n4",
+    name: "AK BBQ",
+    address: "1820 Clement Street, San Francisco",
+    key: "ChIJ_2PPnxqHhYARukT_g7Rw_y4",
     image_attribution: null
   },
   {
-    name: "Poke Koma",
-    address: "1354 Park St, Alameda",
-    key: "ChIJ2VI3-b2Gj4ARgn9Rem4nyE0",
+    name: "Samila Thai Restaurant",
+    address: "2415 Clement Street #1921, San Francisco",
+    key: "ChIJR3YA4hCHhYARGsdIJOoPKwI",
     image_attribution: null
   },
   {
@@ -7147,28 +7134,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Steep Creamery & Tea",
-    address: "270 Brannan St, San Francisco",
-    key: "ChIJiRaLtHmAhYARlhDlED1oZVc",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/104060386270451533380\">Emily Lin</a>']"
-  },
-  {
-    name: "Wasabi & Ginger",
-    address: "2299 Van Ness Avenue, San Francisco",
-    key: "ChIJDSCl1umAhYARyKXXByWjZ5g",
+    name: "Simmer",
+    address: "1055 Taraval Street, San Francisco",
+    key: "ChIJafCfrZF9j4ARRbMWJ7vrkmg",
     image_attribution: null
   },
   {
-    name: "Breck's",
-    address: "2 Clement St, San Francisco",
-    key: "ChIJo3GE0AyHhYARblXqwmGGkA0",
+    name: "bloomstock",
+    address: "1730 Yosemite Ave, San Francisco",
+    key: "ChIJzxe-SMd_j4AR1wLqEvA06sY",
     image_attribution: null
   },
   {
-    name: "Piece of Heaven",
-    address: "1380 Sutter Street #5416, San Francisco",
-    key: "ChIJtbTxnpWAhYARRCpq_1-ppqM",
+    name: "Red House Bakery and cafe",
+    address: "2818 San Bruno Avenue, San Francisco",
+    key: "ChIJKTlAQeJ-j4ARiVSnZ5XxLng",
+    image_attribution: null
+  },
+  {
+    name: "Poke Koma",
+    address: "1354 Park St, Alameda",
+    key: "ChIJ2VI3-b2Gj4ARgn9Rem4nyE0",
     image_attribution: null
   },
   {
@@ -7178,69 +7164,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Panera Bread",
-    address: "301 King St, San Francisco",
-    key: "ChIJE2LZxdZ_j4ARiHdcMRU_tSQ",
+    name: "Volcano Curry",
+    address: "5454 Geary Boulevard, San Francisco",
+    key: "ChIJ7WgRVBCHhYAR2y16INCJvkk",
     image_attribution: null
   },
   {
-    name: "Myriad Gastropub",
-    address: "2491 Mission Street, San Francisco",
-    key: "ChIJMyfTsz5-j4ARjLpxXfYVEN0",
+    name: "Lokma",
+    address: "1801 Clement Street, San Francisco",
+    key: "ChIJgUtXdxCHhYARD8rNGyLlmRQ",
     image_attribution: null
   },
   {
-    name: "Cherry Blossom Bakery",
-    address: "844 Clement Street, San Francisco",
-    key: "ChIJ042Omz2HhYARJegodst1VZo",
-    image_attribution: null
-  },
-  {
-    name: "Home Coffee Roasters",
-    address: "2018 Clement St, San Francisco",
-    key: "ChIJr0cIUgWHhYAR52foWFmMYLw",
-    image_attribution: null
-  },
-  {
-    name: "Ted\u2019s Market",
-    address: "1530 Howard Street, San Francisco",
-    key: "ChIJ5Tx9eyd-j4ARYvy7ogfQ7wM",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Cole",
-    address: "609 Cole St, San Francisco",
-    key: "ChIJi8iLtlOHhYARl8RrIfQHu5g",
-    image_attribution: null
-  },
-  {
-    name: "Grand Mission Donuts & Bakery",
-    address: "2195 Mission Street, San Francisco",
-    key: "ChIJgSmDujx-j4ARDnrpQ6ihmyE",
-    image_attribution: null
-  },
-  {
-    name: "Red Door Coffee",
-    address: "505 Howard St, San Francisco",
-    key: "ChIJLwO4qHyAhYARskbtAtuDQrE",
-    image_attribution: null
-  },
-  {
-    name: "Elephant Sushi",
-    address: "1916 Hyde Street, San Francisco",
-    key: "ChIJIXme1uiAhYARonEfUDgz0A4",
-    image_attribution: null
-  },
-  {
-    name: "The Creamery",
-    address: "685 4th St, San Francisco",
-    key: "ChIJ8YUefdZ_j4ART8gb7SJeblY",
-    image_attribution: null
-  },
-  {
-    name: "Mad Dog in the Fog",
-    address: "530 Haight Street, San Francisco",
-    key: "ChIJl7WTv6aAhYAR-PflVqm6yoY",
+    name: "Venga Empanadas",
+    address: "443 Valencia Street, San Francisco",
+    key: "ChIJhXtsMCJ-j4AR8fl_NkCgdWU",
     image_attribution: null
   },
   {
@@ -7250,21 +7188,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Canela Bistro & Wine Bar",
-    address: "2272 Market St, San Francisco",
-    key: "ChIJh8PT9xx-j4ARqcz9si6Mv-E",
-    image_attribution: ""
+    name: "La Boulangerie de San Francisco",
+    address: "2325 Pine Street, San Francisco",
+    key: "ChIJF1AowMeAhYAR8arr1DHDIcY",
+    image_attribution: null
+  },
+  {
+    name: "Kui Shin Bo",
+    address: "22 Peace Plaza #2, San Francisco",
+    key: "ChIJN0l8xL6AhYARrlT2wxyRP24",
+    image_attribution: null
   },
   {
     name: "Spinning Dough",
     address: "2935 Market St, Oakland",
     key: "ChIJp02wrBx-hYARP8wC_cV1pk8",
-    image_attribution: null
-  },
-  {
-    name: "Lers Ros",
-    address: "730 Larkin Street, San Francisco",
-    key: "ChIJZduCKJGAhYARueNvSMvqsUI",
     image_attribution: null
   },
   {
@@ -7280,9 +7218,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "CAFE LA FLORE",
-    address: "1032 Clement St #2113, San Francisco",
-    key: "ChIJz9uXyxeHhYARv48UccTFjF8",
+    name: "Hopscotch",
+    address: "1915 San Pablo Ave, Oakland",
+    key: "ChIJQY7pWq6Aj4AR46eU7KRJ03c",
+    image_attribution: null
+  },
+  {
+    name: "Tribune Tavern",
+    address: "401 13th St, Oakland",
+    key: "ChIJzbGLA7SAj4AR7aC_BY4Xwyc",
+    image_attribution: null
+  },
+  {
+    name: "Jin Pot",
+    address: "5158 Geary Boulevard, San Francisco",
+    key: "ChIJM3xv0haHhYAR1cwiQtWrwKA",
+    image_attribution: null
+  },
+  {
+    name: "Hermitage Banquet Hall",
+    address: "5633 Geary Boulevard, San Francisco",
+    key: "ChIJifoBMBCHhYARRG-3PivluaQ",
+    image_attribution: null
+  },
+  {
+    name: "Kab\u00f6b Tr\u00f6lley",
+    address: "298 King Street, San Francisco",
+    key: "ChIJl-Vo7NZ_j4ARrMfsyT_koPI",
+    image_attribution: null
+  },
+  {
+    name: "Lupulandia Brewing",
+    address: "2243 Mission St, San Francisco",
+    key: "ChIJL-N1INF_j4ARbvqC15zMSH0",
+    image_attribution: null
+  },
+  {
+    name: "Oasis Food Market",
+    address: "3045 Telegraph Ave, Oakland",
+    key: "ChIJpT-zPAB-hYAR4xva6T-SW_o",
     image_attribution: null
   },
   {
@@ -7298,87 +7272,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hopscotch",
-    address: "1915 San Pablo Ave, Oakland",
-    key: "ChIJQY7pWq6Aj4AR46eU7KRJ03c",
-    image_attribution: null
-  },
-  {
     name: "Rio California",
     address: "1233 Preservation Park Way, Oakland",
     key: "ChIJYeW0pLqAj4ARqYSnHKXJNEA",
-    image_attribution: null
-  },
-  {
-    name: "Delage",
-    address: "536 9th St, Oakland",
-    key: "ChIJ7yAjSreAj4ARO3EqGPi6rZU",
-    image_attribution: null
-  },
-  {
-    name: "Tribune Tavern",
-    address: "401 13th St, Oakland",
-    key: "ChIJzbGLA7SAj4AR7aC_BY4Xwyc",
-    image_attribution: null
-  },
-  {
-    name: "El Porte\u00f1o Empanadas",
-    address: "Ferry Building, Ferry Building Marketplace 1, #53, San Francisco",
-    key: "ChIJuQFUy02Aj4ARoaOaNCQq7Oc",
-    image_attribution: null
-  },
-  {
-    name: "CorePower Yoga",
-    address: "215 Fremont St, San Francisco",
-    key: "ChIJb_fBtGSAhYARk3sWGzo8Ew0",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Prague",
-    address: "424 Merchant St #2900, San Francisco",
-    key: "ChIJyXhNI2CAhYAROBJnpkrFXyw",
-    image_attribution: null
-  },
-  {
-    name: "Moya",
-    address: "121 9th Street, San Francisco",
-    key: "ChIJCUtrIJ2AhYARxlkbZeP-Go4",
-    image_attribution: null
-  },
-  {
-    name: "Tselogs",
-    address: "518 South Van Ness Avenue, San Francisco",
-    key: "ChIJ57pikCR-j4AR5Gt_PUNYmlg",
-    image_attribution: null
-  },
-  {
-    name: "Oasis Food Market",
-    address: "3045 Telegraph Ave, Oakland",
-    key: "ChIJpT-zPAB-hYAR4xva6T-SW_o",
-    image_attribution: null
-  },
-  {
-    name: "T Cup Cafe",
-    address: "3516 Balboa St, San Francisco",
-    key: "ChIJDaYsy6yHhYARj2a2WSOC_eQ",
-    image_attribution: null
-  },
-  {
-    name: "Fiddler's Green of SF",
-    address: "1333 Columbus Avenue, San Francisco",
-    key: "ChIJh1sOQuGAhYARRtdznD3iagY",
-    image_attribution: null
-  },
-  {
-    name: "Rye Cocktail Bar",
-    address: "688 Geary Street, San Francisco",
-    key: "ChIJIU63vZGAhYARM4foBPHnzd4",
-    image_attribution: null
-  },
-  {
-    name: "JORA Peruvian Cuisine POP UP",
-    address: "167 11th Street, San Francisco",
-    key: "ChIJBbExm52AhYARz28TO3HQG7o",
     image_attribution: null
   },
   {
@@ -7388,39 +7284,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Hong Kong Lounge",
+    address: "5322 Geary Boulevard, San Francisco",
+    key: "ChIJy6k6HhGHhYAR5moxQxcAv-w",
+    image_attribution: null
+  },
+  {
+    name: "Barbary Coast Pastry and Coffee",
+    address: "55 Cyril Magnin St, San Francisco",
+    key: "ChIJd1kdjYWAhYAR6sW8xjHpsys",
+    image_attribution: null
+  },
+  {
+    name: "Zero Zero",
+    address: "826 Folsom Street, San Francisco",
+    key: "ChIJ-VtspYCAhYAR1NlEgy5ye6o",
+    image_attribution: null
+  },
+  {
+    name: "um.ma",
+    address: "1220 9th Ave, San Francisco",
+    key: "ChIJ85tbw0aHhYARIXIu4a1XW-A",
+    image_attribution: null
+  },
+  {
     name: "Sea Breeze Cafe",
     address: "3940 Judah St, San Francisco",
     key: "ChIJHeseSZeHhYAR7AJEzJah34Q",
     image_attribution: null
   },
   {
-    name: "Roli Roti Gourmet Rotisserie",
-    address: "1 Sausalito - San Francisco Ferry Building, San Francisco",
-    key: "ChIJeWScZmaAhYARG-EuO8oGxak",
+    name: "\u6797\u548c\u9806",
+    address: "2337 Irving Street, San Francisco",
+    key: "ChIJX3izYHCHhYAR0xtmJ-V_nW8",
     image_attribution: null
   },
   {
-    name: "TJ Cafe",
-    address: "724 La Playa St, San Francisco",
-    key: "ChIJVSRsPLeHhYARz2V2-YXxEUI",
+    name: "Tennessee Grill",
+    address: "1128 Taraval Street, San Francisco",
+    key: "ChIJyacCSZB9j4ARbzKG3U3ZjEQ",
     image_attribution: null
   },
   {
-    name: "Green Taste Vegan Goods",
-    address: "775 Filbert Street, San Francisco",
-    key: "ChIJc88XKfCAhYARl8QHsiVED6s",
+    name: "Yan Yan Seafood Restaurant \u65b0\u73e0\u6c5f\u9152\u5bb6",
+    address: "2241 Judah Street, San Francisco",
+    key: "ChIJk0gnq3CHhYARBMAv4IbBJgQ",
     image_attribution: null
   },
   {
-    name: "Caffe Bianco",
-    address: "39 Sutter St, San Francisco",
-    key: "ChIJGReneWKAhYARNkAEgHooSus",
+    name: "Katz Bagels",
+    address: "3147 16th Street, San Francisco",
+    key: "ChIJK5AdbCJ-j4ARLBsXnZ5Enbk",
     image_attribution: null
   },
   {
-    name: "Yank Sing",
-    address: "49 Stevenson Street, San Francisco",
-    key: "ChIJ1aUl92KAhYARTY_D5x-dTnE",
+    name: "HoM Korean Kitchen",
+    address: "154 McAllister Street, San Francisco",
+    key: "ChIJ17wXDfKBhYARq8GgQGtT7Io",
     image_attribution: null
   },
   {
@@ -7442,6 +7362,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "ChouChou French Bistro",
+    address: "400 Dewey Boulevard, San Francisco",
+    key: "ChIJ2RhD4LZ3hYARbC0o5QazuU0",
+    image_attribution: null
+  },
+  {
     name: "Holy Basil Ph\u1edf",
     address: "5362 College Ave, Oakland",
     key: "ChIJAQDMHel9hYAR1bA5pcxAEpo",
@@ -7454,69 +7380,88 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mauerpark",
-    address: "500 Church St, San Francisco",
-    key: "ChIJ304KgcZ_j4ARY5f-mAP7-sk",
+    name: "Salt & Straw",
+    address: "2201 Fillmore St, San Francisco",
+    key: "ChIJQV7vPsaAhYARgZsQA-qSRy4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103918941748163539279\">Krystyna Maliniak</a>']"
+  },
+  {
+    name: "Tataki Sushi and Sake Bar",
+    address: "2827 California Street, San Francisco",
+    key: "ChIJ33hHYcmAhYARwjfB2pmcuOA",
     image_attribution: null
   },
   {
-    name: "Hot Spud",
-    address: "2640 Mason Street, San Francisco",
-    key: "ChIJC-Y7QuOAhYARfjddBQjJBUk",
+    name: "DAEHO KOREAN BBQ & BEEF SOUP",
+    address: "1620 Post Street, San Francisco",
+    key: "ChIJVf29bvOBhYARVIE6JZtMYsk",
     image_attribution: null
   },
   {
-    name: "Sparrow Bar and Kitchen",
-    address: "1640 Haight Street, San Francisco",
-    key: "ChIJa9Y-AVOHhYARhr1k84vIEqM",
+    name: "Eats",
+    address: "50 Clement Street, San Francisco",
+    key: "ChIJLTo1iTmHhYARzSryJMomLjk",
     image_attribution: null
   },
   {
-    name: "The Snug",
-    address: "2301 Fillmore St, San Francisco",
-    key: "ChIJ-_7qDsaAhYARKG4Gj6yw2ho",
+    name: "General Tso's Kitchen",
+    address: "3741 Geary Boulevard, San Francisco",
+    key: "ChIJuX9NSjiHhYARBM7CGrnl_Dc",
     image_attribution: null
   },
   {
-    name: "Tank18 Restaurant & Urban Winery",
-    address: "1345 Howard Street, San Francisco",
-    key: "ChIJeW9mW52AhYAR8KtgqsOI2q4",
+    name: "Village Pizzeria",
+    address: "1 Clement Street, San Francisco",
+    key: "ChIJiUno8TmHhYARF38bDFH8Oic",
     image_attribution: null
   },
   {
-    name: "TRES",
-    address: "130 Townsend Street, San Francisco",
-    key: "ChIJTxXE6Nd_j4ARtj7K1--pYQY",
+    name: "The Crafty Fox Ale House",
+    address: "1700 Mission Street, San Francisco",
+    key: "ChIJv3Hl5CB-j4ARj3kxqXyuuZM",
+    image_attribution: ""
+  },
+  {
+    name: "Rangoon Ruby Burmese Cuisine",
+    address: "590 Van Ness Avenue, San Francisco",
+    key: "ChIJc4qTI-uAhYAR0N2rbV_p8N8",
     image_attribution: null
   },
   {
-    name: "The Pied Piper Bar",
-    address: "2 New Montgomery Street, San Francisco",
-    key: "ChIJ150MH4iAhYARC1AHiEwzci0",
+    name: "The Sausage Factory",
+    address: "517 Castro Street, San Francisco",
+    key: "ChIJZ-IoLxt-j4AR2WQKV7ESwZk",
+    image_attribution: ""
+  },
+  {
+    name: "Chili House SF",
+    address: "726 Clement Street, San Francisco",
+    key: "ChIJnSlKsD2HhYARuk6AsFCsg2c",
     image_attribution: null
   },
   {
-    name: "Kippu",
-    address: "1707 Buchanan Street, San Francisco",
-    key: "ChIJmXDZ1LiAhYAR22DvqGrzhik",
+    name: "Angelina's Deli Cafe",
+    address: "6000 California St, San Francisco",
+    key: "ChIJqzzP3QSHhYARij1RSVdBJjs",
     image_attribution: null
   },
   {
-    name: "Dolores Park Cafe",
-    address: "501 Dolores St, San Francisco",
-    key: "ChIJR0JmPBh-j4ARHojhoMtzRhA",
+    name: "Sakana Bune Japanese Restaurant",
+    address: "5701 Geary Boulevard, San Francisco",
+    key: "ChIJP-zEJxCHhYARkpdhdh0DOEA",
     image_attribution: null
   },
   {
-    name: "Lupulandia Brewing",
-    address: "2243 Mission St, San Francisco",
-    key: "ChIJL-N1INF_j4ARbvqC15zMSH0",
+    name: "Crepes On Cole",
+    address: "100 Carl Street #3906, San Francisco",
+    key: "ChIJuQNxW1SHhYARzXi-ZSpU108",
     image_attribution: null
   },
   {
-    name: "Juice Portal",
-    address: "166 W Portal Ave, San Francisco",
-    key: "ChIJOeZQINl9j4ARFw9q0DwyJWU",
+    name: "Oz Pizza CA",
+    address: "508 Castro Street #32, San Francisco",
+    key: "ChIJHZOVLRt-j4ARzVNQdhGoA5U",
     image_attribution: null
   },
   {
@@ -7526,41 +7471,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chart House",
-    address: "Building K, Pier 39, Space 206-8, San Francisco",
-    key: "ChIJ2yPzGf2AhYARSwlwlNVmiwQ",
-    image_attribution: null
-  },
-  {
-    name: "Fermentation Lab",
-    address: "1230 Market Street, San Francisco",
-    key: "ChIJVbw3f5uAhYARZb_OYF13phA",
-    image_attribution: null
-  },
-  {
     name: "Patio Espanol",
     address: "2850 Alemany Boulevard, San Francisco",
     key: "ChIJ-3vPbyZ8j4ARcMBwKjLjT3o",
     image_attribution: null
   },
   {
-    name: "Mozzeria",
-    address: "3228 16th Street, San Francisco",
-    key: "ChIJU296vBh-j4ARpjagql8QEPY",
-    image_attribution: null
-  },
-  {
-    name: "Garden Creamery",
-    address: "3566 20th St, San Francisco",
-    key: "ChIJbZrTRzx-j4AR1AzhXfq8_4c",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107743290380854343422\">sang an</a>']"
-  },
-  {
-    name: "Fig & Thistle",
-    address: "313 Ivy Street, San Francisco",
-    key: "ChIJZ0iMkJiAhYARwVxb_5G03Yc",
-    image_attribution: null
+    name: "Fort Point Valencia",
+    address: "742 Valencia Street, San Francisco",
+    key: "ChIJe4FYLQp_j4AR9KR9vjhv3hU",
+    image_attribution: ""
   },
   {
     name: "Pupusas Salvadorenas",
@@ -7569,9 +7489,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Manivanh",
-    address: "2732 24th Street, San Francisco",
-    key: "ChIJq8Ld4Ut-j4ARJTRvaWYIizI",
+    name: "Taiwan Restaurant",
+    address: "445 Clement Street, San Francisco",
+    key: "ChIJpY8YDzyHhYARte8V3gfYXQo",
+    image_attribution: null
+  },
+  {
+    name: "Pizzetta 211",
+    address: "211 23rd Avenue, San Francisco",
+    key: "ChIJQXnZ_ASHhYARiIl0VPpsEQs",
     image_attribution: null
   },
   {
@@ -7593,63 +7519,58 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bakers of Paris",
-    address: "1101 Taraval Street, San Francisco",
-    key: "ChIJV0-nTZB9j4ARtMZA40g0xdA",
+    name: "Hollywood Cafe",
+    address: "530 North Point St, San Francisco",
+    key: "ChIJF7AFf-SAhYARJPDwj0CBm14",
     image_attribution: null
   },
   {
-    name: "PianoFight",
-    address: "144 Taylor Street, San Francisco",
-    key: "ChIJ9ZX2ZIWAhYARJFEF2eQuH3Q",
+    name: "Sanraku",
+    address: "704 Sutter Street, San Francisco",
+    key: "ChIJ6frH_I2AhYAR4oxOqkmBy7A",
     image_attribution: null
   },
   {
-    name: "SimplexiTea",
-    address: "12 10th Street, San Francisco",
-    key: "ChIJKdw1tp-BhYARMqKmY0DXJUs",
+    name: "Napoli Pizza",
+    address: "1045 Polk Street, San Francisco",
+    key: "ChIJT7jOI5SAhYARaQnlcNdKhxk",
     image_attribution: null
   },
   {
-    name: "Chaat Corner",
-    address: "320 3rd Street, San Francisco",
-    key: "ChIJH0sfhX6AhYARtrXV6cYH2F0",
+    name: "Tekka Japanese Restaurant",
+    address: "537 Balboa Street, San Francisco",
+    key: "ChIJAyIYp0CHhYARUaVqJioZ39E",
     image_attribution: null
   },
   {
-    name: "Palette",
-    address: "816 Folsom Street, San Francisco",
-    key: "ChIJVVVlXCd-j4ARYemTTC8ydA0",
+    name: "Anh Hong",
+    address: "808 Geary Street, San Francisco",
+    key: "ChIJ_ZZoaZGAhYARNpr2bF_kNfg",
     image_attribution: null
   },
   {
-    name: "Florio Bar & Cafe",
-    address: "1915 Fillmore Street, San Francisco",
-    key: "ChIJ85G1k8eAhYARyW11CKO0llU",
+    name: "Donut Farm",
+    address: "1 Ferrybuilding #1, San Francisco",
+    key: "ChIJq6q6jGaAhYARi90jRhEXLmw",
     image_attribution: null
   },
   {
-    name: "Villa Taverna",
-    address: "27 Hotaling Place, San Francisco",
-    key: "ChIJ63EltoqAhYARN29ugvW6Gh8",
+    name: "NoodleMe",
+    address: "333 Market Street, (on Beale Street), San Francisco",
+    key: "ChIJZ8flu2OAhYAR0MWVOPDIadU",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111110489453896477421\">Audrey Menna</a>']"
+  },
+  {
+    name: "Happy Donut Factory",
+    address: "100 Bush Street, San Francisco",
+    key: "ChIJcZaNPWKAhYARojHaf0gIcQA",
     image_attribution: null
   },
   {
-    name: "Crossroads Cafe",
-    address: "699 Delancey St, San Francisco",
-    key: "ChIJD6D7lXeAhYARpItz2DTPkaU",
-    image_attribution: null
-  },
-  {
-    name: "The Slice Pizza",
-    address: "719 14th Street, San Francisco",
-    key: "ChIJhV2wdR5-j4ARXuw2Pxy2a5I",
-    image_attribution: null
-  },
-  {
-    name: "Panda Boba",
-    address: "2763 San Bruno Avenue, San Francisco",
-    key: "ChIJ7xPtXuJ-j4ARcKA14bBz1Xo",
+    name: "Ritual Coffee Roasters",
+    address: "432b Octavia St, San Francisco",
+    key: "ChIJ70taCKKAhYARDqB5RsSPUJc",
     image_attribution: null
   },
   {
@@ -7659,28 +7580,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sextant Coffee Roasters",
-    address: "1415 Folsom St, San Francisco",
-    key: "ChIJg1s92Sd-j4ARTKJr-IhF_-Q",
+    name: "AK Subs",
+    address: "397 8th Street, San Francisco",
+    key: "ChIJCzpwvil-j4ARK54zzgd_qXU",
     image_attribution: null
   },
   {
-    name: "Goat Hill Pizza",
-    address: "171 Stillman Street, San Francisco",
-    key: "ChIJyzTw7X6AhYARJS0C2cigvFI",
+    name: "Patxi's Pizza",
+    address: "511 Hayes Street, San Francisco",
+    key: "ChIJZcmnbaKAhYARlw87UJD_1Vw",
     image_attribution: null
   },
   {
-    name: "Proposition Chicken",
-    address: "1750 Market Street, San Francisco",
-    key: "ChIJSfkAlJ-AhYARALd1Qd9gz3o",
-    image_attribution: null
-  },
-  {
-    name: "Vasquez Coffee Company",
-    address: "50 Mendell St #1, San Francisco",
-    key: "ChIJpXI8PAp_j4ARqU_DoHOBVJs",
-    image_attribution: null
+    name: "La Taqueria",
+    address: "2889 Mission St, San Francisco",
+    key: "ChIJrTYB1UZ-j4ARdeRB5Wzp_CE",
+    image_attribution: ""
   },
   {
     name: "Shangri-La Vegan",
@@ -7695,9 +7610,83 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Charles Chocolates",
+    address: "2650 18th St, San Francisco",
+    key: "ChIJufll8TB-j4AR7rErb4Y3E9I",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112124585459464394643\">Rhodora Villareal</a>']"
+  },
+  {
+    name: "Shalimar Restaurant",
+    address: "532 Jones Street #2008, San Francisco",
+    key: "ChIJ078x1JGAhYARo24cBX5oKH0",
+    image_attribution: null
+  },
+  {
+    name: "The Willows",
+    address: "1582 Folsom St, San Francisco",
+    key: "ChIJFw3ArCd-j4AR5T85mhj6N5Y",
+    image_attribution: null
+  },
+  {
+    name: "Hollow Cow",
+    address: "1875 Union Street, San Francisco",
+    key: "ChIJW4qJVNuAhYARGDOUucJ4-Co",
+    image_attribution: null
+  },
+  {
+    name: "Bon Voyage!",
+    address: "584 Valencia St, San Francisco",
+    key: "ChIJJwq38SJ-j4AR05fAyx13u8g",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Dolci",
+    address: "740 Market St, San Francisco",
+    key: "ChIJrbBwiYiAhYARU_nV7pI9VXU",
+    image_attribution: null
+  },
+  {
+    name: "MONTESACRO Pinseria SF",
+    address: "510 Stevenson Street, San Francisco",
+    key: "ChIJL726-YSAhYARYJeA6x0pp6A",
+    image_attribution: ""
+  },
+  {
+    name: "Brandy Ho's Hunan Food",
+    address: "217 Columbus Avenue, San Francisco",
+    key: "ChIJ198mjPSAhYAR6g_G4vb9ksE",
+    image_attribution: null
+  },
+  {
+    name: "New Harmony Cafe",
+    address: "2401 Mission Street, San Francisco",
+    key: "ChIJI7_h2N5_j4ARqqe2R_fAHE4",
+    image_attribution: null
+  },
+  {
+    name: "The Page",
+    address: "298 Divisadero St, San Francisco",
+    key: "ChIJcQ2WOa-AhYARr1CPPd3GpJI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/105007934907113757032\">Ella F</a>']"
+  },
+  {
+    name: "YakiniQ BBQ",
+    address: "1640 Post Street, San Francisco",
+    key: "ChIJK_5e2L6AhYARFRqdUybyQ0I",
+    image_attribution: null
+  },
+  {
     name: "The Snack Shack",
     address: "1828 Euclid Ave, Berkeley",
     key: "ChIJEYrCfSF8hYARqgAhLYv9sko",
+    image_attribution: null
+  },
+  {
+    name: "Parigo",
+    address: "3232 Scott Street, San Francisco",
+    key: "ChIJ8anRoNaAhYARw_7AiSXOyBI",
     image_attribution: null
   },
   {
@@ -7707,111 +7696,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Abe's Pizza",
-    address: "940 Market Street, San Francisco",
-    key: "ChIJo3JcWI-AhYAR-i7B7QujS_Q",
-    image_attribution: null
-  },
-  {
-    name: "Il Borgo",
-    address: "500 Fell Street, San Francisco",
-    key: "ChIJj61NN6KAhYARMWDXrggZTH8",
-    image_attribution: null
-  },
-  {
-    name: "Little Star Pizza",
-    address: "400 Valencia Street, San Francisco",
-    key: "ChIJMZnCJCJ-j4ARN5S_0ANESiM",
-    image_attribution: null
-  },
-  {
-    name: "BABYLON",
-    address: "855 Bryant St, San Francisco",
-    key: "ChIJLfxP-yp-j4ARvJyM9Sw76ek",
-    image_attribution: null
-  },
-  {
-    name: "The Danish & Donut Corner",
-    address: "5114, 5114, 145 Columbus Avenue, San Francisco",
-    key: "ChIJ5wLV3PSAhYARwt4_1BjFKaQ",
-    image_attribution: null
-  },
-  {
-    name: "Zero Zero",
-    address: "826 Folsom Street, San Francisco",
-    key: "ChIJ-VtspYCAhYAR1NlEgy5ye6o",
-    image_attribution: null
-  },
-  {
-    name: "Extreme Pizza",
-    address: "1730 Fillmore Street, San Francisco",
-    key: "ChIJPSC7XbiAhYARboTbQridw2k",
-    image_attribution: null
-  },
-  {
-    name: "Wayo Sushi Restaurant",
-    address: "1407 Van Ness Avenue, San Francisco",
-    key: "ChIJiXqrEZWAhYARSb8UtLjGEhk",
-    image_attribution: null
-  },
-  {
-    name: "Working Girls' Cafe",
-    address: "122 New Montgomery St, San Francisco",
-    key: "ChIJzbJSSH2AhYAROGCpM1aa_sU",
-    image_attribution: null
-  },
-  {
-    name: "Seniore's Pizza",
-    address: "456 Haight Street, San Francisco",
-    key: "ChIJW-kUyq-AhYAR3LB-pbEOo4I",
-    image_attribution: null
-  },
-  {
-    name: "Garaje",
-    address: "475 3rd Street, San Francisco",
-    key: "ChIJ6Z5t1n6AhYARaY_WxdP44r0",
-    image_attribution: null
-  },
-  {
     name: "La Burrita",
     address: "1832 Euclid Ave, Berkeley",
     key: "ChIJvTFUeCF8hYARNTqZ6yMvWx0",
     image_attribution: null
   },
   {
-    name: "City Chopsticks",
-    address: "883 Bush Street, San Francisco",
-    key: "ChIJvWcY7I2AhYAR5NUXRDHctgM",
+    name: "Fresco Pizza & Shawarma",
+    address: "1338 Polk Street, San Francisco",
+    key: "ChIJE3fY7pSAhYAR_YgdwW0FPK8",
     image_attribution: null
   },
   {
-    name: "The Archery",
-    address: "498 Alabama Street, San Francisco",
-    key: "ChIJD541dDB-j4ART-oJw8IjvgQ",
+    name: "The Market",
+    address: "1355 Market Street Suite 100, San Francisco",
+    key: "ChIJJT-Ha5yAhYARQIKd3ejXo4k",
     image_attribution: null
   },
   {
-    name: "Onsen Bath & Restaurant",
-    address: "466 Eddy Street, San Francisco",
-    key: "ChIJK1YIYZCAhYARUNKhbkuYthE",
-    image_attribution: null
+    name: "Little Skillet",
+    address: "360 Ritch St, San Francisco",
+    key: "ChIJLdQzOdZ_j4ARLDAWLCQCoxw",
+    image_attribution: ""
   },
   {
-    name: "Catch",
-    address: "2362 Market Street, San Francisco",
-    key: "ChIJMwJluhx-j4ARTzqj-cxukGA",
-    image_attribution: null
-  },
-  {
-    name: "I'a Poke",
-    address: "684 King Street, San Francisco",
-    key: "ChIJX7KNJy1-j4ARH22x24ewJRE",
-    image_attribution: null
-  },
-  {
-    name: "The Den, a Caf\u00e9 by Craftsman and Wolves",
-    address: "1598 Yosemite Ave, San Francisco",
-    key: "ChIJh9aDwBl_j4AR_54Nm-1T2Zs",
+    name: "Thai Chicken Rice",
+    address: "1782 Haight Street, San Francisco",
+    key: "ChIJr9OqM1KHhYART63Sab-LZQ0",
     image_attribution: null
   },
   {
@@ -7821,63 +7732,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bobo's Bistro",
-    address: "600 York Street, San Francisco",
-    key: "ChIJReii_St_j4ARVBkN78_F60M",
+    name: "restaurant roh",
+    address: "1500 Van Ness Avenue, San Francisco",
+    key: "ChIJVVWFJZWAhYARZpglOWWhijo",
     image_attribution: null
   },
   {
-    name: "Little Skillet",
-    address: "360 Ritch St, San Francisco",
-    key: "ChIJLdQzOdZ_j4ARLDAWLCQCoxw",
+    name: "Artesano",
+    address: "3415 California Street, San Francisco",
+    key: "ChIJkcj_hzOHhYAR9MA5RdbK3Dg",
     image_attribution: null
   },
   {
-    name: "Cafe de Casa",
-    address: "3985 17th Street, San Francisco",
-    key: "ChIJPWoYgzd_j4AR7PrwT99dxNc",
+    name: "Bi-Rite Cafe at Civic Center Plaza",
+    address: "52 Grove St, San Francisco",
+    key: "ChIJzwtXliWBhYAR5J7ZB50X5yw",
     image_attribution: null
   },
   {
-    name: "Stable Cafe",
-    address: "2128 Folsom St, San Francisco",
-    key: "ChIJDS_j2Tp-j4ARx1SqQlnrP4U",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Madeleine",
-    address: "149 New Montgomery St, San Francisco",
-    key: "ChIJKye2O32AhYARG37tXAsOj7Q",
-    image_attribution: null
-  },
-  {
-    name: "Queen's Louisiana Po-Boy Cafe",
-    address: "33 The Embarcadero, San Francisco",
-    key: "ChIJn9nJmPmAhYARvVqp0DBlrLc",
-    image_attribution: null
-  },
-  {
-    name: "Piccolo Forno",
-    address: "725 Columbus Avenue, San Francisco",
-    key: "ChIJLeYyO_CAhYAR6j9XsEIm3GI",
-    image_attribution: null
-  },
-  {
-    name: "The Plant Cafe Organic",
-    address: "250 Montgomery St #101, San Francisco",
-    key: "ChIJj82CHYqAhYARe8UgTiOOOcY",
-    image_attribution: null
-  },
-  {
-    name: "The Flying Falafel - FIDI",
-    address: "211 Sutter St, San Francisco",
-    key: "ChIJJWRseweBhYARvY4ZH3jaI2g",
-    image_attribution: null
-  },
-  {
-    name: "Frog Hollow Farm-To-Table Cafe",
-    address: "San Francisco Bay Trail #46, San Francisco",
-    key: "ChIJs-cnjWaAhYARRBnVTVHIs-4",
+    name: "International Smoke",
+    address: "301 Mission St, San Francisco",
+    key: "ChIJq6p6ZGOAhYARGEvJw6wIWjE",
     image_attribution: null
   },
   {
@@ -7887,15 +7762,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fox and Lion Pizza",
-    address: "5273 3rd St, San Francisco",
-    key: "ChIJj_74Thp_j4ARoUiiLHLfjh8",
+    name: "Bloom Chocolate Salon",
+    address: "2600 16th Street, San Francisco",
+    key: "ChIJoTeiHh9_j4ARkwJXJatz2lw",
     image_attribution: null
   },
   {
-    name: "All Nite Pizza",
-    address: "5155 3rd Street, San Francisco",
-    key: "ChIJvWaN7Bp_j4ARzXHSDHUGelY",
+    name: "Cellarmaker Brewing Co.",
+    address: "1150 Howard St, San Francisco",
+    key: "ChIJ-aSP4oKAhYAR9V-3zHp4Qcg",
+    image_attribution: null
+  },
+  {
+    name: "Osha Thai Noodle Cafe",
+    address: "696 Geary Street, San Francisco",
+    key: "ChIJI9kTvZGAhYAR9q6LKp2dZGg",
+    image_attribution: null
+  },
+  {
+    name: "Thorough Bread & Pastry",
+    address: "248 Church Street, San Francisco",
+    key: "ChIJk3LmiB5-j4AR9FpkIdlcvjE",
+    image_attribution: null
+  },
+  {
+    name: "Fox and Lion Pizza",
+    address: "5273 3rd St, San Francisco",
+    key: "ChIJj_74Thp_j4ARoUiiLHLfjh8",
     image_attribution: null
   },
   {
@@ -7905,21 +7798,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lucky's Bakery & Cafe",
-    address: "2666 Geneva Ave, Daly City",
-    key: "ChIJCb8fhcV-j4AR6xh11YAagnE",
-    image_attribution: null
-  },
-  {
-    name: "The Stinking Rose",
-    address: "325 Columbus Avenue, San Francisco",
-    key: "ChIJW52Si_OAhYAR-jAC1-iQh_c",
-    image_attribution: null
-  },
-  {
-    name: "Burger Shack",
-    address: "2237 Powell Street #1911, San Francisco",
-    key: "ChIJbQHuKPuAhYARlUBzOx0VwUs",
+    name: "Tigerlily",
+    address: "1513 Shattuck Ave, Berkeley",
+    key: "ChIJfcCwMaF-hYARRPxqO4KAy7k",
     image_attribution: null
   },
   {
@@ -7929,45 +7810,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bravo Pizza",
-    address: "5145 Mission Street, San Francisco",
-    key: "ChIJ02zlYJt-j4AR2D67vAEuxDI",
+    name: "Church Street Cafe",
+    address: "260 Church St, San Francisco",
+    key: "ChIJjcGlfB5-j4ARfK5CFulT7xo",
     image_attribution: null
   },
   {
-    name: "Mexico Au Parc",
-    address: "24 South Park Street, San Francisco",
-    key: "ChIJieXN4niAhYARctqqTW-x0y8",
+    name: "Donburi Ya",
+    address: "764 Harrison Street, San Francisco",
+    key: "ChIJd6vHWbKBhYAR86_nVMsMIyY",
     image_attribution: null
   },
   {
-    name: "That's My Jam",
-    address: "324 Divisadero Street, San Francisco",
-    key: "ChIJZ8JB27yBhYAR3zpeYmfm8Z0",
+    name: "Sweet Lime Thai Cuisine",
+    address: "2100 Sutter Street, San Francisco",
+    key: "ChIJnY6JA7iAhYARtc3_NHI6xtM",
     image_attribution: null
   },
   {
-    name: "Dinosaurs",
-    address: "2275 Market Street, San Francisco",
-    key: "ChIJ3fyEjqeAj4ARtLKCgtCC7AY",
+    name: "August 1 Five",
+    address: "524 Van Ness Avenue, San Francisco",
+    key: "ChIJ8yRkwZmAhYARpXPEbfTH-rA",
     image_attribution: null
   },
   {
-    name: "Pizzeria Delfina",
-    address: "3611 18th St, San Francisco",
-    key: "ChIJnWzYBhh-j4AR3l6M_Ykqy8k",
+    name: "Stanza Coffee",
+    address: "3126 16th St, San Francisco",
+    key: "ChIJjX_6QSJ-j4ARUKV1G9o5QxM",
     image_attribution: null
   },
   {
-    name: "Izakaya Kou",
-    address: "1560 Fillmore Street, San Francisco",
-    key: "ChIJ4Q0BqLmAhYARkp80yHGAGbw",
+    name: "Happy Donuts",
+    address: "2600 Bayshore Boulevard, San Francisco",
+    key: "ChIJxzBdadd-j4ARoqu1Sc0OCtg",
     image_attribution: null
   },
   {
-    name: "Tigerlily",
-    address: "1513 Shattuck Ave, Berkeley",
-    key: "ChIJfcCwMaF-hYARRPxqO4KAy7k",
+    name: "Tal-Y-Tara Restaurant (Closed For Renovations)",
+    address: "6439 California Street, San Francisco",
+    key: "ChIJ4cnLowaHhYAR-Vj7nCfwL6A",
+    image_attribution: null
+  },
+  {
+    name: "Chestnut Street Coffee Roastery",
+    address: "2331 Chestnut St, San Francisco",
+    key: "ChIJDeuYO9SAhYARSeppEW5sFAI",
+    image_attribution: null
+  },
+  {
+    name: "Sightglass Coffee",
+    address: "3014 20th St, San Francisco",
+    key: "ChIJH3-XPzd-j4ARxc5pUq9X8CU",
+    image_attribution: null
+  },
+  {
+    name: "Panda Boba",
+    address: "2763 San Bruno Avenue, San Francisco",
+    key: "ChIJ7xPtXuJ-j4ARcKA14bBz1Xo",
     image_attribution: null
   },
   {
@@ -7983,61 +7882,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Happy Donuts",
-    address: "2600 Bayshore Boulevard, San Francisco",
-    key: "ChIJxzBdadd-j4ARoqu1Sc0OCtg",
-    image_attribution: null
-  },
-  {
-    name: "Kaiju Eats Ramen & Izakaya",
-    address: "3409 Geary Boulevard, San Francisco",
-    key: "ChIJQ3EuyjeHhYAR15kVNRu15SU",
-    image_attribution: null
-  },
-  {
-    name: "Nabe",
-    address: "2151 Lombard Street, San Francisco",
-    key: "ChIJJRkByNCAhYARcT6uozdSsTs",
-    image_attribution: null
-  },
-  {
-    name: "Chez Maman West",
-    address: "401 Gough Street, San Francisco",
-    key: "ChIJ76A_lpiAhYAR6QgSjMe9MoU",
-    image_attribution: null
-  },
-  {
-    name: "Bender's Bar & Grill",
-    address: "806 South Van Ness Avenue, San Francisco",
-    key: "ChIJj1AKlzt-j4ARCHHWunlrEcw",
-    image_attribution: null
-  },
-  {
-    name: "Sweet Passion Bakery",
-    address: "3020 Taraval Street, San Francisco",
-    key: "ChIJvSSN7nt9j4ARorg4Po3Wkdw",
-    image_attribution: null
-  },
-  {
-    name: "Little Saigon Deli",
-    address: "131 Steuart Street # 101, San Francisco",
-    key: "ChIJm2RgsmWAhYARU-zDkuBGOrc",
-    image_attribution: null
-  },
-  {
-    name: "Hot Cookie",
-    address: "1817 Polk St, San Francisco",
-    key: "ChIJIRyiwrWBhYARvpmvLyeeKqk",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107034110563563081323\">sue kim</a>']"
-  },
-  {
-    name: "M.Y. China",
-    address: "845 Market Street 4th floor, San Francisco",
-    key: "ChIJ-_SoDIaAhYAR0eq5BkLUDxc",
-    image_attribution: null
-  },
-  {
     name: "Oriental",
     address: "1782 Shattuck Ave, Berkeley",
     key: "ChIJTQcSe59-hYAR7cneHCTlrpo",
@@ -8050,45 +7894,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Phuket",
-    address: "248 Divisadero Street, San Francisco",
-    key: "ChIJj5InyqiAhYARy_95sgB_AaE",
+    name: "Sweet Passion Bakery",
+    address: "3020 Taraval Street, San Francisco",
+    key: "ChIJvSSN7nt9j4ARorg4Po3Wkdw",
     image_attribution: null
   },
   {
-    name: "Mission Chinese Food",
-    address: "2234 Mission Street, San Francisco",
-    key: "ChIJmZN_ljx-j4ARF16HqVQ2vnI",
+    name: "Yield Wine Bar",
+    address: "2490 3rd Street, San Francisco",
+    key: "ChIJDw0djbl_j4ARF-oLuBpaXtk",
     image_attribution: null
   },
   {
-    name: "Beacon Coffee & Pantry",
-    address: "805 Columbus Ave, San Francisco",
-    key: "ChIJW7_g---AhYARAYOeLDDR16E",
+    name: "JOE & THE JUICE",
+    address: "1155 4th Street, San Francisco",
+    key: "ChIJGSOVLfx_j4ART_Zy0PGxV0I",
     image_attribution: null
   },
   {
-    name: "Brandy Ho's Hunan Food",
-    address: "217 Columbus Avenue, San Francisco",
-    key: "ChIJ198mjPSAhYAR6g_G4vb9ksE",
+    name: "That's My Jam",
+    address: "324 Divisadero Street, San Francisco",
+    key: "ChIJZ8JB27yBhYAR3zpeYmfm8Z0",
     image_attribution: null
   },
   {
-    name: "Allegro Coffee Company",
-    address: "450 Rhode Island St, San Francisco",
-    key: "ChIJXcq2QDN-j4AR4IkFHc-Sswc",
+    name: "Jasmine Garden",
+    address: "708 14th Street, San Francisco",
+    key: "ChIJqy5Qcx5-j4AR7eN99aAxDsI",
     image_attribution: null
   },
   {
-    name: "The Seven Stills Brewery & Distillery",
-    address: "100 Hooper St Ste. 4, San Francisco",
-    key: "ChIJI-RXdLd_j4ARgLSTIHLu4FA",
-    image_attribution: ""
+    name: "Cafe International",
+    address: "508 Haight St, San Francisco",
+    key: "ChIJ-T9Zx6aAhYAR5HAILvUzsaA",
+    image_attribution: null
   },
   {
-    name: "Montecristo",
-    address: "6286 3rd Street, San Francisco",
-    key: "ChIJQ1CM7SF_j4ARq5EAPcmH-E0",
+    name: "Petit Marlowe",
+    address: "234 Townsend St, San Francisco",
+    key: "ChIJmc1DRNZ_j4ARGQeJK2fcPHQ",
+    image_attribution: null
+  },
+  {
+    name: "Panera Bread",
+    address: "301 King St, San Francisco",
+    key: "ChIJE2LZxdZ_j4ARiHdcMRU_tSQ",
     image_attribution: null
   },
   {
@@ -8104,16 +7954,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Scoma's Restaurant",
-    address: "1965 Al Scoma Way, San Francisco",
-    key: "ChIJrcYeh_yAhYARNMwNAmHKa5c",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/116537081871593306466\">Simon Chan</a>']"
+    name: "Polynesian Island Luau",
+    address: "2901 Geneva Avenue, Daly City",
+    key: "ChIJ8XGk9s9-j4ARxgc8ohRZVr0",
+    image_attribution: null
+  },
+  {
+    name: "Bask",
+    address: "42 Columbus Avenue, San Francisco",
+    key: "ChIJB7FqKfWAhYARMR5vIrw979c",
+    image_attribution: null
+  },
+  {
+    name: "Sweet Joanna's Cafe",
+    address: "101 Howard Street, San Francisco",
+    key: "ChIJl-NPH2WAhYAR_j_6M67opXw",
+    image_attribution: null
+  },
+  {
+    name: "The Pied Piper Bar",
+    address: "2 New Montgomery Street, San Francisco",
+    key: "ChIJ150MH4iAhYARC1AHiEwzci0",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Envy",
+    address: "1701 Yosemite Ave, San Francisco",
+    key: "ChIJj38FaIB_j4AR4tks_0p7uBg",
+    image_attribution: null
   },
   {
     name: "Villa Italian Kitchen",
     address: "3251 20th Avenue, San Francisco",
     key: "ChIJKZi0S7p9j4ARjn3fuzTCOHk",
+    image_attribution: null
+  },
+  {
+    name: "Blaze Pizza",
+    address: "3251 20th Avenue, San Francisco",
+    key: "ChIJhW1BTbp9j4ARG9F809ppCw0",
+    image_attribution: null
+  },
+  {
+    name: "Turo Cafe And Grill",
+    address: "2275 San Jose Avenue, San Francisco",
+    key: "ChIJPRBnWB5_j4ARJdX162P3c-Q",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Suki",
+    address: "360 West Portal Avenue C, San Francisco",
+    key: "ChIJ3RYz_b99j4ARXg5AmBKI3A8",
     image_attribution: null
   },
   {
@@ -8129,64 +8020,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Polynesian Island Luau",
-    address: "2901 Geneva Avenue, Daly City",
-    key: "ChIJ8XGk9s9-j4ARxgc8ohRZVr0",
-    image_attribution: null
-  },
-  {
-    name: "Atami Sushi Bar & Grill",
-    address: "1662 Lombard Street, San Francisco",
-    key: "ChIJEa1JbtyAhYARoRA5b_tf5GA",
-    image_attribution: null
-  },
-  {
-    name: "Venticello",
-    address: "1257 Taylor Street, San Francisco",
-    key: "ChIJu6hfXu2AhYARPh4mJt9dlIA",
-    image_attribution: null
-  },
-  {
-    name: "Kells Irish Restaurant & Pub",
-    address: "530 Jackson Street, San Francisco",
-    key: "ChIJVQGLKPWAhYARm-fJIFp-AU0",
-    image_attribution: null
-  },
-  {
-    name: "Farley's",
-    address: "1315 18th St, San Francisco",
-    key: "ChIJ8wEOK8p_j4ARkcmZrEfPDHU",
-    image_attribution: null
-  },
-  {
-    name: "Harmonic Brewing",
-    address: "1050 26th St, San Francisco",
-    key: "ChIJ64NUX6V_j4ARlAbEmJ8d_G4",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/103411044624706598926\">Harmonic Brewing</a>']"
-  },
-  {
-    name: "Napoleon Super Bakery",
-    address: "1049 Stockton Street, San Francisco",
-    key: "ChIJqSBUQPOAhYARVi7Y0oWtdNY",
-    image_attribution: null
-  },
-  {
-    name: "Gallardo's",
-    address: "3248 18th Street, San Francisco",
-    key: "ChIJWzLV1CV-j4ARxNZycAc6NcU",
-    image_attribution: null
-  },
-  {
-    name: "Godzila Sushi",
-    address: "1800 Divisadero Street, San Francisco",
-    key: "ChIJ-wB5lMmAhYARubw84HrM3hE",
-    image_attribution: null
-  },
-  {
-    name: "Sift Dessert Bar",
-    address: "2411 California St, San Francisco",
-    key: "ChIJSUVfyseAhYARHPyKS9PqGhA",
+    name: "Huli Huli Hawaiian Grill",
+    address: "4100 3rd Street, San Francisco",
+    key: "ChIJSevbkQh_j4ARTKbJ6dD-POY",
     image_attribution: null
   },
   {
@@ -8196,57 +8032,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bistro Boudin",
-    address: "160 Jefferson Street, San Francisco",
-    key: "ChIJuTDWD-OAhYARHdAhflk13Sc",
+    name: "Golden Coffee Shop",
+    address: "901 Sutter St, San Francisco",
+    key: "ChIJs4uMMZKAhYARKYE9N5khuXE",
     image_attribution: null
   },
   {
-    name: "Monkey King At The Brewery",
-    address: "1708 Park St, Alameda",
-    key: "ChIJ4Z7X8ZSGj4ARU34WTW5aJt4",
+    name: "Sammy's Cafe",
+    address: "1416 Bush St, San Francisco",
+    key: "ChIJ64lL-pSAhYARzyfWiH0QLZg",
     image_attribution: null
   },
   {
-    name: "Word. A cafe",
-    address: "5114 3rd St, San Francisco",
-    key: "ChIJL6U25BJ_j4ARc2ohs71M1eM",
+    name: "Contraband Coffee",
+    address: "260 5th St, San Francisco",
+    key: "ChIJ2aur2ICAhYAR2UKNl6ZcgsQ",
     image_attribution: null
   },
   {
-    name: "Cellarmaker Brewing Co.",
-    address: "1150 Howard St, San Francisco",
-    key: "ChIJ-aSP4oKAhYAR9V-3zHp4Qcg",
+    name: "Nari",
+    address: "1625 Post Street, San Francisco",
+    key: "ChIJCf9p82aBhYARQolIoRsK6fE",
     image_attribution: null
   },
   {
-    name: "Folklores Coffee Roasters",
-    address: "1035 Fillmore St, San Francisco",
-    key: "ChIJIzR4GLuAhYARqQO-aV5JEo4",
+    name: "Primo Pizza",
+    address: "1064 Divisadero Street, San Francisco",
+    key: "ChIJKdBPIbGAhYAReY40PnZjmxA",
     image_attribution: null
   },
   {
-    name: "City Beer Store",
-    address: "1148 Mission Street, San Francisco",
-    key: "ChIJSYtze4KAhYAR-2-5drQRBWM",
+    name: "Jim's",
+    address: "2420 Mission Street, San Francisco",
+    key: "ChIJgV9fAzx-j4AR388qkZCuTS4",
     image_attribution: null
   },
   {
-    name: "Wine Kitchen",
-    address: "507 Divisadero Street, San Francisco",
-    key: "ChIJN2WbL7GAhYARYlDjEjgqF4k",
+    name: "Focaccia Market Bakery",
+    address: "119 Sacramento Street, San Francisco",
+    key: "ChIJkztvQGGAhYARS9PBosvWB5o",
     image_attribution: null
   },
   {
-    name: "Kung Food",
-    address: "1615 McAllister Street #4413, San Francisco",
-    key: "ChIJ62R-rrGAhYARLRHf0KSkOd8",
-    image_attribution: null
-  },
-  {
-    name: "Osha Thai Noodle Cafe",
-    address: "696 Geary Street, San Francisco",
-    key: "ChIJI9kTvZGAhYAR9q6LKp2dZGg",
+    name: "G O Z U",
+    address: "201 Spear Street #120, San Francisco",
+    key: "ChIJ4ehG7EuBhYARn1ITMS0pXO8",
     image_attribution: null
   },
   {
@@ -8256,33 +8086,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Miette Cakes",
-    address: "Ferry Building, San Francisco Bay Trail #10, San Francisco",
-    key: "ChIJWTGPjmaAhYARrOzloc3zyDo",
+    name: "Monkey King At The Brewery",
+    address: "1708 Park St, Alameda",
+    key: "ChIJ4Z7X8ZSGj4ARU34WTW5aJt4",
     image_attribution: null
   },
   {
-    name: "Craftsman and Wolves",
-    address: "746 Valencia Street, San Francisco",
-    key: "ChIJc3PCIT1-j4ARgxykctQlAaY",
-    image_attribution: null
-  },
-  {
-    name: "The Chapel",
-    address: "777 Valencia Street, San Francisco",
-    key: "ChIJzdMHHj1-j4ARCU4ZzZw5lBg",
-    image_attribution: null
-  },
-  {
-    name: "Maxfield's House of Caffeine",
-    address: "398 Dolores St, San Francisco",
-    key: "ChIJGX6--xh-j4ARUggmRyhlmmU",
-    image_attribution: null
-  },
-  {
-    name: "Thai Noodle House of Alameda",
-    address: "1700 Park St #100, Alameda",
-    key: "ChIJS8aH-pSGj4ARtEKzIyReT_8",
+    name: "Golden Moon Restaurant",
+    address: "2511 Geneva Avenue, Daly City",
+    key: "ChIJqet_xsV-j4ARa0n_qu06DzE",
     image_attribution: null
   },
   {
@@ -8292,57 +8104,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hard Rock Cafe",
-    address: "39 Pier #256, San Francisco",
-    key: "ChIJHSGzi_yAhYARjust_4pPIbc",
+    name: "Thai Noodle House of Alameda",
+    address: "1700 Park St #100, Alameda",
+    key: "ChIJS8aH-pSGj4ARtEKzIyReT_8",
     image_attribution: null
   },
   {
-    name: "Hollywood Cafe",
-    address: "530 North Point St, San Francisco",
-    key: "ChIJF7AFf-SAhYARJPDwj0CBm14",
+    name: "Century San Francisco Centre 9 and XD",
+    address: "835 Market Street #5000, San Francisco",
+    key: "ChIJ6zMe3oWAhYARvOimeV5H7_w",
     image_attribution: null
   },
   {
-    name: "Hi Dive Bar",
-    address: "28 Pier, San Francisco",
-    key: "ChIJg4pqPXGAhYAR0UA0NWHHPPo",
+    name: "Pause Wine Bar in Hayes Valley",
+    address: "1666 Market Street, San Francisco",
+    key: "ChIJIfzOrp-AhYARkjCJ-jzB0as",
     image_attribution: null
   },
   {
-    name: "Donut Farm",
-    address: "1 Ferrybuilding #1, San Francisco",
-    key: "ChIJq6q6jGaAhYARi90jRhEXLmw",
+    name: "The Sarap Shop",
+    address: "428 11th St, San Francisco",
+    key: "ChIJidSArSh-j4ARQ5S0l11hbS4",
     image_attribution: null
   },
   {
-    name: "Golden Coffee Shop",
-    address: "901 Sutter St, San Francisco",
-    key: "ChIJs4uMMZKAhYARKYE9N5khuXE",
+    name: "Last Rites",
+    address: "718 14th St, San Francisco",
+    key: "ChIJEWk0ULl_j4ARxO7_JPwnB5s",
     image_attribution: null
   },
   {
-    name: "K. Minamoto",
-    address: "648 Market Street, San Francisco",
-    key: "ChIJ67hQOoiAhYARpCTbtF-yPuo",
-    image_attribution: null
-  },
-  {
-    name: "First Cup Caf\u00e9",
-    address: "2911 Van Ness Ave, San Francisco",
-    key: "ChIJ2yA9k92AhYAR2OYvoOdoEoU",
-    image_attribution: null
-  },
-  {
-    name: "Mangiare SF",
-    address: "301 Executive Park Boulevard, San Francisco",
-    key: "ChIJLYydZN94j4ARlCKD8pejGyA",
-    image_attribution: null
-  },
-  {
-    name: "Simply Delish",
-    address: "5668 3rd Street, San Francisco",
-    key: "ChIJ65FpbBl_j4ARjww2Z_bfLrY",
+    name: "El Cafetazo",
+    address: "3087 16th St, San Francisco",
+    key: "ChIJnT-LTSJ-j4ARzCqJ1L3bVTE",
     image_attribution: null
   },
   {
@@ -8364,39 +8158,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cento Coffee",
-    address: "150 Broadway, San Francisco",
-    key: "ChIJkTVXNH-BhYARjji1yzl8BHg",
+    name: "Daniel's Test Kitchen",
+    address: "San Francisco",
+    key: "ChIJi0r3bs6BhYARWgrk3QCNkZc",
     image_attribution: null
   },
   {
-    name: "Ritual Coffee Roasters",
-    address: "1026 Valencia St, San Francisco",
-    key: "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
+    name: "The Monk's Kettle",
+    address: "3141 16th Street, San Francisco",
+    key: "ChIJT_B1bCJ-j4ARA074-UL3mkY",
+    image_attribution: ""
+  },
+  {
+    name: "Wine Kitchen",
+    address: "507 Divisadero Street, San Francisco",
+    key: "ChIJN2WbL7GAhYARYlDjEjgqF4k",
     image_attribution: null
   },
   {
-    name: "Union Square Sports Bar",
-    address: "115 Mason Street, San Francisco",
-    key: "ChIJUQ43h4WAhYAR6-zLII4QAP4",
+    name: "Mangiare SF",
+    address: "301 Executive Park Boulevard, San Francisco",
+    key: "ChIJLYydZN94j4ARlCKD8pejGyA",
     image_attribution: null
   },
   {
-    name: "Ploy II Thai Cuisine",
-    address: "1770 Haight Street, San Francisco",
-    key: "ChIJ-QxuM1KHhYARQJ0UgggHU3k",
+    name: "Simply Delish",
+    address: "5668 3rd Street, San Francisco",
+    key: "ChIJ65FpbBl_j4ARjww2Z_bfLrY",
     image_attribution: null
   },
   {
-    name: "Asha Tea House",
-    address: "17 Kearny Street, San Francisco",
-    key: "ChIJ3aKMWoiAhYARmNLc2TR11L0",
-    image_attribution: null
-  },
-  {
-    name: "Ganim's",
-    address: "1135 18th Street, San Francisco",
-    key: "ChIJAxGhosl_j4ARsoBt0RmVsvQ",
+    name: "Fat Beli Deli",
+    address: "2598 San Bruno Avenue, San Francisco",
+    key: "ChIJt2fY1eJ-j4ARaLAlF0gynAE",
     image_attribution: null
   },
   {
@@ -8412,39 +8206,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Manitas Cafe",
-    address: "2078 Hayes St, San Francisco",
-    key: "ChIJRw5BuU2HhYARMlQkVSiSOS8",
+    name: "Martita Restaurant Salvadorian & Mexican Food",
+    address: "5278 Mission Street, San Francisco",
+    key: "ChIJ667jX5x-j4ARTFGG__9HsB0",
     image_attribution: null
   },
   {
-    name: "Sanraku",
-    address: "704 Sutter Street, San Francisco",
-    key: "ChIJ6frH_I2AhYAR4oxOqkmBy7A",
+    name: "Common Sage",
+    address: "1552 Polk Street, San Francisco",
+    key: "ChIJeVZpJeuAhYARdp2QoYzlKpw",
     image_attribution: null
   },
   {
-    name: "Cafeto Coffee Shop",
-    address: "111 Richland Ave, San Francisco",
-    key: "ChIJv5ECoGB-j4ARGt4LsFFsuE4",
+    name: "Victory Hall & Parlor",
+    address: "360 Ritch St, San Francisco",
+    key: "ChIJT3HWONZ_j4ARL-MKeoCbWRY",
     image_attribution: null
   },
   {
-    name: "Familiar",
-    address: "4499 Mission Street, San Francisco",
-    key: "ChIJk8kc6Yh-j4ARkecTUwz-wpA",
-    image_attribution: null
-  },
-  {
-    name: "Roxie Food Center",
-    address: "1901 San Jose Avenue, San Francisco",
-    key: "ChIJpWZaroB-j4ARGnCMgKkSqlY",
-    image_attribution: null
-  },
-  {
-    name: "Baby's Eatery & Palabok",
-    address: "4609 Mission Street, San Francisco",
-    key: "ChIJ-8ISVo9-j4ARcDfPtEr-cqM",
+    name: "The Little Chihuahua",
+    address: "292 Divisadero Street, San Francisco",
+    key: "ChIJ8y_0Oa-AhYARvwNaeQL0it8",
     image_attribution: null
   },
   {
@@ -8460,21 +8242,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jackson Fillmore Trattoria",
-    address: "2506 Fillmore Street, San Francisco",
-    key: "ChIJKRG4k8WAhYARi1FPVWGR4f8",
+    name: "Nourish Cafe",
+    address: "189 6th Ave, San Francisco",
+    key: "ChIJSwytkTyHhYARfsOBfVgkHfE",
+    image_attribution: ""
+  },
+  {
+    name: "Tselogs",
+    address: "518 South Van Ness Avenue, San Francisco",
+    key: "ChIJ57pikCR-j4AR5Gt_PUNYmlg",
     image_attribution: null
   },
   {
-    name: "HEYDAY - Organic Cafe, Coffee Bar and Bakery",
-    address: "180 Spear St, San Francisco",
-    key: "ChIJXzec4mSAhYARQrQAYXi8vOg",
+    name: "Zaytoon",
+    address: "607 Divisadero Street, San Francisco",
+    key: "ChIJI3e-za-AhYARICCKcQnc7Uo",
     image_attribution: null
   },
   {
-    name: "CatHead's BBQ",
-    address: "1665 Folsom Street, San Francisco",
-    key: "ChIJBaVSWSZ-j4ARhlY05Oqa6eQ",
+    name: "Station Cafe",
+    address: "1600 Holloway Ave, San Francisco",
+    key: "ChIJmxkF-rN9j4ARuFT4xoQzDno",
     image_attribution: null
   },
   {
@@ -8490,21 +8278,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Delancey Street Restaurant",
-    address: "600 The Embarcadero, San Francisco",
-    key: "ChIJTRf2DXeAhYARsjppfRXu44s",
+    name: "The Salad Place & Rotisserie",
+    address: "5392 Mission Street, San Francisco",
+    key: "ChIJ42Fs7m9_j4ARhwiJmNBQCQA",
     image_attribution: null
   },
   {
-    name: "Sizzling Pot King",
-    address: "139 8th Street, San Francisco",
-    key: "ChIJYZp9LYOAhYAR-zYOp1qMPbE",
+    name: "Allstar Donuts & Sandwich",
+    address: "98 9th Street, San Francisco",
+    key: "ChIJY64--5yAhYARIewc1xhXFCQ",
     image_attribution: null
   },
   {
-    name: "Nara",
-    address: "1515 Polk Street, San Francisco",
-    key: "ChIJe19DLOuAhYARM-ZDjusXyog",
+    name: "Doobu",
+    address: "1723 Buchanan Street, San Francisco",
+    key: "ChIJP5uN0biAhYAR10es7ERUGAg",
+    image_attribution: null
+  },
+  {
+    name: "Media Noche",
+    address: "3465 19th St, San Francisco",
+    key: "ChIJh1vk-zx-j4ARN422yufnDyY",
+    image_attribution: null
+  },
+  {
+    name: "Khamsa Restaurant",
+    address: "1503 15th Street, San Francisco",
+    key: "ChIJzRlzDCR-j4ARWGmTZl_7E74",
+    image_attribution: null
+  },
+  {
+    name: "Lola's Chicken Shack",
+    address: "1417 Park St, Alameda",
+    key: "ChIJo21Y-JWGj4ARm1-vVs2_Dig",
+    image_attribution: null
+  },
+  {
+    name: "Onsen Bath & Restaurant",
+    address: "466 Eddy Street, San Francisco",
+    key: "ChIJK1YIYZCAhYARUNKhbkuYthE",
+    image_attribution: null
+  },
+  {
+    name: "Maison Danel",
+    address: "1030 Polk Street, San Francisco",
+    key: "ChIJeUE48jqBhYARrVWi_rFBrt4",
+    image_attribution: null
+  },
+  {
+    name: "Toast Eatery",
+    address: "1601 Polk Street, San Francisco",
+    key: "ChIJn0FBIeuAhYARIWBe1QVGoZQ",
+    image_attribution: null
+  },
+  {
+    name: "The Boardroom",
+    address: "1600 Powell Street, San Francisco",
+    key: "ChIJCxXWkPGAhYARXwt61gGhLl8",
     image_attribution: null
   },
   {
@@ -8520,63 +8350,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lola's Chicken Shack",
-    address: "1417 Park St, Alameda",
-    key: "ChIJo21Y-JWGj4ARm1-vVs2_Dig",
-    image_attribution: null
-  },
-  {
-    name: "Duc Loi Kitchen",
-    address: "2200 Mission Street, San Francisco",
-    key: "ChIJ17sZuTx-j4ARnM8VbeKRQO8",
-    image_attribution: null
-  },
-  {
-    name: "La Boulangerie de San Francisco, Montgomery",
-    address: "655 Montgomery St, San Francisco",
-    key: "ChIJ8ewt24qAhYARa8tl8j-8rOA",
-    image_attribution: null
-  },
-  {
-    name: "Local Diner",
-    address: "1244 Market Street, San Francisco",
-    key: "ChIJlWmUgZuAhYARHeouXmPAE98",
-    image_attribution: null
-  },
-  {
-    name: "Jo Jo's Cafe",
-    address: "1537 Ocean Avenue, San Francisco",
-    key: "ChIJkdJznc19j4ARpR3IZMsDaDU",
-    image_attribution: null
-  },
-  {
     name: "East End",
     address: "1650 Park St, Alameda",
     key: "ChIJLQS_-JSGj4ARg3k-MnebQeo",
     image_attribution: null
   },
   {
-    name: "Colibri",
-    address: "438 Geary St, San Francisco",
-    key: "ChIJ816kUY6AhYARYWi1Uf1JnCI",
+    name: "School Night",
+    address: "601 19th Street, San Francisco",
+    key: "ChIJ_yx3Ebh_j4ARUgvnM-I25HM",
     image_attribution: null
   },
   {
-    name: "West of Pecos",
-    address: "550 Valencia St, San Francisco",
-    key: "ChIJf9EuWCJ-j4ARhsK1YN8AprU",
+    name: "Lava Java",
+    address: "852 Stanyan St, San Francisco",
+    key: "ChIJXYkCU1GHhYARsaec5plJ1pg",
     image_attribution: null
   },
   {
-    name: "Ella's American Kitchen",
-    address: "500 Presidio Avenue, San Francisco",
-    key: "ChIJe8ZFqzSHhYARdMd1tAEEO_U",
+    name: "Lark",
+    address: "4068 18th Street, San Francisco",
+    key: "ChIJU4vRPBt-j4AR6-UHDqsgoy0",
     image_attribution: null
   },
   {
-    name: "Raw Rainbow",
-    address: "1130 Ocean Avenue, San Francisco",
-    key: "ChIJuZNXuLJ9j4ARUf8KZkh2UUc",
+    name: "Muracci's Japanese Curry & Grill",
+    address: "307 Kearny Street, San Francisco",
+    key: "ChIJV28NgImAhYARMynrt6fnJLY",
+    image_attribution: null
+  },
+  {
+    name: "Saigon Sandwich",
+    address: "560 Larkin Street, San Francisco",
+    key: "ChIJY3rEu5CAhYAR3CjUhJ3qY3A",
+    image_attribution: null
+  },
+  {
+    name: "Baby Bull - Oracle Park",
+    address: "San Francisco Bay Trail, San Francisco",
+    key: "ChIJ8WPEsNl_j4ARhKCLUnCHNlk",
+    image_attribution: null
+  },
+  {
+    name: "Luisa's Restaurant and Wine Bar - since 1959",
+    address: "759 Columbus Avenue, San Francisco",
+    key: "ChIJ9ZOhTc-BhYARJrHA1b3kBJM",
+    image_attribution: null
+  },
+  {
+    name: "Mrs. Fields",
+    address: "865 Market Street, San Francisco",
+    key: "ChIJ6zMe3oWAhYARVPlcJsXv9-o",
     image_attribution: null
   },
   {
@@ -8586,33 +8410,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Orenchi Beyond",
-    address: "174 Valencia Street, San Francisco",
-    key: "ChIJB5E6EyB-j4AR_uD-eg-z-j8",
+    name: "Golden Gate Tap Room",
+    address: "449 Powell Street, San Francisco",
+    key: "ChIJPSVdmo6AhYARUg2U26c-XC0",
     image_attribution: null
   },
   {
-    name: "Thai Idea Vegetarian",
-    address: "710 Polk Street, San Francisco",
-    key: "ChIJT2siMJeAhYARuunTexGErxg",
+    name: "Caffe Roma Coffee Roasting Co.",
+    address: "885 Bryant St, San Francisco",
+    key: "ChIJJz14VSp-j4ARbjv3dt0d_Dw",
     image_attribution: null
   },
   {
-    name: "R Caffe",
-    address: "614 Polk Street, San Francisco",
-    key: "ChIJ1QtITpeAhYARs4M1P5-xtnA",
+    name: "Padrecito",
+    address: "901 Cole Street, San Francisco",
+    key: "ChIJs_IP5FCHhYARgAcFixBR6NY",
     image_attribution: null
   },
   {
-    name: "The Grove - Design District",
-    address: "at Townsend and Division, 1 Henry Adams Street, San Francisco",
-    key: "ChIJQaY5Ai1-j4ARJ_Br0DEFaO8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Madeleine",
-    address: "43 O'Farrell St, San Francisco",
-    key: "ChIJB5IQl4iAhYARbZCpRkzsgRs",
+    name: "I Luv Teriyaki & Sushi",
+    address: "270 Potrero Avenue, San Francisco",
+    key: "ChIJkWK1Ai5-j4AReNjL_f9qLhs",
     image_attribution: null
   },
   {
@@ -8634,9 +8452,52 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "The Pizza Shop",
+    address: "3104 24th Street, San Francisco",
+    key: "ChIJaQj0tUd-j4ARv2dpLbR51C0",
+    image_attribution: null
+  },
+  {
     name: "Troy",
     address: "2318 Central Ave, Alameda",
     key: "ChIJtRT-8JWGj4AR4AcjfRMtB9M",
+    image_attribution: null
+  },
+  {
+    name: "CoCo Fresh Tea & Juice",
+    address: "2699 Taylor Street, San Francisco",
+    key: "ChIJjWk3MpeBhYARKriAffpkAKc",
+    image_attribution: null
+  },
+  {
+    name: "The Interval at Long Now",
+    address: "Landmark Building A, 2 Marina Boulevard, San Francisco",
+    key: "ChIJg67PeyeBhYAROkno8i7ZxlI",
+    image_attribution: null
+  },
+  {
+    name: "The Plant Cafe Organic",
+    address: "2335 3rd St, San Francisco",
+    key: "ChIJE2viabh_j4ARdubPMPB9n90",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111560452835833490678\">Jota ypunto</a>']"
+  },
+  {
+    name: "Jake's Steaks",
+    address: "3301 Buchanan Street, San Francisco",
+    key: "ChIJyeRZMdqAhYAR7ZK_DUQIEyI",
+    image_attribution: null
+  },
+  {
+    name: "Robin's Caf\u00e9",
+    address: "3153 17th St #1332, San Francisco",
+    key: "ChIJX-7oMjt-j4ARu_dWWMKlHdA",
+    image_attribution: null
+  },
+  {
+    name: "Bayside Cafe",
+    address: "2011 Bayshore Blvd, San Francisco",
+    key: "ChIJCdThHid_j4ARmKf7ca0sL5o",
     image_attribution: null
   },
   {
@@ -8646,45 +8507,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Izakaya Roku",
-    address: "1819 Market Street, San Francisco",
-    key: "ChIJ-TnI-Z-AhYARZBrAEzj7UjU",
-    image_attribution: null
-  },
-  {
-    name: "Stop N Wrap",
-    address: "1217 Geneva Ave, San Francisco",
-    key: "ChIJkeZY-5l-j4ARWUsIsbSxsWc",
-    image_attribution: null
-  },
-  {
-    name: "20 Spot",
-    address: "3565 20th St, San Francisco",
-    key: "ChIJfRa8OTx-j4ARAIUacuQEvmM",
-    image_attribution: null
-  },
-  {
-    name: "Coffee To The People",
-    address: "1206 Masonic Ave, San Francisco",
-    key: "ChIJq2hmlayAhYARdAFlK0vs8cI",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "1258 Minnesota St, San Francisco",
-    key: "ChIJtaUBviX2MhURS1JavYDAtFA",
-    image_attribution: null
-  },
-  {
-    name: "Hopwater Distribution",
-    address: "850 Bush Street, San Francisco",
-    key: "ChIJp3Gd6o2AhYARAQi9kpjTWac",
-    image_attribution: null
-  },
-  {
-    name: "Rain Tree Cafe",
-    address: "118 W Portal Ave, San Francisco",
-    key: "ChIJlbzSkup9j4ARpu1POsJHDqc",
+    name: "Pizzeria Avellino",
+    address: "2769 Lombard Street, San Francisco",
+    key: "ChIJnzsSNCuHhYARK_4bmmqxpJM",
     image_attribution: null
   },
   {
@@ -8694,9 +8519,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fog City",
-    address: "1300 Battery Street, San Francisco",
-    key: "ChIJYSMTLPaAhYARFZCDlJ6yMr0",
+    name: "Mahila",
+    address: "1320 Castro St, San Francisco",
+    key: "ChIJ3d-mnPh_j4ARImIQcNFYHNk",
     image_attribution: null
   },
   {
@@ -8712,28 +8537,47 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "HoM Korean Kitchen",
-    address: "154 McAllister Street, San Francisco",
-    key: "ChIJ17wXDfKBhYARq8GgQGtT7Io",
+    name: "Kama O Deli",
+    address: "590 3rd Street, San Francisco",
+    key: "ChIJ7wBxo3iAhYARLUQDu86gvPw",
     image_attribution: null
   },
   {
-    name: "Golden Gate Tap Room",
-    address: "449 Powell Street, San Francisco",
-    key: "ChIJPSVdmo6AhYARUg2U26c-XC0",
+    name: "Dobbs Ferry Bar",
+    address: "406 Hayes Street, San Francisco",
+    key: "ChIJKz56lpiAhYARJpY3n_EHHoM",
     image_attribution: null
   },
   {
-    name: "Sens",
+    name: "El Faro Restaurant",
+    address: "82 1st St, San Francisco",
+    key: "ChIJI3aHGmOAhYAR3AMpZ1Xpcjk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115017076009304744603\">Kristin Bass</a>']"
+  },
+  {
+    name: "Repl.it Egg Rolls",
+    address: "767 Bryant Street, San Francisco",
+    key: "ChIJ6wHG54SAhYARPLKVZTmYQ-8",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Bastille French Restaurant",
+    address: "22 Belden Place, San Francisco",
+    key: "ChIJH6DFh4mAhYARtlNX-DeJX8U",
+    image_attribution: null
+  },
+  {
+    name: "Paramo Coffee",
     address: "4 Embarcadero Center, San Francisco",
-    key: "ChIJBVDZR2GAhYARCy82N8HgD5I",
+    key: "ChIJv2YpMmGAhYARsa87i8WzDyA",
     image_attribution: null
   },
   {
-    name: "Fort Point Valencia",
-    address: "742 Valencia Street, San Francisco",
-    key: "ChIJe4FYLQp_j4AR9KR9vjhv3hU",
-    image_attribution: ""
+    name: "Crossroads Cafe",
+    address: "699 Delancey St, San Francisco",
+    key: "ChIJD6D7lXeAhYARpItz2DTPkaU",
+    image_attribution: null
   },
   {
     name: "Ono Hawaiian BBQ",
@@ -8748,39 +8592,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ju-Ni",
-    address: "1335 Fulton Street, San Francisco",
-    key: "ChIJC97OyLGAhYAR4Y3wyxVMk8c",
+    name: "Burger Shack",
+    address: "2237 Powell Street #1911, San Francisco",
+    key: "ChIJbQHuKPuAhYARlUBzOx0VwUs",
     image_attribution: null
   },
   {
-    name: "House of Thai 2",
-    address: "494 Haight Street, San Francisco",
-    key: "ChIJJRjRyaaAhYARHuLbeupdFNk",
-    image_attribution: null
-  },
-  {
-    name: "Pink Onion",
-    address: "64 14th Street, San Francisco",
-    key: "ChIJMygdeCZ-j4ARKDtpQiICwUo",
-    image_attribution: null
-  },
-  {
-    name: "Yield Wine Bar",
-    address: "2490 3rd Street, San Francisco",
-    key: "ChIJDw0djbl_j4ARF-oLuBpaXtk",
-    image_attribution: null
-  },
-  {
-    name: "Jamba",
-    address: "2014 Market Street, San Francisco",
-    key: "ChIJI52AOh5-j4ARAatzdIAHkyA",
-    image_attribution: null
-  },
-  {
-    name: "Thai Spice Restaurant",
-    address: "1730 Polk Street, San Francisco",
-    key: "ChIJnbynAeuAhYARFW3UDxxnlhE",
+    name: "Parlor 1255",
+    address: "Levi's Plaza, 1255 Battery Street #700, San Francisco",
+    key: "ChIJGY-DI_aAhYARhR-D3EcGpoY",
     image_attribution: null
   },
   {
@@ -8790,9 +8610,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Silk Road",
-    address: "3251 20th Avenue, San Francisco",
-    key: "ChIJvbydTrp9j4AR0M2CayDx2w0",
+    name: "Taqueria Vallarta",
+    address: "3033 24th Street, San Francisco",
+    key: "ChIJ4_SogUh-j4ARaCUll4WKPzc",
     image_attribution: null
   },
   {
@@ -8802,27 +8622,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tacobar",
-    address: "2401 California Street, San Francisco",
-    key: "ChIJccf-tceAhYARLd4Kijiy3z8",
+    name: "STIX",
+    address: "1353 Taraval Street, San Francisco",
+    key: "ChIJF9bLLdV9j4ARHN4Ggst9yWA",
     image_attribution: null
   },
   {
-    name: "Cafe Francisco",
-    address: "2161 Powell St, San Francisco",
-    key: "ChIJPVPQ2vqAhYARUABMhT-GiB8",
+    name: "TRES",
+    address: "130 Townsend Street, San Francisco",
+    key: "ChIJTxXE6Nd_j4ARtj7K1--pYQY",
     image_attribution: null
   },
   {
-    name: "Hazel Southern Bar & Kitchen",
-    address: "1446 Market St, San Francisco",
-    key: "ChIJ9X07oZ6AhYAR7wllZRuBg2o",
+    name: "Smile BBQ",
+    address: "2619 Mission Street, San Francisco",
+    key: "ChIJj1bELT9-j4ARmgIUDR-Rtrc",
     image_attribution: null
   },
   {
-    name: "Sweet Joanna's Cafe",
-    address: "101 Howard Street, San Francisco",
-    key: "ChIJl-NPH2WAhYAR_j_6M67opXw",
+    name: "Silk Road",
+    address: "3251 20th Avenue, San Francisco",
+    key: "ChIJvbydTrp9j4AR0M2CayDx2w0",
     image_attribution: null
   },
   {
@@ -8838,69 +8658,58 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Capannina",
-    address: "1809 Union Street, San Francisco",
-    key: "ChIJSe4PrdyAhYARchvAxDH0ZII",
-    image_attribution: null
-  },
-  {
-    name: "Pizza Joint",
-    address: "3088 Balboa Street, San Francisco",
-    key: "ChIJnyjjKgiHhYARd_zONR67fP4",
-    image_attribution: null
-  },
-  {
     name: "El Porte\u00f1o Chifa Peruano",
     address: "5173 Mission Street, San Francisco",
     key: "ChIJcUtWm5x-j4ARqJU7trbYfww",
     image_attribution: null
   },
   {
-    name: "The Boy's Deli",
-    address: "2222 Polk Street, San Francisco",
-    key: "ChIJW7FesumAhYAR-GPbV0OF6JI",
+    name: "Spice Kit",
+    address: "405 Howard Street #310, San Francisco",
+    key: "ChIJuw4jVnuAhYARG1l7islAMck",
     image_attribution: null
   },
   {
-    name: "Smokin' Warehouse Barbecue",
-    address: "3336 Sacramento Street, San Francisco",
-    key: "ChIJpZkYRzOHhYARYYMim8-81V4",
+    name: "Peet's",
+    address: "201 California St Suite R2113, San Francisco",
+    key: "ChIJZ76fAGGAhYARt65UQHRzxq8",
     image_attribution: null
   },
   {
-    name: "Artesano",
-    address: "3415 California Street, San Francisco",
-    key: "ChIJkcj_hzOHhYAR9MA5RdbK3Dg",
+    name: "Papito Hayes",
+    address: "425 Hayes St A, San Francisco",
+    key: "ChIJLw3ApJiAhYAR_wGEbwDJDgE",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/113154130720081064188\">Papito Hayes</a>']"
+  },
+  {
+    name: "Tokyo Futon & Tea",
+    address: "924 Valencia Street, San Francisco",
+    key: "ChIJj6vUzD1-j4ARdVVPC5r6ero",
     image_attribution: null
   },
   {
-    name: "VILLON",
-    address: "1100 Market Street, San Francisco",
-    key: "ChIJJSUh04SAhYAR_nSfQBve1U4",
+    name: "Garaje",
+    address: "475 3rd Street, San Francisco",
+    key: "ChIJ6Z5t1n6AhYARaY_WxdP44r0",
     image_attribution: null
   },
   {
-    name: "Forest Restaurant Supply",
-    address: "2010 Cesar Chavez, San Francisco",
-    key: "ChIJ_d67hq1_j4ARhhz6Lp49Zec",
+    name: "Waterbar Restaurant",
+    address: "399 The Embarcadero, San Francisco",
+    key: "ChIJgXkuGnCAhYARbVYisXVfO68",
     image_attribution: null
   },
   {
-    name: "Coin-Op Game Room",
-    address: "508 4th Street, San Francisco",
-    key: "ChIJ3cBxen-AhYAR17R95rjQVeQ",
+    name: "Auntie Anne's",
+    address: "845 Market Street Space 201, San Francisco",
+    key: "ChIJy4kpbIaAhYAR_yxhR0Amrwk",
     image_attribution: null
   },
   {
-    name: "Matterhorn Restaurant and Bakery",
-    address: "2323 Van Ness Avenue, San Francisco",
-    key: "ChIJ5wknN4OBhYARPnrCyIBgvlk",
-    image_attribution: null
-  },
-  {
-    name: "Good Luck Cafe and Deli",
-    address: "621 Kearny St, San Francisco",
-    key: "ChIJF_bSGouAhYARLuv5BtmPb-4",
+    name: "El Paraiso Cafe",
+    address: "1198 Treat Avenue, San Francisco",
+    key: "ChIJYyZHHEZ-j4ARu4C5nFCOnmI",
     image_attribution: null
   },
   {
@@ -8910,21 +8719,28 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Contraband Coffee",
-    address: "260 5th St, San Francisco",
-    key: "ChIJ2aur2ICAhYAR2UKNl6ZcgsQ",
+    name: "Onigilly",
+    address: "455 Market St, San Francisco",
+    key: "ChIJi67trGOAhYARNCdeNJ-yeW0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102319808565524021569\">Coy Tran</a>']"
+  },
+  {
+    name: "Ayala Restaurant",
+    address: "398 Geary St, San Francisco",
+    key: "ChIJb5dpHDeBhYARuF8UB7_wRpU",
     image_attribution: null
   },
   {
-    name: "Mi Lindo Peru",
-    address: "3226 Mission Street, San Francisco",
-    key: "ChIJLYGwD0N-j4ARoHnn6dzVwwE",
+    name: "Focaccia Market Bakery",
+    address: "1198 Mission Street, San Francisco",
+    key: "ChIJjU9jtpyAhYAR_7MzSzs7dZM",
     image_attribution: null
   },
   {
-    name: "Mercado do Brasil",
-    address: "1252 Valencia Street, San Francisco",
-    key: "ChIJxQwdfD9-j4ARyEExPAEObbA",
+    name: "The Deli Lama",
+    address: "150 Toland Street, San Francisco",
+    key: "ChIJe7BQE6x_j4ARH65dDxeBHoE",
     image_attribution: null
   },
   {
@@ -8934,39 +8750,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Four Deuces",
-    address: "2319 Taraval Street, San Francisco",
-    key: "ChIJMZ7bkYJ9j4ARdAWz3Vy5k1Q",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Dolci",
-    address: "740 Market St, San Francisco",
-    key: "ChIJrbBwiYiAhYARU_nV7pI9VXU",
-    image_attribution: null
-  },
-  {
-    name: "The Village Cafe",
-    address: "1426 Polk St, San Francisco",
-    key: "ChIJxfPUxJSAhYARg1jPZ8AMKQc",
-    image_attribution: null
-  },
-  {
-    name: "La Mediterranee",
-    address: "2210 Fillmore St, San Francisco",
-    key: "ChIJO_VxP8aAhYARYcwPRkTq51c",
-    image_attribution: null
-  },
-  {
-    name: "San Francisco Wine & Cheese",
-    address: "141 Gough Street, San Francisco",
-    key: "ChIJOSgJQJ-AhYAR5oEButf-LyE",
-    image_attribution: null
-  },
-  {
-    name: "3rd Cousin",
-    address: "919 Cortland Ave, San Francisco",
-    key: "ChIJ-XhIwll-j4AR5epLtDr2Bco",
+    name: "ICHI Sushi",
+    address: "3369 Mission Street, San Francisco",
+    key: "ChIJIWV6LF1-j4ARyMzMx-lTsIU",
     image_attribution: null
   },
   {
@@ -8976,81 +8762,81 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Links Bar and Grill",
-    address: "3129 Clement Street, San Francisco",
-    key: "ChIJjVHbEAqHhYARNjl_Tdv4-qw",
-    image_attribution: null
-  },
-  {
-    name: "Fly",
-    address: "762 Divisadero Street, San Francisco",
-    key: "ChIJY594M7CAhYAR8ThFYJslZCs",
-    image_attribution: null
-  },
-  {
-    name: "Lincoln Park Bar & Grill",
-    address: "300 34th Avenue, San Francisco",
-    key: "ChIJcdY8KKqHhYARwymFcOE0DwU",
-    image_attribution: null
-  },
-  {
-    name: "Bay Subs & Deli",
-    address: "2486 Sacramento Street, San Francisco",
-    key: "ChIJIWTERsaAhYARC37cKHNCqJA",
-    image_attribution: null
-  },
-  {
-    name: "All Star Cafe",
-    address: "1306 Mission St, San Francisco",
-    key: "ChIJJ5-Q_JyAhYAR_xPVQqCV3f8",
-    image_attribution: null
-  },
-  {
     name: "Red Boy Pizza Redwood Road",
     address: "4100 Redwood Rd #15, Oakland",
     key: "ChIJwUv2ey-Gj4ARGCLqPSizhYg",
     image_attribution: null
   },
   {
-    name: "Violet's",
-    address: "2301 Clement St, San Francisco",
-    key: "ChIJdVJ8Yt-HhYARIV6aM2dpezk",
+    name: "Elaine's Kitchen",
+    address: "434 Broadway, San Francisco",
+    key: "ChIJy7xJVPSAhYARZFyw1S-WRIk",
     image_attribution: null
   },
   {
-    name: "Donuts & Things",
-    address: "1549 Polk Street, San Francisco",
-    key: "ChIJBZGXKOuAhYARPeEVXP9QKac",
+    name: "Royal Exchange",
+    address: "301 Sacramento Street, San Francisco",
+    key: "ChIJY-YkpGGAhYARyWegtC5v6w4",
     image_attribution: null
   },
   {
-    name: "The Commissary",
-    address: "101 Montgomery Street, San Francisco",
-    key: "ChIJKWI7SdiGhYAREScuc65uegA",
+    name: "La Boulangerie de San Francisco, Hayes",
+    address: "500 Hayes Street, San Francisco",
+    key: "ChIJU3tHbqKAhYAR3MDnzOK40Nk",
     image_attribution: null
   },
   {
-    name: "Seven Stills Outer Sunset Taproom - TEMP CLOSED",
-    address: "3645 Lawton Street, San Francisco",
-    key: "ChIJHctIt5qHhYARp3qTUuVB1vw",
+    name: "John's Grill",
+    address: "63 Ellis Street, San Francisco",
+    key: "ChIJe9MuVY-AhYARb8Su4vUOneY",
     image_attribution: null
   },
   {
-    name: "Willkommen",
-    address: "2198 Market Street, San Francisco",
-    key: "ChIJE_JhmbN_j4ARYh6W1Y4Ioms",
+    name: "Mi Lindo Peru",
+    address: "3226 Mission Street, San Francisco",
+    key: "ChIJLYGwD0N-j4ARoHnn6dzVwwE",
     image_attribution: null
   },
   {
-    name: "ENOUGH TEA AND COFFEE",
-    address: "49 Kearny St, San Francisco",
-    key: "ChIJFRWTU4iAhYARW_fQvzJtOao",
+    name: "Safeway Bakery",
+    address: "San Francisco",
+    key: "ChIJ03uRyEJ-j4ARdOCt5WjVvl0",
     image_attribution: null
   },
   {
-    name: "J & E",
-    address: "2537 24th Street, San Francisco",
-    key: "ChIJuWdCj0t-j4AREDarZLPNnJQ",
+    name: "Cafe Cole",
+    address: "609 Cole St, San Francisco",
+    key: "ChIJi8iLtlOHhYARl8RrIfQHu5g",
+    image_attribution: null
+  },
+  {
+    name: "Yamo",
+    address: "3406 18th Street, San Francisco",
+    key: "ChIJWdqFtzx-j4ARmbqOHjZACP4",
+    image_attribution: null
+  },
+  {
+    name: "Ted\u2019s Market",
+    address: "1530 Howard Street, San Francisco",
+    key: "ChIJ5Tx9eyd-j4ARYvy7ogfQ7wM",
+    image_attribution: null
+  },
+  {
+    name: "Tu Lan",
+    address: "8 6th Street, San Francisco",
+    key: "ChIJjdYi_4SAhYAR0sl58U1jsLk",
+    image_attribution: null
+  },
+  {
+    name: "Chloe's Cafe",
+    address: "1399 Church St, San Francisco",
+    key: "ChIJj4GLAWt-j4AROYqTjtKmM2A",
+    image_attribution: null
+  },
+  {
+    name: "Jump Start Deli and Grocery",
+    address: "1192 Guerrero St, San Francisco",
+    key: "ChIJ77zH9j9-j4ARayBKbZIMyyI",
     image_attribution: null
   },
   {
@@ -9060,15 +8846,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pacific Restaurant",
-    address: "6356 Mission St, Daly City",
-    key: "ChIJaQTCajx8j4ARWQAUNj16xPo",
+    name: "Ichido Restaurant",
+    address: "50 Apparel Way, San Francisco",
+    key: "ChIJ3ZsEzIuAhYARx4YuBDab3WM",
     image_attribution: null
   },
   {
-    name: "Garden House Cafe",
-    address: "3117 Clement St, San Francisco",
-    key: "ChIJV_Av3amHhYAR7d5C1Qb_QPw",
+    name: "Subs Inc.",
+    address: "1300 Castro Street, San Francisco",
+    key: "ChIJr3cXZxJ-j4AR6UzI5K4wPAs",
+    image_attribution: null
+  },
+  {
+    name: "Nick's Pizza and Bakery Made in Oakland",
+    address: "6211 Shattuck Ave, Oakland",
+    key: "ChIJP3X8Bnh-hYARUzM5av1VemE",
+    image_attribution: null
+  },
+  {
+    name: "Sumo Japanese Restaurant",
+    address: "2009 977",
+    key: "ChIJn6y08zJ5hYARdEQ_Uk8YF7Y",
+    image_attribution: null
+  },
+  {
+    name: "Pacific Restaurant",
+    address: "6356 Mission St, Daly City",
+    key: "ChIJaQTCajx8j4ARWQAUNj16xPo",
     image_attribution: null
   },
   {
@@ -9102,42 +8906,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Guilin Rice Noodles House",
-    address: "901 Taraval Street, San Francisco",
-    key: "ChIJlfnxY_59j4ARQSVc6TFXm8c",
-    image_attribution: null
-  },
-  {
-    name: "Emos Place Cafe",
-    address: "201a Turk Street, San Francisco",
-    key: "ChIJR497TIWAhYAR5NJbEam6tn4",
-    image_attribution: null
-  },
-  {
-    name: "Tony's Cable Car Restaurant",
-    address: "2500 Geary Boulevard, San Francisco",
-    key: "ChIJg_sKZbWAhYARxSZHTn3Azwc",
-    image_attribution: null
-  },
-  {
-    name: "Gordo Taqueria",
-    address: "1239 9th Avenue, San Francisco",
-    key: "ChIJecZ-_VyHhYARvpsltLB6p_0",
-    image_attribution: null
-  },
-  {
-    name: "Nick's Pizza and Bakery Made in Oakland",
-    address: "6211 Shattuck Ave, Oakland",
-    key: "ChIJP3X8Bnh-hYARUzM5av1VemE",
-    image_attribution: null
-  },
-  {
-    name: "Sumo Japanese Restaurant",
-    address: "2009 977",
-    key: "ChIJn6y08zJ5hYARdEQ_Uk8YF7Y",
-    image_attribution: null
-  },
-  {
     name: "Vanida Thai Kitchen",
     address: "3050 Taraval Street, San Francisco",
     key: "ChIJRUU_7Xt9j4AR_FhVbvPxr0Y",
@@ -9156,33 +8924,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "North Beach Pizza",
-    address: "3054 Taraval Street, San Francisco",
-    key: "ChIJtV1K7Xt9j4ARD3yKEwvPOHA",
+    name: "Planet Cafe",
+    address: "244 Gough St, San Francisco",
+    key: "ChIJI1aNNZ-AhYARhbPQeOohxZs",
     image_attribution: null
   },
   {
-    name: "Tpumps",
-    address: "1916 Irving Street, San Francisco",
-    key: "ChIJJziiiG-HhYARmchx-ISV06g",
+    name: "Mangrove Kitchen",
+    address: "312 Divisadero Street, San Francisco",
+    key: "ChIJaRUT4YWBhYARndk9vYXUpW4",
     image_attribution: null
   },
   {
-    name: "Liholiho Yacht Club",
-    address: "871 Sutter St, San Francisco",
-    key: "ChIJkVSnJpKAhYARCSaDnRo5brE",
+    name: "Absinthe Brasserie & Bar",
+    address: "398 Hayes Street, San Francisco",
+    key: "ChIJ1T-IlZiAhYAR5m-Mps4qLFk",
+    image_attribution: ""
+  },
+  {
+    name: "Zingari Ristorante + Jazz Bar",
+    address: "501 Post Street, San Francisco",
+    key: "ChIJy69LXI6AhYARnXrUoi6q2GA",
     image_attribution: null
   },
   {
-    name: "Iza Ramen",
-    address: "237 Fillmore Street, San Francisco",
-    key: "ChIJ70Xwz6aAhYARmM82do-7NEM",
+    name: "Paradise Coffee & Donuts",
+    address: "453 O'Farrell Street, San Francisco",
+    key: "ChIJawUd0Y-AhYAReiQiYCs4wy8",
     image_attribution: null
   },
   {
-    name: "An Chi Vietnamese Cuisine",
-    address: "4683 Mission Street, San Francisco",
-    key: "ChIJE3TH9YV-j4ARaiS605OjS6g",
+    name: "Holey Bagel",
+    address: "3872 24th Street, San Francisco",
+    key: "ChIJQ7ZfmhR-j4ARSHf0hENqUZw",
     image_attribution: null
   },
   {
@@ -9192,9 +8966,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Crepes On Cole",
-    address: "100 Carl Street #3906, San Francisco",
-    key: "ChIJuQNxW1SHhYARzXi-ZSpU108",
+    name: "Boss",
+    address: "1187 Solano Ave, Albany",
+    key: "ChIJpR7I1DN5hYARw_PN-FKStqg",
+    image_attribution: null
+  },
+  {
+    name: "Toyose",
+    address: "3814 Noriega Street, San Francisco",
+    key: "ChIJzxGfn4-HhYAReytj2KXrZP0",
     image_attribution: null
   },
   {
@@ -9210,58 +8990,93 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Toyose",
-    address: "3814 Noriega Street, San Francisco",
-    key: "ChIJzxGfn4-HhYAReytj2KXrZP0",
+    name: "Hi Dive Bar",
+    address: "28 Pier, San Francisco",
+    key: "ChIJg4pqPXGAhYAR0UA0NWHHPPo",
     image_attribution: null
   },
   {
-    name: "The Wattis Room",
-    address: "249 Grove Street, San Francisco",
-    key: "ChIJ3dM-PZmAhYARD9764g6iRoQ",
+    name: "Flore on Market",
+    address: "2298 Market Street, San Francisco",
+    key: "ChIJyfr-8xx-j4ARQgjNaUAceE8",
     image_attribution: null
   },
   {
-    name: "I Luv Teriyaki & Sushi",
-    address: "270 Potrero Avenue, San Francisco",
-    key: "ChIJkWK1Ai5-j4AReNjL_f9qLhs",
+    name: "La Briciola",
+    address: "489 3rd Street, San Francisco",
+    key: "ChIJLdgyKn-AhYARfDmZT90FJj4",
     image_attribution: null
   },
   {
-    name: "The Market Cafe",
-    address: "1355 Market St, San Francisco",
-    key: "ChIJR6WrbJyAhYARsl4XPO0XXkQ",
+    name: "Lers Ros",
+    address: "730 Larkin Street, San Francisco",
+    key: "ChIJZduCKJGAhYARueNvSMvqsUI",
     image_attribution: null
   },
   {
-    name: "Boss",
-    address: "1187 Solano Ave, Albany",
-    key: "ChIJpR7I1DN5hYARw_PN-FKStqg",
+    name: "Spinnerie",
+    address: "1401 Polk Street, San Francisco",
+    key: "ChIJxej-3JSAhYARw9vUrkX230k",
     image_attribution: null
   },
   {
-    name: "Fujiyama-Ya",
-    address: "1234 Noriega Street, San Francisco",
-    key: "ChIJmdMDeGKHhYARxOwt0GsQdUI",
+    name: "Mama Ji's",
+    address: "4416 18th Street, San Francisco",
+    key: "ChIJk5c5ZQR-j4ARhHCzKVyTxTc",
     image_attribution: null
   },
   {
-    name: "Golden Island Cafe",
-    address: "1300 Noriega Street, San Francisco",
-    key: "ChIJlWpYf2KHhYARvr3r7uT-N5s",
+    name: "Coffee Bar Montgomery",
+    address: "101 Montgomery St, San Francisco",
+    key: "ChIJbyl6womAhYARGbxBtbBkfPY",
     image_attribution: null
   },
   {
-    name: "Sushi Goemon Japanese Restaurant",
-    address: "1524 Irving Street, San Francisco",
-    key: "ChIJXan6DWaHhYARfEg6P4q9XXM",
+    name: "Aux Delices",
+    address: "2327 Polk Street, San Francisco",
+    key: "ChIJY5FJQeiAhYARgXzDx0gDEN8",
     image_attribution: null
   },
   {
-    name: "VILLON Restaurant & Lounge",
-    address:
-      "1100 Market Street Entrance at, 45 McAllister Street, San Francisco",
-    key: "ChIJE2F114-BhYARd7vC0KgJBsc",
+    name: "Lao-Thai Kitchen",
+    address: "1406 Solano Ave, Albany",
+    key: "ChIJgw0TnjV5hYARErbVTm-olIQ",
+    image_attribution: null
+  },
+  {
+    name: "Little Star Pizza",
+    address: "1181 Solano Ave, Albany",
+    key: "ChIJXdv0KzJ5hYAR8NOcfA4n49w",
+    image_attribution: ""
+  },
+  {
+    name: "SoMa StrEat Food Park",
+    address: "428 11th Street, San Francisco",
+    key: "ChIJeaJ_sSh-j4AR7jS8-7l5qgw",
+    image_attribution: null
+  },
+  {
+    name: "Rivoli",
+    address: "1539 Solano Ave, Berkeley",
+    key: "ChIJZRT980p5hYARqk4zcpuPMtQ",
+    image_attribution: null
+  },
+  {
+    name: "707 Sutter",
+    address: "707 Sutter Street, San Francisco",
+    key: "ChIJxzL0B46AhYARzJKzMPE5wJc",
+    image_attribution: null
+  },
+  {
+    name: "Buffalo Kitchen",
+    address: "107 Leland Avenue, San Francisco",
+    key: "ChIJYVQvntl-j4AR455G02iwYak",
+    image_attribution: null
+  },
+  {
+    name: "Express Pupuseria",
+    address: "4715 Geary Boulevard, San Francisco",
+    key: "ChIJqZ1lBhaHhYARA4iM0xzvW1g",
     image_attribution: null
   },
   {
@@ -9283,93 +9098,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lao-Thai Kitchen",
-    address: "1406 Solano Ave, Albany",
-    key: "ChIJgw0TnjV5hYARErbVTm-olIQ",
-    image_attribution: null
-  },
-  {
-    name: "Little Star Pizza",
-    address: "1181 Solano Ave, Albany",
-    key: "ChIJXdv0KzJ5hYAR8NOcfA4n49w",
-    image_attribution: ""
-  },
-  {
-    name: "Rivoli",
-    address: "1539 Solano Ave, Berkeley",
-    key: "ChIJZRT980p5hYARqk4zcpuPMtQ",
-    image_attribution: null
-  },
-  {
-    name: "Daughter Thai Kitchen",
-    address: "6118 Medau Pl, Oakland",
-    key: "ChIJH9g3MYWHj4ARb0r9P0-c__s",
-    image_attribution: null
-  },
-  {
-    name: "Gaumenkitzel",
-    address: "2121 San Pablo Ave, Berkeley",
-    key: "ChIJr6f3b-p-hYARZdcb1NWzY2c",
-    image_attribution: null
-  },
-  {
-    name: "Fusion kitchen",
-    address: "3009 MacArthur Blvd, Oakland",
-    key: "ChIJBQt9QByHj4AR5vE8NjyJ7Fw",
-    image_attribution: null
-  },
-  {
-    name: "La Hacienda",
-    address: "2045 MacArthur Blvd, Oakland",
-    key: "ChIJYWjIKaqHj4ARW8204JU_eig",
-    image_attribution: null
-  },
-  {
-    name: "Ph\u1edf K & K",
-    address: "2533 Telegraph Ave, Berkeley",
-    key: "ChIJnUcToC58hYARso1Xj_jEDLk",
-    image_attribution: null
-  },
-  {
-    name: "Cinco De Mayo Taqueria",
-    address: "2426 San Bruno Avenue, San Francisco",
-    key: "ChIJE4YhQ_x-j4ARX-2F1cfx_xw",
-    image_attribution: null
-  },
-  {
-    name: "Mountain Mike's Pizza",
-    address: "10750 San Pablo Ave, El Cerrito",
-    key: "ChIJ90vXcQJ5hYARD9FcdrONJSc",
-    image_attribution: null
-  },
-  {
-    name: "Salty's",
-    address: "748 Van Ness Avenue, San Francisco",
-    key: "ChIJp7zuhO6BhYARUiSTInSJWl8",
-    image_attribution: null
-  },
-  {
-    name: "Bottom of the Hill",
-    address: "1233 17th Street, San Francisco",
-    key: "ChIJQcdLBsx_j4AROyDSIMBYKH8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Dejena",
-    address: "3939 Martin Luther King Jr Way, Oakland",
-    key: "ChIJPz_A8Ah-hYAR_ZXL6QdOb6M",
-    image_attribution: null
-  },
-  {
-    name: "Flower Lounge",
-    address: "2033 MacArthur Blvd, Oakland",
-    key: "ChIJeRS9iKmHj4ARenvM4HLLtnA",
-    image_attribution: null
-  },
-  {
-    name: "83 Proof",
-    address: "83 1st Street, San Francisco",
-    key: "ChIJr29cEGOAhYARGODjlpUST5A",
+    name: "Ike's Sandwiches",
+    address: "3251 20th Avenue #250c, San Francisco",
+    key: "ChIJD8sx2LN9j4ARrkbwuA-vRo4",
     image_attribution: null
   },
   {
@@ -9379,21 +9110,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Addis",
-    address: "6100 Telegraph Ave, Berkeley",
-    key: "ChIJyeqnm9l9hYARdU4qfQkWx2Q",
-    image_attribution: null
-  },
-  {
-    name: "Oriental BBQ Chicken Town",
-    address: "6101 Telegraph Ave, Oakland",
-    key: "ChIJibrKotl9hYARmPf6-0CJse8",
+    name: "Kigawa Bistro",
+    address: "2108 Marina Blvd, San Leandro",
+    key: "ChIJ5d9FUPGFj4ARdpR5ojOfDGo",
     image_attribution: null
   },
   {
     name: "Hob Nob",
     address: "1313 Park St, Alameda",
     key: "ChIJleEe6r2Gj4ARZh8ZTdiWX1k",
+    image_attribution: null
+  },
+  {
+    name: "Daughter Thai Kitchen",
+    address: "6118 Medau Pl, Oakland",
+    key: "ChIJH9g3MYWHj4ARb0r9P0-c__s",
+    image_attribution: null
+  },
+  {
+    name: "Addis",
+    address: "6100 Telegraph Ave, Berkeley",
+    key: "ChIJyeqnm9l9hYARdU4qfQkWx2Q",
+    image_attribution: null
+  },
+  {
+    name: "Mountain Mike's Pizza",
+    address: "10750 San Pablo Ave, El Cerrito",
+    key: "ChIJ90vXcQJ5hYARD9FcdrONJSc",
     image_attribution: null
   },
   {
@@ -9409,15 +9152,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kigawa Bistro",
-    address: "2108 Marina Blvd, San Leandro",
-    key: "ChIJ5d9FUPGFj4ARdpR5ojOfDGo",
+    name: "Gaumenkitzel",
+    address: "2121 San Pablo Ave, Berkeley",
+    key: "ChIJr6f3b-p-hYARZdcb1NWzY2c",
     image_attribution: null
   },
   {
-    name: "A+ Burger",
-    address: "6228 Telegraph Ave, Oakland",
-    key: "ChIJRQQnfpJ9hYARbrapIwx2_iU",
+    name: "Ph\u1edf K & K",
+    address: "2533 Telegraph Ave, Berkeley",
+    key: "ChIJnUcToC58hYARso1Xj_jEDLk",
+    image_attribution: null
+  },
+  {
+    name: "Fusion kitchen",
+    address: "3009 MacArthur Blvd, Oakland",
+    key: "ChIJBQt9QByHj4AR5vE8NjyJ7Fw",
+    image_attribution: null
+  },
+  {
+    name: "Mourad",
+    address: "140 New Montgomery St #1, San Francisco",
+    key: "ChIJg6QBP32AhYARNh3xlLGG46g",
     image_attribution: null
   },
   {
@@ -9427,9 +9182,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "La Hacienda",
+    address: "2045 MacArthur Blvd, Oakland",
+    key: "ChIJYWjIKaqHj4ARW8204JU_eig",
+    image_attribution: null
+  },
+  {
+    name: "Mauerpark",
+    address: "500 Church St, San Francisco",
+    key: "ChIJ304KgcZ_j4ARY5f-mAP7-sk",
+    image_attribution: null
+  },
+  {
+    name: "83 Proof",
+    address: "83 1st Street, San Francisco",
+    key: "ChIJr29cEGOAhYARGODjlpUST5A",
+    image_attribution: null
+  },
+  {
     name: "Mountain Mike's Pizza",
     address: "2150 Marina Blvd, San Leandro",
     key: "ChIJi3ZjnVmFj4ARkMUGzbf82mo",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Dejena",
+    address: "3939 Martin Luther King Jr Way, Oakland",
+    key: "ChIJPz_A8Ah-hYAR_ZXL6QdOb6M",
+    image_attribution: null
+  },
+  {
+    name: "Oriental BBQ Chicken Town",
+    address: "6101 Telegraph Ave, Oakland",
+    key: "ChIJibrKotl9hYARmPf6-0CJse8",
+    image_attribution: null
+  },
+  {
+    name: "Flower Lounge",
+    address: "2033 MacArthur Blvd, Oakland",
+    key: "ChIJeRS9iKmHj4ARenvM4HLLtnA",
+    image_attribution: null
+  },
+  {
+    name: "Neighbor Bakehouse",
+    address: "2343 3rd Street #100, San Francisco",
+    key: "ChIJwxB7url_j4ARDQCaUUgJCwo",
+    image_attribution: null
+  },
+  {
+    name: "A+ Burger",
+    address: "6228 Telegraph Ave, Oakland",
+    key: "ChIJRQQnfpJ9hYARbrapIwx2_iU",
     image_attribution: null
   },
   {
@@ -9451,33 +9254,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Matterhorn Restaurant and Bakery",
+    address: "2323 Van Ness Avenue, San Francisco",
+    key: "ChIJ5wknN4OBhYARPnrCyIBgvlk",
+    image_attribution: null
+  },
+  {
     name: "Nomad",
     address: "1593 Solano Ave, Berkeley",
     key: "ChIJCRUzGkt5hYARnZgsoG0I3Iw",
     image_attribution: null
   },
   {
-    name: "New Country Sky",
-    address: "2035 Polk Street, San Francisco",
-    key: "ChIJbzX6K9eAhYAR7MjAQe5dDks",
-    image_attribution: null
-  },
-  {
-    name: "The Chieftain Irish Pub & Restaurant",
-    address: "198 5th Street, San Francisco",
-    key: "ChIJ9TQVzIaAhYAR6d_TYsKIxq8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Pacific Plaza",
-    address: "1338 Franklin Street, San Francisco",
-    key: "ChIJqR0GkJWAhYAR8I3vVtR8lKs",
-    image_attribution: null
-  },
-  {
     name: "Zaytoon",
     address: "1133 Solano Ave, Albany",
     key: "ChIJG5tfijF5hYAR73gHiNQYbA0",
+    image_attribution: null
+  },
+  {
+    name: "Xanath Ice Cream",
+    address: "951 Valencia Street, San Francisco",
+    key: "ChIJd1PfLDx-j4ARzBGmPJWZh1I",
+    image_attribution: null
+  },
+  {
+    name: "Mochill Mochidonut",
+    address: "1737 Post Street STE395, San Francisco",
+    key: "ChIJYTeHK0SBhYARyEEvKzjrBl8",
     image_attribution: null
   },
   {
@@ -9517,63 +9320,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Landing Cafe",
-    address: "9777 Golf Links Rd, Oakland",
-    key: "ChIJVzG-5A2Pj4ARX-gizzFycLE",
-    image_attribution: null
-  },
-  {
-    name: "China Pack Kitchen",
-    address: "3118 35th Ave, Oakland",
-    key: "ChIJdVVbcU-Gj4ARVu77TiFUq48",
-    image_attribution: null
-  },
-  {
-    name: "Extreme Pizza",
-    address: "1062 Folsom Street, San Francisco",
-    key: "ChIJ1TYTJ4KAhYARvWNkHBREtgo",
-    image_attribution: null
-  },
-  {
-    name: "Allstar Donuts & Sandwich",
-    address: "98 9th Street, San Francisco",
-    key: "ChIJY64--5yAhYARIewc1xhXFCQ",
-    image_attribution: null
-  },
-  {
-    name: "310 Eatery",
-    address: "747 San Pablo Ave, Albany",
-    key: "ChIJVSAMVvHjMhURrd-JPLeAQCw",
-    image_attribution: null
-  },
-  {
-    name: "Poke Life",
-    address: "1700 Owens Street, San Francisco",
-    key: "ChIJjTdE6c5_j4ARk4XdBy8mJ_4",
-    image_attribution: null
-  },
-  {
     name: "N\u00f4ng Th\u00f4n Restaurant",
     address: "10086 San Pablo Ave, El Cerrito",
     key: "ChIJeUoZaSJ5hYARtg6DFrtednQ",
-    image_attribution: null
-  },
-  {
-    name: "Asmara",
-    address: "5020 Telegraph Ave, Oakland",
-    key: "ChIJHXSmAeF9hYAR28hTan8zjd4",
-    image_attribution: null
-  },
-  {
-    name: "Pizzaiolo",
-    address: "5008 Telegraph Ave, Oakland",
-    key: "ChIJYdYrAeF9hYARXSv17bySojU",
-    image_attribution: null
-  },
-  {
-    name: "Chubby Freeze",
-    address: "600 Hegenberger Rd, Oakland",
-    key: "ChIJbydDyeqFj4AR6pIYcXFIOJY",
     image_attribution: null
   },
   {
@@ -9589,12 +9338,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Red Sea",
-    address: "5200 Claremont Ave, Oakland",
-    key: "ChIJNV1a6uB9hYARpBHF-LYTdDY",
-    image_attribution: null
-  },
-  {
     name: "Taqueria La Laguna",
     address: "1011 Williams St, San Leandro",
     key: "ChIJ9ZM4Qu2Pj4ARZVECo8G8jl8",
@@ -9604,6 +9347,12 @@ const SFPlaces = [
     name: "Xiang Yuen Xiao Long Bao",
     address: "1668 E 14th St, San Leandro",
     key: "ChIJq6oef5WPj4ARkPgcFIaF1KQ",
+    image_attribution: null
+  },
+  {
+    name: "Asmara",
+    address: "5020 Telegraph Ave, Oakland",
+    key: "ChIJHXSmAeF9hYAR28hTan8zjd4",
     image_attribution: null
   },
   {
@@ -9619,27 +9368,111 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Blue Dish Cafe & Catering",
-    address: "2956 Teagarden St, San Leandro",
-    key: "ChIJi-bgSuGPj4ARLBuMrdGDxuk",
+    name: "310 Eatery",
+    address: "747 San Pablo Ave, Albany",
+    key: "ChIJVSAMVvHjMhURrd-JPLeAQCw",
     image_attribution: null
   },
   {
-    name: "Camille Restaurant",
-    address: "2507 Hearst Ave, Berkeley",
-    key: "ChIJz1qjYiF8hYAR1chYsU3DTgY",
+    name: "Pizzaiolo",
+    address: "5008 Telegraph Ave, Oakland",
+    key: "ChIJYdYrAeF9hYARXSv17bySojU",
     image_attribution: null
   },
   {
-    name: "Wonderful Dessert and Cafe",
-    address: "2035 Irving St, San Francisco",
-    key: "ChIJS8Gg8G-HhYARDQP7gBs5esE",
+    name: "Red Sea",
+    address: "5200 Claremont Ave, Oakland",
+    key: "ChIJNV1a6uB9hYARpBHF-LYTdDY",
+    image_attribution: null
+  },
+  {
+    name: "The Landing Cafe",
+    address: "9777 Golf Links Rd, Oakland",
+    key: "ChIJVzG-5A2Pj4ARX-gizzFycLE",
+    image_attribution: null
+  },
+  {
+    name: "China Pack Kitchen",
+    address: "3118 35th Ave, Oakland",
+    key: "ChIJdVVbcU-Gj4ARVu77TiFUq48",
+    image_attribution: null
+  },
+  {
+    name: "Chubby Freeze",
+    address: "600 Hegenberger Rd, Oakland",
+    key: "ChIJbydDyeqFj4AR6pIYcXFIOJY",
+    image_attribution: null
+  },
+  {
+    name: "Little Star Pizza",
+    address: "400 Valencia Street, San Francisco",
+    key: "ChIJMZnCJCJ-j4ARN5S_0ANESiM",
+    image_attribution: null
+  },
+  {
+    name: "Laguna",
+    address: "602 Hayes Street, San Francisco",
+    key: "ChIJEVNik9aBhYAR1LOF9hy5daw",
+    image_attribution: null
+  },
+  {
+    name: "Saap Ver",
+    address: "88 Division Street, San Francisco",
+    key: "ChIJOTm44Sx-j4ARiAjUz1iVX6Q",
+    image_attribution: ""
+  },
+  {
+    name: "Fortune",
+    address: "2708 Fruitvale Ave, Oakland",
+    key: "ChIJKxRi-FWGj4ARk1tfDbGTAIM",
+    image_attribution: null
+  },
+  {
+    name: "Tin & Pig - Kang Tong",
+    address: "3702 Telegraph Ave, Oakland",
+    key: "ChIJ5RszYAd-hYARymCQJ-eVMFI",
     image_attribution: null
   },
   {
     name: "Gourmet Delight Restaurant",
     address: "701 Webster St, Oakland",
     key: "ChIJeSzJGraAj4ARC3TNyskrSOA",
+    image_attribution: null
+  },
+  {
+    name: "B-Dama",
+    address: "907 Washington St, Oakland",
+    key: "ChIJByw8MLeAj4ARJO_Yo_rdj4k",
+    image_attribution: null
+  },
+  {
+    name: "Hookt Doughnuts",
+    address: "1379 4th Street, San Francisco",
+    key: "ChIJ5x7U6KN_j4AREG0pK_x4lPM",
+    image_attribution: null
+  },
+  {
+    name: "Redford",
+    address: "673 Geary Street, San Francisco",
+    key: "ChIJRc_7uJGAhYARsKD7uGYnvMI",
+    image_attribution: null
+  },
+  {
+    name: "Muddy Waters Coffee House",
+    address: "521 Valencia St, San Francisco",
+    key: "ChIJHUI7VyJ-j4AR_EMCPNPpgKU",
+    image_attribution: null
+  },
+  {
+    name: "Blue Dish Cafe & Catering",
+    address: "2956 Teagarden St, San Leandro",
+    key: "ChIJi-bgSuGPj4ARLBuMrdGDxuk",
+    image_attribution: null
+  },
+  {
+    name: "Sasaki",
+    address: "2400 Harrison Street, San Francisco",
+    key: "ChIJUYlfXzd-j4ARTpb9yOeCg-c",
     image_attribution: null
   },
   {
@@ -9655,6 +9488,48 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Camille Restaurant",
+    address: "2507 Hearst Ave, Berkeley",
+    key: "ChIJz1qjYiF8hYAR1chYsU3DTgY",
+    image_attribution: null
+  },
+  {
+    name: "Krispy Krunchy Chicken",
+    address: "2603 Fruitvale Ave, Oakland",
+    key: "ChIJv2v9RguHj4AR0zp2gDsjIoY",
+    image_attribution: null
+  },
+  {
+    name: "Mi Zacatecas Mexican Food",
+    address: "6633 Bancroft Ave, Oakland",
+    key: "ChIJ2wLF-G2Pj4ARus0Z-1svOLw",
+    image_attribution: null
+  },
+  {
+    name: "Mz Kettle's BBQ",
+    address: "2676 Fruitvale Ave, Oakland",
+    key: "ChIJmfFgVf-Gj4ARYne0h6tv7YQ",
+    image_attribution: null
+  },
+  {
+    name: "The Star on Grand",
+    address: "3425 Grand Ave, Oakland",
+    key: "ChIJrfgOF0OHj4ARi-Eq42V-rOo",
+    image_attribution: null
+  },
+  {
+    name: "Little Namking",
+    address: "695 E 14th St, San Leandro",
+    key: "ChIJ3U7grJuPj4ARv783i4Vxii0",
+    image_attribution: null
+  },
+  {
+    name: "Shogun Japanese Sushi & Grill",
+    address: "3417 Grand Ave, Oakland",
+    key: "ChIJpzC9FkOHj4ARGwW6sBm739Q",
+    image_attribution: null
+  },
+  {
     name: "Cafe Think",
     address: "2220 Piedmont Ave, Berkeley",
     key: "ChIJLR1CtDp8hYARVe4Q0zJ9ygQ",
@@ -9667,33 +9542,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "B-Dama",
-    address: "907 Washington St, Oakland",
-    key: "ChIJByw8MLeAj4ARJO_Yo_rdj4k",
-    image_attribution: null
-  },
-  {
-    name: "The Star on Grand",
-    address: "3425 Grand Ave, Oakland",
-    key: "ChIJrfgOF0OHj4ARi-Eq42V-rOo",
-    image_attribution: null
-  },
-  {
-    name: "Fortune",
-    address: "2708 Fruitvale Ave, Oakland",
-    key: "ChIJKxRi-FWGj4ARk1tfDbGTAIM",
-    image_attribution: null
-  },
-  {
-    name: "Shogun Japanese Sushi & Grill",
-    address: "3417 Grand Ave, Oakland",
-    key: "ChIJpzC9FkOHj4ARGwW6sBm739Q",
-    image_attribution: null
-  },
-  {
-    name: "Mi Zacatecas Mexican Food",
-    address: "6633 Bancroft Ave, Oakland",
-    key: "ChIJ2wLF-G2Pj4ARus0Z-1svOLw",
+    name: "Fosters Freeze",
+    address: "2601 Alvarado St, San Leandro",
+    key: "ChIJ9YUq6-iPj4ARnrQRZ7p804k",
     image_attribution: null
   },
   {
@@ -9703,45 +9554,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Krispy Krunchy Chicken",
-    address: "2603 Fruitvale Ave, Oakland",
-    key: "ChIJv2v9RguHj4AR0zp2gDsjIoY",
+    name: "Le P'tit Laurent",
+    address: "699 Chenery Street, San Francisco",
+    key: "ChIJT7URn2R-j4ARnEY-JUvmnJY",
     image_attribution: null
   },
   {
-    name: "Little Namking",
-    address: "695 E 14th St, San Leandro",
-    key: "ChIJ3U7grJuPj4ARv783i4Vxii0",
-    image_attribution: null
-  },
-  {
-    name: "Cadillac Bar & Grill",
-    address: "Market Square, 44 9th Street, San Francisco",
-    key: "ChIJpXkdYJyAhYARbxi_KqJa5MQ",
-    image_attribution: null
-  },
-  {
-    name: "Elda",
-    address: "3198 16th St, San Francisco",
-    key: "ChIJqfNjqkl_j4ARVUVZWmw3kdE",
-    image_attribution: null
-  },
-  {
-    name: "Fosters Freeze",
-    address: "2601 Alvarado St, San Leandro",
-    key: "ChIJ9YUq6-iPj4ARnrQRZ7p804k",
-    image_attribution: null
-  },
-  {
-    name: "Tin & Pig - Kang Tong",
-    address: "3702 Telegraph Ave, Oakland",
-    key: "ChIJ5RszYAd-hYARymCQJ-eVMFI",
-    image_attribution: null
-  },
-  {
-    name: "Mz Kettle's BBQ",
-    address: "2676 Fruitvale Ave, Oakland",
-    key: "ChIJmfFgVf-Gj4ARYne0h6tv7YQ",
+    name: "Cafeteria La Catrachita",
+    address: "1600 Guerrero St, San Francisco",
+    key: "ChIJ4YhpfSB_j4ARo_pdgNTk5xs",
     image_attribution: null
   },
   {
@@ -9757,15 +9578,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Wing Lee Bakery",
-    address: "503 Clement Street, San Francisco",
-    key: "ChIJY3hwETyHhYARz4LnN6JpxMI",
+    name: "El Taco Zamorano",
+    address: "4032 Foothill Blvd, Oakland",
+    key: "ChIJ-9iKq2CGj4AR60vyBhtbSec",
     image_attribution: null
   },
   {
     name: "Tequila Grill",
     address: "1350 E 14th St, San Leandro",
     key: "ChIJTQ3IhZaPj4ARZWoSKs_1GZc",
+    image_attribution: null
+  },
+  {
+    name: "Luke's Grill",
+    address: "1509 E 14th St, San Leandro",
+    key: "ChIJ6Q6cuJWPj4ARtSs7sm5I9ds",
     image_attribution: null
   },
   {
@@ -9781,64 +9608,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sushi Bistro",
-    address: "431 Balboa Street, San Francisco",
-    key: "ChIJCcINQEl-j4ARRypIXsVSEZI",
-    image_attribution: null
-  },
-  {
-    name: "Genji, LLC",
-    address: "Whole Foods Market, 230 Bay Pl, Oakland",
-    key: "ChIJd-GpPlKHj4ARYKGoCObS_dI",
-    image_attribution: null
-  },
-  {
-    name: "Pacific Cocktail Haven",
-    address: "580 Sutter St, San Francisco",
-    key: "ChIJi2fwgI6AhYARglQgXX2A3WU",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/116118088071567372167\">Khoa Le</a>']"
-  },
-  {
-    name: "Khana Peena",
-    address: "5316 College Ave #1417, Oakland",
-    key: "ChIJVRjTKel9hYARb_Qcc58Ok0I",
-    image_attribution: null
-  },
-  {
-    name: "El Taco Zamorano",
-    address: "4032 Foothill Blvd, Oakland",
-    key: "ChIJ-9iKq2CGj4AR60vyBhtbSec",
-    image_attribution: null
-  },
-  {
-    name: "Luke's Grill",
-    address: "1509 E 14th St, San Leandro",
-    key: "ChIJ6Q6cuJWPj4ARtSs7sm5I9ds",
-    image_attribution: null
-  },
-  {
-    name: "Xanath Ice Cream",
-    address: "951 Valencia Street, San Francisco",
-    key: "ChIJd1PfLDx-j4ARzBGmPJWZh1I",
-    image_attribution: null
-  },
-  {
     name: "La Perla del Pacifico",
     address: "4149 Foothill Blvd, Oakland",
     key: "ChIJr8kxJ2eGj4ARdgPbnkgCUHo",
     image_attribution: null
   },
   {
-    name: "Longbranch Saloon",
-    address: "2512 San Pablo Ave, Berkeley",
-    key: "ChIJMx0da-1-hYARr75DuR7ceQY",
-    image_attribution: null
-  },
-  {
-    name: "Rikyu",
-    address: "5335 College Ave # 2, Oakland",
-    key: "ChIJY0M63Oh9hYAR9jzl1QsP29Y",
+    name: "Philz Coffee",
+    address: "1258 Minnesota St, San Francisco",
+    key: "ChIJtaUBviX2MhURS1JavYDAtFA",
     image_attribution: null
   },
   {
@@ -9848,15 +9626,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Iza Ramen SOMA",
+    address: "1155 Folsom Street, San Francisco",
+    key: "ChIJjwBacYKAhYARfI-jSs8HAXk",
+    image_attribution: null
+  },
+  {
+    name: "Longbranch Saloon",
+    address: "2512 San Pablo Ave, Berkeley",
+    key: "ChIJMx0da-1-hYARr75DuR7ceQY",
+    image_attribution: null
+  },
+  {
     name: "Egg Roll Kitchen",
     address: "6650 Bancroft Ave, Oakland",
     key: "ChIJwxAIQAeGj4ARn3T-HfZkqr4",
     image_attribution: null
   },
   {
-    name: "Pucquio",
-    address: "5337 College Ave, Oakland",
-    key: "ChIJITRg5-h9hYARDy3za7cz7Qo",
+    name: "Genji, LLC",
+    address: "Whole Foods Market, 230 Bay Pl, Oakland",
+    key: "ChIJd-GpPlKHj4ARYKGoCObS_dI",
     image_attribution: null
   },
   {
@@ -9866,57 +9656,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "P.F. Chang's",
-    address: "5633 Bay St, Emeryville",
-    key: "ChIJfx8iXkF-hYARi3znV_tR7yA",
+    name: "Rikyu",
+    address: "5335 College Ave # 2, Oakland",
+    key: "ChIJY0M63Oh9hYAR9jzl1QsP29Y",
     image_attribution: null
   },
   {
-    name: "IKEA Restaurant",
-    address: "4400 Shellmound St, Emeryville",
-    key: "ChIJs1ICvkB-hYARIhq06Pkr5ws",
+    name: "Pucquio",
+    address: "5337 College Ave, Oakland",
+    key: "ChIJITRg5-h9hYARDy3za7cz7Qo",
     image_attribution: null
   },
   {
-    name: "Pizza My Heart",
-    address: "Bay St, Emeryville",
-    key: "ChIJfUXWP0F-hYARX3Xq6d4NAgA",
+    name: "Khana Peena",
+    address: "5316 College Ave #1417, Oakland",
+    key: "ChIJVRjTKel9hYARb_Qcc58Ok0I",
     image_attribution: null
   },
   {
-    name: "Taqueria La Palma",
-    address: "8217 International Blvd, Oakland",
-    key: "ChIJwzgboPaFj4ARlh8OQGJxFKk",
-    image_attribution: null
-  },
-  {
-    name: "Gim's Chinese Kitchen",
-    address: "2322 Lincoln Ave, Alameda",
-    key: "ChIJSf2RnpWGj4AR4W_qCGJRnHg",
-    image_attribution: null
-  },
-  {
-    name: "Lucho\u2019s",
-    address: "2675 Ocean Avenue, San Francisco",
-    key: "ChIJJeonqM19j4ARP0bZKWvKkj4",
-    image_attribution: null
-  },
-  {
-    name: "Bowl'd BBQ",
-    address: "2201 #D, S Shore Center, Alameda",
-    key: "ChIJD2ftkrqGj4ARCb3TpcfEMqA",
+    name: "SanJalisco Restaurant",
+    address: "901 South Van Ness Avenue, San Francisco",
+    key: "ChIJ2Uhm3zt-j4ARQd5KlTvPrHU",
     image_attribution: null
   },
   {
     name: "Carl's Jr.",
     address: "871 Marina Village Pkwy, Alameda",
     key: "ChIJY47ouNaAj4AR_jJLaOvU3Ns",
-    image_attribution: null
-  },
-  {
-    name: "Yoshio Sushi",
-    address: "10889 San Pablo Ave, El Cerrito",
-    key: "ChIJxw84Dv54hYARbM2uON0Lc-M",
     image_attribution: null
   },
   {
@@ -9932,27 +9698,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Le Trio",
-    address: "2575 Judah St, San Francisco",
-    key: "ChIJeWZomHeHhYARjZESuTKelP0",
+    name: "Pakwan Restaurant - Tenderloin",
+    address: "501 O'Farrell Street, San Francisco",
+    key: "ChIJM_8RLJCAhYARWccycSLlNWc",
     image_attribution: null
   },
   {
-    name: "Chutney Restaurant",
-    address: "511 Jones Street, San Francisco",
-    key: "ChIJO0hd05GAhYARnN6M3MCFvPM",
+    name: "Petit Crenn",
+    address: "609 Hayes St, San Francisco",
+    key: "ChIJxSa9TqKAhYAR4lqep-kTo8c",
+    image_attribution: ""
+  },
+  {
+    name: "Phonobar",
+    address: "370 Grove Street, San Francisco",
+    key: "ChIJTRHt9JiAhYARIeAm-WG0inY",
     image_attribution: null
   },
   {
-    name: "InoVino",
-    address: "108-B Carl Street, San Francisco",
-    key: "ChIJXeSsRFSHhYAR8E284l_0VUM",
+    name: "Taqueria La Palma",
+    address: "8217 International Blvd, Oakland",
+    key: "ChIJwzgboPaFj4ARlh8OQGJxFKk",
     image_attribution: null
   },
   {
-    name: "The Spanish Table",
-    address: "130 Clement St, San Francisco",
-    key: "ChIJ_fPeKjqHhYARZc4X250_xPo",
+    name: "Gim's Chinese Kitchen",
+    address: "2322 Lincoln Ave, Alameda",
+    key: "ChIJSf2RnpWGj4AR4W_qCGJRnHg",
     image_attribution: null
   },
   {
@@ -9962,9 +9734,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "P.F. Chang's",
+    address: "5633 Bay St, Emeryville",
+    key: "ChIJfx8iXkF-hYARi3znV_tR7yA",
+    image_attribution: null
+  },
+  {
+    name: "The Brazen Head",
+    address: "3166 Buchanan Street, San Francisco",
+    key: "ChIJp7hJq9uAhYARXqjVg5E7jBs",
+    image_attribution: null
+  },
+  {
+    name: "IKEA Restaurant",
+    address: "4400 Shellmound St, Emeryville",
+    key: "ChIJs1ICvkB-hYARIhq06Pkr5ws",
+    image_attribution: null
+  },
+  {
+    name: "Pizza My Heart",
+    address: "Bay St, Emeryville",
+    key: "ChIJfUXWP0F-hYARX3Xq6d4NAgA",
+    image_attribution: null
+  },
+  {
+    name: "Yoshio Sushi",
+    address: "10889 San Pablo Ave, El Cerrito",
+    key: "ChIJxw84Dv54hYARbM2uON0Lc-M",
+    image_attribution: null
+  },
+  {
     name: "H&J's Restaurant",
     address: "10841 San Pablo Ave, El Cerrito",
     key: "ChIJ04oVOJp5hYARBygQWtag1Gc",
+    image_attribution: null
+  },
+  {
+    name: "Bowl'd BBQ",
+    address: "2201 #D, S Shore Center, Alameda",
+    key: "ChIJD2ftkrqGj4ARCb3TpcfEMqA",
     image_attribution: null
   },
   {
@@ -9980,18 +9788,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ichiraku Ramen",
-    address: "5336 Geary Boulevard, San Francisco",
-    key: "ChIJNxTdN6mHhYARewblX9HVipQ",
-    image_attribution: null
-  },
-  {
-    name: "PHILLIES",
-    address: "932 Geneva Avenue, San Francisco",
-    key: "ChIJWztae5t-j4ARxhrZ63hCwNg",
-    image_attribution: null
-  },
-  {
     name: "Hot Italian",
     address: "5959 Shellmound St #75, Emeryville",
     key: "ChIJT4N1gVx-hYARMflOCR7X-Go",
@@ -10001,30 +9797,6 @@ const SFPlaces = [
     name: "Steve's Korean Bar-B-Que",
     address: "2521 Durant Ave g, Berkeley",
     key: "ChIJpSV9Ey98hYARoiJOCEki8Vc",
-    image_attribution: null
-  },
-  {
-    name: "Seniore's Pizza",
-    address: "2518 Durant Ave, Berkeley",
-    key: "ChIJL0yHFS98hYARXpfZ1PBipWo",
-    image_attribution: null
-  },
-  {
-    name: "Lucca Delicatessen",
-    address: "2120 Chestnut Street, San Francisco",
-    key: "ChIJ01kH39aAhYARVLK3OOvDoAs",
-    image_attribution: null
-  },
-  {
-    name: "Caf\u00e9 Durant",
-    address: "2517 Durant Ave, Berkeley",
-    key: "ChIJS4QZQC98hYARNqDnhxFehoI",
-    image_attribution: null
-  },
-  {
-    name: "Delicioso Creperie",
-    address: "1550 Bryant Street Lobby, San Francisco",
-    key: "ChIJwT-JCi9-j4ARRpInputnQ6E",
     image_attribution: null
   },
   {
@@ -10040,21 +9812,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Thanh Ky Restaurant",
-    address: "659 E 12th St, Oakland",
-    key: "ChIJF-bZWiWHj4AR-slPX3uWKco",
-    image_attribution: null
-  },
-  {
-    name: "\u0110\u00e0 N\u1eb5ng Qu\u00e1n Vietnamese Cuisine",
-    address: "615 E 12th St, Oakland",
-    key: "ChIJTatBVCWHj4AR8ZrHJTSnkuY",
-    image_attribution: null
-  },
-  {
     name: "South Shore Cafe",
     address: "531 S Shore Center, Alameda",
     key: "ChIJ5XogdLqGj4ARDHlEGyh9aAM",
+    image_attribution: null
+  },
+  {
+    name: "Seniore's Pizza",
+    address: "2518 Durant Ave, Berkeley",
+    key: "ChIJL0yHFS98hYARXpfZ1PBipWo",
     image_attribution: null
   },
   {
@@ -10064,9 +9830,70 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Caf\u00e9 Durant",
+    address: "2517 Durant Ave, Berkeley",
+    key: "ChIJS4QZQC98hYARNqDnhxFehoI",
+    image_attribution: null
+  },
+  {
+    name: "Thanh Ky Restaurant",
+    address: "659 E 12th St, Oakland",
+    key: "ChIJF-bZWiWHj4AR-slPX3uWKco",
+    image_attribution: null
+  },
+  {
+    name: "PHILLIES",
+    address: "932 Geneva Avenue, San Francisco",
+    key: "ChIJWztae5t-j4ARxhrZ63hCwNg",
+    image_attribution: null
+  },
+  {
+    name: "Miss Tomato Sandwich Shop",
+    address: "577 Geary Street, San Francisco",
+    key: "ChIJ0Xh9HUeBhYARJCUWJBUL5y8",
+    image_attribution: null
+  },
+  {
+    name: "Bond Bar",
+    address: "3079 16th St, San Francisco",
+    key: "ChIJEx4ZUyJ-j4ARDCGfNKnvYrE",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112050166977583958471\">Bond Bar</a>']"
+  },
+  {
+    name: "Delicioso Creperie",
+    address: "1550 Bryant Street Lobby, San Francisco",
+    key: "ChIJwT-JCi9-j4ARRpInputnQ6E",
+    image_attribution: null
+  },
+  {
+    name: "\u0110\u00e0 N\u1eb5ng Qu\u00e1n Vietnamese Cuisine",
+    address: "615 E 12th St, Oakland",
+    key: "ChIJTatBVCWHj4AR8ZrHJTSnkuY",
+    image_attribution: null
+  },
+  {
+    name: "Little Gem on Grove",
+    address: "400 Grove St C1, San Francisco",
+    key: "ChIJBSgoiZiAhYARrfJkn9aC7GE",
+    image_attribution: null
+  },
+  {
     name: "Han Dae Gam Korean BBQ",
     address: "1292 Davis St, San Leandro",
     key: "ChIJuecZPYmPj4AR73A8BpT45cI",
+    image_attribution: null
+  },
+  {
+    name: "Amasia Hide's Sushi Bar",
+    address: "149 Noe Street, San Francisco",
+    key: "ChIJu7VabR1-j4ARq0S8umIYKlQ",
+    image_attribution: null
+  },
+  {
+    name: "Enter The Cafe",
+    address: "1401 Powell St, San Francisco",
+    key: "ChIJs8i5N_KAhYARZvBUagii3hY",
     image_attribution: null
   },
   {
@@ -10076,93 +9903,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Juan's Place",
-    address: "941 Carleton St, Berkeley",
-    key: "ChIJxyHbXvJ-hYAReFXxzyODM00",
-    image_attribution: null
-  },
-  {
-    name: "Ben 'N Nick's Bar & Grill",
-    address: "5612 College Ave, Oakland",
-    key: "ChIJU_Lii8J9hYARkeANbwAJWC4",
-    image_attribution: null
-  },
-  {
-    name: "True Laurel",
-    address: "753 Alabama Street, San Francisco",
-    key: "ChIJz2enRzd-j4ARkM49V6yDT2U",
-    image_attribution: ""
-  },
-  {
-    name: "Tavo's Tacos",
-    address: "Oakland",
-    key: "ChIJdfBoYnuPj4ARvl17UTNMKBk",
-    image_attribution: null
-  },
-  {
-    name: "Monaghan's Oakland",
-    address: "2820 Mountain Blvd, Oakland",
-    key: "ChIJhe2FGriHj4AR_GosCaDZauw",
-    image_attribution: null
-  },
-  {
-    name: "Riva Cucina",
-    address: "800 Heinz Ave, Berkeley",
-    key: "ChIJURAyA_R-hYARpbqoLkV6NRo",
-    image_attribution: null
-  },
-  {
-    name: "Spoon Korean Bistro",
-    address: "933 Ashby Ave, Berkeley",
-    key: "ChIJbx07F_V-hYARasCaNhEeH7k",
-    image_attribution: null
-  },
-  {
-    name: "Summer Summer Thai Eatery",
-    address: "5885 Hollis St #50, Emeryville",
-    key: "ChIJoaV1NV1-hYARTe8kxInV6M4",
-    image_attribution: null
-  },
-  {
-    name: "KoJa Kitchen",
-    address: "5959 Shellmound St, Emeryville",
-    key: "ChIJ52aLflt-hYAR4xUfYiog5CE",
-    image_attribution: null
-  },
-  {
-    name: "C CASA Emeryville",
-    address: "5959 Shellmound St, Emeryville",
-    key: "ChIJWYCxf1t-hYARwBO_aufr7n8",
-    image_attribution: null
-  },
-  {
-    name: "Molinari Delicatessen",
-    address: "373 Columbus Avenue, San Francisco",
-    key: "ChIJLQ_v7fOAhYARmIEp06tMtdM",
-    image_attribution: null
-  },
-  {
-    name: "Stacks",
-    address: "501 Hayes St, San Francisco",
-    key: "ChIJP9CHcqKAhYAReNe_9XhoCcg",
-    image_attribution: null
-  },
-  {
-    name: "Jasmine Blossom Thai Cuisine",
-    address: "6520 Hollis St, Emeryville",
-    key: "ChIJhxigAl9-hYARv0A8HIIYpIM",
-    image_attribution: null
-  },
-  {
-    name: "Toast Eatery",
-    address: "160 West Portal Avenue, San Francisco",
-    key: "ChIJZ2w5lep9j4ARjycYeacagO4",
+    name: "El Aji",
+    address: "3015 Mission Street, San Francisco",
+    key: "ChIJw9dRqEZ-j4ARQmyxH9N7kfM",
     image_attribution: null
   },
   {
     name: "\u00c0 C\u00f4t\u00e9 Restaurant",
     address: "5478 College Ave, Oakland",
     key: "ChIJHbllMuh9hYAR95yV-x3OWx4",
+    image_attribution: null
+  },
+  {
+    name: "Hard Rock Cafe",
+    address: "39 Pier #256, San Francisco",
+    key: "ChIJHSGzi_yAhYARjust_4pPIbc",
+    image_attribution: null
+  },
+  {
+    name: "Ella's American Kitchen",
+    address: "500 Presidio Avenue, San Francisco",
+    key: "ChIJe8ZFqzSHhYARdMd1tAEEO_U",
     image_attribution: null
   },
   {
@@ -10178,39 +9939,93 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Piazza Pellegrini",
+    address: "659 Columbus Avenue, San Francisco",
+    key: "ChIJ72jGSvCAhYARVn5P8a7fmXY",
+    image_attribution: null
+  },
+  {
+    name: "Monaghan's Oakland",
+    address: "2820 Mountain Blvd, Oakland",
+    key: "ChIJhe2FGriHj4AR_GosCaDZauw",
+    image_attribution: null
+  },
+  {
+    name: "Jasmine Blossom Thai Cuisine",
+    address: "6520 Hollis St, Emeryville",
+    key: "ChIJhxigAl9-hYARv0A8HIIYpIM",
+    image_attribution: null
+  },
+  {
+    name: "Bi-Rite Market",
+    address: "550 Divisadero Street, San Francisco",
+    key: "ChIJ49sQuK-AhYARM6U646SA12Y",
+    image_attribution: null
+  },
+  {
     name: "Rotten City Pizza",
     address: "6613 Hollis St, Emeryville",
     key: "ChIJ--R_E19-hYARet4kiKih-aQ",
     image_attribution: null
   },
   {
-    name: "Elmy\u2019s Egyptian food",
-    address: "Emeryville Greenway, Berkeley",
-    key: "ChIJgWBad-V_hYAR_kbfAMvNlfs",
+    name: "Tavo's Tacos",
+    address: "Oakland",
+    key: "ChIJdfBoYnuPj4ARvl17UTNMKBk",
     image_attribution: null
   },
   {
-    name: "Four Barrel Coffee",
-    address: "375 Valencia St, San Francisco",
-    key: "ChIJ__abjyF-j4ARmyuzGS1yOdc",
+    name: "Summer Summer Thai Eatery",
+    address: "5885 Hollis St #50, Emeryville",
+    key: "ChIJoaV1NV1-hYARTe8kxInV6M4",
     image_attribution: null
   },
   {
-    name: "Van Ness Cafe & Gyros",
-    address: "826 Van Ness Avenue, San Francisco",
-    key: "ChIJydaFKRSBhYARqyhfCAH8A1c",
+    name: "Juan's Place",
+    address: "941 Carleton St, Berkeley",
+    key: "ChIJxyHbXvJ-hYAReFXxzyODM00",
     image_attribution: null
   },
   {
-    name: "Caffe Trieste",
-    address: "601 Vallejo St, San Francisco",
-    key: "ChIJcyHa9fOAhYAR7reGSUvtLe4",
+    name: "Riva Cucina",
+    address: "800 Heinz Ave, Berkeley",
+    key: "ChIJURAyA_R-hYARpbqoLkV6NRo",
     image_attribution: null
   },
   {
-    name: "Cathay Express Restaurant",
-    address: "720 14th Street, San Francisco",
-    key: "ChIJb2zNdB5-j4ARF2PtH-K37yw",
+    name: "Spoon Korean Bistro",
+    address: "933 Ashby Ave, Berkeley",
+    key: "ChIJbx07F_V-hYARasCaNhEeH7k",
+    image_attribution: null
+  },
+  {
+    name: "The Big 4",
+    address: "1075 California Street, San Francisco",
+    key: "ChIJo_6Ueo2AhYARsBQcUwYK84Y",
+    image_attribution: null
+  },
+  {
+    name: "Ben 'N Nick's Bar & Grill",
+    address: "5612 College Ave, Oakland",
+    key: "ChIJU_Lii8J9hYARkeANbwAJWC4",
+    image_attribution: null
+  },
+  {
+    name: "KoJa Kitchen",
+    address: "5959 Shellmound St, Emeryville",
+    key: "ChIJ52aLflt-hYAR4xUfYiog5CE",
+    image_attribution: null
+  },
+  {
+    name: "C CASA Emeryville",
+    address: "5959 Shellmound St, Emeryville",
+    key: "ChIJWYCxf1t-hYARwBO_aufr7n8",
+    image_attribution: null
+  },
+  {
+    name: "T Cup Cafe",
+    address: "3516 Balboa St, San Francisco",
+    key: "ChIJDaYsy6yHhYARj2a2WSOC_eQ",
     image_attribution: null
   },
   {
@@ -10238,22 +10053,17 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Aji",
-    address: "3015 Mission Street, San Francisco",
-    key: "ChIJw9dRqEZ-j4ARQmyxH9N7kfM",
+    name: "Tartine Bakery",
+    address: "600 Guerrero St, San Francisco",
+    key: "ChIJBVY2Bxh-j4ARa2zO8Jd6H2A",
     image_attribution: null
   },
   {
-    name: "Alice's",
-    address: "1599 Sanchez Street, San Francisco",
-    key: "ChIJ3_kUO2l-j4ARSvMC66FNsiY",
-    image_attribution: null
-  },
-  {
-    name: "Trattoria da Vittorio",
-    address: "150 West Portal Avenue, San Francisco",
-    key: "ChIJLc3B6up9j4ARlNvQg09EmAc",
-    image_attribution: null
+    name: "Sunshine Cafe",
+    address: "100 Bush St Suite 110, San Francisco",
+    key: "ChIJTwjnfiaBhYARFiBLipqA944",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/105191897253249906351\">Raquel</a>']"
   },
   {
     name: "Cugini",
@@ -10274,6 +10084,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Elmy\u2019s Egyptian food",
+    address: "Emeryville Greenway, Berkeley",
+    key: "ChIJgWBad-V_hYAR_kbfAMvNlfs",
+    image_attribution: null
+  },
+  {
     name: "Sichuan Style Restaurant",
     address: "1699 Solano Ave, Berkeley",
     key: "ChIJYWdwSYt5hYARiVQRxkbb34M",
@@ -10286,6 +10102,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "TJ Cafe",
+    address: "724 La Playa St, San Francisco",
+    key: "ChIJVSRsPLeHhYARz2V2-YXxEUI",
+    image_attribution: null
+  },
+  {
     name: "Daol Tofu & Korean BBQ",
     address: "4301 Telegraph Ave, Oakland",
     key: "ChIJPUSH9eJ9hYAR3SMZXB2_C1g",
@@ -10295,6 +10117,12 @@ const SFPlaces = [
     name: "Seoul Gom Tang",
     address: "3801 Telegraph Ave, Oakland",
     key: "ChIJJxKBhwd-hYARckeSfiqOiT4",
+    image_attribution: null
+  },
+  {
+    name: "Pizza Joint",
+    address: "3088 Balboa Street, San Francisco",
+    key: "ChIJnyjjKgiHhYARd_zONR67fP4",
     image_attribution: null
   },
   {
@@ -10316,27 +10144,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Maven",
-    address: "598 Haight Street, San Francisco",
-    key: "ChIJxx60jaaAhYARzGGqAIEMSAo",
+    name: "Golden Boy Pizza",
+    address: "542 Green Street, San Francisco",
+    key: "ChIJmx3iW_GAhYARrlV9H2vyE-E",
     image_attribution: null
   },
   {
-    name: "K-Oz",
-    address: "121 7th Street, San Francisco",
-    key: "ChIJG8iwdYOAhYARwULtuhSm08w",
-    image_attribution: null
-  },
-  {
-    name: "Miss Tomato Sandwich Shop",
-    address: "577 Geary Street, San Francisco",
-    key: "ChIJ0Xh9HUeBhYARJCUWJBUL5y8",
-    image_attribution: null
-  },
-  {
-    name: "Muracci's Japanese Curry & Grill",
-    address: "307 Kearny Street, San Francisco",
-    key: "ChIJV28NgImAhYARMynrt6fnJLY",
+    name: "Wildflower Cafe",
+    address: "411 Sansome St, San Francisco",
+    key: "ChIJm_Rm1WGAhYARfTNzfXItvRY",
     image_attribution: null
   },
   {
@@ -10364,51 +10180,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kansai",
-    address: "4345 Telegraph Ave, Oakland",
-    key: "ChIJ3TJBZ-J9hYARdvihd4YKAug",
-    image_attribution: null
-  },
-  {
-    name: "Chef Yu's",
-    address: "4871 Telegraph Ave, Oakland",
-    key: "ChIJW6T7mOF9hYARtfSgLlDr8Dk",
-    image_attribution: null
-  },
-  {
-    name: "Flip N Soul",
-    address: "2101 14th Ave, Oakland",
-    key: "ChIJR2OM1hiHj4ARqzWuBdoADfY",
-    image_attribution: null
-  },
-  {
-    name: "Casa Vallarta",
-    address: "1910 Park Blvd, Oakland",
-    key: "ChIJ0dJz5zuHj4ARMUkrdUBMt2g",
-    image_attribution: null
-  },
-  {
-    name: "Chai Thai Noodles",
-    address: "545 International Blvd, Oakland",
-    key: "ChIJqYtssDqHj4ARogM8aG9JLMY",
-    image_attribution: null
-  },
-  {
     name: "Shakewell",
     address: "3407 Lakeshore Ave, Oakland",
     key: "ChIJV7vU-0GHj4AR8LptmQpSjn8",
-    image_attribution: null
-  },
-  {
-    name: "Irving Subs",
-    address: "1298 12th Avenue, San Francisco",
-    key: "ChIJWS4cQFN-j4ARkpVQTuFcS54",
-    image_attribution: null
-  },
-  {
-    name: "Moffitt Cafe - UCSF Medical Center",
-    address: "505 Parnassus Ave #294, San Francisco",
-    key: "ChIJKW1Q2FmHhYARA-VSVVrVPRo",
     image_attribution: null
   },
   {
@@ -10424,9 +10198,81 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "El Ahorro Market & Deli",
+    address: "3456 Mission Street, San Francisco",
+    key: "ChIJS8yQQF1-j4ARNUxlr6VGkOU",
+    image_attribution: null
+  },
+  {
+    name: "Barons Quality Meats & Seafood",
+    address: "1706 Church St, San Francisco",
+    key: "ChIJ65GV_2h-j4AReTD8R8gdyKI",
+    image_attribution: null
+  },
+  {
+    name: "Kansai",
+    address: "4345 Telegraph Ave, Oakland",
+    key: "ChIJ3TJBZ-J9hYARdvihd4YKAug",
+    image_attribution: null
+  },
+  {
     name: "Brothers",
     address: "10800 Bancroft Ave, Oakland",
     key: "ChIJrQamsXWPj4ARTplHzWKGTwU",
+    image_attribution: null
+  },
+  {
+    name: "Chef Yu's",
+    address: "4871 Telegraph Ave, Oakland",
+    key: "ChIJW6T7mOF9hYARtfSgLlDr8Dk",
+    image_attribution: null
+  },
+  {
+    name: "Royal Ground Coffee",
+    address: "3101 Geary Blvd, San Francisco",
+    key: "ChIJoW3M4jWHhYARS0Sr4Upon1s",
+    image_attribution: null
+  },
+  {
+    name: "Stable Cafe",
+    address: "2128 Folsom St, San Francisco",
+    key: "ChIJDS_j2Tp-j4ARx1SqQlnrP4U",
+    image_attribution: null
+  },
+  {
+    name: "Pharaohs Egyptian Restaurant",
+    address: "608 Geary Street, San Francisco",
+    key: "ChIJlYoOw5GAhYARBX6R9ebYsI8",
+    image_attribution: null
+  },
+  {
+    name: "Flip N Soul",
+    address: "2101 14th Ave, Oakland",
+    key: "ChIJR2OM1hiHj4ARqzWuBdoADfY",
+    image_attribution: null
+  },
+  {
+    name: "Little Heaven",
+    address: "2348 Mission Street, San Francisco",
+    key: "ChIJi8cAbzx-j4ARzaLvDF4TPK8",
+    image_attribution: null
+  },
+  {
+    name: "Casa Vallarta",
+    address: "1910 Park Blvd, Oakland",
+    key: "ChIJ0dJz5zuHj4ARMUkrdUBMt2g",
+    image_attribution: null
+  },
+  {
+    name: "Chai Thai Noodles",
+    address: "545 International Blvd, Oakland",
+    key: "ChIJqYtssDqHj4ARogM8aG9JLMY",
+    image_attribution: null
+  },
+  {
+    name: "Craftsman and Wolves",
+    address: "746 Valencia Street, San Francisco",
+    key: "ChIJc3PCIT1-j4ARgxykctQlAaY",
     image_attribution: null
   },
   {
@@ -10448,33 +10294,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hakkasan San Francisco",
-    address: "1 Kearny Street, San Francisco",
-    key: "ChIJZR1IXIiAhYARVdRHncWNWRY",
-    image_attribution: null
-  },
-  {
-    name: "The Big 4",
-    address: "1075 California Street, San Francisco",
-    key: "ChIJo_6Ueo2AhYARsBQcUwYK84Y",
-    image_attribution: null
-  },
-  {
-    name: "Local Brewing Co.",
-    address: "69 Bluxome Street, San Francisco",
-    key: "ChIJ18pfNdR_j4ARQLskcwCRBt4",
-    image_attribution: ""
-  },
-  {
-    name: "Johnny Foley's Irish House",
-    address: "243 O'Farrell Street, San Francisco",
-    key: "ChIJYQrxFI-AhYARSkQbx58DuHE",
-    image_attribution: null
-  },
-  {
-    name: "In Situ at SFMOMA",
-    address: "151 3rd St, San Francisco",
-    key: "ChIJBTVtZn2AhYAR-XJGS0SYh-w",
+    name: "Bangkok Thai Cuisine",
+    address: "1459 University Ave, Berkeley",
+    key: "ChIJ8zIb8pV-hYARV12roK18zuI",
     image_attribution: null
   },
   {
@@ -10484,99 +10306,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "London Bar & Grill",
-    address: "London Bar & Grill, 195 Hegenberger Rd, Oakland",
-    key: "ChIJ154o4TaFj4ARNalqY3WoyAY",
-    image_attribution: null
-  },
-  {
-    name: "Skates On The Bay",
-    address: "100 Seawall Dr, Berkeley",
-    key: "ChIJjU9u7SN_hYARmRvUMMDgJXw",
-    image_attribution: null
-  },
-  {
     name: "Paulista Brazilian Kitchen and Taproom",
     address: "4239 Park Blvd, Oakland",
     key: "ChIJx7D5mQmHj4ARR1llKeRu4F8",
-    image_attribution: null
-  },
-  {
-    name: "Marzano",
-    address: "4214 Park Blvd, Oakland",
-    key: "ChIJ1xIdowmHj4ARrsuKQkF7lOs",
-    image_attribution: null
-  },
-  {
-    name: "HegenBurger",
-    address: "280 Hegenberger Rd, Oakland",
-    key: "ChIJRyt0mqKFj4ARHYaK49GjW04",
-    image_attribution: null
-  },
-  {
-    name: "India Palace",
-    address: "737 Buena Vista Ave, Alameda",
-    key: "ChIJT7FkPCiBj4ARlAhfXSpFJCQ",
-    image_attribution: null
-  },
-  {
-    name: "Otaez",
-    address: "1619 Webster St, Alameda",
-    key: "ChIJM5Lh1yeBj4ARqXfI5f2BL-Y",
-    image_attribution: null
-  },
-  {
-    name: "Calafia Taqueria",
-    address: "1445 Webster St, Alameda",
-    key: "ChIJeXIZ_iWBj4ARQqTfL67Oglw",
-    image_attribution: null
-  },
-  {
-    name: "Wood Tavern",
-    address: "6317 College Ave, Oakland",
-    key: "ChIJd-5k--h9hYARvAzf0IPfwW0",
-    image_attribution: null
-  },
-  {
-    name: "Great Wall",
-    address: "6247 College Ave, Oakland",
-    key: "ChIJpeUuGMV9hYARoRsZ7FWmbbs",
-    image_attribution: null
-  },
-  {
-    name: "Black Cat",
-    address: "400 Eddy Street, San Francisco",
-    key: "ChIJdevbbZCAhYAReFUMOY282-Y",
-    image_attribution: null
-  },
-  {
-    name: "Ten-Ichi Restaurant & Sushi Bar",
-    address: "2235 Fillmore Street, San Francisco",
-    key: "ChIJzWczFMaAhYARrSddKj5Kqmw",
-    image_attribution: null
-  },
-  {
-    name: "BiteUnite",
-    address: "600 South Van Ness Avenue, San Francisco",
-    key: "ChIJYTHR3nN_j4ARkpU10GBGgTY",
-    image_attribution: null
-  },
-  {
-    name: "Indulgence Tea Bar",
-    address: "1490 Ocean Avenue Suite #1, San Francisco",
-    key: "ChIJ-bwGgtZ9j4ARpB7Z11Laa90",
-    image_attribution: null
-  },
-  {
-    name: "Sushi Park",
-    address: "4209 Park Blvd, Oakland",
-    key: "ChIJHZTeoQmHj4AR98rnL0sSDZo",
-    image_attribution: null
-  },
-  {
-    name: "Bangkok Thai Cuisine",
-    address: "1459 University Ave, Berkeley",
-    key: "ChIJ8zIb8pV-hYARV12roK18zuI",
     image_attribution: null
   },
   {
@@ -10592,57 +10324,123 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wood Tavern",
+    address: "6317 College Ave, Oakland",
+    key: "ChIJd-5k--h9hYARvAzf0IPfwW0",
+    image_attribution: null
+  },
+  {
+    name: "Great Wall",
+    address: "6247 College Ave, Oakland",
+    key: "ChIJpeUuGMV9hYARoRsZ7FWmbbs",
+    image_attribution: null
+  },
+  {
+    name: "Skates On The Bay",
+    address: "100 Seawall Dr, Berkeley",
+    key: "ChIJjU9u7SN_hYARmRvUMMDgJXw",
+    image_attribution: null
+  },
+  {
+    name: "Angler",
+    address: "132 The Embarcadero, San Francisco",
+    key: "ChIJgURgKGuBhYARMIlKBN79aOQ",
+    image_attribution: null
+  },
+  {
+    name: "Marzano",
+    address: "4214 Park Blvd, Oakland",
+    key: "ChIJ1xIdowmHj4ARrsuKQkF7lOs",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Park",
+    address: "4209 Park Blvd, Oakland",
+    key: "ChIJHZTeoQmHj4AR98rnL0sSDZo",
+    image_attribution: null
+  },
+  {
+    name: "The Slanted Door",
+    address: "One Ferry Building #3, San Francisco",
+    key: "ChIJWTGPjmaAhYARnYsfhjHT8JM",
+    image_attribution: null
+  },
+  {
+    name: "London Bar & Grill",
+    address: "London Bar & Grill, 195 Hegenberger Rd, Oakland",
+    key: "ChIJ154o4TaFj4ARNalqY3WoyAY",
+    image_attribution: null
+  },
+  {
+    name: "HegenBurger",
+    address: "280 Hegenberger Rd, Oakland",
+    key: "ChIJRyt0mqKFj4ARHYaK49GjW04",
+    image_attribution: null
+  },
+  {
+    name: "India Palace",
+    address: "737 Buena Vista Ave, Alameda",
+    key: "ChIJT7FkPCiBj4ARlAhfXSpFJCQ",
+    image_attribution: null
+  },
+  {
+    name: "Le Soleil",
+    address: "2419, 133 Clement Street, San Francisco",
+    key: "ChIJc6a9gTmHhYARF-BzkuM-YwY",
+    image_attribution: null
+  },
+  {
+    name: "Oscar's Burger & Deli",
+    address: "1850 Cesar Chavez, San Francisco",
+    key: "ChIJ928P4q1_j4AR5njlMc4SxWg",
+    image_attribution: null
+  },
+  {
+    name: "Otaez",
+    address: "1619 Webster St, Alameda",
+    key: "ChIJM5Lh1yeBj4ARqXfI5f2BL-Y",
+    image_attribution: null
+  },
+  {
+    name: "Calafia Taqueria",
+    address: "1445 Webster St, Alameda",
+    key: "ChIJeXIZ_iWBj4ARQqTfL67Oglw",
+    image_attribution: null
+  },
+  {
+    name: "Big Cheese",
+    address: "2194 Edison Ave, San Leandro",
+    key: "ChIJb_MDz3CFj4AR2KQ_HmnePZ0",
+    image_attribution: null
+  },
+  {
     name: "Taps and Takeout",
     address: "5736 Thornhill Dr, Oakland",
     key: "ChIJhz_9YSB9hYARAW4erMiPbN0",
     image_attribution: null
   },
   {
-    name: "Cafe La Fong's",
-    address: "5885 Bancroft Ave, Oakland",
-    key: "ChIJQ6coAwyGj4ARPUUstt0BSdI",
+    name: "Pinhole Coffee",
+    address: "231 Cortland Ave, San Francisco",
+    key: "ChIJe2NYDlx-j4ARKQZMDlIwcPA",
     image_attribution: null
   },
   {
-    name: "Cassave",
-    address: "5412 San Pablo Ave, Emeryville",
-    key: "ChIJDW_RA2x-hYARnY9I8sKr1co",
+    name: "Seokyo",
+    address: "1740 Church Street, San Francisco",
+    key: "ChIJVYvBV2h-j4ARlMRmwpYCyW4",
     image_attribution: null
   },
   {
-    name: "House of Prime Rib",
-    address: "1906 Van Ness Avenue, San Francisco",
-    key: "ChIJg67caeqAhYAR2UQjKb1a8j4",
+    name: "El Porte\u00f1o Empanadas",
+    address: "Ferry Building, Ferry Building Marketplace 1, #53, San Francisco",
+    key: "ChIJuQFUy02Aj4ARoaOaNCQq7Oc",
     image_attribution: null
   },
   {
-    name: "Townhouse Bar & Grill",
-    address: "5862 Doyle St, Emeryville",
-    key: "ChIJHRjHBmh-hYARHG0RTy5OqlU",
-    image_attribution: null
-  },
-  {
-    name: "The Bureau 510",
-    address: "5800 Hollis St, Emeryville",
-    key: "ChIJqwOkyUJ-hYARqQ8rS_LU7Ug",
-    image_attribution: null
-  },
-  {
-    name: "Krispy Krunchy Chicken",
-    address: "4280 Foothill Blvd, Oakland",
-    key: "ChIJnTFz9GaGj4ARGW6KyCNOW1o",
-    image_attribution: null
-  },
-  {
-    name: "Doyle Street Cafe",
-    address: "5515 Doyle St #10, Emeryville",
-    key: "ChIJDxmxxml-hYARTW8Bc2N3tkw",
-    image_attribution: null
-  },
-  {
-    name: "Restaurante San Vicente",
-    address: "4423 Mission Street, San Francisco",
-    key: "ChIJc9adooV-j4ARHEe1hF7v4kM",
+    name: "Kusina Ni Tess",
+    address: "237 Ellis Street, San Francisco",
+    key: "ChIJKWzqnI-AhYARKfm-fu3tCM4",
     image_attribution: null
   },
   {
@@ -10658,9 +10456,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Krispy Krunchy Chicken",
+    address: "4280 Foothill Blvd, Oakland",
+    key: "ChIJnTFz9GaGj4ARGW6KyCNOW1o",
+    image_attribution: null
+  },
+  {
+    name: "China Express",
+    address: "4425 Foothill Blvd, Oakland",
+    key: "ChIJl3_GiWaGj4AR1VHQb4GohHs",
+    image_attribution: null
+  },
+  {
+    name: "4505 Burgers & BBQ MacArthur",
+    address: "3506 MacArthur Blvd, Oakland",
+    key: "ChIJn1ms-ROHj4ARBKNnQ--v80w",
+    image_attribution: null
+  },
+  {
+    name: "Flour + Water",
+    address: "2401 Harrison St, San Francisco",
+    key: "ChIJDVaCXjd-j4AR4AOGUS0kLGc",
+    image_attribution: null
+  },
+  {
+    name: "Cafe La Fong's",
+    address: "5885 Bancroft Ave, Oakland",
+    key: "ChIJQ6coAwyGj4ARPUUstt0BSdI",
+    image_attribution: null
+  },
+  {
     name: "Lucky Dragon Cafe",
     address: "6928 International Blvd, Oakland",
     key: "ChIJFQRsb-SFj4ARobiGXoKaDPk",
+    image_attribution: null
+  },
+  {
+    name: "Cassave",
+    address: "5412 San Pablo Ave, Emeryville",
+    key: "ChIJDW_RA2x-hYARnY9I8sKr1co",
     image_attribution: null
   },
   {
@@ -10676,81 +10510,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Townhouse Bar & Grill",
+    address: "5862 Doyle St, Emeryville",
+    key: "ChIJHRjHBmh-hYARHG0RTy5OqlU",
+    image_attribution: null
+  },
+  {
     name: "Bucket O' Crawfish",
     address: "1919 Webster St, Alameda",
     key: "ChIJs7t9H9iAj4ARRnQV1HMgnZI",
     image_attribution: null
   },
   {
-    name: "K's Kitchen",
-    address: "757 Monterey Boulevard, San Francisco",
-    key: "ChIJX4ksLdd9j4ARJUgFBJuHVZ0",
+    name: "The Bureau 510",
+    address: "5800 Hollis St, Emeryville",
+    key: "ChIJqwOkyUJ-hYARqQ8rS_LU7Ug",
     image_attribution: null
   },
   {
-    name: "China Express",
-    address: "4425 Foothill Blvd, Oakland",
-    key: "ChIJl3_GiWaGj4AR1VHQb4GohHs",
-    image_attribution: null
-  },
-  {
-    name: "Big Cheese",
-    address: "2194 Edison Ave, San Leandro",
-    key: "ChIJb_MDz3CFj4AR2KQ_HmnePZ0",
-    image_attribution: null
-  },
-  {
-    name: "4505 Burgers & BBQ MacArthur",
-    address: "3506 MacArthur Blvd, Oakland",
-    key: "ChIJn1ms-ROHj4ARBKNnQ--v80w",
-    image_attribution: null
-  },
-  {
-    name: "Vulcan Thai Cafe",
-    address: "915 45th Ave, Oakland",
-    key: "ChIJJdcLFGOGj4ARPFW59totTJw",
-    image_attribution: null
-  },
-  {
-    name: "Tacos Guadalajara",
-    address: "4400 International Blvd, Oakland",
-    key: "ChIJL6J5EmSGj4ARJe4RS0wm45M",
-    image_attribution: null
-  },
-  {
-    name: "Dong Bei Mama",
-    address: "4737 Geary Boulevard, San Francisco",
-    key: "ChIJ2bHADhaHhYARCU4SBQ4m1l0",
-    image_attribution: null
-  },
-  {
-    name: "Safeway Bakery",
-    address: "San Francisco",
-    key: "ChIJ03uRyEJ-j4ARdOCt5WjVvl0",
-    image_attribution: null
-  },
-  {
-    name: "Fuji Japanese Restaurant",
-    address: "301 West Portal Avenue, San Francisco",
-    key: "ChIJZwWIqep9j4ARyCmanJ5XMS4",
+    name: "Doyle Street Cafe",
+    address: "5515 Doyle St #10, Emeryville",
+    key: "ChIJDxmxxml-hYARTW8Bc2N3tkw",
     image_attribution: null
   },
   {
     name: "Terra Cotta Warrior",
     address: "2555 Judah Street, San Francisco",
     key: "ChIJyW46mXeHhYAR1Gn4lfm6ggk",
-    image_attribution: null
-  },
-  {
-    name: "Specs Cafe",
-    address: "270 Columbus Ave, San Francisco",
-    key: "ChIJV-r9YvSAhYARsF54sNq1LaY",
-    image_attribution: null
-  },
-  {
-    name: "La Briciola",
-    address: "489 3rd Street, San Francisco",
-    key: "ChIJLdgyKn-AhYARfDmZT90FJj4",
     image_attribution: null
   },
   {
@@ -10766,9 +10552,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cafe Jacqueline",
+    address: "1454 Grant Avenue, San Francisco",
+    key: "ChIJaQylTvGAhYARhBlITbQgjvY",
+    image_attribution: null
+  },
+  {
+    name: "Dinosaurs",
+    address: "2275 Market Street, San Francisco",
+    key: "ChIJ3fyEjqeAj4ARtLKCgtCC7AY",
+    image_attribution: null
+  },
+  {
+    name: "Frascati",
+    address: "1901 Hyde Street, San Francisco",
+    key: "ChIJmbQ_KOmAhYARP1wHNFZqj6w",
+    image_attribution: null
+  },
+  {
+    name: "Reina's",
+    address: "9102 International Blvd, Oakland",
+    key: "ChIJZWvozWGPj4ARCdXhOEi9tSY",
+    image_attribution: null
+  },
+  {
     name: "Dan Sung Sa Restaurant",
     address: "2775 Telegraph Ave, Oakland",
     key: "ChIJn6VZ9KqAj4ARw-ijNrCVDJk",
+    image_attribution: null
+  },
+  {
+    name: "Sombrerito LoCo",
+    address: "9101 International Blvd, Oakland",
+    key: "ChIJFV5b0WGPj4ARd5hhy_Sohdg",
+    image_attribution: null
+  },
+  {
+    name: "Chug Pub",
+    address: "1849 Lincoln Way, San Francisco",
+    key: "ChIJE1f9pW-HhYARGVLA7z1Haqo",
+    image_attribution: null
+  },
+  {
+    name: "Selam",
+    address: "2786 Martin Luther King Jr Way, Oakland",
+    key: "ChIJLQJqnx1_hYARp6SFA0vyutw",
+    image_attribution: null
+  },
+  {
+    name: "Vulcan Thai Cafe",
+    address: "915 45th Ave, Oakland",
+    key: "ChIJJdcLFGOGj4ARPFW59totTJw",
     image_attribution: null
   },
   {
@@ -10784,21 +10618,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chengdu Style Restaurant",
-    address: "2600 Bancroft Way, Berkeley",
-    key: "ChIJy1auni98hYARQDFWA4zfgbQ",
-    image_attribution: null
+    name: "Harmonic Brewing",
+    address: "1050 26th St, San Francisco",
+    key: "ChIJ64NUX6V_j4ARlAbEmJ8d_G4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103411044624706598926\">Harmonic Brewing</a>']"
   },
   {
-    name: "Brothers Restaurant",
-    address: "4128 Geary Boulevard, San Francisco",
-    key: "ChIJuVgntT6HhYARv2VnL-7xGdM",
-    image_attribution: null
-  },
-  {
-    name: "Aditi Indian Cuisine",
-    address: "1101 Valencia St, San Francisco",
-    key: "ChIJpeMuPjl_j4ARvvrDR0jRVb4",
+    name: "Tacos Guadalajara",
+    address: "4400 International Blvd, Oakland",
+    key: "ChIJL6J5EmSGj4ARJe4RS0wm45M",
     image_attribution: null
   },
   {
@@ -10808,21 +10637,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Selam",
-    address: "2786 Martin Luther King Jr Way, Oakland",
-    key: "ChIJLQJqnx1_hYARp6SFA0vyutw",
-    image_attribution: null
-  },
-  {
-    name: "Reina's",
-    address: "9102 International Blvd, Oakland",
-    key: "ChIJZWvozWGPj4ARCdXhOEi9tSY",
-    image_attribution: null
-  },
-  {
-    name: "Sombrerito LoCo",
-    address: "9101 International Blvd, Oakland",
-    key: "ChIJFV5b0WGPj4ARd5hhy_Sohdg",
+    name: "Chengdu Style Restaurant",
+    address: "2600 Bancroft Way, Berkeley",
+    key: "ChIJy1auni98hYARQDFWA4zfgbQ",
     image_attribution: null
   },
   {
@@ -10832,69 +10649,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "King Dong",
-    address: "2429 Shattuck Ave, Berkeley",
-    key: "ChIJyXV_woJ-hYARHzdvfddcOzs",
+    name: "Wok This Way",
+    address: "560 Balboa Street, San Francisco",
+    key: "ChIJAzTZXj-HhYAR4Yn0f3VPb0U",
     image_attribution: null
   },
   {
-    name: "El Pollo Loco",
-    address: "2506 International Blvd, Oakland",
-    key: "ChIJqXnab-WGj4ARFFoYYTaBDbw",
+    name: "Bella Trattoria",
+    address: "3854 Geary Boulevard, San Francisco",
+    key: "ChIJZzXiBzmHhYARipcxKBQpZrY",
     image_attribution: null
   },
   {
-    name: "Poke Bowl",
-    address: "1250 Ocean Avenue, San Francisco",
-    key: "ChIJOxF459J9j4ARw_gWwomBA6Y",
+    name: "Proposition Chicken",
+    address: "1750 Market Street, San Francisco",
+    key: "ChIJSfkAlJ-AhYARALd1Qd9gz3o",
     image_attribution: null
   },
   {
-    name: "Tacos El Grullo",
-    address: "27th Ave, Oakland",
-    key: "ChIJqV5THPCGj4ARTpEoj8R1dl0",
-    image_attribution: null
-  },
-  {
-    name: "Los Olivos",
-    address: "3010 Foothill Blvd, Oakland",
-    key: "ChIJxyale_eGj4ARZLagfr6iD40",
-    image_attribution: null
-  },
-  {
-    name: "Zino",
-    address: "2086 Allston Way, Berkeley",
-    key: "ChIJI76zTZx-hYARbzwT8FepDZQ",
-    image_attribution: null
-  },
-  {
-    name: "La grana fish",
-    address: "865 50th Ave, Oakland",
-    key: "ChIJPZi58KGHj4ARhm4e92rNlLA",
-    image_attribution: null
-  },
-  {
-    name: "Wikiwiki Hawaiian BBQ",
-    address: "2417 Shattuck Ave, Berkeley",
-    key: "ChIJiSlfw4J-hYARzO2dn5KvI6o",
-    image_attribution: null
-  },
-  {
-    name: "Monkey Thai",
-    address: "1930 Main St, Alameda",
-    key: "ChIJD90p4uaAj4ARvQgJVyFUHt0",
-    image_attribution: null
-  },
-  {
-    name: "Izzy's",
-    address: "3345 Steiner Street, San Francisco",
-    key: "ChIJJSmfKNeAhYARaqTS4LM9PKI",
-    image_attribution: null
-  },
-  {
-    name: "Sessions at the Presidio",
-    address: "1 Letterman Drive, San Francisco",
-    key: "ChIJFY3FHiuHhYARJDeueGzvhk0",
+    name: "Tijuana | M\u00e9xican Seafood Restaurant",
+    address: "1308 International Blvd, Oakland",
+    key: "ChIJzwEaPSGHj4ARtRvZ8hjuhAg",
     image_attribution: null
   },
   {
@@ -10910,15 +10685,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "El Pollo Loco",
+    address: "2506 International Blvd, Oakland",
+    key: "ChIJqXnab-WGj4ARFFoYYTaBDbw",
+    image_attribution: null
+  },
+  {
+    name: "Tacos El Grullo",
+    address: "27th Ave, Oakland",
+    key: "ChIJqV5THPCGj4ARTpEoj8R1dl0",
+    image_attribution: null
+  },
+  {
     name: "Annapurna Restaurant & Bar",
     address: "948 Clay St, Oakland",
     key: "ChIJ00g7yrCAj4ARSt_jXKOttqo",
     image_attribution: null
   },
   {
-    name: "Tijuana | M\u00e9xican Seafood Restaurant",
-    address: "1308 International Blvd, Oakland",
-    key: "ChIJzwEaPSGHj4ARtRvZ8hjuhAg",
+    name: "Los Olivos",
+    address: "3010 Foothill Blvd, Oakland",
+    key: "ChIJxyale_eGj4ARZLagfr6iD40",
+    image_attribution: null
+  },
+  {
+    name: "Monkey Thai",
+    address: "1930 Main St, Alameda",
+    key: "ChIJD90p4uaAj4ARvQgJVyFUHt0",
     image_attribution: null
   },
   {
@@ -10940,45 +10733,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "La Reyna Bakery & Coffee Shop",
-    address: "3114 24th Street, San Francisco",
-    key: "ChIJESJJsUd-j4ARmw7zig84E0I",
+    name: "King Dong",
+    address: "2429 Shattuck Ave, Berkeley",
+    key: "ChIJyXV_woJ-hYARHzdvfddcOzs",
     image_attribution: null
   },
   {
-    name: "Taqueria La Mejor",
-    address: "3411 High St, Oakland",
-    key: "ChIJ-RngYz-Gj4ARp7HrCxMfu04",
+    name: "Zino",
+    address: "2086 Allston Way, Berkeley",
+    key: "ChIJI76zTZx-hYARbzwT8FepDZQ",
     image_attribution: null
   },
   {
-    name: "Pasta Pelican Restaurant",
-    address: "2455 Mariner Square Dr, Alameda",
-    key: "ChIJz0oj-8WAj4AR-Nw-wbd02hQ",
-    image_attribution: null
-  },
-  {
-    name: "Jin Sing",
-    address: "2068 35th Ave, Oakland",
-    key: "ChIJO6PHBlmGj4AR-wDVUTD22-A",
-    image_attribution: null
-  },
-  {
-    name: "Famous Dave's Bar-B-Que",
-    address: "2690 5th St ste b, Alameda",
-    key: "ChIJz4V0Q8SAj4ARUEexwS5zxIU",
-    image_attribution: null
-  },
-  {
-    name: "Koja Kitchen",
-    address: "2680 5th St ste d, Alameda",
-    key: "ChIJQcz8wcSAj4ARdx9-DcQ3YkE",
-    image_attribution: null
-  },
-  {
-    name: "La Corneta Taqueria",
-    address: "2731 Mission Street, San Francisco",
-    key: "ChIJn1dOVT9-j4ARuHZUI1PWedE",
+    name: "Wikiwiki Hawaiian BBQ",
+    address: "2417 Shattuck Ave, Berkeley",
+    key: "ChIJiSlfw4J-hYARzO2dn5KvI6o",
     image_attribution: null
   },
   {
@@ -10988,27 +10757,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Pretty Lady",
+    address: "1733 Peralta St, Oakland",
+    key: "ChIJEYZ_GSF-hYAR4MAj5MYOfis",
+    image_attribution: null
+  },
+  {
     name: "Rick & Ann's Restaurant",
     address: "2922 Domingo Ave, Berkeley",
     key: "ChIJ4RFe8sl9hYARBEIC4MggivE",
-    image_attribution: null
-  },
-  {
-    name: "La Paz",
-    address: "1028 Potrero Avenue, San Francisco",
-    key: "ChIJD6TqIUp-j4AR58frnCUPuMM",
-    image_attribution: null
-  },
-  {
-    name: "Comida China",
-    address: "2066 35th Ave, Oakland",
-    key: "ChIJLcPrAFmGj4ARqulDr01dlso",
-    image_attribution: null
-  },
-  {
-    name: "La Casita",
-    address: "3659 Foothill Blvd, Oakland",
-    key: "ChIJW6peF1-Gj4ARMgPpb9RYtGg",
     image_attribution: null
   },
   {
@@ -11018,33 +10775,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fountain Garden",
-    address: "3836 MacArthur Blvd #1315, Oakland",
-    key: "ChIJe09S7keGj4ARBySfUPuFZIg",
-    image_attribution: null
-  },
-  {
-    name: "E Tea",
-    address: "5344 Geary Boulevard, San Francisco",
-    key: "ChIJIZHXHRGHhYARhu4YDts1cuY",
-    image_attribution: null
-  },
-  {
-    name: "Pretty Lady",
-    address: "1733 Peralta St, Oakland",
-    key: "ChIJEYZ_GSF-hYAR4MAj5MYOfis",
-    image_attribution: null
-  },
-  {
     name: "Claremont Club & Spa - A Fairmont Hotel",
     address: "41 Tunnel Rd, Berkeley",
     key: "ChIJUZZ3F7Z9hYARjWG2iXRboAk",
     image_attribution: null
   },
   {
-    name: "Grinders Pizzeria",
-    address: "448 Balboa Street, San Francisco",
-    key: "ChIJ4xXdqkCHhYARkbIXAYG-hpQ",
+    name: "Fountain Garden",
+    address: "3836 MacArthur Blvd #1315, Oakland",
+    key: "ChIJe09S7keGj4ARBySfUPuFZIg",
     image_attribution: null
   },
   {
@@ -11060,9 +10799,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Shirasoni Japanese Restaurant",
-    address: "2660 5th St, Alameda",
-    key: "ChIJg2-nJcWAj4AR8klmjD_fF7A",
+    name: "Pasta Pelican Restaurant",
+    address: "2455 Mariner Square Dr, Alameda",
+    key: "ChIJz0oj-8WAj4AR-Nw-wbd02hQ",
     image_attribution: null
   },
   {
@@ -11072,64 +10811,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sit & Stay Cafe",
-    address: "2701 Isabel St, Richmond",
-    key: "ChIJ_YY49uh4hYARdEIEncEUtTo",
+    name: "Famous Dave's Bar-B-Que",
+    address: "2690 5th St ste b, Alameda",
+    key: "ChIJz4V0Q8SAj4ARUEexwS5zxIU",
     image_attribution: null
   },
   {
-    name: "Taqueria El Salva Mex",
-    address: "11252 San Pablo Ave, El Cerrito",
-    key: "ChIJ8YFSo1V4hYARnj_hzV_wUUA",
+    name: "Taqueria La Mejor",
+    address: "3411 High St, Oakland",
+    key: "ChIJ-RngYz-Gj4ARp7HrCxMfu04",
     image_attribution: null
   },
   {
-    name: "Los Moles Beer Garden",
-    address: "6120 Potrero Ave, El Cerrito",
-    key: "ChIJwXEhK1R4hYARc9pJZwvsGUQ",
+    name: "Jin Sing",
+    address: "2068 35th Ave, Oakland",
+    key: "ChIJO6PHBlmGj4AR-wDVUTD22-A",
     image_attribution: null
   },
   {
-    name: "Mockingbird",
-    address: "416 13th St, Oakland",
-    key: "ChIJKZVMIK6Aj4ARJ6K5sFETscU",
+    name: "Frena Bakery and Caf\u00e9",
+    address: "132 6th Street, San Francisco",
+    key: "ChIJ42NwCoSAhYARdR6onVu5cl8",
     image_attribution: null
   },
   {
-    name: "Xolo",
-    address: "1916 Telegraph Ave, Oakland",
-    key: "ChIJm_SgdLKAj4ARFZbKlfEhGB4",
+    name: "Beit Rima",
+    address: "86 Carl Street, San Francisco",
+    key: "ChIJpZVljQ6HhYAR9TLkl6ziY_g",
+    image_attribution: ""
+  },
+  {
+    name: "Cafe Reverie",
+    address: "848 Cole St, San Francisco",
+    key: "ChIJJz9KXFSHhYARKuTx7XrA5k4",
     image_attribution: null
   },
   {
-    name: "Ramen Underground",
-    address: "356 Kearny Street, San Francisco",
-    key: "ChIJyyQu04uAhYARXVI2yERHvEk",
+    name: "Comida China",
+    address: "2066 35th Ave, Oakland",
+    key: "ChIJLcPrAFmGj4ARqulDr01dlso",
     image_attribution: null
   },
   {
-    name: "The Cakemaker",
-    address: "509 Laguna Street, San Francisco",
-    key: "ChIJgaweOKKAhYARwJy6kEGt0Ck",
+    name: "La Casita",
+    address: "3659 Foothill Blvd, Oakland",
+    key: "ChIJW6peF1-Gj4ARMgPpb9RYtGg",
     image_attribution: null
   },
   {
-    name: "Swirl On Castro",
-    address: "572 Castro St, San Francisco",
-    key: "ChIJERrc0xp-j4AR2gk76rDMIfE",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/104390914659004769007\">Shelly Puri</a>']"
-  },
-  {
-    name: "Tacos Los Amigos",
-    address: "5401 International Blvd, Oakland",
-    key: "ChIJIfN6RXGGj4ARRMLi1C1pJTc",
+    name: "Koja Kitchen",
+    address: "2680 5th St ste d, Alameda",
+    key: "ChIJQcz8wcSAj4ARdx9-DcQ3YkE",
     image_attribution: null
   },
   {
-    name: "Charlie's Las Palmas",
-    address: "6215 International Blvd, Oakland",
-    key: "ChIJy6VyqgqGj4ARBZh-rnW6h00",
+    name: "Shirasoni Japanese Restaurant",
+    address: "2660 5th St, Alameda",
+    key: "ChIJg2-nJcWAj4AR8klmjD_fF7A",
     image_attribution: null
   },
   {
@@ -11151,57 +10889,106 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Sit & Stay Cafe",
+    address: "2701 Isabel St, Richmond",
+    key: "ChIJ_YY49uh4hYARdEIEncEUtTo",
+    image_attribution: null
+  },
+  {
+    name: "Kim Son Restaurant",
+    address: "3614 Balboa Street, San Francisco",
+    key: "ChIJH2V64qWHhYARadWxyXw69gU",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria El Salva Mex",
+    address: "11252 San Pablo Ave, El Cerrito",
+    key: "ChIJ8YFSo1V4hYARnj_hzV_wUUA",
+    image_attribution: null
+  },
+  {
     name: "Tsuru Sushi Japanese Restaurant",
     address: "1427 E 14th St, San Leandro",
     key: "ChIJi-vo1JWPj4ARuwI_4almwtE",
     image_attribution: null
   },
   {
-    name: "Nari",
-    address: "1625 Post Street, San Francisco",
-    key: "ChIJCf9p82aBhYARQolIoRsK6fE",
+    name: "Los Moles Beer Garden",
+    address: "6120 Potrero Ave, El Cerrito",
+    key: "ChIJwXEhK1R4hYARc9pJZwvsGUQ",
     image_attribution: null
   },
   {
-    name: "Lunchpad",
-    address: "581 Hayes Street, San Francisco",
-    key: "ChIJE5tVQqKAhYARJu7MzfPGZS0",
+    name: "Mockingbird",
+    address: "416 13th St, Oakland",
+    key: "ChIJKZVMIK6Aj4ARJ6K5sFETscU",
     image_attribution: null
   },
   {
-    name: "Muddy Waters Coffee House",
-    address: "521 Valencia St, San Francisco",
-    key: "ChIJHUI7VyJ-j4AR_EMCPNPpgKU",
+    name: "Nickies",
+    address: "466 Haight Street, San Francisco",
+    key: "ChIJ3UgDy6aAhYARdyIqpQ7ZoxU",
     image_attribution: null
   },
   {
-    name: "Tops Cafe",
-    address: "2460 San Bruno Avenue, San Francisco",
-    key: "ChIJEUvb8Px-j4AR4zBpLCfYI4U",
+    name: "Xolo",
+    address: "1916 Telegraph Ave, Oakland",
+    key: "ChIJm_SgdLKAj4ARFZbKlfEhGB4",
     image_attribution: null
   },
   {
-    name: "Diamond Cafe",
-    address: "751 Diamond St, San Francisco",
-    key: "ChIJwwBtkg1-j4ARNAU_kCNTPy8",
+    name: "Tacos Los Amigos",
+    address: "5401 International Blvd, Oakland",
+    key: "ChIJIfN6RXGGj4ARRMLi1C1pJTc",
     image_attribution: null
   },
   {
-    name: "Hana Japan Steak and Seafood",
-    address: "235 University Ave, Berkeley",
-    key: "ChIJOSKAed9-hYARhZt0XIUsapc",
+    name: "Cafe XO",
+    address: "1799 Church St, San Francisco",
+    key: "ChIJhUFlZGh-j4ARl4LAaOShSH8",
     image_attribution: null
   },
   {
-    name: "The Berkeley Boathouse",
-    address: "200 Marina Blvd, Berkeley",
-    key: "ChIJT2Ve-CZ_hYARwb2ePKebUjk",
+    name: "Simple Pleasures Cafe",
+    address: "3434 Balboa St, San Francisco",
+    key: "ChIJgT8-R6aHhYARhSQG4Voq6L8",
     image_attribution: null
   },
   {
-    name: "Seabreez",
-    address: "598 University Ave, Berkeley",
-    key: "ChIJTW9Qr91-hYAR7Xh-M_ImhEg",
+    name: "La Cocina",
+    address: "2948 Folsom St, San Francisco",
+    key: "ChIJhTCodEZ-j4ARNHaiPHM5V3s",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102918590007725582616\">La Cocina</a>']"
+  },
+  {
+    name: "Charlie's Las Palmas",
+    address: "6215 International Blvd, Oakland",
+    key: "ChIJy6VyqgqGj4ARBZh-rnW6h00",
+    image_attribution: null
+  },
+  {
+    name: "Dumpling Kitchen",
+    address: "1935 Taraval Street, San Francisco",
+    key: "ChIJL9XQWoN9j4AR3OmpgFyKdmE",
+    image_attribution: null
+  },
+  {
+    name: "Parkside Tavern",
+    address: "1940 Taraval Street, San Francisco",
+    key: "ChIJJzo6Q4N9j4ARb4Z2slkuBrk",
+    image_attribution: null
+  },
+  {
+    name: "Black Hammer Brewing",
+    address: "2196 Market Street, San Francisco",
+    key: "ChIJ2RQOvLB_j4ARYpJdbvTIvgk",
+    image_attribution: null
+  },
+  {
+    name: "Pete's Deli & Cafe",
+    address: "1661 Divisadero St, San Francisco",
+    key: "ChIJc2lX4cmAhYARLGu4e5KsBfE",
     image_attribution: null
   },
   {
@@ -11217,21 +11004,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Roam Artisan Burgers",
-    address: "1923 Fillmore St, San Francisco",
-    key: "ChIJ8aZslMeAhYARk2BJNvkVPyc",
-    image_attribution: null
-  },
-  {
-    name: "Casa Mexicana",
-    address: "180 Church Street, San Francisco",
-    key: "ChIJufsHDR5-j4ARKyCMbqVKFmQ",
-    image_attribution: null
-  },
-  {
-    name: "Magic Flute",
-    address: "3673 Sacramento Street, San Francisco",
-    key: "ChIJc9sNcDGHhYARHkp86UcN5Gk",
+    name: "Fiorella Clement",
+    address: "2339 Clement St, San Francisco",
+    key: "ChIJ1XM-lgWHhYARFtVFjLm3ldM",
     image_attribution: null
   },
   {
@@ -11259,27 +11034,21 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "North Beach Pizza",
-    address: "1598 University Ave, Berkeley",
-    key: "ChIJyYoUTpZ-hYARzkyKDnO_0b0",
+    name: "Hana Japan Steak and Seafood",
+    address: "235 University Ave, Berkeley",
+    key: "ChIJOSKAed9-hYARhZt0XIUsapc",
     image_attribution: null
   },
   {
-    name: "Nash Caf\u00e9",
-    address: "2047 University Ave, Berkeley",
-    key: "ChIJozFb6J5-hYARLC5givWxK9Y",
+    name: "The Berkeley Boathouse",
+    address: "200 Marina Blvd, Berkeley",
+    key: "ChIJT2Ve-CZ_hYARwb2ePKebUjk",
     image_attribution: null
   },
   {
-    name: "Barbarian grub and ale",
-    address: "2012 Shattuck Ave, Berkeley",
-    key: "ChIJu64WjJ5-hYARU0amRDij4lY",
-    image_attribution: null
-  },
-  {
-    name: "Ming's Diner",
-    address: "2129 Taraval Street, San Francisco",
-    key: "ChIJ45GTH4N9j4AROdGW-njZYu0",
+    name: "Seabreez",
+    address: "598 University Ave, Berkeley",
+    key: "ChIJTW9Qr91-hYAR7Xh-M_ImhEg",
     image_attribution: null
   },
   {
@@ -11295,35 +11064,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Los Trinos",
-    address: "5672 Mission Street, San Francisco",
-    key: "ChIJsZNuzCB8j4ARiXsW845KslY",
-    image_attribution: null
-  },
-  {
-    name: "Pasquale's Pizzeria",
-    address: "700 Irving Street, San Francisco",
-    key: "ChIJ7dBoQVyHhYAR1kAzDEJvXOU",
-    image_attribution: null
-  },
-  {
-    name: "Bitter End",
-    address: "441 Clement Street, San Francisco",
-    key: "ChIJOW3MCDyHhYAR64SjtMrHoss",
-    image_attribution: null
-  },
-  {
     name: "Lake Chalet",
     address: "1520 Lakeside Dr, Oakland",
     key: "ChIJk5SFZ0qHj4ARgHF_fZQLnIM",
     image_attribution: null
   },
   {
-    name: "Harborview Restaurant & Bar",
-    address: "4 Embarcadero Center, Street Level, San Francisco",
-    key: "ChIJZ1SMEQeBhYAR8Y0suKMr48o",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/100548883109206998367\">Harborview Restaurant &amp; Bar</a>']"
+    name: "Nash Caf\u00e9",
+    address: "2047 University Ave, Berkeley",
+    key: "ChIJozFb6J5-hYARLC5givWxK9Y",
+    image_attribution: null
+  },
+  {
+    name: "Barbarian grub and ale",
+    address: "2012 Shattuck Ave, Berkeley",
+    key: "ChIJu64WjJ5-hYARU0amRDij4lY",
+    image_attribution: null
   },
   {
     name: "Berkeley Social Club",
@@ -11335,6 +11091,30 @@ const SFPlaces = [
     name: "Steak Fries Oakland",
     address: "5490 International Blvd, Oakland",
     key: "ChIJaXf0RHGGj4ARp_rMd5L678w",
+    image_attribution: null
+  },
+  {
+    name: "Los Trinos",
+    address: "5672 Mission Street, San Francisco",
+    key: "ChIJsZNuzCB8j4ARiXsW845KslY",
+    image_attribution: null
+  },
+  {
+    name: "Local Diner",
+    address: "1244 Market Street, San Francisco",
+    key: "ChIJlWmUgZuAhYARHeouXmPAE98",
+    image_attribution: null
+  },
+  {
+    name: "Gai Chicken Rice",
+    address: "3463 16th St, San Francisco",
+    key: "ChIJD7HVxwd_j4ARStZj77tlvTw",
+    image_attribution: null
+  },
+  {
+    name: "The Old Ship Saloon",
+    address: "298 Pacific Avenue, San Francisco",
+    key: "ChIJC9wG8l-AhYARfSw_a7FX_VM",
     image_attribution: null
   },
   {
@@ -11356,9 +11136,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Seokyo",
-    address: "1740 Church Street, San Francisco",
-    key: "ChIJVYvBV2h-j4ARlMRmwpYCyW4",
+    name: "North Beach Pizza",
+    address: "1598 University Ave, Berkeley",
+    key: "ChIJyYoUTpZ-hYARzkyKDnO_0b0",
+    image_attribution: null
+  },
+  {
+    name: "Squat & Gobble",
+    address: "1 West Portal Avenue, San Francisco",
+    key: "ChIJP5B_Rep9j4ARuOIyGXI3NsU",
     image_attribution: null
   },
   {
@@ -11380,12 +11166,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "HK Home Kitchen",
-    address: "10140 CA-123, El Cerrito",
-    key: "ChIJ5YVonhh5hYARQkxaQCjB0qE",
-    image_attribution: null
-  },
-  {
     name: "Homemade Cafe",
     address: "2454 Sacramento St, Berkeley",
     key: "ChIJD-PS45F-hYARB__pvSms_KU",
@@ -11398,9 +11178,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "H D RICE Noodle",
-    address: "1800-1814 21st Avenue, San Francisco",
-    key: "ChIJ7frbgmKHhYARGZnd7DmafYY",
+    name: "Ruth's Buka",
+    address: "5250 Foothill Blvd, Oakland",
+    key: "ChIJpYFR7G2Gj4ARYLI0fiQd5Cs",
+    image_attribution: null
+  },
+  {
+    name: "Bootstrapper",
+    address: "2838 Sacramento St, Berkeley",
+    key: "ChIJ988CHIl-hYARBYzHJSZTBGE",
+    image_attribution: null
+  },
+  {
+    name: "HK Home Kitchen",
+    address: "10140 CA-123, El Cerrito",
+    key: "ChIJ5YVonhh5hYARQkxaQCjB0qE",
     image_attribution: null
   },
   {
@@ -11416,33 +11208,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bootstrapper",
-    address: "2838 Sacramento St, Berkeley",
-    key: "ChIJ988CHIl-hYARBYzHJSZTBGE",
-    image_attribution: null
-  },
-  {
-    name: "Ruth's Buka",
-    address: "5250 Foothill Blvd, Oakland",
-    key: "ChIJpYFR7G2Gj4ARYLI0fiQd5Cs",
-    image_attribution: null
-  },
-  {
     name: "Acapulco",
     address: "2100 Lincoln Ave, Alameda",
     key: "ChIJ-yji08CGj4ARqG7cvWvnAOo",
     image_attribution: null
   },
   {
-    name: "Sushi House",
-    address: "2375 Shore Line Dr, Alameda",
-    key: "ChIJAXQ9WqSGj4ARS_pF3CWQ7lA",
-    image_attribution: null
-  },
-  {
     name: "NIDO",
     address: "444 Oak St, Oakland",
     key: "ChIJpUhFosyAj4AR51x7mvf8AdY",
+    image_attribution: null
+  },
+  {
+    name: "Caffe Bianco",
+    address: "39 Sutter St, San Francisco",
+    key: "ChIJGReneWKAhYARNkAEgHooSus",
+    image_attribution: null
+  },
+  {
+    name: "JOE & THE JUICE",
+    address: "2213 Fillmore Street, San Francisco",
+    key: "ChIJt8-IP8aAhYAR9bsfEydLeRE",
+    image_attribution: null
+  },
+  {
+    name: "Sushi House",
+    address: "2375 Shore Line Dr, Alameda",
+    key: "ChIJAXQ9WqSGj4ARS_pF3CWQ7lA",
     image_attribution: null
   },
   {
@@ -11464,81 +11256,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dottie's True Blue Caf\u00e9",
-    address: "28 6th St, San Francisco",
-    key: "ChIJXbxV1JGAhYARPXnXlHU1eoY",
-    image_attribution: null
-  },
-  {
-    name: "Little Heaven",
-    address: "2348 Mission Street, San Francisco",
-    key: "ChIJi8cAbzx-j4ARzaLvDF4TPK8",
-    image_attribution: null
-  },
-  {
-    name: "Local Kitchen & Wine Merchant",
-    address: "330 1st Street #1, San Francisco",
-    key: "ChIJzWMEoXuAhYARnGNx8NeVTpY",
-    image_attribution: null
-  },
-  {
-    name: "China House Restaurant",
-    address: "2328 Santa Clara Ave, Alameda",
-    key: "ChIJO1GC9JWGj4AR2qjS0kQmNCw",
-    image_attribution: null
-  },
-  {
-    name: "Sakura Sushi Bar & Grill",
-    address: "2408 Santa Clara Ave, Alameda",
-    key: "ChIJaT5A5pWGj4AREkzNmz6sOE0",
-    image_attribution: null
-  },
-  {
-    name: "Russian Renaissance Restaurant",
-    address: "5241 Geary Boulevard, San Francisco",
-    key: "ChIJy59hOhGHhYARwCP0q-f6Ens",
-    image_attribution: null
-  },
-  {
-    name: "Hong Kong Lounge",
-    address: "5322 Geary Boulevard, San Francisco",
-    key: "ChIJy6k6HhGHhYAR5moxQxcAv-w",
-    image_attribution: null
-  },
-  {
-    name: "E' Tutto Qua",
-    address: "270 Columbus Avenue, San Francisco",
-    key: "ChIJ5Z4cY_SAhYART4DbGbnIZjw",
-    image_attribution: null
-  },
-  {
-    name: "Urban Remedy",
-    address: "450 Hayes Street, San Francisco",
-    key: "ChIJjfhunpiAhYARyyJrxYvrqyM",
-    image_attribution: null
-  },
-  {
-    name: "YamaSho",
-    address: "1161 Post Street, San Francisco",
-    key: "ChIJeanPM5SAhYARLvgC3mxgDoA",
-    image_attribution: null
-  },
-  {
-    name: "Waraku",
-    address: "1638 Post Street, San Francisco",
-    key: "ChIJCQDp2L6AhYARDNsDuv6s_Es",
-    image_attribution: null
-  },
-  {
-    name: "Tomatina",
-    address: "1338 Park St, Alameda",
-    key: "ChIJsyIT8L2Gj4ARIHenvbs1cuA",
-    image_attribution: null
-  },
-  {
-    name: "Roderick's BBQ",
-    address: "2708 98th Ave, Oakland",
-    key: "ChIJ_7rX7myPj4ARDZrisXYVllA",
+    name: "3-19 Coffee Roasters Cafe",
+    address: "3359 26th St, San Francisco",
+    key: "ChIJzfO6oEZ-j4ARW7biAXCYTmk",
     image_attribution: null
   },
   {
@@ -11560,9 +11280,94 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Tomate",
-    address: "2904 24th Street, San Francisco",
-    key: "ChIJHd_C5Eh-j4ARQL53pFou8FI",
+    name: "China House Restaurant",
+    address: "2328 Santa Clara Ave, Alameda",
+    key: "ChIJO1GC9JWGj4AR2qjS0kQmNCw",
+    image_attribution: null
+  },
+  {
+    name: "Sakura Sushi Bar & Grill",
+    address: "2408 Santa Clara Ave, Alameda",
+    key: "ChIJaT5A5pWGj4AREkzNmz6sOE0",
+    image_attribution: null
+  },
+  {
+    name: "Tomatina",
+    address: "1338 Park St, Alameda",
+    key: "ChIJsyIT8L2Gj4ARIHenvbs1cuA",
+    image_attribution: null
+  },
+  {
+    name: "Roderick's BBQ",
+    address: "2708 98th Ave, Oakland",
+    key: "ChIJ_7rX7myPj4ARDZrisXYVllA",
+    image_attribution: null
+  },
+  {
+    name: "Trestle",
+    address: "531 Jackson St, San Francisco",
+    key: "ChIJXX7b1vSAhYARvD0AU-P83P8",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116767640210939518760\">Trestle</a>']"
+  },
+  {
+    name: "True Laurel",
+    address: "753 Alabama Street, San Francisco",
+    key: "ChIJz2enRzd-j4ARkM49V6yDT2U",
+    image_attribution: ""
+  },
+  {
+    name: "Chantal Guillon Patisserie",
+    address: "1309 Howard Street, San Francisco",
+    key: "ChIJLYnaUZ2AhYARLTzr2hlIJkg",
+    image_attribution: null
+  },
+  {
+    name: "Brew Cha",
+    address: "3420 18th Street #001, San Francisco",
+    key: "ChIJm9T0GxJ_j4ARd56lDygK2j8",
+    image_attribution: null
+  },
+  {
+    name: "Ethiopia Restaurant",
+    address: "2955 Telegraph Ave, Berkeley",
+    key: "ChIJldeGgdN9hYAR5XBK8dUB5Go",
+    image_attribution: null
+  },
+  {
+    name: "Royal Rangoon",
+    address: "2826 Telegraph Ave, Berkeley",
+    key: "ChIJ06vxVdN9hYARUKObaiOFZrM",
+    image_attribution: null
+  },
+  {
+    name: "Tai San",
+    address: "2811 Telegraph Ave, Berkeley",
+    key: "ChIJjZrsUdN9hYARs5CFFlkDcg4",
+    image_attribution: null
+  },
+  {
+    name: "Kippu",
+    address: "1707 Buchanan Street, San Francisco",
+    key: "ChIJmXDZ1LiAhYAR22DvqGrzhik",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Cancun",
+    address: "1003 Market Street, San Francisco",
+    key: "ChIJd_Hu_YSAhYARlxdgh3vVI4k",
+    image_attribution: null
+  },
+  {
+    name: "Dokkaebier",
+    address: "1735 Polk Street, San Francisco",
+    key: "ChIJl7wu4o-BhYARwp8IbAQWMDI",
+    image_attribution: null
+  },
+  {
+    name: "Pasquale's Pizzeria",
+    address: "700 Irving Street, San Francisco",
+    key: "ChIJ7dBoQVyHhYAR1kAzDEJvXOU",
     image_attribution: null
   },
   {
@@ -11584,24 +11389,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Smitten Ice Cream",
-    address: "904 Valencia Street, San Francisco",
-    key: "ChIJe-sRyj1-j4ARrVcZXLh0KNQ",
-    image_attribution: null
-  },
-  {
-    name: "Balboa Teriyaki",
-    address: "3536 Balboa Street, San Francisco",
-    key: "ChIJOYKsE6aHhYARgw8VurYIJXo",
-    image_attribution: null
-  },
-  {
-    name: "Chang's Kitchen Restaurant",
-    address: "1030 Irving Street, San Francisco",
-    key: "ChIJGTU4f12HhYARRE71Wht2xvs",
-    image_attribution: null
-  },
-  {
     name: "Mount Everest Restaurant",
     address: "2598 Telegraph Ave, Berkeley",
     key: "ChIJQ_qWESx8hYARvxS8wT873QM",
@@ -11614,81 +11401,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Golden Horse Restaurant",
-    address: "1060 Hyde Street, San Francisco",
-    key: "ChIJAyg8QZOAhYARIrlf4j8Mbaw",
-    image_attribution: null
-  },
-  {
-    name: "Eat Sushi Restaurant",
-    address: "1516 Folsom Street, San Francisco",
-    key: "ChIJU3-gJv5_j4ARaz0kjXHaE40",
-    image_attribution: null
-  },
-  {
-    name: "Ethiopia Restaurant",
-    address: "2955 Telegraph Ave, Berkeley",
-    key: "ChIJldeGgdN9hYAR5XBK8dUB5Go",
-    image_attribution: null
-  },
-  {
-    name: "Atlas Cafe",
-    address: "3049 20th St, San Francisco",
-    key: "ChIJe0KJajd-j4AR_KlqGB-MGyA",
-    image_attribution: null
-  },
-  {
-    name: "Rooster & Rice",
-    address: "2211 Filbert Street, San Francisco",
-    key: "ChIJZZ8LfdCAhYARnkEuXYsGbKQ",
-    image_attribution: null
-  },
-  {
-    name: "Royal Rangoon",
-    address: "2826 Telegraph Ave, Berkeley",
-    key: "ChIJ06vxVdN9hYARUKObaiOFZrM",
-    image_attribution: null
-  },
-  {
-    name: "Tai San",
-    address: "2811 Telegraph Ave, Berkeley",
-    key: "ChIJjZrsUdN9hYARs5CFFlkDcg4",
-    image_attribution: null
-  },
-  {
     name: "Burma Superstar",
     address: "1345 Park St, Alameda",
     key: "ChIJ7-Sh5L2Gj4ARdq5KMzbFZpU",
-    image_attribution: null
-  },
-  {
-    name: "The House",
-    address: "1230 Grant Avenue, San Francisco",
-    key: "ChIJ5TeZivOAhYARDXYf1snFeLA",
-    image_attribution: null
-  },
-  {
-    name: "Mr Bread Bakery",
-    address: "1018 Taraval St, San Francisco",
-    key: "ChIJCzfpsJF9j4ARxLCGgYc0-FA",
-    image_attribution: null
-  },
-  {
-    name: "Aquitaine Wine Bar & Bistro",
-    address: "216 Church Street, San Francisco",
-    key: "ChIJC9Y3o4mAhYARft4V1gqv0Js",
-    image_attribution: null
-  },
-  {
-    name: "Javalencia Cafe",
-    address: "920 Valencia St, San Francisco",
-    key: "ChIJL3CzzD1-j4ARMhe1B9YEvJg",
-    image_attribution: null
-  },
-  {
-    name: "Zen Yai",
-    address: "771 Ellis Street, San Francisco",
-    key: "ChIJPdCuKZeAhYARMlTvGE6vNPI",
     image_attribution: null
   },
   {
@@ -11698,39 +11413,65 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Okoze Sushi",
-    address: "1207 Union Street, San Francisco",
-    key: "ChIJQ85exOiAhYARXnuX-6jjgUs",
-    image_attribution: null
-  },
-  {
-    name: "DragonEats",
-    address: "520 Gough Street, San Francisco",
-    key: "ChIJsZ02iJiAhYARzoeXoabmj5I",
-    image_attribution: null
-  },
-  {
     name: "Contimo Provisions",
     address: "500 1st St, Napa",
     key: "ChIJBzsAJFoHhYAR3Ys679YkNXc",
     image_attribution: null
   },
   {
-    name: "Sightglass Coffee",
-    address: "SFMOMA, 151 3rd St, San Francisco",
-    key: "ChIJBTVtZn2AhYARHb3leJmdfVU",
+    name: "Saint Frank Coffee",
+    address: "2340 Polk St, San Francisco",
+    key: "ChIJmfgIQ-iAhYARq5osc-JybBo",
     image_attribution: null
   },
   {
-    name: "The Chairman",
-    address: "2723 Oakdale Avenue, San Francisco",
-    key: "ChIJTfvr2pCAhYARWBE4p5-ZHTk",
+    name: "Native Co.",
+    address: "163 2nd St, San Francisco",
+    key: "ChIJzYh0KH2AhYARVosh71mRUsw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/102600780326153277184\">Nathalie Defrenne</a>']"
+  },
+  {
+    name: "Native Co.",
+    address: "168 Sutter St, San Francisco",
+    key: "ChIJheJMvImAhYARNkfTrENOAF0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/110669711152851354393\">Anise LeAnn</a>']"
+  },
+  {
+    name: "Soma Eats",
+    address: "186 2nd Street, San Francisco",
+    key: "ChIJHWYBIH2AhYARkLsQQGWQQR8",
     image_attribution: null
   },
   {
-    name: "Kitaro",
-    address: "5723 Geary Boulevard, San Francisco",
-    key: "ChIJoX092Q-HhYARqvTCTIR1toE",
+    name: "Sears Fine Food",
+    address: "439 Powell Street, San Francisco",
+    key: "ChIJlW39lY6AhYAR-kYSJfvNY6A",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Mystique",
+    address: "464 Castro Street, San Francisco",
+    key: "ChIJPbV6qhx-j4ARJcmiQMJhbaM",
+    image_attribution: null
+  },
+  {
+    name: "Jade Cafe",
+    address: "1688 Bryant Street, San Francisco",
+    key: "ChIJ272z2i9-j4AR3VlvNJCCDlE",
+    image_attribution: null
+  },
+  {
+    name: "Sunstream Coffee",
+    address: "2884 Geary Blvd, San Francisco",
+    key: "ChIJ4y8UgzWHhYARKl-vCWzkCUk",
+    image_attribution: null
+  },
+  {
+    name: "Crown & Crumpet Tea Salon",
+    address: "1746 Post St, San Francisco",
+    key: "ChIJg3132biAhYART9syUb_EObE",
     image_attribution: null
   },
   {
@@ -11740,28 +11481,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "JV Skin & Beauty",
-    address: "4207 24th St, San Francisco",
-    key: "ChIJT5MsKsOAhYAREu719SUN8Gg",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/106312472929306901797\">JV Skin &amp; Beauty</a>']"
-  },
-  {
-    name: "Lou's Cafe",
-    address: "1508 Taraval St, San Francisco",
-    key: "ChIJGdPmy5p9j4ARMmC4U1L9LeA",
+    name: "Fancy Wheat Field Bakery",
+    address: "2684 San Bruno Avenue, San Francisco",
+    key: "ChIJrSzm4OJ-j4ARPwWi2rJYAes",
     image_attribution: null
   },
   {
-    name: "Beretta",
-    address: "1199 Valencia Street, San Francisco",
-    key: "ChIJHeoUcz9-j4AR9BGHeYE4w3o",
-    image_attribution: null
-  },
-  {
-    name: "Juanita & Maude",
-    address: "825 San Pablo Ave, Albany",
-    key: "ChIJD8hi5jF5hYARXG0soAdWxng",
+    name: "Rain Tree Cafe",
+    address: "118 W Portal Ave, San Francisco",
+    key: "ChIJlbzSkup9j4ARpu1POsJHDqc",
     image_attribution: null
   },
   {
@@ -11777,15 +11505,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "District San Francisco",
-    address: "216 Townsend St, San Francisco",
-    key: "ChIJJTVhTtZ_j4ARxpngmeH7DTc",
+    name: "Juanita & Maude",
+    address: "825 San Pablo Ave, Albany",
+    key: "ChIJD8hi5jF5hYARXG0soAdWxng",
     image_attribution: null
   },
   {
-    name: "Tawan's Thai Food",
-    address: "4403 Geary Boulevard, San Francisco",
-    key: "ChIJSTPMYj6HhYARILE2fVhLuNQ",
+    name: "Village House Restaurant",
+    address: "3398 Balboa Street, San Francisco",
+    key: "ChIJR2p6S6aHhYARzITDHfVeKto",
+    image_attribution: null
+  },
+  {
+    name: "Mai's Vietnamese Restaurant",
+    address: "316 Clement Street, San Francisco",
+    key: "ChIJnXuC5juHhYARpCQjRSyCN7M",
+    image_attribution: null
+  },
+  {
+    name: "Gestalt",
+    address: "3159 16th Street, San Francisco",
+    key: "ChIJH0l8bSJ-j4ARt-cbVv_aPRE",
+    image_attribution: null
+  },
+  {
+    name: "Kokkari Estiatorio",
+    address: "200 Jackson Street, San Francisco",
+    key: "ChIJTel9dGCAhYARQGwrTfGZ07M",
     image_attribution: null
   },
   {
@@ -11795,51 +11541,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ristorante Parma",
-    address: "3314 Steiner Street, San Francisco",
-    key: "ChIJ5_OuLdeAhYAR5QVdUtd4jR0",
-    image_attribution: null
-  },
-  {
-    name: "T C Pastry",
-    address: "2222 Irving Street, San Francisco",
-    key: "ChIJyVGkFXCHhYARFBODxUNT7pE",
-    image_attribution: null
-  },
-  {
-    name: "Tony's Pizza Napoletana",
-    address: "1570 Stockton Street, San Francisco",
-    key: "ChIJHXHcEvGAhYARQPuHNN78s78",
-    image_attribution: null
-  },
-  {
-    name: "Umai Ramen House",
-    address: "22 Peace Plaza Suite 560, San Francisco",
-    key: "ChIJJUmMCzCBhYARnzw2XVLaLxw",
-    image_attribution: null
-  },
-  {
     name: "Red Bay Coffee Public Roastery",
     address: "3098 E 10th St, Oakland",
     key: "ChIJjcpKrPOGj4ARnp_iaUXAWnY",
-    image_attribution: null
-  },
-  {
-    name: "Blue Plate",
-    address: "3218 Mission Street, San Francisco",
-    key: "ChIJ7d1kDkN-j4ARLXO5JZwg7NI",
-    image_attribution: null
-  },
-  {
-    name: "The Kebabery",
-    address: "4201 Market St, Oakland",
-    key: "ChIJRVabSwx-hYARYL6mzL1-MrE",
-    image_attribution: null
-  },
-  {
-    name: "Charlie's Deli Cafe",
-    address: "3202 Folsom St, San Francisco",
-    key: "ChIJNeUlcEV-j4AR-7DejKJ0hpY",
     image_attribution: null
   },
   {
@@ -11849,27 +11553,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Punchdown",
-    address: "1737 Broadway, Oakland",
-    key: "ChIJnUrLM_p9hYARHRGQ9Hs_ay0",
+    name: "Fringale Restaurant",
+    address: "570 4th Street, San Francisco",
+    key: "ChIJUe5q89V_j4ARwQwocyBAj5g",
     image_attribution: null
   },
   {
-    name: "Top Hatters Kitchen and Bar",
-    address: "855 MacArthur Blvd, San Leandro",
-    key: "ChIJN-H49qCPj4ARQZx5e0G8loo",
+    name: "Oasis Cafe",
+    address: "901 Divisadero St, San Francisco",
+    key: "ChIJKT_dq7GAhYARpHV3vs0HUWQ",
     image_attribution: null
   },
   {
-    name: "Spinnerie",
-    address: "1401 Polk Street, San Francisco",
-    key: "ChIJxej-3JSAhYARw9vUrkX230k",
+    name: "Glaze Teriyaki",
+    address: "1946 Fillmore Street, San Francisco",
+    key: "ChIJY01DlseAhYAR6OomvCt4Zjc",
     image_attribution: null
   },
   {
-    name: "Corso",
-    address: "1788 Shattuck Ave, Berkeley",
-    key: "ChIJE5H8ep9-hYARYpxLSzekYjQ",
+    name: "Mitchell's Ice Cream",
+    address: "688 San Jose Avenue, San Francisco",
+    key: "ChIJQVAijUJ-j4ARfJZLVQMz1Dw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/113135672842008041501\">Mitchell&#39;s Ice Cream</a>']"
+  },
+  {
+    name: "The Kebabery",
+    address: "4201 Market St, Oakland",
+    key: "ChIJRVabSwx-hYARYL6mzL1-MrE",
     image_attribution: null
   },
   {
@@ -11885,9 +11596,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hi Tea",
-    address: "2591 San Bruno Avenue, San Francisco",
-    key: "ChIJPy6T7pp_j4ARdRfi9XTQNzY",
+    name: "The Punchdown",
+    address: "1737 Broadway, Oakland",
+    key: "ChIJnUrLM_p9hYARHRGQ9Hs_ay0",
+    image_attribution: null
+  },
+  {
+    name: "Top Hatters Kitchen and Bar",
+    address: "855 MacArthur Blvd, San Leandro",
+    key: "ChIJN-H49qCPj4ARQZx5e0G8loo",
+    image_attribution: null
+  },
+  {
+    name: "Corso",
+    address: "1788 Shattuck Ave, Berkeley",
+    key: "ChIJE5H8ep9-hYARYpxLSzekYjQ",
+    image_attribution: null
+  },
+  {
+    name: "Cool Tea Bar",
+    address: "103 Waverly Place, San Francisco",
+    key: "ChIJwQhUWIuAhYARbjviNUYcjS0",
+    image_attribution: null
+  },
+  {
+    name: "Anchor & Hope",
+    address: "83 Minna Street, San Francisco",
+    key: "ChIJaWduK32AhYARvGPmEG2yrWA",
+    image_attribution: null
+  },
+  {
+    name: "Sumac Istanbul Street Food",
+    address: "1096 Union Street, San Francisco",
+    key: "ChIJtzGZ3hqBhYAR3iZksU1NhKM",
+    image_attribution: null
+  },
+  {
+    name: "Poc-Chuc",
+    address: "2886 16th Street, San Francisco",
+    key: "ChIJUaWIjCR-j4ARR3YQRmBbujQ",
     image_attribution: null
   },
   {
@@ -11897,57 +11644,27 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "EL CAF\u00c9",
-    address: "1400 Taraval St, San Francisco",
-    key: "ChIJqViAr5p9j4ARDPhT48vhMR8",
+    name: "The Crepe House III",
+    address: "1132 Valencia Street, San Francisco",
+    key: "ChIJfzlQAT9-j4ARbbjL26b2R6M",
     image_attribution: null
   },
   {
-    name: "Mr Szechuan\u5ddd\u5148\u751f",
-    address: "890 Taraval Street, San Francisco",
-    key: "ChIJKeX8H-t9j4AR38MGinqQnmc",
+    name: "7-Mission Restaurant",
+    address: "151 7th Street, San Francisco",
+    key: "ChIJD4CudIOAhYARa7GXQutC9JA",
     image_attribution: null
   },
   {
-    name: "STIX",
-    address: "1353 Taraval Street, San Francisco",
-    key: "ChIJF9bLLdV9j4ARHN4Ggst9yWA",
+    name: "El Rancho Grande",
+    address: "855 Divisadero Street, San Francisco",
+    key: "ChIJrQB-rbGAhYAR9UwY0I8pO0E",
     image_attribution: null
   },
   {
-    name: "Acquolina",
-    address: "1600 Stockton Street, San Francisco",
-    key: "ChIJuy5lEfGAhYAR9mmCBjB9aB0",
-    image_attribution: null
-  },
-  {
-    name: "Tartine Manufactory",
-    address: "595 Alabama St, San Francisco",
-    key: "ChIJu9EujzB-j4ARoyuqElfT14g",
-    image_attribution: ""
-  },
-  {
-    name: "El Techo",
-    address: "2516 Mission St, San Francisco",
-    key: "ChIJaYr9tz5-j4ARViEEUUUDY0k",
-    image_attribution: ""
-  },
-  {
-    name: "Fueling Station Cafe",
-    address: "2436 Polk St, San Francisco",
-    key: "ChIJi6iXceiAhYARL18mA3K20FE",
-    image_attribution: null
-  },
-  {
-    name: "The View Lounge",
-    address: "780 Mission Street, San Francisco",
-    key: "ChIJZZ_cOYaAhYARnyfbDrAkvJ8",
-    image_attribution: null
-  },
-  {
-    name: "Jane on Fillmore",
-    address: "2123 Fillmore St, San Francisco",
-    key: "ChIJ7ctrNsaAhYARdwAVqJAAjlQ",
+    name: "Super Cue Cafe",
+    address: "1330 Ocean Ave, San Francisco",
+    key: "ChIJ89CUkdJ9j4ARSZK3Ot-hEVU",
     image_attribution: null
   },
   {
@@ -11957,87 +11674,15 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "Aziza",
-    address: "5800 Geary Boulevard, San Francisco",
-    key: "ChIJb-KW6Q-HhYAR4NlucuMP_HE",
+    name: "Turner's Kitchen",
+    address: "3505 17th Street B, San Francisco",
+    key: "ChIJp0O8eBh-j4ARSq-eVI8Fe9E",
     image_attribution: null
   },
   {
-    name: "Noori Pakistani & Indian Cuisine - SF",
-    address: "1924 Irving Street, San Francisco",
-    key: "ChIJj4EniW-HhYARwmkfpkMaFmg",
-    image_attribution: null
-  },
-  {
-    name: "El Capitan",
-    address: "1123 Folsom Street, San Francisco",
-    key: "ChIJn_aSDYKAhYARvBstTiPN8_0",
-    image_attribution: null
-  },
-  {
-    name: "Daniels Cafe",
-    address: "154 Ellis St, San Francisco",
-    key: "ChIJB01Ib4-AhYARqABqBt2NvFo",
-    image_attribution: null
-  },
-  {
-    name: "Bluestone Lane Union Square Coffee Shop",
-    address: "685 Market St, San Francisco",
-    key: "ChIJhQKhFIiAhYAR2WejMENujzs",
-    image_attribution: null
-  },
-  {
-    name: "Victor\u2019s Pizzeria & Italian Restaurant",
-    address: "1411 Polk Street, San Francisco",
-    key: "ChIJz-9_3JSAhYARIJzUYTx3N_o",
-    image_attribution: null
-  },
-  {
-    name: "Makli Chinese Cuisine",
-    address: "290 Sanchez Street, San Francisco",
-    key: "ChIJ_1_hEhx-j4ARqBAR1RWoUEc",
-    image_attribution: null
-  },
-  {
-    name: "Saint Frank Coffee",
-    address: "2340 Polk St, San Francisco",
-    key: "ChIJmfgIQ-iAhYARq5osc-JybBo",
-    image_attribution: null
-  },
-  {
-    name: "The Lucky Creation Vegetarian Restaurant",
-    address: "854 Washington Street, San Francisco",
-    key: "ChIJQdwWVPOAhYAR6ZL-cDxRC5s",
-    image_attribution: null
-  },
-  {
-    name: "Hina Yakitori",
-    address: "808 Divisadero St, San Francisco",
-    key: "ChIJXzJrpN6BhYARBOVVvS_qvOw",
-    image_attribution: null
-  },
-  {
-    name: "Saap Ver",
-    address: "88 Division Street, San Francisco",
-    key: "ChIJOTm44Sx-j4ARiAjUz1iVX6Q",
-    image_attribution: ""
-  },
-  {
-    name: "Cool Cravings Cafe and Deli",
-    address: "601 Van Ness Avenue, San Francisco",
-    key: "ChIJ5c-YkJeAhYAR3_eqnD3PH5s",
-    image_attribution: null
-  },
-  {
-    name: "Cups and Cakes Bakery",
-    address: "451 9th St, San Francisco",
-    key: "ChIJ-TQHGil-j4AR_xz9tp0A5qI",
-    image_attribution: null
-  },
-  {
-    name: "The Grove - Yerba Buena",
-    address: "690 Mission Street, San Francisco",
-    key: "ChIJiZyN7IeAhYARnCn-G6GH73Q",
+    name: "Dobbs Ferry",
+    address: "409 Gough Street, San Francisco",
+    key: "ChIJKz56lpiAhYAR56S9hLnUTSI",
     image_attribution: null
   },
   {
@@ -12047,135 +11692,57 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "High Treason",
-    address: "443 Clement St, San Francisco",
-    key: "ChIJHZwwDzyHhYARJqdAzd3kFkM",
+    name: "The Links Bar and Grill",
+    address: "3129 Clement Street, San Francisco",
+    key: "ChIJjVHbEAqHhYARNjl_Tdv4-qw",
     image_attribution: null
   },
   {
-    name: "Pineapple King Bakery",
-    address: "1915 Irving Street, San Francisco",
-    key: "ChIJB2BufWWHhYARKtURODJggr8",
+    name: "Provender",
+    address: "1415 18th St, San Francisco",
+    key: "ChIJoxRsy8t_j4ARRqvGR0E_hAE",
     image_attribution: null
   },
   {
-    name: "620 Jones",
-    address: "620 Jones Street, San Francisco",
-    key: "ChIJPR_P35GAhYAR6wRwwtF7pnE",
+    name: "Bar at Hotel Kabuki",
+    address: "1625 Post Street, San Francisco",
+    key: "ChIJOd6H3L6AhYARh3nYXMIrZOo",
     image_attribution: null
   },
   {
-    name: "Andersen Bakery",
-    address: "1390 Market Street suite b, San Francisco",
-    key: "ChIJa3aIDJyAhYARMPjFJtHsI5I",
+    name: "Shanghai China Restaurant",
+    address: "1559 Mission Street, San Francisco",
+    key: "ChIJEROC452AhYAR_DwZhHu6Lg4",
     image_attribution: null
   },
   {
-    name: "Moscow & Tbilisi Bakery Store",
-    address: "5540 Geary Boulevard, San Francisco",
-    key: "ChIJseueSBCHhYARAPr3GYM8Klo",
+    name: "Swan Oyster Depot",
+    address: "1517 Polk St, San Francisco",
+    key: "ChIJEdGJjp6AhYAR1LtP-ptLrOg",
     image_attribution: null
   },
   {
-    name: "Sweet Maple",
-    address: "2101 Sutter Street, San Francisco",
-    key: "ChIJMT5TG7iAhYAREDkkUYkUSYg",
+    name: "Sixth Course",
+    address: "1544 15th Street, San Francisco",
+    key: "ChIJ0WeN8CN-j4ARFq8jXc-jtCY",
     image_attribution: null
   },
   {
-    name: "Taiwan Restaurant",
-    address: "445 Clement Street, San Francisco",
-    key: "ChIJpY8YDzyHhYARte8V3gfYXQo",
+    name: "Holy Water",
+    address: "309 Cortland Avenue, San Francisco",
+    key: "ChIJP6c8_1t-j4ARNQxhfTKbw0g",
+    image_attribution: ""
+  },
+  {
+    name: "Lucca Delicatessen",
+    address: "2120 Chestnut Street, San Francisco",
+    key: "ChIJ01kH39aAhYARVLK3OOvDoAs",
     image_attribution: null
   },
   {
-    name: "Baiano Pizzeria",
-    address: "100 Gough Street, San Francisco",
-    key: "ChIJgaqMEZ-AhYARektJ_RuUq4E",
-    image_attribution: null
-  },
-  {
-    name: "Yan Yan Seafood Restaurant \u65b0\u73e0\u6c5f\u9152\u5bb6",
-    address: "2241 Judah Street, San Francisco",
-    key: "ChIJk0gnq3CHhYARBMAv4IbBJgQ",
-    image_attribution: null
-  },
-  {
-    name: "\u6797\u548c\u9806",
-    address: "2337 Irving Street, San Francisco",
-    key: "ChIJX3izYHCHhYAR0xtmJ-V_nW8",
-    image_attribution: null
-  },
-  {
-    name: "Parlor 1255",
-    address: "Levi's Plaza, 1255 Battery Street #700, San Francisco",
-    key: "ChIJGY-DI_aAhYARhR-D3EcGpoY",
-    image_attribution: null
-  },
-  {
-    name: "House of Bagels",
-    address: "5030 Geary Boulevard, San Francisco",
-    key: "ChIJxciR6RaHhYARbDlfhj5V9LE",
-    image_attribution: null
-  },
-  {
-    name: "Akiko's Restaurant",
-    address: "431 Bush St, San Francisco",
-    key: "ChIJ-2fce4mAhYARiPQdMcT8Weg",
-    image_attribution: null
-  },
-  {
-    name: "DNM Hot Pot",
-    address: "1115 Clement Street, San Francisco",
-    key: "ChIJ__8LsxeHhYAR1vL4BYVYQGI",
-    image_attribution: null
-  },
-  {
-    name: "Fiorella Clement",
-    address: "2339 Clement St, San Francisco",
-    key: "ChIJ1XM-lgWHhYARFtVFjLm3ldM",
-    image_attribution: null
-  },
-  {
-    name: "Burrito Loco",
-    address: "850 Ulloa Street, San Francisco",
-    key: "ChIJH-F5Uup9j4ARQU0ojVfKxQ8",
-    image_attribution: null
-  },
-  {
-    name: "Tennessee Grill",
-    address: "1128 Taraval Street, San Francisco",
-    key: "ChIJyacCSZB9j4ARbzKG3U3ZjEQ",
-    image_attribution: null
-  },
-  {
-    name: "Sutter Pub & Restaurant",
-    address: "700 Sutter Street, San Francisco",
-    key: "ChIJ7aoc442AhYARkrbM7GU_5mc",
-    image_attribution: null
-  },
-  {
-    name: "Domo",
-    address: "511 Laguna Street, San Francisco",
-    key: "ChIJZ7tASKKAhYAR3dDpAxKEg-8",
-    image_attribution: null
-  },
-  {
-    name: "Vivace I Productions",
-    address: "1661 Pine St #928, San Francisco",
-    key: "ChIJVYrH63eBhYARoQYOw4B3-gk",
-    image_attribution: null
-  },
-  {
-    name: "Picon",
-    address: "167 11th Street, San Francisco",
-    key: "ChIJh-YVm52AhYAR6sHqfiQKXMA",
-    image_attribution: null
-  },
-  {
-    name: "Qualitea",
-    address: "4023 18th Street, San Francisco",
-    key: "ChIJ__8mHRt-j4ARmBNdl7rIRr4",
+    name: "Lincoln Park Bar & Grill",
+    address: "300 34th Avenue, San Francisco",
+    key: "ChIJcdY8KKqHhYARwymFcOE0DwU",
     image_attribution: null
   },
   {
@@ -12185,69 +11752,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "1601 Bar & Kitchen",
-    address: "1601 Howard Street, San Francisco",
-    key: "ChIJVVVVVSh-j4ARbPgFDYtdLn4",
+    name: "The Seven Stills Brewery & Distillery",
+    address: "100 Hooper St Ste. 4, San Francisco",
+    key: "ChIJI-RXdLd_j4ARgLSTIHLu4FA",
+    image_attribution: ""
+  },
+  {
+    name: "Lime Tree",
+    address: "450 Irving Street A, San Francisco",
+    key: "ChIJa8Pu7luHhYAR4sluZTTUTF8",
     image_attribution: null
   },
   {
-    name: "Bon Voyage!",
-    address: "584 Valencia St, San Francisco",
-    key: "ChIJJwq38SJ-j4AR05fAyx13u8g",
+    name: "La Espiga De Oro",
+    address: "2916 24th Street, San Francisco",
+    key: "ChIJ44HY5Eh-j4AR_cUroynMev8",
     image_attribution: null
   },
   {
-    name: "Taqueria",
-    address: "2001 Market Street, San Francisco",
-    key: "ChIJdaLSzB9-j4ARFoWAX8kreRw",
+    name: "The Laundry",
+    address: "3359 26th St, San Francisco",
+    key: "ChIJ8cCkoEZ-j4ARfnhtmZbAkYg",
     image_attribution: null
   },
   {
-    name: "Fringale Restaurant",
-    address: "570 4th Street, San Francisco",
-    key: "ChIJUe5q89V_j4ARwQwocyBAj5g",
+    name: "Goldelicious",
+    address: "2333 Irving Street, San Francisco",
+    key: "ChIJG5UBLqmHhYARZgO5WWyOxnc",
     image_attribution: null
   },
   {
-    name: "Brenda's French Soul Food",
-    address: "652 Polk Street, San Francisco",
-    key: "ChIJZ9s5SJeAhYARIX3Fxl6oj6c",
+    name: "Standard Deviant Brewing",
+    address: "280 14th Street, San Francisco",
+    key: "ChIJgcZNRyF-j4AR840OtvNCsco",
+    image_attribution: ""
+  },
+  {
+    name: "Yummy Bakery & Cafe",
+    address: "607 Jackson Street, San Francisco",
+    key: "ChIJ2VhSxvSAhYARxn-BM9ied9Y",
     image_attribution: null
   },
   {
-    name: "Brenda's Meat & Three",
-    address: "919 Divisadero Street, San Francisco",
-    key: "ChIJBZ2nB7GAhYAR1BUmlCHczaw",
-    image_attribution: null
-  },
-  {
-    name: "Red Hill Station",
-    address: "803 Cortland Avenue, San Francisco",
-    key: "ChIJjQ8Svll-j4ARu46rpYKQbvE",
-    image_attribution: null
-  },
-  {
-    name: "Ariake",
-    address: "5041 Geary Boulevard, San Francisco",
-    key: "ChIJOVJNlRaHhYAReLRgU-1SXk0",
-    image_attribution: null
-  },
-  {
-    name: "Slider's Diner",
-    address: "1202 Sutter Street, San Francisco",
-    key: "ChIJ4bp5RJSAhYARLa6wrz4U3Co",
-    image_attribution: null
-  },
-  {
-    name: "Delarosa",
-    address: "2175 Chestnut Street, San Francisco",
-    key: "ChIJW5ygw9aAhYARSNqml-xlEQ4",
-    image_attribution: null
-  },
-  {
-    name: "8090 Friendship Restaurant",
-    address: "2428 Clement Street, San Francisco",
-    key: "ChIJGULZ-biHhYARozeNcipG9qI",
+    name: "The Cove on Castro",
+    address: "434 Castro Street, San Francisco",
+    key: "ChIJVxhdqhx-j4AR6J2KZ0l_QGw",
     image_attribution: null
   },
   {
@@ -12264,27 +11813,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Salad Place & Rotisserie",
-    address: "5392 Mission Street, San Francisco",
-    key: "ChIJ42Fs7m9_j4ARhwiJmNBQCQA",
-    image_attribution: null
-  },
-  {
     name: "MacArthur Park",
     address: "27 University Ave, Palo Alto",
     key: "ChIJQSEisjC7j4AR3juLmOBOEys",
-    image_attribution: null
-  },
-  {
-    name: "Gai Chicken Rice",
-    address: "3463 16th St, San Francisco",
-    key: "ChIJD7HVxwd_j4ARStZj77tlvTw",
-    image_attribution: null
-  },
-  {
-    name: "AA Bakery & Cafe",
-    address: "1068 Stockton Street, San Francisco",
-    key: "ChIJ8YgsQvOAhYAR_JVBv7g_aCE",
     image_attribution: null
   },
   {
@@ -12294,119 +11825,83 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Nickies",
-    address: "466 Haight Street, San Francisco",
-    key: "ChIJ3UgDy6aAhYARdyIqpQ7ZoxU",
+    name: "8090 Friendship Restaurant",
+    address: "2428 Clement Street, San Francisco",
+    key: "ChIJGULZ-biHhYARozeNcipG9qI",
     image_attribution: null
   },
   {
-    name: "Golden Burma Restaurant",
-    address: "15 Boardman Place, San Francisco",
-    key: "ChIJJXEd5Cp-j4AR9HJ5M1wqb3w",
+    name: "Thee Parkside",
+    address: "1600 17th Street, San Francisco",
+    key: "ChIJ8SXJ6sx_j4ARHRrwH9Z3R5k",
     image_attribution: null
   },
   {
-    name: "Lotta's Bakery",
-    address: "1720 Polk Street, San Francisco",
-    key: "ChIJSWF-AeuAhYARnxsK8XHG2ds",
+    name: "Pizzeria Delfina",
+    address: "3611 18th St, San Francisco",
+    key: "ChIJnWzYBhh-j4AR3l6M_Ykqy8k",
     image_attribution: null
   },
   {
-    name: "Ebisu Restaurant",
-    address: "1283 9th Avenue, San Francisco",
-    key: "ChIJ93MU4FyHhYARNsN1cMElpgo",
+    name: "Garibaldis Restaurant",
+    address: "347 Presidio Ave, San Francisco",
+    key: "ChIJP_8MPBV-j4ARrB65PMFjA-Y",
     image_attribution: null
   },
   {
-    name: "Peking Wok Restaurant",
-    address: "4920 3rd Street, San Francisco",
-    key: "ChIJRf0-RgV_j4ARCwnD2kWw1v4",
+    name: "Bambino's Ristorante",
+    address: "945 Cole Street, San Francisco",
+    key: "ChIJJ1KXVFSHhYARfpcWTVtPums",
     image_attribution: null
   },
   {
-    name: "Taqueria El Farolito",
-    address: "4817 Mission Street, San Francisco",
-    key: "ChIJ0SA6CIV-j4ARfTx2pRocSD4",
+    name: "ThirstyBear Brewing Company",
+    address: "661 Howard Street, San Francisco",
+    key: "ChIJ39DPC32AhYARAoTh-QZjrN8",
     image_attribution: null
   },
   {
-    name: "Snowbird Coffee",
-    address: "1352 9th Ave A, San Francisco",
-    key: "ChIJIztOzV2HhYAR0wpB5VfTGb0",
+    name: "El Capitan",
+    address: "1123 Folsom Street, San Francisco",
+    key: "ChIJn_aSDYKAhYARvBstTiPN8_0",
     image_attribution: null
   },
   {
-    name: "Chabaa Thai Cuisine",
-    address: "2123 Irving Street, San Francisco",
-    key: "ChIJuZHFAnCHhYARKYgTeq6IcL8",
+    name: "The Crepe House",
+    address: "1755 Polk Street, San Francisco",
+    key: "ChIJEyD7VOqAhYARGRnxuHZGAkY",
     image_attribution: null
   },
   {
-    name: "Fiery Cafe",
-    address: "1316 Noriega Street, San Francisco",
-    key: "ChIJQw8bSV-HhYARGN-3BwoRjKw",
+    name: "Chuy's Fiestas Restaurant",
+    address: "2341 Folsom Street, San Francisco",
+    key: "ChIJ80jW0tJ_j4ARwPVUcuATtS0",
     image_attribution: null
   },
   {
-    name: "Home Coffee Roasters",
-    address: "1222 Noriega St, San Francisco",
-    key: "ChIJrdB62Il9j4ARsRPxJPHaaqQ",
+    name: "Maxfield's House of Caffeine",
+    address: "398 Dolores St, San Francisco",
+    key: "ChIJGX6--xh-j4ARUggmRyhlmmU",
     image_attribution: null
   },
   {
-    name: "Azalina's",
-    address: "1355 Market St, San Francisco",
-    key: "ChIJbWHIFJyAhYARrsMEqiOdQOo",
+    name: "CHALOS",
+    address: "2240 Taraval Street, San Francisco",
+    key: "ChIJz0_dxOV9j4ARz5T-pfQCuU4",
+    image_attribution: null
+  },
+  {
+    name: "B44 Catalan Bistro",
+    address: "44 Belden Place, San Francisco",
+    key: "ChIJK1KlKYqAhYARlazt4FhvT3s",
+    image_attribution: null
+  },
+  {
+    name: "Trou Normand",
+    address: "140 New Montgomery St, San Francisco",
+    key: "ChIJAdjvPn2AhYAR-Afl64OSDwo",
     image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/102077203613052810199\">vexx786</a>']"
-  },
-  {
-    name: "Kate O'Brien's Irish Bar & Grill",
-    address: "579 Howard Street, San Francisco",
-    key: "ChIJDzj1wnyAhYARoK2ALuvEVdY",
-    image_attribution: null
-  },
-  {
-    name: "Planet Cafe",
-    address: "244 Gough St, San Francisco",
-    key: "ChIJI1aNNZ-AhYARhbPQeOohxZs",
-    image_attribution: null
-  },
-  {
-    name: "Anchor & Hope",
-    address: "83 Minna Street, San Francisco",
-    key: "ChIJaWduK32AhYARvGPmEG2yrWA",
-    image_attribution: null
-  },
-  {
-    name: "Namu Stonepot",
-    address: "553 Divisadero St, San Francisco",
-    key: "ChIJq6uMta-AhYAR3Xxh-IGkHds",
-    image_attribution: ""
-  },
-  {
-    name: "Taqueria Cancun",
-    address: "1003 Market Street, San Francisco",
-    key: "ChIJd_Hu_YSAhYARlxdgh3vVI4k",
-    image_attribution: null
-  },
-  {
-    name: "The Sandwich Place",
-    address: "2029 Mission Street, San Francisco",
-    key: "ChIJEVkcciN-j4ARMBWltgKiihw",
-    image_attribution: null
-  },
-  {
-    name: "Papalote Mexican Grill",
-    address: "1777 Fulton Street, San Francisco",
-    key: "ChIJ6ccQ2LKAhYARUOEfjLL64Vs",
-    image_attribution: null
-  },
-  {
-    name: "August 1 Five",
-    address: "524 Van Ness Avenue, San Francisco",
-    key: "ChIJ8yRkwZmAhYARpXPEbfTH-rA",
-    image_attribution: null
+      "['<a href=\"https://maps.google.com/maps/contrib/102641857310997795535\">Sophia Lin</a>']"
   },
   {
     name: "Goat Hill Pizza",
@@ -12415,263 +11910,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pho Ha Tien",
-    address: "1900 Ocean Avenue, San Francisco",
-    key: "ChIJ-y_PIcx9j4ARJk8GzkhAz34",
+    name: "Mr Bread Bakery",
+    address: "1018 Taraval St, San Francisco",
+    key: "ChIJCzfpsJF9j4ARxLCGgYc0-FA",
     image_attribution: null
   },
   {
-    name: "Dokkaebier",
-    address: "1735 Polk Street, San Francisco",
-    key: "ChIJl7wu4o-BhYARwp8IbAQWMDI",
+    name: "Ming's Diner",
+    address: "2129 Taraval Street, San Francisco",
+    key: "ChIJ45GTH4N9j4AROdGW-njZYu0",
     image_attribution: null
   },
   {
-    name: "Kezar Pizzetta",
-    address: "775 Frederick Street, San Francisco",
-    key: "ChIJtTBBsFCHhYARp1SNa_l0wKk",
+    name: "Fayes",
+    address: "3614 18th St, San Francisco",
+    key: "ChIJJ5IrBhh-j4ARFRZcETEr_Wo",
     image_attribution: null
   },
   {
-    name: "Castro Coffee Company",
-    address: "427 Castro St, San Francisco",
-    key: "ChIJc5xaRRt-j4ARPhLIzF_ThoE",
+    name: "CoffeeSmith",
+    address: "401 Golden Gate Ave, San Francisco",
+    key: "ChIJ2cmBFJqAhYAREezI4MzCrJM",
     image_attribution: null
   },
   {
-    name: "Horsefeather",
-    address: "528 Divisadero Street, San Francisco",
-    key: "ChIJBYNPuq-AhYARkLvNM_mLKhk",
+    name: "Arsicault Civic Center",
+    address: "87 McAllister Street, San Francisco",
+    key: "ChIJ90JImRKBhYARXrwUAyZIhqw",
     image_attribution: null
   },
   {
-    name: "Two Jacks Nik's Place",
-    address: "401 Haight Street, San Francisco",
-    key: "ChIJj9GYOqGAhYARE-Gt7_rIBYw",
+    name: "Hai Ky Mi Gia",
+    address: "707 Ellis Street, San Francisco",
+    key: "ChIJy5VK0ZCAhYARlmv2pBEVhjw",
     image_attribution: null
   },
   {
-    name: "Bob's on Baker Street",
-    address: "601 Baker Street, San Francisco",
-    key: "ChIJsSdRSz2BhYARZbSMAupIyj8",
+    name: "Sushi Shio",
+    address: "206 Valencia Street, San Francisco",
+    key: "ChIJYQOh48R_j4ARfyQmUoTQtZc",
     image_attribution: null
   },
   {
-    name: "L'acajou Bakery and Cafe",
-    address: "498 9th St, San Francisco",
-    key: "ChIJI4-eOSl-j4ARODY0PHCdheY",
+    name: "Seven Stills Outer Sunset Taproom - TEMP CLOSED",
+    address: "3645 Lawton Street, San Francisco",
+    key: "ChIJHctIt5qHhYARp3qTUuVB1vw",
     image_attribution: null
   },
   {
-    name: "Red's Pizzeria",
-    address: "3839 Mission Street, San Francisco",
-    key: "ChIJOxBkyW1_j4AR6aZ9y79YKHg",
-    image_attribution: null
-  },
-  {
-    name: "Champa Garden Restaurant",
-    address: "613 Faxon Ave, San Francisco",
-    key: "ChIJ54aGx819j4ARaTQg1JK3yNQ",
-    image_attribution: null
-  },
-  {
-    name: "Noah's NY Bagels",
-    address: "2300 16th St, San Francisco",
-    key: "ChIJ9a3hyi9-j4ARAHTytKc_DVY",
-    image_attribution: null
-  },
-  {
-    name: "Pushkin",
-    address: "380 Bush Street, San Francisco",
-    key: "ChIJ6WCwhomAhYARBZZpBc4uJeY",
-    image_attribution: null
-  },
-  {
-    name: "Aux Delices",
-    address: "2327 Polk Street, San Francisco",
-    key: "ChIJY5FJQeiAhYARgXzDx0gDEN8",
-    image_attribution: null
-  },
-  {
-    name: "Alimento",
-    address: "507 Columbus Avenue, San Francisco",
-    key: "ChIJj8LBcPGAhYARz6Fb7CotEzo",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Mystique",
-    address: "464 Castro Street, San Francisco",
-    key: "ChIJPbV6qhx-j4ARJcmiQMJhbaM",
-    image_attribution: null
-  },
-  {
-    name: "Mikkeller Bar",
-    address: "34 Mason St, San Francisco",
-    key: "ChIJ2WwqkYWAhYARLyKUhwqq2Zk",
-    image_attribution: null
-  },
-  {
-    name: "Oasis Grill",
-    address: "100 First Plaza, 100 1st Street #110, San Francisco",
-    key: "ChIJi_63OGOAhYARVdH53FgbdEU",
-    image_attribution: null
-  },
-  {
-    name: "The Flying Falafel",
-    address: "1051 Market St, San Francisco",
-    key: "ChIJUURg6ISAhYARUlHS_WYfyGk",
-    image_attribution: null
-  },
-  {
-    name: "Golden Boy Pizza",
-    address: "542 Green Street, San Francisco",
-    key: "ChIJmx3iW_GAhYARrlV9H2vyE-E",
-    image_attribution: null
-  },
-  {
-    name: "Triple Voodoo Brewery",
-    address: "2245 3rd St, San Francisco",
-    key: "ChIJvScNQbh_j4ARAGxvBme_2A0",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/115826028064429447653\">Ed Miller</a>']"
-  },
-  {
-    name: "Cool Tea Bar",
-    address: "103 Waverly Place, San Francisco",
-    key: "ChIJwQhUWIuAhYARbjviNUYcjS0",
-    image_attribution: null
-  },
-  {
-    name: "Le Marais Bakery",
-    address: "1138 Sutter Street, San Francisco",
-    key: "ChIJl9mEY9-BhYARYtyXmTf30tQ",
-    image_attribution: null
-  },
-  {
-    name: "Aura Mixology & Chow",
-    address: "2368 3rd Street, San Francisco",
-    key: "ChIJbUbCCeR_j4ARnbf9PEarbds",
-    image_attribution: null
-  },
-  {
-    name: "The Saratoga",
-    address: "1000 Larkin St, San Francisco",
-    key: "ChIJP6YM-ZOAhYARim7u_CAPfW8",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107452294478707370016\">Tony Deblauwe</a>']"
-  },
-  {
-    name: "Rich Table",
-    address: "199 Gough St, San Francisco",
-    key: "ChIJh_24QJ-AhYAR_xbUNVN2Xns",
-    image_attribution: null
-  },
-  {
-    name: "Ajisen Ramen | San Francisco",
-    address: "865 Market Street Unit# C012, San Francisco",
-    key: "ChIJ6zMe3oWAhYAR5VJ5_NjWQT8",
-    image_attribution: null
-  },
-  {
-    name: "Cup-A-Joe Coffee House",
-    address: "896 Sutter St, San Francisco",
-    key: "ChIJ7-CpMZKAhYARXn1dOTqFjus",
-    image_attribution: null
-  },
-  {
-    name: "Central Kitchen",
-    address: "3000 20th St, San Francisco",
-    key: "ChIJr-EMFjd-j4ARHKaF3ehlmgY",
-    image_attribution: null
-  },
-  {
-    name: "Buckeye Roadhouse",
-    address: "15 Shoreline Hwy, Mill Valley",
-    key: "ChIJySdG8kCFhYARWhnatq6Ouhs",
-    image_attribution: null
-  },
-  {
-    name: "Cinderella Bakery & Cafe",
-    address: "436 Balboa St, San Francisco",
-    key: "ChIJG6DZVEeHhYARN90v8rBlRsY",
-    image_attribution: null
-  },
-  {
-    name: "Native Twins Coffee",
-    address: "262 Divisadero St, San Francisco",
-    key: "ChIJA_NvNa-AhYAR7OCMHxRNTEY",
-    image_attribution: null
-  },
-  {
-    name: "Petit Crenn",
-    address: "609 Hayes St, San Francisco",
-    key: "ChIJxSa9TqKAhYAR4lqep-kTo8c",
-    image_attribution: null
-  },
-  {
-    name: "Dobbs Ferry Bar",
-    address: "406 Hayes Street, San Francisco",
-    key: "ChIJKz56lpiAhYARJpY3n_EHHoM",
-    image_attribution: null
-  },
-  {
-    name: "Century San Francisco Centre 9 and XD",
-    address: "835 Market Street #5000, San Francisco",
-    key: "ChIJ6zMe3oWAhYARvOimeV5H7_w",
-    image_attribution: null
-  },
-  {
-    name: "Lucky",
-    address: "1750 Fulton Street #756, San Francisco",
-    key: "ChIJCRbPKLOAhYARodDE5raXmzc",
-    image_attribution: null
-  },
-  {
-    name: "Kama O Deli",
-    address: "590 3rd Street, San Francisco",
-    key: "ChIJ7wBxo3iAhYARLUQDu86gvPw",
-    image_attribution: null
-  },
-  {
-    name: "Han's Coffee Shop",
-    address: "900 Sutter St, San Francisco",
-    key: "ChIJbQyGMZKAhYARvtrfndbObvQ",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Encore",
-    address: "488 Post St, San Francisco",
-    key: "ChIJDbCSio6AhYARnhfyf6t5rus",
-    image_attribution: null
-  },
-  {
-    name: "Sumac Istanbul Street Food",
-    address: "1096 Union Street, San Francisco",
-    key: "ChIJtzGZ3hqBhYAR3iZksU1NhKM",
-    image_attribution: null
-  },
-  {
-    name: "Awaken Cafe & Roasting",
-    address: "1429 Broadway, Oakland",
-    key: "ChIJIQRT5bOAj4ARtg_luwU-pP4",
-    image_attribution: null
-  },
-  {
-    name: "Asena",
-    address: "2508 Santa Clara Ave, Alameda",
-    key: "ChIJ39tmipaGj4ARvB_WP_wSFxY",
-    image_attribution: null
-  },
-  {
-    name: "Gordo Taquer\u00eda",
-    address: "1423 Solano Ave, Albany",
-    key: "ChIJCZHwoTV5hYARSHN5Z6jpDuA",
-    image_attribution: null
-  },
-  {
-    name: "M.H.Bread and Butter",
-    address: "nan",
-    key: "ChIJuXKIyziXhYARO1hfWpLyfE8",
+    name: "The Four Deuces",
+    address: "2319 Taraval Street, San Francisco",
+    key: "ChIJMZ7bkYJ9j4ARdAWz3Vy5k1Q",
     image_attribution: null
   },
   {
@@ -12681,21 +11970,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "JOE & THE JUICE",
-    address: "1155 4th Street, San Francisco",
-    key: "ChIJGSOVLfx_j4ART_Zy0PGxV0I",
+    name: "The Taco Shop at Underdogs",
+    address: "1824 Irving St, San Francisco",
+    key: "ChIJof2OgGWHhYAR63HMIBa7XYs",
     image_attribution: null
   },
   {
-    name: "Mama Ji's",
-    address: "4416 18th Street, San Francisco",
-    key: "ChIJk5c5ZQR-j4ARhHCzKVyTxTc",
+    name: "Rambler",
+    address: "545 Post St, San Francisco",
+    key: "ChIJDw_gQo6AhYAR6Y7rN9BRwnc",
     image_attribution: null
   },
   {
-    name: "Bella Trattoria",
-    address: "3854 Geary Boulevard, San Francisco",
-    key: "ChIJZzXiBzmHhYARipcxKBQpZrY",
+    name: "North Beach Restaurant",
+    address: "1512 Stockton Street, San Francisco",
+    key: "ChIJlWNdb_GAhYARzwP8oA7x_xU",
+    image_attribution: null
+  },
+  {
+    name: "Buckeye Roadhouse",
+    address: "15 Shoreline Hwy, Mill Valley",
+    key: "ChIJySdG8kCFhYARWhnatq6Ouhs",
     image_attribution: null
   },
   {
@@ -12705,16 +12000,82 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cool Cravings",
-    address: "1635 Divisadero Street, San Francisco",
-    key: "ChIJIX0mHLaAhYARalRTGorSOrI",
+    name: "Izakaya mayumi",
+    address: "2221 Clement Street, San Francisco",
+    key: "ChIJp5NnFWGHhYAR_A4TJlboKFo",
     image_attribution: null
   },
   {
-    name: "Orson's Belly",
-    address: "1737 Balboa St, San Francisco",
-    key: "ChIJGZmBsxOHhYARs5KqzKKbLwM",
+    name: "M.H.Bread and Butter",
+    address: "nan",
+    key: "ChIJuXKIyziXhYARO1hfWpLyfE8",
+    image_attribution: null
+  },
+  {
+    name: "Awaken Cafe & Roasting",
+    address: "1429 Broadway, Oakland",
+    key: "ChIJIQRT5bOAj4ARtg_luwU-pP4",
+    image_attribution: null
+  },
+  {
+    name: "Jo Jo's Cafe",
+    address: "1537 Ocean Avenue, San Francisco",
+    key: "ChIJkdJznc19j4ARpR3IZMsDaDU",
+    image_attribution: null
+  },
+  {
+    name: "Tacolicious",
+    address: "2250 Chestnut St, San Francisco",
+    key: "ChIJkbv8N9eAhYARMyu5POX9pRk",
     image_attribution: ""
+  },
+  {
+    name: "Asena",
+    address: "2508 Santa Clara Ave, Alameda",
+    key: "ChIJ39tmipaGj4ARvB_WP_wSFxY",
+    image_attribution: null
+  },
+  {
+    name: "Tasty",
+    address: "5530 Geary Boulevard, San Francisco",
+    key: "ChIJc2YHRhCHhYARUJOuTz9Zy6o",
+    image_attribution: null
+  },
+  {
+    name: "Gordo Taquer\u00eda",
+    address: "1423 Solano Ave, Albany",
+    key: "ChIJCZHwoTV5hYARSHN5Z6jpDuA",
+    image_attribution: null
+  },
+  {
+    name: "Salt House",
+    address: "545 Mission Street, San Francisco",
+    key: "ChIJRU1AJ2OAhYARFA9ToMGw-OE",
+    image_attribution: null
+  },
+  {
+    name: "The Center SF",
+    address: "548 Fillmore Street, San Francisco",
+    key: "ChIJOak3a6SAhYARp0odgM0Y5XA",
+    image_attribution: null
+  },
+  {
+    name: "1601 Bar & Kitchen",
+    address: "1601 Howard Street, San Francisco",
+    key: "ChIJVVVVVSh-j4ARbPgFDYtdLn4",
+    image_attribution: null
+  },
+  {
+    name: "Good Earth Cafe",
+    address: "835 Kearny St, San Francisco",
+    key: "ChIJjTyczvSAhYARGjIGM8NkEnQ",
+    image_attribution: null
+  },
+  {
+    name: "Two Jacks Nik's Place",
+    address: "401 Haight Street, San Francisco",
+    key: "ChIJj9GYOqGAhYARE-Gt7_rIBYw",
+    image_attribution: null
   },
   {
     name: "Coffee Cantata",
@@ -12723,27 +12084,58 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Frascati",
-    address: "1901 Hyde Street, San Francisco",
-    key: "ChIJmbQ_KOmAhYARP1wHNFZqj6w",
+    name: "Upcider",
+    address: "1160 Polk Street 2nd floor, San Francisco",
+    key: "ChIJU2QEQZSAhYAR0DpVqUkvnNU",
     image_attribution: null
   },
   {
-    name: "Church Street Cafe",
-    address: "260 Church St, San Francisco",
-    key: "ChIJjcGlfB5-j4ARfK5CFulT7xo",
+    name: "Escape From New York Pizza",
+    address: "333 Bush Street #104, San Francisco",
+    key: "ChIJhxhwkomAhYAReZ8jCsmHd5U",
     image_attribution: null
   },
   {
-    name: "La Boulangerie de San Francisco, Noe",
-    address: "3898 24th Street, San Francisco",
-    key: "ChIJNVvanBR-j4ARnKgYHLjR-as",
+    name: "Sushi Bistro",
+    address: "431 Balboa Street, San Francisco",
+    key: "ChIJCcINQEl-j4ARRypIXsVSEZI",
     image_attribution: null
   },
   {
-    name: "Padrecito",
-    address: "901 Cole Street, San Francisco",
-    key: "ChIJs_IP5FCHhYARgAcFixBR6NY",
+    name: "Red Cafe",
+    address: "2894 Mission St, San Francisco",
+    key: "ChIJpVIYK0F-j4ARHS7kSMEYE18",
+    image_attribution: null
+  },
+  {
+    name: "Andytown Coffee Roasters",
+    address: "3655 Lawton St, San Francisco",
+    key: "ChIJee4DupqHhYARXadb2DlBtr8",
+    image_attribution: null
+  },
+  {
+    name: "Zhong Shan Hakka Restaurant",
+    address: "2237 Taraval Street, San Francisco",
+    key: "ChIJY0YP7oJ9j4ARnfPMn1LMId4",
+    image_attribution: null
+  },
+  {
+    name: "Ferment Drink Repeat Brewing Co.",
+    address: "2636 San Bruno Ave, San Francisco",
+    key: "ChIJgVrH2OJ-j4AR2tH5x0EOWJY",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116899122732352725499\">Michael Kwun</a>']"
+  },
+  {
+    name: "Bazille",
+    address: "865 Market Street, San Francisco",
+    key: "ChIJ6zMe3oWAhYARCjdEkUhwnm8",
+    image_attribution: null
+  },
+  {
+    name: "Foghorn Taproom",
+    address: "450 Balboa Street, San Francisco",
+    key: "ChIJ_4yHqR2HhYAReD1c3IpzCHg",
     image_attribution: null
   },
   {
@@ -12759,166 +12151,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Noosh",
-    address: "2001 Fillmore St, San Francisco",
-    key: "ChIJhyFhqpCBhYARKlrgo8g4cEA",
+    name: "Xpresso Tea",
+    address: "6901 Geary Blvd, San Francisco",
+    key: "ChIJJxiDOKiHhYARcI2oZr4YBL4",
     image_attribution: null
   },
   {
-    name: "Cafe Zoetrope",
-    address: "916 Kearny St, San Francisco",
-    key: "ChIJ1-6lw_SAhYARompFFvy2OA0",
+    name: "Pho Ha Tien",
+    address: "1900 Ocean Avenue, San Francisco",
+    key: "ChIJ-y_PIcx9j4ARJk8GzkhAz34",
     image_attribution: null
   },
   {
-    name: "Tsunami Panhandle",
-    address: "1306 Fulton Street, San Francisco",
-    key: "ChIJkTl5trGAhYAR34ROVyd_Se8",
+    name: "Shabusen Restaurant",
+    address: "1726 Buchanan Street, San Francisco",
+    key: "ChIJeZyM0riAhYAROp2orykLUs8",
     image_attribution: null
   },
   {
-    name: "25 Lusk",
-    address: "25 Lusk Street, San Francisco",
-    key: "ChIJAzkmQNZ_j4ARs6PNLtDYE_g",
+    name: "Fueling Station Cafe",
+    address: "2436 Polk St, San Francisco",
+    key: "ChIJi6iXceiAhYARL18mA3K20FE",
     image_attribution: null
   },
   {
-    name: "What The Cluck",
-    address: "1782 Haight Street, San Francisco",
-    key: "ChIJM9vEjiyHhYARM9IeVfURMyg",
+    name: "La Paz",
+    address: "1028 Potrero Avenue, San Francisco",
+    key: "ChIJD6TqIUp-j4AR58frnCUPuMM",
     image_attribution: null
   },
   {
-    name: "Manzoni",
-    address: "2788 Diamond Street, San Francisco",
-    key: "ChIJs3L-mGR-j4ARf0zI1_FJsDg",
-    image_attribution: null
-  },
-  {
-    name: "Kibatsu",
-    address: "400 Haight Street, San Francisco",
-    key: "ChIJ_6lGs5OBhYARMZbrb4T5Os4",
-    image_attribution: null
-  },
-  {
-    name: "Squat & Gobble",
-    address: "1 West Portal Avenue, San Francisco",
-    key: "ChIJP5B_Rep9j4ARuOIyGXI3NsU",
-    image_attribution: null
-  },
-  {
-    name: "Zabb Thai Cuisine",
-    address: "4440 Mission Street, San Francisco",
-    key: "ChIJw4IS7oh-j4ARSi_MBaxs9Ps",
-    image_attribution: null
-  },
-  {
-    name: "Chestnut Street Coffee Roastery",
-    address: "2331 Chestnut St, San Francisco",
-    key: "ChIJDeuYO9SAhYARSeppEW5sFAI",
-    image_attribution: null
-  },
-  {
-    name: "Equator Coffees",
-    address: "2 Marina Blvd, San Francisco",
-    key: "ChIJA_rvjdiAhYARb0vVE-Pyauk",
-    image_attribution: null
-  },
-  {
-    name: "Spike's Coffees and Teas",
-    address: "4117 19th St, San Francisco",
-    key: "ChIJIwGPyxp-j4ARaAv8glHW8q4",
-    image_attribution: ""
-  },
-  {
-    name: "The Greenwich",
-    address: "3154 Fillmore Street, San Francisco",
-    key: "ChIJAzeIhCiBhYARKMxaXXYCLAw",
-    image_attribution: null
-  },
-  {
-    name: "La Mediterranee",
-    address: "288 Noe Street, San Francisco",
-    key: "ChIJ5zBG8hx-j4ARMlRDyaao1os",
-    image_attribution: null
-  },
-  {
-    name: "Oasis Grill",
-    address: "200 4th Street, San Francisco",
-    key: "ChIJg96BaoeAhYARIrnzcR8L-tY",
-    image_attribution: null
-  },
-  {
-    name: "Sightglass Coffee",
-    address: "3014 20th St, San Francisco",
-    key: "ChIJH3-XPzd-j4ARxc5pUq9X8CU",
-    image_attribution: null
-  },
-  {
-    name: "Absinthe Brasserie & Bar",
-    address: "398 Hayes Street, San Francisco",
-    key: "ChIJ1T-IlZiAhYAR5m-Mps4qLFk",
-    image_attribution: null
-  },
-  {
-    name: "Kings Bakery Cafe",
-    address: "2846 Mission Street, San Francisco",
-    key: "ChIJtfbLLEd-j4ARUoFVdaOw6JE",
-    image_attribution: null
-  },
-  {
-    name: "Burmese Kitchen",
-    address: "(between 2nd & 3rd Ave), 3815 Geary Boulevard, San Francisco",
-    key: "ChIJgUKoC5qAhYARe5vbWr2KljM",
-    image_attribution: null
-  },
-  {
-    name: "You See Sushi",
-    address: "94 Judah Street, San Francisco",
-    key: "ChIJbT8jR1mHhYARsRwIaCpbYAY",
-    image_attribution: null
-  },
-  {
-    name: "Sons & Daughters",
-    address: "Btw. Powell & Mason Streets, 708 Bush Street, San Francisco",
-    key: "ChIJvXXIOoyAhYARe-ixq3WdmrY",
-    image_attribution: null
-  },
-  {
-    name: "JOE & THE JUICE",
-    address: "50 California Street, San Francisco",
-    key: "ChIJAQCQaWGAhYARnGWVypsM8A0",
-    image_attribution: null
-  },
-  {
-    name: "Peasant Pies Cafe & Catering, Inner Sunset",
-    address: "1039 Irving St, San Francisco",
-    key: "ChIJBUHEg12HhYARbpImXPQt384",
-    image_attribution: null
-  },
-  {
-    name: "Anh Hong",
-    address: "808 Geary Street, San Francisco",
-    key: "ChIJ_ZZoaZGAhYARNpr2bF_kNfg",
-    image_attribution: null
-  },
-  {
-    name: "Three Babes Bakeshop",
-    address: "2501 Phelps St, San Francisco",
-    key: "ChIJJUsZRh1_j4ARBQC_b7NtI40",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/107773199027538310462\">Three Babes Bakeshop</a>']"
-  },
-  {
-    name: "Chef Li's Cafe Hot pot",
-    address: "2726 San Bruno Avenue, San Francisco",
-    key: "ChIJY2BJ9-J-j4ARj_pzeKOJHF8",
-    image_attribution: null
-  },
-  {
-    name: "Angkor Borei Restaurant",
-    address: "3471 Mission Street, San Francisco",
-    key: "ChIJKzhXFV1-j4ARyCC7QHl-c40",
+    name: "House of Prime Rib",
+    address: "1906 Van Ness Avenue, San Francisco",
+    key: "ChIJg67caeqAhYAR2UQjKb1a8j4",
     image_attribution: null
   },
   {
@@ -12928,63 +12193,153 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Zhong Shan Hakka Restaurant",
-    address: "2237 Taraval Street, San Francisco",
-    key: "ChIJY0YP7oJ9j4ARnfPMn1LMId4",
+    name: "China First Restaurant",
+    address: "336 Clement Street, San Francisco",
+    key: "ChIJGZ2s-juHhYAR9dk74ELV9Q0",
     image_attribution: null
   },
   {
-    name: "Miss Saigon",
-    address: "100 6th Street, San Francisco",
-    key: "ChIJ2QNqcoSAhYAR-nLWuPul-qA",
+    name: "Balboa Teriyaki",
+    address: "3536 Balboa Street, San Francisco",
+    key: "ChIJOYKsE6aHhYARgw8VurYIJXo",
     image_attribution: null
   },
   {
-    name: "Tancca",
-    address: "776 Broadway, San Francisco",
-    key: "ChIJGyFWNfKAhYARyeBNL_4tgEo",
+    name: "Silver Cloud Restaurant & Karaoke Bar",
+    address: "1994 Lombard Street, San Francisco",
+    key: "ChIJAdQfF9qAhYARQ6q2-Fa9fxQ",
     image_attribution: null
   },
   {
-    name: "Ladle & Leaf",
-    address: "School of Nursing Building, 513 Parnassus Avenue, San Francisco",
-    key: "ChIJ8a6m0FmHhYARZ04brhtmrKQ",
+    name: "Street Restaurant and Bar",
+    address: "2141 Polk Street, San Francisco",
+    key: "ChIJP61Jo-mAhYARynPDnUkRBr0",
     image_attribution: null
   },
   {
-    name: "Fat Beli Deli",
-    address: "2598 San Bruno Avenue, San Francisco",
-    key: "ChIJt2fY1eJ-j4ARaLAlF0gynAE",
+    name: "La Mediterranee",
+    address: "288 Noe Street, San Francisco",
+    key: "ChIJ5zBG8hx-j4ARMlRDyaao1os",
     image_attribution: null
   },
   {
-    name: "Tyger's Coffee Shop",
-    address: "2798 Diamond Street, San Francisco",
-    key: "ChIJ85azmGR-j4ARrIy_nJCTseI",
+    name: "Rigolo Caf\u00e9",
+    address: "3465 California St, San Francisco",
+    key: "ChIJ6z5I8jOHhYARutxlUZ_Z3JQ",
     image_attribution: null
   },
   {
-    name: "Sushi Rapture",
-    address: "1400 Leavenworth Street, San Francisco",
-    key: "ChIJYUeQ-uyAhYARUKqpvmSgsWg",
+    name: "OPA",
+    address: "2401 Post Street, San Francisco",
+    key: "ChIJ9-Kw-7WAhYAR3edBmWNNZdU",
     image_attribution: null
   },
   {
-    name: "Hollow Cow",
-    address: "1875 Union Street, San Francisco",
-    key: "ChIJW4qJVNuAhYARGDOUucJ4-Co",
+    name: "Le Marais Bakery",
+    address: "1138 Sutter Street, San Francisco",
+    key: "ChIJl9mEY9-BhYARYtyXmTf30tQ",
     image_attribution: null
   },
   {
-    name: "Cozy Cafe",
-    address: "965 Sutter St C, San Francisco",
-    key: "ChIJ9VmGzpOAhYAR4X1Bcv2I-VE",
+    name: "San Francisco Wine & Cheese",
+    address: "141 Gough Street, San Francisco",
+    key: "ChIJOSgJQJ-AhYAR5oEButf-LyE",
     image_attribution: null
   },
   {
-    name: "Orchids Cafe",
-    address: "1031 Ocean Ave, San Francisco",
-    key: "ChIJq6p2tix8j4ARC5ORYOijf9c",
+    name: "Indulgence Tea Bar",
+    address: "1490 Ocean Avenue Suite #1, San Francisco",
+    key: "ChIJ-bwGgtZ9j4ARpB7Z11Laa90",
+    image_attribution: null
+  },
+  {
+    name: "Alice's",
+    address: "1599 Sanchez Street, San Francisco",
+    key: "ChIJ3_kUO2l-j4ARSvMC66FNsiY",
+    image_attribution: null
+  },
+  {
+    name: "Szechuan cuisine",
+    address: "1920 Irving Street, San Francisco",
+    key: "ChIJg3DbiG-HhYARsxTF-PQtUxM",
+    image_attribution: null
+  },
+  {
+    name: "Wonderful Dessert and Cafe",
+    address: "2035 Irving St, San Francisco",
+    key: "ChIJS8Gg8G-HhYARDQP7gBs5esE",
+    image_attribution: null
+  },
+  {
+    name: "Kin Khao",
+    address: "55 Cyril Magnin St, San Francisco",
+    key: "ChIJn_ZxYo-AhYAR22wJt4at2K0",
+    image_attribution: ""
+  },
+  {
+    name: "CAFE LA FLORE",
+    address: "1032 Clement St #2113, San Francisco",
+    key: "ChIJz9uXyxeHhYARv48UccTFjF8",
+    image_attribution: null
+  },
+  {
+    name: "Benu",
+    address: "22 Hawthorne Street, San Francisco",
+    key: "ChIJSToWqn2AhYAR1CuH2iGMvuo",
+    image_attribution: null
+  },
+  {
+    name: "Folklores Coffee Roasters",
+    address: "1035 Fillmore St, San Francisco",
+    key: "ChIJIzR4GLuAhYARqQO-aV5JEo4",
+    image_attribution: null
+  },
+  {
+    name: "Darwin Cafe",
+    address: "212 Ritch St, San Francisco",
+    key: "ChIJOxC4Nn-AhYARI0Fe_s9gAZk",
+    image_attribution: null
+  },
+  {
+    name: "Finn Town",
+    address: "2251 Market Street, San Francisco",
+    key: "ChIJhXshQxx-j4ARKYwz8t6R5ZU",
+    image_attribution: null
+  },
+  {
+    name: "Hazel Southern Bar & Kitchen",
+    address: "1446 Market St, San Francisco",
+    key: "ChIJ9X07oZ6AhYAR7wllZRuBg2o",
+    image_attribution: null
+  },
+  {
+    name: "Ballast Coffee",
+    address: "329 W Portal Ave, San Francisco",
+    key: "ChIJm_O5AMB9j4ARtJO87mNjhic",
+    image_attribution: null
+  },
+  {
+    name: "Highwire Coffee Roasters",
+    address: "2049 San Pablo Ave, Berkeley",
+    key: "ChIJL0EVdup-hYARU-kkP-9o98c",
+    image_attribution: null
+  },
+  {
+    name: "Lung Fung Bakery",
+    address: "1823 Clement Street, San Francisco",
+    key: "ChIJRSq8dhCHhYARE3p3mLTXSBY",
+    image_attribution: null
+  },
+  {
+    name: "The Pot's",
+    address: "2652 Judah Street, San Francisco",
+    key: "ChIJ33bEwHeHhYAR0TQ3w_5YJoc",
+    image_attribution: null
+  },
+  {
+    name: "Yali's Caf\u00e9",
+    address: "1920 Oxford St, Berkeley",
+    key: "ChIJq6PhM55-hYAR-EokE9qVQdA",
     image_attribution: null
   },
   {
@@ -12994,9 +12349,135 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Andytown Coffee Roasters",
-    address: "3655 Lawton St, San Francisco",
-    key: "ChIJee4DupqHhYARXadb2DlBtr8",
+    name: "House of Bagels",
+    address: "5030 Geary Boulevard, San Francisco",
+    key: "ChIJxciR6RaHhYARbDlfhj5V9LE",
+    image_attribution: null
+  },
+  {
+    name: "Asha Tea House",
+    address: "17 Kearny Street, San Francisco",
+    key: "ChIJ3aKMWoiAhYARmNLc2TR11L0",
+    image_attribution: null
+  },
+  {
+    name: "Casa Mexicana",
+    address: "180 Church Street, San Francisco",
+    key: "ChIJufsHDR5-j4ARKyCMbqVKFmQ",
+    image_attribution: null
+  },
+  {
+    name: "Sightglass Coffee",
+    address: "SFMOMA, 151 3rd St, San Francisco",
+    key: "ChIJBTVtZn2AhYARHb3leJmdfVU",
+    image_attribution: null
+  },
+  {
+    name: "Co Nam",
+    address: "1653 Polk Street, San Francisco",
+    key: "ChIJV2p1HuuAhYARaIJQ_Ir52XU",
+    image_attribution: null
+  },
+  {
+    name: "Toast Eatery",
+    address: "160 West Portal Avenue, San Francisco",
+    key: "ChIJZ2w5lep9j4ARjycYeacagO4",
+    image_attribution: null
+  },
+  {
+    name: "Highwire Coffee Roasters",
+    address: "Rockridge Market Hall, 5655 College Ave, Oakland",
+    key: "ChIJ8xdRjcJ9hYARM0sJ4KjvIe4",
+    image_attribution: null
+  },
+  {
+    name: "Highwire Coffee Roasters",
+    address: "Flowerland, 1330 Solano Ave, Albany",
+    key: "ChIJcTuHUTR5hYARkHtlWTIsujE",
+    image_attribution: null
+  },
+  {
+    name: "Barebottle Brewing Company",
+    address: "1525 Cortland Avenue, San Francisco",
+    key: "ChIJH5jJ8VZ-j4ARja23tGUOAzE",
+    image_attribution: null
+  },
+  {
+    name: "Tsing Tao Restaurant",
+    address: "3107 Clement Street #1615, San Francisco",
+    key: "ChIJm4Ic3amHhYARYUmmglotm5Y",
+    image_attribution: null
+  },
+  {
+    name: "Fort Mason Market & Deli",
+    address: "1701 Greenwich Street, San Francisco",
+    key: "ChIJyQws7tyAhYARgj8gerHLlzw",
+    image_attribution: null
+  },
+  {
+    name: "Willkommen",
+    address: "2198 Market Street, San Francisco",
+    key: "ChIJE_JhmbN_j4ARYh6W1Y4Ioms",
+    image_attribution: null
+  },
+  {
+    name: "All Star Cafe",
+    address: "1306 Mission St, San Francisco",
+    key: "ChIJJ5-Q_JyAhYAR_xPVQqCV3f8",
+    image_attribution: null
+  },
+  {
+    name: "Moya",
+    address: "121 9th Street, San Francisco",
+    key: "ChIJCUtrIJ2AhYARxlkbZeP-Go4",
+    image_attribution: null
+  },
+  {
+    name: "Paper Moon Coffee Co.",
+    address: "5237 Stevens Creek Blvd, Santa Clara",
+    key: "ChIJ9439Rn61j4AR5r2Gf5leQqw",
+    image_attribution: null
+  },
+  {
+    name: "Blue Iguana Taco Truck",
+    address: "600 Monterey Boulevard, San Francisco",
+    key: "ChIJMTGPU9Z9j4ARnxCAUZ7Z9vk",
+    image_attribution: null
+  },
+  {
+    name: "Kaisen Don",
+    address: "1939 Ocean Avenue, San Francisco",
+    key: "ChIJb_mfqc59j4ARpceoHHIJ-QE",
+    image_attribution: null
+  },
+  {
+    name: "modern coffee",
+    address: "2023 Center St, Berkeley",
+    key: "ChIJyRpuco9_hYARjVM_B6Dltak",
+    image_attribution: null
+  },
+  {
+    name: "Breadbelly",
+    address: "1408 Clement St, San Francisco",
+    key: "ChIJ06Hh75aHhYARre2ZXOUDzXY",
+    image_attribution: null
+  },
+  {
+    name: "Cal-Mart",
+    address: "3585 California Street, San Francisco",
+    key: "ChIJsz4h-zOHhYARkWnZE58MTUg",
+    image_attribution: null
+  },
+  {
+    name: "Destino",
+    address: "1815 Market Street, San Francisco",
+    key: "ChIJJ2XZ-Z-AhYARTdVR8wX8tgQ",
+    image_attribution: null
+  },
+  {
+    name: "ONE65 Patisserie & Boutique",
+    address: "165 O'Farrell Street, San Francisco",
+    key: "ChIJdQxBzpiBhYARz-Gw5FmHn-4",
     image_attribution: null
   },
   {
@@ -13007,141 +12488,15 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/107944181341652108488\">Sushirrito - Union Square</a>']"
   },
   {
-    name: "Highwire Coffee Roasters",
-    address: "Rockridge Market Hall, 5655 College Ave, Oakland",
-    key: "ChIJ8xdRjcJ9hYARM0sJ4KjvIe4",
+    name: "Ten-Ichi Restaurant & Sushi Bar",
+    address: "2235 Fillmore Street, San Francisco",
+    key: "ChIJzWczFMaAhYARrSddKj5Kqmw",
     image_attribution: null
   },
   {
-    name: "Eats",
-    address: "50 Clement Street, San Francisco",
-    key: "ChIJLTo1iTmHhYARzSryJMomLjk",
-    image_attribution: null
-  },
-  {
-    name: "Bebebar",
-    address: "3809 18th Street, San Francisco",
-    key: "ChIJuVc7lBl-j4ARF6dhcZiUcjs",
-    image_attribution: null
-  },
-  {
-    name: "Steep Brew",
-    address: "450 Rhode Island Street, San Francisco",
-    key: "ChIJuT02PTN-j4ARbOaLNDNcpP4",
-    image_attribution: null
-  },
-  {
-    name: "Highwire Coffee Roasters",
-    address: "Flowerland, 1330 Solano Ave, Albany",
-    key: "ChIJcTuHUTR5hYARkHtlWTIsujE",
-    image_attribution: null
-  },
-  {
-    name: "Highwire Coffee Roasters",
-    address: "2049 San Pablo Ave, Berkeley",
-    key: "ChIJL0EVdup-hYARU-kkP-9o98c",
-    image_attribution: null
-  },
-  {
-    name: "Excelsior Coffee",
-    address: "4495 Mission St, San Francisco",
-    key: "ChIJdefTJb9_j4ARM99sfJXvgtg",
-    image_attribution: null
-  },
-  {
-    name: "Golden Gate Fortune Cookie Factory",
-    address: "56 Ross Alley, San Francisco",
-    key: "ChIJUXKZXfOAhYARkNN_ZEku9Oo",
-    image_attribution: null
-  },
-  {
-    name: "Lime Tree",
-    address: "450 Irving Street A, San Francisco",
-    key: "ChIJa8Pu7luHhYAR4sluZTTUTF8",
-    image_attribution: null
-  },
-  {
-    name: "CHOPSTICKS CHINESE FAST FOOD",
-    address: "4615 Mission Street, San Francisco",
-    key: "ChIJ1xwUVo9-j4ARyaf7aPFn1PQ",
-    image_attribution: null
-  },
-  {
-    name: "Yali's Caf\u00e9",
-    address: "1920 Oxford St, Berkeley",
-    key: "ChIJq6PhM55-hYAR-EokE9qVQdA",
-    image_attribution: null
-  },
-  {
-    name: "Tasty Pot",
-    address: "815 Clement Street, San Francisco",
-    key: "ChIJQxMulj2HhYARfRw8jxJdlrY",
-    image_attribution: null
-  },
-  {
-    name: "Bambino's Ristorante",
-    address: "945 Cole Street, San Francisco",
-    key: "ChIJJ1KXVFSHhYARfpcWTVtPums",
-    image_attribution: null
-  },
-  {
-    name: "Sweet Basil Thai Cuisine",
-    address: "3221 Mission Street, San Francisco",
-    key: "ChIJR8qiDUN-j4AR9kX02rdIkfE",
-    image_attribution: null
-  },
-  {
-    name: "Tsing Tao Restaurant",
-    address: "3107 Clement Street #1615, San Francisco",
-    key: "ChIJm4Ic3amHhYARYUmmglotm5Y",
-    image_attribution: null
-  },
-  {
-    name: "Ben & Jerry\u2019s",
-    address: "1480 Haight Street, San Francisco",
-    key: "ChIJsbMzM1OHhYAR-htwK_E89Ro",
-    image_attribution: null
-  },
-  {
-    name: "Paper Moon Coffee Co.",
-    address: "5237 Stevens Creek Blvd, Santa Clara",
-    key: "ChIJ9439Rn61j4AR5r2Gf5leQqw",
-    image_attribution: null
-  },
-  {
-    name: "Ike's Japanese Kitchen",
-    address: "800 Van Ness Avenue, San Francisco",
-    key: "ChIJkaNdBZeAhYARMYOh91wB560",
-    image_attribution: null
-  },
-  {
-    name: "Pakwan Restaurant",
-    address: "1140 Ocean Avenue, San Francisco",
-    key: "ChIJVay2NdN9j4ARoRYNaQbsgt4",
-    image_attribution: null
-  },
-  {
-    name: "modern coffee",
-    address: "2023 Center St, Berkeley",
-    key: "ChIJyRpuco9_hYARjVM_B6Dltak",
-    image_attribution: null
-  },
-  {
-    name: "Pizzeria Avellino",
-    address: "2769 Lombard Street, San Francisco",
-    key: "ChIJnzsSNCuHhYARK_4bmmqxpJM",
-    image_attribution: null
-  },
-  {
-    name: "The Pot's",
-    address: "2652 Judah Street, San Francisco",
-    key: "ChIJ33bEwHeHhYAR0TQ3w_5YJoc",
-    image_attribution: null
-  },
-  {
-    name: "French Bakery",
-    address: "1101 Taraval St, San Francisco",
-    key: "ChIJBwBwv499j4ARjORE7--OPik",
+    name: "Tortas Los Picudos",
+    address: "2969 24th Street, San Francisco",
+    key: "ChIJlwuqkkh-j4AR3Xduv2ZUVL4",
     image_attribution: null
   },
   {
@@ -13151,22 +12506,29 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hong Kong Restaurant",
-    address: "2728 San Bruno Avenue, San Francisco",
-    key: "ChIJJ3Dj-eJ-j4ARaEwwwDFkeSA",
+    name: "The Mill",
+    address: "736 Divisadero St, San Francisco",
+    key: "ChIJVzS3LbCAhYAR6Dw2KqlhWhg",
     image_attribution: null
   },
   {
-    name: "Five Degree Tea House",
-    address: "2527 San Bruno Avenue, San Francisco",
-    key: "ChIJHUzg2Px-j4ARQRbnV7YQs34",
+    name: "Birdsong",
+    address: "1085 Mission St, San Francisco",
+    key: "ChIJTwtvfIOAhYARHMEe0c2Xi4s",
     image_attribution: null
   },
   {
-    name: "Ling Ling Cuisine Restaurant",
-    address: "2517 San Bruno Ave, San Francisco",
-    key: "ChIJ33L13vx-j4ARW1vdkySw5wE",
+    name: "Pink Onion",
+    address: "64 14th Street, San Francisco",
+    key: "ChIJMygdeCZ-j4ARKDtpQiICwUo",
     image_attribution: null
+  },
+  {
+    name: "Three Babes Bakeshop",
+    address: "2501 Phelps St, San Francisco",
+    key: "ChIJJUsZRh1_j4ARBQC_b7NtI40",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107773199027538310462\">Three Babes Bakeshop</a>']"
   },
   {
     name: "Pacific Catch",
@@ -13175,69 +12537,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rintaro",
-    address: "82 14th St, San Francisco",
-    key: "ChIJgcIdeSZ-j4AR1BE-49mhR-E",
+    name: "Hahn's Hibachi",
+    address: "535 Irving Street, San Francisco",
+    key: "ChIJCWIf9luHhYARYRKxkKBlxVI",
     image_attribution: null
   },
   {
-    name: "Laguna",
-    address: "602 Hayes Street, San Francisco",
-    key: "ChIJEVNik9aBhYAR1LOF9hy5daw",
+    name: "Joe & Pat's Bakery & Coffee",
+    address: "2499 Folsom St, San Francisco",
+    key: "ChIJAbo0sTl-j4ARY3-u5MKU0nA",
     image_attribution: null
   },
   {
-    name: "City Lunch Restaurant",
-    address: "2101 Ingalls St, San Francisco",
-    key: "ChIJhS2_NhZ_j4AR3tWfSfeDA8Q",
+    name: "Rye Cocktail Bar",
+    address: "688 Geary Street, San Francisco",
+    key: "ChIJIU63vZGAhYARM4foBPHnzd4",
     image_attribution: null
   },
   {
-    name: "Pinhole Coffee",
-    address: "231 Cortland Ave, San Francisco",
-    key: "ChIJe2NYDlx-j4ARKQZMDlIwcPA",
+    name: "CatHead's BBQ",
+    address: "1665 Folsom Street, San Francisco",
+    key: "ChIJBaVSWSZ-j4ARhlY05Oqa6eQ",
     image_attribution: null
   },
   {
-    name: "Creighton's Bakery",
-    address: "5214D Diamond Heights Boulevard, San Francisco",
-    key: "ChIJCS2cu3N-j4AR_4QyMWbJ0GU",
+    name: "Fiddler's Green of SF",
+    address: "1333 Columbus Avenue, San Francisco",
+    key: "ChIJh1sOQuGAhYARRtdznD3iagY",
     image_attribution: null
   },
   {
-    name: "ChouChou French Bistro",
-    address: "400 Dewey Boulevard, San Francisco",
-    key: "ChIJ2RhD4LZ3hYARbC0o5QazuU0",
+    name: "Rooster & Rice",
+    address: "2211 Filbert Street, San Francisco",
+    key: "ChIJZZ8LfdCAhYARnkEuXYsGbKQ",
     image_attribution: null
   },
   {
-    name: "Smile BBQ",
-    address: "2619 Mission Street, San Francisco",
-    key: "ChIJj1bELT9-j4ARmgIUDR-Rtrc",
+    name: "Ritual Coffee Roasters",
+    address: "2299 Market St, San Francisco",
+    key: "ChIJm1CgiRx-j4ARDQdEEr4VELk",
     image_attribution: null
   },
   {
-    name: "Handy Deli",
-    address: "1815 Irving Street, San Francisco",
-    key: "ChIJ26LJhmWHhYARGhzhcu1RINE",
-    image_attribution: null
-  },
-  {
-    name: "Provender",
-    address: "1415 18th St, San Francisco",
-    key: "ChIJoxRsy8t_j4ARRqvGR0E_hAE",
-    image_attribution: null
-  },
-  {
-    name: "Prospect",
-    address: "300 Spear Street, San Francisco",
-    key: "ChIJsc_3vHqAhYARG50dM6228cE",
-    image_attribution: null
-  },
-  {
-    name: "Etcetera Wine Bar and Cafe",
-    address: "795 Valencia Street, San Francisco",
-    key: "ChIJAfVvHT1-j4ARh6QjvdtNWNo",
+    name: "Brenda's French Soul Food",
+    address: "652 Polk Street, San Francisco",
+    key: "ChIJZ9s5SJeAhYARIX3Fxl6oj6c",
     image_attribution: null
   },
   {
@@ -13259,57 +12603,153 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Le Petit Cafe",
-    address: "1 Maritime Plz # Grnd, San Francisco",
-    key: "ChIJKfK7UWCAhYARuWw0Y4fcnPk",
+    name: "Mr Szechuan\u5ddd\u5148\u751f",
+    address: "890 Taraval Street, San Francisco",
+    key: "ChIJKeX8H-t9j4AR38MGinqQnmc",
     image_attribution: null
   },
   {
-    name: "Sociale",
-    address: "3665 Sacramento Street, San Francisco",
-    key: "ChIJT8omZTGHhYAR3YUiNaAFI8o",
+    name: "Sessions at the Presidio",
+    address: "1 Letterman Drive, San Francisco",
+    key: "ChIJFY3FHiuHhYARJDeueGzvhk0",
     image_attribution: null
   },
   {
-    name: "Za Pizza",
-    address: "1919 Hyde Street, San Francisco",
-    key: "ChIJZZ4z1uiAhYARd8dViRfgjH8",
+    name: "Roma Pizza",
+    address: "5099 Mission Street, San Francisco",
+    key: "ChIJm-DYWpt-j4AR3wowuG3-FQg",
     image_attribution: null
   },
   {
-    name: "Urban Remedy",
-    address: "1957 Union Street, San Francisco",
-    key: "ChIJAX3eMNuAhYARIoAk6yWkJGg",
+    name: "Eat Sushi Restaurant",
+    address: "1516 Folsom Street, San Francisco",
+    key: "ChIJU3-gJv5_j4ARaz0kjXHaE40",
     image_attribution: null
   },
   {
-    name: "Yamo",
-    address: "3406 18th Street, San Francisco",
-    key: "ChIJWdqFtzx-j4ARmbqOHjZACP4",
+    name: "Souvla",
+    address: "531 Divisadero Street, San Francisco",
+    key: "ChIJ5elBtK-AhYAR-LQoifoMAJ0",
     image_attribution: null
   },
   {
-    name: "Bernal Star",
-    address: "410 Cortland Avenue, San Francisco",
-    key: "ChIJG_dIWVl-j4ARo7gm0yqY-Z0",
+    name: "Mikkeller Bar",
+    address: "34 Mason St, San Francisco",
+    key: "ChIJ2WwqkYWAhYARLyKUhwqq2Zk",
     image_attribution: null
   },
   {
-    name: "Louie's Bar",
-    address: "55 Stevenson Street, San Francisco",
-    key: "ChIJ_ajJ82KAhYARFz06Pju-pUY",
+    name: "Pork Store Cafe",
+    address: "3122 16th St, San Francisco",
+    key: "ChIJT6WCQSJ-j4AReZR6E1eUtgc",
+    image_attribution: ""
+  },
+  {
+    name: "Tacko",
+    address: "3115 Fillmore St, San Francisco",
+    key: "ChIJXfulhtCAhYAR_F6aW1WfXik",
     image_attribution: null
   },
   {
-    name: "El Cafetazo",
-    address: "3087 16th St, San Francisco",
-    key: "ChIJnT-LTSJ-j4ARzCqJ1L3bVTE",
+    name: "Hawaiian Drive Inn",
+    address: "2600 San Bruno Avenue, San Francisco",
+    key: "ChIJC6BM1uJ-j4ARLPSa4sjrme8",
     image_attribution: null
   },
   {
-    name: "El Paraiso Cafe",
-    address: "1198 Treat Avenue, San Francisco",
-    key: "ChIJYyZHHEZ-j4ARu4C5nFCOnmI",
+    name: "Le Trio",
+    address: "2575 Judah St, San Francisco",
+    key: "ChIJeWZomHeHhYARjZESuTKelP0",
+    image_attribution: null
+  },
+  {
+    name: "Boba Guys Mission",
+    address: "3491 19th St, San Francisco",
+    key: "ChIJZZK4_Tx-j4ARcB8RQQyC4Io",
+    image_attribution: ""
+  },
+  {
+    name: "Bonita Taqueria Y Rotisserie",
+    address: "3600 16th Street, San Francisco",
+    key: "ChIJadJlfGV_j4AR6JGDm-vUxis",
+    image_attribution: null
+  },
+  {
+    name: "Posh Bagel",
+    address: "270 Sutter Street, San Francisco",
+    key: "ChIJ-4KYcomAhYARCLnCj9alILg",
+    image_attribution: null
+  },
+  {
+    name: "The Archery",
+    address: "498 Alabama Street, San Francisco",
+    key: "ChIJD541dDB-j4ART-oJw8IjvgQ",
+    image_attribution: null
+  },
+  {
+    name: "Chutney Restaurant",
+    address: "511 Jones Street, San Francisco",
+    key: "ChIJO0hd05GAhYARnN6M3MCFvPM",
+    image_attribution: null
+  },
+  {
+    name: "Pera",
+    address: "1457 18th Street, San Francisco",
+    key: "ChIJf61nyst_j4AReiwQdF4Jy6k",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Madeleine",
+    address: "149 New Montgomery St, San Francisco",
+    key: "ChIJKye2O32AhYARG37tXAsOj7Q",
+    image_attribution: null
+  },
+  {
+    name: "Four Barrel Coffee",
+    address: "375 Valencia St, San Francisco",
+    key: "ChIJ__abjyF-j4ARmyuzGS1yOdc",
+    image_attribution: null
+  },
+  {
+    name: "Hong Kong Restaurant",
+    address: "2728 San Bruno Avenue, San Francisco",
+    key: "ChIJJ3Dj-eJ-j4ARaEwwwDFkeSA",
+    image_attribution: null
+  },
+  {
+    name: "Riverside Seafood Restaurant",
+    address: "1201 Vicente St, San Francisco",
+    key: "ChIJLzLiTZd9j4ARvtW06l1rUsg",
+    image_attribution: null
+  },
+  {
+    name: "Local Kitchen & Wine Merchant",
+    address: "330 1st Street #1, San Francisco",
+    key: "ChIJzWMEoXuAhYARnGNx8NeVTpY",
+    image_attribution: null
+  },
+  {
+    name: "Falafelland",
+    address: "133 6th Street, San Francisco",
+    key: "ChIJcbNHiwuBhYAR8lTPlMOhS9s",
+    image_attribution: null
+  },
+  {
+    name: "Izakaya Kou",
+    address: "1560 Fillmore Street, San Francisco",
+    key: "ChIJ4Q0BqLmAhYARkp80yHGAGbw",
+    image_attribution: null
+  },
+  {
+    name: "Grand Mission Donuts & Bakery",
+    address: "2195 Mission Street, San Francisco",
+    key: "ChIJgSmDujx-j4ARDnrpQ6ihmyE",
+    image_attribution: null
+  },
+  {
+    name: "Recovery Room",
+    address: "4528 Mission Street, San Francisco",
+    key: "ChIJAQBFvIh-j4ARUyEYIXXBBpA",
     image_attribution: null
   },
   {
@@ -13319,57 +12759,64 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Corks",
-    address: "4342 California Street, San Francisco",
-    key: "ChIJAQBUmjyHhYARqQkfR4FVxvE",
-    image_attribution: null
-  },
-  {
-    name: "Bonita Taqueria Y Rotisserie",
-    address: "3600 16th Street, San Francisco",
-    key: "ChIJadJlfGV_j4AR6JGDm-vUxis",
-    image_attribution: null
-  },
-  {
-    name: "Doobu",
-    address: "1723 Buchanan Street, San Francisco",
-    key: "ChIJP5uN0biAhYAR10es7ERUGAg",
-    image_attribution: null
-  },
-  {
-    name: "Tunnel Top Lounge and Bar",
-    address: "601 Bush Street, San Francisco",
-    key: "ChIJqT7tAIyAhYAR8xuT_7pZM5k",
-    image_attribution: null
-  },
-  {
-    name: "Hahn's Hibachi",
-    address: "535 Irving Street, San Francisco",
-    key: "ChIJCWIf9luHhYARYRKxkKBlxVI",
-    image_attribution: null
-  },
-  {
     name: "Mr. Banh Mi",
     address: "3605 Balboa Street, San Francisco",
     key: "ChIJ5yxfCqaHhYARs0qAOV6u39U",
     image_attribution: null
   },
   {
-    name: "Cafe Bakery & Restaurant",
-    address: "1365 Noriega St, San Francisco",
-    key: "ChIJmfAigmKHhYARioGlCJOg-pU",
+    name: "Lost and Found Cocktail Bar",
+    address: "1439 Taraval St, San Francisco",
+    key: "ChIJs2CNtHN9j4ARDvJBrX_QShI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/113699297190232543843\">Jasper Yuan</a>']"
+  },
+  {
+    name: "Hollow",
+    address: "1435 Irving St, San Francisco",
+    key: "ChIJ5dpeQGaHhYARvGu-dP6AxwM",
     image_attribution: null
   },
   {
-    name: "Auntie Anne's",
-    address: "845 Market Street Space 201, San Francisco",
-    key: "ChIJy4kpbIaAhYAR_yxhR0Amrwk",
+    name: "Tpumps",
+    address: "1916 Irving Street, San Francisco",
+    key: "ChIJJziiiG-HhYARmchx-ISV06g",
     image_attribution: null
   },
   {
-    name: "Petit Marlowe",
-    address: "234 Townsend St, San Francisco",
-    key: "ChIJmc1DRNZ_j4ARGQeJK2fcPHQ",
+    name: "Fermentation Lab",
+    address: "1230 Market Street, San Francisco",
+    key: "ChIJVbw3f5uAhYARZb_OYF13phA",
+    image_attribution: null
+  },
+  {
+    name: "Eastern Bakery",
+    address: "720 Grant Avenue, San Francisco",
+    key: "ChIJ5-AzaYuAhYARrZDTtCChxcs",
+    image_attribution: null
+  },
+  {
+    name: "Morty's Delicatessen",
+    address: "280 Golden Gate Avenue, San Francisco",
+    key: "ChIJEVQbZC-BhYARyKn5TZFq6KA",
+    image_attribution: null
+  },
+  {
+    name: "Van Ness Cafe & Gyros",
+    address: "826 Van Ness Avenue, San Francisco",
+    key: "ChIJydaFKRSBhYARqyhfCAH8A1c",
+    image_attribution: null
+  },
+  {
+    name: "Orchids Cafe",
+    address: "1031 Ocean Ave, San Francisco",
+    key: "ChIJq6p2tix8j4ARC5ORYOijf9c",
+    image_attribution: null
+  },
+  {
+    name: "Trattoria da Vittorio",
+    address: "150 West Portal Avenue, San Francisco",
+    key: "ChIJLc3B6up9j4ARlNvQg09EmAc",
     image_attribution: null
   },
   {
@@ -13379,33 +12826,99 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "School Night",
-    address: "601 19th Street, San Francisco",
-    key: "ChIJ_yx3Ebh_j4ARUgvnM-I25HM",
+    name: "High Treason",
+    address: "443 Clement St, San Francisco",
+    key: "ChIJHZwwDzyHhYARJqdAzd3kFkM",
     image_attribution: null
   },
   {
-    name: "Magnolia Brewing - Dogpatch",
-    address: "2505 3rd Street, San Francisco",
-    key: "ChIJa92P-z9_j4ARw98VBl59Ubc",
+    name: "Fillmore Bakeshop",
+    address: "1890 Fillmore Street, San Francisco",
+    key: "ChIJMe0SiMeAhYARej9Ch6H8bQQ",
     image_attribution: null
   },
   {
-    name: "JOE & THE JUICE",
-    address: "2213 Fillmore Street, San Francisco",
-    key: "ChIJt8-IP8aAhYAR9bsfEydLeRE",
+    name: "Urban Remedy",
+    address: "1957 Union Street, San Francisco",
+    key: "ChIJAX3eMNuAhYARIoAk6yWkJGg",
     image_attribution: null
   },
   {
-    name: "State Bird Provisions",
-    address: "1529 Fillmore St, San Francisco",
-    key: "ChIJQ7kGpLmAhYARKeCe2pDobWk",
+    name: "District San Francisco",
+    address: "216 Townsend St, San Francisco",
+    key: "ChIJJTVhTtZ_j4ARxpngmeH7DTc",
     image_attribution: null
   },
   {
-    name: "Kaisen Don",
-    address: "1939 Ocean Avenue, San Francisco",
-    key: "ChIJb_mfqc59j4ARpceoHHIJ-QE",
+    name: "Gordo Taqueria",
+    address: "1239 9th Avenue, San Francisco",
+    key: "ChIJecZ-_VyHhYARvpsltLB6p_0",
+    image_attribution: null
+  },
+  {
+    name: "Victor\u2019s Pizzeria & Italian Restaurant",
+    address: "1411 Polk Street, San Francisco",
+    key: "ChIJz-9_3JSAhYARIJzUYTx3N_o",
+    image_attribution: null
+  },
+  {
+    name: "Fillmore Street Cafe",
+    address: "1301 Fillmore St, San Francisco",
+    key: "ChIJ7W7BzLuAhYARXfF75-6UmfY",
+    image_attribution: null
+  },
+  {
+    name: "El Castillito",
+    address: "136 Church Street #1111, San Francisco",
+    key: "ChIJT-F2BB5-j4ARiT9-VLUWApA",
+    image_attribution: null
+  },
+  {
+    name: "Ly's Vietnamese Cuisine",
+    address: "1779 Lombard Street, San Francisco",
+    key: "ChIJRSqLkNuAhYARgIFsj9GUrq4",
+    image_attribution: null
+  },
+  {
+    name: "Panda Express",
+    address: "865 Market Street, San Francisco",
+    key: "ChIJ6zMe3oWAhYARnzWg8eN5dKY",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Goemon Japanese Restaurant",
+    address: "1524 Irving Street, San Francisco",
+    key: "ChIJXan6DWaHhYARfEg6P4q9XXM",
+    image_attribution: null
+  },
+  {
+    name: "Uncle Benny's Donut & Bagel",
+    address: "2049 Irving St, San Francisco",
+    key: "ChIJPdOt-2-HhYARfuxiok7asJg",
+    image_attribution: null
+  },
+  {
+    name: "Miss Saigon",
+    address: "100 6th Street, San Francisco",
+    key: "ChIJ2QNqcoSAhYAR-nLWuPul-qA",
+    image_attribution: null
+  },
+  {
+    name: "Whiz Burgers Drive-In",
+    address: "700 South Van Ness Avenue, San Francisco",
+    key: "ChIJSeZaajt-j4ARfH4wp-Nb8DU",
+    image_attribution: null
+  },
+  {
+    name: "Fresca",
+    address: "737 Irving Street, San Francisco",
+    key: "ChIJfXWUSFyHhYARGAHku32S-Aw",
+    image_attribution: null
+  },
+  {
+    name: "El Toreador",
+    address: "50 West Portal Avenue, San Francisco",
+    key: "ChIJkcQQWOp9j4ARndXiB5tFoxg",
     image_attribution: null
   },
   {
@@ -13421,10 +12934,28 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "A K Meats",
-    address: "2346 Clement Street, San Francisco",
-    key: "ChIJ9xetvgWHhYARA5RPYmoi5zg",
+    name: "Nara",
+    address: "1515 Polk Street, San Francisco",
+    key: "ChIJe19DLOuAhYARM-ZDjusXyog",
     image_attribution: null
+  },
+  {
+    name: "City Chopsticks",
+    address: "883 Bush Street, San Francisco",
+    key: "ChIJvWcY7I2AhYAR5NUXRDHctgM",
+    image_attribution: null
+  },
+  {
+    name: "Balompi\u00e9 Cafe #3",
+    address: "3801 Mission St, San Francisco",
+    key: "ChIJh0aomGB-j4ARPMXCsRGgy-0",
+    image_attribution: null
+  },
+  {
+    name: "Coupa Cafe - Y2E2",
+    address: "473 Via Ortega, Stanford",
+    key: "ChIJHbZpJ9Wkj4ARV6nV6sSjBcA",
+    image_attribution: ""
   },
   {
     name: "Eggettes",
@@ -13439,22 +12970,88 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Osteria Bella",
-    address: "3848 Geary Boulevard, San Francisco",
-    key: "ChIJEdpSWtiHhYARDqsRqu5HKes",
+    name: "Beacon Coffee & Pantry",
+    address: "805 Columbus Ave, San Francisco",
+    key: "ChIJW7_g---AhYARAYOeLDDR16E",
     image_attribution: null
   },
   {
-    name: "Coupa Cafe - Y2E2",
-    address: "473 Via Ortega, Stanford",
-    key: "ChIJHbZpJ9Wkj4ARV6nV6sSjBcA",
+    name: "Palette",
+    address: "816 Folsom Street, San Francisco",
+    key: "ChIJVVVlXCd-j4ARYemTTC8ydA0",
+    image_attribution: null
+  },
+  {
+    name: "Bay Subs & Deli",
+    address: "2486 Sacramento Street, San Francisco",
+    key: "ChIJIWTERsaAhYARC37cKHNCqJA",
+    image_attribution: null
+  },
+  {
+    name: "Woodhouse Fish Co.",
+    address: "1914 Fillmore St, San Francisco",
+    key: "ChIJAX80kMeAhYARUF246eKv8vM",
     image_attribution: ""
   },
   {
-    name: "Little Joe's Pizza",
-    address: "5006 Mission Street, San Francisco",
-    key: "ChIJ_TO_tYR-j4ARwAKZinjbwtQ",
+    name: "Gaspare's Pizza House & Italian Restaurant",
+    address: "5546 Geary Boulevard, San Francisco",
+    key: "ChIJPeOeSBCHhYARVLTDHMhc1N4",
     image_attribution: null
+  },
+  {
+    name: "Tia Margarita",
+    address: "300 19th Avenue, San Francisco",
+    key: "ChIJlSjiexCHhYAR-0cGZxRKxf8",
+    image_attribution: null
+  },
+  {
+    name: "KRUA Thai",
+    address: "3214 16th Street, San Francisco",
+    key: "ChIJO7Z0pBh-j4ARw70tJfvZTzU",
+    image_attribution: null
+  },
+  {
+    name: "Tea & Others",
+    address: "250 Divisadero Street, San Francisco",
+    key: "ChIJDcXnwv2BhYARktwGFTwEso4",
+    image_attribution: null
+  },
+  {
+    name: "Choux",
+    address: "248 Fillmore Street, San Francisco",
+    key: "ChIJeVMOz6aAhYARXc5uSaLCDfE",
+    image_attribution: null
+  },
+  {
+    name: "The Brixton on 2nd",
+    address: "701 2nd Street, San Francisco",
+    key: "ChIJf5MwQQh_j4ARgIMDnVJBVQA",
+    image_attribution: null
+  },
+  {
+    name: "Aliment",
+    address: "786 Bush Street, San Francisco",
+    key: "ChIJhyDxy42AhYAR8SOzQVbT92s",
+    image_attribution: null
+  },
+  {
+    name: "Dough",
+    address: "1455 Market St #3C, San Francisco",
+    key: "ChIJySu0ImWBhYARGlc6QfGBCdM",
+    image_attribution: null
+  },
+  {
+    name: "Queen's Louisiana Po-Boy Cafe",
+    address: "33 The Embarcadero, San Francisco",
+    key: "ChIJn9nJmPmAhYARvVqp0DBlrLc",
+    image_attribution: null
+  },
+  {
+    name: "Lovejoy's Tea Room",
+    address: "1351 Church Street, San Francisco",
+    key: "ChIJ12ZjHmt-j4AR_KF1uOco2ow",
+    image_attribution: ""
   },
   {
     name: "Coupa Cafe - Marston",
@@ -13463,22 +13060,23 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "5A5 Steak Lounge",
-    address: "244 Jackson St, San Francisco",
-    key: "ChIJ8WWHCWCAhYARe-V1QBpRVAU",
+    name: "Alba Ray's",
+    address: "2293 Mission Street, San Francisco",
+    key: "ChIJUw5Mhjx-j4ARZktWFwXsZIs",
     image_attribution: null
   },
   {
-    name: "Flying Pig Bistro Pub",
-    address: "433 S Van Ness Ave, San Francisco",
-    key: "ChIJIePibiR-j4ARMjsB97xDzOc",
+    name: "Barzotto",
+    address: "1270 Valencia Street, San Francisco",
+    key: "ChIJOdzzgUB-j4AR_DLWuKwqbJc",
     image_attribution: null
   },
   {
-    name: "Tea & Others",
-    address: "250 Divisadero Street, San Francisco",
-    key: "ChIJDcXnwv2BhYARktwGFTwEso4",
-    image_attribution: null
+    name: "Mission Coffee Roasting Company",
+    address: "151 Washington Blvd, Fremont",
+    key: "ChIJlytCELfGj4ARbS-wvJE5MkU",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/100178398263980864309\">Viraj Reddy</a>']"
   },
   {
     name: "Mandarin Gourmet Cupertino",
@@ -13494,82 +13092,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Archimedes Banya",
-    address: "748 Innes Avenue, San Francisco",
-    key: "ChIJt8Cb82l_j4ARaCVSzzc8gYc",
+    name: "Latte Express",
+    address: "434 Beach Street, San Francisco",
+    key: "ChIJAZjYkOOAhYAR8zpHbIVBez4",
     image_attribution: null
   },
   {
-    name: "Yum Yum Sushi House",
-    address: "2181 Irving Street, San Francisco",
-    key: "ChIJ3X0pGnCHhYARO4pnNdai-EQ",
+    name: "Del Popolo",
+    address: "855 Bush St, San Francisco",
+    key: "ChIJAyOgwo2AhYARCCxZE4yahWU",
     image_attribution: null
   },
   {
-    name: "Don Ramon's",
-    address: "225 11th Street, San Francisco",
-    key: "ChIJu4zOhCd-j4ARd9t3Fmlotv8",
+    name: "Batter Bakery",
+    address: "1517 Pine Street, San Francisco",
+    key: "ChIJxy5EvemAhYARnBPZylIMnRI",
     image_attribution: null
   },
   {
-    name: "Kingdom Of Dumpling",
-    address: "1713 Taraval Street, San Francisco",
-    key: "ChIJhZd-y4R9j4ARGcV_0VXHN84",
+    name: "The Pig and Whistle",
+    address: "2801 Geary Boulevard, San Francisco",
+    key: "ChIJtbjafTWHhYARbxkpegkGNmY",
     image_attribution: null
   },
   {
-    name: "Hayes Street Grill",
-    address: "320 Hayes Street, San Francisco",
-    key: "ChIJa0NZ3JiAhYARtFo33Kd7kTU",
+    name: "Roz Ka Affaire",
+    address: "60 Morris Street, San Francisco",
+    key: "ChIJy9zIpCp-j4ARm4qNbWn27rc",
     image_attribution: null
   },
   {
-    name: "Cuppa",
-    address: "2810 Diamond St, San Francisco",
-    key: "ChIJWdRYoGR-j4ARRufwcPtRfL0",
+    name: "Gourmet Dim Sum and Cafe",
+    address: "651 Clement Street, San Francisco",
+    key: "ChIJnwyuSzyHhYARC-gs1Jd5x5g",
     image_attribution: null
   },
   {
-    name: "Mission Coffee Roasting Company",
-    address: "151 Washington Blvd, Fremont",
-    key: "ChIJlytCELfGj4ARbS-wvJE5MkU",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/100178398263980864309\">Viraj Reddy</a>']"
-  },
-  {
-    name: "Delarosa",
-    address: "37 Yerba Buena Ln, San Francisco",
-    key: "ChIJp5VgLIaAhYARLC-hH-r89rM",
-    image_attribution: null
-  },
-  {
-    name: "Amasia Hide's Sushi Bar",
-    address: "149 Noe Street, San Francisco",
-    key: "ChIJu7VabR1-j4ARq0S8umIYKlQ",
-    image_attribution: null
-  },
-  {
-    name: "China Bee Restaurant",
-    address: "31 S B St, San Mateo",
-    key: "ChIJLyNALXeej4AR6-g19_WTsx8",
-    image_attribution: null
-  },
-  {
-    name: "Taqueria San Francisco",
-    address: "2794 24th Street, San Francisco",
-    key: "ChIJlyf7aUl-j4ARm5OwIs2BK9k",
-    image_attribution: null
-  },
-  {
-    name: "iJava Cafe",
-    address: "951 Mariners Island Blvd, San Mateo",
-    key: "ChIJoyKOGcKej4ARWO5m8I5fwRU",
-    image_attribution: null
-  },
-  {
-    name: "Wursthall",
-    address: "310 Baldwin Ave, San Mateo",
-    key: "ChIJrZNMK3eej4ARRHSOh0uJpP0",
+    name: "Nizario's Pizza (SFSU)",
+    address: "1650 Holloway Avenue, San Francisco",
+    key: "ChIJMSmZjWO2j4AR5VmgelqUlUY",
     image_attribution: null
   },
   {
@@ -13585,21 +13146,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Canton Restaurant",
-    address: "250 90th St, Daly City",
-    key: "ChIJ7Wy_Gm18j4ARHpvGwhsJTGA",
-    image_attribution: null
-  },
-  {
-    name: "Nizario's Pizza (SFSU)",
-    address: "1650 Holloway Avenue, San Francisco",
-    key: "ChIJMSmZjWO2j4AR5VmgelqUlUY",
-    image_attribution: null
-  },
-  {
     name: "Azit",
     address: "4390 Telegraph Ave A, Oakland",
     key: "ChIJmf4DV-J9hYAR4bOrjqnVduo",
+    image_attribution: null
+  },
+  {
+    name: "Canton Restaurant",
+    address: "250 90th St, Daly City",
+    key: "ChIJ7Wy_Gm18j4ARHpvGwhsJTGA",
     image_attribution: null
   },
   {
@@ -13621,9 +13176,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "An Japanese Restaurant",
+    address: "22 Peace Plz #510, San Francisco",
+    key: "ChIJ9UNO0L6AhYARzock0NnfE2I",
+    image_attribution: null
+  },
+  {
+    name: "Cool Cravings Cafe and Deli",
+    address: "601 Van Ness Avenue, San Francisco",
+    key: "ChIJ5c-YkJeAhYAR3_eqnD3PH5s",
+    image_attribution: null
+  },
+  {
+    name: "Kells Irish Restaurant & Pub",
+    address: "530 Jackson Street, San Francisco",
+    key: "ChIJVQGLKPWAhYARm-fJIFp-AU0",
+    image_attribution: null
+  },
+  {
     name: "Pollara Pizzeria",
     address: "1788 Fourth St, Berkeley",
     key: "ChIJ0YoQeQd_hYARaIieFe0IdrA",
+    image_attribution: null
+  },
+  {
+    name: "China Bee Restaurant",
+    address: "31 S B St, San Mateo",
+    key: "ChIJLyNALXeej4AR6-g19_WTsx8",
+    image_attribution: null
+  },
+  {
+    name: "iJava Cafe",
+    address: "951 Mariners Island Blvd, San Mateo",
+    key: "ChIJoyKOGcKej4ARWO5m8I5fwRU",
+    image_attribution: null
+  },
+  {
+    name: "Wursthall",
+    address: "310 Baldwin Ave, San Mateo",
+    key: "ChIJrZNMK3eej4ARRHSOh0uJpP0",
+    image_attribution: null
+  },
+  {
+    name: "Shari's Cafe and Pies",
+    address: "2010 Rollingwood Dr, San Bruno",
+    key: "ChIJK655YPJ5j4ARioApqA3yJQI",
     image_attribution: null
   },
   {
@@ -13633,27 +13230,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Veggie Grill",
-    address: "147 Corte Madera Town Center, Corte Madera",
-    key: "ChIJZeh7f4yahYAR8kfXRRHjzpM",
-    image_attribution: null
+    name: "Cochinita",
+    address: "428 11th St, San Francisco",
+    key: "ChIJAQB8sih-j4ARTXAc9ei358Y",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/109601751100753974323\">Tc Anderson</a>']"
   },
   {
-    name: "Zoe's",
-    address: "3088 24th Street, San Francisco",
-    key: "ChIJixqDy0d-j4AR1ZEvoi7IbY8",
-    image_attribution: null
-  },
-  {
-    name: "NOVY Restaurant",
-    address: "4000 24th Street, San Francisco",
-    key: "ChIJ7QTyqRN-j4ARLHT2CywiO84",
-    image_attribution: null
-  },
-  {
-    name: "Pacific Cafe",
-    address: "7000 Geary Boulevard, San Francisco",
-    key: "ChIJ96eSVKiHhYARiextn_yjqck",
+    name: "20 Spot",
+    address: "3565 20th St, San Francisco",
+    key: "ChIJfRa8OTx-j4ARAIUacuQEvmM",
     image_attribution: null
   },
   {
@@ -13669,9 +13255,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "85\u00b0C Bakery Cafe",
+    address: "Serramonte Center #5-L, Daly City",
+    key: "ChIJEWNC4Yx7j4ARiaBuBvyLvIQ",
+    image_attribution: null
+  },
+  {
+    name: "Pacific Cafe",
+    address: "7000 Geary Boulevard, San Francisco",
+    key: "ChIJ96eSVKiHhYARiextn_yjqck",
+    image_attribution: null
+  },
+  {
+    name: "Hooters",
+    address: "1150 El Camino Real Suite 210, San Bruno",
+    key: "ChIJdXouGsd5j4ARk4mm5yT0Vj8",
+    image_attribution: null
+  },
+  {
+    name: "Veggie Grill",
+    address: "147 Corte Madera Town Center, Corte Madera",
+    key: "ChIJZeh7f4yahYAR8kfXRRHjzpM",
+    image_attribution: null
+  },
+  {
     name: "FENG NIAN",
     address: "2650 Bridgeway, Sausalito",
     key: "ChIJO0SpCwWFhYARgguo2SKUaXM",
+    image_attribution: null
+  },
+  {
+    name: "Jack's Restaurant and Bar - San Bruno",
+    address: "1050 Admiral Ct suite a, San Bruno",
+    key: "ChIJm3_qZcF5j4ARD5nR8hXMQZU",
     image_attribution: null
   },
   {
@@ -13687,63 +13303,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "85\u00b0C Bakery Cafe",
-    address: "Serramonte Center #5-L, Daly City",
-    key: "ChIJEWNC4Yx7j4ARiaBuBvyLvIQ",
-    image_attribution: null
-  },
-  {
-    name: "Shari's Cafe and Pies",
-    address: "2010 Rollingwood Dr, San Bruno",
-    key: "ChIJK655YPJ5j4ARioApqA3yJQI",
-    image_attribution: null
-  },
-  {
-    name: "Kitti's Place Restaurant",
-    address: "3001 Bridgeway, Sausalito",
-    key: "ChIJ6ZUi_A-FhYARl7nahDnEVak",
-    image_attribution: null
-  },
-  {
-    name: "Hooters",
-    address: "1150 El Camino Real Suite 210, San Bruno",
-    key: "ChIJdXouGsd5j4ARk4mm5yT0Vj8",
-    image_attribution: null
-  },
-  {
-    name: "Dario's Pizza and Pasta",
-    address: "2829 Bridgeway, Sausalito",
-    key: "ChIJcdnLig-FhYARGkp0JnrXOqc",
-    image_attribution: null
-  },
-  {
-    name: "Jack's Restaurant and Bar - San Bruno",
-    address: "1050 Admiral Ct suite a, San Bruno",
-    key: "ChIJm3_qZcF5j4ARD5nR8hXMQZU",
-    image_attribution: null
-  },
-  {
-    name: "Ritual Coffee Roasters",
-    address: "432b Octavia St, San Francisco",
-    key: "ChIJ70taCKKAhYARDqB5RsSPUJc",
-    image_attribution: null
-  },
-  {
-    name: "Ashley's Cafe",
-    address: "4454 California St, San Francisco",
-    key: "ChIJEedS6TyHhYARNS8APPzQUDY",
-    image_attribution: null
-  },
-  {
-    name: "Goldelicious",
-    address: "2333 Irving Street, San Francisco",
-    key: "ChIJG5UBLqmHhYARZgO5WWyOxnc",
-    image_attribution: null
-  },
-  {
-    name: "El Toreador",
-    address: "50 West Portal Avenue, San Francisco",
-    key: "ChIJkcQQWOp9j4ARndXiB5tFoxg",
+    name: "Cup Caf\u00e9",
+    address: "6 Monterey Blvd, San Francisco",
+    key: "ChIJy5S4MGN-j4ARpJbMTWMAdis",
     image_attribution: null
   },
   {
@@ -13765,9 +13327,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Express Pupuseria",
-    address: "4715 Geary Boulevard, San Francisco",
-    key: "ChIJqZ1lBhaHhYARA4iM0xzvW1g",
+    name: "Magnolia Brewing - Dogpatch",
+    address: "2505 3rd Street, San Francisco",
+    key: "ChIJa92P-z9_j4ARw98VBl59Ubc",
+    image_attribution: null
+  },
+  {
+    name: "Piccolo Forno",
+    address: "725 Columbus Avenue, San Francisco",
+    key: "ChIJLeYyO_CAhYAR6j9XsEIm3GI",
+    image_attribution: null
+  },
+  {
+    name: "Souvla",
+    address: "517 Hayes Street, San Francisco",
+    key: "ChIJbTB3bKKAhYAR8Yqc6dEIMbQ",
+    image_attribution: null
+  },
+  {
+    name: "Firehouse Pizzeria",
+    address: "6001 California Street, San Francisco",
+    key: "ChIJDbe43wSHhYARChbz9QJ8FgQ",
+    image_attribution: null
+  },
+  {
+    name: "Tops Cafe",
+    address: "2460 San Bruno Avenue, San Francisco",
+    key: "ChIJEUvb8Px-j4AR4zBpLCfYI4U",
+    image_attribution: null
+  },
+  {
+    name: "Guilin Rice Noodles House",
+    address: "901 Taraval Street, San Francisco",
+    key: "ChIJlfnxY_59j4ARQSVc6TFXm8c",
     image_attribution: null
   },
   {
@@ -13777,45 +13369,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dim Sum Club",
-    address: "2550 Van Ness Avenue, San Francisco",
-    key: "ChIJE6s1_ueAhYARG2LJdXbgvhs",
+    name: "Haus Coffee",
+    address: "3086 24th St, San Francisco",
+    key: "ChIJJZKJzEd-j4ARnnFluLjIt0M",
     image_attribution: null
   },
   {
-    name: "Pampanguena Cuisine",
-    address: "4441 Mission Street, San Francisco",
-    key: "ChIJ9zsZ_Yh-j4ARlwo26iIpa5s",
+    name: "Mercado do Brasil",
+    address: "1252 Valencia Street, San Francisco",
+    key: "ChIJxQwdfD9-j4ARyEExPAEObbA",
     image_attribution: null
   },
   {
-    name: "Kabuto Restaurant",
-    address: "5121 Geary Boulevard, San Francisco",
-    key: "ChIJ_18VzxaHhYAR1HUizh5wDQQ",
+    name: "La Traviata",
+    address: "2854 Mission Street, San Francisco",
+    key: "ChIJAZypLEd-j4ARgOM40D4klOk",
     image_attribution: null
   },
   {
-    name: "Frena Bakery and Caf\u00e9 - Temporary Closed",
-    address: "5549 Geary Blvd, San Francisco",
-    key: "ChIJ2ddbeJyHhYARW-Wh_8iDwHM",
+    name: "Philz Coffee",
+    address: "1110 Ocean Ave, San Francisco",
+    key: "ChIJwcztMdN9j4AR6AhRdPvXpQo",
     image_attribution: null
   },
   {
-    name: "Double Decker",
-    address: "2956 24th Street, San Francisco",
-    key: "ChIJHSDGMtR_j4ARWmuQXtENuzU",
-    image_attribution: null
-  },
-  {
-    name: "Submarine Center",
-    address: "820 Ulloa Street, San Francisco",
-    key: "ChIJ6yYoSep9j4ARM8zAzRnnLNo",
-    image_attribution: null
-  },
-  {
-    name: "Tacolicious",
-    address: "2250 Chestnut St, San Francisco",
-    key: "ChIJkbv8N9eAhYARMyu5POX9pRk",
+    name: "Kingdom Of Dumpling",
+    address: "1713 Taraval Street, San Francisco",
+    key: "ChIJhZd-y4R9j4ARGcV_0VXHN84",
     image_attribution: null
   },
   {
@@ -13831,45 +13411,154 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Morty's Delicatessen",
-    address: "280 Golden Gate Avenue, San Francisco",
-    key: "ChIJEVQbZC-BhYARyKn5TZFq6KA",
+    name: "Akiko's Restaurant",
+    address: "431 Bush St, San Francisco",
+    key: "ChIJ-2fce4mAhYARiPQdMcT8Weg",
     image_attribution: null
   },
   {
-    name: "Whiz Burgers Drive-In",
-    address: "700 South Van Ness Avenue, San Francisco",
-    key: "ChIJSeZaajt-j4ARfH4wp-Nb8DU",
+    name: "El Pipila",
+    address: "879 Brannan Street, San Francisco",
+    key: "ChIJVzS5uep_j4AR9vEsumwEuww",
     image_attribution: null
   },
   {
-    name: "CHALOS",
-    address: "2240 Taraval Street, San Francisco",
-    key: "ChIJz0_dxOV9j4ARz5T-pfQCuU4",
+    name: "Roam Artisan Burgers",
+    address: "1923 Fillmore St, San Francisco",
+    key: "ChIJ8aZslMeAhYARk2BJNvkVPyc",
+    image_attribution: null
+  },
+  {
+    name: "YH-Beijing",
+    address: "500 Haight Street, San Francisco",
+    key: "ChIJ5Z8qxqaAhYARm_WgusAlTrU",
+    image_attribution: null
+  },
+  {
+    name: "Pazzia Ristorante Italiano",
+    address: "337 3rd Street, San Francisco",
+    key: "ChIJrSASgn6AhYAR48OZb8J4nH8",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria",
+    address: "2001 Market Street, San Francisco",
+    key: "ChIJdaLSzB9-j4ARFoWAX8kreRw",
+    image_attribution: null
+  },
+  {
+    name: "DNM Hot Pot",
+    address: "1115 Clement Street, San Francisco",
+    key: "ChIJ__8LsxeHhYAR1vL4BYVYQGI",
+    image_attribution: null
+  },
+  {
+    name: "STEINS",
+    address: "731 Clement Street, San Francisco",
+    key: "ChIJ14-vsD2HhYAR2bxlkIN_OXk",
+    image_attribution: null
+  },
+  {
+    name: "Gentilly",
+    address: "4826 Mission Street, San Francisco",
+    key: "ChIJ7UuRkmF_j4AR9Py1bDXwZ80",
+    image_attribution: null
+  },
+  {
+    name: "Ristorante Parma",
+    address: "3314 Steiner Street, San Francisco",
+    key: "ChIJ5_OuLdeAhYAR5QVdUtd4jR0",
+    image_attribution: null
+  },
+  {
+    name: "Handy Deli",
+    address: "1815 Irving Street, San Francisco",
+    key: "ChIJ26LJhmWHhYARGhzhcu1RINE",
+    image_attribution: null
+  },
+  {
+    name: "Bite Me Sandwiches",
+    address: "701 Cole Street, San Francisco",
+    key: "ChIJfeYztCR-j4ARB7fGttLxW9Y",
+    image_attribution: null
+  },
+  {
+    name: "Kui Shin Bo",
+    address: "1424 Lombard Street, San Francisco",
+    key: "ChIJUxdznt2AhYARD551zgWbFIM",
+    image_attribution: null
+  },
+  {
+    name: "The Hotel Utah Saloon",
+    address: "500 4th Street, San Francisco",
+    key: "ChIJyUN-cX-AhYARLtsHniJ96Yg",
+    image_attribution: null
+  },
+  {
+    name: "BiteUnite",
+    address: "600 South Van Ness Avenue, San Francisco",
+    key: "ChIJYTHR3nN_j4ARkpU10GBGgTY",
+    image_attribution: null
+  },
+  {
+    name: "Peking Wok Restaurant",
+    address: "4920 3rd Street, San Francisco",
+    key: "ChIJRf0-RgV_j4ARCwnD2kWw1v4",
+    image_attribution: null
+  },
+  {
+    name: "Burrito Loco",
+    address: "850 Ulloa Street, San Francisco",
+    key: "ChIJH-F5Uup9j4ARQU0ojVfKxQ8",
+    image_attribution: null
+  },
+  {
+    name: "Grand Lake Kitchen - Dimond",
+    address: "2042 MacArthur Blvd, Oakland",
+    key: "ChIJh6LAE6CHj4ARAYziuZ85bCs",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106696608016079898345\">Grand Lake Kitchen - Dimond</a>']"
+  },
+  {
+    name: "Straw Hat Pizza",
+    address: "901 Marina Village Pkwy, Alameda",
+    key: "ChIJf0OfStGAj4ARAbkpciGsaNU",
+    image_attribution: null
+  },
+  {
+    name: "Dario's Pizza and Pasta",
+    address: "2829 Bridgeway, Sausalito",
+    key: "ChIJcdnLig-FhYARGkp0JnrXOqc",
+    image_attribution: null
+  },
+  {
+    name: "Kitti's Place Restaurant",
+    address: "3001 Bridgeway, Sausalito",
+    key: "ChIJ6ZUi_A-FhYARl7nahDnEVak",
+    image_attribution: null
+  },
+  {
+    name: "Bogie's Too",
+    address: "1335 4th St, San Rafael",
+    key: "ChIJXyW-mdCZhYARrkmRrQaDzb8",
+    image_attribution: null
+  },
+  {
+    name: "El Faro",
+    address: "2399 Folsom Street, San Francisco",
+    key: "ChIJGzG1jjl-j4ARpWFExaqQdtQ",
+    image_attribution: null
+  },
+  {
+    name: "Aziza",
+    address: "5800 Geary Boulevard, San Francisco",
+    key: "ChIJb-KW6Q-HhYAR4NlucuMP_HE",
     image_attribution: null
   },
   {
     name: "Celia's by the Beach",
     address: "4019 Judah Street, San Francisco",
     key: "ChIJJx6vNpeHhYARrt0bJ5LSBzY",
-    image_attribution: null
-  },
-  {
-    name: "Golden Gate Indian Cuisine & Pizza",
-    address: "4038 Judah Street, San Francisco",
-    key: "ChIJac6NJJeHhYARbgnjOkxc-ts",
-    image_attribution: null
-  },
-  {
-    name: "Proper Food",
-    address: "235 2nd Street, San Francisco",
-    key: "ChIJL3jyjHyAhYARaTUEPi2y6Kg",
-    image_attribution: null
-  },
-  {
-    name: "El Rancho Grande",
-    address: "855 Divisadero Street, San Francisco",
-    key: "ChIJrQB-rbGAhYAR9UwY0I8pO0E",
     image_attribution: null
   },
   {
@@ -13885,51 +13574,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "NorthStar Cafe",
-    address: "1560 Powell Street, San Francisco",
-    key: "ChIJ5VRAhfGAhYARwiCDOFwBycs",
+    name: "Golden Gate Indian Cuisine & Pizza",
+    address: "4038 Judah Street, San Francisco",
+    key: "ChIJac6NJJeHhYARbgnjOkxc-ts",
     image_attribution: null
   },
   {
-    name: "DBC Restaurant",
-    address: "1109 Fillmore Street, San Francisco",
-    key: "ChIJxwoJaPWBhYARQmEnoFz8vQI",
+    name: "CHOPSTICKS CHINESE FAST FOOD",
+    address: "4615 Mission Street, San Francisco",
+    key: "ChIJ1xwUVo9-j4ARyaf7aPFn1PQ",
     image_attribution: null
   },
   {
-    name: "RnR Sushi & Bowls",
-    address: "4151 Piedmont Ave, Oakland",
-    key: "ChIJJUVrIvd9hYAR2d1NEDR5bgk",
+    name: "Creighton's Bakery",
+    address: "5214D Diamond Heights Boulevard, San Francisco",
+    key: "ChIJCS2cu3N-j4AR_4QyMWbJ0GU",
     image_attribution: null
   },
   {
-    name: "Tartine Berkeley",
-    address: "2600 Durant Ave, Berkeley",
-    key: "ChIJQ8S0lpZ9hYARiqr41wc-USY",
-    image_attribution: null
-  },
-  {
-    name: "The Flying Falafel",
-    address: "2114 Shattuck Ave, Berkeley",
-    key: "ChIJvWI2gp5-hYARbzMnkKTNAng",
-    image_attribution: null
-  },
-  {
-    name: "The Pizza Shop",
-    address: "3104 24th Street, San Francisco",
-    key: "ChIJaQj0tUd-j4ARv2dpLbR51C0",
-    image_attribution: null
-  },
-  {
-    name: "Chinese Express",
-    address: "2488 Channing Way, Berkeley",
-    key: "ChIJP67NLi98hYARHuC5LZtu1zc",
-    image_attribution: null
-  },
-  {
-    name: "Holy Water",
-    address: "309 Cortland Avenue, San Francisco",
-    key: "ChIJP6c8_1t-j4ARNQxhfTKbw0g",
+    name: "Frances",
+    address: "3870 17th St, San Francisco",
+    key: "ChIJky2knBt-j4ARXAdR3-GAWM8",
     image_attribution: null
   },
   {
@@ -13945,12 +13610,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ming's Tasty",
-    address: "940 Webster St, Oakland",
-    key: "ChIJaS6Ox2uBj4ARXGSFI0z-BGc",
-    image_attribution: null
-  },
-  {
     name: "Black Pepper Restaurant",
     address: "1029 El Camino Real, Menlo Park",
     key: "ChIJSXrSJa6kj4ARoQNkoF9RDDA",
@@ -13963,21 +13622,64 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Ming's Tasty",
+    address: "940 Webster St, Oakland",
+    key: "ChIJaS6Ox2uBj4ARXGSFI0z-BGc",
+    image_attribution: null
+  },
+  {
     name: "Pop Kitchen",
     address: "950 King Dr Ste 109, Daly City",
     key: "ChIJJXowEMh7j4ARx-xb9fsE_sg",
     image_attribution: null
   },
   {
-    name: "Breakers Caf\u00e9",
-    address: "3465 CA-1, Stinson Beach",
-    key: "ChIJpYkf9s2ThYARYpAEOzXO7LA",
+    name: "Tazza D'Amore Cafe",
+    address: "700 4th St, San Francisco",
+    key: "ChIJFWnyktZ_j4ARNA56tCuQdv8",
     image_attribution: null
   },
   {
-    name: "Son's Addition",
-    address: "2990 24th Street, San Francisco",
-    key: "ChIJe6iYiUh-j4ARX4kIKOw0abc",
+    name: "RnR Sushi & Bowls",
+    address: "4151 Piedmont Ave, Oakland",
+    key: "ChIJJUVrIvd9hYAR2d1NEDR5bgk",
+    image_attribution: null
+  },
+  {
+    name: "Vine Cinema & Alehouse",
+    address: "1722 First St, Livermore",
+    key: "ChIJ68Qjapjnj4ARQ-Bt2yafjdo",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106280401864616244558\">Dennis Goedegebuure</a>']"
+  },
+  {
+    name: "Tartine Berkeley",
+    address: "2600 Durant Ave, Berkeley",
+    key: "ChIJQ8S0lpZ9hYARiqr41wc-USY",
+    image_attribution: null
+  },
+  {
+    name: "The Flying Falafel",
+    address: "2114 Shattuck Ave, Berkeley",
+    key: "ChIJvWI2gp5-hYARbzMnkKTNAng",
+    image_attribution: null
+  },
+  {
+    name: "TJ Cups",
+    address: "2437 Noriega St, San Francisco",
+    key: "ChIJeWX3EH-HhYAR71c_f4pRYyA",
+    image_attribution: null
+  },
+  {
+    name: "Cinco De Mayo Taqueria",
+    address: "2426 San Bruno Avenue, San Francisco",
+    key: "ChIJE4YhQ_x-j4ARX-2F1cfx_xw",
+    image_attribution: null
+  },
+  {
+    name: "Breakers Caf\u00e9",
+    address: "3465 CA-1, Stinson Beach",
+    key: "ChIJpYkf9s2ThYARYpAEOzXO7LA",
     image_attribution: null
   },
   {
@@ -13993,105 +13695,203 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Jenny's Burger",
+    address: "1233 9th Avenue, San Francisco",
+    key: "ChIJN3uCAl2HhYARCbk6Y6YwlNc",
+    image_attribution: null
+  },
+  {
+    name: "Kabuto Restaurant",
+    address: "5121 Geary Boulevard, San Francisco",
+    key: "ChIJ_18VzxaHhYAR1HUizh5wDQQ",
+    image_attribution: null
+  },
+  {
     name: "BBQ N Curry House",
     address: "160 Donahue St, Sausalito",
     key: "ChIJe69NZBSFhYAROC-TB_gRd_E",
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "2234 Polk St, San Francisco",
-    key: "ChIJy7X4C72BhYARe6YfRIdai3Y",
+    name: "Lucky Strike",
+    address: "200 King Street, San Francisco",
+    key: "ChIJ89UQqNd_j4ARKoqcRIR-dhs",
     image_attribution: null
   },
   {
-    name: "Koo",
-    address: "408 Irving Street, San Francisco",
-    key: "ChIJy4z46FuHhYAR5U-1Sj2Ue7Q",
+    name: "Dolores Park Cafe",
+    address: "501 Dolores St, San Francisco",
+    key: "ChIJR0JmPBh-j4ARHojhoMtzRhA",
     image_attribution: null
   },
   {
-    name: "The Shota",
-    address: "115 Sansome St, San Francisco",
-    key: "ChIJAzG8hXmBhYARQ1Mw5xW5Lfo",
+    name: "King of Thai Noodle CA",
+    address: "1539 Taraval Street, San Francisco",
+    key: "ChIJycbQ0Zp9j4ARLDwmomCPNck",
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "549 Castro St, San Francisco",
-    key: "ChIJcfQ5MRp-j4ARn3eA9EH16OA",
+    name: "Lou's Cafe",
+    address: "1508 Taraval St, San Francisco",
+    key: "ChIJGdPmy5p9j4ARMmC4U1L9LeA",
     image_attribution: null
   },
   {
-    name: "The Interval at Long Now",
-    address: "Landmark Building A, 2 Marina Boulevard, San Francisco",
-    key: "ChIJg67PeyeBhYAROkno8i7ZxlI",
+    name: "L'acajou Bakery and Cafe",
+    address: "498 9th St, San Francisco",
+    key: "ChIJI4-eOSl-j4ARODY0PHCdheY",
     image_attribution: null
   },
   {
-    name: "Se\u00f1or Sisig - Restaurant",
-    address: "990 Valencia Street, San Francisco",
-    key: "ChIJNXQBDV9_j4ARA1fileVDACY",
-    image_attribution: ""
-  },
-  {
-    name: "Scala's Bistro",
-    address: "432 Powell Street, San Francisco",
-    key: "ChIJk6jRv46AhYARbE6mIQ6VDsg",
+    name: "NIDO living",
+    address: "2233 Alameda St, San Francisco",
+    key: "ChIJCyfgeC5-j4ARe_SdxzPhSA8",
     image_attribution: null
   },
   {
-    name: "Ramen Izakaya Goku",
-    address: "3232 16th Street, San Francisco",
-    key: "ChIJJV8Iuxh-j4AR8BPO5S2aeTg",
+    name: "Sutter Pub & Restaurant",
+    address: "700 Sutter Street, San Francisco",
+    key: "ChIJ7aoc442AhYARkrbM7GU_5mc",
     image_attribution: null
   },
   {
-    name: "Subs Inc.",
-    address: "1300 Castro Street, San Francisco",
-    key: "ChIJr3cXZxJ-j4AR6UzI5K4wPAs",
+    name: "The Grove - Fillmore",
+    address: "2016 Fillmore Street, San Francisco",
+    key: "ChIJvSlPuceAhYARL4nYSwbd-4k",
     image_attribution: null
   },
   {
-    name: "Cafe XO",
-    address: "1799 Church St, San Francisco",
-    key: "ChIJhUFlZGh-j4ARl4LAaOShSH8",
+    name: "Pizzeria Delfina",
+    address: "2406 California Street, San Francisco",
+    key: "ChIJ4zlZM8aAhYARRTqiavm0Xcs",
     image_attribution: null
   },
   {
-    name: "La Victoria",
-    address: "3249 24th Street, San Francisco",
-    key: "ChIJj4z87Uh-j4ARvo9us-ACTG4",
+    name: "The Italian Homemade Company",
+    address: "1919 Union Street, San Francisco",
+    key: "ChIJuSLVS9uAhYARQVqsZ6vLuX0",
     image_attribution: null
   },
   {
-    name: "Pork Store Cafe",
-    address: "1451 Haight St, San Francisco",
-    key: "ChIJCbgQyayAhYARjVk8nB7sh5M",
-    image_attribution: ""
-  },
-  {
-    name: "Siam Lotus Thai Cuisine",
-    address: "1705 Haight Street #2807, San Francisco",
-    key: "ChIJKSRAtVOHhYARLrhRyp_lkuc",
+    name: "Yukol Place Thai Cuisine",
+    address: "2380 Lombard Street, San Francisco",
+    key: "ChIJLRT7pdaAhYARMYUBV3YGSLY",
     image_attribution: null
   },
   {
-    name: "4505 Burgers & BBQ",
-    address: "705 Divisadero St, San Francisco",
-    key: "ChIJNVlL07GAhYAR_9rzTYSV1as",
+    name: "Ashley's Cafe",
+    address: "4454 California St, San Francisco",
+    key: "ChIJEedS6TyHhYARNS8APPzQUDY",
     image_attribution: null
   },
   {
-    name: "Oscar's Burger & Deli",
-    address: "1850 Cesar Chavez, San Francisco",
-    key: "ChIJ928P4q1_j4AR5njlMc4SxWg",
+    name: "Mizutani sushi bar",
+    address: "4406 California Street, San Francisco",
+    key: "ChIJ572CAIWHhYARMVYsGdm3Fng",
+    image_attribution: null
+  },
+  {
+    name: "T C Pastry",
+    address: "2222 Irving Street, San Francisco",
+    key: "ChIJyVGkFXCHhYARFBODxUNT7pE",
+    image_attribution: null
+  },
+  {
+    name: "Henry's House of Coffee",
+    address: "1618 Noriega St, San Francisco",
+    key: "ChIJLX48SH2HhYARs2ZuZnT0Pz4",
+    image_attribution: null
+  },
+  {
+    name: "Mexico Au Parc",
+    address: "24 South Park Street, San Francisco",
+    key: "ChIJieXN4niAhYARctqqTW-x0y8",
+    image_attribution: null
+  },
+  {
+    name: "RT Rotisserie",
+    address: "101 Oak St, San Francisco",
+    key: "ChIJk8dm4J6AhYAR8MCM6inxTgE",
+    image_attribution: null
+  },
+  {
+    name: "Golden Island Cafe",
+    address: "1300 Noriega Street, San Francisco",
+    key: "ChIJlWpYf2KHhYARvr3r7uT-N5s",
+    image_attribution: null
+  },
+  {
+    name: "Pacific Cocktail Haven",
+    address: "580 Sutter St, San Francisco",
+    key: "ChIJi2fwgI6AhYARglQgXX2A3WU",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116118088071567372167\">Khoa Le</a>']"
+  },
+  {
+    name: "Jane on Fillmore",
+    address: "2123 Fillmore St, San Francisco",
+    key: "ChIJ7ctrNsaAhYARdwAVqJAAjlQ",
+    image_attribution: null
+  },
+  {
+    name: "Colibri",
+    address: "438 Geary St, San Francisco",
+    key: "ChIJ816kUY6AhYARYWi1Uf1JnCI",
+    image_attribution: null
+  },
+  {
+    name: "Nojo Ramen Tavern",
+    address: "231 Franklin Street, San Francisco",
+    key: "ChIJQ9mJ1ZiAhYARQmPYLOs-h-g",
+    image_attribution: null
+  },
+  {
+    name: "L'Ardoise",
+    address: "151 Noe St, San Francisco",
+    key: "ChIJ59pRbR1-j4ARKfQUFqmo33o",
+    image_attribution: null
+  },
+  {
+    name: "La Capra",
+    address: "360 3rd St, San Francisco",
+    key: "ChIJFQr3jX6AhYARqmE5unxChOY",
+    image_attribution: null
+  },
+  {
+    name: "China Live",
+    address: "644 Broadway, San Francisco",
+    key: "ChIJx1IXkvOAhYARMNdQA5IcmEc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112768757465006801865\">China Live</a>']"
+  },
+  {
+    name: "Hakkasan San Francisco",
+    address: "1 Kearny Street, San Francisco",
+    key: "ChIJZR1IXIiAhYARVdRHncWNWRY",
+    image_attribution: null
+  },
+  {
+    name: "Zen Yai",
+    address: "771 Ellis Street, San Francisco",
+    key: "ChIJPdCuKZeAhYARMlTvGE6vNPI",
     image_attribution: null
   },
   {
     name: "Cypress Grill",
     address: "99 Harding Road, San Francisco",
     key: "ChIJfy2XCgl9j4ARhNCPJ9cRUUQ",
+    image_attribution: null
+  },
+  {
+    name: "Kama Sushi",
+    address: "1497 Church Street, San Francisco",
+    key: "ChIJZS4kNWp-j4ARecujZkOV4mo",
+    image_attribution: null
+  },
+  {
+    name: "Silver Cafe",
+    address: "4300 Mission St, San Francisco",
+    key: "ChIJ4zP_u4l-j4ARE5uWj6bTdGQ",
     image_attribution: null
   },
   {
@@ -14107,81 +13907,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hyde Street Seafood House & Raw Bar",
-    address: "1509 Hyde Street, San Francisco",
-    key: "ChIJ9epuduyAhYARA458vjA_FNg",
+    name: "Manzoni",
+    address: "2788 Diamond Street, San Francisco",
+    key: "ChIJs3L-mGR-j4ARf0zI1_FJsDg",
     image_attribution: null
   },
   {
-    name: "Beer Nerds",
-    address: "3331 24th Street, San Francisco",
-    key: "ChIJ__9PuEB-j4AR2Be2q7eXL5Q",
+    name: "Deli Man",
+    address: "200 Ocean Avenue, San Francisco",
+    key: "ChIJ7UU8NOx_j4ARGfUiaY8D5aM",
     image_attribution: null
   },
   {
-    name: "Soluna",
-    address: "272 McAllister St, San Francisco",
-    key: "ChIJOVRdT5qAhYAR92qBRKgxxc4",
+    name: "Wooden Spoon",
+    address: "2172 Market St, San Francisco",
+    key: "ChIJB7_2ReF_j4ARs6lccUeGRwo",
+    image_attribution: ""
+  },
+  {
+    name: "Kahnfections",
+    address: "3321 20th Street, San Francisco",
+    key: "ChIJmUH6gzl-j4ARY24jL7NcAeQ",
+    image_attribution: ""
+  },
+  {
+    name: "Qualitea",
+    address: "4023 18th Street, San Francisco",
+    key: "ChIJ__8mHRt-j4ARmBNdl7rIRr4",
     image_attribution: null
   },
   {
-    name: "Latte Express",
-    address: "648 4th Street, San Francisco",
-    key: "ChIJlYk62dV_j4ARSCW2qXQvsSA",
-    image_attribution: null
-  },
-  {
-    name: "Super Cue Cafe",
-    address: "1330 Ocean Ave, San Francisco",
-    key: "ChIJ89CUkdJ9j4ARSZK3Ot-hEVU",
-    image_attribution: null
-  },
-  {
-    name: "Ambrosia Bakery",
-    address: "2605 Ocean Avenue, San Francisco",
-    key: "ChIJQ93RNLl9j4ARkyyss9ru8xU",
-    image_attribution: null
-  },
-  {
-    name: "Thee Parkside",
-    address: "1600 17th Street, San Francisco",
-    key: "ChIJ8SXJ6sx_j4ARHRrwH9Z3R5k",
-    image_attribution: null
-  },
-  {
-    name: "Seven Hills",
-    address: "1896 Hyde St, San Francisco",
-    key: "ChIJc1RqC-yAhYARWmmWMJ-xkDs",
-    image_attribution: null
-  },
-  {
-    name: "All Good Pizza",
-    address: "1605 Jerrold Avenue, San Francisco",
-    key: "ChIJwwA0rwh_j4ARbLQdX8x74rQ",
-    image_attribution: null
-  },
-  {
-    name: "Haus Coffee",
-    address: "3086 24th St, San Francisco",
-    key: "ChIJJZKJzEd-j4ARnnFluLjIt0M",
-    image_attribution: null
-  },
-  {
-    name: "Ti Piacera Ristorante",
-    address: "1507 Polk Street, San Francisco",
-    key: "ChIJiwCDLOuAhYARC9-cBOKhxLY",
-    image_attribution: null
-  },
-  {
-    name: "The Butcher Shop by Niku Steakhouse",
-    address: "57 Division St, San Francisco",
-    key: "ChIJWRGBHXd_j4AR8pwbROSeuTY",
-    image_attribution: null
-  },
-  {
-    name: "Izakaya mayumi",
-    address: "2221 Clement Street, San Francisco",
-    key: "ChIJp5NnFWGHhYAR_A4TJlboKFo",
+    name: "Chart House",
+    address: "Building K, Pier 39, Space 206-8, San Francisco",
+    key: "ChIJ2yPzGf2AhYARSwlwlNVmiwQ",
     image_attribution: null
   },
   {
@@ -14191,33 +13949,238 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mangrove Kitchen",
-    address: "312 Divisadero Street, San Francisco",
-    key: "ChIJaRUT4YWBhYARndk9vYXUpW4",
+    name: "GHIRARDELLI ICE CREAM AND CHOCO",
+    address: "900 North Point Street, San Francisco",
+    key: "ChIJDQx5mOCAhYARUe0qN5p7M64",
     image_attribution: null
   },
   {
-    name: "Great Gold",
-    address: "3161 24th St, San Francisco",
-    key: "ChIJC1qmgeF_j4ARlA6AkK0ssNc",
+    name: "Matko",
+    address: "Inside the Food Court, 1 Market St, San Francisco",
+    key: "ChIJ4a-8ImSAhYARSbReas1-klw",
     image_attribution: null
   },
   {
-    name: "Bullshead Restaurant",
-    address: "840 Ulloa Street, San Francisco",
-    key: "ChIJqd64Tup9j4ARgeawIqkNfoQ",
+    name: "Zazie",
+    address: "941 Cole St, San Francisco",
+    key: "ChIJgSeZU1SHhYARQU-BswtkEiY",
+    image_attribution: ""
+  },
+  {
+    name: "New People",
+    address: "1746 Post Street, San Francisco",
+    key: "ChIJxYJR2riAhYARAG4Ru9aHLPo",
     image_attribution: null
   },
   {
-    name: "Pizza By The Slice",
-    address: "San Francisco",
-    key: "ChIJ_QJSSfGAhYARQVFJBNKy3HE",
+    name: "Yo Soy Cafe Guatemalteco",
+    address: "4794 Mission St, San Francisco",
+    key: "ChIJAXh_qIV-j4ARZS4Y-GZQxQ0",
     image_attribution: null
   },
   {
-    name: "Cafe Terminus",
-    address: "16 California St, San Francisco",
-    key: "ChIJvaOxW2GAhYARoQ1qUuSDm98",
+    name: "Sweet Basil Thai Cuisine",
+    address: "3221 Mission Street, San Francisco",
+    key: "ChIJR8qiDUN-j4AR9kX02rdIkfE",
+    image_attribution: null
+  },
+  {
+    name: "All Good Pizza",
+    address: "1605 Jerrold Avenue, San Francisco",
+    key: "ChIJwwA0rwh_j4ARbLQdX8x74rQ",
+    image_attribution: null
+  },
+  {
+    name: "Art's Cafe",
+    address: "747 Irving St, San Francisco",
+    key: "ChIJpxnXTlyHhYAR1RGedkD52Is",
+    image_attribution: null
+  },
+  {
+    name: "Tancca",
+    address: "776 Broadway, San Francisco",
+    key: "ChIJGyFWNfKAhYARyeBNL_4tgEo",
+    image_attribution: null
+  },
+  {
+    name: "Everdene",
+    address: "250 4th Street, San Francisco",
+    key: "ChIJv1iDfsaBhYARgw8P6E9p7R8",
+    image_attribution: null
+  },
+  {
+    name: "Moscow & Tbilisi Bakery Store",
+    address: "5540 Geary Boulevard, San Francisco",
+    key: "ChIJseueSBCHhYARAPr3GYM8Klo",
+    image_attribution: null
+  },
+  {
+    name: "Home Coffee Roasters",
+    address: "2018 Clement St, San Francisco",
+    key: "ChIJr0cIUgWHhYAR52foWFmMYLw",
+    image_attribution: null
+  },
+  {
+    name: "Dragon Beaux",
+    address: "5700 Geary Boulevard, San Francisco",
+    key: "ChIJXbSH3w-HhYAR7x1xc3I2GGA",
+    image_attribution: null
+  },
+  {
+    name: "The Grove - Design District",
+    address: "at Townsend and Division, 1 Henry Adams Street, San Francisco",
+    key: "ChIJQaY5Ai1-j4ARJ_Br0DEFaO8",
+    image_attribution: null
+  },
+  {
+    name: "Noriega Teriyaki House",
+    address: "1755 Noriega Street, San Francisco",
+    key: "ChIJ3cPHEn2HhYARF5DccqSzt2c",
+    image_attribution: null
+  },
+  {
+    name: "Fiery Cafe",
+    address: "1316 Noriega Street, San Francisco",
+    key: "ChIJQw8bSV-HhYARGN-3BwoRjKw",
+    image_attribution: null
+  },
+  {
+    name: "Ichiraku Ramen",
+    address: "5336 Geary Boulevard, San Francisco",
+    key: "ChIJNxTdN6mHhYARewblX9HVipQ",
+    image_attribution: null
+  },
+  {
+    name: "Dragon River Restaurant",
+    address: "5045 Geary Boulevard, San Francisco",
+    key: "ChIJbwgFwBaHhYARbP9tm9GK0n4",
+    image_attribution: null
+  },
+  {
+    name: "A K Meats",
+    address: "2346 Clement Street, San Francisco",
+    key: "ChIJ9xetvgWHhYARA5RPYmoi5zg",
+    image_attribution: null
+  },
+  {
+    name: "Durty Nelly's",
+    address: "2328 Irving Street, San Francisco",
+    key: "ChIJ6ctEXHCHhYARTZL5GaJSTP4",
+    image_attribution: null
+  },
+  {
+    name: "Stacks",
+    address: "501 Hayes St, San Francisco",
+    key: "ChIJP9CHcqKAhYAReNe_9XhoCcg",
+    image_attribution: null
+  },
+  {
+    name: "V Cafe",
+    address: "1525 Folsom St #3720, San Francisco",
+    key: "ChIJJU-6tSd-j4ARHT6Rjf2iWAU",
+    image_attribution: null
+  },
+  {
+    name: "Mel's Drive-In",
+    address: "801 Mission Street, San Francisco",
+    key: "ChIJiVY2rYeAhYARJ90OnmrJw24",
+    image_attribution: null
+  },
+  {
+    name: "The Sentinel",
+    address: "37 New Montgomery Street, San Francisco",
+    key: "ChIJcTnoH4iAhYARFWB-p5hD9ek",
+    image_attribution: null
+  },
+  {
+    name: "Los Hermanos Mexican Food",
+    address: "2026 Chestnut Street, San Francisco",
+    key: "ChIJoWH6ONeAhYARN2VCdCHX5dg",
+    image_attribution: null
+  },
+  {
+    name: "Wise Sons Jewish Delicatessen",
+    address: "736 Mission Street, San Francisco",
+    key: "ChIJx43exIeAhYARjl6wVDlvMy4",
+    image_attribution: null
+  },
+  {
+    name: "Breakfast At Tiffany's",
+    address: "2499 San Bruno Avenue, San Francisco",
+    key: "ChIJwXV93vx-j4ARHCdKPwWqFJE",
+    image_attribution: null
+  },
+  {
+    name: "Noori Pakistani & Indian Cuisine - SF",
+    address: "1924 Irving Street, San Francisco",
+    key: "ChIJj4EniW-HhYARwmkfpkMaFmg",
+    image_attribution: null
+  },
+  {
+    name: "Sheng Kee Bakery",
+    address: "1941 Irving Street, San Francisco",
+    key: "ChIJgUsiim-HhYARvXpf88Ja05Y",
+    image_attribution: null
+  },
+  {
+    name: "ODSY Workshop",
+    address: "2039 Irving St, San Francisco",
+    key: "ChIJ0z44u5p9j4ARQtJbZ_CApU0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114228951768410324668\">Amy Selyne</a>']"
+  },
+  {
+    name: "Elda",
+    address: "3198 16th St, San Francisco",
+    key: "ChIJqfNjqkl_j4ARVUVZWmw3kdE",
+    image_attribution: null
+  },
+  {
+    name: "Villa Taverna",
+    address: "27 Hotaling Place, San Francisco",
+    key: "ChIJ63EltoqAhYARN29ugvW6Gh8",
+    image_attribution: null
+  },
+  {
+    name: "Makli Chinese Cuisine",
+    address: "290 Sanchez Street, San Francisco",
+    key: "ChIJ_1_hEhx-j4ARqBAR1RWoUEc",
+    image_attribution: null
+  },
+  {
+    name: "The Shota",
+    address: "115 Sansome St, San Francisco",
+    key: "ChIJAzG8hXmBhYARQ1Mw5xW5Lfo",
+    image_attribution: null
+  },
+  {
+    name: "La Lucha Coffee Bar",
+    address: "1600 17th St, San Francisco",
+    key: "ChIJOZbx6sx_j4ARUrweGXVTAyI",
+    image_attribution: null
+  },
+  {
+    name: "The Sandwich Place",
+    address: "2029 Mission Street, San Francisco",
+    key: "ChIJEVkcciN-j4ARMBWltgKiihw",
+    image_attribution: null
+  },
+  {
+    name: "Tsunami Panhandle",
+    address: "1306 Fulton Street, San Francisco",
+    key: "ChIJkTl5trGAhYAR34ROVyd_Se8",
+    image_attribution: null
+  },
+  {
+    name: "Un Cafecito",
+    address: "406 Ellis St, San Francisco",
+    key: "ChIJM45IHJCAhYAR6fWfAqv34L8",
+    image_attribution: null
+  },
+  {
+    name: "Subpar Miniature Golf",
+    address: "900 North Point Street #F-201, San Francisco",
+    key: "ChIJTZBSk5WGj4ARapPHXwF9Ass",
     image_attribution: null
   },
   {
@@ -14234,9 +14197,83 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/105169946490602065274\">Sobo Ramen</a>']"
   },
   {
+    name: "Naked Fish",
+    address: "2084 Chestnut Street, San Francisco",
+    key: "ChIJ4W2hIdeAhYAR2QNis4uWZXM",
+    image_attribution: null
+  },
+  {
+    name: "IL Casaro Pizzeria & Mozzarella Bar - Castro Locations",
+    address: "235 Church Street, San Francisco",
+    key: "ChIJ1SRRCkl_j4ARv8Rp41wzuF4",
+    image_attribution: null
+  },
+  {
+    name: "Duboce Park Cafe",
+    address: "2 Sanchez St, San Francisco",
+    key: "ChIJXwOvbqeAhYARvzZ4jWRCBpo",
+    image_attribution: null
+  },
+  {
+    name: "The Flying Falafel",
+    address: "1051 Market St, San Francisco",
+    key: "ChIJUURg6ISAhYARUlHS_WYfyGk",
+    image_attribution: null
+  },
+  {
+    name: "Tamashisoul",
+    address: "1849 Union Street, San Francisco",
+    key: "ChIJx0h4qtyAhYAR6xZ9Pq3jxb0",
+    image_attribution: null
+  },
+  {
     name: "Cafenated Coffee Company",
     address: "2085 Vine St, Berkeley",
     key: "ChIJz4VbokB_hYAR95axLBoPul4",
+    image_attribution: null
+  },
+  {
+    name: "Rocco's Cafe",
+    address:
+      "South of Market 1131 Folsom St. (between 7th &, 8th Street, San Francisco",
+    key: "ChIJbVQlDYKAhYARrtTWFEMRwj0",
+    image_attribution: null
+  },
+  {
+    name: "Omakase",
+    address: "665 Townsend Street, San Francisco",
+    key: "ChIJFYz55yx-j4ARFUpWF0lt4gw",
+    image_attribution: null
+  },
+  {
+    name: "Aditi Indian Cuisine",
+    address: "1101 Valencia St, San Francisco",
+    key: "ChIJpeMuPjl_j4ARvvrDR0jRVb4",
+    image_attribution: null
+  },
+  {
+    name: "Mister Bomboloni",
+    address:
+      "Ferry Building, 1 Sausalito - San Francisco Ferry Building, San Francisco",
+    key: "ChIJYXaFjGaAhYARG18WpZlqWMw",
+    image_attribution: null
+  },
+  {
+    name: "Pizza By The Slice",
+    address: "San Francisco",
+    key: "ChIJ_QJSSfGAhYARQVFJBNKy3HE",
+    image_attribution: null
+  },
+  {
+    name: "Bob's Donuts and Pastries",
+    address: "1621 Polk Street, San Francisco",
+    key: "ChIJj-FdH-uAhYARIp6mvqK3HNM",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Terminus",
+    address: "16 California St, San Francisco",
+    key: "ChIJvaOxW2GAhYARoQ1qUuSDm98",
     image_attribution: null
   },
   {
@@ -14247,34 +14284,45 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/106921226170526549012\">Terri-Ann dela Cruz</a>']"
   },
   {
-    name: "Subpar Miniature Golf",
-    address: "900 North Point Street #F-201, San Francisco",
-    key: "ChIJTZBSk5WGj4ARapPHXwF9Ass",
+    name: "54 Mint Ristorante Italiano",
+    address: "16 Mint Plaza, San Francisco",
+    key: "ChIJP5PrLYSAhYARBcWhJXs55P4",
     image_attribution: null
   },
   {
-    name: "Naked Fish",
-    address: "2084 Chestnut Street, San Francisco",
-    key: "ChIJ4W2hIdeAhYAR2QNis4uWZXM",
+    name: "Les Gourmands Bakery",
+    address: "280 5th Street, San Francisco",
+    key: "ChIJ5eYU2ICAhYARfaMn9EAgh_c",
     image_attribution: null
   },
   {
-    name: "Lost and Found Cocktail Bar",
-    address: "1439 Taraval St, San Francisco",
-    key: "ChIJs2CNtHN9j4ARDvJBrX_QShI",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/113699297190232543843\">Jasper Yuan</a>']"
-  },
-  {
-    name: "Sam\u2019s Pizza & Burgers",
-    address: "618 Broadway, San Francisco",
-    key: "ChIJy2ukjvOAhYARnqMKYHfLidk",
+    name: "The New Spot On Polk",
+    address: "2401 Polk St, San Francisco",
+    key: "ChIJe0YgbeiAhYAR5olhEmlulE4",
     image_attribution: null
   },
   {
-    name: "Red Blossom Tea Company",
-    address: "831 Grant Avenue, San Francisco",
-    key: "ChIJp1DLUYuAhYAROcTT4bNguRQ",
+    name: "Bob's on Baker Street",
+    address: "601 Baker Street, San Francisco",
+    key: "ChIJsSdRSz2BhYARZbSMAupIyj8",
+    image_attribution: null
+  },
+  {
+    name: "Gateway Croissant",
+    address: "390 Golden Gate Avenue, San Francisco",
+    key: "ChIJTbUmE5qAhYAR3Pp-88HmmFc",
+    image_attribution: null
+  },
+  {
+    name: "El Tomate",
+    address: "2904 24th Street, San Francisco",
+    key: "ChIJHd_C5Eh-j4ARQL53pFou8FI",
+    image_attribution: null
+  },
+  {
+    name: "Kazan",
+    address: "2809 24th Street, San Francisco",
+    key: "ChIJmymFQEl-j4ARqHakyQ0cjuw",
     image_attribution: null
   },
   {
@@ -14285,6 +14333,25 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/101661312983661319008\">Brenda&#39;s</a>']"
   },
   {
+    name: "The Vault Restaurant",
+    address: "555 California St, San Francisco",
+    key: "ChIJxcwexvGBhYARJd6pbktHXCk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/108107366790560684543\">The Vault Restaurant</a>']"
+  },
+  {
+    name: "Duc Loi Kitchen",
+    address: "2200 Mission Street, San Francisco",
+    key: "ChIJ17sZuTx-j4ARnM8VbeKRQO8",
+    image_attribution: null
+  },
+  {
+    name: "Picon",
+    address: "167 11th Street, San Francisco",
+    key: "ChIJh-YVm52AhYAR6sHqfiQKXMA",
+    image_attribution: null
+  },
+  {
     name: "Chantal Guillon",
     address: "444 University Ave, Palo Alto",
     key: "ChIJD0I-_Ti7j4AR5iq5y2tqflM",
@@ -14292,21 +14359,245 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/103511114638409226691\">Tibor Gal</a>']"
   },
   {
-    name: "Nick's Crispy Tacos",
-    address: "1500 Broadway, San Francisco",
-    key: "ChIJt3iYkOmAhYARofTl8oAaLN4",
-    image_attribution: ""
-  },
-  {
-    name: "The Brixton on 2nd",
-    address: "701 2nd Street, San Francisco",
-    key: "ChIJf5MwQQh_j4ARgIMDnVJBVQA",
+    name: "Quicky Burgers",
+    address: "4092 18th Street, San Francisco",
+    key: "ChIJdQNBuNB_j4AR5GBzH7S1VlA",
     image_attribution: null
   },
   {
-    name: "Whispers Bar & Grill",
-    address: "299 2nd Street, San Francisco",
-    key: "ChIJY71YYXyAhYARnkdCwTHjE1E",
+    name: "Manitas Cafe",
+    address: "2078 Hayes St, San Francisco",
+    key: "ChIJRw5BuU2HhYARMlQkVSiSOS8",
+    image_attribution: null
+  },
+  {
+    name: "Izzy's",
+    address: "3345 Steiner Street, San Francisco",
+    key: "ChIJJSmfKNeAhYARaqTS4LM9PKI",
+    image_attribution: null
+  },
+  {
+    name: "InoVino",
+    address: "108-B Carl Street, San Francisco",
+    key: "ChIJXeSsRFSHhYAR8E284l_0VUM",
+    image_attribution: null
+  },
+  {
+    name: "SF Hole In The Wall Pizza",
+    address: "1825 Irving Street, San Francisco",
+    key: "ChIJj2dkgWWHhYAReMxgaDvJN-E",
+    image_attribution: null
+  },
+  {
+    name: "Yank Sing (Rincon)",
+    address: "101 Spear Street, San Francisco",
+    key: "ChIJE_x2VGSAhYARoXDSoUvUjkI",
+    image_attribution: null
+  },
+  {
+    name: "Washington Bakery & Restaurant",
+    address: "733 Washington St, San Francisco",
+    key: "ChIJX-6GTIuAhYAR-6AUKml2Lv0",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107602328530544278868\">Rock Smile</a>']"
+  },
+  {
+    name: "Maven",
+    address: "598 Haight Street, San Francisco",
+    key: "ChIJxx60jaaAhYARzGGqAIEMSAo",
+    image_attribution: null
+  },
+  {
+    name: "Insomnia Cookies",
+    address: "362 Kearny Street, San Francisco",
+    key: "ChIJSTMwxMCBhYAReMK3H0C1AAw",
+    image_attribution: null
+  },
+  {
+    name: "North Beach Pizza",
+    address: "1462 Grant Avenue, San Francisco",
+    key: "ChIJKcJuNeaBhYARW6LEKiT2t-0",
+    image_attribution: null
+  },
+  {
+    name: "Wine Down SF",
+    address: "685 Folsom St, San Francisco",
+    key: "ChIJt_gzMnyAhYARZoasY6Qrq-Q",
+    image_attribution: null
+  },
+  {
+    name: "Wasabi Bistro",
+    address: "524 Castro Street #2512, San Francisco",
+    key: "ChIJATa0Lht-j4ARYhqlmWOC4qY",
+    image_attribution: null
+  },
+  {
+    name: "Cumaica Coffee",
+    address: "2800 California St, San Francisco",
+    key: "ChIJdUcFAJaBhYARZYwJninw6_M",
+    image_attribution: null
+  },
+  {
+    name: "Kiki Japanese",
+    address: "1269 9th Avenue, San Francisco",
+    key: "ChIJcUsS4FyHhYARnWU9lRcJ1gE",
+    image_attribution: null
+  },
+  {
+    name: "Louie's Bar",
+    address: "55 Stevenson Street, San Francisco",
+    key: "ChIJ_ajJ82KAhYARFz06Pju-pUY",
+    image_attribution: null
+  },
+  {
+    name: "Roli Roti Gourmet Rotisserie",
+    address: "1 Sausalito - San Francisco Ferry Building, San Francisco",
+    key: "ChIJeWScZmaAhYARG-EuO8oGxak",
+    image_attribution: null
+  },
+  {
+    name: "Manivanh",
+    address: "2732 24th Street, San Francisco",
+    key: "ChIJq8Ld4Ut-j4ARJTRvaWYIizI",
+    image_attribution: null
+  },
+  {
+    name: "Saint Frank Coffee",
+    address: "1081 Mission St, San Francisco",
+    key: "ChIJ_1AhfIOAhYAR4Y1b-2RI9WU",
+    image_attribution: null
+  },
+  {
+    name: "Urban Remedy",
+    address: "450 Hayes Street, San Francisco",
+    key: "ChIJjfhunpiAhYARyyJrxYvrqyM",
+    image_attribution: null
+  },
+  {
+    name: "Slices Pizza",
+    address: "330 Townsend Street, San Francisco",
+    key: "ChIJO2AMCNx_j4AR6xjp18zWUNg",
+    image_attribution: null
+  },
+  {
+    name: "Hinata Sushi",
+    address: "810 Van Ness Avenue, San Francisco",
+    key: "ChIJbzIMG5eAhYARs9fK1CMI0OI",
+    image_attribution: null
+  },
+  {
+    name: "Outer Orbit",
+    address: "3215 Mission Street, San Francisco",
+    key: "ChIJX_Jx2ll-j4ARNTDpNphFDAY",
+    image_attribution: null
+  },
+  {
+    name: "Driftwood",
+    address: "1225 Folsom St, San Francisco",
+    key: "ChIJSzglLyh-j4AR-wMMvNSt-Pc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/104838703023259470915\">Driftwood</a>']"
+  },
+  {
+    name: "Chili Lemon Garlic",
+    address: "518 Bryant Street, San Francisco",
+    key: "ChIJfcFgJX-AhYAR9WXDAz0FwGg",
+    image_attribution: null
+  },
+  {
+    name: "Angel Cafe & Deli",
+    address: "700 Geary St, San Francisco",
+    key: "ChIJd_o4vZGAhYARXi5ujtrUc5c",
+    image_attribution: null
+  },
+  {
+    name: "Cadillac Bar & Grill",
+    address: "Market Square, 44 9th Street, San Francisco",
+    key: "ChIJpXkdYJyAhYARbxi_KqJa5MQ",
+    image_attribution: null
+  },
+  {
+    name: "Suppenk\u00fcche",
+    address: "525 Laguna St, San Francisco",
+    key: "ChIJ8fbCTqKAhYAR9Uu7AyP5FyE",
+    image_attribution: null
+  },
+  {
+    name: "Sift Dessert Bar",
+    address: "2411 California St, San Francisco",
+    key: "ChIJSUVfyseAhYARHPyKS9PqGhA",
+    image_attribution: null
+  },
+  {
+    name: "Monsieur Benjamin",
+    address: "451 Gough Street, San Francisco",
+    key: "ChIJp0l1kZiAhYARSdsaDqr2fdc",
+    image_attribution: null
+  },
+  {
+    name: "VeganBurg San Francisco",
+    address: "1466 Haight Street, San Francisco",
+    key: "ChIJg-eRzayAhYARrsKb-2ivvs0",
+    image_attribution: null
+  },
+  {
+    name: "District Tea",
+    address: "2154 Mission Street, San Francisco",
+    key: "ChIJY9SkXqp_j4ARWW8AD7UGWkk",
+    image_attribution: null
+  },
+  {
+    name: "The San Francisco Athletic Club",
+    address: "1750 Divisadero Street, San Francisco",
+    key: "ChIJa0LSlMmAhYARWfs7v7LHncc",
+    image_attribution: null
+  },
+  {
+    name: "Castro Coffee Company",
+    address: "427 Castro St, San Francisco",
+    key: "ChIJc5xaRRt-j4ARPhLIzF_ThoE",
+    image_attribution: null
+  },
+  {
+    name: "Grove Street Market",
+    address: "500 Grove Street, San Francisco",
+    key: "ChIJOZIIiaKAhYARzfJT_A8zL8M",
+    image_attribution: null
+  },
+  {
+    name: "Delarosa",
+    address: "2175 Chestnut Street, San Francisco",
+    key: "ChIJW5ygw9aAhYARSNqml-xlEQ4",
+    image_attribution: null
+  },
+  {
+    name: "Pressed Juicery",
+    address: "3901 24th Street, San Francisco",
+    key: "ChIJx2hhYhN-j4ARMp9um4BfIic",
+    image_attribution: null
+  },
+  {
+    name: "Bender's Bar & Grill",
+    address: "806 South Van Ness Avenue, San Francisco",
+    key: "ChIJj1AKlzt-j4ARCHHWunlrEcw",
+    image_attribution: null
+  },
+  {
+    name: "Dumpling Time Express",
+    address: "55 Division Street, San Francisco",
+    key: "ChIJ9fA8aTd_j4ARf8kPDTC8_es",
+    image_attribution: null
+  },
+  {
+    name: "You See Sushi",
+    address: "94 Judah Street, San Francisco",
+    key: "ChIJbT8jR1mHhYARsRwIaCpbYAY",
+    image_attribution: null
+  },
+  {
+    name: "Piece of Heaven",
+    address: "1380 Sutter Street #5416, San Francisco",
+    key: "ChIJtbTxnpWAhYARRCpq_1-ppqM",
     image_attribution: null
   },
   {
@@ -14316,46 +14607,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tal-Y-Tara Restaurant (Closed For Renovations)",
-    address: "6439 California Street, San Francisco",
-    key: "ChIJ4cnLowaHhYAR-Vj7nCfwL6A",
+    name: "Blanc Et Rouge",
+    address: "2 Embarcadero Center, San Francisco",
+    key: "ChIJJfajqGGAhYARu7QojfbMfUw",
     image_attribution: null
   },
   {
-    name: "Nourish Cafe",
-    address: "189 6th Ave, San Francisco",
-    key: "ChIJSwytkTyHhYARfsOBfVgkHfE",
+    name: "Bell Tower",
+    address: "1900 Polk Street, San Francisco",
+    key: "ChIJwR8dNeqAhYARhTfTijtXhAs",
+    image_attribution: null
+  },
+  {
+    name: "SimplexiTea",
+    address: "12 10th Street, San Francisco",
+    key: "ChIJKdw1tp-BhYARMqKmY0DXJUs",
+    image_attribution: null
+  },
+  {
+    name: "Nightbird",
+    address: "330 Gough St, San Francisco",
+    key: "ChIJyzdPuJiAhYARaLoaRwaGRGE",
+    image_attribution: null
+  },
+  {
+    name: "Tartine Inner Sunset",
+    address: "1226 9th Ave, San Francisco",
+    key: "ChIJ0Q91SDiHhYARqyW_QFvhdSI",
     image_attribution: ""
-  },
-  {
-    name: "Sixth Course",
-    address: "1544 15th Street, San Francisco",
-    key: "ChIJ0WeN8CN-j4ARFq8jXc-jtCY",
-    image_attribution: null
-  },
-  {
-    name: "Wise Sons Bagel & Coffee",
-    address: "537 Octavia Street, San Francisco",
-    key: "ChIJdYa7Y6KAhYARFMLxZvWvkhM",
-    image_attribution: null
-  },
-  {
-    name: "Dobbs Ferry",
-    address: "409 Gough Street, San Francisco",
-    key: "ChIJKz56lpiAhYAR56S9hLnUTSI",
-    image_attribution: null
-  },
-  {
-    name: "Mission Bowling Club",
-    address: "3176 17th Street, San Francisco",
-    key: "ChIJ10DmyyR-j4ARBZDBrVVevpo",
-    image_attribution: ""
-  },
-  {
-    name: "Salt House",
-    address: "545 Mission Street, San Francisco",
-    key: "ChIJRU1AJ2OAhYARFA9ToMGw-OE",
-    image_attribution: null
   },
   {
     name: "Claire's Pastries & Restaurant",
@@ -14370,39 +14649,81 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Gateway Kitchen",
-    address: "6165 Mission Street, Daly City",
-    key: "ChIJ2wFOSyN8j4AR0Tn2cw-DodM",
+    name: "Anton's Pizza & Deli",
+    address: "1196 Folsom Street, San Francisco",
+    key: "ChIJh5Yph4KAhYARm7XZPaO-Zko",
     image_attribution: null
   },
   {
-    name: "VeganBurg San Francisco",
-    address: "1466 Haight Street, San Francisco",
-    key: "ChIJg-eRzayAhYARrsKb-2ivvs0",
+    name: "HRD",
+    address: "521A 3rd Street, San Francisco",
+    key: "ChIJVciqzniAhYARoFZH_DAD8QI",
     image_attribution: null
   },
   {
-    name: "KAIY\u014c",
-    address: "1838 Union Street, San Francisco",
-    key: "ChIJ4RXs7X-BhYAR08JJs5ZVHXM",
+    name: "EA Cafe",
+    address: "735 3rd Street, San Francisco",
+    key: "ChIJN8uMPyx_j4ARxqlVc1-5AFI",
     image_attribution: null
   },
   {
-    name: "Piazza Pellegrini",
-    address: "659 Columbus Avenue, San Francisco",
-    key: "ChIJ72jGSvCAhYARVn5P8a7fmXY",
+    name: "Gyro King",
+    address: "25 Grove Street #4702, San Francisco",
+    key: "ChIJPTVTnJuAhYAR3G9Z4eVlTmU",
     image_attribution: null
   },
   {
-    name: "Parigo",
-    address: "3232 Scott Street, San Francisco",
-    key: "ChIJ8anRoNaAhYARw_7AiSXOyBI",
+    name: "Atami Sushi Bar & Grill",
+    address: "1662 Lombard Street, San Francisco",
+    key: "ChIJEa1JbtyAhYARoRA5b_tf5GA",
     image_attribution: null
   },
   {
-    name: "Beloved Natural Cafe & Organic Juicery",
-    address: "3338 24th St, San Francisco",
-    key: "ChIJv83gukB-j4ARuAURfcES5fE",
+    name: "Casey's Pizza",
+    address: "1170 4th Street, San Francisco",
+    key: "ChIJsUTg9NB_j4AR-2Uajiq9v4c",
+    image_attribution: null
+  },
+  {
+    name: "Allstar Donuts",
+    address: "901 Clement Street, San Francisco",
+    key: "ChIJScRWhD2HhYAR4wBIutRypm0",
+    image_attribution: null
+  },
+  {
+    name: "Boba Guys Fillmore",
+    address: "1522 Fillmore Street, San Francisco",
+    key: "ChIJ77Z4oLmAhYARlMZ7RrZ4-Xo",
+    image_attribution: null
+  },
+  {
+    name: "Kirimachi Ramen",
+    address: "3 Embarcadero Center, San Francisco",
+    key: "ChIJa2NJVvSAhYARyLXvqqyZ-Ko",
+    image_attribution: null
+  },
+  {
+    name: "Sotto Mare",
+    address: "552 Green St, San Francisco",
+    key: "ChIJQfYyVvGAhYARJVwoboB1WKQ",
+    image_attribution: null
+  },
+  {
+    name: "Emos Place Cafe",
+    address: "201a Turk Street, San Francisco",
+    key: "ChIJR497TIWAhYAR5NJbEam6tn4",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Cancun",
+    address: "3211 Mission Street, San Francisco",
+    key: "ChIJtVnCDEN-j4AR9CIMl7FOqpQ",
+    image_attribution: null
+  },
+  {
+    name: "NOVY Restaurant",
+    address: "4000 24th Street, San Francisco",
+    key: "ChIJ7QTyqRN-j4ARLHT2CywiO84",
     image_attribution: null
   },
   {
@@ -14412,45 +14733,47 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Durty Nelly's",
-    address: "2328 Irving Street, San Francisco",
-    key: "ChIJ6ctEXHCHhYARTZL5GaJSTP4",
+    name: "Grand Coffee",
+    address: "2663 Mission St, San Francisco",
+    key: "ChIJC0tDSj9-j4AROcvQfiqe1y8",
     image_attribution: null
   },
   {
-    name: "Souvla",
-    address: "517 Hayes Street, San Francisco",
-    key: "ChIJbTB3bKKAhYAR8Yqc6dEIMbQ",
+    name: "Fool's Errand",
+    address: "639A Divisadero St, San Francisco",
+    key: "ChIJWW9s87WBhYARuqB24z38TU4",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/111450706673730952587\">Albertino M.</a>']"
+  },
+  {
+    name: "Cozy Cafe",
+    address: "965 Sutter St C, San Francisco",
+    key: "ChIJ9VmGzpOAhYAR4X1Bcv2I-VE",
     image_attribution: null
   },
   {
-    name: "Un Cafecito",
-    address: "406 Ellis St, San Francisco",
-    key: "ChIJM45IHJCAhYAR6fWfAqv34L8",
+    name: "Coin-Op Game Room",
+    address: "508 4th Street, San Francisco",
+    key: "ChIJ3cBxen-AhYAR17R95rjQVeQ",
     image_attribution: null
   },
   {
-    name: "Honey Creme",
-    address: "839 Irving Street, San Francisco",
-    key: "ChIJm0BVsF2HhYAR7ZhiOpw9Vok",
+    name: "Thai Idea Vegetarian",
+    address: "710 Polk Street, San Francisco",
+    key: "ChIJT2siMJeAhYARuunTexGErxg",
     image_attribution: null
   },
   {
-    name: "Kim Son Restaurant",
-    address: "3614 Balboa Street, San Francisco",
-    key: "ChIJH2V64qWHhYARadWxyXw69gU",
-    image_attribution: null
+    name: "Swirl On Castro",
+    address: "572 Castro St, San Francisco",
+    key: "ChIJERrc0xp-j4AR2gk76rDMIfE",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/104390914659004769007\">Shelly Puri</a>']"
   },
   {
-    name: "Bistro Aix",
-    address: "3340 Steiner Street, San Francisco",
-    key: "ChIJrQ-fKNeAhYARFyOQ-ar1-mk",
-    image_attribution: null
-  },
-  {
-    name: "Yokohama",
-    address: "1427 Webster St #3824, Alameda",
-    key: "ChIJ9wBD9yWBj4AR4i60nBOG1Lc",
+    name: "5A5 Steak Lounge",
+    address: "244 Jackson St, San Francisco",
+    key: "ChIJ8WWHCWCAhYARe-V1QBpRVAU",
     image_attribution: null
   },
   {
@@ -14460,51 +14783,93 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Godzila Sushi",
+    address: "1800 Divisadero Street, San Francisco",
+    key: "ChIJ-wB5lMmAhYARubw84HrM3hE",
+    image_attribution: null
+  },
+  {
+    name: "Mo'z Cafe",
+    address: "5 Masonic Ave, San Francisco",
+    key: "ChIJd2OmoUqHhYARuMtfXRS_b-g",
+    image_attribution: null
+  },
+  {
+    name: "La Ciccia",
+    address: "291 30th Street, San Francisco",
+    key: "ChIJc9N1Y2h-j4ARaE2RERU0Ovs",
+    image_attribution: ""
+  },
+  {
+    name: "Martha & Bros. Coffee Co.",
+    address: "1551 Church St, San Francisco",
+    key: "ChIJu0OEKmp-j4AR18iMt8X_GtE",
+    image_attribution: null
+  },
+  {
+    name: "Beloved Natural Cafe & Organic Juicery",
+    address: "3338 24th St, San Francisco",
+    key: "ChIJv83gukB-j4ARuAURfcES5fE",
+    image_attribution: null
+  },
+  {
+    name: "Fujiyama-Ya",
+    address: "1234 Noriega Street, San Francisco",
+    key: "ChIJmdMDeGKHhYARxOwt0GsQdUI",
+    image_attribution: null
+  },
+  {
+    name: "Noah's NY Bagels",
+    address: "2300 16th St, San Francisco",
+    key: "ChIJ9a3hyi9-j4ARAHTytKc_DVY",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Rapture",
+    address: "1400 Leavenworth Street, San Francisco",
+    key: "ChIJYUeQ-uyAhYARUKqpvmSgsWg",
+    image_attribution: null
+  },
+  {
+    name: "Yokohama",
+    address: "1427 Webster St #3824, Alameda",
+    key: "ChIJ9wBD9yWBj4AR4i60nBOG1Lc",
+    image_attribution: null
+  },
+  {
     name: "Muracci's",
     address: "2428 Telegraph Ave, Berkeley",
     key: "ChIJVwmh2S58hYARqUK7hyYM3uY",
     image_attribution: null
   },
   {
-    name: "S & T Hong Kong Seafood Restaurant",
-    address: "2578 Noriega Street, San Francisco",
-    key: "ChIJ_ZZWW3-HhYAR0n1cV5VdK9Y",
+    name: "PLATFORM248",
+    address: "248 9th Street, San Francisco",
+    key: "ChIJV-_MQbmBhYARcS7ZT3nQKuM",
     image_attribution: null
   },
   {
-    name: "Sweet Lime Thai Cuisine",
-    address: "2100 Sutter Street, San Francisco",
-    key: "ChIJnY6JA7iAhYARtc3_NHI6xtM",
+    name: "Thai Spice Restaurant",
+    address: "1730 Polk Street, San Francisco",
+    key: "ChIJnbynAeuAhYARFW3UDxxnlhE",
     image_attribution: null
   },
   {
-    name: "Corner Bakery Cafe",
-    address: "665 Market St, San Francisco",
-    key: "ChIJs3ExPoiAhYARNGkgKUhuMTo",
+    name: "Homeskillet San Francisco",
+    address: "1001 Market Street, San Francisco",
+    key: "ChIJXzkK_oSAhYAR2KefQnfYoog",
     image_attribution: null
   },
   {
-    name: "Modern Thai",
-    address: "1247 Polk Street, San Francisco",
-    key: "ChIJRTuZWJSAhYARE0kNGsoxBTE",
+    name: "Pan Lido Salvadoreno",
+    address: "3147 22nd Street, San Francisco",
+    key: "ChIJgeiK0Dh-j4ARBUPQGIXiCmw",
     image_attribution: null
   },
   {
-    name: "Caffe Moda",
-    address: "160 7th St, San Francisco",
-    key: "ChIJLa6q8ix-j4ARoiYnk8uNCYE",
-    image_attribution: null
-  },
-  {
-    name: "Bloom Chocolate Salon",
-    address: "2600 16th Street, San Francisco",
-    key: "ChIJoTeiHh9_j4ARkwJXJatz2lw",
-    image_attribution: null
-  },
-  {
-    name: "Wise Sons Jewish Delicatessen",
-    address: "736 Mission Street, San Francisco",
-    key: "ChIJx43exIeAhYARjl6wVDlvMy4",
+    name: "Ju-Ni",
+    address: "1335 Fulton Street, San Francisco",
+    key: "ChIJC97OyLGAhYAR4Y3wyxVMk8c",
     image_attribution: null
   },
   {
@@ -14514,11 +14879,83 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Hi Tea",
+    address: "2591 San Bruno Avenue, San Francisco",
+    key: "ChIJPy6T7pp_j4ARdRfi9XTQNzY",
+    image_attribution: null
+  },
+  {
+    name: "Princess Bakery",
+    address: "4617 Mission Street, San Francisco",
+    key: "ChIJl40WVo9-j4ARsLDQnVynLhA",
+    image_attribution: null
+  },
+  {
     name: "Fish & Bird Sousaku Izakaya",
     address: "2451 Shattuck Ave, Berkeley",
     key: "ChIJSVtssxl_hYAR2l6XqAe_ylA",
     image_attribution:
       "['<a href=\"https://maps.google.com/maps/contrib/112177169837157289553\">Alder Yarrow</a>']"
+  },
+  {
+    name: "J & A Restaurant",
+    address: "5712 Mission St, San Francisco",
+    key: "ChIJWwcNKSF8j4ARJabYx-3o0fA",
+    image_attribution: null
+  },
+  {
+    name: "Noosh",
+    address: "2001 Fillmore St, San Francisco",
+    key: "ChIJhyFhqpCBhYARKlrgo8g4cEA",
+    image_attribution: null
+  },
+  {
+    name: "Boogaloos",
+    address: "3296 22nd St, San Francisco",
+    key: "ChIJH5j9-j5-j4AR9oQ-0-E0WYo",
+    image_attribution: null
+  },
+  {
+    name: "Hard Knox Cafe",
+    address: "2526 3rd St, San Francisco",
+    key: "ChIJOz17Ibp_j4ARolRA3CEhntA",
+    image_attribution: null
+  },
+  {
+    name: "Angkor Borei Restaurant",
+    address: "3471 Mission Street, San Francisco",
+    key: "ChIJKzhXFV1-j4ARyCC7QHl-c40",
+    image_attribution: null
+  },
+  {
+    name: "Street Taco",
+    address: "83 9th Street, San Francisco",
+    key: "ChIJp-A28JyAhYARjNRqpaJuiQY",
+    image_attribution: null
+  },
+  {
+    name: "Nopalito",
+    address: "306 Broderick St, San Francisco",
+    key: "ChIJWdx6WK6AhYARchLwAKyG4-Y",
+    image_attribution: ""
+  },
+  {
+    name: "Big Lantern",
+    address: "3170 16th Street, San Francisco",
+    key: "ChIJe8O9ciJ-j4ARYXtakvRMJg8",
+    image_attribution: null
+  },
+  {
+    name: "La Corneta Taqueria",
+    address: "2731 Mission Street, San Francisco",
+    key: "ChIJn1dOVT9-j4ARuHZUI1PWedE",
+    image_attribution: null
+  },
+  {
+    name: "Rosamunde Sausage Grill",
+    address: "2832 Mission Street, San Francisco",
+    key: "ChIJTdUqwKaAhYARyGg63wTM2qg",
+    image_attribution: null
   },
   {
     name: "Ambience Restaurant",
@@ -14539,60 +14976,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Yuanbao Jiaozi \u5143\u5bf6\u9903\u5b50",
-    address: "2110 Irving Street, San Francisco",
-    key: "ChIJifiQHXCHhYARUE-zmI9jYN0",
-    image_attribution: null
-  },
-  {
-    name: "J & A Restaurant",
-    address: "5712 Mission St, San Francisco",
-    key: "ChIJWwcNKSF8j4ARJabYx-3o0fA",
-    image_attribution: null
-  },
-  {
-    name: "Prima Cafe",
-    address: "215 Fremont St #5b, San Francisco",
-    key: "ChIJs49MTXuAhYARsbPUjsk0NsY",
-    image_attribution: null
-  },
-  {
-    name: "Roy's Restaurant",
-    address: "575 Mission Street, San Francisco",
-    key: "ChIJrwxH0GKAhYARMK9ZdZNa3EA",
-    image_attribution: null
-  },
-  {
-    name: "Kirimachi Ramen",
-    address: "3 Embarcadero Center, San Francisco",
-    key: "ChIJa2NJVvSAhYARyLXvqqyZ-Ko",
-    image_attribution: null
-  },
-  {
-    name: "Sotto Mare",
-    address: "552 Green St, San Francisco",
-    key: "ChIJQfYyVvGAhYARJVwoboB1WKQ",
-    image_attribution: null
-  },
-  {
-    name: "South Beach Cafe",
-    address: "800 The Embarcadero, San Francisco",
-    key: "ChIJI6TD33eAhYARa7T3EGqJppg",
-    image_attribution: null
-  },
-  {
-    name: "Tokyo Futon & Tea",
-    address: "924 Valencia Street, San Francisco",
-    key: "ChIJj6vUzD1-j4ARdVVPC5r6ero",
-    image_attribution: null
-  },
-  {
-    name: "KitTea Cat Cafe",
-    address: "96 Gough St, San Francisco",
-    key: "ChIJESa_DZ-AhYARew11kFkbGLc",
-    image_attribution: null
-  },
-  {
     name: "Lottie's Creamery",
     address: "1414 N Main St, Walnut Creek",
     key: "ChIJHUNsH8BhhYAR3L3hlU-AwaE",
@@ -14606,6 +14989,42 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Spice of America",
+    address: "1655 Market Street, San Francisco",
+    key: "ChIJCYUUtXyBhYARdiW0xhV4VE4",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Encore",
+    address: "488 Post St, San Francisco",
+    key: "ChIJDbCSio6AhYARnhfyf6t5rus",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Venue",
+    address: "67 5th St, San Francisco",
+    key: "ChIJn8BefoaAhYARG60zsVlCVRY",
+    image_attribution: null
+  },
+  {
+    name: "Buckhorn Grill - Temp Closed",
+    address: "135 4th Street FC5 SF Metreon, San Francisco",
+    key: "ChIJd-WuoIeAhYARJHN2CGw0HgI",
+    image_attribution: null
+  },
+  {
+    name: "House of Thai 2",
+    address: "494 Haight Street, San Francisco",
+    key: "ChIJJRjRyaaAhYARHuLbeupdFNk",
+    image_attribution: null
+  },
+  {
+    name: "Smitten Ice Cream",
+    address: "904 Valencia Street, San Francisco",
+    key: "ChIJe-sRyj1-j4ARrVcZXLh0KNQ",
+    image_attribution: null
+  },
+  {
     name: "Lottie's Creamery",
     address: "145 E Prospect Ave, Danville",
     key: "ChIJX2ec-36Nj4AR-VhV-1KxHps",
@@ -14613,75 +15032,250 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/100948068581515635688\">Julia Babka-Kurzrock</a>']"
   },
   {
-    name: "Insomnia Cookies",
-    address: "362 Kearny Street, San Francisco",
-    key: "ChIJSTMwxMCBhYAReMK3H0C1AAw",
+    name: "Mr.East Kitchen",
+    address: "276 5th Street, San Francisco",
+    key: "ChIJy31KyT2BhYARgIBr-NJpBpo",
     image_attribution: null
   },
   {
-    name: "Media Noche",
-    address: "3465 19th St, San Francisco",
-    key: "ChIJh1vk-zx-j4ARN422yufnDyY",
+    name: "Ramen Izakaya Goku",
+    address: "3232 16th Street, San Francisco",
+    key: "ChIJJV8Iuxh-j4AR8BPO5S2aeTg",
     image_attribution: null
   },
   {
-    name: "Mochill Mochidonut",
-    address: "1737 Post Street STE395, San Francisco",
-    key: "ChIJYTeHK0SBhYARyEEvKzjrBl8",
+    name: "DBC Restaurant",
+    address: "1109 Fillmore Street, San Francisco",
+    key: "ChIJxwoJaPWBhYARQmEnoFz8vQI",
     image_attribution: null
   },
   {
-    name: "Pisco Latin Lounge",
-    address: "1817 Market Street, San Francisco",
-    key: "ChIJqX7P-Z-AhYAR3Uu-TKs9GSI",
+    name: "Hopwater Distribution",
+    address: "850 Bush Street, San Francisco",
+    key: "ChIJp3Gd6o2AhYARAQi9kpjTWac",
     image_attribution: null
   },
   {
-    name: "Chibog",
-    address: "2055 Gellert Blvd #5, Daly City",
-    key: "ChIJgQyAvdN7j4ARcLmzTu7rk5s",
+    name: "The Wattis Room",
+    address: "249 Grove Street, San Francisco",
+    key: "ChIJ3dM-PZmAhYARD9764g6iRoQ",
     image_attribution: null
   },
   {
-    name: "Madcap",
-    address: "198 Sir Francis Drake Blvd, San Anselmo",
-    key: "ChIJbX6zwz-XhYARl4iaPz63f7E",
+    name: "Sorrel",
+    address: "3228 Sacramento Street, San Francisco",
+    key: "ChIJSUqmKoyAhYARHqx0N3gnl8o",
+    image_attribution: ""
+  },
+  {
+    name: "Tony's Cable Car Restaurant",
+    address: "2500 Geary Boulevard, San Francisco",
+    key: "ChIJg_sKZbWAhYARxSZHTn3Azwc",
     image_attribution: null
   },
   {
-    name: "Great China",
-    address: "2190 Bancroft Way, Berkeley",
-    key: "ChIJG4GjC51-hYARDnhkaVgJsI4",
+    name: "The Grind",
+    address: "783 Haight St, San Francisco",
+    key: "ChIJVZ6oHKaAhYAR7nvlwWEZajE",
     image_attribution: null
   },
   {
-    name: "Ker Davis",
-    address: "405 Davis Court, San Francisco",
-    key: "ChIJCSqDZyyBhYARWEZMkBxZ0lk",
+    name: "New Country Sky",
+    address: "2035 Polk Street, San Francisco",
+    key: "ChIJbzX6K9eAhYAR7MjAQe5dDks",
     image_attribution: null
   },
   {
-    name: "Tommaso's Ristorante Italiano",
-    address: "1042 Kearny Street, San Francisco",
-    key: "ChIJD-7c9fSAhYARO7hy4de6RBY",
+    name: "ENOUGH TEA AND COFFEE",
+    address: "49 Kearny St, San Francisco",
+    key: "ChIJFRWTU4iAhYARW_fQvzJtOao",
     image_attribution: null
   },
   {
-    name: "Extreme Pizza",
-    address: "1980 Union Street, San Francisco",
-    key: "ChIJj2vPJNuAhYARSgmTp9KnaxQ",
+    name: "25 Lusk",
+    address: "25 Lusk Street, San Francisco",
+    key: "ChIJAzkmQNZ_j4ARs6PNLtDYE_g",
     image_attribution: null
   },
   {
-    name: "Koi Palace",
-    address: "365 Gellert Blvd, Daly City",
-    key: "ChIJSayidut7j4AR1iWKufPh-d0",
+    name: "Urban Ritual Cafe",
+    address: "488 Fell St, San Francisco",
+    key: "ChIJX7KNJy1-j4ARfn1gMtb2ryM",
     image_attribution: null
   },
   {
-    name: "Commis",
-    address: "3859 Piedmont Ave, Oakland",
-    key: "ChIJFzl5Mfh9hYARQmOK6_pAIYw",
+    name: "North Beach Pizza",
+    address: "3054 Taraval Street, San Francisco",
+    key: "ChIJtV1K7Xt9j4ARD3yKEwvPOHA",
+    image_attribution: null
+  },
+  {
+    name: "Chabaa Thai Cuisine",
+    address: "2123 Irving Street, San Francisco",
+    key: "ChIJuZHFAnCHhYARKYgTeq6IcL8",
+    image_attribution: null
+  },
+  {
+    name: "Pineapple King Bakery",
+    address: "1915 Irving Street, San Francisco",
+    key: "ChIJB2BufWWHhYARKtURODJggr8",
+    image_attribution: null
+  },
+  {
+    name: "Proper Food",
+    address: "235 2nd Street, San Francisco",
+    key: "ChIJL3jyjHyAhYARaTUEPi2y6Kg",
+    image_attribution: null
+  },
+  {
+    name: "Marcello's Pizza",
+    address: "420 Castro Street, San Francisco",
+    key: "ChIJG018Uxt-j4AR5eC7h8HKEY8",
+    image_attribution: null
+  },
+  {
+    name: "Vega Coffee",
+    address: "1246 Folsom St, San Francisco",
+    key: "ChIJG_bIJih-j4ARxqBUWrFtz-c",
+    image_attribution: null
+  },
+  {
+    name: "Golden Burma Restaurant",
+    address: "15 Boardman Place, San Francisco",
+    key: "ChIJJXEd5Cp-j4AR9HJ5M1wqb3w",
+    image_attribution: null
+  },
+  {
+    name: "The Snug",
+    address: "2301 Fillmore St, San Francisco",
+    key: "ChIJ-_7qDsaAhYARKG4Gj6yw2ho",
+    image_attribution: ""
+  },
+  {
+    name: "Fly",
+    address: "762 Divisadero Street, San Francisco",
+    key: "ChIJY594M7CAhYAR8ThFYJslZCs",
+    image_attribution: null
+  },
+  {
+    name: "Seniore's Pizza",
+    address: "456 Haight Street, San Francisco",
+    key: "ChIJW-kUyq-AhYAR3LB-pbEOo4I",
+    image_attribution: null
+  },
+  {
+    name: "Smuggler's Cove",
+    address: "650 Gough St, San Francisco",
+    key: "ChIJZYKHDZiAhYARXV0sNJgKAi8",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115838534303300254403\">Smuggler&#39;s Cove</a>']"
+  },
+  {
+    name: "Mela Tandoori Kitchen",
+    address: "536 Golden Gate Avenue, San Francisco",
+    key: "ChIJz2eP2ZmAhYARl030KzAUg4U",
+    image_attribution: null
+  },
+  {
+    name: "A La Turca",
+    address: "869 Geary Street, San Francisco",
+    key: "ChIJXSbYRZGAhYARhaelV0h5iPE",
+    image_attribution: null
+  },
+  {
+    name: "Union Square Sports Bar",
+    address: "115 Mason Street, San Francisco",
+    key: "ChIJUQ43h4WAhYAR6-zLII4QAP4",
+    image_attribution: null
+  },
+  {
+    name: "Mozzeria",
+    address: "3228 16th Street, San Francisco",
+    key: "ChIJU296vBh-j4ARpjagql8QEPY",
+    image_attribution: null
+  },
+  {
+    name: "Fig & Thistle",
+    address: "313 Ivy Street, San Francisco",
+    key: "ChIJZ0iMkJiAhYARwVxb_5G03Yc",
+    image_attribution: null
+  },
+  {
+    name: "Chaat Corner",
+    address: "320 3rd Street, San Francisco",
+    key: "ChIJH0sfhX6AhYARtrXV6cYH2F0",
+    image_attribution: null
+  },
+  {
+    name: "Red Hill Station",
+    address: "803 Cortland Avenue, San Francisco",
+    key: "ChIJjQ8Svll-j4ARu46rpYKQbvE",
+    image_attribution: null
+  },
+  {
+    name: "Emperor Palace Restaurant",
+    address: "530 Balboa Street, San Francisco",
+    key: "ChIJj1tdWD-HhYARGy7FzEgUB-E",
+    image_attribution: null
+  },
+  {
+    name: "Hamano Sushi",
+    address: "1332 Castro Street, San Francisco",
+    key: "ChIJz2hcihJ-j4AR85SN39kUG1Q",
+    image_attribution: null
+  },
+  {
+    name: "Casa Mexicana Restaurant",
+    address: "3917 24th Street, San Francisco",
+    key: "ChIJlTNvZBN-j4ARUObEoIfmIJo",
+    image_attribution: null
+  },
+  {
+    name: "Cinderella Bakery & Cafe",
+    address: "436 Balboa St, San Francisco",
+    key: "ChIJG6DZVEeHhYARN90v8rBlRsY",
+    image_attribution: null
+  },
+  {
+    name: "Bitter End",
+    address: "441 Clement Street, San Francisco",
+    key: "ChIJOW3MCDyHhYAR64SjtMrHoss",
+    image_attribution: null
+  },
+  {
+    name: "Lupa Trattoria",
+    address: "4109 24th St, San Francisco",
+    key: "ChIJcZIFZRJ-j4ARqh74LBAr2Po",
+    image_attribution: ""
+  },
+  {
+    name: "Rosamunde Sausage Catering",
+    address: "2832 Mission Street, San Francisco",
+    key: "ChIJ9WAGzUB-j4ARnKq2GIYCXgA",
+    image_attribution: null
+  },
+  {
+    name: "Ton Kiang",
+    address: "5821 Geary Boulevard, San Francisco",
+    key: "ChIJw4b6wA-HhYARzfN7bMzNQPw",
+    image_attribution: null
+  },
+  {
+    name: "Bellota",
+    address: "888 Brannan Street, San Francisco",
+    key: "ChIJI6-Ajit-j4ARx_u2u-3vkOk",
+    image_attribution: null
+  },
+  {
+    name: "David Rio Chai Bar",
+    address: "1019 Market Street, San Francisco",
+    key: "ChIJ_Vae_ISAhYARD3_cAM1pxlc",
+    image_attribution: null
+  },
+  {
+    name: "Lucky",
+    address: "1750 Fulton Street #756, San Francisco",
+    key: "ChIJCRbPKLOAhYARodDE5raXmzc",
     image_attribution: null
   },
   {
@@ -14691,15 +15285,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Maum",
+    address: "322 University Ave, Palo Alto",
+    key: "ChIJFRQiozm7j4ARcgf2MQBn8sI",
+    image_attribution: null
+  },
+  {
+    name: "Waraku",
+    address: "1638 Post Street, San Francisco",
+    key: "ChIJCQDp2L6AhYARDNsDuv6s_Es",
+    image_attribution: null
+  },
+  {
+    name: "Extreme Pizza",
+    address: "1062 Folsom Street, San Francisco",
+    key: "ChIJ1TYTJ4KAhYARvWNkHBREtgo",
+    image_attribution: null
+  },
+  {
+    name: "Koi Palace",
+    address: "365 Gellert Blvd, Daly City",
+    key: "ChIJSayidut7j4AR1iWKufPh-d0",
+    image_attribution: null
+  },
+  {
+    name: "Madcap",
+    address: "198 Sir Francis Drake Blvd, San Anselmo",
+    key: "ChIJbX6zwz-XhYARl4iaPz63f7E",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Pacific Plaza",
+    address: "1338 Franklin Street, San Francisco",
+    key: "ChIJqR0GkJWAhYAR8I3vVtR8lKs",
+    image_attribution: null
+  },
+  {
     name: "Cafe Ohlone",
     address: "2430 Bancroft Way, Berkeley",
     key: "ChIJWdT9lAB9hYAR6VBkRBhngJE",
     image_attribution: ""
   },
   {
-    name: "Maum",
-    address: "322 University Ave, Palo Alto",
-    key: "ChIJFRQiozm7j4ARcgf2MQBn8sI",
+    name: "Commis",
+    address: "3859 Piedmont Ave, Oakland",
+    key: "ChIJFzl5Mfh9hYARQmOK6_pAIYw",
+    image_attribution: null
+  },
+  {
+    name: "Weaver's Coffee & Tea - San Francisco Cafe",
+    address: "2301 Market Street Ground Left Floor, San Francisco",
+    key: "ChIJyfzYjxx-j4ARNKuQtGp1P8g",
     image_attribution: null
   },
   {
@@ -14715,33 +15351,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Don Ramon's",
+    address: "225 11th Street, San Francisco",
+    key: "ChIJu4zOhCd-j4ARd9t3Fmlotv8",
+    image_attribution: null
+  },
+  {
+    name: "Chibog",
+    address: "2055 Gellert Blvd #5, Daly City",
+    key: "ChIJgQyAvdN7j4ARcLmzTu7rk5s",
+    image_attribution: null
+  },
+  {
     name: "Ramen Shop",
     address: "5812 College Ave, Oakland",
     key: "ChIJqz4ScsN9hYARA0aiLsuEmrA",
-    image_attribution: null
-  },
-  {
-    name: "Vientian Cafe",
-    address: "3801 Allendale Ave, Oakland",
-    key: "ChIJayFuikSGj4ARKmCG4X8-JXo",
-    image_attribution: null
-  },
-  {
-    name: "Nyum Bai",
-    address: "3340 E 12th St #11, Oakland",
-    key: "ChIJhTPikfSGj4ARVVP9IPRyX8g",
-    image_attribution: null
-  },
-  {
-    name: "SingleThread Farm - Restaurant - Inn",
-    address: "131 North St, Healdsburg",
-    key: "ChIJ8TVwjTMXhIARQ5MLkvMyVvY",
-    image_attribution: null
-  },
-  {
-    name: "IL Casaro Pizzeria & Mozzarella Bar - Castro Locations",
-    address: "235 Church Street, San Francisco",
-    key: "ChIJ1SRRCkl_j4ARv8Rp41wzuF4",
     image_attribution: null
   },
   {
@@ -14751,16 +15375,52 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Standard Fare",
-    address: "2701 Eighth St #118, Berkeley",
-    key: "ChIJCfy1RfJ-hYARUaEReHiwi3s",
+    name: "Starbelly",
+    address: "3583 16th St, San Francisco",
+    key: "ChIJs6YBYhx-j4AR4LUJq9SFQt0",
     image_attribution: null
   },
   {
-    name: "Original Joe\u2019s Westlake",
-    address: "11 Glenwood Ave, Daly City",
-    key: "ChIJGY_jLFp8j4ARXLcIfxMpJw8",
+    name: "Vientian Cafe",
+    address: "3801 Allendale Ave, Oakland",
+    key: "ChIJayFuikSGj4ARKmCG4X8-JXo",
     image_attribution: null
+  },
+  {
+    name: "SingleThread Farm - Restaurant - Inn",
+    address: "131 North St, Healdsburg",
+    key: "ChIJ8TVwjTMXhIARQ5MLkvMyVvY",
+    image_attribution: null
+  },
+  {
+    name: "CHAPEL HILL COFFEE CO",
+    address: "670 Commercial St, San Francisco",
+    key: "ChIJvRqG4oqAhYARX6hAcvw1Me0",
+    image_attribution: null
+  },
+  {
+    name: "Arizmendi Bakery",
+    address: "1331 9th Avenue, San Francisco",
+    key: "ChIJMdUfNVyHhYAR7pvCohDZC70",
+    image_attribution: ""
+  },
+  {
+    name: "The Lucky Creation Vegetarian Restaurant",
+    address: "854 Washington Street, San Francisco",
+    key: "ChIJQdwWVPOAhYAR6ZL-cDxRC5s",
+    image_attribution: null
+  },
+  {
+    name: "Shabu House",
+    address: "354 Clement Street, San Francisco",
+    key: "ChIJH2M89juHhYARHaEPtzXbxPA",
+    image_attribution: null
+  },
+  {
+    name: "West of Pecos",
+    address: "550 Valencia St, San Francisco",
+    key: "ChIJf9EuWCJ-j4ARhsK1YN8AprU",
+    image_attribution: ""
   },
   {
     name: "Rico Rico Taco",
@@ -14769,21 +15429,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Street Restaurant and Bar",
-    address: "2141 Polk Street, San Francisco",
-    key: "ChIJP61Jo-mAhYARynPDnUkRBr0",
+    name: "Jackson Fillmore Trattoria",
+    address: "2506 Fillmore Street, San Francisco",
+    key: "ChIJKRG4k8WAhYARi1FPVWGR4f8",
     image_attribution: null
   },
   {
-    name: "Saul's Restaurant & Delicatessen",
-    address: "1475 Shattuck Ave, Berkeley",
-    key: "ChIJgcIf0KZ-hYAR_yowREPdtsY",
+    name: "Marnee Thai",
+    address: "1243 9th Avenue, San Francisco",
+    key: "ChIJRQiL_VyHhYARDJPvbliHh-o",
     image_attribution: null
   },
   {
-    name: "Go Go 7",
-    address: "1300 Ocean Avenue, San Francisco",
-    key: "ChIJd9gkz-J9j4AR2y-wHuAyAZ0",
+    name: "Red's Pizzeria",
+    address: "3839 Mission Street, San Francisco",
+    key: "ChIJOxBkyW1_j4AR6aZ9y79YKHg",
+    image_attribution: null
+  },
+  {
+    name: "Mount Zion Cafe - UCSF Medical Center",
+    address: "1600 Divisadero St, San Francisco",
+    key: "ChIJZ2CoKLaAhYARyQmkR5XBZrI",
+    image_attribution: null
+  },
+  {
+    name: "Noe Valley Bakery West Portal",
+    address: "28 W Portal Ave, San Francisco",
+    key: "ChIJaa96Vup9j4ARldDj3cZVJ-M",
     image_attribution: null
   },
   {
@@ -14793,70 +15465,148 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mission Asia Noodle",
-    address: "5249 Mission Street, San Francisco",
-    key: "ChIJKZDgZpx-j4ARRiXJBG3E8hM",
+    name: "Nyum Bai",
+    address: "3340 E 12th St #11, Oakland",
+    key: "ChIJhTPikfSGj4ARVVP9IPRyX8g",
     image_attribution: null
   },
   {
-    name: "Village House Restaurant",
-    address: "3398 Balboa Street, San Francisco",
-    key: "ChIJR2p6S6aHhYARzITDHfVeKto",
+    name: "Saul's Restaurant & Delicatessen",
+    address: "1475 Shattuck Ave, Berkeley",
+    key: "ChIJgcIf0KZ-hYAR_yowREPdtsY",
     image_attribution: null
   },
   {
-    name: "Miki",
-    address: "3639 Balboa Street, San Francisco",
-    key: "ChIJD3uL46WHhYARBV3WsyupA3M",
+    name: "Original Joe\u2019s Westlake",
+    address: "11 Glenwood Ave, Daly City",
+    key: "ChIJGY_jLFp8j4ARXLcIfxMpJw8",
     image_attribution: null
   },
   {
-    name: "Absinthe Private Dining",
-    address: "388 Hayes St, San Francisco",
-    key: "ChIJ171dwJiAhYARqxhbCsp4vfg",
+    name: "Koo",
+    address: "408 Irving Street, San Francisco",
+    key: "ChIJy4z46FuHhYAR5U-1Sj2Ue7Q",
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "1110 Ocean Ave, San Francisco",
-    key: "ChIJwcztMdN9j4AR6AhRdPvXpQo",
+    name: "Hunan Empire Restaurant",
+    address: "2001 Union Street, San Francisco",
+    key: "ChIJTdw_KNuAhYARjo4FrVXBmBI",
     image_attribution: null
   },
   {
-    name: "AL's Place",
-    address: "1499 Valencia St, San Francisco",
-    key: "ChIJzch6bEF-j4AR6MPa2jK_naA",
+    name: "Ma's Dimsum & Cafe",
+    address: "1315 Powell Street, San Francisco",
+    key: "ChIJ0bn3U_KAhYAR4uiaZnKx44A",
     image_attribution: null
   },
   {
-    name: "Golden Goat Coffee",
-    address: "599 3rd St #100, San Francisco",
-    key: "ChIJ20Ta-TmBhYAR0sHU-G-fzs8",
+    name: "The Sycamore",
+    address: "2140 Mission Street, San Francisco",
+    key: "ChIJ0WvRSyN-j4ARpvLPuZyI3l4",
     image_attribution: null
   },
   {
-    name: "Pho Nice Vietnamese Restaurant",
-    address: "880 Geneva Ave, San Francisco",
-    key: "ChIJI05HpJx-j4ARlnytMQlcYk0",
+    name: "Latte Express",
+    address: "648 4th Street, San Francisco",
+    key: "ChIJlYk62dV_j4ARSCW2qXQvsSA",
     image_attribution: null
   },
   {
-    name: "Cafe Ethiopia",
-    address: "878 Valencia Street, San Francisco",
-    key: "ChIJYRFpsj1-j4ARPjbLAGal4a0",
+    name: "Hing Wang Bakery",
+    address: "339 Judah Street, San Francisco",
+    key: "ChIJHabKml6HhYARbRmENuKFH1U",
     image_attribution: null
   },
   {
-    name: "Cafe Envy",
-    address: "1701 Yosemite Ave, San Francisco",
-    key: "ChIJj38FaIB_j4AR4tks_0p7uBg",
+    name: "Corks",
+    address: "4342 California Street, San Francisco",
+    key: "ChIJAQBUmjyHhYARqQkfR4FVxvE",
     image_attribution: null
   },
   {
-    name: "Southern Pacific Brewing",
-    address: "620 Treat Ave, San Francisco",
-    key: "ChIJn5G9Fzp-j4ARRs66QTw4XAY",
-    image_attribution: ""
+    name: "Prospect",
+    address: "300 Spear Street, San Francisco",
+    key: "ChIJsc_3vHqAhYARG50dM6228cE",
+    image_attribution: null
+  },
+  {
+    name: "Nena's Restaurant",
+    address: "3459 Mission St, San Francisco",
+    key: "ChIJ985GPl1-j4AR331R8tAJbcM",
+    image_attribution: null
+  },
+  {
+    name: "Wing Lee Bakery",
+    address: "503 Clement Street, San Francisco",
+    key: "ChIJY3hwETyHhYARz4LnN6JpxMI",
+    image_attribution: null
+  },
+  {
+    name: "La Torta Gorda",
+    address: "2833 24th Street, San Francisco",
+    key: "ChIJS1BIPkl-j4ARh8QhktVbt4o",
+    image_attribution: null
+  },
+  {
+    name: "One Waan SF",
+    address: "2922 Diamond Street, San Francisco",
+    key: "ChIJYwuIT8t_j4ARbcansviEFD4",
+    image_attribution: null
+  },
+  {
+    name: "Delage",
+    address: "536 9th St, Oakland",
+    key: "ChIJ7yAjSreAj4ARO3EqGPi6rZU",
+    image_attribution: null
+  },
+  {
+    name: "Mediterranean Wraps",
+    address: "433 California Ave, Palo Alto",
+    key: "ChIJEWzP8uW6j4ARkmIR7vba8es",
+    image_attribution: null
+  },
+  {
+    name: "Kitchen Sunnyside",
+    address: "nan",
+    key: "ChIJ3409-3KQhYARBJTJiiFJPxI",
+    image_attribution: null
+  },
+  {
+    name: "Schubert's Bakery",
+    address: "521 Clement Street, San Francisco",
+    key: "ChIJG4tMFDyHhYARU-kle5GPbII",
+    image_attribution: null
+  },
+  {
+    name: "E' Tutto Qua",
+    address: "270 Columbus Avenue, San Francisco",
+    key: "ChIJ5Z4cY_SAhYART4DbGbnIZjw",
+    image_attribution: null
+  },
+  {
+    name: "Fayala, Mediterranean Grill & Catering",
+    address: "215 Fremont Street #2b, San Francisco",
+    key: "ChIJb_fBtGSAhYARVbyteMOqmB8",
+    image_attribution: null
+  },
+  {
+    name: "Vasquez Coffee Company",
+    address: "50 Mendell St #1, San Francisco",
+    key: "ChIJpXI8PAp_j4ARqU_DoHOBVJs",
+    image_attribution: null
+  },
+  {
+    name: "La Santaneca De La Mission",
+    address: "2815 Mission Street, San Francisco",
+    key: "ChIJE5XHNEd-j4ARg3FHI9GhEKg",
+    image_attribution: null
+  },
+  {
+    name: "Beretta",
+    address: "1199 Valencia Street, San Francisco",
+    key: "ChIJHeoUcz9-j4AR9BGHeYE4w3o",
+    image_attribution: null
   },
   {
     name: "Black Spring Coffee Company",
@@ -14889,12 +15639,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Schubert's Bakery",
-    address: "521 Clement Street, San Francisco",
-    key: "ChIJG4tMFDyHhYARU-kle5GPbII",
-    image_attribution: null
-  },
-  {
     name: "Southern Caf\u00e9",
     address: "2000 MacArthur Blvd, Oakland",
     key: "ChIJBbb9kqmHj4ARQ0JFWglmNqY",
@@ -14904,6 +15648,12 @@ const SFPlaces = [
     name: "El Amigo",
     address: "13700 Doolittle Dr, San Leandro",
     key: "ChIJaTXZaVaFj4AReGPMifK6DlY",
+    image_attribution: null
+  },
+  {
+    name: "Axum Cafe",
+    address: "698 Haight Street, San Francisco",
+    key: "ChIJrzd4bqaAhYARCFvwlxb1rJk",
     image_attribution: null
   },
   {
@@ -14925,111 +15675,191 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hai's Restaurant",
-    address: "227 Hyde Street, San Francisco",
-    key: "ChIJx2KuhpCAhYARz-kZTNV4la4",
+    name: "Caf\u00e9 del Soul",
+    address: "247 Shoreline Hwy, Mill Valley",
+    key: "ChIJa80MQ0WFhYARpm-pqGfLo64",
     image_attribution: null
   },
   {
-    name: "Noriega Teriyaki House",
-    address: "1755 Noriega Street, San Francisco",
-    key: "ChIJ3cPHEn2HhYARF5DccqSzt2c",
+    name: "Aroma Cafe",
+    address: "nan",
+    key: "ChIJSfxOU_qZhYARFqyWcMGCdoI",
     image_attribution: null
   },
   {
-    name: "Pastel Brazzuca",
-    address: "290 De Haro Street, San Francisco",
-    key: "ChIJC7OfzzJ-j4ARYjCQEKhC6H0",
+    name: "Fox & Kit",
+    address: "nan",
+    key: "ChIJ_ze22-yZhYAR5piw2XyAafE",
     image_attribution: null
   },
   {
-    name: "The Center SF",
-    address: "548 Fillmore Street, San Francisco",
-    key: "ChIJOak3a6SAhYARp0odgM0Y5XA",
+    name: "Sunset Reservoir Brewing Company",
+    address: "1735 Noriega Street, San Francisco",
+    key: "ChIJwY6eFH2HhYARnSA8aKBTKqk",
     image_attribution: null
   },
   {
-    name: "Yo Tambi\u00e9n Cantina",
-    address: "205 Hugo St, San Francisco",
-    key: "ChIJsRthmMCHhYARC4DrJyz7kWE",
+    name: "Cafe Bakery & Restaurant",
+    address: "1365 Noriega St, San Francisco",
+    key: "ChIJmfAigmKHhYARioGlCJOg-pU",
     image_attribution: null
   },
   {
-    name: "SanJalisco Restaurant",
-    address: "901 South Van Ness Avenue, San Francisco",
-    key: "ChIJ2Uhm3zt-j4ARQd5KlTvPrHU",
+    name: "Southern Pacific Brewing",
+    address: "620 Treat Ave, San Francisco",
+    key: "ChIJn5G9Fzp-j4ARRs66QTw4XAY",
+    image_attribution: ""
+  },
+  {
+    name: "Qochon",
+    address: "4169 Cushing Pkwy, Fremont",
+    key: "ChIJ_fV1c6vHj4AR0WuUu4z2hPI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114828261759559502446\">Qochon</a>']"
+  },
+  {
+    name: "Standard Fare",
+    address: "2701 Eighth St #118, Berkeley",
+    key: "ChIJCfy1RfJ-hYARUaEReHiwi3s",
     image_attribution: null
   },
   {
-    name: "Paradise Coffee & Donuts",
-    address: "453 O'Farrell Street, San Francisco",
-    key: "ChIJawUd0Y-AhYAReiQiYCs4wy8",
+    name: "All Spice",
+    address: "1602 S El Camino Real, San Mateo",
+    key: "ChIJc3R6j16ej4ARSX5Uq0eROqI",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/115142915682626406015\">All Spice</a>']"
+  },
+  {
+    name: "CHINA NORTH DUMPLING INC",
+    address: "1311 Noriega Street, San Francisco",
+    key: "ChIJYZegKoh9j4ARcPJDR170rjc",
     image_attribution: null
   },
   {
-    name: "Tortas Los Picudos",
-    address: "2969 24th Street, San Francisco",
-    key: "ChIJlwuqkkh-j4AR3Xduv2ZUVL4",
+    name: "Nobhill Pizza & Shawarma",
+    address: "1534 California Street, San Francisco",
+    key: "ChIJHahjtZSAhYARa0JGyRh9vnk",
     image_attribution: null
   },
   {
-    name: "Joy's Place",
-    address: "611 Post St, San Francisco",
-    key: "ChIJheCrEY6AhYARxCkT8_KjDWE",
+    name: "Golden Kim Tar",
+    address: "434 Larkin Street, San Francisco",
+    key: "ChIJWUiFDJqAhYARURdNqAtlWJQ",
     image_attribution: null
   },
   {
-    name: "Box Kitchen",
-    address: "431 Natoma Street, San Francisco",
-    key: "ChIJrRKGrYaAhYARKatnpmluuMM",
+    name: "Ideale",
+    address: "1309 Grant Avenue, San Francisco",
+    key: "ChIJ-55o9_OAhYARxWRg70fFUvU",
     image_attribution: null
   },
   {
-    name: "Last Rites",
-    address: "718 14th St, San Francisco",
-    key: "ChIJEWk0ULl_j4ARxO7_JPwnB5s",
+    name: "Archimedes Banya",
+    address: "748 Innes Avenue, San Francisco",
+    key: "ChIJt8Cb82l_j4ARaCVSzzc8gYc",
     image_attribution: null
   },
   {
-    name: "Hai Ky Mi Gia",
-    address: "707 Ellis Street, San Francisco",
-    key: "ChIJy5VK0ZCAhYARlmv2pBEVhjw",
+    name: "Taqueria El Farolito",
+    address: "4817 Mission Street, San Francisco",
+    key: "ChIJ0SA6CIV-j4ARfTx2pRocSD4",
     image_attribution: null
   },
   {
-    name: "Waterbar Restaurant",
-    address: "399 The Embarcadero, San Francisco",
-    key: "ChIJgXkuGnCAhYARbVYisXVfO68",
+    name: "Higher Grounds Coffee House",
+    address: "691 Chenery St, San Francisco",
+    key: "ChIJmb4VnmR-j4ARzver3HK6gKU",
     image_attribution: null
   },
   {
-    name: "The New Spot On Polk",
-    address: "2401 Polk St, San Francisco",
-    key: "ChIJe0YgbeiAhYAR5olhEmlulE4",
+    name: "Gateway Kitchen",
+    address: "6165 Mission Street, Daly City",
+    key: "ChIJ2wFOSyN8j4AR0Tn2cw-DodM",
     image_attribution: null
   },
   {
-    name: "Philz Coffee Truck",
-    address: "155 Sansome St, San Francisco",
-    key: "ChIJk0oqB2KAhYARHxB951_bbXE",
+    name: "Tacos El Flaco",
+    address: "1508 Illinois Street, San Francisco",
+    key: "ChIJLwL026R_j4ARtGfRJRZP_As",
     image_attribution: null
   },
   {
-    name: "Daniel's Test Kitchen",
-    address: "San Francisco",
-    key: "ChIJi0r3bs6BhYARWgrk3QCNkZc",
+    name: "Lale",
+    address: "731 Irving St, San Francisco",
+    key: "ChIJIfzVR1yHhYARXWeZ7wM9ePs",
     image_attribution: null
   },
   {
-    name: "Golden Saigon",
-    address: "2428 San Bruno Avenue, San Francisco",
-    key: "ChIJTce2Qvx-j4ARLbPGlHzRkmQ",
+    name: "The Den, a Caf\u00e9 by Craftsman and Wolves",
+    address: "1598 Yosemite Ave, San Francisco",
+    key: "ChIJh9aDwBl_j4AR_54Nm-1T2Zs",
+    image_attribution: null
+  },
+  {
+    name: "Zoe's",
+    address: "3088 24th Street, San Francisco",
+    key: "ChIJixqDy0d-j4AR1ZEvoi7IbY8",
+    image_attribution: null
+  },
+  {
+    name: "Kings Bakery Cafe",
+    address: "2846 Mission Street, San Francisco",
+    key: "ChIJtfbLLEd-j4ARUoFVdaOw6JE",
+    image_attribution: null
+  },
+  {
+    name: "Capannina",
+    address: "1809 Union Street, San Francisco",
+    key: "ChIJSe4PrdyAhYARchvAxDH0ZII",
+    image_attribution: null
+  },
+  {
+    name: "Black Cat",
+    address: "400 Eddy Street, San Francisco",
+    key: "ChIJdevbbZCAhYAReFUMOY282-Y",
+    image_attribution: null
+  },
+  {
+    name: "Vinyl Coffee & Wine Bar",
+    address: "359 Divisadero St, San Francisco",
+    key: "ChIJY9qmGq-AhYARrULv5cUR7kw",
+    image_attribution: null
+  },
+  {
+    name: "Daily Driver",
+    address: "2535 3rd St, San Francisco",
+    key: "ChIJbTcNCG9_j4AR8ezdnQGFXHo",
     image_attribution: null
   },
   {
     name: "Abesha",
     address: "4929 Shattuck Ave, Oakland",
     key: "ChIJ-cN2NeB9hYARz0hFWvIjQdI",
+    image_attribution: null
+  },
+  {
+    name: "Universal Cafe",
+    address: "2814 19th St, San Francisco",
+    key: "ChIJ___I0jB-j4ARgAaAClz2pl8",
+    image_attribution: null
+  },
+  {
+    name: "K-Oz",
+    address: "121 7th Street, San Francisco",
+    key: "ChIJG8iwdYOAhYARwULtuhSm08w",
+    image_attribution: null
+  },
+  {
+    name: "Cathay Express Restaurant",
+    address: "720 14th Street, San Francisco",
+    key: "ChIJb2zNdB5-j4ARF2PtH-K37yw",
+    image_attribution: null
+  },
+  {
+    name: "Zabb Thai Cuisine",
+    address: "4440 Mission Street, San Francisco",
+    key: "ChIJw4IS7oh-j4ARSi_MBaxs9Ps",
     image_attribution: null
   },
   {
@@ -15087,51 +15917,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Best of Burma Restaurant",
-    address: "146 E 3rd Ave, San Mateo",
-    key: "ChIJU90GQ3Cej4ARghDSfEG251Y",
+    name: "Breck's",
+    address: "2 Clement St, San Francisco",
+    key: "ChIJo3GE0AyHhYARblXqwmGGkA0",
     image_attribution: null
   },
   {
-    name: "Vault 164 Restaurant and Bar",
-    address: "164 S B St, San Mateo",
-    key: "ChIJVVVVVdGdj4ARm6ahH-vCG3Q",
+    name: "Ben & Jerry\u2019s",
+    address: "1480 Haight Street, San Francisco",
+    key: "ChIJsbMzM1OHhYAR-htwK_E89Ro",
     image_attribution: null
   },
   {
-    name: "Big Lantern",
-    address: "3170 16th Street, San Francisco",
-    key: "ChIJe8O9ciJ-j4ARYXtakvRMJg8",
-    image_attribution: null
-  },
-  {
-    name: "Tartine Bakery",
-    address: "600 Guerrero St, San Francisco",
-    key: "ChIJBVY2Bxh-j4ARa2zO8Jd6H2A",
-    image_attribution: null
-  },
-  {
-    name: "Repl.it Egg Rolls",
-    address: "767 Bryant Street, San Francisco",
-    key: "ChIJ6wHG54SAhYARPLKVZTmYQ-8",
-    image_attribution: null
-  },
-  {
-    name: "Serpentine",
-    address: "2495 3rd Street, San Francisco",
-    key: "ChIJf5sXibl_j4AR5wRLyjqQelU",
-    image_attribution: null
-  },
-  {
-    name: "Blue Iguana Taco Truck",
-    address: "600 Monterey Boulevard, San Francisco",
-    key: "ChIJMTGPU9Z9j4ARnxCAUZ7Z9vk",
-    image_attribution: null
-  },
-  {
-    name: "La Taqueria",
-    address: "2889 Mission St, San Francisco",
-    key: "ChIJrTYB1UZ-j4ARdeRB5Wzp_CE",
+    name: "Absinthe Private Dining",
+    address: "388 Hayes St, San Francisco",
+    key: "ChIJ171dwJiAhYARqxhbCsp4vfg",
     image_attribution: ""
   },
   {
@@ -15147,9 +15947,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Taqueria El Farolito",
-    address: "394 Grand Ave, South San Francisco",
-    key: "ChIJyXMrsKh5j4ARilrFn_zUS8s",
+    name: "Antigua Coffee Shop",
+    address: "437 Grand Ave, South San Francisco",
+    key: "ChIJPf-9eQp5j4ARPjSyf4jxq3E",
+    image_attribution: null
+  },
+  {
+    name: "Madhouse Coffee",
+    address: "402 Visitacion Ave, Brisbane",
+    key: "ChIJ4WeaKyB5j4AR2J58wogdkOg",
     image_attribution: null
   },
   {
@@ -15165,27 +15971,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Antigua Coffee Shop",
-    address: "437 Grand Ave, South San Francisco",
-    key: "ChIJPf-9eQp5j4ARPjSyf4jxq3E",
+    name: "Dead Eye Coffee Bar",
+    address: "415 Grand Ave Suite 100, South San Francisco",
+    key: "ChIJU2oUHKZ5j4ARTw8riuM1Mbs",
     image_attribution: null
   },
   {
-    name: "Madhouse Coffee",
-    address: "402 Visitacion Ave, Brisbane",
-    key: "ChIJ4WeaKyB5j4AR2J58wogdkOg",
+    name: "Cable Car Cafe",
+    address: "423 1, 2 Grand Ave, South San Francisco",
+    key: "ChIJiRIjF6Z5j4AREfM_u1eiFH8",
     image_attribution: null
   },
   {
-    name: "ONE65 Patisserie & Boutique",
-    address: "165 O'Farrell Street, San Francisco",
-    key: "ChIJdQxBzpiBhYARz-Gw5FmHn-4",
-    image_attribution: null
-  },
-  {
-    name: "Rice N Roll",
-    address: "683 Manor Dr, Pacifica",
-    key: "ChIJ6xF41rV7j4ARQJcXJo94mRI",
+    name: "California Fish Grill",
+    address: "153C Serramonte Center, Daly City",
+    key: "ChIJHxAMZ-17j4ARA0-QFNqYCa8",
     image_attribution: null
   },
   {
@@ -15201,93 +16001,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "KAGAWA-YA UDON",
-    address: "1455 Market Street, San Francisco",
-    key: "ChIJGalUMpyAhYARGMC7GR9hs1M",
+    name: "Joy's Place",
+    address: "611 Post St, San Francisco",
+    key: "ChIJheCrEY6AhYARxCkT8_KjDWE",
     image_attribution: null
   },
   {
-    name: "The Market",
-    address: "1355 Market Street Suite 100, San Francisco",
-    key: "ChIJJT-Ha5yAhYARQIKd3ejXo4k",
+    name: "Ijji Sushi",
+    address: "252 Divisadero Street, San Francisco",
+    key: "ChIJ32Ejy6iAhYARDwrZfURRoYE",
     image_attribution: null
   },
   {
-    name: "Barons Quality Meats & Seafood",
-    address: "1706 Church St, San Francisco",
-    key: "ChIJ65GV_2h-j4AReTD8R8gdyKI",
-    image_attribution: null
+    name: "Beit Rima",
+    address: "138 Church Street, San Francisco",
+    key: "ChIJl9NqEC1_j4ARE2Xf-ZIztFM",
+    image_attribution: ""
   },
   {
-    name: "California Fish Grill",
-    address: "153C Serramonte Center, Daly City",
-    key: "ChIJHxAMZ-17j4ARA0-QFNqYCa8",
-    image_attribution: null
-  },
-  {
-    name: "Taste Of Burma",
-    address: "2025 Gellert Blvd #200, Daly City",
-    key: "ChIJEfAnutN7j4AR0gMF1JOpsDY",
-    image_attribution: null
-  },
-  {
-    name: "Ling Nam Restaurant",
-    address: "2211 Gellert Blvd, South San Francisco",
-    key: "ChIJVZgncdN7j4AR7aN-JLaYBUE",
-    image_attribution: null
-  },
-  {
-    name: "Dead Eye Coffee Bar",
-    address: "415 Grand Ave Suite 100, South San Francisco",
-    key: "ChIJU2oUHKZ5j4ARTw8riuM1Mbs",
-    image_attribution: null
-  },
-  {
-    name: "Cable Car Cafe",
-    address: "423 1, 2 Grand Ave, South San Francisco",
-    key: "ChIJiRIjF6Z5j4AREfM_u1eiFH8",
-    image_attribution: null
-  },
-  {
-    name: "Black Hammer Brewing",
-    address: "2196 Market Street, San Francisco",
-    key: "ChIJ2RQOvLB_j4ARYpJdbvTIvgk",
-    image_attribution: null
-  },
-  {
-    name: "Mochica",
-    address: "1469 18th Street, San Francisco",
-    key: "ChIJK11ZFICAhYARoARGmABUrAU",
-    image_attribution: null
-  },
-  {
-    name: "HopMonk Tavern Novato",
-    address: "224 Vintage Way, Novato",
-    key: "ChIJvzz9yMa8hYAR9w_IwezM5PY",
-    image_attribution: null
-  },
-  {
-    name: "JJ's Burger Joint",
-    address: "2031 Novato Blvd, Novato",
-    key: "ChIJby7ePpq7hYARK5_OEcUNXIk",
-    image_attribution: null
-  },
-  {
-    name: "BullsHead Express",
-    address: "819 Mitten Rd #39, Burlingame",
-    key: "ChIJm-5NzM53j4ARZzaeGLuQKH8",
-    image_attribution: null
-  },
-  {
-    name: "Benihana",
-    address: "1496 Old Bayshore Hwy, Burlingame",
-    key: "ChIJr3wONy12j4ARKxEw1C1SA7Y",
-    image_attribution: null
-  },
-  {
-    name: "Fish & Chips-Sausalito",
-    address: "817 Bridgeway, Sausalito",
-    key: "ChIJsZ6w-0-EhYARmQlkfSPrAuU",
+    name: "North Beach Pizza",
+    address: "4787 Mission Street, San Francisco",
+    key: "ChIJS3Lsp81_j4ARWndgB6M0RNE",
     image_attribution: null
   },
   {
@@ -15297,9 +16031,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Poggio Trattoria",
-    address: "777 Bridgeway, Sausalito",
-    key: "ChIJ80U7XkWEhYARVk__Z5FLdDE",
+    name: "Robata Grill & Sushi",
+    address: "591 Redwood Hwy, Mill Valley",
+    key: "ChIJ84-pY0mFhYAR8MwrpA3eWww",
     image_attribution: null
   },
   {
@@ -15309,21 +16043,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Robata Grill & Sushi",
-    address: "591 Redwood Hwy, Mill Valley",
-    key: "ChIJ84-pY0mFhYAR8MwrpA3eWww",
-    image_attribution: null
-  },
-  {
-    name: "Hermitage Banquet Hall",
-    address: "5633 Geary Boulevard, San Francisco",
-    key: "ChIJifoBMBCHhYARRG-3PivluaQ",
-    image_attribution: null
-  },
-  {
     name: "The Cantina",
     address: "651 E Blithedale Ave, Mill Valley",
     key: "ChIJg0MjZqWahYART2cxxprQXZ4",
+    image_attribution: null
+  },
+  {
+    name: "Bar Agricole",
+    address: "355 11th Street, San Francisco",
+    key: "ChIJCSdjKSZ-j4ARY5HrLSxbatQ",
+    image_attribution: null
+  },
+  {
+    name: "Ragazza",
+    address: "311 Divisadero St, San Francisco",
+    key: "ChIJeVZDPa-AhYARsGb5B7JsJAY",
+    image_attribution: ""
+  },
+  {
+    name: "Wise Sons Bagel & Bakery",
+    address: "1520 Fillmore St, San Francisco",
+    key: "ChIJsy7ACrmAhYARHYP0Oi-0Jvs",
     image_attribution: null
   },
   {
@@ -15339,21 +16079,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "BullsHead Express",
+    address: "819 Mitten Rd #39, Burlingame",
+    key: "ChIJm-5NzM53j4ARZzaeGLuQKH8",
+    image_attribution: null
+  },
+  {
+    name: "Benihana",
+    address: "1496 Old Bayshore Hwy, Burlingame",
+    key: "ChIJr3wONy12j4ARKxEw1C1SA7Y",
+    image_attribution: null
+  },
+  {
     name: "DJ's Chinese Cuisine",
     address: "435 Magnolia Ave, Larkspur",
     key: "ChIJMfXpP3iahYARaGRy1csESiw",
     image_attribution: null
   },
   {
-    name: "Fox and Lion Bread",
-    address: "5273 3rd St, San Francisco",
-    key: "ChIJj_74Thp_j4ARIYUUNLT9uOQ",
+    name: "HopMonk Tavern Novato",
+    address: "224 Vintage Way, Novato",
+    key: "ChIJvzz9yMa8hYAR9w_IwezM5PY",
+    image_attribution: null
+  },
+  {
+    name: "JJ's Burger Joint",
+    address: "2031 Novato Blvd, Novato",
+    key: "ChIJby7ePpq7hYARK5_OEcUNXIk",
+    image_attribution: null
+  },
+  {
+    name: "Fish & Chips-Sausalito",
+    address: "817 Bridgeway, Sausalito",
+    key: "ChIJsZ6w-0-EhYARmQlkfSPrAuU",
+    image_attribution: null
+  },
+  {
+    name: "Poggio Trattoria",
+    address: "777 Bridgeway, Sausalito",
+    key: "ChIJ80U7XkWEhYARVk__Z5FLdDE",
     image_attribution: null
   },
   {
     name: "Tha Siam",
     address: "1813 Larkspur Landing Cir, Larkspur",
     key: "ChIJJ6JBkkOahYARzAfsAvZYlaE",
+    image_attribution: null
+  },
+  {
+    name: "Cibo",
+    address: "1201 Bridgeway A, Sausalito",
+    key: "ChIJpxQrdVGEhYAR4oxCCS9NjUg",
+    image_attribution: null
+  },
+  {
+    name: "Firehouse Coffee & Tea",
+    address: "317 Johnson St, Sausalito",
+    key: "ChIJF0YLsVGEhYARbbHx6EFwzQA",
     image_attribution: null
   },
   {
@@ -15375,21 +16157,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Union Cafe",
-    address: "nan",
-    key: "ChIJ-9UlsCSahYARVaLLX3-eDkw",
+    name: "BABYLON",
+    address: "855 Bryant St, San Francisco",
+    key: "ChIJLfxP-yp-j4ARvJyM9Sw76ek",
     image_attribution: null
   },
   {
-    name: "Cibo",
-    address: "1201 Bridgeway A, Sausalito",
-    key: "ChIJpxQrdVGEhYAR4oxCCS9NjUg",
+    name: "El Burrito Express 2",
+    address: "1812 Divisadero Street, San Francisco",
+    key: "ChIJZ4zSlsmAhYARGC3iSUOCwwA",
     image_attribution: null
   },
   {
-    name: "Firehouse Coffee & Tea",
-    address: "317 Johnson St, Sausalito",
-    key: "ChIJF0YLsVGEhYARbbHx6EFwzQA",
+    name: "Domo",
+    address: "511 Laguna Street, San Francisco",
+    key: "ChIJZ7tASKKAhYAR3dDpAxKEg-8",
+    image_attribution: null
+  },
+  {
+    name: "PianoFight",
+    address: "144 Taylor Street, San Francisco",
+    key: "ChIJ9ZX2ZIWAhYARJFEF2eQuH3Q",
+    image_attribution: null
+  },
+  {
+    name: "Little Joe's Pizza",
+    address: "5006 Mission Street, San Francisco",
+    key: "ChIJ_TO_tYR-j4ARwAKZinjbwtQ",
     image_attribution: null
   },
   {
@@ -15399,23 +16193,10 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Boba Guys NOPA",
-    address: "836 Divisadero Street, San Francisco",
-    key: "ChIJa19vTLCAhYAR5Kz2xGEY-GU",
-    image_attribution: ""
-  },
-  {
     name: "MARCHE AUX FLEURS",
     address: "23 Ross Common Box 793, Ross",
     key: "ChIJ33K0c0uXhYAR8aNUJz-8fV8",
     image_attribution: null
-  },
-  {
-    name: "Salt & Straw",
-    address: "2201 Fillmore St, San Francisco",
-    key: "ChIJQV7vPsaAhYARgZsQA-qSRy4",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/103918941748163539279\">Krystyna Maliniak</a>']"
   },
   {
     name: "Java Hut",
@@ -15443,9 +16224,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Weaver's Coffee & Tea - San Rafael Cafe",
+    address: "nan",
+    key: "ChIJkcMzajuahYARlidEffjbi68",
+    image_attribution: null
+  },
+  {
+    name: "Rintaro",
+    address: "82 14th St, San Francisco",
+    key: "ChIJgcIdeSZ-j4AR1BE-49mhR-E",
+    image_attribution: null
+  },
+  {
+    name: "Taurus Steakhouse San Carlos",
+    address: "727 Laurel St, San Carlos",
+    key: "ChIJ71tXurejj4ARTuakKiycz_Q",
+    image_attribution: null
+  },
+  {
     name: "Hunan Cafe #2",
     address: "4450 Cabrillo Street, San Francisco",
     key: "ChIJ-8KDebqHhYAR1QyUczlrxJI",
+    image_attribution: null
+  },
+  {
+    name: "Bistro Aix",
+    address: "3340 Steiner Street, San Francisco",
+    key: "ChIJrQ-fKNeAhYARFyOQ-ar1-mk",
+    image_attribution: null
+  },
+  {
+    name: "FOB Kitchen",
+    address: "5179 Telegraph Ave, Oakland",
+    key: "ChIJuTaKcTx-j4AR_yGldaMRzok",
+    image_attribution: null
+  },
+  {
+    name: "Nueve",
+    address: "851 Cherry Ave, San Bruno",
+    key: "ChIJCaIm1ed5j4ARHhQCD8bEx5s",
     image_attribution: null
   },
   {
@@ -15461,51 +16278,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Taurus Steakhouse San Carlos",
-    address: "727 Laurel St, San Carlos",
-    key: "ChIJ71tXurejj4ARTuakKiycz_Q",
-    image_attribution: null
-  },
-  {
-    name: "New People",
-    address: "1746 Post Street, San Francisco",
-    key: "ChIJxYJR2riAhYARAG4Ru9aHLPo",
-    image_attribution: null
-  },
-  {
-    name: "Nueve",
-    address: "851 Cherry Ave, San Bruno",
-    key: "ChIJCaIm1ed5j4ARHhQCD8bEx5s",
-    image_attribution: null
-  },
-  {
     name: "Sweetwater Music Hall",
     address: "19 Corte Madera Ave, Mill Valley",
     key: "ChIJMeT2cXKQhYARg-TMgrnI1L8",
-    image_attribution: null
-  },
-  {
-    name: "Torraku Ramen",
-    address: "300 De Haro Street #338, San Francisco",
-    key: "ChIJidSArSh-j4AROFC-XNYUsXA",
-    image_attribution: null
-  },
-  {
-    name: "Weaver's Coffee & Tea - San Rafael Cafe",
-    address: "nan",
-    key: "ChIJkcMzajuahYARlidEffjbi68",
-    image_attribution: null
-  },
-  {
-    name: "FOB Kitchen",
-    address: "5179 Telegraph Ave, Oakland",
-    key: "ChIJuTaKcTx-j4AR_yGldaMRzok",
-    image_attribution: null
-  },
-  {
-    name: "Farmhouse Kitchen Thai Cuisine",
-    address: "710 Florida Street, San Francisco",
-    key: "ChIJNZloNTd-j4ARxGMOXZp7KfI",
     image_attribution: null
   },
   {
@@ -15521,15 +16296,21 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
+    name: "The Caprice",
+    address: "2000 Paradise Dr, Tiburon",
+    key: "ChIJexdCzH6EhYAR0NobIKKFfyg",
+    image_attribution: null
+  },
+  {
     name: "Verve Coffee Roasters",
     address: "162 University Ave, Palo Alto",
     key: "ChIJIdyPATq7j4ARMGiI0FBTjos",
     image_attribution: null
   },
   {
-    name: "The Caprice",
-    address: "2000 Paradise Dr, Tiburon",
-    key: "ChIJexdCzH6EhYAR0NobIKKFfyg",
+    name: "AP\u2019S CAFE",
+    address: "4108 24th St, San Francisco",
+    key: "ChIJ_33_ZRJ-j4ARfTJW6Ws6-gI",
     image_attribution: null
   },
   {
@@ -15551,9 +16332,15 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "R'Noh Thai Restaurant",
-    address: "1000 Magnolia Ave, Larkspur",
-    key: "ChIJX3UMgqOQhYARLoQQUfBlejY",
+    name: "Kababbq Grill & Caf\u00e9",
+    address: "555 Francisco Blvd E, San Rafael",
+    key: "ChIJ8fHzrhiahYARmFNOoSxDKI4",
+    image_attribution: null
+  },
+  {
+    name: "Yu Shang",
+    address: "180 Bellam Blvd, San Rafael",
+    key: "ChIJwwdEujCahYARfiSkV1BfUFU",
     image_attribution: null
   },
   {
@@ -15567,60 +16354,6 @@ const SFPlaces = [
     name: "Kingston Caf\u00e9",
     address: "19 N Kingston St, San Mateo",
     key: "ChIJKXdQGtadj4ARCuRANEG4DhI",
-    image_attribution: null
-  },
-  {
-    name: "Specialty's Caf\u00e9 & Bakery",
-    address: "1886 S Norfolk St, San Mateo",
-    key: "ChIJQ23N3Oiej4ARqhlN7nApc7k",
-    image_attribution: null
-  },
-  {
-    name: "New Harmony Cafe",
-    address: "2401 Mission Street, San Francisco",
-    key: "ChIJI7_h2N5_j4ARqqe2R_fAHE4",
-    image_attribution: null
-  },
-  {
-    name: "The Green Enchilada",
-    address: "444 Manor Plaza, Pacifica",
-    key: "ChIJQ_QboqB7j4AR3jPelc4k8KY",
-    image_attribution: null
-  },
-  {
-    name: "Kababbq Grill & Caf\u00e9",
-    address: "555 Francisco Blvd E, San Rafael",
-    key: "ChIJ8fHzrhiahYARmFNOoSxDKI4",
-    image_attribution: null
-  },
-  {
-    name: "Gestalt",
-    address: "3159 16th Street, San Francisco",
-    key: "ChIJH0l8bSJ-j4ARt-cbVv_aPRE",
-    image_attribution: null
-  },
-  {
-    name: "Souvla",
-    address: "531 Divisadero Street, San Francisco",
-    key: "ChIJ5elBtK-AhYAR-LQoifoMAJ0",
-    image_attribution: null
-  },
-  {
-    name: "Jade Dragon Restaurant",
-    address: "2368 Junipero Serra Blvd, Daly City",
-    key: "ChIJq_VFmWx8j4ARJS16y_0eDtg",
-    image_attribution: null
-  },
-  {
-    name: "Woodhouse Fish Co.",
-    address: "1914 Fillmore St, San Francisco",
-    key: "ChIJAX80kMeAhYARUF246eKv8vM",
-    image_attribution: ""
-  },
-  {
-    name: "Yu Shang",
-    address: "180 Bellam Blvd, San Rafael",
-    key: "ChIJwwdEujCahYARfiSkV1BfUFU",
     image_attribution: null
   },
   {
@@ -15643,124 +16376,265 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Specialty's Caf\u00e9 & Bakery",
+    address: "1886 S Norfolk St, San Mateo",
+    key: "ChIJQ23N3Oiej4ARqhlN7nApc7k",
+    image_attribution: null
+  },
+  {
+    name: "Russian Renaissance Restaurant",
+    address: "5241 Geary Boulevard, San Francisco",
+    key: "ChIJy59hOhGHhYARwCP0q-f6Ens",
+    image_attribution: null
+  },
+  {
+    name: "The Green Enchilada",
+    address: "444 Manor Plaza, Pacifica",
+    key: "ChIJQ_QboqB7j4AR3jPelc4k8KY",
+    image_attribution: null
+  },
+  {
+    name: "Jade Dragon Restaurant",
+    address: "2368 Junipero Serra Blvd, Daly City",
+    key: "ChIJq_VFmWx8j4ARJS16y_0eDtg",
+    image_attribution: null
+  },
+  {
     name: "Pizzeria Picco",
     address: "316 Magnolia Ave #2033, Larkspur",
     key: "ChIJsyRE9XiahYARuauPNBaeUzs",
     image_attribution: null
   },
   {
-    name: "Esperpento Restaurant",
-    address: "3295 22nd Street, San Francisco",
-    key: "ChIJpQ_u_D5-j4ARCfaD5-ockSA",
+    name: "R'Noh Thai Restaurant",
+    address: "1000 Magnolia Ave, Larkspur",
+    key: "ChIJX3UMgqOQhYARLoQQUfBlejY",
     image_attribution: null
   },
   {
-    name: "Elixart",
-    address: "1025 Market Street, San Francisco",
-    key: "ChIJjYcBoqaBhYARHlnR-QSE8Ig",
+    name: "The Cake Gallery",
+    address: "290 9th Street, San Francisco",
+    key: "ChIJXSKUGih-j4ARxrQu-2sjqpI",
     image_attribution: null
   },
   {
-    name: "Rise & Grind Coffee and Tea",
-    address: "785 8th Ave, San Francisco",
-    key: "ChIJibk3D0GHhYARYgBEhDfLS5A",
+    name: "Queens",
+    address: "1235 9th Avenue, San Francisco",
+    key: "ChIJkwacUZWAhYARDwFqVHuEGpc",
     image_attribution: null
   },
   {
-    name: "Caffe Terzetto",
-    address: "400 Parnassus Ave, San Francisco",
-    key: "ChIJRXIt4VmHhYARE-QfWIrQuqc",
+    name: "Submarine Center",
+    address: "820 Ulloa Street, San Francisco",
+    key: "ChIJ6yYoSep9j4ARM8zAzRnnLNo",
     image_attribution: null
+  },
+  {
+    name: "Aura Mixology & Chow",
+    address: "2368 3rd Street, San Francisco",
+    key: "ChIJbUbCCeR_j4ARnbf9PEarbds",
+    image_attribution: null
+  },
+  {
+    name: "Duny\u0101 Mediterranean Bistro & Wine Bar",
+    address: "1609 Polk Street, San Francisco",
+    key: "ChIJ4YFOIOuAhYARLV5hhCIAu_I",
+    image_attribution: null
+  },
+  {
+    name: "New Eritrea Restaurant",
+    address: "907 Irving Street, San Francisco",
+    key: "ChIJjZ9co12HhYARj1fN3tL6WDo",
+    image_attribution: null
+  },
+  {
+    name: "Boba Guys NOPA",
+    address: "836 Divisadero Street, San Francisco",
+    key: "ChIJa19vTLCAhYAR5Kz2xGEY-GU",
+    image_attribution: ""
+  },
+  {
+    name: "Pho 2000",
+    address: "637 Larkin Street, San Francisco",
+    key: "ChIJI7jgz5CAhYAR4Qs5v6C7uBU",
+    image_attribution: null
+  },
+  {
+    name: "Poke Life",
+    address: "1700 Owens Street, San Francisco",
+    key: "ChIJjTdE6c5_j4ARk4XdBy8mJ_4",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Gabriela",
+    address: "988 Broadway, Oakland",
+    key: "ChIJL5aP6baAj4ARCQNk42zaNzA",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
+  },
+  {
+    name: "Great China",
+    address: "2190 Bancroft Way, Berkeley",
+    key: "ChIJG4GjC51-hYARDnhkaVgJsI4",
+    image_attribution: null
+  },
+  {
+    name: "Pausa Bar & Cookery",
+    address: "223 E 4th Ave, San Mateo",
+    key: "ChIJjcw0nnqej4ARvrndVxyQY60",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/118304964485435398781\">Pausa Bar &amp; Cookery</a>']"
+  },
+  {
+    name: "Fox and Lion Bread",
+    address: "5273 3rd St, San Francisco",
+    key: "ChIJj_74Thp_j4ARIYUUNLT9uOQ",
+    image_attribution: null
+  },
+  {
+    name: "Papalote",
+    address: "3409 24th Street, San Francisco",
+    key: "ChIJCcE5hkB-j4AR0GUTa2VyJV4",
+    image_attribution: null
+  },
+  {
+    name: "Julie's",
+    address: "4316 Telegraph Ave, Oakland",
+    key: "ChIJnS7tWOJ9hYAR-gZ5G5q02vM",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112415210802648349646\">Julie&#39;s</a>']"
+  },
+  {
+    name: "Fairfax Coffee Roastery",
+    address: "nan",
+    key: "ChIJ--wEElaWhYARFoQZLrNyHOQ",
+    image_attribution: null
+  },
+  {
+    name: "Tawan's Thai Food",
+    address: "4403 Geary Boulevard, San Francisco",
+    key: "ChIJSTPMYj6HhYARILE2fVhLuNQ",
+    image_attribution: null
+  },
+  {
+    name: "Piccolo Italia Pizza",
+    address: "799 O'Farrell Street, San Francisco",
+    key: "ChIJdSi1MZGAhYARjEThAVgfyCE",
+    image_attribution: null
+  },
+  {
+    name: "Fog City",
+    address: "1300 Battery Street, San Francisco",
+    key: "ChIJYSMTLPaAhYARFZCDlJ6yMr0",
+    image_attribution: null
+  },
+  {
+    name: "Siam Lotus Thai Cuisine",
+    address: "1705 Haight Street #2807, San Francisco",
+    key: "ChIJKSRAtVOHhYARLrhRyp_lkuc",
+    image_attribution: null
+  },
+  {
+    name: "Pork Store Cafe",
+    address: "1451 Haight St, San Francisco",
+    key: "ChIJCbgQyayAhYARjVk8nB7sh5M",
+    image_attribution: ""
+  },
+  {
+    name: "Barrio",
+    address: "1609 Powell Street, San Francisco",
+    key: "ChIJRRyK3gOBhYARapb9R8aqS7M",
+    image_attribution: null
+  },
+  {
+    name: "Stonemill Matcha",
+    address: "561 Valencia St, San Francisco",
+    key: "ChIJlxonA45_j4ARQXnrT2rNHpY",
+    image_attribution: ""
+  },
+  {
+    name: "Etcetera Wine Bar and Cafe",
+    address: "795 Valencia Street, San Francisco",
+    key: "ChIJAfVvHT1-j4ARh6QjvdtNWNo",
+    image_attribution: null
+  },
+  {
+    name: "Golden Saigon",
+    address: "2428 San Bruno Avenue, San Francisco",
+    key: "ChIJTce2Qvx-j4ARLbPGlHzRkmQ",
+    image_attribution: null
+  },
+  {
+    name: "Chico's Grill",
+    address: "3771 Mission Street, San Francisco",
+    key: "ChIJaZiFXHN_j4ARKBs-wqq5sQs",
+    image_attribution: null
+  },
+  {
+    name: "Dashi Japanese Restaurant",
+    address: "873 Hamilton Ave, Menlo Park",
+    key: "ChIJo0NIcZi8j4ARjJ9Kj6BWEnc",
+    image_attribution: null
+  },
+  {
+    name: "Smyrna",
+    address: "417 California Ave, Palo Alto",
+    key: "ChIJdfvZMTG7j4ARjEo4u3JcSgI",
+    image_attribution: null
+  },
+  {
+    name: "SunLife Organics",
+    address: "344 California Ave, Palo Alto",
+    key: "ChIJu9phLBG7j4ARj9s1YlNrk_o",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria El Farolito",
+    address: "394 Grand Ave, South San Francisco",
+    key: "ChIJyXMrsKh5j4ARilrFn_zUS8s",
+    image_attribution: null
+  },
+  {
+    name: "Taste Of Burma",
+    address: "2025 Gellert Blvd #200, Daly City",
+    key: "ChIJEfAnutN7j4AR0gMF1JOpsDY",
+    image_attribution: null
+  },
+  {
+    name: "Ling Nam Restaurant",
+    address: "2211 Gellert Blvd, South San Francisco",
+    key: "ChIJVZgncdN7j4AR7aN-JLaYBUE",
+    image_attribution: null
+  },
+  {
+    name: "Rice N Roll",
+    address: "683 Manor Dr, Pacifica",
+    key: "ChIJ6xF41rV7j4ARQJcXJo94mRI",
+    image_attribution: null
+  },
+  {
+    name: "Papito",
+    address: "317 Connecticut Street, San Francisco",
+    key: "ChIJUcsftct_j4ARwXkPL4P0aBw",
+    image_attribution: null
+  },
+  {
+    name: "Onigilly Kearney street",
+    address: "343 Kearny St, San Francisco",
+    key: "ChIJ4YAz04uAhYAR4AvyrioIa1k",
+    image_attribution: null
+  },
+  {
+    name: "Hot Cookie",
+    address: "1817 Polk St, San Francisco",
+    key: "ChIJIRyiwrWBhYARvpmvLyeeKqk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107034110563563081323\">sue kim</a>']"
   },
   {
     name: "Frisco Fried",
     address: "5176 3rd Street, San Francisco",
     key: "ChIJg-2R7xp_j4ARcNI5V3bzQHI",
-    image_attribution: null
-  },
-  {
-    name: "Latte Express",
-    address: "434 Beach Street, San Francisco",
-    key: "ChIJAZjYkOOAhYAR8zpHbIVBez4",
-    image_attribution: null
-  },
-  {
-    name: "Maykadeh",
-    address: "470 Green Street, San Francisco",
-    key: "ChIJ1wNNVfGAhYARPYn3uli3dwc",
-    image_attribution: null
-  },
-  {
-    name: "Royal Exchange",
-    address: "301 Sacramento Street, San Francisco",
-    key: "ChIJY-YkpGGAhYARyWegtC5v6w4",
-    image_attribution: null
-  },
-  {
-    name: "House of Dim Sum",
-    address: "735 Jackson Street, San Francisco",
-    key: "ChIJG94CX_OAhYAR5CiHP4D_mP0",
-    image_attribution: null
-  },
-  {
-    name: "The Brazen Head",
-    address: "3166 Buchanan Street, San Francisco",
-    key: "ChIJp7hJq9uAhYARXqjVg5E7jBs",
-    image_attribution: null
-  },
-  {
-    name: "Friends With Benedict's Pop Up Brunch",
-    address: "1233 Polk Street, San Francisco",
-    key: "ChIJq_XB2pSAhYARbLzIOGoJzCA",
-    image_attribution: null
-  },
-  {
-    name: "Castagna",
-    address: "2015 Chestnut St, San Francisco",
-    key: "ChIJmT-MSNeAhYARDL829O4us0o",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/105095563289136986556\">Ben Holfeld</a>']"
-  },
-  {
-    name: "Great Mongolia Restaurant",
-    address: "4828 Geary Boulevard, San Francisco",
-    key: "ChIJKVPEF6yHhYARqv1MEoulwvA",
-    image_attribution: null
-  },
-  {
-    name: "Ideale",
-    address: "1309 Grant Avenue, San Francisco",
-    key: "ChIJ-55o9_OAhYARxWRg70fFUvU",
-    image_attribution: null
-  },
-  {
-    name: "Saint Frank Coffee",
-    address: "1081 Mission St, San Francisco",
-    key: "ChIJ_1AhfIOAhYAR4Y1b-2RI9WU",
-    image_attribution: null
-  },
-  {
-    name: "JJ Fish and Chicken",
-    address: "5100 3rd Street, San Francisco",
-    key: "ChIJjesmxhp_j4ARjVAcgl6flNc",
-    image_attribution: null
-  },
-  {
-    name: "Donburi Ya",
-    address: "764 Harrison Street, San Francisco",
-    key: "ChIJd6vHWbKBhYAR86_nVMsMIyY",
-    image_attribution: null
-  },
-  {
-    name: "Cafe La Taza",
-    address: "470 Post St, San Francisco",
-    key: "ChIJWaNqi46AhYARnDgYNMMK0qA",
-    image_attribution: null
-  },
-  {
-    name: "Pizzeria Delfina",
-    address: "2406 California Street, San Francisco",
-    key: "ChIJ4zlZM8aAhYARRTqiavm0Xcs",
     image_attribution: null
   },
   {
@@ -15776,39 +16650,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Victory Hall & Parlor",
-    address: "360 Ritch St, San Francisco",
-    key: "ChIJT3HWONZ_j4ARL-MKeoCbWRY",
-    image_attribution: null
-  },
-  {
-    name: "G O Z U",
-    address: "201 Spear Street #120, San Francisco",
-    key: "ChIJ4ehG7EuBhYARn1ITMS0pXO8",
-    image_attribution: null
-  },
-  {
-    name: "The Taco Shop at Underdogs",
-    address: "1824 Irving St, San Francisco",
-    key: "ChIJof2OgGWHhYAR63HMIBa7XYs",
-    image_attribution: null
-  },
-  {
-    name: "La Boulangerie de San Francisco, Hayes",
-    address: "500 Hayes Street, San Francisco",
-    key: "ChIJU3tHbqKAhYAR3MDnzOK40Nk",
-    image_attribution: null
-  },
-  {
-    name: "Pork Store Cafe",
-    address: "3122 16th St, San Francisco",
-    key: "ChIJT6WCQSJ-j4AReZR6E1eUtgc",
-    image_attribution: ""
-  },
-  {
-    name: "Choux",
-    address: "248 Fillmore Street, San Francisco",
-    key: "ChIJeVMOz6aAhYARXc5uSaLCDfE",
+    name: "Revolution Cafe",
+    address: "3248 22nd St, San Francisco",
+    key: "ChIJsfQS4D5-j4AREe1kqXnitHY",
     image_attribution: null
   },
   {
@@ -15818,9 +16662,67 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Firehouse Pizzeria",
-    address: "6001 California Street, San Francisco",
-    key: "ChIJDbe43wSHhYARChbz9QJ8FgQ",
+    name: "Cafe Alma",
+    address: "888 Innes Ave, San Francisco",
+    key: "ChIJN56SFWF_j4AReIP60Fn1Mz4",
+    image_attribution: null
+  },
+  {
+    name: "Savor Open Kitchen",
+    address: "3913 24th Street, San Francisco",
+    key: "ChIJ52tuYxN-j4AR6Plpk7brI8s",
+    image_attribution: null
+  },
+  {
+    name: "Sideboard Lafayette",
+    address: "3535 Plaza Way, Lafayette",
+    key: "ChIJNSmvyVpihYARUDE7I3N_tB8",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/118329478619416440660\">Sideboard Lafayette</a>']"
+  },
+  {
+    name: "Leila by the Bay",
+    address: "1991 Railroad Ave, Hercules",
+    key: "ChIJt7tLgel2hYARMnXG9slMm0o",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/100846979972835827758\">Leila by the Bay</a>']"
+  },
+  {
+    name: "Third Culture Bakery",
+    address: "2701 Eighth St, Berkeley",
+    key: "ChIJy_LqU91-hYARrF2Z8bMXT-w",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/107721404123505875377\">Albert L.</a>']"
+  },
+  {
+    name: "ROOH Palo Alto",
+    address: "473 University Ave, Palo Alto",
+    key: "ChIJD_pTEsy7j4ARmC6OuQ2GZ0k",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/113910810304151154629\">ROOH Palo Alto</a>']"
+  },
+  {
+    name: "La Fontaine",
+    address: "186 Castro St, Mountain View",
+    key: "ChIJZ54APTS3j4ARBYZD956MHq8",
+    image_attribution: null
+  },
+  {
+    name: "Stang's",
+    address: "1618 Redwood Hwy, Corte Madera",
+    key: "ChIJpRL6LYuahYAR1d5rmcNNpjI",
+    image_attribution: null
+  },
+  {
+    name: "Seafood Peddler Restaurant and Fish Market",
+    address: "303 Johnson St, Sausalito",
+    key: "ChIJn7-dUlCEhYARaaZQxq8z6rM",
+    image_attribution: null
+  },
+  {
+    name: "Union Cafe",
+    address: "nan",
+    key: "ChIJ-9UlsCSahYARVaLLX3-eDkw",
     image_attribution: null
   },
   {
@@ -15830,59 +16732,105 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rambler",
-    address: "545 Post St, San Francisco",
-    key: "ChIJDw_gQo6AhYAR6Y7rN9BRwnc",
+    name: "Corner Bakery Cafe",
+    address: "665 Market St, San Francisco",
+    key: "ChIJs3ExPoiAhYARNGkgKUhuMTo",
     image_attribution: null
   },
   {
-    name: "Old Skool Cafe",
-    address: "1429 Mendell St, San Francisco",
-    key: "ChIJR2oUXAV_j4AR0TNvp-w7vjs",
+    name: "Pushkin",
+    address: "380 Bush Street, San Francisco",
+    key: "ChIJ6WCwhomAhYARBZZpBc4uJeY",
+    image_attribution: null
+  },
+  {
+    name: "Chinese Express",
+    address: "2488 Channing Way, Berkeley",
+    key: "ChIJP67NLi98hYARHuC5LZtu1zc",
+    image_attribution: null
+  },
+  {
+    name: "Best of Burma Restaurant",
+    address: "146 E 3rd Ave, San Mateo",
+    key: "ChIJU90GQ3Cej4ARghDSfEG251Y",
+    image_attribution: null
+  },
+  {
+    name: "Vault 164 Restaurant and Bar",
+    address: "164 S B St, San Mateo",
+    key: "ChIJVVVVVdGdj4ARm6ahH-vCG3Q",
+    image_attribution: null
+  },
+  {
+    name: "1428 HAIGHT Patio Cafe & Crepery",
+    address: "1428 Haight St, San Francisco",
+    key: "ChIJZcIExqyAhYARqLsfdzR85FU",
+    image_attribution: null
+  },
+  {
+    name: "Scala's Bistro",
+    address: "432 Powell Street, San Francisco",
+    key: "ChIJk6jRv46AhYARbE6mIQ6VDsg",
+    image_attribution: null
+  },
+  {
+    name: "The Castro Republic",
+    address: "2295 Market Street, San Francisco",
+    key: "ChIJL2AVYBx-j4ARYIDcWYAlhyU",
+    image_attribution: null
+  },
+  {
+    name: "Curry Leaf",
+    address: "943 Columbus Avenue, San Francisco",
+    key: "ChIJE5_-a-WAhYARRlIJfd0IpL0",
+    image_attribution: null
+  },
+  {
+    name: "Chef Li's Cafe Hot pot",
+    address: "2726 San Bruno Avenue, San Francisco",
+    key: "ChIJY2BJ9-J-j4ARj_pzeKOJHF8",
+    image_attribution: null
+  },
+  {
+    name: "Tyger's Coffee Shop",
+    address: "2798 Diamond Street, San Francisco",
+    key: "ChIJ85azmGR-j4ARrIy_nJCTseI",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Vallarta",
+    address: "4696 Mission Street, San Francisco",
+    key: "ChIJjeDN84V-j4AR9eVWDLXQ8tA",
+    image_attribution: null
+  },
+  {
+    name: "Cuppa",
+    address: "2810 Diamond St, San Francisco",
+    key: "ChIJWdRYoGR-j4ARRufwcPtRfL0",
+    image_attribution: null
+  },
+  {
+    name: "Street Taco",
+    address: "1607 Haight Street, San Francisco",
+    key: "ChIJaakVBVOHhYARFz7VTnf65pU",
+    image_attribution: null
+  },
+  {
+    name: "Kaiju Eats Ramen & Izakaya",
+    address: "3409 Geary Boulevard, San Francisco",
+    key: "ChIJQ3EuyjeHhYAR15kVNRu15SU",
+    image_attribution: null
+  },
+  {
+    name: "El Techo",
+    address: "2516 Mission St, San Francisco",
+    key: "ChIJaYr9tz5-j4ARViEEUUUDY0k",
     image_attribution: ""
   },
   {
-    name: "OMG Tea",
-    address: "2891 San Bruno Ave, San Francisco",
-    key: "ChIJNTsxF-J-j4ARpXwwd4zkfDk",
-    image_attribution: null
-  },
-  {
-    name: "Rocco's Cafe",
-    address:
-      "South of Market 1131 Folsom St. (between 7th &, 8th Street, San Francisco",
-    key: "ChIJbVQlDYKAhYARrtTWFEMRwj0",
-    image_attribution: null
-  },
-  {
-    name: "Omakase",
-    address: "665 Townsend Street, San Francisco",
-    key: "ChIJFYz55yx-j4ARFUpWF0lt4gw",
-    image_attribution: null
-  },
-  {
-    name: "Riverside Seafood Restaurant",
-    address: "1201 Vicente St, San Francisco",
-    key: "ChIJLzLiTZd9j4ARvtW06l1rUsg",
-    image_attribution: null
-  },
-  {
-    name: "Onigilly",
-    address: "455 Market St, San Francisco",
-    key: "ChIJi67trGOAhYARNCdeNJ-yeW0",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/102319808565524021569\">Coy Tran</a>']"
-  },
-  {
-    name: "Enter The Cafe",
-    address: "1401 Powell St, San Francisco",
-    key: "ChIJs8i5N_KAhYARZvBUagii3hY",
-    image_attribution: null
-  },
-  {
-    name: "Hookt Doughnuts",
-    address: "1379 4th Street, San Francisco",
-    key: "ChIJ5x7U6KN_j4AREG0pK_x4lPM",
+    name: "Great Eastern Restaurant",
+    address: "649 Jackson Street #649, San Francisco",
+    key: "ChIJPe15ufSAhYARf6hhhS-Kq7w",
     image_attribution: null
   },
   {
@@ -15892,27 +16840,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kusina Ni Tess",
-    address: "237 Ellis Street, San Francisco",
-    key: "ChIJKWzqnI-AhYARKfm-fu3tCM4",
-    image_attribution: null
-  },
-  {
-    name: "The Rotunda",
-    address: "150 Stockton St Level Four, San Francisco",
-    key: "ChIJ2QAWz4iAhYARhwcyOa3aaoQ",
+    name: "Acai R",
+    address: "1130 Ocean Avenue, San Francisco",
+    key: "ChIJ0UHnsTp9j4ARr3rUsAzl3Co",
     image_attribution: null
   },
   {
     name: "Odumak",
     address: "733 Taraval Street, San Francisco",
     key: "ChIJF2duzpN9j4ARlIDUjVKMiFY",
-    image_attribution: null
-  },
-  {
-    name: "The Gold Mirror Italian Restaurant",
-    address: "800 Taraval Street, San Francisco",
-    key: "ChIJbZ0UK5J9j4ARm1sAyGJogdI",
     image_attribution: null
   },
   {
@@ -15928,27 +16864,57 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
+    name: "Le Petit Cafe",
+    address: "1 Maritime Plz # Grnd, San Francisco",
+    key: "ChIJKfK7UWCAhYARuWw0Y4fcnPk",
+    image_attribution: null
+  },
+  {
     name: "Adelita's Cake Con Sabores",
     address: "3780 Mission Street, San Francisco",
     key: "ChIJQxqHo2B-j4ARFasX9VmgZeM",
     image_attribution: null
   },
   {
-    name: "Acai R",
-    address: "1130 Ocean Avenue, San Francisco",
-    key: "ChIJ0UHnsTp9j4ARr3rUsAzl3Co",
+    name: "Bottom of the Hill",
+    address: "1233 17th Street, San Francisco",
+    key: "ChIJQcdLBsx_j4AROyDSIMBYKH8",
     image_attribution: null
   },
   {
-    name: "Underground Grill Kings",
-    address: "2543 Noriega Street, San Francisco",
-    key: "ChIJK2MVaX-HhYAR0-fNN2pcBgI",
+    name: "Commons Club",
+    address: "250 4th Street, San Francisco",
+    key: "ChIJaYaoULeBhYAR6JIErJp7Fvk",
     image_attribution: null
   },
   {
-    name: "Cheung Hing Restaurant",
-    address: "2339 Noriega Street, San Francisco",
-    key: "ChIJQ3ft_H6HhYARioaiUclAh-o",
+    name: "Caffe Moda",
+    address: "160 7th St, San Francisco",
+    key: "ChIJLa6q8ix-j4ARoiYnk8uNCYE",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "2234 Polk St, San Francisco",
+    key: "ChIJy7X4C72BhYARe6YfRIdai3Y",
+    image_attribution: null
+  },
+  {
+    name: "Brothers Restaurant",
+    address: "4128 Geary Boulevard, San Francisco",
+    key: "ChIJuVgntT6HhYARv2VnL-7xGdM",
+    image_attribution: null
+  },
+  {
+    name: "Super Star Restaurant",
+    address: "4919 Mission St, San Francisco",
+    key: "ChIJqfU034R-j4ARB9bgRewmZ0E",
+    image_attribution: null
+  },
+  {
+    name: "Cherry Blossom Bakery",
+    address: "844 Clement Street, San Francisco",
+    key: "ChIJ042Omz2HhYARJegodst1VZo",
     image_attribution: null
   },
   {
@@ -15958,22 +16924,11 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lupa Trattoria",
-    address: "4109 24th St, San Francisco",
-    key: "ChIJcZIFZRJ-j4ARqh74LBAr2Po",
-    image_attribution: ""
-  },
-  {
-    name: "Inle Burmese Cuisine",
-    address: "1298 Church Street, San Francisco",
-    key: "ChIJKwqhiLF_j4ARQAZuqDs509U",
-    image_attribution: null
-  },
-  {
-    name: "Super Star Restaurant",
-    address: "4919 Mission St, San Francisco",
-    key: "ChIJqfU034R-j4ARB9bgRewmZ0E",
-    image_attribution: null
+    name: "Harborview Restaurant & Bar",
+    address: "4 Embarcadero Center, Street Level, San Francisco",
+    key: "ChIJZ1SMEQeBhYAR8Y0suKMr48o",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/100548883109206998367\">Harborview Restaurant &amp; Bar</a>']"
   },
   {
     name: "Town's End Restaurant & Bakery",
@@ -15994,21 +16949,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Taqueria Cancun",
-    address: "3211 Mission Street, San Francisco",
-    key: "ChIJtVnCDEN-j4AR9CIMl7FOqpQ",
+    name: "Pop's Sandwich Shop",
+    address: "737 Portola Drive, San Francisco",
+    key: "ChIJk2ghGOd9j4ARCiW-KjcYKRw",
     image_attribution: null
   },
   {
-    name: "um.ma",
-    address: "1220 9th Ave, San Francisco",
-    key: "ChIJ85tbw0aHhYARIXIu4a1XW-A",
-    image_attribution: null
-  },
-  {
-    name: "Deli World",
-    address: "18 Ocean Avenue, San Francisco",
-    key: "ChIJg88F_IV-j4ARC-jnZtES2Aw",
+    name: "South Beach Cafe",
+    address: "800 The Embarcadero, San Francisco",
+    key: "ChIJI6TD33eAhYARa7T3EGqJppg",
     image_attribution: null
   },
   {
@@ -16018,34 +16967,64 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pop's Sandwich Shop",
-    address: "737 Portola Drive, San Francisco",
-    key: "ChIJk2ghGOd9j4ARCiW-KjcYKRw",
+    name: "Bravo Pizza",
+    address: "5145 Mission Street, San Francisco",
+    key: "ChIJ02zlYJt-j4AR2D67vAEuxDI",
     image_attribution: null
   },
   {
-    name: "Tekka House",
-    address: "678 Chenery Street #3034, San Francisco",
-    key: "ChIJ_0isnmR-j4ARZfuqfbYfFPM",
+    name: "The Keystone Social House",
+    address: "68 4th Street, San Francisco",
+    key: "ChIJRcqFN4aAhYARSvdFY6nNytM",
     image_attribution: null
   },
   {
-    name: "Hong Kong Bakery",
-    address: "4711 Mission Street, San Francisco",
-    key: "ChIJTyWO8oV-j4ARChtXfJGChwI",
+    name: "STAG & MANOR",
+    address: "2327 Market St, San Francisco",
+    key: "ChIJ20tybm9_j4ARfFc0c7NC43g",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116550501019698361568\">STAG &amp; MANOR</a>']"
+  },
+  {
+    name: "Taraval Okazu Ya Restaurant",
+    address: "1735 Taraval Street, San Francisco",
+    key: "ChIJLwyQZOZ9j4ARVbJ8kFH_vAM",
     image_attribution: null
   },
   {
-    name: "Old Devil Moon",
-    address: "3472 Mission Street, San Francisco",
-    key: "ChIJK7D_QV1-j4AR9FdxBV7sGss",
+    name: "Foam Tea House",
+    address: "1745 Taraval St, San Francisco",
+    key: "ChIJp4PaExt9j4ARtPjPGHg-aiE",
     image_attribution: null
   },
   {
-    name: "Mister Bomboloni",
-    address:
-      "Ferry Building, 1 Sausalito - San Francisco Ferry Building, San Francisco",
-    key: "ChIJYXaFjGaAhYARG18WpZlqWMw",
+    name: "Cafe Lambretta",
+    address: "700 2nd St, San Francisco",
+    key: "ChIJUQr98Nd_j4ARKgC9KHXcyWk",
+    image_attribution: null
+  },
+  {
+    name: "Prubechu",
+    address: "2224 Mission St #A, San Francisco",
+    key: "ChIJxesKArN_j4AR4rL6f1X6iec",
+    image_attribution: ""
+  },
+  {
+    name: "Woops!",
+    address: "865 Market Street level 1, San Francisco",
+    key: "ChIJGxTjZsyBhYARHb3ptt2lt2I",
+    image_attribution: null
+  },
+  {
+    name: "Champa Garden Restaurant",
+    address: "613 Faxon Ave, San Francisco",
+    key: "ChIJ54aGx819j4ARaTQg1JK3yNQ",
+    image_attribution: null
+  },
+  {
+    name: "Excelsior Coffee",
+    address: "4495 Mission St, San Francisco",
+    key: "ChIJdefTJb9_j4ARM99sfJXvgtg",
     image_attribution: null
   },
   {
@@ -16068,69 +17047,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chapeau!",
-    address: "126 Clement Street, San Francisco",
-    key: "ChIJs0HxgDmHhYARAoIYlNJMScA",
+    name: "Batter Bakery - Kiosk",
+    address: "555 California Street, San Francisco",
+    key: "ChIJ9astS4qAhYARxkZ-C1a62N8",
     image_attribution: null
   },
   {
-    name: "Prubechu",
-    address: "2224 Mission St #A, San Francisco",
-    key: "ChIJxesKArN_j4AR4rL6f1X6iec",
-    image_attribution: ""
-  },
-  {
-    name: "Woops!",
-    address: "865 Market Street level 1, San Francisco",
-    key: "ChIJGxTjZsyBhYARHb3ptt2lt2I",
+    name: "Noon All Day",
+    address: "690 Indiana St, San Francisco",
+    key: "ChIJiVHFIch_j4ARwfxSiusbugY",
     image_attribution: null
   },
   {
-    name: "Cafe Lambretta",
-    address: "700 2nd St, San Francisco",
-    key: "ChIJUQr98Nd_j4ARKgC9KHXcyWk",
-    image_attribution: null
-  },
-  {
-    name: "Kazan",
-    address: "2809 24th Street, San Francisco",
-    key: "ChIJmymFQEl-j4ARqHakyQ0cjuw",
-    image_attribution: null
-  },
-  {
-    name: "Szechuan cuisine",
-    address: "1920 Irving Street, San Francisco",
-    key: "ChIJg3DbiG-HhYARsxTF-PQtUxM",
-    image_attribution: null
-  },
-  {
-    name: "Frances",
-    address: "3870 17th St, San Francisco",
-    key: "ChIJky2knBt-j4ARXAdR3-GAWM8",
-    image_attribution: null
-  },
-  {
-    name: "Sammy's Cafe",
-    address: "1416 Bush St, San Francisco",
-    key: "ChIJ64lL-pSAhYARzyfWiH0QLZg",
-    image_attribution: null
-  },
-  {
-    name: "Cilantro SF Taqueria",
-    address: "2257 Mason Street, San Francisco",
-    key: "ChIJG9jGJeWAhYARE2wvx9yx7io",
-    image_attribution: null
-  },
-  {
-    name: "Los Hermanos Mexican Food",
-    address: "2026 Chestnut Street, San Francisco",
-    key: "ChIJoWH6ONeAhYARN2VCdCHX5dg",
+    name: "Oasis Grill",
+    address: "100 First Plaza, 100 1st Street #110, San Francisco",
+    key: "ChIJi_63OGOAhYARVdH53FgbdEU",
     image_attribution: null
   },
   {
     name: "Cavalli Cafe",
     address: "1441 Stockton St, San Francisco",
     key: "ChIJa7zkYvGAhYARzwwMM77l_qQ",
+    image_attribution: null
+  },
+  {
+    name: "Papalote Mexican Grill",
+    address: "1777 Fulton Street, San Francisco",
+    key: "ChIJ6ccQ2LKAhYARUOEfjLL64Vs",
+    image_attribution: null
+  },
+  {
+    name: "DNA Lounge",
+    address: "375 11th Street, San Francisco",
+    key: "ChIJc_iInSh-j4ARUkdU9Rr5lFI",
     image_attribution: null
   },
   {
@@ -16152,39 +17101,46 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Golden China Restaurant",
-    address: "1612 Ocean Avenue, San Francisco",
-    key: "ChIJ6aDtl819j4ARXdfmVNpkAPM",
+    name: "Maykadeh",
+    address: "470 Green Street, San Francisco",
+    key: "ChIJ1wNNVfGAhYARPYn3uli3dwc",
     image_attribution: null
   },
   {
-    name: "Blue Danube Coffee House",
-    address: "306 Clement St, San Francisco",
-    key: "ChIJVYlq5juHhYARzZmKmtidibg",
+    name: "Wasabi & Ginger",
+    address: "2299 Van Ness Avenue, San Francisco",
+    key: "ChIJDSCl1umAhYARyKXXByWjZ5g",
     image_attribution: null
   },
   {
-    name: "Rooster & Rice",
-    address: "4039 18th Street, San Francisco",
-    key: "ChIJo-bomWF_j4ARQlEKrrY3TnE",
+    name: "Kate O'Brien's Irish Bar & Grill",
+    address: "579 Howard Street, San Francisco",
+    key: "ChIJDzj1wnyAhYARoK2ALuvEVdY",
     image_attribution: null
   },
   {
-    name: "Rigolo Caf\u00e9",
-    address: "3465 California St, San Francisco",
-    key: "ChIJ6z5I8jOHhYARutxlUZ_Z3JQ",
+    name: "Dim Sum Corner",
+    address: "601 Grant Ave, San Francisco",
+    key: "ChIJo7SnirKBhYARAlLOw0n_s9k",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/110536506771512058332\">Rachel Brajkovich</a>']"
+  },
+  {
+    name: "JJ Fish and Chicken",
+    address: "5100 3rd Street, San Francisco",
+    key: "ChIJjesmxhp_j4ARjVAcgl6flNc",
     image_attribution: null
   },
   {
-    name: "La Capra",
-    address: "360 3rd St, San Francisco",
-    key: "ChIJFQr3jX6AhYARqmE5unxChOY",
+    name: "Tekka House",
+    address: "678 Chenery Street #3034, San Francisco",
+    key: "ChIJ_0isnmR-j4ARZfuqfbYfFPM",
     image_attribution: null
   },
   {
-    name: "Allstar Donuts",
-    address: "901 Clement Street, San Francisco",
-    key: "ChIJScRWhD2HhYAR4wBIutRypm0",
+    name: "Hong Kong Bakery",
+    address: "4711 Mission Street, San Francisco",
+    key: "ChIJTyWO8oV-j4ARChtXfJGChwI",
     image_attribution: null
   },
   {
@@ -16194,27 +17150,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chile Lindo Empanadas",
-    address: "2944 16th St, San Francisco",
-    key: "ChIJ0yEpgCR-j4AR8-ZeInClevc",
+    name: "The Butcher Shop by Niku Steakhouse",
+    address: "57 Division St, San Francisco",
+    key: "ChIJWRGBHXd_j4AR8pwbROSeuTY",
     image_attribution: null
   },
   {
-    name: "Gateway Croissant",
-    address: "390 Golden Gate Avenue, San Francisco",
-    key: "ChIJTbUmE5qAhYAR3Pp-88HmmFc",
+    name: "KAGAWA-YA UDON",
+    address: "1455 Market Street, San Francisco",
+    key: "ChIJGalUMpyAhYARGMC7GR9hs1M",
     image_attribution: null
   },
   {
-    name: "Le Marcel Bakery for Dogs",
-    address: "2066 Union Street, San Francisco",
-    key: "ChIJBzw2w9qAhYARz1GAWGkrkOg",
+    name: "Alamo Drafthouse Cinema New Mission",
+    address: "2550 Mission Street, San Francisco",
+    key: "ChIJFyM_zj5-j4ARVy4Crc6cSdM",
     image_attribution: null
   },
   {
-    name: "Ichido Restaurant",
-    address: "50 Apparel Way, San Francisco",
-    key: "ChIJ3ZsEzIuAhYARx4YuBDab3WM",
+    name: "Rumors",
+    address: "398 7th Street, San Francisco",
+    key: "ChIJwUvmBCp-j4AR_oAezFIcY70",
+    image_attribution: null
+  },
+  {
+    name: "The Market Cafe",
+    address: "1355 Market St, San Francisco",
+    key: "ChIJR6WrbJyAhYARsl4XPO0XXkQ",
     image_attribution: null
   },
   {
@@ -16224,39 +17186,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Harvest Wheat Field Bakery",
-    address: "431 Clement Street, San Francisco",
-    key: "ChIJnQVa79OHhYARox821XtvBwI",
-    image_attribution: null
-  },
-  {
-    name: "Jin Pot",
-    address: "5158 Geary Boulevard, San Francisco",
-    key: "ChIJM3xv0haHhYAR1cwiQtWrwKA",
-    image_attribution: null
-  },
-  {
-    name: "Blackthorn",
-    address: "834 Irving Street, San Francisco",
-    key: "ChIJ7zzerl2HhYARCRKV1E1nY0A",
-    image_attribution: null
-  },
-  {
-    name: "Turtle Tower Restaurant",
-    address: "5716 Geary Boulevard, San Francisco",
-    key: "ChIJzWpX3g-HhYARlJOogUnCorI",
-    image_attribution: null
-  },
-  {
     name: "The Broken Record",
     address: "1166 Geneva Avenue, San Francisco",
     key: "ChIJEVRUIJp-j4ARb43ptfnaz_w",
     image_attribution: null
   },
   {
-    name: "La Boulangerie de San Francisco",
-    address: "2325 Pine Street, San Francisco",
-    key: "ChIJF1AowMeAhYAR8arr1DHDIcY",
+    name: "KitTea Cat Cafe",
+    address: "96 Gough St, San Francisco",
+    key: "ChIJESa_DZ-AhYARew11kFkbGLc",
+    image_attribution: null
+  },
+  {
+    name: "Ritual Coffee Roasters",
+    address: "1026 Valencia St, San Francisco",
+    key: "ChIJm8vaiT5-j4ARU2MyuxNCc2s",
+    image_attribution: null
+  },
+  {
+    name: "Chile Lindo Empanadas",
+    address: "2944 16th St, San Francisco",
+    key: "ChIJ0yEpgCR-j4AR8-ZeInClevc",
     image_attribution: null
   },
   {
@@ -16266,21 +17216,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Turtle Tower Restaurant",
+    address: "5716 Geary Boulevard, San Francisco",
+    key: "ChIJzWpX3g-HhYARlJOogUnCorI",
+    image_attribution: null
+  },
+  {
+    name: "Bai Som Thai Kitchen",
+    address: "2121 Clement Street, San Francisco",
+    key: "ChIJ55aqQgWHhYARUIQUTYyldjQ",
+    image_attribution: null
+  },
+  {
+    name: "Hina Yakitori",
+    address: "808 Divisadero St, San Francisco",
+    key: "ChIJXzJrpN6BhYARBOVVvS_qvOw",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Cancun",
+    address: "2288 Mission Street, San Francisco",
+    key: "ChIJBxm1jjx-j4ARY3l-wL7YQss",
+    image_attribution: null
+  },
+  {
+    name: "Sai Jai Thai",
+    address: "771 O'Farrell Street, San Francisco",
+    key: "ChIJBTrAJJGAhYARiRVW0sWfOK0",
+    image_attribution: null
+  },
+  {
+    name: "Citrus Club",
+    address: "1790 Haight Street #2823, San Francisco",
+    key: "ChIJJeFjMlKHhYARNLCecryoS2k",
+    image_attribution: null
+  },
+  {
     name: "Tosai Sushi",
     address: "3251 20th Avenue #159, San Francisco",
     key: "ChIJHaiYrV99j4ARnm8ZirMp1IY",
-    image_attribution: null
-  },
-  {
-    name: "Marcella's Lasagneria",
-    address: "1099 Tennessee Street, San Francisco",
-    key: "ChIJq-zd8Ll_j4ARsCAV09I5dUU",
-    image_attribution: null
-  },
-  {
-    name: "Uncle Boy's",
-    address: "245 Balboa Street, San Francisco",
-    key: "ChIJU1MOckeHhYARQFcsT6fdx2A",
     image_attribution: null
   },
   {
@@ -16290,39 +17264,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "KRUA Thai",
-    address: "3214 16th Street, San Francisco",
-    key: "ChIJO7Z0pBh-j4ARw70tJfvZTzU",
-    image_attribution: null
+    name: "Canela Bistro & Wine Bar",
+    address: "2272 Market St, San Francisco",
+    key: "ChIJh8PT9xx-j4ARqcz9si6Mv-E",
+    image_attribution: ""
   },
   {
-    name: "Patriot House Pub",
-    address: "2 Embarcadero Center 3rd floor, San Francisco",
-    key: "ChIJZ76fAGGAhYARjl9r8Nnoo6w",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "5 Embarcadero Center, San Francisco",
-    key: "ChIJrXyusmaAhYARHy-30QCG2e4",
-    image_attribution: null
-  },
-  {
-    name: "Shizen Vegan Sushi Bar and Izakaya",
-    address: "370 14th Street, San Francisco",
-    key: "ChIJIVHOoCF-j4ARnw6y25XWmMA",
-    image_attribution: null
-  },
-  {
-    name: "Phonobar",
-    address: "370 Grove Street, San Francisco",
-    key: "ChIJTRHt9JiAhYARIeAm-WG0inY",
-    image_attribution: null
-  },
-  {
-    name: "The San Francisco Athletic Club",
-    address: "1750 Divisadero Street, San Francisco",
-    key: "ChIJa0LSlMmAhYARWfs7v7LHncc",
+    name: "Soluna",
+    address: "272 McAllister St, San Francisco",
+    key: "ChIJOVRdT5qAhYAR92qBRKgxxc4",
     image_attribution: null
   },
   {
@@ -16344,12 +17294,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Nabe",
-    address: "1325 9th Avenue, San Francisco",
-    key: "ChIJ8R1DNVyHhYAR22_xxz-1gso",
-    image_attribution: null
-  },
-  {
     name: "The Deli King",
     address: "1143 Taraval Street, San Francisco",
     key: "ChIJ0eSURZB9j4ARyies6PueODQ",
@@ -16368,9 +17312,9 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "restaurant roh",
-    address: "1500 Van Ness Avenue, San Francisco",
-    key: "ChIJVVWFJZWAhYARZpglOWWhijo",
+    name: "El Tepa Taqueria",
+    address: "2198 Folsom Street, San Francisco",
+    key: "ChIJ9caW5Dp-j4ARlzpdLczkHgk",
     image_attribution: null
   },
   {
@@ -16386,9 +17330,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "L'Amour de Saigon",
-    address: "321A West Portal Avenue, San Francisco",
-    key: "ChIJ-y3oFIV9j4ARckUTZrcO0iY",
+    name: "Cool Cravings",
+    address: "1635 Divisadero Street, San Francisco",
+    key: "ChIJIX0mHLaAhYARalRTGorSOrI",
+    image_attribution: null
+  },
+  {
+    name: "Andersen Bakery",
+    address: "1390 Market Street suite b, San Francisco",
+    key: "ChIJa3aIDJyAhYARMPjFJtHsI5I",
+    image_attribution: null
+  },
+  {
+    name: "Blue Danube Coffee House",
+    address: "306 Clement St, San Francisco",
+    key: "ChIJVYlq5juHhYARzZmKmtidibg",
+    image_attribution: null
+  },
+  {
+    name: "Rooster & Rice",
+    address: "4039 18th Street, San Francisco",
+    key: "ChIJo-bomWF_j4ARQlEKrrY3TnE",
     image_attribution: null
   },
   {
@@ -16404,21 +17366,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Marnee Thai",
-    address: "1243 9th Avenue, San Francisco",
-    key: "ChIJRQiL_VyHhYARDJPvbliHh-o",
+    name: "Benkyodo Co",
+    address: "1747 Buchanan Street, San Francisco",
+    key: "ChIJz1JuzLiAhYARfnhULIGUL8g",
     image_attribution: null
   },
   {
-    name: "Roosevelt Tamale Parlor",
-    address: "2817 24th Street, San Francisco",
-    key: "ChIJ25_bP0l-j4ARYRoAgHB7_cE",
+    name: "L'Amour de Saigon",
+    address: "321A West Portal Avenue, San Francisco",
+    key: "ChIJ-y3oFIV9j4ARckUTZrcO0iY",
     image_attribution: null
   },
   {
     name: "Simple Tea House",
     address: "2620 Ocean Avenue, San Francisco",
     key: "ChIJR7NizQB9j4ARDT_DZlmIORY",
+    image_attribution: null
+  },
+  {
+    name: "Roosevelt Tamale Parlor",
+    address: "2817 24th Street, San Francisco",
+    key: "ChIJ25_bP0l-j4ARYRoAgHB7_cE",
     image_attribution: null
   },
   {
@@ -16434,27 +17402,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tacos El Flaco",
-    address: "1508 Illinois Street, San Francisco",
-    key: "ChIJLwL026R_j4ARtGfRJRZP_As",
+    name: "Takara",
+    address: "22 Peace Plaza #505, San Francisco",
+    key: "ChIJN0l8xL6AhYARSud0NcxuhYM",
     image_attribution: null
   },
   {
-    name: "NIDO living",
-    address: "2233 Alameda St, San Francisco",
-    key: "ChIJCyfgeC5-j4ARe_SdxzPhSA8",
+    name: "Belly Good Cafe & Crepes",
+    address: "1737 Post St # 393, San Francisco",
+    key: "ChIJo0XH17iAhYARaR8jBgUHdYU",
     image_attribution: null
   },
   {
-    name: "Del Popolo",
-    address: "855 Bush St, San Francisco",
-    key: "ChIJAyOgwo2AhYARCCxZE4yahWU",
-    image_attribution: null
-  },
-  {
-    name: "The Epicurean Trader",
-    address: "401 Cortland Avenue, San Francisco",
-    key: "ChIJXTCo4lt-j4ARCV-4g2LtHXc",
+    name: "Jamba",
+    address: "2014 Market Street, San Francisco",
+    key: "ChIJI52AOh5-j4ARAatzdIAHkyA",
     image_attribution: null
   },
   {
@@ -16476,39 +17438,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Takara",
-    address: "22 Peace Plaza #505, San Francisco",
-    key: "ChIJN0l8xL6AhYARSud0NcxuhYM",
-    image_attribution: null
-  },
-  {
-    name: "Belly Good Cafe & Crepes",
-    address: "1737 Post St # 393, San Francisco",
-    key: "ChIJo0XH17iAhYARaR8jBgUHdYU",
-    image_attribution: null
-  },
-  {
     name: "Marcello's",
     address: "2100 Taraval Street, San Francisco",
     key: "ChIJm095GIN9j4ARLB6tVLHLYjo",
     image_attribution: null
   },
   {
-    name: "La Fonda",
-    address: "712 Irving Street, San Francisco",
-    key: "ChIJY_i3RlyHhYARAdKAIpZuX0U",
+    name: "AltoVino",
+    address: "1358 Mason Street, San Francisco",
+    key: "ChIJCUs0YfKAhYARR2NFzL6xY-w",
     image_attribution: null
   },
   {
-    name: "Les Croissants Cafe",
-    address: "1840 Geary Blvd, San Francisco",
-    key: "ChIJ7WGmtLmAhYAR5DWwqFdmpHI",
+    name: "Alegrias",
+    address: "2018 Lombard Street, San Francisco",
+    key: "ChIJzSuDD9qAhYARw8hznmTYjBc",
     image_attribution: null
   },
   {
-    name: "Ton Kiang",
-    address: "5821 Geary Boulevard, San Francisco",
-    key: "ChIJw4b6wA-HhYARzfN7bMzNQPw",
+    name: "Delarosa",
+    address: "37 Yerba Buena Ln, San Francisco",
+    key: "ChIJp5VgLIaAhYARLC-hH-r89rM",
     image_attribution: null
   },
   {
@@ -16524,57 +17474,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Glaze Teriyaki",
-    address: "1946 Fillmore Street, San Francisco",
-    key: "ChIJY01DlseAhYAR6OomvCt4Zjc",
+    name: "Ramen Underground",
+    address: "356 Kearny Street, San Francisco",
+    key: "ChIJyyQu04uAhYARXVI2yERHvEk",
     image_attribution: null
   },
   {
-    name: "Cumaica: Artesanos del Cafe",
-    address: "1398 Mission St, San Francisco",
-    key: "ChIJwWFeq52AhYARTvqup77A3MQ",
+    name: "The Flying Falafel - FIDI",
+    address: "211 Sutter St, San Francisco",
+    key: "ChIJJWRseweBhYARvY4ZH3jaI2g",
     image_attribution: null
   },
   {
-    name: "Pharaohs Egyptian Restaurant",
-    address: "608 Geary Street, San Francisco",
-    key: "ChIJlYoOw5GAhYARBX6R9ebYsI8",
+    name: "Bistro Boudin",
+    address: "160 Jefferson Street, San Francisco",
+    key: "ChIJuTDWD-OAhYARHdAhflk13Sc",
     image_attribution: null
   },
   {
     name: "The Sandwich Spot SF",
     address: "3213 Pierce Street, San Francisco",
     key: "ChIJg11xy9aAhYARdG1UDkhGZOQ",
-    image_attribution: null
-  },
-  {
-    name: "Dumpling Kitchen",
-    address: "1935 Taraval Street, San Francisco",
-    key: "ChIJL9XQWoN9j4AR3OmpgFyKdmE",
-    image_attribution: null
-  },
-  {
-    name: "Parkside Tavern",
-    address: "1940 Taraval Street, San Francisco",
-    key: "ChIJJzo6Q4N9j4ARb4Z2slkuBrk",
-    image_attribution: null
-  },
-  {
-    name: "Wine Down SF",
-    address: "685 Folsom St, San Francisco",
-    key: "ChIJt_gzMnyAhYARZoasY6Qrq-Q",
-    image_attribution: null
-  },
-  {
-    name: "Suppenk\u00fcche",
-    address: "525 Laguna St, San Francisco",
-    key: "ChIJ8fbCTqKAhYAR9Uu7AyP5FyE",
-    image_attribution: null
-  },
-  {
-    name: "Hing Wang Bakery",
-    address: "339 Judah Street, San Francisco",
-    key: "ChIJHabKml6HhYARbRmENuKFH1U",
     image_attribution: null
   },
   {
@@ -16614,45 +17534,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "CHINA NORTH DUMPLING INC",
-    address: "1311 Noriega Street, San Francisco",
-    key: "ChIJYZegKoh9j4ARcPJDR170rjc",
-    image_attribution: null
-  },
-  {
     name: "Piraat Pizzeria & Rotisserie",
     address: "696 Sutter Street, San Francisco",
     key: "ChIJsX-W442AhYARIPlNz5rFS44",
     image_attribution: null
   },
   {
-    name: "Hinata Sushi",
-    address: "810 Van Ness Avenue, San Francisco",
-    key: "ChIJbzIMG5eAhYARs9fK1CMI0OI",
+    name: "Sam\u2019s Pizza & Burgers",
+    address: "618 Broadway, San Francisco",
+    key: "ChIJy2ukjvOAhYARnqMKYHfLidk",
     image_attribution: null
   },
   {
-    name: "Chase Luck Bakery",
-    address: "1325 Ocean Avenue, San Francisco",
-    key: "ChIJ77A5ldJ9j4AR8IzNqSXgMbQ",
+    name: "The Danish & Donut Corner",
+    address: "5114, 5114, 145 Columbus Avenue, San Francisco",
+    key: "ChIJ5wLV3PSAhYARwt4_1BjFKaQ",
     image_attribution: null
   },
   {
-    name: "La Mar Cebicheria Peruana",
-    address: "pier 1 1/2 The Embarcadero, San Francisco",
-    key: "ChIJURDKN2eAhYARN0AMzUEaiKo",
-    image_attribution: null
-  },
-  {
-    name: "Trick Dog",
-    address: "3010 20th Street, San Francisco",
-    key: "ChIJFc-4Pzd-j4ARf66cV7PRZxw",
-    image_attribution: null
-  },
-  {
-    name: "Wok Shop Cafe",
-    address: "1307 Sutter Street, San Francisco",
-    key: "ChIJy-FXpZWAhYARoKXXDQdme5w",
+    name: "Steep Brew",
+    address: "450 Rhode Island Street, San Francisco",
+    key: "ChIJuT02PTN-j4ARbOaLNDNcpP4",
     image_attribution: null
   },
   {
@@ -16704,6 +17606,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Vivace I Productions",
+    address: "1661 Pine St #928, San Francisco",
+    key: "ChIJVYrH63eBhYARoQYOw4B3-gk",
+    image_attribution: null
+  },
+  {
     name: "Camisha's Cakes",
     address: "255 Mendell Street, San Francisco",
     key: "ChIJTxsVA3x_j4ARaUusSEYqLaI",
@@ -16716,15 +17624,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Clay Oven Indian Restaurant",
-    address: "385 West Portal Avenue, San Francisco",
-    key: "ChIJ61FO7799j4AR4znNWXI2FGc",
+    name: "The Italian Homemade Company",
+    address: "716 Columbus Avenue, San Francisco",
+    key: "ChIJpzBpPPCAhYARSVWETFcLf8M",
     image_attribution: null
   },
   {
-    name: "Dragon Beaux",
-    address: "5700 Geary Boulevard, San Francisco",
-    key: "ChIJXbSH3w-HhYAR7x1xc3I2GGA",
+    name: "The Stinking Rose",
+    address: "325 Columbus Avenue, San Francisco",
+    key: "ChIJW52Si_OAhYAR-jAC1-iQh_c",
+    image_attribution: null
+  },
+  {
+    name: "Presidio Social Club",
+    address: "563 Ruger St, San Francisco",
+    key: "ChIJt5TuaSuHhYARYj412gmqenY",
     image_attribution: null
   },
   {
@@ -16734,22 +17648,11 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "The Italian Homemade Company",
-    address: "716 Columbus Avenue, San Francisco",
-    key: "ChIJpzBpPPCAhYARSVWETFcLf8M",
-    image_attribution: null
-  },
-  {
-    name: "Chuy's Fiestas Restaurant",
-    address: "2341 Folsom Street, San Francisco",
-    key: "ChIJ80jW0tJ_j4ARwPVUcuATtS0",
-    image_attribution: null
-  },
-  {
-    name: "Alexander's Steakhouse",
-    address: "448 Brannan Street, San Francisco",
-    key: "ChIJVST7ANZ_j4ARbkYi2s36GQ8",
-    image_attribution: null
+    name: "Castagna",
+    address: "2015 Chestnut St, San Francisco",
+    key: "ChIJmT-MSNeAhYARDL829O4us0o",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/105095563289136986556\">Ben Holfeld</a>']"
   },
   {
     name: "Cafe La Flore Irving",
@@ -16758,9 +17661,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Shanghai Dumpling King",
-    address: "696 Monterey Boulevard, San Francisco",
-    key: "ChIJndb2Idd9j4ARhGRNOFmsQko",
+    name: "Sam's Grill & Seafood Restaurant",
+    address: "374 Bush Street, San Francisco",
+    key: "ChIJk0b6hYmAhYARWaxB5KIql44",
+    image_attribution: null
+  },
+  {
+    name: "The Cakemaker",
+    address: "509 Laguna Street, San Francisco",
+    key: "ChIJgaweOKKAhYARwJy6kEGt0Ck",
     image_attribution: null
   },
   {
@@ -16776,27 +17685,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Howells",
-    address: "2373 Chestnut Street, San Francisco",
-    key: "ChIJxa3rONSAhYARnJI7phh_yoU",
-    image_attribution: null
-  },
-  {
-    name: "Red Door Coffee",
-    address: "111 Minna St, San Francisco",
-    key: "ChIJo4KWMX2AhYARWaFbtenR8Hk",
-    image_attribution: null
-  },
-  {
-    name: "May Lee Chinese Restaurant",
-    address: "1256 7th Avenue, San Francisco",
-    key: "ChIJAw2hcFyHhYAR7LpAHGGPRWI",
-    image_attribution: null
-  },
-  {
     name: "Radio Africa Kitchen",
     address: "4800 3rd Street, San Francisco",
     key: "ChIJxfIvbwV_j4ARK9wf9ZPtDIg",
+    image_attribution: null
+  },
+  {
+    name: "Lafayette Coffee Shop",
+    address: "611 Larkin St, San Francisco",
+    key: "ChIJE1uwh5CAhYAR_dOKYatnfR8",
+    image_attribution: null
+  },
+  {
+    name: "Cafe Hana",
+    address: "1737 Post St #368, San Francisco",
+    key: "ChIJo0XH17iAhYARlY2RB67Gqdw",
+    image_attribution: null
+  },
+  {
+    name: "Bluestone Lane Theatre District Coffee Shop",
+    address: "562 Sutter St, San Francisco",
+    key: "ChIJ3da1WXCBhYAR7ye5adJwtqk",
+    image_attribution: null
+  },
+  {
+    name: "Hong Kong Clay Pot Restaurant",
+    address: "960 Grant Avenue, San Francisco",
+    key: "ChIJFUvxpPSAhYARe7KCl28GNo8",
+    image_attribution: null
+  },
+  {
+    name: "Lao Table",
+    address: "149 2nd Street, San Francisco",
+    key: "ChIJlzpQKH2AhYARxeGIpYu53Tw",
+    image_attribution: null
+  },
+  {
+    name: "Prima Cafe",
+    address: "215 Fremont St #5b, San Francisco",
+    key: "ChIJs49MTXuAhYARsbPUjsk0NsY",
+    image_attribution: null
+  },
+  {
+    name: "Out the Door",
+    address: "Ferry Building, One, #5, San Francisco",
+    key: "ChIJWTGPjmaAhYARUxKI6M_KDjA",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "3101 24th St, San Francisco",
+    key: "ChIJNZoFtUd-j4ARJedNpFz-mow",
     image_attribution: null
   },
   {
@@ -16812,45 +17751,28 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "EA Cafe",
-    address: "735 3rd Street, San Francisco",
-    key: "ChIJN8uMPyx_j4ARxqlVc1-5AFI",
-    image_attribution: null
-  },
-  {
-    name: "Bissap Baobab",
-    address: "3386 19th Street, San Francisco",
-    key: "ChIJTQclezx-j4ARMFZgsF-o5n4",
-    image_attribution: null
-  },
-  {
-    name: "Huli Huli Hawaiian Grill",
-    address: "4100 3rd Street, San Francisco",
-    key: "ChIJSevbkQh_j4ARTKbJ6dD-POY",
-    image_attribution: null
-  },
-  {
-    name: "David Rio Chai Bar",
-    address: "1019 Market Street, San Francisco",
-    key: "ChIJ_Vae_ISAhYARD3_cAM1pxlc",
-    image_attribution: null
-  },
-  {
-    name: "El Burrito Express 2",
-    address: "1812 Divisadero Street, San Francisco",
-    key: "ChIJZ4zSlsmAhYARGC3iSUOCwwA",
-    image_attribution: null
-  },
-  {
     name: "Basik Cafe",
     address: "1958 Polk St, San Francisco",
     key: "ChIJE7ORMuqAhYARhwqqtuLNvIo",
     image_attribution: null
   },
   {
-    name: "Peet's",
-    address: "201 California St Suite R2113, San Francisco",
-    key: "ChIJZ76fAGGAhYARt65UQHRzxq8",
+    name: "The Dinner Detective Murder Mystery Show - San Francisco",
+    address: "500 California St, San Francisco",
+    key: "ChIJNz-GLWCAhYARXwTgGNiemKw",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/104978988445235574301\">The Dinner Detective Murder Mystery Show - San Francisco</a>']"
+  },
+  {
+    name: "La Fusion",
+    address: "475 Pine Street, San Francisco",
+    key: "ChIJ6cMAL4qAhYARKiIsnkNhl3c",
+    image_attribution: null
+  },
+  {
+    name: "Okoze Sushi",
+    address: "1207 Union Street, San Francisco",
+    key: "ChIJQ85exOiAhYARXnuX-6jjgUs",
     image_attribution: null
   },
   {
@@ -16860,33 +17782,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fayala, Mediterranean Grill & Catering",
-    address: "215 Fremont Street #2b, San Francisco",
-    key: "ChIJb_fBtGSAhYARVbyteMOqmB8",
-    image_attribution: null
-  },
-  {
-    name: "Red Dog",
-    address: "303 2nd Street, San Francisco",
-    key: "ChIJR1lRCnyAhYARjnuMoCkf2BM",
-    image_attribution: null
-  },
-  {
-    name: "Sam's Grill & Seafood Restaurant",
-    address: "374 Bush Street, San Francisco",
-    key: "ChIJk0b6hYmAhYARWaxB5KIql44",
-    image_attribution: null
-  },
-  {
-    name: "Les Gourmands Bakery",
-    address: "280 5th Street, San Francisco",
-    key: "ChIJ5eYU2ICAhYARfaMn9EAgh_c",
-    image_attribution: null
-  },
-  {
     name: "Jackson Place Cafe",
     address: "633 Battery St, San Francisco",
     key: "ChIJ2crx4F-AhYARO7DCxq9vjXk",
+    image_attribution: null
+  },
+  {
+    name: "AA Bakery & Cafe",
+    address: "1068 Stockton Street, San Francisco",
+    key: "ChIJ8YgsQvOAhYAR_JVBv7g_aCE",
+    image_attribution: null
+  },
+  {
+    name: "Kitchen Story",
+    address: "3499 16th Street, San Francisco",
+    key: "ChIJ_wloDhx-j4AR636PeyqpwKY",
+    image_attribution: null
+  },
+  {
+    name: "Beard Papa's",
+    address: "99 Yerba Buena Lane, San Francisco",
+    key: "ChIJoYMGtoeAhYARWYW_7QDido0",
+    image_attribution: null
+  },
+  {
+    name: "Waterfront Restaurant",
+    address: "7 The Embarcadero, San Francisco",
+    key: "ChIJu6kOQV6AhYARD3bFxmyGqqY",
     image_attribution: null
   },
   {
@@ -16902,34 +17824,11 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Waterfront Restaurant",
-    address: "7 The Embarcadero, San Francisco",
-    key: "ChIJu6kOQV6AhYARD3bFxmyGqqY",
-    image_attribution: null
-  },
-  {
-    name: "The Sausage Factory",
-    address: "517 Castro Street, San Francisco",
-    key: "ChIJZ-IoLxt-j4AR2WQKV7ESwZk",
-    image_attribution: ""
-  },
-  {
-    name: "Yukol Place Thai Cuisine",
-    address: "2380 Lombard Street, San Francisco",
-    key: "ChIJLRT7pdaAhYARMYUBV3YGSLY",
-    image_attribution: null
-  },
-  {
-    name: "Over The Moon Creamery",
-    address: "2144 Chestnut Street, San Francisco",
-    key: "ChIJJdOk3daAhYARxB6kA5-wSf0",
-    image_attribution: null
-  },
-  {
-    name: "El Castillito",
-    address: "136 Church Street #1111, San Francisco",
-    key: "ChIJT-F2BB5-j4ARiT9-VLUWApA",
-    image_attribution: null
+    name: "Recchiuti Confections at theLab",
+    address: "801 22nd St, San Francisco",
+    key: "ChIJ1-lA-rl_j4ARi5hT4A762sg",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/114854422548446490469\">Div Manickam</a>']"
   },
   {
     name: "Boulettes Larder + Boulibar",
@@ -16944,45 +17843,52 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Focaccia Market Bakery",
-    address: "1198 Mission Street, San Francisco",
-    key: "ChIJjU9jtpyAhYAR_7MzSzs7dZM",
+    name: "Elephant Sushi",
+    address: "1916 Hyde Street, San Francisco",
+    key: "ChIJIXme1uiAhYARonEfUDgz0A4",
     image_attribution: null
   },
   {
-    name: "Chico's Grill",
-    address: "3771 Mission Street, San Francisco",
-    key: "ChIJaZiFXHN_j4ARKBs-wqq5sQs",
+    name: "Pete's Bar-B-Que",
+    address: "2399 Mission Street, San Francisco",
+    key: "ChIJq6qWDjx-j4ARnCG0F7ZuvGg",
     image_attribution: null
   },
   {
-    name: "Daigo Sushi",
-    address: "2450 Clement Street, San Francisco",
-    key: "ChIJQ8Fl0AWHhYARMt0QfxaGZ0g",
+    name: "Red Door Coffee",
+    address: "111 Minna St, San Francisco",
+    key: "ChIJo4KWMX2AhYARWaFbtenR8Hk",
     image_attribution: null
   },
   {
-    name: "MONTESACRO Pinseria SF",
-    address: "510 Stevenson Street, San Francisco",
-    key: "ChIJL726-YSAhYARYJeA6x0pp6A",
-    image_attribution: ""
-  },
-  {
-    name: "Happy Shabu Shabu",
-    address: "1401 Fillmore Street, San Francisco",
-    key: "ChIJo0r4gLmAhYARzkQqz2lPv-E",
+    name: "ONE65 San Francisco",
+    address: "165 O'Farrell Street, San Francisco",
+    key: "ChIJzxVWOIeBhYARSNZy095UfLA",
     image_attribution: null
   },
   {
-    name: "District Tea",
-    address: "2154 Mission Street, San Francisco",
-    key: "ChIJY9SkXqp_j4ARWW8AD7UGWkk",
+    name: "Hop Oast Pub & Brewery",
+    address: "2887 Bryant Street, San Francisco",
+    key: "ChIJkUK59wp_j4ARJm2m0DF2DVk",
     image_attribution: null
   },
   {
-    name: "Xpresso Tea",
-    address: "6901 Geary Blvd, San Francisco",
-    key: "ChIJJxiDOKiHhYARcI2oZr4YBL4",
+    name: "3rd Cousin",
+    address: "919 Cortland Ave, San Francisco",
+    key: "ChIJ-XhIwll-j4AR5epLtDr2Bco",
+    image_attribution: null
+  },
+  {
+    name: "Sushirrito - FIDI Transamerica",
+    address: "475 Sansome Street entrance on, Clay St, San Francisco",
+    key: "ChIJqbFRgIqAhYAR2AzT68aT20s",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/109390435694009071263\">Sushirrito - FIDI Transamerica</a>']"
+  },
+  {
+    name: "House of Sushi",
+    address: "2157 Polk Street, San Francisco",
+    key: "ChIJZXIQu-mAhYARwYVGdWZzoQw",
     image_attribution: null
   },
   {
@@ -16992,16 +17898,11 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "Cumaica Coffee",
-    address: "2800 California St, San Francisco",
-    key: "ChIJdUcFAJaBhYARZYwJninw6_M",
-    image_attribution: null
-  },
-  {
-    name: "Palmer's Tavern",
-    address: "2298 Fillmore Street, San Francisco",
-    key: "ChIJT4mybMaAhYARcaINPW-Wfdc",
-    image_attribution: null
+    name: "JV Skin & Beauty",
+    address: "4207 24th St, San Francisco",
+    key: "ChIJT5MsKsOAhYAREu719SUN8Gg",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/106312472929306901797\">JV Skin &amp; Beauty</a>']"
   },
   {
     name: "Caf\u00e9 Josephine",
@@ -17016,39 +17917,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Little Delhi",
-    address: "83 Eddy Street, San Francisco",
-    key: "ChIJc92wj4WAhYAR7I5Vdu50VbQ",
-    image_attribution: null
+    name: "Atelier Crenn",
+    address: "3127 Fillmore St, San Francisco",
+    key: "ChIJx1ULhNCAhYARSRq9NDWTeqI",
+    image_attribution: ""
   },
   {
     name: "Cafe Tiramisu",
     address: "28 Belden Place, San Francisco",
     key: "ChIJbSfsh4mAhYARw3sPjSSUL_Y",
-    image_attribution: null
-  },
-  {
-    name: "Atelier Crenn",
-    address: "3127 Fillmore St, San Francisco",
-    key: "ChIJx1ULhNCAhYARSRq9NDWTeqI",
-    image_attribution: null
-  },
-  {
-    name: "Papalote",
-    address: "3409 24th Street, San Francisco",
-    key: "ChIJCcE5hkB-j4AR0GUTa2VyJV4",
-    image_attribution: null
-  },
-  {
-    name: "Mozzarella Di Bufala Pizzeria",
-    address: "69 West Portal Avenue, San Francisco",
-    key: "ChIJn6NWIC59j4ARMMQDaNDSTyQ",
-    image_attribution: null
-  },
-  {
-    name: "Hollow",
-    address: "1435 Irving St, San Francisco",
-    key: "ChIJ5dpeQGaHhYARvGu-dP6AxwM",
     image_attribution: null
   },
   {
@@ -17088,39 +17965,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Que Huong Vietnamese Deli",
-    address: "2138 Irving Street, San Francisco",
-    key: "ChIJd6T3G3CHhYARl_5BSV7xpLM",
-    image_attribution: null
-  },
-  {
-    name: "Popsons Burgers",
-    address: "998 Market St, San Francisco",
-    key: "ChIJYbpOD4WAhYARbOASyN_S8EU",
-    image_attribution: null
-  },
-  {
     name: "Zona Rosa",
     address: "1797 Haight Street, San Francisco",
     key: "ChIJzwKs0lOHhYARDQ3xyPcqbNg",
     image_attribution: null
   },
   {
-    name: "Wasabi Bistro",
-    address: "524 Castro Street #2512, San Francisco",
-    key: "ChIJATa0Lht-j4ARYhqlmWOC4qY",
+    name: "Philz Coffee",
+    address: "399 Golden Gate Ave, San Francisco",
+    key: "ChIJH7w1a5qAhYARSHYy_wjbPr4",
     image_attribution: null
   },
   {
-    name: "Noe Valley Bakery West Portal",
-    address: "28 W Portal Ave, San Francisco",
-    key: "ChIJaa96Vup9j4ARldDj3cZVJ-M",
-    image_attribution: null
-  },
-  {
-    name: "An Japanese Restaurant",
-    address: "22 Peace Plz #510, San Francisco",
-    key: "ChIJ9UNO0L6AhYARzock0NnfE2I",
+    name: "The Epicurean Trader",
+    address: "401 Cortland Avenue, San Francisco",
+    key: "ChIJXTCo4lt-j4ARCV-4g2LtHXc",
     image_attribution: null
   },
   {
@@ -17130,21 +17989,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Belcampo Meat Co. (Oakland)",
-    address: "55 Webster St, Oakland",
-    key: "ChIJP8vx7MiAj4ARpmaDLF-IQ4g",
-    image_attribution: null
-  },
-  {
     name: "Linguini's",
     address: "1508 Park St, Alameda",
     key: "ChIJLSa065WGj4ARll5JuiTIun8",
     image_attribution: null
   },
   {
-    name: "The Laundry",
-    address: "3359 26th St, San Francisco",
-    key: "ChIJ8cCkoEZ-j4ARfnhtmZbAkYg",
+    name: "Kingston 11 Cuisine",
+    address: "2270 Telegraph Ave, Oakland",
+    key: "ChIJXx-mXqyAj4ARMT-HGmGlB3w",
+    image_attribution: null
+  },
+  {
+    name: "Golden Gate Market Deli & Liquor",
+    address: "2767 Lombard Street, San Francisco",
+    key: "ChIJJRwMNCuHhYARbKX6eAO5DAw",
+    image_attribution: null
+  },
+  {
+    name: "Off the Hook Seafood & Super Burritos",
+    address: "2432 Telegraph Ave, Oakland",
+    key: "ChIJoxLEbAn6MhURruBUYtyYft4",
     image_attribution: null
   },
   {
@@ -17154,9 +18019,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Golden Gate Market Deli & Liquor",
-    address: "2767 Lombard Street, San Francisco",
-    key: "ChIJJRwMNCuHhYARbKX6eAO5DAw",
+    name: "Luka's Taproom & Lounge",
+    address: "2221 Broadway, Oakland",
+    key: "ChIJozwvGa2Aj4ARBwnti6Zpp-8",
+    image_attribution: null
+  },
+  {
+    name: "Happy Shabu Shabu",
+    address: "1401 Fillmore Street, San Francisco",
+    key: "ChIJo0r4gLmAhYARzkQqz2lPv-E",
+    image_attribution: null
+  },
+  {
+    name: "La Boulangerie de San Francisco, Montgomery",
+    address: "655 Montgomery St, San Francisco",
+    key: "ChIJ8ewt24qAhYARa8tl8j-8rOA",
+    image_attribution: null
+  },
+  {
+    name: "Belcampo Meat Co. (Oakland)",
+    address: "55 Webster St, Oakland",
+    key: "ChIJP8vx7MiAj4ARpmaDLF-IQ4g",
     image_attribution: null
   },
   {
@@ -17172,27 +18055,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kingston 11 Cuisine",
-    address: "2270 Telegraph Ave, Oakland",
-    key: "ChIJXx-mXqyAj4ARMT-HGmGlB3w",
-    image_attribution: null
-  },
-  {
-    name: "Off the Hook Seafood & Super Burritos",
-    address: "2432 Telegraph Ave, Oakland",
-    key: "ChIJoxLEbAn6MhURruBUYtyYft4",
-    image_attribution: null
-  },
-  {
     name: "Cafe Crush",
     address: "3943 Piedmont Ave, Oakland",
     key: "ChIJqbbNf_d9hYARlfL1Eierb0A",
-    image_attribution: null
-  },
-  {
-    name: "Luka's Taproom & Lounge",
-    address: "2221 Broadway, Oakland",
-    key: "ChIJozwvGa2Aj4ARBwnti6Zpp-8",
     image_attribution: null
   },
   {
@@ -17220,31 +18085,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name:
-      "The Original Ghirardelli Ice Cream & Chocolate Shop at Ghirardelli Square",
-    address: "900 North Point St #52, San Francisco",
-    key: "ChIJvXl2weCAhYARjSxnhzrBfNc",
-    image_attribution: null
-  },
-  {
-    name: "Hop Oast Pub & Brewery",
-    address: "2887 Bryant Street, San Francisco",
-    key: "ChIJkUK59wp_j4ARJm2m0DF2DVk",
-    image_attribution: null
-  },
-  {
-    name: "Barebottle Brewing Company",
-    address: "1525 Cortland Avenue, San Francisco",
-    key: "ChIJH5jJ8VZ-j4ARja23tGUOAzE",
-    image_attribution: null
-  },
-  {
-    name: "Mudrakers Cafe",
-    address: "2801 Telegraph Ave, Berkeley",
-    key: "ChIJSRYpTdN9hYARS6AYMNb8GnM",
-    image_attribution: null
-  },
-  {
     name: "Trader Vic's Emeryville",
     address: "9 Anchor Dr, Emeryville",
     key: "ChIJH61_VFJ-hYARxvoUZ-jtdOY",
@@ -17269,18 +18109,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jump'n Java Coffeehouse",
-    address: "6606 Shattuck Ave, Oakland",
-    key: "ChIJM173pHh-hYAR-cXug1FCZMI",
-    image_attribution: null
-  },
-  {
-    name: "My Ivy",
-    address: "1901 Divisadero Street, San Francisco",
-    key: "ChIJC4Q1eMmAhYARz51rYdvouPw",
-    image_attribution: null
-  },
-  {
     name: "Sliver Pizzeria",
     address: "2468 Telegraph Ave, Berkeley",
     key: "ChIJgcK9wZ1-hYARfP8Bos54j3w",
@@ -17293,9 +18121,28 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Grandma\u2019s Deli & Cafe",
-    address: "1551 Mission St, San Francisco",
-    key: "ChIJYwUn5Z2AhYARUbqNBzDqHbU",
+    name:
+      "The Original Ghirardelli Ice Cream & Chocolate Shop at Ghirardelli Square",
+    address: "900 North Point St #52, San Francisco",
+    key: "ChIJvXl2weCAhYARjSxnhzrBfNc",
+    image_attribution: null
+  },
+  {
+    name: "My Ivy",
+    address: "1901 Divisadero Street, San Francisco",
+    key: "ChIJC4Q1eMmAhYARz51rYdvouPw",
+    image_attribution: null
+  },
+  {
+    name: "Extreme Pizza",
+    address: "1730 Fillmore Street, San Francisco",
+    key: "ChIJPSC7XbiAhYARboTbQridw2k",
+    image_attribution: null
+  },
+  {
+    name: "Cafe La Taza",
+    address: "470 Post St, San Francisco",
+    key: "ChIJWaNqi46AhYARnDgYNMMK0qA",
     image_attribution: null
   },
   {
@@ -17305,57 +18152,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Gran Taco Loco",
-    address: "4591 Mission Street, San Francisco",
-    key: "ChIJAQAAAEN-j4AROYuqKyodwaA",
+    name: "Mudrakers Cafe",
+    address: "2801 Telegraph Ave, Berkeley",
+    key: "ChIJSRYpTdN9hYARS6AYMNb8GnM",
     image_attribution: null
   },
   {
-    name: "Southie",
-    address: "6311 College Ave, Oakland",
-    key: "ChIJTff8asV9hYARGr-RnSed2yM",
-    image_attribution: null
-  },
-  {
-    name: "FEY Restaurant",
-    address: "1368 El Camino Real, Menlo Park",
-    key: "ChIJJ0dW5KWkj4AREKzj85yKGhw",
-    image_attribution: null
-  },
-  {
-    name: "Brew City Grill",
-    address: "651 W Hamilton Ave Suite 1070, Campbell",
-    key: "ChIJo8gAiYI1joARCYWTsP9QQk8",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "118 Paseo De San Antonio Walk, San Jose",
-    key: "ChIJt_gW1bvMj4AR6XY_0N9JiqQ",
-    image_attribution: null
-  },
-  {
-    name: "Laksa",
-    address: "1005 Guerrero Street, San Francisco",
-    key: "ChIJWVrkOT5-j4ARQTdaW14UP0s",
-    image_attribution: null
-  },
-  {
-    name: "Roy's Station Coffee & Tea",
-    address: "197 Jackson St, San Jose",
-    key: "ChIJF9mblITMj4ARzz2Pv8MTbOY",
-    image_attribution: null
-  },
-  {
-    name: "Philz Coffee",
-    address: "113 S B St, San Mateo",
-    key: "ChIJSxVfz3Cej4ARQUquk9bsvs0",
-    image_attribution: null
-  },
-  {
-    name: "Pelican Inn",
-    address: "10 Pacific Way, Muir Beach",
-    key: "ChIJKR3BXM6PhYARi5MgD0ksggg",
+    name: "Jump'n Java Coffeehouse",
+    address: "6606 Shattuck Ave, Oakland",
+    key: "ChIJM173pHh-hYAR-cXug1FCZMI",
     image_attribution: null
   },
   {
@@ -17365,9 +18170,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "El Gran Taco Loco",
+    address: "4591 Mission Street, San Francisco",
+    key: "ChIJAQAAAEN-j4AROYuqKyodwaA",
+    image_attribution: null
+  },
+  {
     name: "Avatar's Punjabi Burritos",
     address: "15 Madrona St, Mill Valley",
     key: "ChIJxzR9m22QhYARcpaoZJkgqhg",
+    image_attribution: null
+  },
+  {
+    name: "Southie",
+    address: "6311 College Ave, Oakland",
+    key: "ChIJTff8asV9hYARGr-RnSed2yM",
     image_attribution: null
   },
   {
@@ -17383,28 +18200,69 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "Wildflower Cafe",
-    address: "411 Sansome St, San Francisco",
-    key: "ChIJm_Rm1WGAhYARfTNzfXItvRY",
+    name: "FEY Restaurant",
+    address: "1368 El Camino Real, Menlo Park",
+    key: "ChIJJ0dW5KWkj4AREKzj85yKGhw",
     image_attribution: null
   },
   {
-    name:
-      "Serendipia Life - Community Coliving & Coworking for Startups and Digital Nomads.",
-    address: "717 Union Street, San Francisco",
-    key: "ChIJfXSQufGAhYARuhXtXXfKYSo",
+    name: "Southside Spirit House",
+    address: "575 Howard St, San Francisco",
+    key: "ChIJHzz-wXyAhYARha8nlCgjEYw",
     image_attribution: null
   },
   {
-    name: "Parallel 37",
-    address: "600 Stockton Street, San Francisco",
-    key: "ChIJf17NcIyAhYARjeQrOo_ATpY",
+    name: "Brew City Grill",
+    address: "651 W Hamilton Ave Suite 1070, Campbell",
+    key: "ChIJo8gAiYI1joARCYWTsP9QQk8",
     image_attribution: null
   },
   {
-    name: "El Azteca Taqueria",
-    address: "5298 3rd Street #2602, San Francisco",
-    key: "ChIJC0qJTBp_j4ARDrJ7TOVfR8s",
+    name: "Roy's Station Coffee & Tea",
+    address: "197 Jackson St, San Jose",
+    key: "ChIJF9mblITMj4ARzz2Pv8MTbOY",
+    image_attribution: null
+  },
+  {
+    name: "Laksa",
+    address: "1005 Guerrero Street, San Francisco",
+    key: "ChIJWVrkOT5-j4ARQTdaW14UP0s",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "118 Paseo De San Antonio Walk, San Jose",
+    key: "ChIJt_gW1bvMj4AR6XY_0N9JiqQ",
+    image_attribution: null
+  },
+  {
+    name: "Philz Coffee",
+    address: "113 S B St, San Mateo",
+    key: "ChIJSxVfz3Cej4ARQUquk9bsvs0",
+    image_attribution: null
+  },
+  {
+    name: "Pelican Inn",
+    address: "10 Pacific Way, Muir Beach",
+    key: "ChIJKR3BXM6PhYARi5MgD0ksggg",
+    image_attribution: null
+  },
+  {
+    name: "Ker Davis",
+    address: "405 Davis Court, San Francisco",
+    key: "ChIJCSqDZyyBhYARWEZMkBxZ0lk",
+    image_attribution: null
+  },
+  {
+    name: "Ajisen Ramen | San Francisco",
+    address: "865 Market Street Unit# C012, San Francisco",
+    key: "ChIJ6zMe3oWAhYAR5VJ5_NjWQT8",
+    image_attribution: null
+  },
+  {
+    name: "Bobo's Bistro",
+    address: "600 York Street, San Francisco",
+    key: "ChIJReii_St_j4ARVBkN78_F60M",
     image_attribution: null
   },
   {
@@ -17413,12 +18271,6 @@ const SFPlaces = [
     key: "ChIJB1gEkEGHj4ARleeyMyJa6y4",
     image_attribution:
       "['<a href=\"https://maps.google.com/maps/contrib/114317989991702828113\">Lloyd Meltzer</a>']"
-  },
-  {
-    name: "Loving Hut Vegan Restaurant",
-    address: "524 Irving Street, San Francisco",
-    key: "ChIJ80VA9VuHhYARGWJ3KxASgSE",
-    image_attribution: null
   },
   {
     name: "The Beer Hall",
@@ -17439,12 +18291,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Deli Man",
-    address: "200 Ocean Avenue, San Francisco",
-    key: "ChIJ7UU8NOx_j4ARGfUiaY8D5aM",
-    image_attribution: null
-  },
-  {
     name: "Tilak",
     address: "3501 Mission Street, San Francisco",
     key: "ChIJPRMebV1-j4ARb2xjOvfcOHU",
@@ -17457,51 +18303,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Piccolo Italia Pizza",
-    address: "799 O'Farrell Street, San Francisco",
-    key: "ChIJdSi1MZGAhYARjEThAVgfyCE",
+    name: "HITW Coffee",
+    address: "524 Union St, San Francisco",
+    key: "ChIJp8zEOPGAhYAR4VicktsDkf0",
     image_attribution: null
   },
   {
-    name: "Axum Cafe",
-    address: "698 Haight Street, San Francisco",
-    key: "ChIJrzd4bqaAhYARCFvwlxb1rJk",
-    image_attribution: null
+    name: "Steep Creamery & Tea",
+    address: "270 Brannan St, San Francisco",
+    key: "ChIJiRaLtHmAhYARlhDlED1oZVc",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/104060386270451533380\">Emily Lin</a>']"
   },
   {
-    name: "The Blarney Stone Bar",
-    address: "5625 Geary Boulevard, San Francisco",
-    key: "ChIJDZjvLxCHhYARzo4Mnl2t2Hw",
-    image_attribution: null
-  },
-  {
-    name: "Swamp",
-    address: "5423 Geary Boulevard, San Francisco",
-    key: "ChIJh0xMABGHhYARF2yWpOxrkvo",
-    image_attribution: null
-  },
-  {
-    name: "Bamb\u016b Desserts & Drinks",
-    address: "6050 Geary Blvd, San Francisco",
-    key: "ChIJXx-YZg-HhYAR7hP_-q8DGew",
-    image_attribution: null
-  },
-  {
-    name: "Chili Lemon Garlic",
-    address: "518 Bryant Street, San Francisco",
-    key: "ChIJfcFgJX-AhYAR9WXDAz0FwGg",
-    image_attribution: null
-  },
-  {
-    name: "Weaver's Coffee & Tea - San Francisco Cafe",
-    address: "2301 Market Street Ground Left Floor, San Francisco",
-    key: "ChIJyfzYjxx-j4ARNKuQtGp1P8g",
-    image_attribution: null
-  },
-  {
-    name: "Patxi's Pizza",
-    address: "822 Irving Street, San Francisco",
-    key: "ChIJKyOQrV2HhYARn6Nj1iOLe7o",
+    name: "Molinari Delicatessen",
+    address: "373 Columbus Avenue, San Francisco",
+    key: "ChIJLQ_v7fOAhYARmIEp06tMtdM",
     image_attribution: null
   },
   {
@@ -17517,6 +18334,18 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wise Sons Bagel & Coffee",
+    address: "537 Octavia Street, San Francisco",
+    key: "ChIJdYa7Y6KAhYARFMLxZvWvkhM",
+    image_attribution: null
+  },
+  {
+    name: "Matching Half",
+    address: "1799 McAllister St, San Francisco",
+    key: "ChIJraGpLLKAhYARsWqJ-sBBQhM",
+    image_attribution: null
+  },
+  {
     name: "SAMS American Eatery",
     address: "1220 Market Street, San Francisco",
     key: "ChIJY6ryfpuAhYARB56CT6K2q9w",
@@ -17529,39 +18358,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dumpling Time Express",
-    address: "55 Division Street, San Francisco",
-    key: "ChIJ9fA8aTd_j4ARf8kPDTC8_es",
+    name: "Scoma's Restaurant",
+    address: "1965 Al Scoma Way, San Francisco",
+    key: "ChIJrcYeh_yAhYARNMwNAmHKa5c",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116537081871593306466\">Simon Chan</a>']"
+  },
+  {
+    name: "Philz Coffee",
+    address: "5 Embarcadero Center, San Francisco",
+    key: "ChIJrXyusmaAhYARHy-30QCG2e4",
     image_attribution: null
   },
   {
-    name: "Mo'z Cafe",
-    address: "5 Masonic Ave, San Francisco",
-    key: "ChIJd2OmoUqHhYARuMtfXRS_b-g",
-    image_attribution: null
-  },
-  {
-    name: "Isla Vida",
-    address: "1325 Fillmore St, San Francisco",
-    key: "ChIJ22IEGyuBhYARb1pc6eVXDPg",
-    image_attribution: null
-  },
-  {
-    name: "Bi-Rite Market",
-    address: "3639 18th Street, San Francisco",
-    key: "ChIJ_WI-BRh-j4AR1EnWvxsCVOg",
-    image_attribution: null
-  },
-  {
-    name: "Fresca",
-    address: "737 Irving Street, San Francisco",
-    key: "ChIJfXWUSFyHhYARGAHku32S-Aw",
-    image_attribution: null
-  },
-  {
-    name: "Pho Ga",
-    address: "1310 Noriega Street, San Francisco",
-    key: "ChIJF_oV4g2HhYARzzOwL-SRuLg",
+    name: "Venticello",
+    address: "1257 Taylor Street, San Francisco",
+    key: "ChIJu6hfXu2AhYARPh4mJt9dlIA",
     image_attribution: null
   },
   {
@@ -17577,9 +18389,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "La Santaneca De La Mission",
-    address: "2815 Mission Street, San Francisco",
-    key: "ChIJE5XHNEd-j4ARg3FHI9GhEKg",
+    name: "Che Fico Alimentari",
+    address: "834 Divisadero Street, San Francisco",
+    key: "ChIJY9av7ViBhYAR3ejAF435Xz4",
     image_attribution: null
   },
   {
@@ -17595,15 +18407,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fraiche Catering San Francisco",
-    address: "156 2nd St, San Francisco",
-    key: "ChIJswjIJX2AhYARlouYjazAfQY",
+    name: "Cherry Blossom Bakery",
+    address: "1552 Ocean Avenue, San Francisco",
+    key: "ChIJNz-nkM19j4ARJnHa4f99kiY",
     image_attribution: null
   },
   {
-    name: "Eastern Bakery",
-    address: "720 Grant Avenue, San Francisco",
-    key: "ChIJ5-AzaYuAhYARrZDTtCChxcs",
+    name: "Beep's Burgers",
+    address: "1051 Ocean Avenue, San Francisco",
+    key: "ChIJIYVDyix8j4ARqtH43HjqjiU",
+    image_attribution: null
+  },
+  {
+    name: "Miki",
+    address: "3639 Balboa Street, San Francisco",
+    key: "ChIJD3uL46WHhYARBV3WsyupA3M",
+    image_attribution: null
+  },
+  {
+    name: "Osteria Bella",
+    address: "3848 Geary Boulevard, San Francisco",
+    key: "ChIJEdpSWtiHhYARDqsRqu5HKes",
+    image_attribution: null
+  },
+  {
+    name: "La Boulangerie de San Francisco, Cole",
+    address: "1000 Cole St, San Francisco",
+    key: "ChIJScUDqlWHhYARBRj5rNnqNwA",
     image_attribution: null
   },
   {
@@ -17613,88 +18443,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Roz Ka Affaire",
-    address: "60 Morris Street, San Francisco",
-    key: "ChIJy9zIpCp-j4ARm4qNbWn27rc",
-    image_attribution: null
-  },
-  {
-    name: "Popeyes Louisiana Kitchen",
-    address: "599 Divisadero Street, San Francisco",
-    key: "ChIJbWezy6-AhYARSd0u0fvs1Mo",
-    image_attribution: null
-  },
-  {
-    name: "Ming Kee Restaurant",
-    address: "1548 Ocean Avenue, San Francisco",
-    key: "ChIJY79sms19j4ARyofumcSb1hA",
-    image_attribution: null
-  },
-  {
-    name: "Kama Sushi",
-    address: "1497 Church Street, San Francisco",
-    key: "ChIJZS4kNWp-j4ARecujZkOV4mo",
-    image_attribution: null
-  },
-  {
-    name: "Xiao Loong Restaurant",
-    address: "250 West Portal Avenue, San Francisco",
-    key: "ChIJGwxhpep9j4ARCAYqC_bO0dQ",
-    image_attribution: null
-  },
-  {
-    name: "Monterey Pizza & Asian Zap",
-    address: "599 Monterey Boulevard, San Francisco",
-    key: "ChIJb0gAUNZ9j4ARCTZ8KI-N-PI",
-    image_attribution: null
-  },
-  {
-    name: "Jiangnan Cuisine",
-    address: "3420 Balboa Street, San Francisco",
-    key: "ChIJwbSm6XmHhYARZLz1x7MWzQA",
-    image_attribution: null
-  },
-  {
-    name: "AK BBQ",
-    address: "1820 Clement Street, San Francisco",
-    key: "ChIJ_2PPnxqHhYARukT_g7Rw_y4",
-    image_attribution: null
-  },
-  {
-    name: "Silver Cafe",
-    address: "4300 Mission St, San Francisco",
-    key: "ChIJ4zP_u4l-j4ARE5uWj6bTdGQ",
-    image_attribution: null
-  },
-  {
-    name: "Samila Thai Restaurant",
-    address: "2415 Clement Street #1921, San Francisco",
-    key: "ChIJR3YA4hCHhYARGsdIJOoPKwI",
-    image_attribution: null
-  },
-  {
     name: "Eat Americana",
     address: "3532 Balboa Street, San Francisco",
     key: "ChIJSa0lEqaHhYAROeP7n5WxD3Q",
     image_attribution: null
   },
   {
-    name: "Tartine Inner Sunset",
-    address: "1226 9th Ave, San Francisco",
-    key: "ChIJ0Q91SDiHhYARqyW_QFvhdSI",
-    image_attribution: ""
-  },
-  {
-    name: "ODSY Workshop",
-    address: "2039 Irving St, San Francisco",
-    key: "ChIJ0z44u5p9j4ARQtJbZ_CApU0",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/114228951768410324668\">Amy Selyne</a>']"
-  },
-  {
-    name: "Bini's Kitchen",
-    address: "1001 Howard Street, San Francisco",
-    key: "ChIJEdyidwaBhYARuB8t_8IycuM",
+    name: "La Cuisine Cafe",
+    address: "1145 Market St, San Francisco",
+    key: "ChIJATlgTU6BhYAR_GqOgpcXxuc",
     image_attribution: null
   },
   {
@@ -17704,75 +18461,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bask",
-    address: "42 Columbus Avenue, San Francisco",
-    key: "ChIJB7FqKfWAhYARMR5vIrw979c",
+    name: "La Reyna Bakery & Coffee Shop",
+    address: "3114 24th Street, San Francisco",
+    key: "ChIJESJJsUd-j4ARmw7zig84E0I",
     image_attribution: null
   },
   {
-    name: "Orexi Restaurant",
-    address: "243 West Portal Avenue, San Francisco",
-    key: "ChIJ3aZEoup9j4ARxE_26NSz3qU",
+    name: "Frena Bakery and Caf\u00e9 - Temporary Closed",
+    address: "5549 Geary Blvd, San Francisco",
+    key: "ChIJ2ddbeJyHhYARW-Wh_8iDwHM",
     image_attribution: null
   },
   {
-    name: "Potrero Center",
-    address: "2300 16th Street, San Francisco",
-    key: "ChIJYymVeHF_j4ARfTiKQAwCK5Y",
+    name: "S & T Hong Kong Seafood Restaurant",
+    address: "2578 Noriega Street, San Francisco",
+    key: "ChIJ_ZZWW3-HhYAR0n1cV5VdK9Y",
     image_attribution: null
   },
   {
-    name: "Banh Mi House",
-    address: "2701 San Bruno Avenue, San Francisco",
-    key: "ChIJWXnT7-J-j4AR5wn2heRZd-k",
+    name: "Chapeau!",
+    address: "126 Clement Street, San Francisco",
+    key: "ChIJs0HxgDmHhYARAoIYlNJMScA",
     image_attribution: null
   },
   {
-    name: "Philz Coffee",
-    address: "4298 24th St, San Francisco",
-    key: "ChIJXdV9NAx-j4ARbaEXhONbYvc",
+    name: "Arinell Pizza",
+    address: "509 Valencia Street, San Francisco",
+    key: "ChIJDdusUSJ-j4ARXq2RH2f_S9A",
     image_attribution: null
   },
   {
-    name: "Noe Valley Bakery",
-    address: "4073 24th Street, San Francisco",
-    key: "ChIJc-2jWRJ-j4AROB7b2Bw356o",
+    name: "Farmhouse Kitchen Thai Cuisine",
+    address: "710 Florida Street, San Francisco",
+    key: "ChIJNZloNTd-j4ARxGMOXZp7KfI",
     image_attribution: null
   },
   {
-    name: "Marina Submarine",
-    address: "2299 Union Street, San Francisco",
-    key: "ChIJLeGcQ9CAhYAR9WfvtgxAnJ8",
+    name: "Great Gold",
+    address: "3161 24th St, San Francisco",
+    key: "ChIJC1qmgeF_j4ARlA6AkK0ssNc",
     image_attribution: null
   },
   {
-    name: "Double Shot Coffee",
-    address: "4587 Mission St #2603, San Francisco",
-    key: "ChIJx0GJs4h-j4ARfCtCjZFIX_o",
-    image_attribution: null
-  },
-  {
-    name: "Andrea's Bakery",
-    address: "4511 Mission Street, San Francisco",
-    key: "ChIJDStv6oh-j4AR12XjBtzPcGw",
-    image_attribution: null
-  },
-  {
-    name: "Yo Soy Cafe Guatemalteco",
-    address: "4794 Mission St, San Francisco",
-    key: "ChIJAXh_qIV-j4ARZS4Y-GZQxQ0",
-    image_attribution: null
-  },
-  {
-    name: "El Ahorro Market & Deli",
-    address: "3456 Mission Street, San Francisco",
-    key: "ChIJS8yQQF1-j4ARNUxlr6VGkOU",
-    image_attribution: null
-  },
-  {
-    name: "Recovery Room",
-    address: "4528 Mission Street, San Francisco",
-    key: "ChIJAQBFvIh-j4ARUyEYIXXBBpA",
+    name: "Mescolanza Restaurant",
+    address: "3750 Geary Boulevard, San Francisco",
+    key: "ChIJM0oxsTmHhYARA59beZo8Yyo",
     image_attribution: null
   },
   {
@@ -17794,9 +18527,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mount Zion Cafe - UCSF Medical Center",
-    address: "1600 Divisadero St, San Francisco",
-    key: "ChIJZ2CoKLaAhYARyQmkR5XBZrI",
+    name: "Nabe",
+    address: "2151 Lombard Street, San Francisco",
+    key: "ChIJJRkByNCAhYARcT6uozdSsTs",
+    image_attribution: null
+  },
+  {
+    name: "Clay Oven Indian Restaurant",
+    address: "385 West Portal Avenue, San Francisco",
+    key: "ChIJ61FO7799j4AR4znNWXI2FGc",
+    image_attribution: null
+  },
+  {
+    name: "Daigo Sushi",
+    address: "2450 Clement Street, San Francisco",
+    key: "ChIJQ8Fl0AWHhYARMt0QfxaGZ0g",
     image_attribution: null
   },
   {
@@ -17812,81 +18557,69 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Queens",
-    address: "1235 9th Avenue, San Francisco",
-    key: "ChIJkwacUZWAhYARDwFqVHuEGpc",
-    image_attribution: null
-  },
-  {
-    name: "23rd liquor store",
-    address: "3558 23rd Street, San Francisco",
-    key: "ChIJ3aU3xj9-j4ARKZOfYM6q2LU",
-    image_attribution: null
-  },
-  {
     name: "Ardiana",
     address: "1781 Church St, San Francisco",
     key: "ChIJ8ZGwZ2h-j4ARKs84xfu9jKs",
     image_attribution: ""
   },
   {
-    name: "The Sentinel",
-    address: "37 New Montgomery Street, San Francisco",
-    key: "ChIJcTnoH4iAhYARFWB-p5hD9ek",
+    name: "Equator Coffees",
+    address: "2 Marina Blvd, San Francisco",
+    key: "ChIJA_rvjdiAhYARb0vVE-Pyauk",
     image_attribution: null
   },
   {
-    name: "Urban Ritual Cafe",
-    address: "488 Fell St, San Francisco",
-    key: "ChIJX7KNJy1-j4ARfn1gMtb2ryM",
+    name: "Pane e Vino",
+    address: "1715 Union Street, San Francisco",
+    key: "ChIJYZV_MsOAhYAR8LBb3YV34ic",
     image_attribution: null
   },
   {
-    name: "The Little Chihuahua",
-    address: "292 Divisadero Street, San Francisco",
-    key: "ChIJ8y_0Oa-AhYARvwNaeQL0it8",
+    name: "Blue Plate",
+    address: "3218 Mission Street, San Francisco",
+    key: "ChIJ7d1kDkN-j4ARLXO5JZwg7NI",
     image_attribution: null
   },
   {
-    name: "King of Thai Noodle CA",
-    address: "1539 Taraval Street, San Francisco",
-    key: "ChIJycbQ0Zp9j4ARLDwmomCPNck",
+    name: "Charlie's Deli Cafe",
+    address: "3202 Folsom St, San Francisco",
+    key: "ChIJNeUlcEV-j4AR-7DejKJ0hpY",
     image_attribution: null
   },
   {
-    name: "Oz Pizza CA",
-    address: "508 Castro Street #32, San Francisco",
-    key: "ChIJHZOVLRt-j4ARzVNQdhGoA5U",
+    name: "Caffe Capriccio",
+    address: "2200 Mason St, San Francisco",
+    key: "ChIJH6woNuWAhYARs9r_wd98_yg",
     image_attribution: null
   },
   {
-    name: "Early to Rise - Scratch Made Brunch",
-    address: "1098 Jackson Street, San Francisco",
-    key: "ChIJ8w-xYiSBhYARhNGm1rkxp8s",
+    name: "Beer 39",
+    address: "Pier 39, #240, San Francisco",
+    key: "ChIJGacF4_yAhYARys00ee3rkrw",
     image_attribution: null
   },
   {
-    name: "PRAIRIE",
-    address: "3431 19th St, San Francisco",
-    key: "ChIJeY5y9Wp_j4ARgpw-7Hx-JhE",
+    name: "Sharetea",
+    address: "135 4th Street, San Francisco",
+    key: "ChIJJSqlCYeAhYAReD302mSW-1g",
     image_attribution: null
   },
   {
-    name: "Golden Kim Tar",
-    address: "434 Larkin Street, San Francisco",
-    key: "ChIJWUiFDJqAhYARURdNqAtlWJQ",
+    name: "Shizen Vegan Sushi Bar and Izakaya",
+    address: "370 14th Street, San Francisco",
+    key: "ChIJIVHOoCF-j4ARnw6y25XWmMA",
     image_attribution: null
   },
   {
-    name: "Big Joe's",
-    address: "717 Monterey Boulevard, San Francisco",
-    key: "ChIJ02wIJtd9j4ARw2ZKkm8M8aQ",
-    image_attribution: null
+    name: "b. patisserie",
+    address: "2821 California Street, San Francisco",
+    key: "ChIJ59WgYcmAhYARu5gLD0FVpw4",
+    image_attribution: ""
   },
   {
-    name: "Panda Express",
-    address: "865 Market Street, San Francisco",
-    key: "ChIJ6zMe3oWAhYARnzWg8eN5dKY",
+    name: "Que Huong Vietnamese Deli",
+    address: "2138 Irving Street, San Francisco",
+    key: "ChIJd6T3G3CHhYARl_5BSV7xpLM",
     image_attribution: null
   },
   {
@@ -17926,39 +18659,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Martha & Brothers Coffee",
-    address: "401 Irving St, San Francisco",
-    key: "ChIJL9qT3VuHhYARzRLc53aVM6s",
+    name: "K. Minamoto",
+    address: "648 Market Street, San Francisco",
+    key: "ChIJ67hQOoiAhYARpCTbtF-yPuo",
     image_attribution: null
   },
   {
-    name: "Sake Bomb",
-    address: "2878 24th Street, San Francisco",
-    key: "ChIJBWMrma5_j4ARW248gnW8EU8",
+    name: "Mission Chinese Food",
+    address: "2234 Mission Street, San Francisco",
+    key: "ChIJmZN_ljx-j4ARF16HqVQ2vnI",
     image_attribution: null
   },
   {
-    name: "Sakesan Sushi & Robata",
-    address: "1400 Ocean Avenue, San Francisco",
-    key: "ChIJX9-6Dz99j4AR_mjts53S788",
+    name: "The Rotunda",
+    address: "150 Stockton St Level Four, San Francisco",
+    key: "ChIJ2QAWz4iAhYARhwcyOa3aaoQ",
     image_attribution: null
   },
   {
-    name: "Vega",
-    address: "419 Cortland Ave, San Francisco",
-    key: "ChIJackiWVl-j4AR4B57aGb0iYM",
+    name: "La Mediterranee",
+    address: "2210 Fillmore St, San Francisco",
+    key: "ChIJO_VxP8aAhYARYcwPRkTq51c",
     image_attribution: null
   },
   {
-    name: "Sun Kwong Restaurant",
-    address: "1400 Jackson Street, San Francisco",
-    key: "ChIJ-ZZTduyAhYARzyxellr3s6Q",
-    image_attribution: null
-  },
-  {
-    name: "Velvet Cantina",
-    address: "3349 23rd Street, San Francisco",
-    key: "ChIJ46VhQz9-j4ARCbFaSOAeQhw",
+    name: "Palmer's Tavern",
+    address: "2298 Fillmore Street, San Francisco",
+    key: "ChIJT4mybMaAhYARcaINPW-Wfdc",
     image_attribution: null
   },
   {
@@ -17980,81 +18707,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Luisa's Restaurant and Wine Bar - since 1959",
-    address: "759 Columbus Avenue, San Francisco",
-    key: "ChIJ9ZOhTc-BhYARJrHA1b3kBJM",
-    image_attribution: null
-  },
-  {
-    name: "The Italian Homemade Company",
-    address: "1919 Union Street, San Francisco",
-    key: "ChIJuSLVS9uAhYARQVqsZ6vLuX0",
-    image_attribution: null
-  },
-  {
-    name: "Nopalito",
-    address: "306 Broderick St, San Francisco",
-    key: "ChIJWdx6WK6AhYARchLwAKyG4-Y",
-    image_attribution: ""
-  },
-  {
-    name: "YH-Beijing",
-    address: "500 Haight Street, San Francisco",
-    key: "ChIJ5Z8qxqaAhYARm_WgusAlTrU",
-    image_attribution: null
-  },
-  {
     name: "La Laguna",
     address: "3906 3rd Street, San Francisco",
     key: "ChIJL-8TQwh_j4AR39gvp4dnz80",
     image_attribution: null
   },
   {
-    name: "North Beach Restaurant",
-    address: "1512 Stockton Street, San Francisco",
-    key: "ChIJlWNdb_GAhYARzwP8oA7x_xU",
+    name: "Frog Hollow Farm-To-Table Cafe",
+    address: "San Francisco Bay Trail #46, San Francisco",
+    key: "ChIJs-cnjWaAhYARRBnVTVHIs-4",
     image_attribution: null
   },
   {
-    name: "Hermanos Coffee + Juice",
-    address: "650 California St, San Francisco",
-    key: "ChIJMaYZpIuAhYARJKSlQd-Tzr8",
+    name: "Sakesan Sushi & Robata",
+    address: "1400 Ocean Avenue, San Francisco",
+    key: "ChIJX9-6Dz99j4AR_mjts53S788",
     image_attribution: null
   },
   {
-    name: "The Laundry Caf\u00e9",
-    address: "3359 26th Street, San Francisco",
-    key: "ChIJrYkr8yZ_j4ARBLbT2aha9Yo",
+    name: "Orexi Restaurant",
+    address: "243 West Portal Avenue, San Francisco",
+    key: "ChIJ3aZEoup9j4ARxE_26NSz3qU",
     image_attribution: null
   },
   {
-    name: "Carlin's Cafe",
-    address: "298 Valencia St, San Francisco",
-    key: "ChIJazk5tyF-j4ARP2SrkFuPuYs",
-    image_attribution: null
-  },
-  {
-    name: "The Mill",
-    address: "736 Divisadero St, San Francisco",
-    key: "ChIJVzS3LbCAhYAR6Dw2KqlhWhg",
-    image_attribution: null
-  },
-  {
-    name: "Bi-Rite Market",
-    address: "550 Divisadero Street, San Francisco",
-    key: "ChIJ49sQuK-AhYARM6U646SA12Y",
-    image_attribution: null
-  },
-  {
-    name: "Sakana Sushi Bar & Grill",
-    address: "605 Post Street, San Francisco",
-    key: "ChIJhb7OEI6AhYAR0erQPfGXf5c",
-    image_attribution: null
-  },
-  {
-    name: "The Posh Bagel",
-    address: "Four Embarcadero Center, San Francisco",
-    key: "ChIJVVVVqWGAhYARR6PFjzXzOxQ",
+    name: "Jiangnan Cuisine",
+    address: "3420 Balboa Street, San Francisco",
+    key: "ChIJwbSm6XmHhYARZLz1x7MWzQA",
     image_attribution: null
   },
   {
@@ -18064,9 +18743,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Oren's Hummus",
-    address: "71 3rd St, San Francisco",
-    key: "ChIJhWX_g6-BhYARuyGn5I4CYnY",
+    name: "Cafe Francisco",
+    address: "2161 Powell St, San Francisco",
+    key: "ChIJPVPQ2vqAhYARUABMhT-GiB8",
+    image_attribution: null
+  },
+  {
+    name: "CorePower Yoga",
+    address: "215 Fremont St, San Francisco",
+    key: "ChIJb_fBtGSAhYARk3sWGzo8Ew0",
+    image_attribution: null
+  },
+  {
+    name: "4505 Burgers & BBQ",
+    address: "705 Divisadero St, San Francisco",
+    key: "ChIJNVlL07GAhYAR_9rzTYSV1as",
+    image_attribution: null
+  },
+  {
+    name: "Mr. T Cafe",
+    address: "4689 Mission St, San Francisco",
+    key: "ChIJiYhI9IV-j4AR_E608UKRzyM",
+    image_attribution: null
+  },
+  {
+    name: "An Chi Vietnamese Cuisine",
+    address: "4683 Mission Street, San Francisco",
+    key: "ChIJE3TH9YV-j4ARaiS605OjS6g",
+    image_attribution: null
+  },
+  {
+    name: "Diamond Cafe",
+    address: "751 Diamond St, San Francisco",
+    key: "ChIJwwBtkg1-j4ARNAU_kCNTPy8",
+    image_attribution: null
+  },
+  {
+    name: "The Posh Bagel",
+    address: "Four Embarcadero Center, San Francisco",
+    key: "ChIJVVVVqWGAhYARR6PFjzXzOxQ",
+    image_attribution: null
+  },
+  {
+    name: "Kezar Bar & Restaurant",
+    address: "900 Cole Street, San Francisco",
+    key: "ChIJzUFZV1SHhYARo9gMH2CdnGY",
+    image_attribution: ""
+  },
+  {
+    name: "Garden House Cafe",
+    address: "3117 Clement St, San Francisco",
+    key: "ChIJV_Av3amHhYAR7d5C1Qb_QPw",
     image_attribution: null
   },
   {
@@ -18088,18 +18815,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Aliment",
-    address: "786 Bush Street, San Francisco",
-    key: "ChIJhyDxy42AhYAR8SOzQVbT92s",
-    image_attribution: null
-  },
-  {
-    name: "Volcano Curry",
-    address: "5454 Geary Boulevard, San Francisco",
-    key: "ChIJ7WgRVBCHhYAR2y16INCJvkk",
-    image_attribution: null
-  },
-  {
     name: "b&b - Banh Mi & Boba",
     address: "1634 Irving Street, San Francisco",
     key: "ChIJlzcziBeHhYARGw7EZJJpyE8",
@@ -18118,57 +18833,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kahnfections",
-    address: "3321 20th Street, San Francisco",
-    key: "ChIJmUH6gzl-j4ARY24jL7NcAeQ",
-    image_attribution: ""
-  },
-  {
-    name: "Marlowe",
-    address: "500 Brannan St, San Francisco",
-    key: "ChIJK08gKtR_j4ARKyo5suJ6o2I",
+    name: "Cheung Hing Restaurant",
+    address: "2339 Noriega Street, San Francisco",
+    key: "ChIJQ3ft_H6HhYARioaiUclAh-o",
     image_attribution: null
   },
   {
-    name: "Boba Guys Fillmore",
-    address: "1522 Fillmore Street, San Francisco",
-    key: "ChIJ77Z4oLmAhYARlMZ7RrZ4-Xo",
+    name: "Underground Grill Kings",
+    address: "2543 Noriega Street, San Francisco",
+    key: "ChIJK2MVaX-HhYAR0-fNN2pcBgI",
     image_attribution: null
   },
   {
-    name: "Henry's Hunan Restaurant",
-    address: "4753 Mission St, San Francisco",
-    key: "ChIJz1lCl4V-j4ARUHoIehlX9XM",
-    image_attribution: null
-  },
-  {
-    name: "Taqueria Vallarta",
-    address: "4696 Mission Street, San Francisco",
-    key: "ChIJjeDN84V-j4AR9eVWDLXQ8tA",
-    image_attribution: null
-  },
-  {
-    name: "Silver Crest Donut Shop",
-    address: "340 Bayshore Boulevard, San Francisco",
-    key: "ChIJ31hlDlR-j4ARbjIaRCSl-gY",
-    image_attribution: null
-  },
-  {
-    name: "Bai Som Thai Kitchen",
-    address: "2121 Clement Street, San Francisco",
-    key: "ChIJ55aqQgWHhYARUIQUTYyldjQ",
-    image_attribution: null
-  },
-  {
-    name: "Vietnam Grille",
-    address: "10386 San Pablo Ave, El Cerrito",
-    key: "ChIJx5JjEBx5hYAR1eOB40LHho4",
-    image_attribution: null
-  },
-  {
-    name: "Soi 4 Bangkok Eatery",
-    address: "5421 College Ave, Oakland",
-    key: "ChIJtQyjU-h9hYARC8rcnTkET_w",
+    name: "Sushi On North Beach",
+    address: "745 Columbus Avenue, San Francisco",
+    key: "ChIJN5MFI_CAhYAROzrAZf_p8GY",
     image_attribution: null
   },
   {
@@ -18184,15 +18863,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "DOSA on Fillmore",
-    address: "1700 Fillmore St, San Francisco",
-    key: "ChIJV0-YWbiAhYARBNSks82WU90",
+    name: "Vietnam Grille",
+    address: "10386 San Pablo Ave, El Cerrito",
+    key: "ChIJx5JjEBx5hYAR1eOB40LHho4",
     image_attribution: null
   },
   {
-    name: "Stonemill Matcha",
-    address: "561 Valencia St, San Francisco",
-    key: "ChIJlxonA45_j4ARQXnrT2rNHpY",
+    name: "Soi 4 Bangkok Eatery",
+    address: "5421 College Ave, Oakland",
+    key: "ChIJtQyjU-h9hYARC8rcnTkET_w",
     image_attribution: null
   },
   {
@@ -18220,9 +18899,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Caf\u00e9 Colucci",
+    address: "6427 Telegraph Ave, Oakland",
+    key: "ChIJAU8uONd9hYARuDjBMqEE9O4",
+    image_attribution: null
+  },
+  {
+    name: "Ahadu",
+    address: "6430 Telegraph Ave, Oakland",
+    key: "ChIJQbx7Ntd9hYARW8Yu9nOFISw",
+    image_attribution: null
+  },
+  {
+    name: "Los Cilantros",
+    address: "3105 Shattuck Ave, Berkeley",
+    key: "ChIJBVOIUX9-hYARPJQv60_ruNA",
+    image_attribution: null
+  },
+  {
+    name: "Equator Coffees",
+    address: "175 Bay Pl, Oakland",
+    key: "ChIJWQZf8E2Hj4ARneCLWFotC-U",
+    image_attribution: null
+  },
+  {
+    name: "modern coffee",
+    address: "381 19th St, Oakland",
+    key: "ChIJSze3-7KAj4ARAVVfQvHPz6Q",
+    image_attribution: null
+  },
+  {
+    name: "Coloso Coffee",
+    address: "917 Washington St, Oakland",
+    key: "ChIJ4bNUEbOAj4ARrdBhUzMlZc0",
+    image_attribution: null
+  },
+  {
     name: "The Habit Burger Grill",
     address: "5108 Broadway Ste K105, Oakland",
     key: "ChIJgSK3au59hYARx7zzuhHkZi0",
+    image_attribution: null
+  },
+  {
+    name: "H D RICE Noodle",
+    address: "1800-1814 21st Avenue, San Francisco",
+    key: "ChIJ7frbgmKHhYARGZnd7DmafYY",
+    image_attribution: null
+  },
+  {
+    name: "Pronto Pizza",
+    address: "798 Eddy Street, San Francisco",
+    key: "ChIJVa1hEJeAhYARyYmff70y94U",
+    image_attribution: null
+  },
+  {
+    name: "M\u1ed9ng Thu Cafe",
+    address: "248 Hyde St, San Francisco",
+    key: "ChIJAXz2hpCAhYARglSWLEiRrvY",
     image_attribution: null
   },
   {
@@ -18253,84 +18986,6 @@ const SFPlaces = [
     name: "Cafe Lakeview",
     address: "2834 Lakeshore Ave, Oakland",
     key: "ChIJH8aa0UaHj4ARSHFM1PAedKU",
-    image_attribution: null
-  },
-  {
-    name: "Caf\u00e9 Colucci",
-    address: "6427 Telegraph Ave, Oakland",
-    key: "ChIJAU8uONd9hYARuDjBMqEE9O4",
-    image_attribution: null
-  },
-  {
-    name: "Ahadu",
-    address: "6430 Telegraph Ave, Oakland",
-    key: "ChIJQbx7Ntd9hYARW8Yu9nOFISw",
-    image_attribution: null
-  },
-  {
-    name: "Los Cilantros",
-    address: "3105 Shattuck Ave, Berkeley",
-    key: "ChIJBVOIUX9-hYARPJQv60_ruNA",
-    image_attribution: null
-  },
-  {
-    name: "John's Grill",
-    address: "63 Ellis Street, San Francisco",
-    key: "ChIJe9MuVY-AhYARb8Su4vUOneY",
-    image_attribution: null
-  },
-  {
-    name: "Cup Caf\u00e9",
-    address: "6 Monterey Blvd, San Francisco",
-    key: "ChIJy5S4MGN-j4ARpJbMTWMAdis",
-    image_attribution: null
-  },
-  {
-    name: "One Waan SF",
-    address: "2922 Diamond Street, San Francisco",
-    key: "ChIJYwuIT8t_j4ARbcansviEFD4",
-    image_attribution: null
-  },
-  {
-    name: "Equator Coffees",
-    address: "175 Bay Pl, Oakland",
-    key: "ChIJWQZf8E2Hj4ARneCLWFotC-U",
-    image_attribution: null
-  },
-  {
-    name: "modern coffee",
-    address: "381 19th St, Oakland",
-    key: "ChIJSze3-7KAj4ARAVVfQvHPz6Q",
-    image_attribution: null
-  },
-  {
-    name: "Coloso Coffee",
-    address: "917 Washington St, Oakland",
-    key: "ChIJ4bNUEbOAj4ARrdBhUzMlZc0",
-    image_attribution: null
-  },
-  {
-    name: "Lale",
-    address: "731 Irving St, San Francisco",
-    key: "ChIJIfzVR1yHhYARXWeZ7wM9ePs",
-    image_attribution: null
-  },
-  {
-    name: "Souley Vegan",
-    address: "301 Broadway, Oakland",
-    key: "ChIJ6Std_beAj4ARWpiH_QbONe8",
-    image_attribution: null
-  },
-  {
-    name: "Breadbelly",
-    address: "1408 Clement St, San Francisco",
-    key: "ChIJ06Hh75aHhYARre2ZXOUDzXY",
-    image_attribution: null
-  },
-  {
-    name: "Sheng Kee Bakery",
-    address: "1941 Irving Street, San Francisco",
-    key: "ChIJgUsiim-HhYARvXpf88Ja05Y",
     image_attribution: null
   },
   {
@@ -18370,27 +19025,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Richfield",
-    address: "195 5th Ave, San Francisco",
-    key: "ChIJS4v2gTyHhYARkPXRclp9h3Y",
+    name: "Souley Vegan",
+    address: "301 Broadway, Oakland",
+    key: "ChIJ6Std_beAj4ARWpiH_QbONe8",
     image_attribution: null
   },
   {
-    name: "Sakesan Sushi & Bistro",
-    address: "626 Clement Street, San Francisco",
-    key: "ChIJHcytSTyHhYARqU90ywBB6mM",
+    name: "Cup-A-Joe Coffee House",
+    address: "896 Sutter St, San Francisco",
+    key: "ChIJ7-CpMZKAhYARXn1dOTqFjus",
     image_attribution: null
   },
   {
-    name: "Holy Gelato!",
-    address: "1392 9th Ave, San Francisco",
-    key: "ChIJicQrgl6HhYARDsnMswiLkbQ",
+    name: "Dottie's True Blue Caf\u00e9",
+    address: "28 6th St, San Francisco",
+    key: "ChIJXbxV1JGAhYARPXnXlHU1eoY",
     image_attribution: null
   },
   {
-    name: "Grill N Curry",
-    address: "1033 Irving Street, San Francisco",
-    key: "ChIJ89Xlu7WHhYARWVlejX6enq0",
+    name: "State Bird Provisions",
+    address: "1529 Fillmore St, San Francisco",
+    key: "ChIJQ7kGpLmAhYARKeCe2pDobWk",
+    image_attribution: ""
+  },
+  {
+    name: "Cafe de Casa",
+    address: "3985 17th Street, San Francisco",
+    key: "ChIJPWoYgzd_j4AR7PrwT99dxNc",
+    image_attribution: null
+  },
+  {
+    name: "Green Taste Vegan Goods",
+    address: "775 Filbert Street, San Francisco",
+    key: "ChIJc88XKfCAhYARl8QHsiVED6s",
+    image_attribution: null
+  },
+  {
+    name: "Phuket",
+    address: "248 Divisadero Street, San Francisco",
+    key: "ChIJj5InyqiAhYARy_95sgB_AaE",
+    image_attribution: null
+  },
+  {
+    name: "Shanghai Dumpling King",
+    address: "696 Monterey Boulevard, San Francisco",
+    key: "ChIJndb2Idd9j4ARhGRNOFmsQko",
     image_attribution: null
   },
   {
@@ -18424,69 +19103,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Boudin Bakery",
-    address: "Boudin Bakery, 399 10th Avenue, San Francisco",
-    key: "ChIJI3YP-z2HhYAR3jZ7jVbwU2k",
+    name: "The Richfield",
+    address: "195 5th Ave, San Francisco",
+    key: "ChIJS4v2gTyHhYARkPXRclp9h3Y",
     image_attribution: null
   },
   {
-    name: "San Francisco",
-    address: "8418 International Blvd, Oakland",
-    key: "ChIJ3ZbOTPSFj4AReBX9NNLkhe8",
+    name: "The Creamery",
+    address: "685 4th St, San Francisco",
+    key: "ChIJ8YUefdZ_j4ART8gb7SJeblY",
     image_attribution: null
   },
   {
-    name: "Cafe Enchante",
-    address: "at 26th, 6157 Geary Blvd, San Francisco",
-    key: "ChIJGT98Wg-HhYAR-M3CrbUiuf4",
-    image_attribution: null
+    name: "Chez maman east",
+    address: "1401 18th Street, San Francisco",
+    key: "ChIJ3Z-klTX2MhURU5oSfoXRWaw",
+    image_attribution: ""
   },
   {
-    name: "Old Weang Ping",
-    address: "6217 MacArthur Blvd, Oakland",
-    key: "ChIJS45XbQSGj4AR-4EXQCQW1CM",
-    image_attribution: null
-  },
-  {
-    name: "Five Guys",
-    address: "2254 S Shore Center, Alameda",
-    key: "ChIJNT1ROKWGj4AR3i-GGPLuI7M",
-    image_attribution: null
-  },
-  {
-    name: "Mi\u1ec1n T\u00e2y",
-    address: "1218 15th Ave, Oakland",
-    key: "ChIJ4cRR9SCHj4AR-zDi4yLya-I",
-    image_attribution: null
-  },
-  {
-    name: "Quinn's Lighthouse",
-    address: "1951 Embarcadero, Oakland",
-    key: "ChIJgzSQ8t2Gj4AR8XRuFFazhaU",
-    image_attribution: null
-  },
-  {
-    name: "Mom's Bun Mi",
-    address: "1400 14th Ave, Oakland",
-    key: "ChIJxX6n_SCHj4ART0ajhnwHc6M",
-    image_attribution: null
-  },
-  {
-    name: "Miss Saigon",
-    address: "3345 Grand Ave, Oakland",
-    key: "ChIJYQD6ckOHj4ARK5F3TShf5R4",
-    image_attribution: null
-  },
-  {
-    name: "The Star on Park",
-    address: "1400 Park St, Alameda",
-    key: "ChIJD_MnAZaGj4ARu-I8q3HbHTo",
-    image_attribution: null
-  },
-  {
-    name: "Bardo Lounge & Supper Club",
-    address: "3343 Lakeshore Ave, Oakland",
-    key: "ChIJmW1h9DGHj4AR7sMd7nNZKLU",
+    name: "Roba's Pizza Cafe",
+    address: "2320 Powell St, Emeryville",
+    key: "ChIJubO8y1F-hYARpF1_IBJmWUc",
     image_attribution: null
   },
   {
@@ -18496,21 +19133,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Communit\u0113 Table",
-    address: "4171 MacArthur Blvd, Oakland",
-    key: "ChIJfXI3tziGj4AR-7QKk-dqKtY",
+    name: "Mi\u1ec1n T\u00e2y",
+    address: "1218 15th Ave, Oakland",
+    key: "ChIJ4cRR9SCHj4AR-zDi4yLya-I",
     image_attribution: null
   },
   {
-    name: "Trabocco Kitchen and Cocktails",
-    address: "2213 S Shore Center, Alameda",
-    key: "ChIJ4ZCsCLCGj4AR2_-Be1Yd04c",
+    name: "Boudin Bakery",
+    address: "Boudin Bakery, 399 10th Avenue, San Francisco",
+    key: "ChIJI3YP-z2HhYAR3jZ7jVbwU2k",
     image_attribution: null
   },
   {
-    name: "Roba's Pizza Cafe",
-    address: "2320 Powell St, Emeryville",
-    key: "ChIJubO8y1F-hYARpF1_IBJmWUc",
+    name: "Quinn's Lighthouse",
+    address: "1951 Embarcadero, Oakland",
+    key: "ChIJgzSQ8t2Gj4AR8XRuFFazhaU",
     image_attribution: null
   },
   {
@@ -18526,15 +19163,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Mom's Bun Mi",
+    address: "1400 14th Ave, Oakland",
+    key: "ChIJxX6n_SCHj4ART0ajhnwHc6M",
+    image_attribution: null
+  },
+  {
+    name: "Miss Saigon",
+    address: "3345 Grand Ave, Oakland",
+    key: "ChIJYQD6ckOHj4ARK5F3TShf5R4",
+    image_attribution: null
+  },
+  {
+    name: "Communit\u0113 Table",
+    address: "4171 MacArthur Blvd, Oakland",
+    key: "ChIJfXI3tziGj4AR-7QKk-dqKtY",
+    image_attribution: null
+  },
+  {
+    name: "San Francisco",
+    address: "8418 International Blvd, Oakland",
+    key: "ChIJ3ZbOTPSFj4AReBX9NNLkhe8",
+    image_attribution: null
+  },
+  {
     name: "East Bay Spice Company",
     address: "2134 Oxford St, Berkeley",
     key: "ChIJwTh1jZ1-hYARLPjszRJw5yc",
     image_attribution: null
   },
   {
-    name: "Ann's Coffee Shop",
-    address: "772 Santa Cruz Ave, Menlo Park",
-    key: "ChIJVe9uGrCkj4ARLs-pwZSBqxQ",
+    name: "Old Weang Ping",
+    address: "6217 MacArthur Blvd, Oakland",
+    key: "ChIJS45XbQSGj4AR-4EXQCQW1CM",
+    image_attribution: null
+  },
+  {
+    name: "Five Guys",
+    address: "2254 S Shore Center, Alameda",
+    key: "ChIJNT1ROKWGj4AR3i-GGPLuI7M",
+    image_attribution: null
+  },
+  {
+    name: "Bardo Lounge & Supper Club",
+    address: "3343 Lakeshore Ave, Oakland",
+    key: "ChIJmW1h9DGHj4AR7sMd7nNZKLU",
+    image_attribution: null
+  },
+  {
+    name: "Trabocco Kitchen and Cocktails",
+    address: "2213 S Shore Center, Alameda",
+    key: "ChIJ4ZCsCLCGj4AR2_-Be1Yd04c",
+    image_attribution: null
+  },
+  {
+    name: "The Star on Park",
+    address: "1400 Park St, Alameda",
+    key: "ChIJD_MnAZaGj4ARu-I8q3HbHTo",
     image_attribution: null
   },
   {
@@ -18547,18 +19232,6 @@ const SFPlaces = [
     name: "Mumbai Local",
     address: "98 S 2nd St, San Jose",
     key: "ChIJBbFz_kPNj4ARxenN5zJ5Fmg",
-    image_attribution: null
-  },
-  {
-    name: "Maruya",
-    address: "2931 16th Street, San Francisco",
-    key: "ChIJHb_tgSR-j4ARqY7ZJ4rrUIA",
-    image_attribution: null
-  },
-  {
-    name: "Pomelo",
-    address: "92 Judah Street, San Francisco",
-    key: "ChIJ4-3LQFmHhYARty4xTzpVYK8",
     image_attribution: null
   },
   {
@@ -18592,33 +19265,58 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Maruya",
+    address: "2931 16th Street, San Francisco",
+    key: "ChIJHb_tgSR-j4ARqY7ZJ4rrUIA",
+    image_attribution: null
+  },
+  {
+    name: "Elixir",
+    address: "3200 16th St, San Francisco",
+    key: "ChIJvwAwoRh-j4AR1BKWDkmJ3-E",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112944495273528729647\">Elixir</a>']"
+  },
+  {
+    name: "Liholiho Yacht Club",
+    address: "871 Sutter St, San Francisco",
+    key: "ChIJkVSnJpKAhYARCSaDnRo5brE",
+    image_attribution: null
+  },
+  {
+    name: "Sextant Coffee Roasters",
+    address: "1415 Folsom St, San Francisco",
+    key: "ChIJg1s92Sd-j4ARTKJr-IhF_-Q",
+    image_attribution: null
+  },
+  {
     name: "Donato & Co.",
     address: "2635 Ashby Ave, Berkeley",
     key: "ChIJ7duu8c19hYARVXrcEsI7p2g",
     image_attribution: null
   },
   {
-    name: "Toast Eatery",
-    address: "1601 Polk Street, San Francisco",
-    key: "ChIJn0FBIeuAhYARIWBe1QVGoZQ",
+    name: "Ann's Coffee Shop",
+    address: "772 Santa Cruz Ave, Menlo Park",
+    key: "ChIJVe9uGrCkj4ARLs-pwZSBqxQ",
     image_attribution: null
   },
   {
-    name: "Fino",
-    address: "624 Post Street, San Francisco",
-    key: "ChIJ5-f9Go6AhYARpWIuP0BigH4",
+    name: "Bluestone Lane Union Square Coffee Shop",
+    address: "685 Market St, San Francisco",
+    key: "ChIJhQKhFIiAhYAR2WejMENujzs",
     image_attribution: null
   },
   {
-    name: "Swan Oyster Depot",
-    address: "1517 Polk St, San Francisco",
-    key: "ChIJEdGJjp6AhYAR1LtP-ptLrOg",
+    name: "DOSA on Fillmore",
+    address: "1700 Fillmore St, San Francisco",
+    key: "ChIJV0-YWbiAhYARBNSks82WU90",
     image_attribution: null
   },
   {
-    name: "Flore on Market",
-    address: "2298 Market Street, San Francisco",
-    key: "ChIJyfr-8xx-j4ARQgjNaUAceE8",
+    name: "Pakwan Restaurant",
+    address: "1140 Ocean Avenue, San Francisco",
+    key: "ChIJVay2NdN9j4ARoRYNaQbsgt4",
     image_attribution: null
   },
   {
@@ -18628,64 +19326,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "O'Flaherty's Irish Pub",
-    address: "25 N San Pedro St, San Jose",
-    key: "ChIJXYJ0qqPMj4ARuhPfAS-P6BM",
-    image_attribution: null
-  },
-  {
-    name: "Britannia Arms",
-    address: "173 W Santa Clara St, San Jose",
-    key: "ChIJmZ8fpKPMj4ARHB3FnxmRMSg",
-    image_attribution: null
-  },
-  {
-    name: "IHOP",
-    address: "644 N 1st St, San Jose",
-    key: "ChIJjS5n_YLMj4ARlfgRtxtoW00",
-    image_attribution: null
-  },
-  {
-    name: "Smoking Pig BBQ Newhall",
-    address: "530 Newhall Dr, San Jose",
-    key: "ChIJHa4zpJ_Lj4ARjtkcP2pIX68",
-    image_attribution: null
-  },
-  {
-    name: "888 Ristorante Italiano",
-    address: "888 Laurel St #3915, San Carlos",
-    key: "ChIJL0xAMxqij4ARw_KvL0mNHDg",
-    image_attribution: null
-  },
-  {
-    name: "Causwells",
-    address: "2346 Chestnut St, San Francisco",
-    key: "ChIJ78j3OdSAhYAR_nZU8ILRNUU",
-    image_attribution: null
-  },
-  {
     name: "The Argentum Project",
     address: "47 6th Street, San Francisco",
     key: "ChIJTZmxi9iBhYARssvE55VlrIY",
     image_attribution: null
   },
   {
-    name: "Liquid Gold",
-    address: "1040 Hyde St, San Francisco",
-    key: "ChIJd9toapOAhYARW8KsK-Q3OHw",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/117247301160174146038\">J Russ</a>']"
-  },
-  {
-    name: "Santorini",
-    address: "753 Laurel St, San Carlos",
-    key: "ChIJP96tbhuij4ARxT6IFsxNHg8",
+    name: "Emporium SF - Arcade Bar Venue",
+    address: "616 Divisadero Street, San Francisco",
+    key: "ChIJaSBxxa-AhYARBotIvZ6iIbE",
     image_attribution: null
   },
   {
-    name: "Three Craft Kitchen & Bar",
-    address: "50 E 3rd Ave, San Mateo",
-    key: "ChIJl7FUtXGej4AROSyu8VUTWAk",
+    name: "IHOP",
+    address: "644 N 1st St, San Jose",
+    key: "ChIJjS5n_YLMj4ARlfgRtxtoW00",
     image_attribution: null
   },
   {
@@ -18702,16 +19357,64 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
+    name: "Smoking Pig BBQ Newhall",
+    address: "530 Newhall Dr, San Jose",
+    key: "ChIJHa4zpJ_Lj4ARjtkcP2pIX68",
+    image_attribution: null
+  },
+  {
     name: "LaVier Latin Fusion Restaurant",
     address: "1025 C St, San Rafael",
     key: "ChIJkcl4b_uZhYARIG5sAIMB7Ec",
     image_attribution: null
   },
   {
-    name: "The Fly Trap",
-    address: "606 Folsom Street, San Francisco",
-    key: "ChIJ0QcpaHyAhYAR87kciITM8SE",
+    name: "Bamb\u016b Desserts & Drinks",
+    address: "6050 Geary Blvd, San Francisco",
+    key: "ChIJXx-YZg-HhYAR7hP_-q8DGew",
     image_attribution: null
+  },
+  {
+    name: "O'Flaherty's Irish Pub",
+    address: "25 N San Pedro St, San Jose",
+    key: "ChIJXYJ0qqPMj4ARuhPfAS-P6BM",
+    image_attribution: null
+  },
+  {
+    name: "Causwells",
+    address: "2346 Chestnut St, San Francisco",
+    key: "ChIJ78j3OdSAhYAR_nZU8ILRNUU",
+    image_attribution: null
+  },
+  {
+    name: "Britannia Arms",
+    address: "173 W Santa Clara St, San Jose",
+    key: "ChIJmZ8fpKPMj4ARHB3FnxmRMSg",
+    image_attribution: null
+  },
+  {
+    name: "888 Ristorante Italiano",
+    address: "888 Laurel St #3915, San Carlos",
+    key: "ChIJL0xAMxqij4ARw_KvL0mNHDg",
+    image_attribution: null
+  },
+  {
+    name: "Santorini",
+    address: "753 Laurel St, San Carlos",
+    key: "ChIJP96tbhuij4ARxT6IFsxNHg8",
+    image_attribution: null
+  },
+  {
+    name: "Three Craft Kitchen & Bar",
+    address: "50 E 3rd Ave, San Mateo",
+    key: "ChIJl7FUtXGej4AROSyu8VUTWAk",
+    image_attribution: null
+  },
+  {
+    name: "Spike's Coffees and Teas",
+    address: "4117 19th St, San Francisco",
+    key: "ChIJIwGPyxp-j4ARaAv8glHW8q4",
+    image_attribution: ""
   },
   {
     name: "Dirty Habit",
@@ -18720,15 +19423,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sushi Shio",
-    address: "206 Valencia Street, San Francisco",
-    key: "ChIJYQOh48R_j4ARfyQmUoTQtZc",
-    image_attribution: null
-  },
-  {
-    name: "HRD",
-    address: "521A 3rd Street, San Francisco",
-    key: "ChIJVciqzniAhYARoFZH_DAD8QI",
+    name: "Philz Coffee",
+    address: "4298 24th St, San Francisco",
+    key: "ChIJXdV9NAx-j4ARbaEXhONbYvc",
     image_attribution: null
   },
   {
@@ -18744,27 +19441,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Micado",
-    address: "2126 Irving Street, San Francisco",
-    key: "ChIJm9O2HXCHhYAR71DU62mp9Qs",
-    image_attribution: null
-  },
-  {
-    name: "Uncle Benny's Donut & Bagel",
-    address: "2049 Irving St, San Francisco",
-    key: "ChIJPdOt-2-HhYARfuxiok7asJg",
-    image_attribution: null
-  },
-  {
     name: "Sunday Bird",
     address: "1522 Fillmore Street, San Francisco",
     key: "ChIJ77Z4oLmAhYARsEgYygfIJ8w",
-    image_attribution: null
-  },
-  {
-    name: "Tender Greens",
-    address: "266 King Street, San Francisco",
-    key: "ChIJWbO9-9Z_j4ART_5TqrLypR8",
     image_attribution: null
   },
   {
@@ -18774,15 +19453,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jenny's Burger",
-    address: "1233 9th Avenue, San Francisco",
-    key: "ChIJN3uCAl2HhYARCbk6Y6YwlNc",
+    name: "Chez Maman West",
+    address: "401 Gough Street, San Francisco",
+    key: "ChIJ76A_lpiAhYAR6QgSjMe9MoU",
+    image_attribution: ""
+  },
+  {
+    name: "Les Croissants Cafe",
+    address: "1840 Geary Blvd, San Francisco",
+    key: "ChIJ7WGmtLmAhYAR5DWwqFdmpHI",
     image_attribution: null
   },
   {
-    name: "Donut World",
-    address: "1399 9th Avenue, San Francisco",
-    key: "ChIJfY-tgV6HhYARrdR1f4FcdrY",
+    name:
+      "Serendipia Life - Community Coliving & Coworking for Startups and Digital Nomads.",
+    address: "717 Union Street, San Francisco",
+    key: "ChIJfXSQufGAhYARuhXtXXfKYSo",
     image_attribution: null
   },
   {
@@ -18798,76 +19484,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Homeskillet San Francisco",
-    address: "1001 Market Street, San Francisco",
-    key: "ChIJXzkK_oSAhYAR2KefQnfYoog",
-    image_attribution: null
-  },
-  {
     name: "Golden Donuts",
     address: "5401 Geary Boulevard, San Francisco",
     key: "ChIJxx7gAhGHhYAR2_VxIVzAtP8",
     image_attribution: null
   },
   {
-    name: "Wise Sons Bagel & Bakery",
-    address: "1520 Fillmore St, San Francisco",
-    key: "ChIJsy7ACrmAhYARHYP0Oi-0Jvs",
+    name: "Parallel 37",
+    address: "600 Stockton Street, San Francisco",
+    key: "ChIJf17NcIyAhYARjeQrOo_ATpY",
     image_attribution: null
   },
   {
-    name: "Mrs. Fields",
-    address: "865 Market Street, San Francisco",
-    key: "ChIJ6zMe3oWAhYARVPlcJsXv9-o",
+    name: "Tai Chi",
+    address: "2031 Polk Street, San Francisco",
+    key: "ChIJ1dRZHNCBhYARXD50QQL1WsM",
     image_attribution: null
   },
   {
-    name: "Sharetea",
-    address: "135 4th Street, San Francisco",
-    key: "ChIJJSqlCYeAhYAReD302mSW-1g",
+    name: "Early to Rise - Scratch Made Brunch",
+    address: "1098 Jackson Street, San Francisco",
+    key: "ChIJ8w-xYiSBhYARhNGm1rkxp8s",
     image_attribution: null
   },
   {
-    name: "Simmer",
-    address: "1055 Taraval Street, San Francisco",
-    key: "ChIJafCfrZF9j4ARRbMWJ7vrkmg",
-    image_attribution: null
-  },
-  {
-    name: "SF Hole In The Wall Pizza",
-    address: "1825 Irving Street, San Francisco",
-    key: "ChIJj2dkgWWHhYAReMxgaDvJN-E",
-    image_attribution: null
-  },
-  {
-    name: "OH Dessert Cafe",
-    address: "1919 Irving Street, San Francisco",
-    key: "ChIJi9OavU2HhYARAvi60VPrYz0",
-    image_attribution: null
-  },
-  {
-    name: "The Crafty Fox Ale House",
-    address: "1700 Mission Street, San Francisco",
-    key: "ChIJv3Hl5CB-j4ARj3kxqXyuuZM",
-    image_attribution: null
-  },
-  {
-    name: "Fool's Errand",
-    address: "639A Divisadero St, San Francisco",
-    key: "ChIJWW9s87WBhYARuqB24z38TU4",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/111450706673730952587\">Albertino M.</a>']"
-  },
-  {
-    name: "San Tung",
-    address: "1031 Irving Street, San Francisco",
-    key: "ChIJVwLhg12HhYARcIdFDox3HxM",
-    image_attribution: null
-  },
-  {
-    name: "Barzotto",
-    address: "1270 Valencia Street, San Francisco",
-    key: "ChIJOdzzgUB-j4AR_DLWuKwqbJc",
+    name: "PRAIRIE",
+    address: "3431 19th St, San Francisco",
+    key: "ChIJeY5y9Wp_j4ARgpw-7Hx-JhE",
     image_attribution: null
   },
   {
@@ -18877,57 +19520,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Che Fico Alimentari",
-    address: "834 Divisadero Street, San Francisco",
-    key: "ChIJY9av7ViBhYAR3ejAF435Xz4",
+    name: "JORA Peruvian Cuisine POP UP",
+    address: "167 11th Street, San Francisco",
+    key: "ChIJBbExm52AhYARz28TO3HQG7o",
     image_attribution: null
   },
   {
-    name: "Pan Lido Salvadoreno",
-    address: "3147 22nd Street, San Francisco",
-    key: "ChIJgeiK0Dh-j4ARBUPQGIXiCmw",
+    name: "Oasis Grill",
+    address: "200 4th Street, San Francisco",
+    key: "ChIJg96BaoeAhYARIrnzcR8L-tY",
     image_attribution: null
   },
   {
-    name: "Fresco Pizza & Shawarma",
-    address: "1338 Polk Street, San Francisco",
-    key: "ChIJE3fY7pSAhYAR_YgdwW0FPK8",
+    name: "DragonEats",
+    address: "520 Gough Street, San Francisco",
+    key: "ChIJsZ02iJiAhYARzoeXoabmj5I",
     image_attribution: null
   },
   {
-    name: "a Mano",
-    address: "450 Hayes St, San Francisco",
-    key: "ChIJjfhunpiAhYARL76pNCCCFvg",
+    name: "Flying Pig Bistro Pub",
+    address: "433 S Van Ness Ave, San Francisco",
+    key: "ChIJIePibiR-j4ARMjsB97xDzOc",
     image_attribution: null
   },
   {
-    name: "Cafe Alma",
-    address: "888 Innes Ave, San Francisco",
-    key: "ChIJN56SFWF_j4AReIP60Fn1Mz4",
+    name: "SPQR",
+    address: "1911 Fillmore Street, San Francisco",
+    key: "ChIJCUQFkseAhYARpkr3emAuxp8",
+    image_attribution: ""
+  },
+  {
+    name: "Pastel Brazzuca",
+    address: "290 De Haro Street, San Francisco",
+    key: "ChIJC7OfzzJ-j4ARYjCQEKhC6H0",
     image_attribution: null
   },
   {
-    name: "Princess Bakery",
-    address: "4617 Mission Street, San Francisco",
-    key: "ChIJl40WVo9-j4ARsLDQnVynLhA",
-    image_attribution: null
-  },
-  {
-    name: "Cumaica Coffee",
-    address: "4726 Mission St, San Francisco",
-    key: "ChIJv9CMk4V-j4ARKR5BObiUHUs",
-    image_attribution: null
-  },
-  {
-    name: "New Royal Bakery",
-    address: "4773 Mission Street, San Francisco",
-    key: "ChIJXy1bmIV-j4ARk9x7HVuhIGQ",
-    image_attribution: null
-  },
-  {
-    name: "Cin\u00e9Arts at the Empire",
-    address: "85 West Portal Avenue, San Francisco",
-    key: "ChIJSfl29ep9j4ARo-U7RQoejA4",
+    name: "Vega",
+    address: "419 Cortland Ave, San Francisco",
+    key: "ChIJackiWVl-j4AR4B57aGb0iYM",
     image_attribution: null
   },
   {
@@ -18949,27 +19580,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "CyBelle's Front Room",
-    address: "1385 9th Avenue, San Francisco",
-    key: "ChIJdeLTgV6HhYARWnd3auwv1Ck",
+    name: "Donuts & Things",
+    address: "1549 Polk Street, San Francisco",
+    key: "ChIJBZGXKOuAhYARPeEVXP9QKac",
     image_attribution: null
   },
   {
-    name: "Urban Remedy",
-    address: "3870 24th Street, San Francisco",
-    key: "ChIJT4y3mhR-j4ARE7CN_tgZNdE",
+    name: "Cin\u00e9Arts at the Empire",
+    address: "85 West Portal Avenue, San Francisco",
+    key: "ChIJSfl29ep9j4ARo-U7RQoejA4",
     image_attribution: null
   },
   {
-    name: "Ballast Coffee",
-    address: "329 W Portal Ave, San Francisco",
-    key: "ChIJm_O5AMB9j4ARtJO87mNjhic",
-    image_attribution: null
+    name: "Mandalay Restaurant",
+    address: "4348 California Street, San Francisco",
+    key: "ChIJZTCRmjyHhYAR1aeqChJLjng",
+    image_attribution: ""
   },
   {
-    name: "Sushi Suki",
-    address: "360 West Portal Avenue C, San Francisco",
-    key: "ChIJ3RYz_b99j4ARXg5AmBKI3A8",
+    name: "Szechuan Taste Restaurant \u957f\u6c5f",
+    address: "917 Taraval Street, San Francisco",
+    key: "ChIJdy39nZF9j4ARopnX8wt-LrM",
     image_attribution: null
   },
   {
@@ -18979,34 +19610,34 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bi-Rite Cafe at Civic Center Plaza",
-    address: "52 Grove St, San Francisco",
-    key: "ChIJzwtXliWBhYAR5J7ZB50X5yw",
-    image_attribution: null
-  },
-  {
-    name: "V Cafe",
-    address: "1525 Folsom St #3720, San Francisco",
-    key: "ChIJJU-6tSd-j4ARHT6Rjf2iWAU",
-    image_attribution: null
-  },
-  {
     name: "Che Fico",
     address: "838 Divisadero St, San Francisco",
     key: "ChIJa19vTLCAhYARXDWaUW9pGwA",
+    image_attribution: ""
+  },
+  {
+    name: "Over The Moon Creamery",
+    address: "2144 Chestnut Street, San Francisco",
+    key: "ChIJJdOk3daAhYARxB6kA5-wSf0",
     image_attribution: null
   },
   {
-    name: "Dovre Club",
-    address: "1498 Valencia Street, San Francisco",
-    key: "ChIJgZ95bUF-j4ARwGYiEReWGJo",
+    name: "French Bakery",
+    address: "1101 Taraval St, San Francisco",
+    key: "ChIJBwBwv499j4ARjORE7--OPik",
     image_attribution: null
   },
   {
-    name: "El Rio",
-    address: "3158 Mission Street, San Francisco",
-    key: "ChIJQxZzkUN-j4ARMz_GqIvQJyI",
+    name: "EL CAF\u00c9",
+    address: "1400 Taraval St, San Francisco",
+    key: "ChIJqViAr5p9j4ARDPhT48vhMR8",
     image_attribution: null
+  },
+  {
+    name: "Quince",
+    address: "470 Pacific Avenue, San Francisco",
+    key: "ChIJ8biHnb-AhYARSpU8MDPb5vs",
+    image_attribution: ""
   },
   {
     name: "The Art Bistro",
@@ -19015,51 +19646,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hard Knox Cafe",
-    address: "2526 3rd St, San Francisco",
-    key: "ChIJOz17Ibp_j4ARolRA3CEhntA",
+    name: "Lucho\u2019s",
+    address: "2675 Ocean Avenue, San Francisco",
+    key: "ChIJJeonqM19j4ARP0bZKWvKkj4",
     image_attribution: null
   },
   {
-    name: "Daily Driver",
-    address: "2535 3rd St, San Francisco",
-    key: "ChIJbTcNCG9_j4AR8ezdnQGFXHo",
+    name: "New Royal Bakery",
+    address: "4773 Mission Street, San Francisco",
+    key: "ChIJXy1bmIV-j4ARk9x7HVuhIGQ",
     image_attribution: null
   },
   {
-    name: "ONE65 San Francisco",
-    address: "165 O'Farrell Street, San Francisco",
-    key: "ChIJzxVWOIeBhYARSNZy095UfLA",
+    name: "K's Kitchen",
+    address: "757 Monterey Boulevard, San Francisco",
+    key: "ChIJX4ksLdd9j4ARJUgFBJuHVZ0",
     image_attribution: null
   },
   {
-    name: "New Thai Elephant",
-    address: "393 Bay Street, San Francisco",
-    key: "ChIJU5euptGBhYAR9V5Y1NRWPZ8",
+    name: "Familiar",
+    address: "4499 Mission Street, San Francisco",
+    key: "ChIJk8kc6Yh-j4ARkecTUwz-wpA",
     image_attribution: null
   },
   {
-    name: "Neighbor Bakehouse",
-    address: "2343 3rd Street #100, San Francisco",
-    key: "ChIJwxB7url_j4ARDQCaUUgJCwo",
+    name: "Pacita's Salvadorian Bakery",
+    address: "10 Persia Avenue, San Francisco",
+    key: "ChIJ5bmo84V-j4ARCnsJnEuAbu8",
     image_attribution: null
   },
   {
-    name: "Taqueria Guadalajara",
-    address: "3146 24th Street, San Francisco",
-    key: "ChIJYSx6r0d-j4AREaWCgiz689A",
+    name: "Red Door Coffee",
+    address: "505 Howard St, San Francisco",
+    key: "ChIJLwO4qHyAhYARskbtAtuDQrE",
     image_attribution: null
   },
   {
-    name: "Lucky Ocean Cafe",
-    address: "1501 Ocean Avenue, San Francisco",
-    key: "ChIJr1Ypf819j4ARiAgqm6RlQRI",
-    image_attribution: null
-  },
-  {
-    name: "Higher Grounds Coffee House",
-    address: "691 Chenery St, San Francisco",
-    key: "ChIJmb4VnmR-j4ARzver3HK6gKU",
+    name: "Golden Bear Trading Company",
+    address: "1401 6th Ave, San Francisco",
+    key: "ChIJIZInSFmHhYAR-FHydXQaxaE",
     image_attribution: null
   },
   {
@@ -19069,28 +19694,52 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ayala Restaurant",
-    address: "398 Geary St, San Francisco",
-    key: "ChIJb5dpHDeBhYARuF8UB7_wRpU",
+    name: "Lucky Ocean Cafe",
+    address: "1501 Ocean Avenue, San Francisco",
+    key: "ChIJr1Ypf819j4ARiAgqm6RlQRI",
     image_attribution: null
   },
   {
-    name: "DNA Lounge",
-    address: "375 11th Street, San Francisco",
-    key: "ChIJc_iInSh-j4ARUkdU9Rr5lFI",
+    name: "Carlin's Cafe",
+    address: "298 Valencia St, San Francisco",
+    key: "ChIJazk5tyF-j4ARP2SrkFuPuYs",
     image_attribution: null
   },
   {
-    name: "Iza Ramen SOMA",
-    address: "1155 Folsom Street, San Francisco",
-    key: "ChIJjwBacYKAhYARfI-jSs8HAXk",
+    name: "620 Jones",
+    address: "620 Jones Street, San Francisco",
+    key: "ChIJPR_P35GAhYAR6wRwwtF7pnE",
     image_attribution: null
   },
   {
-    name: "La Ciccia",
-    address: "291 30th Street, San Francisco",
-    key: "ChIJc9N1Y2h-j4ARaE2RERU0Ovs",
-    image_attribution: ""
+    name: "Taqueria San Francisco",
+    address: "2794 24th Street, San Francisco",
+    key: "ChIJlyf7aUl-j4ARm5OwIs2BK9k",
+    image_attribution: null
+  },
+  {
+    name: "OMG Tea",
+    address: "2891 San Bruno Ave, San Francisco",
+    key: "ChIJNTsxF-J-j4ARpXwwd4zkfDk",
+    image_attribution: null
+  },
+  {
+    name: "King's Thai Cuisine #2",
+    address: "346 Clement Street, San Francisco",
+    key: "ChIJgbdp8DuHhYARVklj85eMGq8",
+    image_attribution: null
+  },
+  {
+    name: "Grinders Pizzeria",
+    address: "448 Balboa Street, San Francisco",
+    key: "ChIJ4xXdqkCHhYARkbIXAYG-hpQ",
+    image_attribution: null
+  },
+  {
+    name: "Red Blossom Tea Company",
+    address: "831 Grant Avenue, San Francisco",
+    key: "ChIJp1DLUYuAhYAROcTT4bNguRQ",
+    image_attribution: null
   },
   {
     name: "Grubstake Diner",
@@ -19099,16 +19748,10 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Napoli Pizza",
-    address: "1045 Polk Street, San Francisco",
-    key: "ChIJT7jOI5SAhYARaQnlcNdKhxk",
-    image_attribution: null
-  },
-  {
-    name: "Casa Mexicana Restaurant",
-    address: "3917 24th Street, San Francisco",
-    key: "ChIJlTNvZBN-j4ARUObEoIfmIJo",
-    image_attribution: null
+    name: "Old Skool Cafe",
+    address: "1429 Mendell St, San Francisco",
+    key: "ChIJR2oUXAV_j4AR0TNvp-w7vjs",
+    image_attribution: ""
   },
   {
     name: "Basil",
@@ -19117,33 +19760,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Perry's on Union",
-    address: "1944 Union Street, San Francisco",
-    key: "ChIJy3_5ONuAhYARlKgaknpqI0k",
+    name: "Holy Gelato!",
+    address: "1392 9th Ave, San Francisco",
+    key: "ChIJicQrgl6HhYARDsnMswiLkbQ",
     image_attribution: null
   },
   {
-    name: "E&O Kitchen and Bar",
-    address: "314 Sutter Street, San Francisco",
-    key: "ChIJGXWXQYmAhYAR-Nr_OyKvI2o",
-    image_attribution: null
-  },
-  {
-    name: "ThirstyBear Brewing Company",
-    address: "661 Howard Street, San Francisco",
-    key: "ChIJ39DPC32AhYARAoTh-QZjrN8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe International",
-    address: "508 Haight St, San Francisco",
-    key: "ChIJ-T9Zx6aAhYAR5HAILvUzsaA",
-    image_attribution: null
-  },
-  {
-    name: "Fusion SF",
-    address: "1600 Guerrero Street, San Francisco",
-    key: "ChIJ-Z7MlVJ_j4ARS1QNF6brLvo",
+    name: "Grill N Curry",
+    address: "1033 Irving Street, San Francisco",
+    key: "ChIJ89Xlu7WHhYARWVlejX6enq0",
     image_attribution: null
   },
   {
@@ -19153,27 +19778,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jolt N Bolt",
-    address: "2325 3rd St # 100, San Francisco",
-    key: "ChIJw_bkubl_j4ARFN36QHMWrjo",
+    name: "Irving Subs",
+    address: "1298 12th Avenue, San Francisco",
+    key: "ChIJWS4cQFN-j4ARkpVQTuFcS54",
     image_attribution: null
   },
   {
-    name: "Mission Rock Resort",
-    address: "817 Terry A Francois Boulevard, San Francisco",
-    key: "ChIJryemAsd_j4AR60urAIzz6Dc",
+    name: "Cafe Enchante",
+    address: "at 26th, 6157 Geary Blvd, San Francisco",
+    key: "ChIJGT98Wg-HhYAR-M3CrbUiuf4",
     image_attribution: null
   },
   {
-    name: "Spice Kit",
-    address: "405 Howard Street #310, San Francisco",
-    key: "ChIJuw4jVnuAhYARG1l7islAMck",
-    image_attribution: null
-  },
-  {
-    name: "Boogaloos",
-    address: "3296 22nd St, San Francisco",
-    key: "ChIJH5j9-j5-j4AR9oQ-0-E0WYo",
+    name: "Presidio Officers' Club",
+    address: "50 Moraga Avenue, San Francisco",
+    key: "ChIJH1we8CeHhYARDYzY3dZ-21k",
     image_attribution: null
   },
   {
@@ -19189,9 +19808,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Primo Pizza",
-    address: "1064 Divisadero Street, San Francisco",
-    key: "ChIJKdBPIbGAhYAReY40PnZjmxA",
+    name: "La Fonda",
+    address: "712 Irving Street, San Francisco",
+    key: "ChIJY_i3RlyHhYARAdKAIpZuX0U",
     image_attribution: null
   },
   {
@@ -19201,15 +19820,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafeteria La Catrachita",
-    address: "1600 Guerrero St, San Francisco",
-    key: "ChIJ4YhpfSB_j4ARo_pdgNTk5xs",
+    name: "Chase Luck Bakery",
+    address: "1325 Ocean Avenue, San Francisco",
+    key: "ChIJ77A5ldJ9j4AR8IzNqSXgMbQ",
     image_attribution: null
   },
   {
-    name: "The Grove - Fillmore",
-    address: "2016 Fillmore Street, San Francisco",
-    key: "ChIJvSlPuceAhYARL4nYSwbd-4k",
+    name: "Philz Coffee Truck",
+    address: "155 Sansome St, San Francisco",
+    key: "ChIJk0oqB2KAhYARHxB951_bbXE",
     image_attribution: null
   },
   {
@@ -19219,15 +19838,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caffe Union",
-    address: "1830 Union St, San Francisco",
-    key: "ChIJ2WcOqdyAhYARkeNgeWzqFyA",
+    name: "Silver Crest Donut Shop",
+    address: "340 Bayshore Boulevard, San Francisco",
+    key: "ChIJ31hlDlR-j4ARbjIaRCSl-gY",
     image_attribution: null
   },
   {
-    name: "Ly's Vietnamese Cuisine",
-    address: "1779 Lombard Street, San Francisco",
-    key: "ChIJRSqLkNuAhYARgIFsj9GUrq4",
+    name: "Raw Rainbow",
+    address: "1130 Ocean Avenue, San Francisco",
+    key: "ChIJuZNXuLJ9j4ARUf8KZkh2UUc",
+    image_attribution: null
+  },
+  {
+    name: "Fuji Japanese Restaurant",
+    address: "301 West Portal Avenue, San Francisco",
+    key: "ChIJZwWIqep9j4ARyCmanJ5XMS4",
+    image_attribution: null
+  },
+  {
+    name: "Blush! Wine Bar",
+    address: "476 Castro Street, San Francisco",
+    key: "ChIJpyuHNRt-j4ARi-WLHR3Fsto",
     image_attribution: null
   },
   {
@@ -19237,27 +19868,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pete's Deli & Cafe",
-    address: "1661 Divisadero St, San Francisco",
-    key: "ChIJc2lX4cmAhYARLGu4e5KsBfE",
-    image_attribution: null
-  },
-  {
-    name: "The Willows",
-    address: "1582 Folsom St, San Francisco",
-    key: "ChIJFw3ArCd-j4AR5T85mhj6N5Y",
-    image_attribution: null
-  },
-  {
-    name: "SOMA Eats",
-    address: "121 Spear St, San Francisco",
-    key: "ChIJo10a6CCBhYARbRot6llV4cw",
-    image_attribution: null
-  },
-  {
-    name: "Redford",
-    address: "673 Geary Street, San Francisco",
-    key: "ChIJRc_7uJGAhYARsKD7uGYnvMI",
+    name: "Pampanguena Cuisine",
+    address: "4441 Mission Street, San Francisco",
+    key: "ChIJ9zsZ_Yh-j4ARlwo26iIpa5s",
     image_attribution: null
   },
   {
@@ -19267,45 +19880,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sakana Bune Japanese Restaurant",
-    address: "5701 Geary Boulevard, San Francisco",
-    key: "ChIJP-zEJxCHhYARkpdhdh0DOEA",
+    name: "SOMA Eats",
+    address: "121 Spear St, San Francisco",
+    key: "ChIJo10a6CCBhYARbRot6llV4cw",
     image_attribution: null
   },
   {
-    name: "Tia Margarita",
-    address: "300 19th Avenue, San Francisco",
-    key: "ChIJlSjiexCHhYAR-0cGZxRKxf8",
+    name: "Howells",
+    address: "2373 Chestnut Street, San Francisco",
+    key: "ChIJxa3rONSAhYARnJI7phh_yoU",
     image_attribution: null
   },
   {
-    name: "Pizzetta 211",
-    address: "211 23rd Avenue, San Francisco",
-    key: "ChIJQXnZ_ASHhYARiIl0VPpsEQs",
+    name: "Martha & Brothers Coffee",
+    address: "401 Irving St, San Francisco",
+    key: "ChIJL9qT3VuHhYARzRLc53aVM6s",
     image_attribution: null
   },
   {
-    name: "Chili House SF",
-    address: "726 Clement Street, San Francisco",
-    key: "ChIJnSlKsD2HhYARuk6AsFCsg2c",
+    name: "Monterey Pizza & Asian Zap",
+    address: "599 Monterey Boulevard, San Francisco",
+    key: "ChIJb0gAUNZ9j4ARCTZ8KI-N-PI",
     image_attribution: null
   },
   {
-    name: "Umi",
-    address: "1328 18th Street, San Francisco",
-    key: "ChIJ9QE908t_j4ARB5LYFJO06rw",
+    name: "Xiao Loong Restaurant",
+    address: "250 West Portal Avenue, San Francisco",
+    key: "ChIJGwxhpep9j4ARCAYqC_bO0dQ",
     image_attribution: null
   },
   {
-    name: "Gorkha Kitchen",
-    address: "1386 9th Avenue, San Francisco",
-    key: "ChIJq9iSgl6HhYARARc_CCmuLgQ",
+    name: "OH Dessert Cafe",
+    address: "1919 Irving Street, San Francisco",
+    key: "ChIJi9OavU2HhYARAvi60VPrYz0",
     image_attribution: null
   },
   {
-    name: "Tasty",
-    address: "5530 Geary Boulevard, San Francisco",
-    key: "ChIJc2YHRhCHhYARUJOuTz9Zy6o",
+    name: "Home Coffee Roasters",
+    address: "1222 Noriega St, San Francisco",
+    key: "ChIJrdB62Il9j4ARsRPxJPHaaqQ",
+    image_attribution: null
+  },
+  {
+    name: "Cafeto Coffee Shop",
+    address: "111 Richland Ave, San Francisco",
+    key: "ChIJv5ECoGB-j4ARGt4LsFFsuE4",
     image_attribution: null
   },
   {
@@ -19315,39 +19934,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Benu",
-    address: "22 Hawthorne Street, San Francisco",
-    key: "ChIJSToWqn2AhYAR1CuH2iGMvuo",
+    name: "Cafe Prague",
+    address: "424 Merchant St #2900, San Francisco",
+    key: "ChIJyXhNI2CAhYAROBJnpkrFXyw",
     image_attribution: null
   },
   {
-    name: "Kab\u00f6b Tr\u00f6lley",
-    address: "298 King Street, San Francisco",
-    key: "ChIJl-Vo7NZ_j4ARrMfsyT_koPI",
-    image_attribution: null
-  },
-  {
-    name: "La Traviata",
-    address: "2854 Mission Street, San Francisco",
-    key: "ChIJAZypLEd-j4ARgOM40D4klOk",
-    image_attribution: null
-  },
-  {
-    name: "STEINS",
-    address: "731 Clement Street, San Francisco",
-    key: "ChIJ14-vsD2HhYAR2bxlkIN_OXk",
-    image_attribution: null
-  },
-  {
-    name: "Isa Restaurant",
-    address: "3324 Steiner Street, San Francisco",
-    key: "ChIJ-0fZLdeAhYARAVMwd0s61Vs",
-    image_attribution: null
-  },
-  {
-    name: "La Palma Mexicatessen",
-    address: "2884 24th Street, San Francisco",
-    key: "ChIJfSXt4kh-j4ARjDEbklumgeg",
+    name: "Henry's Hunan Restaurant",
+    address: "4753 Mission St, San Francisco",
+    key: "ChIJz1lCl4V-j4ARUHoIehlX9XM",
     image_attribution: null
   },
   {
@@ -19357,15 +19952,22 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Quince",
-    address: "470 Pacific Avenue, San Francisco",
-    key: "ChIJ8biHnb-AhYARSpU8MDPb5vs",
-    image_attribution: ""
+    name: "Tunnel Top Lounge and Bar",
+    address: "601 Bush Street, San Francisco",
+    key: "ChIJqT7tAIyAhYAR8xuT_7pZM5k",
+    image_attribution: null
   },
   {
-    name: "Gourmet Dim Sum and Cafe",
-    address: "651 Clement Street, San Francisco",
-    key: "ChIJnwyuSzyHhYARC-gs1Jd5x5g",
+    name: "VILLON Restaurant & Lounge",
+    address:
+      "1100 Market Street Entrance at, 45 McAllister Street, San Francisco",
+    key: "ChIJE2F114-BhYARd7vC0KgJBsc",
+    image_attribution: null
+  },
+  {
+    name: "Luce Restaurant",
+    address: "888 Howard Street #3011, San Francisco",
+    key: "ChIJF1lX2oaAhYARelgGaL_UtIc",
     image_attribution: null
   },
   {
@@ -19375,27 +19977,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Everdene",
-    address: "250 4th Street, San Francisco",
-    key: "ChIJv1iDfsaBhYARgw8P6E9p7R8",
+    name: "VILLON",
+    address: "1100 Market Street, San Francisco",
+    key: "ChIJJSUh04SAhYAR_nSfQBve1U4",
     image_attribution: null
   },
   {
-    name: "Thai Chicken Rice",
-    address: "1782 Haight Street, San Francisco",
-    key: "ChIJr9OqM1KHhYART63Sab-LZQ0",
+    name: "Red Jade",
+    address: "245 Church Street, San Francisco",
+    key: "ChIJvRRyYh5-j4AR_ko2m2ZWRI8",
     image_attribution: null
   },
   {
-    name: "Mexican Grill",
-    address: "641 Irving Street, San Francisco",
-    key: "ChIJ7yw7a1yHhYARCpSmXmlguzY",
-    image_attribution: null
-  },
-  {
-    name: "Teapenter",
-    address: "1518 Irving Street, San Francisco",
-    key: "ChIJS6VjRxaHhYARtMYLpuPBDSw",
+    name: "Golden China Restaurant",
+    address: "1612 Ocean Avenue, San Francisco",
+    key: "ChIJ6aDtl819j4ARXdfmVNpkAPM",
     image_attribution: null
   },
   {
@@ -19411,21 +20007,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Palm House",
-    address: "2032 Union Street, San Francisco",
-    key: "ChIJtX1s3tqAhYAR8RDMpH2eHbw",
-    image_attribution: ""
-  },
-  {
-    name: "Mr.East Kitchen",
-    address: "276 5th Street, San Francisco",
-    key: "ChIJy31KyT2BhYARgIBr-NJpBpo",
+    name: "Friends With Benedict's Pop Up Brunch",
+    address: "1233 Polk Street, San Francisco",
+    key: "ChIJq_XB2pSAhYARbLzIOGoJzCA",
     image_attribution: null
   },
   {
-    name: "Shalimar Restaurant",
-    address: "532 Jones Street #2008, San Francisco",
-    key: "ChIJ078x1JGAhYARo24cBX5oKH0",
+    name: "Noe Valley Bakery",
+    address: "4073 24th Street, San Francisco",
+    key: "ChIJc-2jWRJ-j4AROB7b2Bw356o",
+    image_attribution: null
+  },
+  {
+    name: "Napoleon Super Bakery",
+    address: "1049 Stockton Street, San Francisco",
+    key: "ChIJqSBUQPOAhYARVi7Y0oWtdNY",
+    image_attribution: null
+  },
+  {
+    name: "Fino",
+    address: "624 Post Street, San Francisco",
+    key: "ChIJ5-f9Go6AhYARpWIuP0BigH4",
+    image_attribution: null
+  },
+  {
+    name: "Potrero Center",
+    address: "2300 16th Street, San Francisco",
+    key: "ChIJYymVeHF_j4ARfTiKQAwCK5Y",
     image_attribution: null
   },
   {
@@ -19447,87 +20055,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Oasis Cafe",
-    address: "901 Divisadero St, San Francisco",
-    key: "ChIJKT_dq7GAhYARpHV3vs0HUWQ",
+    name: "Banh Mi House",
+    address: "2701 San Bruno Avenue, San Francisco",
+    key: "ChIJWXnT7-J-j4AR5wn2heRZd-k",
     image_attribution: null
   },
   {
-    name: "Gourmet Carousel",
-    address: "1559 Franklin Street, San Francisco",
-    key: "ChIJNb3KWZWAhYAR_lXKbdLsBYU",
+    name: "Kung Food",
+    address: "1615 McAllister Street #4413, San Francisco",
+    key: "ChIJ62R-rrGAhYARLRHf0KSkOd8",
     image_attribution: null
   },
   {
-    name: "El Faro",
-    address: "2399 Folsom Street, San Francisco",
-    key: "ChIJGzG1jjl-j4ARpWFExaqQdtQ",
+    name: "Native Twins Coffee",
+    address: "262 Divisadero St, San Francisco",
+    key: "ChIJA_NvNa-AhYAR7OCMHxRNTEY",
     image_attribution: null
   },
   {
-    name: "HITW Coffee",
-    address: "524 Union St, San Francisco",
-    key: "ChIJp8zEOPGAhYAR4VicktsDkf0",
+    name: "Foodhall",
+    address: "3100 16th Street, San Francisco",
+    key: "ChIJ569jRiJ-j4ARPBU68-MfNa8",
     image_attribution: null
   },
   {
-    name: "Crepevine Restaurants",
-    address: "624 Irving Street, San Francisco",
-    key: "ChIJ0UO1bFyHhYAR4i6y4xbhC-4",
+    name: "In Situ at SFMOMA",
+    address: "151 3rd St, San Francisco",
+    key: "ChIJBTVtZn2AhYAR-XJGS0SYh-w",
     image_attribution: null
   },
   {
-    name: "3-19 Coffee Roasters Cafe",
-    address: "3359 26th St, San Francisco",
-    key: "ChIJzfO6oEZ-j4ARW7biAXCYTmk",
+    name: "Golden Horse Restaurant",
+    address: "1060 Hyde Street, San Francisco",
+    key: "ChIJAyg8QZOAhYARIrlf4j8Mbaw",
     image_attribution: null
   },
   {
-    name: "Taqueria El Buen Sabor",
-    address: "98 Leland Avenue, San Francisco",
-    key: "ChIJnQcFoNl-j4ARLggC0svRJu0",
+    name: "The Detour",
+    address: "2200A Market Street, San Francisco",
+    key: "ChIJUTUQTBx-j4ARgOrxfs3al7E",
     image_attribution: null
   },
   {
-    name: "Angelina's Deli Cafe",
-    address: "6000 California St, San Francisco",
-    key: "ChIJqzzP3QSHhYARij1RSVdBJjs",
-    image_attribution: null
-  },
-  {
-    name: "Pho Luen Fat",
-    address: "110 Leland Avenue, San Francisco",
-    key: "ChIJKSgJddl-j4ARgNLmnckEsWo",
-    image_attribution: null
-  },
-  {
-    name: "Pebbles Cafe",
-    address: "2852 Diamond St, San Francisco",
-    key: "ChIJadslXGN-j4ARNpSz6dNlLjs",
-    image_attribution: null
-  },
-  {
-    name: "Win Garden",
-    address: "2794 Diamond Street, San Francisco",
-    key: "ChIJm7-eT4l_j4ARsy9_KE1sDVU",
-    image_attribution: null
-  },
-  {
-    name: "Martha & Bros. Coffee Co.",
-    address: "1551 Church St, San Francisco",
-    key: "ChIJu0OEKmp-j4AR18iMt8X_GtE",
-    image_attribution: null
-  },
-  {
-    name: "bloomstock",
-    address: "1730 Yosemite Ave, San Francisco",
-    key: "ChIJzxe-SMd_j4AR1wLqEvA06sY",
-    image_attribution: null
-  },
-  {
-    name: "Red House Bakery and cafe",
-    address: "2818 San Bruno Avenue, San Francisco",
-    key: "ChIJKTlAQeJ-j4ARiVSnZ5XxLng",
+    name: "Sociale",
+    address: "3665 Sacramento Street, San Francisco",
+    key: "ChIJT8omZTGHhYAR3YUiNaAFI8o",
     image_attribution: null
   },
   {
@@ -19537,15 +20109,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bullshead Restaurant",
+    address: "840 Ulloa Street, San Francisco",
+    key: "ChIJqd64Tup9j4ARgeawIqkNfoQ",
+    image_attribution: null
+  },
+  {
     name: "Don Pistos",
     address: "510 Union Street, San Francisco",
     key: "ChIJMTBONvGAhYARayQj8c6XucQ",
     image_attribution: null
   },
   {
-    name: "Falafelland",
-    address: "133 6th Street, San Francisco",
-    key: "ChIJcbNHiwuBhYAR8lTPlMOhS9s",
+    name: "Sakana Sushi Bar & Grill",
+    address: "605 Post Street, San Francisco",
+    key: "ChIJhb7OEI6AhYAR0erQPfGXf5c",
     image_attribution: null
   },
   {
@@ -19555,15 +20133,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Angler",
-    address: "132 The Embarcadero, San Francisco",
-    key: "ChIJgURgKGuBhYARMIlKBN79aOQ",
+    name: "Alamo Square Seafood Grill",
+    address: "803 Fillmore Street, San Francisco",
+    key: "ChIJucYTxKSAhYAR5GsX8qmLka4",
     image_attribution: null
   },
   {
-    name: "The Slanted Door",
-    address: "One Ferry Building #3, San Francisco",
-    key: "ChIJWTGPjmaAhYARnYsfhjHT8JM",
+    name: "Daniels Cafe",
+    address: "154 Ellis St, San Francisco",
+    key: "ChIJB01Ib4-AhYARqABqBt2NvFo",
     image_attribution: null
   },
   {
@@ -19573,39 +20151,45 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "J & E",
+    address: "2537 24th Street, San Francisco",
+    key: "ChIJuWdCj0t-j4AREDarZLPNnJQ",
+    image_attribution: null
+  },
+  {
+    name: "Sake Bomb",
+    address: "2878 24th Street, San Francisco",
+    key: "ChIJBWMrma5_j4ARW248gnW8EU8",
+    image_attribution: null
+  },
+  {
     name: "House of Nanking",
     address: "919 Kearny Street, San Francisco",
     key: "ChIJvS92wfSAhYARC2tq3BmjmIM",
     image_attribution: null
   },
   {
-    name: "Las Palmas",
-    address: "5251 3rd Street, San Francisco",
-    key: "ChIJp79DRRp_j4ARef5R9i5maas",
+    name: "Urban Remedy",
+    address: "3870 24th Street, San Francisco",
+    key: "ChIJT4y3mhR-j4ARE7CN_tgZNdE",
     image_attribution: null
   },
   {
-    name: "The Deli Lama",
-    address: "150 Toland Street, San Francisco",
-    key: "ChIJe7BQE6x_j4ARH65dDxeBHoE",
+    name: "La Victoria",
+    address: "3249 24th Street, San Francisco",
+    key: "ChIJj4z87Uh-j4ARvo9us-ACTG4",
     image_attribution: null
   },
   {
-    name: "Caffe Capriccio",
-    address: "2200 Mason St, San Francisco",
-    key: "ChIJH6woNuWAhYARs9r_wd98_yg",
+    name: "Tasty Pot",
+    address: "815 Clement Street, San Francisco",
+    key: "ChIJQxMulj2HhYARfRw8jxJdlrY",
     image_attribution: null
   },
   {
-    name: "Cafe Franco",
-    address: "240 Funston Rd, San Francisco",
-    key: "ChIJDYwhWd-AhYARncXpvj_wgC4",
-    image_attribution: null
-  },
-  {
-    name: "Sunset Reservoir Brewing Company",
-    address: "1735 Noriega Street, San Francisco",
-    key: "ChIJwY6eFH2HhYARnSA8aKBTKqk",
+    name: "Yum Yum Sushi House",
+    address: "2181 Irving Street, San Francisco",
+    key: "ChIJ3X0pGnCHhYARO4pnNdai-EQ",
     image_attribution: null
   },
   {
@@ -19615,27 +20199,57 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cafe Franco",
+    address: "240 Funston Rd, San Francisco",
+    key: "ChIJDYwhWd-AhYARncXpvj_wgC4",
+    image_attribution: null
+  },
+  {
+    name: "The Boy's Deli",
+    address: "2222 Polk Street, San Francisco",
+    key: "ChIJW7FesumAhYAR-GPbV0OF6JI",
+    image_attribution: null
+  },
+  {
+    name: "Myriad Gastropub",
+    address: "2491 Mission Street, San Francisco",
+    key: "ChIJMyfTsz5-j4ARjLpxXfYVEN0",
+    image_attribution: ""
+  },
+  {
+    name: "Ariake",
+    address: "5041 Geary Boulevard, San Francisco",
+    key: "ChIJOVJNlRaHhYAReLRgU-1SXk0",
+    image_attribution: null
+  },
+  {
     name: "Focaccia Market Bakery",
     address: "455 Market Street, San Francisco",
     key: "ChIJkztvQGGAhYAR696TkRw_MdM",
     image_attribution: null
   },
   {
-    name: "Silver Cloud Restaurant & Karaoke Bar",
-    address: "1994 Lombard Street, San Francisco",
-    key: "ChIJAdQfF9qAhYARQ6q2-Fa9fxQ",
+    name: "Elixart",
+    address: "1025 Market Street, San Francisco",
+    key: "ChIJjYcBoqaBhYARHlnR-QSE8Ig",
     image_attribution: null
   },
   {
-    name: "Le P'tit Laurent",
-    address: "699 Chenery Street, San Francisco",
-    key: "ChIJT7URn2R-j4ARnEY-JUvmnJY",
+    name: "Dandelion Chocolate",
+    address: "740 Valencia Street, San Francisco",
+    key: "ChIJ3d31Iz1-j4ARkwerSZRVQjM",
     image_attribution: null
   },
   {
-    name: "Paramo Coffee",
-    address: "4 Embarcadero Center, San Francisco",
-    key: "ChIJv2YpMmGAhYARsa87i8WzDyA",
+    name: "Crepevine Restaurants",
+    address: "624 Irving Street, San Francisco",
+    key: "ChIJ0UO1bFyHhYAR4i6y4xbhC-4",
+    image_attribution: null
+  },
+  {
+    name: "Lou's Fish Shack",
+    address: "300 Jefferson Street, San Francisco",
+    key: "ChIJdTQj0uOAhYARC8BF0odUDA4",
     image_attribution: null
   },
   {
@@ -19651,27 +20265,40 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "La grana fish",
+    address: "865 50th Ave, Oakland",
+    key: "ChIJPZi58KGHj4ARhm4e92rNlLA",
+    image_attribution: null
+  },
+  {
+    name: "Dohatsuten",
+    address: "799 San Antonio Rd, Palo Alto",
+    key: "ChIJBVNwaxK6j4ARUPhWmCDHXYk",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/112502238614808979046\">Philip Suh</a>']"
+  },
+  {
     name: "Philz Coffee Truck",
     address: "Scott St &, Marina Blvd, San Francisco",
     key: "ChIJeV77yCuBhYAR4zK9AUoq_DI",
     image_attribution: null
   },
   {
-    name: "Nobhill Pizza & Shawarma",
-    address: "1534 California Street, San Francisco",
-    key: "ChIJHahjtZSAhYARa0JGyRh9vnk",
+    name: "Salty's",
+    address: "748 Van Ness Avenue, San Francisco",
+    key: "ChIJp7zuhO6BhYARUiSTInSJWl8",
     image_attribution: null
   },
   {
-    name: "Nena's Restaurant",
-    address: "3459 Mission St, San Francisco",
-    key: "ChIJ985GPl1-j4AR331R8tAJbcM",
+    name: "Ike's Japanese Kitchen",
+    address: "800 Van Ness Avenue, San Francisco",
+    key: "ChIJkaNdBZeAhYARMYOh91wB560",
     image_attribution: null
   },
   {
-    name: "Universal Cafe",
-    address: "2814 19th St, San Francisco",
-    key: "ChIJ___I0jB-j4ARgAaAClz2pl8",
+    name: "Abe's Pizza",
+    address: "940 Market Street, San Francisco",
+    key: "ChIJo3JcWI-AhYAR-i7B7QujS_Q",
     image_attribution: null
   },
   {
@@ -19681,45 +20308,63 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kui Shin Bo",
-    address: "1424 Lombard Street, San Francisco",
-    key: "ChIJUxdznt2AhYARD551zgWbFIM",
+    name: "All Seasons Restaurant",
+    address: "5238 Diamond Heights Boulevard, San Francisco",
+    key: "ChIJReXqoHN-j4ARnN60TCzh4Nw",
     image_attribution: null
   },
   {
-    name: "Aunt Fanny's Hot Pretzels",
-    address: "39 Pier 39, San Francisco",
-    key: "ChIJHSGzi_yAhYARl7qPtckJOas",
+    name: "Sakesan Sushi & Bistro",
+    address: "626 Clement Street, San Francisco",
+    key: "ChIJHcytSTyHhYARqU90ywBB6mM",
     image_attribution: null
   },
   {
-    name: "Saru Sushi Bar",
-    address: "3856 24th Street, San Francisco",
-    key: "ChIJsSI8kRR-j4ARGA_QES97YLo",
+    name: "New Thai Elephant",
+    address: "393 Bay Street, San Francisco",
+    key: "ChIJU5euptGBhYAR9V5Y1NRWPZ8",
     image_attribution: null
   },
   {
-    name: "Cafe Destijl",
-    address: "1 Union St, San Francisco",
-    key: "ChIJ-UlLUl-AhYARfAPUnxHm3rM",
+    name: "Cafe Europa",
+    address: "4318 California Street, San Francisco",
+    key: "ChIJz3gDgzyHhYARToKaQBcGZeI",
     image_attribution: null
   },
   {
-    name: "Saigon Sandwich",
-    address: "560 Larkin Street, San Francisco",
-    key: "ChIJY3rEu5CAhYAR3CjUhJ3qY3A",
+    name: "E Tea",
+    address: "5344 Geary Boulevard, San Francisco",
+    key: "ChIJIZHXHRGHhYARhu4YDts1cuY",
     image_attribution: null
   },
   {
-    name: "The Cake Gallery",
-    address: "290 9th Street, San Francisco",
-    key: "ChIJXSKUGih-j4ARxrQu-2sjqpI",
+    name: "Specs Cafe",
+    address: "270 Columbus Ave, San Francisco",
+    key: "ChIJV-r9YvSAhYARsF54sNq1LaY",
     image_attribution: null
   },
   {
-    name: "Taqueria Los Mayas",
-    address: "331 Clement St, San Francisco",
-    key: "ChIJ-w2D4zuHhYAROYAF0fL-EXo",
+    name: "May Lee Chinese Restaurant",
+    address: "1256 7th Avenue, San Francisco",
+    key: "ChIJAw2hcFyHhYAR7LpAHGGPRWI",
+    image_attribution: null
+  },
+  {
+    name: "Fusion SF",
+    address: "1600 Guerrero Street, San Francisco",
+    key: "ChIJ-Z7MlVJ_j4ARS1QNF6brLvo",
+    image_attribution: null
+  },
+  {
+    name: "Peasant Pies Cafe & Catering, Inner Sunset",
+    address: "1039 Irving St, San Francisco",
+    key: "ChIJBUHEg12HhYARbpImXPQt384",
+    image_attribution: null
+  },
+  {
+    name: "Blackthorn",
+    address: "834 Irving Street, San Francisco",
+    key: "ChIJ7zzerl2HhYARCRKV1E1nY0A",
     image_attribution: null
   },
   {
@@ -19735,6 +20380,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Uma Casa",
+    address: "1550 Church Street, San Francisco",
+    key: "ChIJpVnA1Wt-j4ARChUA4SlXC3Q",
+    image_attribution: null
+  },
+  {
     name: "Basa Seafood Express",
     address: "3064 24th Street, San Francisco",
     key: "ChIJsWzH0kd-j4ARcZzDCbBrFA4",
@@ -19747,27 +20398,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Uma Casa",
-    address: "1550 Church Street, San Francisco",
-    key: "ChIJpVnA1Wt-j4ARChUA4SlXC3Q",
+    name: "Whispers Bar & Grill",
+    address: "299 2nd Street, San Francisco",
+    key: "ChIJY71YYXyAhYARnkdCwTHjE1E",
     image_attribution: null
   },
   {
-    name: "Jim's",
-    address: "2420 Mission Street, San Francisco",
-    key: "ChIJgV9fAzx-j4AR388qkZCuTS4",
+    name: "Izakaya Roku",
+    address: "1819 Market Street, San Francisco",
+    key: "ChIJ-TnI-Z-AhYARZBrAEzj7UjU",
     image_attribution: null
   },
   {
-    name: "La Espiga De Oro",
-    address: "2916 24th Street, San Francisco",
-    key: "ChIJ44HY5Eh-j4AR_cUroynMev8",
-    image_attribution: null
-  },
-  {
-    name: "Pressed Juicery",
-    address: "3901 24th Street, San Francisco",
-    key: "ChIJx2hhYhN-j4ARMp9um4BfIic",
+    name: "Velvet Cantina",
+    address: "3349 23rd Street, San Francisco",
+    key: "ChIJ46VhQz9-j4ARCbFaSOAeQhw",
     image_attribution: null
   },
   {
@@ -19777,21 +20422,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Focaccia Market Bakery",
-    address: "119 Sacramento Street, San Francisco",
-    key: "ChIJkztvQGGAhYARS9PBosvWB5o",
+    name: "Yuanbao Jiaozi \u5143\u5bf6\u9903\u5b50",
+    address: "2110 Irving Street, San Francisco",
+    key: "ChIJifiQHXCHhYARUE-zmI9jYN0",
     image_attribution: null
   },
   {
-    name: "Yummy Bakery & Cafe",
-    address: "607 Jackson Street, San Francisco",
-    key: "ChIJ2VhSxvSAhYARxn-BM9ied9Y",
+    name: "Micado",
+    address: "2126 Irving Street, San Francisco",
+    key: "ChIJm9O2HXCHhYAR71DU62mp9Qs",
     image_attribution: null
   },
   {
-    name: "Al's Super Cafe",
-    address: "3286 Mission St, San Francisco",
-    key: "ChIJnRhQH0N-j4ARa7wDAPZVf5c",
+    name: "Pomelo",
+    address: "92 Judah Street, San Francisco",
+    key: "ChIJ4-3LQFmHhYARty4xTzpVYK8",
+    image_attribution: null
+  },
+  {
+    name: "Burmese Kitchen",
+    address: "(between 2nd & 3rd Ave), 3815 Geary Boulevard, San Francisco",
+    key: "ChIJgUKoC5qAhYARe5vbWr2KljM",
+    image_attribution: null
+  },
+  {
+    name: "Rise & Grind Coffee and Tea",
+    address: "785 8th Ave, San Francisco",
+    key: "ChIJibk3D0GHhYARYgBEhDfLS5A",
+    image_attribution: null
+  },
+  {
+    name: "Bravado, Italian Coffee Bar And Lounge",
+    address: "170 King St Unit 109, San Francisco",
+    key: "ChIJsxm0mNd_j4ARlCzQp1j_Mbs",
     image_attribution: null
   },
   {
@@ -19819,9 +20482,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bravado, Italian Coffee Bar And Lounge",
-    address: "170 King St Unit 109, San Francisco",
-    key: "ChIJsxm0mNd_j4ARlCzQp1j_Mbs",
+    name: "Kitaro",
+    address: "5723 Geary Boulevard, San Francisco",
+    key: "ChIJoX092Q-HhYARqvTCTIR1toE",
     image_attribution: null
   },
   {
@@ -19843,9 +20506,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Dong Bei Mama",
+    address: "4737 Geary Boulevard, San Francisco",
+    key: "ChIJ2bHADhaHhYARCU4SBQ4m1l0",
+    image_attribution: null
+  },
+  {
+    name: "Uncle Boy's",
+    address: "245 Balboa Street, San Francisco",
+    key: "ChIJU1MOckeHhYARQFcsT6fdx2A",
+    image_attribution: null
+  },
+  {
     name: "Lemongrass Thai Cuisine",
     address: "2348 Polk Street, San Francisco",
     key: "ChIJN9xMQuiAhYAR82y4WJEeI0k",
+    image_attribution: null
+  },
+  {
+    name: "Kezar Pizzetta",
+    address: "775 Frederick Street, San Francisco",
+    key: "ChIJtTBBsFCHhYARp1SNa_l0wKk",
     image_attribution: null
   },
   {
@@ -19855,21 +20536,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Little Sushi Bar",
-    address: "200 23rd Avenue, San Francisco",
-    key: "ChIJ75Y-2EGHhYARmzb5KBXJ0x8",
+    name: "Ladle & Leaf",
+    address: "School of Nursing Building, 513 Parnassus Avenue, San Francisco",
+    key: "ChIJ8a6m0FmHhYARZ04brhtmrKQ",
     image_attribution: null
   },
   {
-    name: "Happy Donut Factory",
-    address: "100 Bush Street, San Francisco",
-    key: "ChIJcZaNPWKAhYARojHaf0gIcQA",
-    image_attribution: null
-  },
-  {
-    name: "Shalimar Restaurant",
-    address: "1409 Polk Street, San Francisco",
-    key: "ChIJ078x1JGAhYARuA97zmEK4Gc",
+    name: "Marlowe",
+    address: "500 Brannan St, San Francisco",
+    key: "ChIJK08gKtR_j4ARKyo5suJ6o2I",
     image_attribution: null
   },
   {
@@ -19879,9 +20554,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Shabu House",
-    address: "354 Clement Street, San Francisco",
-    key: "ChIJH2M89juHhYARHaEPtzXbxPA",
+    name: "Kowloon Tong Dessert Cafe",
+    address: "393 7th Ave, San Francisco",
+    key: "ChIJU3D7mz6HhYARYV5irN_Zaz8",
+    image_attribution: null
+  },
+  {
+    name: "Little Sushi Bar",
+    address: "200 23rd Avenue, San Francisco",
+    key: "ChIJ75Y-2EGHhYARmzb5KBXJ0x8",
     image_attribution: null
   },
   {
@@ -19903,6 +20584,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bini's Kitchen",
+    address: "1001 Howard Street, San Francisco",
+    key: "ChIJEdyidwaBhYARuB8t_8IycuM",
+    image_attribution: ""
+  },
+  {
     name: "Cafe St Jorge",
     address: "3438 Mission St, San Francisco",
     key: "ChIJnzy2OF1-j4ARsMoR2MFChXk",
@@ -19915,21 +20602,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fayes",
-    address: "3614 18th St, San Francisco",
-    key: "ChIJJ5IrBhh-j4ARFRZcETEr_Wo",
-    image_attribution: null
-  },
-  {
-    name: "Dumpling Time at Thrive City",
-    address: "191 Warriors Way Suite 101, San Francisco",
-    key: "ChIJR2AhaXJ_j4ARScj6r58240E",
-    image_attribution: null
-  },
-  {
-    name: "North Beach Pizza",
-    address: "1462 Grant Avenue, San Francisco",
-    key: "ChIJKcJuNeaBhYARW6LEKiT2t-0",
+    name: "Teapenter",
+    address: "1518 Irving Street, San Francisco",
+    key: "ChIJS6VjRxaHhYARtMYLpuPBDSw",
     image_attribution: null
   },
   {
@@ -19939,15 +20614,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Chestnut Diner",
-    address: "1312 Chestnut Street, San Francisco",
-    key: "ChIJWSr1lN2AhYARlQRepJ4UV4g",
+    name: "Smashburger",
+    address: "2300 16th Street #293, San Francisco",
+    key: "ChIJNbPhyi9-j4ARUq1GnjW_iOE",
     image_attribution: null
   },
   {
-    name: "Little Gem on Grove",
-    address: "400 Grove St C1, San Francisco",
-    key: "ChIJBSgoiZiAhYARrfJkn9aC7GE",
+    name: "Chestnut Diner",
+    address: "1312 Chestnut Street, San Francisco",
+    key: "ChIJWSr1lN2AhYARlQRepJ4UV4g",
     image_attribution: null
   },
   {
@@ -19955,6 +20630,12 @@ const SFPlaces = [
     address: "1701 Octavia St, San Francisco",
     key: "ChIJs32Mdr-AhYARZmI19fIPvOM",
     image_attribution: ""
+  },
+  {
+    name: "Goat Hill Pizza",
+    address: "171 Stillman Street, San Francisco",
+    key: "ChIJyzTw7X6AhYARJS0C2cigvFI",
+    image_attribution: null
   },
   {
     name: "Bodega North Beach",
@@ -19969,21 +20650,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "La Torta Gorda",
-    address: "2833 24th Street, San Francisco",
-    key: "ChIJS1BIPkl-j4ARh8QhktVbt4o",
+    name: "Il Borgo",
+    address: "500 Fell Street, San Francisco",
+    key: "ChIJj61NN6KAhYARMWDXrggZTH8",
     image_attribution: null
   },
   {
-    name: "Hamano Sushi",
-    address: "1332 Castro Street, San Francisco",
-    key: "ChIJz2hcihJ-j4AR85SN39kUG1Q",
+    name: "The Slice Pizza",
+    address: "719 14th Street, San Francisco",
+    key: "ChIJhV2wdR5-j4ARXuw2Pxy2a5I",
     image_attribution: null
   },
   {
-    name: "Sultan\u2019s Kebab",
-    address: "3915 24th St, San Francisco",
-    key: "ChIJ05ybYxN-j4ARhOtZ7jRvUg0",
+    name: "Palm House",
+    address: "2032 Union Street, San Francisco",
+    key: "ChIJtX1s3tqAhYAR8RDMpH2eHbw",
+    image_attribution: ""
+  },
+  {
+    name: "YamaSho",
+    address: "1161 Post Street, San Francisco",
+    key: "ChIJeanPM5SAhYARLvgC3mxgDoA",
+    image_attribution: null
+  },
+  {
+    name: "Barrel Head Brewhouse",
+    address: "1785 Fulton St, San Francisco",
+    key: "ChIJg4a117KAhYARfFvbnNINjZY",
+    image_attribution: null
+  },
+  {
+    name: "Mozzarella Di Bufala Pizzeria",
+    address: "69 West Portal Avenue, San Francisco",
+    key: "ChIJn6NWIC59j4ARMMQDaNDSTyQ",
     image_attribution: null
   },
   {
@@ -19999,33 +20698,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Patxi's Pizza",
+    address: "822 Irving Street, San Francisco",
+    key: "ChIJKyOQrV2HhYARn6Nj1iOLe7o",
+    image_attribution: null
+  },
+  {
     name: "Gordo Taqueria",
     address: "5450 Geary Boulevard, San Francisco",
     key: "ChIJOwqcVhCHhYARYF5qM64I6Ag",
     image_attribution: null
   },
   {
-    name: "Tekka Japanese Restaurant",
-    address: "537 Balboa Street, San Francisco",
-    key: "ChIJAyIYp0CHhYARUaVqJioZ39E",
+    name: "The Blarney Stone Bar",
+    address: "5625 Geary Boulevard, San Francisco",
+    key: "ChIJDZjvLxCHhYARzo4Mnl2t2Hw",
     image_attribution: null
   },
   {
-    name: "Le Soleil",
-    address: "2419, 133 Clement Street, San Francisco",
-    key: "ChIJc6a9gTmHhYARF-BzkuM-YwY",
-    image_attribution: null
-  },
-  {
-    name: "Mai's Vietnamese Restaurant",
-    address: "316 Clement Street, San Francisco",
-    key: "ChIJnXuC5juHhYARpCQjRSyCN7M",
-    image_attribution: null
-  },
-  {
-    name: "Balompi\u00e9 Cafe #3",
-    address: "3801 Mission St, San Francisco",
-    key: "ChIJh0aomGB-j4ARPMXCsRGgy-0",
+    name: "Swamp",
+    address: "5423 Geary Boulevard, San Francisco",
+    key: "ChIJh0xMABGHhYARF2yWpOxrkvo",
     image_attribution: null
   },
   {
@@ -20047,39 +20740,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fillmore Bakeshop",
-    address: "1890 Fillmore Street, San Francisco",
-    key: "ChIJMe0SiMeAhYARej9Ch6H8bQQ",
+    name: "Dim Sum Club",
+    address: "2550 Van Ness Avenue, San Francisco",
+    key: "ChIJE6s1_ueAhYARG2LJdXbgvhs",
     image_attribution: null
   },
   {
-    name: "The Monk's Kettle",
-    address: "3141 16th Street, San Francisco",
-    key: "ChIJT_B1bCJ-j4ARA074-UL3mkY",
-    image_attribution: ""
-  },
-  {
-    name: "Ma's Dimsum & Cafe",
-    address: "1315 Powell Street, San Francisco",
-    key: "ChIJ0bn3U_KAhYAR4uiaZnKx44A",
-    image_attribution: null
-  },
-  {
-    name: "Spice of America",
-    address: "1655 Market Street, San Francisco",
-    key: "ChIJCYUUtXyBhYARdiW0xhV4VE4",
-    image_attribution: null
-  },
-  {
-    name: "Yasukochi's Sweet Stop",
-    address: "1790 Sutter Street, San Francisco",
-    key: "ChIJ0clYyriAhYARC8bZ6x6wXBc",
+    name: "Son's Addition",
+    address: "2990 24th Street, San Francisco",
+    key: "ChIJe6iYiUh-j4ARX4kIKOw0abc",
     image_attribution: null
   },
   {
     name: "Burma Love",
     address: "211 Valencia Street, San Francisco",
     key: "ChIJC0_LRSB-j4ARUaZGUrDpvDM",
+    image_attribution: null
+  },
+  {
+    name: "Cups and Cakes Bakery",
+    address: "451 9th St, San Francisco",
+    key: "ChIJ-TQHGil-j4AR_xz9tp0A5qI",
     image_attribution: null
   },
   {
@@ -20098,6 +20779,18 @@ const SFPlaces = [
     name: "Cha Cha Cha",
     address: "2327 Mission Street, San Francisco",
     key: "ChIJkfc2ZTx-j4ARFePnTH4u-rE",
+    image_attribution: null
+  },
+  {
+    name: "Javalencia Cafe",
+    address: "920 Valencia St, San Francisco",
+    key: "ChIJL3CzzD1-j4ARMhe1B9YEvJg",
+    image_attribution: null
+  },
+  {
+    name: "Los Altos Grill",
+    address: "233 3rd St, Los Altos",
+    key: "ChIJWUOqde-wj4ARvFRj5XeG0CY",
     image_attribution: null
   },
   {
@@ -20120,21 +20813,28 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mission Hunan",
-    address: "2960 16th Street, San Francisco",
-    key: "ChIJ2XVbgiN-j4ARn11syQ5XgY4",
+    name: "White Cap",
+    address: "3608 Taraval St, San Francisco",
+    key: "ChIJ04UqamN9j4ARBde7SBhVLgQ",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/108695139975989310331\">White Cap</a>']"
+  },
+  {
+    name: "Yank Sing",
+    address: "49 Stevenson Street, San Francisco",
+    key: "ChIJ1aUl92KAhYARTY_D5x-dTnE",
     image_attribution: null
   },
   {
-    name: "Grove Street Market",
-    address: "500 Grove Street, San Francisco",
-    key: "ChIJOZIIiaKAhYARzfJT_A8zL8M",
+    name: "Z & Y Restaurant",
+    address: "655 Jackson Street, San Francisco",
+    key: "ChIJmevPu_SAhYARMmQlHRt_Rj4",
     image_attribution: null
   },
   {
-    name: "QING SHU",
-    address: "816 Irving Street, San Francisco",
-    key: "ChIJRW2pheGHhYARXrCuxvmo2n8",
+    name: "Roxie Food Center",
+    address: "1901 San Jose Avenue, San Francisco",
+    key: "ChIJpWZaroB-j4ARGnCMgKkSqlY",
     image_attribution: null
   },
   {
@@ -20144,27 +20844,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Los Altos Grill",
-    address: "233 3rd St, Los Altos",
-    key: "ChIJWUOqde-wj4ARvFRj5XeG0CY",
+    name: "Baby's Eatery & Palabok",
+    address: "4609 Mission Street, San Francisco",
+    key: "ChIJ-8ISVo9-j4ARcDfPtEr-cqM",
     image_attribution: null
   },
   {
-    name: "Verjus",
-    address: "528 Washington St, San Francisco",
-    key: "ChIJZR_LgCyBhYARXmmZ-rtBmLE",
-    image_attribution: ""
-  },
-  {
-    name: "Hi Dive Bar",
-    address: "501 The Embarcadero, San Francisco",
-    key: "ChIJzxenPXGAhYARi1nv1XGqHyI",
-    image_attribution: null
-  },
-  {
-    name: "Posh Bagel",
-    address: "742 Irving Street, San Francisco",
-    key: "ChIJ7VsMT1yHhYAR1QUKDrb6zhw",
+    name: "Cumaica Coffee",
+    address: "4726 Mission St, San Francisco",
+    key: "ChIJv9CMk4V-j4ARKR5BObiUHUs",
     image_attribution: null
   },
   {
@@ -20175,9 +20863,45 @@ const SFPlaces = [
       "['<a href=\"https://maps.google.com/maps/contrib/114089715157017708446\">Pinky and Red&#39;s</a>']"
   },
   {
+    name: "Hi Dive Bar",
+    address: "501 The Embarcadero, San Francisco",
+    key: "ChIJzxenPXGAhYARi1nv1XGqHyI",
+    image_attribution: null
+  },
+  {
+    name: "Verjus",
+    address: "528 Washington St, San Francisco",
+    key: "ChIJZR_LgCyBhYARXmmZ-rtBmLE",
+    image_attribution: ""
+  },
+  {
+    name: "Posh Bagel",
+    address: "742 Irving Street, San Francisco",
+    key: "ChIJ7VsMT1yHhYAR1QUKDrb6zhw",
+    image_attribution: null
+  },
+  {
+    name: "Za Pizza",
+    address: "1919 Hyde Street, San Francisco",
+    key: "ChIJZZ4z1uiAhYARd8dViRfgjH8",
+    image_attribution: null
+  },
+  {
+    name: "Wok Shop Cafe",
+    address: "1307 Sutter Street, San Francisco",
+    key: "ChIJy-FXpZWAhYARoKXXDQdme5w",
+    image_attribution: null
+  },
+  {
     name: "San Francisco Belle",
     address: "7 The Embarcadero, San Francisco",
     key: "ChIJC7rWil2AhYAROhexyoqaRzU",
+    image_attribution: null
+  },
+  {
+    name: "Little Saigon Deli",
+    address: "131 Steuart Street # 101, San Francisco",
+    key: "ChIJm2RgsmWAhYARU-zDkuBGOrc",
     image_attribution: null
   },
   {
@@ -20187,9 +20911,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lung Fung Bakery",
-    address: "1823 Clement Street, San Francisco",
-    key: "ChIJRSq8dhCHhYARE3p3mLTXSBY",
+    name: "Deli World",
+    address: "18 Ocean Avenue, San Francisco",
+    key: "ChIJg88F_IV-j4ARC-jnZtES2Aw",
     image_attribution: null
   },
   {
@@ -20199,16 +20923,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "La Mar Cebicheria Peruana",
+    address: "pier 1 1/2 The Embarcadero, San Francisco",
+    key: "ChIJURDKN2eAhYARN0AMzUEaiKo",
+    image_attribution: ""
+  },
+  {
     name: "PizzaHacker",
     address: "3299 Mission Street, San Francisco",
     key: "ChIJT9x7VTt-j4ARrJ_kdKJnPSU",
     image_attribution: null
-  },
-  {
-    name: "Lovejoy's Tea Room",
-    address: "1351 Church Street, San Francisco",
-    key: "ChIJ12ZjHmt-j4AR_KF1uOco2ow",
-    image_attribution: ""
   },
   {
     name: "Gochees Pizza ( Financial District)",
@@ -20223,15 +20947,39 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Gialina",
-    address: "2842 Diamond Street, San Francisco",
-    key: "ChIJIZsOXmN-j4ARtj0s3rJmTMk",
+    name: "Aquitaine Wine Bar & Bistro",
+    address: "216 Church Street, San Francisco",
+    key: "ChIJC9Y3o4mAhYARft4V1gqv0Js",
+    image_attribution: null
+  },
+  {
+    name: "Loving Hut Vegan Restaurant",
+    address: "524 Irving Street, San Francisco",
+    key: "ChIJ80VA9VuHhYARGWJ3KxASgSE",
     image_attribution: null
   },
   {
     name: "Aroma Tea Shop",
     address: "302 6th Avenue, San Francisco",
     key: "ChIJ4bGQDzyHhYARKb_Piobc4E8",
+    image_attribution: null
+  },
+  {
+    name: "Gialina",
+    address: "2842 Diamond Street, San Francisco",
+    key: "ChIJIZsOXmN-j4ARtj0s3rJmTMk",
+    image_attribution: null
+  },
+  {
+    name: "The Chairman",
+    address: "2723 Oakdale Avenue, San Francisco",
+    key: "ChIJTfvr2pCAhYARWBE4p5-ZHTk",
+    image_attribution: null
+  },
+  {
+    name: "Old Devil Moon",
+    address: "3472 Mission Street, San Francisco",
+    key: "ChIJK7D_QV1-j4AR9FdxBV7sGss",
     image_attribution: null
   },
   {
@@ -20253,16 +21001,10 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tamashisoul",
-    address: "1849 Union Street, San Francisco",
-    key: "ChIJx0h4qtyAhYAR6xZ9Pq3jxb0",
-    image_attribution: null
-  },
-  {
-    name: "Wildseed",
-    address: "2000 Union Street, San Francisco",
-    key: "ChIJ5_oRTeiBhYAR2sL3MO11lnM",
-    image_attribution: null
+    name: "Bonjour Bakehouse",
+    address: "Delivers in SF",
+    key: "MANUAL_BONJOURBAKEHOUSE",
+    image_attribution: ""
   },
   {
     name: "Rue Lepic French Restaurant",
@@ -20271,51 +21013,51 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tender Greens",
-    address: "30 Fremont Street, San Francisco",
-    key: "ChIJD95vCWOAhYARoArNRhm9cFM",
+    name: "Las Palmas",
+    address: "5251 3rd Street, San Francisco",
+    key: "ChIJp79DRRp_j4ARef5R9i5maas",
     image_attribution: null
   },
   {
-    name: "Amici's East Coast Pizzeria",
-    address: "2200 Lombard Street, San Francisco",
-    key: "ChIJr5hDK9eAhYAR2rMP50S2r0A",
+    name: "Town Hall Restaurant",
+    address: "342 Howard Street, San Francisco",
+    key: "ChIJs6-YsWSAhYAR_9_dvdFDUww",
     image_attribution: null
   },
   {
-    name: "CCSF Cafeteria",
-    address: "52-82 Cloud Circle, San Francisco",
-    key: "ChIJQauaNSt8j4ARSmYc62BA9hI",
+    name: "Hermanos Coffee + Juice",
+    address: "650 California St, San Francisco",
+    key: "ChIJMaYZpIuAhYARJKSlQd-Tzr8",
     image_attribution: null
   },
   {
-    name: "Manna",
-    address: "845 Irving Street, San Francisco",
-    key: "ChIJwS0XsF2HhYARas-FkJML0q4",
+    name: "California Pizza Kitchen at 53 Third Street",
+    address: "53 3rd Street, San Francisco",
+    key: "ChIJrU1zCoiAhYARROMfNKqIWQM",
     image_attribution: null
   },
   {
-    name: "Camp BBQ",
-    address: "4014 Geary Boulevard, San Francisco",
-    key: "ChIJIUpPOTmHhYARKzq0tUi10b0",
+    name: "Pebbles Cafe",
+    address: "2852 Diamond St, San Francisco",
+    key: "ChIJadslXGN-j4ARNpSz6dNlLjs",
     image_attribution: null
   },
   {
-    name: "Harvey's",
-    address: "500 Castro Street, San Francisco",
-    key: "ChIJ4TKEMRt-j4AR4tXLOm6Yp8o",
+    name: "Win Garden",
+    address: "2794 Diamond Street, San Francisco",
+    key: "ChIJm7-eT4l_j4ARsy9_KE1sDVU",
     image_attribution: null
   },
   {
-    name: "Amirah Restaurant",
-    address: "993 North Point Street, San Francisco",
-    key: "ChIJx0iRuBaBhYARvwoKazthrzQ",
+    name: "Mission Rock Resort",
+    address: "817 Terry A Francois Boulevard, San Francisco",
+    key: "ChIJryemAsd_j4AR60urAIzz6Dc",
     image_attribution: null
   },
   {
-    name: "GHIRARDELLI ICE CREAM AND CHOCO",
-    address: "900 North Point Street, San Francisco",
-    key: "ChIJDQx5mOCAhYARUe0qN5p7M64",
+    name: "Yummy Home Plate",
+    address: "177 Townsend Street #135, San Francisco",
+    key: "ChIJ04p5xUd_j4AReL1-bg3u5IE",
     image_attribution: null
   },
   {
@@ -20325,15 +21067,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Chatz Roasting Company",
+    address: "301 Arkansas St, San Francisco",
+    key: "ChIJLRjqqMt_j4ARWXOd92wi5ak",
+    image_attribution: null
+  },
+  {
     name: "Calabria Brothers",
     address: "4763 Mission Street, San Francisco",
     key: "ChIJ8dONl4V-j4AR_lAM-Xv_ee0",
     image_attribution: null
   },
   {
-    name: "North Beach Pizza",
-    address: "4787 Mission Street, San Francisco",
-    key: "ChIJS3Lsp81_j4ARWndgB6M0RNE",
+    name: "La Palma Mexicatessen",
+    address: "2884 24th Street, San Francisco",
+    key: "ChIJfSXt4kh-j4ARjDEbklumgeg",
     image_attribution: null
   },
   {
@@ -20343,9 +21091,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Yellow Submarine",
-    address: "503 Irving Street, San Francisco",
-    key: "ChIJk8KQ8FuHhYAR_aZ4aiDlt6c",
+    name: "La Boulangerie de San Francisco, Noe",
+    address: "3898 24th Street, San Francisco",
+    key: "ChIJNVvanBR-j4ARnKgYHLjR-as",
+    image_attribution: null
+  },
+  {
+    name: "Saru Sushi Bar",
+    address: "3856 24th Street, San Francisco",
+    key: "ChIJsSI8kRR-j4ARGA_QES97YLo",
+    image_attribution: null
+  },
+  {
+    name: "Roy's Restaurant",
+    address: "575 Mission Street, San Francisco",
+    key: "ChIJrwxH0GKAhYARMK9ZdZNa3EA",
+    image_attribution: null
+  },
+  {
+    name: "901 Columbus",
+    address: "901 Columbus Avenue, San Francisco",
+    key: "ChIJcd9DXeWAhYAR8dES4Y6pBt4",
     image_attribution: null
   },
   {
@@ -20355,27 +21121,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "AP\u2019S CAFE",
-    address: "4108 24th St, San Francisco",
-    key: "ChIJ_33_ZRJ-j4ARfTJW6Ws6-gI",
-    image_attribution: null
-  },
-  {
-    name: "Taqueria San Jose",
-    address: "2830 Mission St, San Francisco",
-    key: "ChIJBXeOzEB-j4ARQlodxK_8YW8",
-    image_attribution: null
-  },
-  {
     name: "Pho Huynh Hiep 2 - Kevin & Chris\u2019s Noodle House",
     address: "1833 Irving Street, San Francisco",
     key: "ChIJOTRrgmWHhYARkWpWZFTHn50",
     image_attribution: null
   },
   {
-    name: "The Sarap Shop",
-    address: "428 11th St, San Francisco",
-    key: "ChIJidSArSh-j4ARQ5S0l11hbS4",
+    name: "Gourmet Carousel",
+    address: "1559 Franklin Street, San Francisco",
+    key: "ChIJNb3KWZWAhYAR_lXKbdLsBYU",
+    image_attribution: null
+  },
+  {
+    name: "Al's Super Cafe",
+    address: "3286 Mission St, San Francisco",
+    key: "ChIJnRhQH0N-j4ARa7wDAPZVf5c",
     image_attribution: null
   },
   {
@@ -20391,6 +21151,30 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "George and Lennie",
+    address: "277 Golden Gate Ave, San Francisco",
+    key: "ChIJCb5K8pqAhYARbo_vWrly8O4",
+    image_attribution: null
+  },
+  {
+    name: "Original Joe's",
+    address: "601 Union Street, San Francisco",
+    key: "ChIJfSGLEfGAhYARC8Egs7nINzk",
+    image_attribution: null
+  },
+  {
+    name: "The View Lounge",
+    address: "780 Mission Street, San Francisco",
+    key: "ChIJZZ_cOYaAhYARnyfbDrAkvJ8",
+    image_attribution: null
+  },
+  {
+    name: "Sightglass Coffee",
+    address: "301 Divisadero St, San Francisco",
+    key: "ChIJ0ZnTPK-AhYARbVoaoZLrzv8",
+    image_attribution: null
+  },
+  {
     name: "Perilla",
     address: "836 Irving Street, San Francisco",
     key: "ChIJ3VsKr12HhYARE9JylIE8umk",
@@ -20403,45 +21187,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Ananda Fuara",
-    address: "1298 Market Street, San Francisco",
-    key: "ChIJiaYceJyAhYARjyA70dD--UA",
+    name: "Forest Restaurant Supply",
+    address: "2010 Cesar Chavez, San Francisco",
+    key: "ChIJ_d67hq1_j4ARhhz6Lp49Zec",
     image_attribution: null
   },
   {
-    name: "El Norte\u00f1o Taco Truck",
-    address: "801 Bryant Street, San Francisco",
-    key: "ChIJddLAwCp-j4AR3DgcAcLNUeI",
+    name: "Hyde Street Seafood House & Raw Bar",
+    address: "1509 Hyde Street, San Francisco",
+    key: "ChIJ9epuduyAhYARA458vjA_FNg",
     image_attribution: null
   },
   {
-    name: "Tasty Coffee",
-    address: "1818 San Jose Avenue, San Francisco",
-    key: "ChIJn_q1531-j4ARGZ6FnZ56mt4",
+    name: "Tank18 Restaurant & Urban Winery",
+    address: "1345 Howard Street, San Francisco",
+    key: "ChIJeW9mW52AhYAR8KtgqsOI2q4",
     image_attribution: null
   },
   {
-    name: "The Beanery",
-    address: "602 Irving St, San Francisco",
-    key: "ChIJHUuvclyHhYARqK5A_gXmGDc",
+    name: "Lunchpad",
+    address: "581 Hayes Street, San Francisco",
+    key: "ChIJE5tVQqKAhYARJu7MzfPGZS0",
     image_attribution: null
   },
   {
-    name: "Matko",
-    address: "Inside the Food Court, 1 Market St, San Francisco",
-    key: "ChIJ4a-8ImSAhYARSbReas1-klw",
-    image_attribution: null
-  },
-  {
-    name: "CoCo Fresh Tea & Juice",
-    address: "2699 Taylor Street, San Francisco",
-    key: "ChIJjWk3MpeBhYARKriAffpkAKc",
-    image_attribution: null
-  },
-  {
-    name: "Kitchen Istanbul",
-    address: "349 Clement Street, San Francisco",
-    key: "ChIJ-7fy-juHhYARKnsUGLldH3Q",
+    name: "Florio Bar & Cafe",
+    address: "1915 Fillmore Street, San Francisco",
+    key: "ChIJ85G1k8eAhYARyW11CKO0llU",
     image_attribution: null
   },
   {
@@ -20451,16 +21223,48 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Yasukochi's Sweet Stop",
+    address: "1790 Sutter Street, San Francisco",
+    key: "ChIJ0clYyriAhYARC8bZ6x6wXBc",
+    image_attribution: null
+  },
+  {
+    name: "Iza Ramen",
+    address: "237 Fillmore Street, San Francisco",
+    key: "ChIJ70Xwz6aAhYARmM82do-7NEM",
+    image_attribution: null
+  },
+  {
     name: "Egg White Cafe",
     address: "3401 Mission Street, San Francisco",
     key: "ChIJnym4z2Z_j4ARPtjYACvGB_0",
     image_attribution: null
   },
   {
-    name: "Village Pizzeria",
-    address: "1 Clement Street, San Francisco",
-    key: "ChIJiUno8TmHhYARF38bDFH8Oic",
+    name: "CCSF Cafeteria",
+    address: "52-82 Cloud Circle, San Francisco",
+    key: "ChIJQauaNSt8j4ARSmYc62BA9hI",
     image_attribution: null
+  },
+  {
+    name: "Kitchen Istanbul",
+    address: "349 Clement Street, San Francisco",
+    key: "ChIJ-7fy-juHhYARKnsUGLldH3Q",
+    image_attribution: null
+  },
+  {
+    name: "Forbidden Island",
+    address: "1304 Lincoln Ave, Alameda",
+    key: "ChIJu1m2_dKGj4ARI7C2lF1eRkQ",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/117375187064942925031\">George Rovira</a>']"
+  },
+  {
+    name: "Altamont Beer Works",
+    address: "2402 Research Dr, Livermore",
+    key: "ChIJhQ_1DADej4ARVzO220UJDuY",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/116085064769711839084\">cheree angus</a>']"
   },
   {
     name: "Breakfast Little",
@@ -20469,10 +21273,23 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bazille",
-    address: "865 Market Street, San Francisco",
-    key: "ChIJ6zMe3oWAhYARCjdEkUhwnm8",
+    name: "The Laundry Caf\u00e9",
+    address: "3359 26th Street, San Francisco",
+    key: "ChIJrYkr8yZ_j4ARBLbT2aha9Yo",
     image_attribution: null
+  },
+  {
+    name: "Taqueria San Jose",
+    address: "2830 Mission St, San Francisco",
+    key: "ChIJBXeOzEB-j4ARQlodxK_8YW8",
+    image_attribution: null
+  },
+  {
+    name: "Tamarack",
+    address: "1501 Harrison St, Oakland",
+    key: "ChIJWVvEao6Bj4AR2T-NfJcnHoA",
+    image_attribution:
+      "['<a href=\"https://maps.google.com/maps/contrib/103031320635760432819\">Ako Heidari</a>']"
   },
   {
     name: "El Burrito Express",
@@ -20691,6 +21508,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wingtip",
+    address: "550 Montgomery Street, San Francisco",
+    key: "ChIJqa1P7IqAhYARX0O9wf2Q3M4",
+    image_attribution: null
+  },
+  {
     name: "Caf\u00e9 La Boh\u00e8me",
     address: "3318 24th St, San Francisco",
     key: "ChIJZ6fXsEB-j4ARgzVvdjgUcJQ",
@@ -20715,15 +21538,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Presidio Officers' Club",
-    address: "50 Moraga Avenue, San Francisco",
-    key: "ChIJH1we8CeHhYARDYzY3dZ-21k",
+    name: "Farallon",
+    address: "450 Post Street, San Francisco",
+    key: "ChIJJ0yB8o6AhYAR0HIFmCURzGc",
     image_attribution: null
   },
   {
-    name: "Wingtip",
-    address: "550 Montgomery Street, San Francisco",
-    key: "ChIJqa1P7IqAhYARX0O9wf2Q3M4",
+    name: "Alley House",
+    address: "3751 Geary Boulevard, San Francisco",
+    key: "ChIJlYp20qyHhYARdsCdzbeKn2Q",
     image_attribution: null
   },
   {
@@ -20736,18 +21559,6 @@ const SFPlaces = [
     name: "Marin Coffee Roasters",
     address: "546 San Anselmo Ave, San Anselmo",
     key: "ChIJsRHA1T-XhYARk2OFu3vyNV8",
-    image_attribution: null
-  },
-  {
-    name: "Farallon",
-    address: "450 Post Street, San Francisco",
-    key: "ChIJJ0yB8o6AhYAR0HIFmCURzGc",
-    image_attribution: null
-  },
-  {
-    name: "Alley House",
-    address: "3751 Geary Boulevard, San Francisco",
-    key: "ChIJlYp20qyHhYARdsCdzbeKn2Q",
     image_attribution: null
   },
   {
@@ -20841,6 +21652,24 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Arthur Mac's Tap and Snack",
+    address: "4006 Martin Luther King Jr Way, Oakland",
+    key: "ChIJTcYS-gh-hYARSiaXF0EORMs",
+    image_attribution: null
+  },
+  {
+    name: "Co Nam",
+    address: "3936 Telegraph Ave, Oakland",
+    key: "ChIJB-wWaCd9hYAR7iFuMQgZDuE",
+    image_attribution: null
+  },
+  {
+    name: "Holly's",
+    address: "4080 Piedmont Ave, Oakland",
+    key: "ChIJ9-NSEvd9hYARyDm0bS4Khbk",
+    image_attribution: null
+  },
+  {
     name: "Thai Corner",
     address: "1277 Gilman St, Berkeley",
     key: "ChIJYebyyot_hYARL3XKQTHw5Ew",
@@ -20865,21 +21694,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Crostini & Java",
-    address: "899 Hyde St, San Francisco",
-    key: "ChIJgXTImZOAhYARzX4bhO9a8ao",
-    image_attribution: null
-  },
-  {
     name: "Cafe Claude",
     address: "7 Claude Ln, San Francisco",
     key: "ChIJSdzjdYmAhYARb5BhktWOSg4",
     image_attribution: null
   },
   {
-    name: "Destino",
-    address: "1815 Market Street, San Francisco",
-    key: "ChIJJ2XZ-Z-AhYARTdVR8wX8tgQ",
+    name: "Crostini & Java",
+    address: "899 Hyde St, San Francisco",
+    key: "ChIJgXTImZOAhYARzX4bhO9a8ao",
     image_attribution: null
   },
   {
@@ -20887,24 +21710,6 @@ const SFPlaces = [
     address: "144 Leland Ave, San Francisco",
     key: "ChIJ-fHss-d_j4ARdsiNQXut09U",
     image_attribution: ""
-  },
-  {
-    name: "Arthur Mac's Tap and Snack",
-    address: "4006 Martin Luther King Jr Way, Oakland",
-    key: "ChIJTcYS-gh-hYARSiaXF0EORMs",
-    image_attribution: null
-  },
-  {
-    name: "Co Nam",
-    address: "3936 Telegraph Ave, Oakland",
-    key: "ChIJB-wWaCd9hYAR7iFuMQgZDuE",
-    image_attribution: null
-  },
-  {
-    name: "Holly's",
-    address: "4080 Piedmont Ave, Oakland",
-    key: "ChIJ9-NSEvd9hYARyDm0bS4Khbk",
-    image_attribution: null
   },
   {
     name: "Infinite Thai Eatery",
@@ -20925,18 +21730,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Popeyes Louisiana Kitchen",
-    address: "890 Geneva Avenue, San Francisco",
-    key: "ChIJlVbEoZx-j4AR9HwNttzIgqw",
-    image_attribution: null
-  },
-  {
-    name: "Venice Pizza Restaurant",
-    address: "5228 Mission St, San Francisco",
-    key: "ChIJD3dbiZx-j4ARdg9iesggsOI",
-    image_attribution: null
-  },
-  {
     name: "Barcote",
     address: "6430 Telegraph Ave, Berkeley",
     key: "ChIJibp7Ntd9hYARILZrWj1YO1A",
@@ -20946,6 +21739,18 @@ const SFPlaces = [
     name: "Munch India",
     address: "3015 Shattuck Ave, Berkeley",
     key: "ChIJKcyZ7Kl_hYARSolfrx3u234",
+    image_attribution: null
+  },
+  {
+    name: "Popeyes Louisiana Kitchen",
+    address: "890 Geneva Avenue, San Francisco",
+    key: "ChIJlVbEoZx-j4AR9HwNttzIgqw",
+    image_attribution: null
+  },
+  {
+    name: "Venice Pizza Restaurant",
+    address: "5228 Mission St, San Francisco",
+    key: "ChIJD3dbiZx-j4ARdg9iesggsOI",
     image_attribution: null
   },
   {
@@ -21119,16 +21924,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Happy Donuts",
-    address: "2101 Van Ness Avenue, San Francisco",
-    key: "ChIJe0G8-emAhYARcGc8op1Lw6o",
-    image_attribution: null
-  },
-  {
     name: "R\u00e9veille Coffee Co.",
     address: "4076 18th St, San Francisco",
     key: "ChIJ6VMNOxt-j4ARQvNJc_JGJOw",
     image_attribution: ""
+  },
+  {
+    name: "Happy Donuts",
+    address: "2101 Van Ness Avenue, San Francisco",
+    key: "ChIJe0G8-emAhYARcGc8op1Lw6o",
+    image_attribution: null
   },
   {
     name: "Emil's Burger & Breakfast",
@@ -21179,12 +21984,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Kowloon Tong Dessert Cafe",
-    address: "393 7th Ave, San Francisco",
-    key: "ChIJU3D7mz6HhYARYV5irN_Zaz8",
-    image_attribution: null
-  },
-  {
     name: "The Cheese School of San Francisco",
     address: "900 North Point Street #k201, San Francisco",
     key: "ChIJc8cnWf2BhYAR5ou_qwWKJtc",
@@ -21203,15 +22002,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Regalito Rosticeria",
-    address: "3481 18th Street, San Francisco",
-    key: "ChIJKUUV1jx-j4AR1XtDEiXj2Hc",
-    image_attribution: null
-  },
-  {
     name: "PARKER Potrero",
     address: "1399 18th Street, San Francisco",
     key: "ChIJIRKx0st_j4ARkUyx4MJtg18",
+    image_attribution: null
+  },
+  {
+    name: "Regalito Rosticeria",
+    address: "3481 18th Street, San Francisco",
+    key: "ChIJKUUV1jx-j4AR1XtDEiXj2Hc",
     image_attribution: null
   },
   {
@@ -21281,12 +22080,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bangkok Noodles & Thai BBQ",
-    address: "1958 Shattuck Ave, Berkeley",
-    key: "ChIJbabF-55-hYARpvGDHGXDxnU",
-    image_attribution: null
-  },
-  {
     name: "Ritual Coffee Roasters",
     address: "1300 Haight St, San Francisco",
     key: "ChIJf2VE9ayAhYARcESkjlMUzfU",
@@ -21302,6 +22095,12 @@ const SFPlaces = [
     name: "Neecha Thai Cuisine",
     address: "3236 Grand Ave, Oakland",
     key: "ChIJnY6JA7iAhYARM75EutcItkc",
+    image_attribution: null
+  },
+  {
+    name: "Bangkok Noodles & Thai BBQ",
+    address: "1958 Shattuck Ave, Berkeley",
+    key: "ChIJbabF-55-hYARpvGDHGXDxnU",
     image_attribution: null
   },
   {
@@ -21455,9 +22254,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Mama Coco Cocina Mexicana",
+    address: "1081 El Camino Real, Menlo Park",
+    key: "ChIJrbqcMa6kj4ARYORVCGFGaI0",
+    image_attribution: null
+  },
+  {
     name: "Tommy's Wok Chinese Cuisine",
     address: "3001 Bridgeway H, Sausalito",
     key: "ChIJ6ZUi_A-FhYARbVfNC4t3vrk",
+    image_attribution: null
+  },
+  {
+    name: "SP2 Communal Bar + Restaurant",
+    address: "72 N Almaden Ave, San Jose",
+    key: "ChIJawrlN6LMj4AR-Bhapw3p8Qs",
+    image_attribution: null
+  },
+  {
+    name: "The Blue Chip",
+    address: "325 S 1st St, San Jose",
+    key: "ChIJsWF_errMj4ARgvXtQYMvNWU",
     image_attribution: null
   },
   {
@@ -21473,27 +22290,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mama Coco Cocina Mexicana",
-    address: "1081 El Camino Real, Menlo Park",
-    key: "ChIJrbqcMa6kj4ARYORVCGFGaI0",
-    image_attribution: null
-  },
-  {
     name: "Magnolia Park Kitchen",
     address: "1016 Court St, San Rafael",
     key: "ChIJrUXVaPqZhYAR3PJyiJsUYck",
-    image_attribution: null
-  },
-  {
-    name: "SP2 Communal Bar + Restaurant",
-    address: "72 N Almaden Ave, San Jose",
-    key: "ChIJawrlN6LMj4AR-Bhapw3p8Qs",
-    image_attribution: null
-  },
-  {
-    name: "The Blue Chip",
-    address: "325 S 1st St, San Jose",
-    key: "ChIJsWF_errMj4ARgvXtQYMvNWU",
     image_attribution: null
   },
   {
@@ -21515,18 +22314,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "B-Side",
-    address: "205 Franklin St, San Francisco",
-    key: "ChIJ16l61JiAhYARCYPmMurs04o",
-    image_attribution: null
-  },
-  {
-    name: "Hot Sauce and Panko To Go",
-    address: "1468 Hyde Street, San Francisco",
-    key: "ChIJGbZYeuyAhYAR10V7HrUWT4g",
-    image_attribution: null
-  },
-  {
     name: "Tony's Seafood Restaurant",
     address: "18863 Shoreline Hwy, Marshall",
     key: "ChIJle67SfrNhYARiUGp941iY7g",
@@ -21539,21 +22326,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "B-Side",
+    address: "205 Franklin St, San Francisco",
+    key: "ChIJ16l61JiAhYARCYPmMurs04o",
+    image_attribution: null
+  },
+  {
+    name: "Hot Sauce and Panko To Go",
+    address: "1468 Hyde Street, San Francisco",
+    key: "ChIJGbZYeuyAhYAR10V7HrUWT4g",
+    image_attribution: null
+  },
+  {
     name: "The Marshall Store",
     address: "19225 CA-1, Marshall",
     key: "ChIJ6TttjQXOhYARY3gIyd1JwK8",
     image_attribution: null
   },
   {
-    name: "Humphry Slocombe",
-    address: "2790a Harrison St, San Francisco",
-    key: "ChIJqSrJjGaAhYARJyIlfrKiVwM",
-    image_attribution: null
-  },
-  {
     name: "Bernie's",
     address: "3966 24th St, San Francisco",
     key: "ChIJ37ticRN-j4ARnoZeLusW0bI",
+    image_attribution: null
+  },
+  {
+    name: "Humphry Slocombe",
+    address: "2790a Harrison St, San Francisco",
+    key: "ChIJqSrJjGaAhYARJyIlfrKiVwM",
     image_attribution: null
   },
   {
@@ -21617,15 +22416,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Another Cafe",
-    address: "1191 Pine St, San Francisco",
-    key: "ChIJJ-xR_pKAhYARNAvzaJs_lt0",
-    image_attribution: null
-  },
-  {
     name: "Han Il Kwan",
     address: "1802 Balboa Street, San Francisco",
     key: "ChIJI6JsNhKHhYAReXMF582y-zM",
+    image_attribution: null
+  },
+  {
+    name: "Another Cafe",
+    address: "1191 Pine St, San Francisco",
+    key: "ChIJJ-xR_pKAhYARNAvzaJs_lt0",
     image_attribution: null
   },
   {
@@ -21659,21 +22458,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Pe\u00f1a Pachamama",
-    address: "1630 Powell Street, San Francisco",
-    key: "ChIJD6YgmPGAhYAR8ipNHys1DM8",
-    image_attribution: null
-  },
-  {
     name: "Krispy Kreme",
     address: "353 Jefferson Street, San Francisco",
     key: "ChIJT_5fYuGAhYARVDnB4cxdviI",
     image_attribution: null
   },
   {
-    name: "Pressed Juicery",
-    address: "2162A Union Street, San Francisco",
-    key: "ChIJ53_fm9qAhYARSPvAA5Tn5SU",
+    name: "Pe\u00f1a Pachamama",
+    address: "1630 Powell Street, San Francisco",
+    key: "ChIJD6YgmPGAhYAR8ipNHys1DM8",
     image_attribution: null
   },
   {
@@ -21779,15 +22572,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cellarmaker House of Pizza",
-    address: "3193 Mission St, San Francisco",
-    key: "ChIJMedqMuJ_j4ARRMOdwTGrjPg",
-    image_attribution: null
-  },
-  {
     name: "Little Nepal",
     address: "925 Cortland Avenue, San Francisco",
     key: "ChIJi6OCxFl-j4AR_v0Y4ATYMF0",
+    image_attribution: null
+  },
+  {
+    name: "Cellarmaker House of Pizza",
+    address: "3193 Mission St, San Francisco",
+    key: "ChIJMedqMuJ_j4ARRMOdwTGrjPg",
     image_attribution: null
   },
   {
@@ -21848,12 +22641,6 @@ const SFPlaces = [
     name: "Biergarten",
     address: "424 Octavia St, San Francisco",
     key: "ChIJp4nrB6KAhYARhS8cKd1vZ5Q",
-    image_attribution: null
-  },
-  {
-    name: "Khamsa Restaurant",
-    address: "1503 15th Street, San Francisco",
-    key: "ChIJzRlzDCR-j4ARWGmTZl_7E74",
     image_attribution: null
   },
   {
@@ -22019,16 +22806,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Heirloom Caf\u00e9",
-    address: "2500 Folsom St, San Francisco",
-    key: "ChIJ3XEasjl-j4ARWcW8iwtlkhw",
-    image_attribution: ""
-  },
-  {
     name: "Donairo's Pizza",
     address: "6905 Geary Boulevard, San Francisco",
     key: "ChIJe-oPOKiHhYARoqNZwQTIoig",
     image_attribution: null
+  },
+  {
+    name: "Heirloom Caf\u00e9",
+    address: "2500 Folsom St, San Francisco",
+    key: "ChIJ3XEasjl-j4ARWcW8iwtlkhw",
+    image_attribution: ""
   },
   {
     name: "Klatch Coffee Franklin",
@@ -22091,22 +22878,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe R\u00e9veille",
-    address: "610 Long Bridge Street, San Francisco",
-    key: "ChIJrYVUEYCAhYARweDb0BL63f0",
-    image_attribution: null
-  },
-  {
     name: "Dinosaurs",
     address: "18 Boardman Place, San Francisco",
     key: "ChIJ4Ss_4ip-j4ARszbFw2udJ-s",
     image_attribution: null
   },
   {
-    name: "Curio",
-    address: "775 Valencia St, San Francisco",
-    key: "ChIJmV6hBvx_j4ARlEEVruBVFRU",
-    image_attribution: null
+    name: "Cafe R\u00e9veille",
+    address: "610 Long Bridge Street, San Francisco",
+    key: "ChIJrYVUEYCAhYARweDb0BL63f0",
+    image_attribution: ""
   },
   {
     name: "Yvonne's Southern Sweets",
@@ -22115,15 +22896,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Java on Ocean",
-    address: "1700 Ocean Ave, San Francisco",
-    key: "ChIJocaHuc19j4AR_eVios_llO0",
-    image_attribution: null
-  },
-  {
     name: "MARUGAME UDON",
     address: "3251 20th Avenue space 184, San Francisco",
     key: "ChIJlb0WR7p9j4ARrTsWTpRjHFw",
+    image_attribution: null
+  },
+  {
+    name: "Java on Ocean",
+    address: "1700 Ocean Ave, San Francisco",
+    key: "ChIJocaHuc19j4AR_eVios_llO0",
     image_attribution: null
   },
   {
@@ -22136,6 +22917,12 @@ const SFPlaces = [
     name: "New Taraval Cafe",
     address: "1054 Taraval St, San Francisco",
     key: "ChIJhSxOs5F9j4ARX32dC4vA1Ho",
+    image_attribution: null
+  },
+  {
+    name: "Cassava",
+    address: "3519 Balboa Street, San Francisco",
+    key: "ChIJmRarFKaHhYAR7Rzri1MQfK0",
     image_attribution: null
   },
   {
@@ -22160,12 +22947,6 @@ const SFPlaces = [
     name: "Muguboka Restaurant",
     address: "401 Balboa Street, San Francisco",
     key: "ChIJKW84UEeHhYARhQVDd7-EqXM",
-    image_attribution: null
-  },
-  {
-    name: "Cassava",
-    address: "3519 Balboa Street, San Francisco",
-    key: "ChIJmRarFKaHhYAR7Rzri1MQfK0",
     image_attribution: null
   },
   {
@@ -22307,15 +23088,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "21 Taste House",
-    address: "1109 Ocean Avenue, San Francisco",
-    key: "ChIJh4BpMtN9j4AR-ZK17rQCX3s",
-    image_attribution: null
-  },
-  {
     name: "Villa D'Este",
     address: "2623 Ocean Avenue, San Francisco",
     key: "ChIJs2uhtb59j4ARQ_5s-7Sc0R0",
+    image_attribution: null
+  },
+  {
+    name: "21 Taste House",
+    address: "1109 Ocean Avenue, San Francisco",
+    key: "ChIJh4BpMtN9j4AR-ZK17rQCX3s",
     image_attribution: null
   },
   {
@@ -22451,15 +23232,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Baby Blues BBQ",
-    address: "3149 Mission Street, San Francisco",
-    key: "ChIJKTyMjkN-j4ARxfawrQNNjb0",
-    image_attribution: null
-  },
-  {
     name: "Moonlight Cafe",
     address: "634 Cortland Ave, San Francisco",
     key: "ChIJUf1Cn1l-j4AR_bqDwydE4lU",
+    image_attribution: null
+  },
+  {
+    name: "Baby Blues BBQ",
+    address: "3149 Mission Street, San Francisco",
+    key: "ChIJKTyMjkN-j4ARxfawrQNNjb0",
     image_attribution: null
   },
   {
@@ -22469,27 +23250,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "West Coast Pizza",
-    address: "1706 University Ave, Berkeley",
-    key: "ChIJJfFUhJd-hYARSWx1qePXf10",
-    image_attribution: null
-  },
-  {
-    name: "Revival Bar + Kitchen",
-    address: "2102 Shattuck Ave, Berkeley",
-    key: "ChIJKSaRgJ5-hYARI_fgKX2gKNg",
-    image_attribution: null
-  },
-  {
-    name: "Augie's Montreal Smoke Meat",
-    address: "875 Potter St, Berkeley",
-    key: "ChIJBS4daf19hYARI31MCMZsufM",
-    image_attribution: null
-  },
-  {
     name: "Caffe Teatro",
     address: "300 Frank H. Ogawa Plaza Suite 130, Oakland",
     key: "ChIJZ9Czg7GAj4ARQJJ-Rre9qj4",
+    image_attribution: null
+  },
+  {
+    name: "West Coast Pizza",
+    address: "1706 University Ave, Berkeley",
+    key: "ChIJJfFUhJd-hYARSWx1qePXf10",
     image_attribution: null
   },
   {
@@ -22499,15 +23268,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mint Leaf",
-    address: "2865 Seventh St, Berkeley",
-    key: "ChIJZz9UcfR-hYARzkLtgzblwxw",
+    name: "Revival Bar + Kitchen",
+    address: "2102 Shattuck Ave, Berkeley",
+    key: "ChIJKSaRgJ5-hYARI_fgKX2gKNg",
     image_attribution: null
   },
   {
     name: "Little J's Albany",
     address: "540 San Pablo Ave, Albany",
     key: "ChIJrcJUHCV5hYARySjqx1ju3Ac",
+    image_attribution: null
+  },
+  {
+    name: "Augie's Montreal Smoke Meat",
+    address: "875 Potter St, Berkeley",
+    key: "ChIJBS4daf19hYARI31MCMZsufM",
+    image_attribution: null
+  },
+  {
+    name: "Mint Leaf",
+    address: "2865 Seventh St, Berkeley",
+    key: "ChIJZz9UcfR-hYARzkLtgzblwxw",
     image_attribution: null
   },
   {
@@ -22655,15 +23436,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "WONDER TEA",
-    address: "2250 Irving Street, San Francisco",
-    key: "ChIJa8joQXCHhYARw5nFbhfPMrI",
-    image_attribution: null
-  },
-  {
-    name: "Mayah\u2019s Restaurant Cafe",
-    address: "550 15th St, San Francisco",
-    key: "ChIJF_atoyF-j4ARE8RxSCjk8CU",
+    name: "Dumpling Alley",
+    address: "2512 Clement Street, San Francisco",
+    key: "ChIJ4x5l6ouHhYAR5EiqRtPh57c",
     image_attribution: null
   },
   {
@@ -22679,9 +23454,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Dumpling Alley",
-    address: "2512 Clement Street, San Francisco",
-    key: "ChIJ4x5l6ouHhYAR5EiqRtPh57c",
+    name: "Mayah\u2019s Restaurant Cafe",
+    address: "550 15th St, San Francisco",
+    key: "ChIJF_atoyF-j4ARE8RxSCjk8CU",
     image_attribution: null
   },
   {
@@ -22727,12 +23502,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Liberties Bar & Grill",
-    address: "998 Guerrero Street, San Francisco",
-    key: "ChIJXxwyPT5-j4ARMj_hNCaaXZA",
-    image_attribution: null
-  },
-  {
     name: "Stow Lake Boathouse",
     address: "50 Stow Lake Drive East, San Francisco",
     key: "ChIJCbTrWWyHhYARFMEII44WKZc",
@@ -22742,6 +23511,12 @@ const SFPlaces = [
     name: "San Francisco Brewing Co.",
     address: "3150 Polk St, San Francisco",
     key: "ChIJ3VJvKxx-j4AR5PnwzAq_Ln8",
+    image_attribution: null
+  },
+  {
+    name: "The Liberties Bar & Grill",
+    address: "998 Guerrero Street, San Francisco",
+    key: "ChIJXxwyPT5-j4ARMj_hNCaaXZA",
     image_attribution: null
   },
   {
@@ -22766,12 +23541,6 @@ const SFPlaces = [
     name: "SoMa Pizza CA",
     address: "483 3rd Street, San Francisco",
     key: "ChIJp5yR1X6AhYARTzXR1AhTXdM",
-    image_attribution: null
-  },
-  {
-    name: "Kezar Bar & Restaurant",
-    address: "900 Cole Street, San Francisco",
-    key: "ChIJzUFZV1SHhYARo9gMH2CdnGY",
     image_attribution: null
   },
   {
@@ -22853,21 +23622,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Deli Board",
-    address: "1058 Folsom Street, San Francisco",
-    key: "ChIJg3sUuoOAhYARpkc2SgWT8gc",
-    image_attribution: ""
-  },
-  {
     name: "Blue Fog Market",
     address: "2567 Gough Street, San Francisco",
     key: "ChIJz49YH8OAhYARKXiCKNUQ98I",
     image_attribution: null
   },
   {
-    name: "Nourish Cafe",
-    address: "1030 Hyde St, San Francisco",
-    key: "ChIJ19cYa5OAhYARvyZWBkZiZIk",
+    name: "Deli Board",
+    address: "1058 Folsom Street, San Francisco",
+    key: "ChIJg3sUuoOAhYARpkc2SgWT8gc",
     image_attribution: ""
   },
   {
@@ -22943,15 +23706,15 @@ const SFPlaces = [
     image_attribution: ""
   },
   {
-    name: "Truly Mediterranean",
-    address: "900 16th Street, San Francisco",
-    key: "ChIJpQ4cJMx_j4ARpLxe78KXHX8",
-    image_attribution: null
-  },
-  {
     name: "Vixi Cucina Italiana",
     address: "3611 California Street, San Francisco",
     key: "ChIJ84QIRzGHhYARfHY7CPi2TyI",
+    image_attribution: null
+  },
+  {
+    name: "Truly Mediterranean",
+    address: "900 16th Street, San Francisco",
+    key: "ChIJpQ4cJMx_j4ARpLxe78KXHX8",
     image_attribution: null
   },
   {
@@ -23033,33 +23796,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Marnee Thai Restaurant",
+    address: "2225 Irving Street, San Francisco",
+    key: "ChIJrSqOE3CHhYARthwEmTSXYYA",
+    image_attribution: null
+  },
+  {
     name: "West Coast Wine \u2022 Cheese",
     address: "2165 Union Street, San Francisco",
     key: "ChIJ1XxootqAhYARe3HUtk0so88",
     image_attribution: null
   },
   {
-    name: "Posh Bagel",
-    address: "270 Sutter Street, San Francisco",
-    key: "ChIJ-4KYcomAhYARCLnCj9alILg",
-    image_attribution: null
-  },
-  {
-    name: "Foodhall",
-    address: "3100 16th Street, San Francisco",
-    key: "ChIJ569jRiJ-j4ARPBU68-MfNa8",
-    image_attribution: null
-  },
-  {
     name: "Cafe Seventy8",
     address: "78 29th St, San Francisco",
     key: "ChIJ3-On50J-j4ARBDTpQE8KP5Q",
-    image_attribution: null
-  },
-  {
-    name: "Marnee Thai Restaurant",
-    address: "2225 Irving Street, San Francisco",
-    key: "ChIJrSqOE3CHhYARthwEmTSXYYA",
     image_attribution: null
   },
   {
@@ -23250,15 +24001,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Temo's Coffee",
-    address: "3000 24th St, San Francisco",
-    key: "ChIJ35oRhkh-j4ARv8VUVLjFZHg",
-    image_attribution: null
-  },
-  {
     name: "Hi-Way Burger & Fry",
     address: "3853 24th Street, San Francisco",
     key: "ChIJZXIKIwR_j4ARmrvrMZSgHK0",
+    image_attribution: null
+  },
+  {
+    name: "Temo's Coffee",
+    address: "3000 24th St, San Francisco",
+    key: "ChIJ35oRhkh-j4ARv8VUVLjFZHg",
     image_attribution: null
   },
   {
@@ -23268,21 +24019,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Red's Java House",
-    address: "Pier 30, San Francisco",
-    key: "ChIJRdtRynaAhYARagrKDgRYYHM",
-    image_attribution: null
-  },
-  {
     name: "Toasty",
     address: "2760 Octavia Street, San Francisco",
     key: "ChIJ35VhTMOAhYARAuP6UgSBS5Q",
     image_attribution: null
   },
   {
-    name: "SPQR",
-    address: "1911 Fillmore Street, San Francisco",
-    key: "ChIJCUQFkseAhYARpkr3emAuxp8",
+    name: "Red's Java House",
+    address: "Pier 30, San Francisco",
+    key: "ChIJRdtRynaAhYARagrKDgRYYHM",
     image_attribution: null
   },
   {
@@ -23304,21 +24049,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Mama's On Washington Square",
-    address: "1701 Stockton Street, San Francisco",
-    key: "ChIJzXSCqfGAhYAR_AM6FCI7To4",
+    name: "Thai Time Restaurant",
+    address: "315 8th Avenue, San Francisco",
+    key: "ChIJ382ayj2HhYARZBmaWC8Y3AQ",
     image_attribution: null
   },
   {
     name: "1760",
     address: "1760 Polk Street, San Francisco",
     key: "ChIJedb3quuAhYAR2Wi98Ex7WLc",
-    image_attribution: null
-  },
-  {
-    name: "Thai Time Restaurant",
-    address: "315 8th Avenue, San Francisco",
-    key: "ChIJ382ayj2HhYARZBmaWC8Y3AQ",
     image_attribution: null
   },
   {
@@ -23331,6 +24070,12 @@ const SFPlaces = [
     name: "Olea",
     address: "1494 California Street, San Francisco",
     key: "ChIJfx71rpSAhYAR8BfKkyRy5wE",
+    image_attribution: null
+  },
+  {
+    name: "Mama's On Washington Square",
+    address: "1701 Stockton Street, San Francisco",
+    key: "ChIJzXSCqfGAhYAR_AM6FCI7To4",
     image_attribution: null
   },
   {
@@ -23352,15 +24097,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Hard Water",
-    address: "Pier 3, The Embarcadero, San Francisco",
-    key: "ChIJSYqwTGeAhYARXBQKB6Qwics",
-    image_attribution: null
-  },
-  {
     name: "Bar Crenn",
     address: "3131 Fillmore St, San Francisco",
     key: "ChIJL66ohdCAhYARO3o0IhzIc8U",
+    image_attribution: ""
+  },
+  {
+    name: "Hard Water",
+    address: "Pier 3, The Embarcadero, San Francisco",
+    key: "ChIJSYqwTGeAhYARXBQKB6Qwics",
     image_attribution: null
   },
   {
@@ -23413,18 +24158,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bowl'd Korean Rice Bar",
-    address: "1479 Solano Ave, Albany",
-    key: "ChIJB_kEgTV5hYARM1D48_25dgI",
-    image_attribution: null
-  },
-  {
-    name: "Himalayan Tandoori and Curry House",
-    address: "1645 Solano Ave, Berkeley",
-    key: "ChIJ-73CaUt5hYARnDCqzdWvHME",
-    image_attribution: null
-  },
-  {
     name: "Pier Market",
     address: "Pier 39, San Francisco",
     key: "ChIJHSGzi_yAhYAR9CGTkz3GiJ0",
@@ -23437,9 +24170,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bowl'd Korean Rice Bar",
+    address: "1479 Solano Ave, Albany",
+    key: "ChIJB_kEgTV5hYARM1D48_25dgI",
+    image_attribution: null
+  },
+  {
     name: "PABU Izakaya",
     address: "101 California St, San Francisco",
     key: "ChIJ44TmfmGAhYARtt8NOeJ9kLo",
+    image_attribution: null
+  },
+  {
+    name: "Himalayan Tandoori and Curry House",
+    address: "1645 Solano Ave, Berkeley",
+    key: "ChIJ-73CaUt5hYARnDCqzdWvHME",
     image_attribution: null
   },
   {
@@ -23455,27 +24200,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Jasmine Tea House",
-    address: "3259 Mission Street, San Francisco",
-    key: "ChIJBUoxEUN-j4ARGkNNrEbTCbg",
+    name: "Noodle Theory | Rockridge",
+    address: "6099 Claremont Ave, Oakland",
+    key: "ChIJI5A058R9hYARZlK-kmZ1dLw",
     image_attribution: null
   },
   {
-    name: "Muddy's Coffee House",
-    address: "1304 Valencia St, San Francisco",
-    key: "ChIJFfYWj0B-j4ARCWHgeF1DYvg",
-    image_attribution: null
-  },
-  {
-    name: "Kitchen Story",
-    address: "3499 16th Street, San Francisco",
-    key: "ChIJ_wloDhx-j4AR636PeyqpwKY",
-    image_attribution: null
-  },
-  {
-    name: "Battambang",
-    address: "850 Broadway, Oakland",
-    key: "ChIJUUbm-7aAj4ARMT7b8FRMSbM",
+    name: "Cactus Taqueria",
+    address: "5642 College Ave, Oakland",
+    key: "ChIJhYx98cJ9hYARS8xfrUA9Wso",
     image_attribution: null
   },
   {
@@ -23485,9 +24218,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Noodle Theory | Rockridge",
-    address: "6099 Claremont Ave, Oakland",
-    key: "ChIJI5A058R9hYARZlK-kmZ1dLw",
+    name: "Battambang",
+    address: "850 Broadway, Oakland",
+    key: "ChIJUUbm-7aAj4ARMT7b8FRMSbM",
     image_attribution: null
   },
   {
@@ -23503,39 +24236,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Calavera",
-    address: "2337 Broadway, Oakland",
-    key: "ChIJOxcAxqyAj4ARdDwxwzzrxOc",
-    image_attribution: null
-  },
-  {
-    name: "Cactus Taqueria",
-    address: "5642 College Ave, Oakland",
-    key: "ChIJhYx98cJ9hYARS8xfrUA9Wso",
-    image_attribution: null
-  },
-  {
-    name: "Farmhouse Kitchen Thai Cuisine",
-    address: "336 Water St, Oakland",
-    key: "ChIJL2J8jciAj4ARdsKxBBna8Lg",
-    image_attribution: null
-  },
-  {
     name: "Rojbas",
     address: "1901 University Ave, Berkeley",
     key: "ChIJh6DdHZl-hYARK7ScqJIb9T0",
     image_attribution: null
   },
   {
-    name: "Maejoo",
-    address: "185 Pelton Center Way, San Leandro",
-    key: "ChIJra5FWiuPj4ARUJZ1UFOCeOo",
+    name: "Jasmine Tea House",
+    address: "3259 Mission Street, San Francisco",
+    key: "ChIJBUoxEUN-j4ARGkNNrEbTCbg",
     image_attribution: null
   },
   {
-    name: "Beard Papa's",
-    address: "99 Yerba Buena Lane, San Francisco",
-    key: "ChIJoYMGtoeAhYARWYW_7QDido0",
+    name: "Muddy's Coffee House",
+    address: "1304 Valencia St, San Francisco",
+    key: "ChIJFfYWj0B-j4ARCWHgeF1DYvg",
     image_attribution: null
   },
   {
@@ -23557,15 +24272,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sushi Delight",
-    address: "4847, 1443 E 14th St c, San Leandro",
-    key: "ChIJC4RG0pWPj4ARMc8TVrdWG74",
+    name: "Calavera",
+    address: "2337 Broadway, Oakland",
+    key: "ChIJOxcAxqyAj4ARdDwxwzzrxOc",
     image_attribution: null
   },
   {
-    name: "The Fat Lady",
-    address: "201 Washington St, Oakland",
-    key: "ChIJFbAoCLiAj4AR5PvBifjo6vg",
+    name: "Farmhouse Kitchen Thai Cuisine",
+    address: "336 Water St, Oakland",
+    key: "ChIJL2J8jciAj4ARdsKxBBna8Lg",
     image_attribution: null
   },
   {
@@ -23575,15 +24290,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lotus Leaf Restaurant",
-    address: "277 Parrott St, San Leandro",
-    key: "ChIJnQo8-JSPj4AR5yMGKJfAEe8",
-    image_attribution: null
-  },
-  {
     name: "Free Speech Movement Cafe",
     address: "3rd Floor Moffitt Library, U C Berkeley, Berkeley",
     key: "ChIJ60w1qN9-hYARtzxtM7Qwdw4",
+    image_attribution: null
+  },
+  {
+    name: "The Fat Lady",
+    address: "201 Washington St, Oakland",
+    key: "ChIJFbAoCLiAj4AR5PvBifjo6vg",
+    image_attribution: null
+  },
+  {
+    name: "Maejoo",
+    address: "185 Pelton Center Way, San Leandro",
+    key: "ChIJra5FWiuPj4ARUJZ1UFOCeOo",
+    image_attribution: null
+  },
+  {
+    name: "Sushi Delight",
+    address: "4847, 1443 E 14th St c, San Leandro",
+    key: "ChIJC4RG0pWPj4ARMc8TVrdWG74",
+    image_attribution: null
+  },
+  {
+    name: "Lotus Leaf Restaurant",
+    address: "277 Parrott St, San Leandro",
+    key: "ChIJnQo8-JSPj4AR5yMGKJfAEe8",
     image_attribution: null
   },
   {
@@ -23768,12 +24501,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Deccan Spice",
-    address: "1142 Valencia Street, San Francisco",
-    key: "ChIJ3dbHAD9-j4ARXtnqYkNLGsI",
-    image_attribution: null
-  },
-  {
     name: "Pye",
     address: "Main Post Lawn, San Francisco",
     key: "ChIJzfBJCh2HhYARV09YRv2td0Y",
@@ -23783,6 +24510,12 @@ const SFPlaces = [
     name: "Arashi Sushi House",
     address: "4724 Geary Boulevard, San Francisco",
     key: "ChIJRQnxEBaHhYARInl9lJDeIOY",
+    image_attribution: null
+  },
+  {
+    name: "Deccan Spice",
+    address: "1142 Valencia Street, San Francisco",
+    key: "ChIJ3dbHAD9-j4ARXtnqYkNLGsI",
     image_attribution: null
   },
   {
@@ -23820,13 +24553,6 @@ const SFPlaces = [
     address: "901 North Point Street, San Francisco",
     key: "ChIJ592Aw-CAhYARKRvjn2pEN0A",
     image_attribution: null
-  },
-  {
-    name: "Arlequin Wine Merchant",
-    address: "372 Hayes St, San Francisco",
-    key: "ChIJr7uwv5iAhYARYkAkNkiMfZI",
-    image_attribution:
-      "['<a href=\"https://maps.google.com/maps/contrib/109071827669299802642\">Charlie Englert</a>']"
   },
   {
     name: "Namu Stonepot",
@@ -23895,15 +24621,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Anthony's Cookies",
-    address: "1417 Valencia Street, San Francisco",
-    key: "ChIJtYlXHEF-j4ARcvUDxWd2c8Q",
-    image_attribution: null
-  },
-  {
     name: "El Buen Comer",
     address: "3435 Mission Street, San Francisco",
     key: "ChIJuZpBOV1-j4ARMWuZJDSKynQ",
+    image_attribution: ""
+  },
+  {
+    name: "Anthony's Cookies",
+    address: "1417 Valencia Street, San Francisco",
+    key: "ChIJtYlXHEF-j4ARcvUDxWd2c8Q",
     image_attribution: null
   },
   {
@@ -24016,27 +24742,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Reverie",
-    address: "848 Cole St, San Francisco",
-    key: "ChIJJz9KXFSHhYARKuTx7XrA5k4",
-    image_attribution: null
-  },
-  {
-    name: "Red Jade",
-    address: "245 Church Street, San Francisco",
-    key: "ChIJvRRyYh5-j4AR_ko2m2ZWRI8",
-    image_attribution: null
-  },
-  {
     name: "Californios",
     address: "3115 22nd Street, San Francisco",
     key: "ChIJIfD0wjh-j4ARbWVBlaGpKnU",
-    image_attribution: null
-  },
-  {
-    name: "Mr. Pizza Man",
-    address: "2680 22nd Street, San Francisco",
-    key: "ChIJx8KiHcx9j4AR7KYfgcUQk1g",
     image_attribution: null
   },
   {
@@ -24112,18 +24820,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Duny\u0101 Mediterranean Bistro & Wine Bar",
-    address: "1609 Polk Street, San Francisco",
-    key: "ChIJ4YFOIOuAhYARLV5hhCIAu_I",
-    image_attribution: null
-  },
-  {
-    name: "Bussaba",
-    address: "534 Irving Street, San Francisco",
-    key: "ChIJZRZw9VuHhYARn3Ndv7R728M",
-    image_attribution: null
-  },
-  {
     name: "Conching's Kusina",
     address: "4994 Mission Street, San Francisco",
     key: "ChIJOXvFt4R-j4ARq1bBCQkwi_4",
@@ -24148,18 +24844,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Jalapeno Taqueria",
-    address: "1338 Ocean Avenue, San Francisco",
-    key: "ChIJays_jtJ9j4AR0-K_im8pfNE",
-    image_attribution: null
-  },
-  {
-    name: "Tea Plus Tea Bar",
-    address: "4482 Mission Street, San Francisco",
-    key: "ChIJh1Qm64h-j4AR3LmXs3FaWfE",
-    image_attribution: null
-  },
-  {
     name: "Railroad Expresso",
     address: "705 Monterey Blvd, San Francisco",
     key: "ChIJr-MbJ9d9j4ARmdvj-wO9RPI",
@@ -24169,6 +24853,18 @@ const SFPlaces = [
     name: "Ocean Thai Restaurant",
     address: "2545 Ocean Avenue, San Francisco",
     key: "ChIJywqnMbl9j4ARgg8IeFjqXWw",
+    image_attribution: null
+  },
+  {
+    name: "El Jalapeno Taqueria",
+    address: "1338 Ocean Avenue, San Francisco",
+    key: "ChIJays_jtJ9j4AR0-K_im8pfNE",
+    image_attribution: null
+  },
+  {
+    name: "Tea Plus Tea Bar",
+    address: "4482 Mission Street, San Francisco",
+    key: "ChIJh1Qm64h-j4AR3LmXs3FaWfE",
     image_attribution: null
   },
   {
@@ -24199,18 +24895,6 @@ const SFPlaces = [
     name: "Sowl Bowls Thai Street Food",
     address: "138 6th Street, San Francisco",
     key: "ChIJS3Mq4tyBhYARBMga3YaWcHs",
-    image_attribution: null
-  },
-  {
-    name: "Standard Deviant Brewing",
-    address: "280 14th Street, San Francisco",
-    key: "ChIJgcZNRyF-j4AR840OtvNCsco",
-    image_attribution: ""
-  },
-  {
-    name: "Ijji Sushi",
-    address: "252 Divisadero Street, San Francisco",
-    key: "ChIJ32Ejy6iAhYARDwrZfURRoYE",
     image_attribution: null
   },
   {
@@ -24280,15 +24964,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rin's Thai",
-    address: "4301 24th Street, San Francisco",
-    key: "ChIJK73BNgx-j4ARSNhgRHYD8WA",
-    image_attribution: null
-  },
-  {
     name: "Los Yaquis",
     address: "3214 Folsom Street, San Francisco",
     key: "ChIJtSqg3uB_j4ARIVioq15A-iQ",
+    image_attribution: null
+  },
+  {
+    name: "Rin's Thai",
+    address: "4301 24th Street, San Francisco",
+    key: "ChIJK73BNgx-j4ARSNhgRHYD8WA",
     image_attribution: null
   },
   {
@@ -24364,12 +25048,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bursa",
-    address: "60 W Portal Ave, San Francisco",
-    key: "ChIJ3d4n-Op9j4AR7r-nYVNINr0",
-    image_attribution: null
-  },
-  {
     name: "Medleno Coffee Shop & Roastery",
     address: "199 New Montgomery St suite a, San Francisco",
     key: "ChIJe-v_YEeBhYARQAV0LHaF9dE",
@@ -24379,6 +25057,12 @@ const SFPlaces = [
     name: "Corridor",
     address: "100 Van Ness Ave, San Francisco",
     key: "ChIJmbfTrZ6AhYARSBFyLBMQZJA",
+    image_attribution: null
+  },
+  {
+    name: "Bursa",
+    address: "60 W Portal Ave, San Francisco",
+    key: "ChIJ3d4n-Op9j4AR7r-nYVNINr0",
     image_attribution: null
   },
   {
@@ -24400,15 +25084,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Luna's Coffee House",
-    address: "1101 Potrero Ave, San Francisco",
-    key: "ChIJUa0E0Et-j4AREbLOD8AYRMo",
-    image_attribution: null
-  },
-  {
     name: "Shabu House",
     address: "2608 Ocean Avenue, San Francisco",
     key: "ChIJI9eiy759j4ARSPQFCwChBs8",
+    image_attribution: null
+  },
+  {
+    name: "Luna's Coffee House",
+    address: "1101 Potrero Ave, San Francisco",
+    key: "ChIJUa0E0Et-j4AREbLOD8AYRMo",
     image_attribution: null
   },
   {
@@ -24418,15 +25102,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "BOBA PINK",
-    address: "639 Post Street, San Francisco",
-    key: "ChIJb2APJSOBhYAR-uM2nUpJrXs",
-    image_attribution: null
-  },
-  {
     name: "Bar Crudo",
     address: "1501, 655 Divisadero Street, San Francisco",
     key: "ChIJG5eZAYyAhYARoc7-JK2NJEU",
+    image_attribution: null
+  },
+  {
+    name: "BOBA PINK",
+    address: "639 Post Street, San Francisco",
+    key: "ChIJb2APJSOBhYAR-uM2nUpJrXs",
     image_attribution: null
   },
   {
@@ -24733,6 +25417,12 @@ const SFPlaces = [
     name: "Arizmendi Bakery",
     address: "1272 Valencia Street, San Francisco",
     key: "ChIJ23T9gUB-j4ARr_BcUfXfh6M",
+    image_attribution: ""
+  },
+  {
+    name: "Doc's Refresher",
+    address: "984 University Ave, Berkeley",
+    key: "ChIJbzvrFsJ-hYARMjH8gpHStM4",
     image_attribution: null
   },
   {
@@ -24772,21 +25462,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "HEYDAY - Organic Cafe, Coffee Bar and Premium Office Catering",
-    address: "555 Mission St, San Francisco",
-    key: "ChIJVVWlKWOAhYARM51DtkW-_w8",
-    image_attribution: null
-  },
-  {
-    name: "Cafe Bastille French Restaurant",
-    address: "22 Belden Place, San Francisco",
-    key: "ChIJH6DFh4mAhYARtlNX-DeJX8U",
-    image_attribution: null
-  },
-  {
     name: "United Paleteria y Neveria",
     address: "137 Pelton Center Way, San Leandro",
     key: "ChIJHXvepJWPj4AR4niJ58iqKGc",
+    image_attribution: null
+  },
+  {
+    name: "HEYDAY - Organic Cafe, Coffee Bar and Premium Office Catering",
+    address: "555 Mission St, San Francisco",
+    key: "ChIJVVWlKWOAhYARM51DtkW-_w8",
     image_attribution: null
   },
   {
@@ -24805,12 +25489,6 @@ const SFPlaces = [
     name: "Range Life",
     address: "2160 Railroad Ave, Livermore",
     key: "ChIJtYIsQJ_nj4ARoufXI-UbBg8",
-    image_attribution: null
-  },
-  {
-    name: "Doc's Refresher",
-    address: "984 University Ave, Berkeley",
-    key: "ChIJbzvrFsJ-hYARMjH8gpHStM4",
     image_attribution: null
   },
   {
@@ -24964,21 +25642,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cordon Bleu Vietnamese Restaurant",
-    address: "1574 California Street, San Francisco",
-    key: "ChIJKwSGzJSAhYARUZ2nCyDWvSQ",
-    image_attribution: null
-  },
-  {
     name: "The Coffee Movement",
     address: "1030 Washington St, San Francisco",
     key: "ChIJoTMb3PKAhYARsXkQt469sBw",
     image_attribution: ""
   },
   {
-    name: "Fiore Caffe",
-    address: "3599 24th Street, San Francisco",
-    key: "ChIJgZruCkB-j4ARBTl8cpeOCLI",
+    name: "Cordon Bleu Vietnamese Restaurant",
+    address: "1574 California Street, San Francisco",
+    key: "ChIJKwSGzJSAhYARUZ2nCyDWvSQ",
     image_attribution: null
   },
   {
@@ -24991,24 +25663,6 @@ const SFPlaces = [
     name: "Sprout Caf\u00e9",
     address: "168 University Ave, Palo Alto",
     key: "ChIJaeHk_jm7j4ARZfXh674aljg",
-    image_attribution: null
-  },
-  {
-    name: "Smyrna",
-    address: "417 California Ave, Palo Alto",
-    key: "ChIJdfvZMTG7j4ARjEo4u3JcSgI",
-    image_attribution: null
-  },
-  {
-    name: "SunLife Organics",
-    address: "344 California Ave, Palo Alto",
-    key: "ChIJu9phLBG7j4ARj9s1YlNrk_o",
-    image_attribution: null
-  },
-  {
-    name: "King's Thai Cuisine #2",
-    address: "346 Clement Street, San Francisco",
-    key: "ChIJgbdp8DuHhYARVklj85eMGq8",
     image_attribution: null
   },
   {
@@ -25054,6 +25708,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wicked Grounds",
+    address: "289 8th St, San Francisco",
+    key: "ChIJo_SjhoKAhYARa0FSkdRpfuI",
+    image_attribution: null
+  },
+  {
     name: "il Piccolo Caffe",
     address: "1219 Broadway, Burlingame",
     key: "ChIJ8Ule_iR2j4ARa3XRKhoN3lU",
@@ -25063,12 +25723,6 @@ const SFPlaces = [
     name: "Francisca's",
     address: "3047 Mission Street, San Francisco",
     key: "ChIJ4W98BER-j4ARfjQfq3mwL-Q",
-    image_attribution: null
-  },
-  {
-    name: "Wicked Grounds",
-    address: "289 8th St, San Francisco",
-    key: "ChIJo_SjhoKAhYARa0FSkdRpfuI",
     image_attribution: null
   },
   {
@@ -25168,6 +25822,18 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "The Kitchen Table",
+    address: "1574 4th St, San Rafael",
+    key: "ChIJ07WDyN2ZhYARFVXzSvGUrG0",
+    image_attribution: null
+  },
+  {
+    name: "Urban Remedy",
+    address: "1904 4th St, San Rafael",
+    key: "ChIJOX6rplmXhYARhskgTyhlrII",
+    image_attribution: null
+  },
+  {
     name: "Lai Hong Lounge",
     address: "1416 Powell Street, San Francisco",
     key: "ChIJV3z4M_KAhYARScz6UsuuXj0",
@@ -25177,12 +25843,6 @@ const SFPlaces = [
     name: "Newtree Caf\u00e9 - Ecker",
     address: "1 Ecker St, San Francisco",
     key: "ChIJfefh-mKAhYARWNPIkztLcRg",
-    image_attribution: null
-  },
-  {
-    name: "B44 Catalan Bistro",
-    address: "44 Belden Place, San Francisco",
-    key: "ChIJK1KlKYqAhYARlazt4FhvT3s",
     image_attribution: null
   },
   {
@@ -25228,45 +25888,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Kitchen Table",
-    address: "1574 4th St, San Rafael",
-    key: "ChIJ07WDyN2ZhYARFVXzSvGUrG0",
-    image_attribution: null
-  },
-  {
-    name: "Urban Remedy",
-    address: "1904 4th St, San Rafael",
-    key: "ChIJOX6rplmXhYARhskgTyhlrII",
-    image_attribution: null
-  },
-  {
     name: "Gott's Roadside",
     address: "One Ferry Building #6, San Francisco",
     key: "ChIJVVWVjGaAhYARH_4JjCTVBz8",
     image_attribution: null
   },
   {
-    name: "Paris Pizza & Grill",
-    address: "448 Broadway, San Francisco",
-    key: "ChIJ-RaLVvSAhYARx4hUyCquMHY",
-    image_attribution: null
-  },
-  {
-    name: "Elaine's Kitchen",
-    address: "434 Broadway, San Francisco",
-    key: "ChIJy7xJVPSAhYARZFyw1S-WRIk",
-    image_attribution: null
-  },
-  {
     name: "Boutique Crenn",
     address: "425 Mission Street, San Francisco",
     key: "ChIJHRbJ4xCBhYAR452DS4AbdTI",
-    image_attribution: null
+    image_attribution: ""
   },
   {
-    name: "Coffee Bar Montgomery",
-    address: "101 Montgomery St, San Francisco",
-    key: "ChIJbyl6womAhYARGbxBtbBkfPY",
+    name: "Paris Pizza & Grill",
+    address: "448 Broadway, San Francisco",
+    key: "ChIJ-RaLVvSAhYARx4hUyCquMHY",
     image_attribution: null
   },
   {
@@ -25313,12 +25949,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fogo de Ch\u00e3o Brazilian Steakhouse",
-    address: "201 S, 3rd Street Suite 100, San Francisco",
-    key: "ChIJR0iloX2AhYARVm3_utxjhTI",
-    image_attribution: null
-  },
-  {
     name: "Long Bridge Pizza Co.",
     address: "2347 3rd Street, San Francisco",
     key: "ChIJX8bJu7l_j4ARy29utVyaOLM",
@@ -25349,15 +25979,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Los Panchos Restaurant",
-    address: "3206 Mission St, San Francisco",
-    key: "ChIJE-KyDkN-j4ARSEAhpQrur5w",
-    image_attribution: null
-  },
-  {
     name: "Pizza Express",
     address: "813 Cortland Avenue, San Francisco",
     key: "ChIJdZ9jxFl-j4ARF3RINR3aLcQ",
+    image_attribution: null
+  },
+  {
+    name: "Los Panchos Restaurant",
+    address: "3206 Mission St, San Francisco",
+    key: "ChIJE-KyDkN-j4ARSEAhpQrur5w",
     image_attribution: null
   },
   {
@@ -25505,6 +26135,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Wooly Pig",
+    address: "2295 3rd St, San Francisco",
+    key: "ChIJ53AnSbh_j4ARvydg9pSwD3c",
+    image_attribution: null
+  },
+  {
     name: "Just For You Cafe",
     address: "732 22nd St, San Francisco",
     key: "ChIJL0eR87l_j4ARzVaL9P2vdDc",
@@ -25517,16 +26153,10 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Wooly Pig",
-    address: "2295 3rd St, San Francisco",
-    key: "ChIJ53AnSbh_j4ARvydg9pSwD3c",
-    image_attribution: null
-  },
-  {
     name: "Scopo Divino",
     address: "2800 California St #101, San Francisco",
     key: "ChIJ_6_kXcmAhYARjIHlrlsuS0I",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "L's Caffe",
@@ -25559,27 +26189,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Lol\u00f3",
+    address: "974 Valencia St, San Francisco",
+    key: "ChIJnbFn3z5-j4ARoqlFeSBuvFA",
+    image_attribution: ""
+  },
+  {
     name: "Warakubune",
     address: "307 Church Street, San Francisco",
     key: "ChIJGQnGlh5-j4ARAXOJ0vGq53k",
     image_attribution: null
   },
   {
-    name: "Lol\u00f3",
-    address: "974 Valencia St, San Francisco",
-    key: "ChIJnbFn3z5-j4ARoqlFeSBuvFA",
-    image_attribution: null
-  },
-  {
     name: "Via Veneto",
     address: "2244 Fillmore Street, San Francisco",
     key: "ChIJPfy8FMaAhYARfDymupdAZ40",
-    image_attribution: null
-  },
-  {
-    name: "Barrel Head Brewhouse",
-    address: "1785 Fulton St, San Francisco",
-    key: "ChIJg4a117KAhYARfFvbnNINjZY",
     image_attribution: null
   },
   {
@@ -25655,18 +26279,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Roti Indian Bistro",
-    address: "53 West Portal Avenue, San Francisco",
-    key: "ChIJb_sSWep9j4ARMZRlzCqYPSw",
-    image_attribution: null
-  },
-  {
-    name: "Golden Bear Trading Company",
-    address: "1401 6th Ave, San Francisco",
-    key: "ChIJIZInSFmHhYAR-FHydXQaxaE",
-    image_attribution: null
-  },
-  {
     name: "Let's Eat BBQ and More",
     address: "5130 3rd Street, San Francisco",
     key: "ChIJtwYzwhp_j4AR6ybiu8-VgOI",
@@ -25682,6 +26294,12 @@ const SFPlaces = [
     name: "Vin Debut Wine Bar & Kitchen",
     address: "9 West Portal Avenue, San Francisco",
     key: "ChIJsyMrTup9j4ARCreBAbssTsU",
+    image_attribution: null
+  },
+  {
+    name: "Roti Indian Bistro",
+    address: "53 West Portal Avenue, San Francisco",
+    key: "ChIJb_sSWep9j4ARMZRlzCqYPSw",
     image_attribution: null
   },
   {
@@ -25721,15 +26339,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Eterna Primavera Bakery",
-    address: "2951 24th Street, San Francisco",
-    key: "ChIJhRAy3mV_j4AR9gvnQzdy4Tk",
-    image_attribution: null
-  },
-  {
     name: "Martha & Brothers Coffee Company",
     address: "3868 24th St, San Francisco",
     key: "ChIJfeCRkBR-j4AR_hD9mE9Chtw",
+    image_attribution: null
+  },
+  {
+    name: "Eterna Primavera Bakery",
+    address: "2951 24th Street, San Francisco",
+    key: "ChIJhRAy3mV_j4AR9gvnQzdy4Tk",
     image_attribution: null
   },
   {
@@ -25739,15 +26357,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Sun Rise Restaurant",
-    address: "3126 24th Street, San Francisco",
-    key: "ChIJKbmlsUd-j4ARigYfQjYtMtQ",
-    image_attribution: null
-  },
-  {
     name: "Haystack",
     address: "3881 24th Street, San Francisco",
     key: "ChIJaUsvmhR-j4ARCiCzZXx71ow",
+    image_attribution: null
+  },
+  {
+    name: "Sun Rise Restaurant",
+    address: "3126 24th Street, San Francisco",
+    key: "ChIJKbmlsUd-j4ARigYfQjYtMtQ",
     image_attribution: null
   },
   {
@@ -25787,15 +26405,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Toast Eatery",
-    address: "1748 Church St, San Francisco",
-    key: "ChIJXT23WWh-j4ARoA_8DcV0fig",
-    image_attribution: null
-  },
-  {
     name: "Mandarin House SF",
     address: "3452 Mission Street, San Francisco",
     key: "ChIJV67QQF1-j4ARN25gDgSyugs",
+    image_attribution: null
+  },
+  {
+    name: "Toast Eatery",
+    address: "1748 Church St, San Francisco",
+    key: "ChIJXT23WWh-j4ARoA_8DcV0fig",
     image_attribution: null
   },
   {
@@ -25920,24 +26538,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lokma",
-    address: "1801 Clement Street, San Francisco",
-    key: "ChIJgUtXdxCHhYARD8rNGyLlmRQ",
-    image_attribution: null
-  },
-  {
-    name: "The Game Parlour",
-    address: "1342 Irving St, San Francisco",
-    key: "ChIJD3HFtPGHhYARlXU4EVIM-As",
-    image_attribution: null
-  },
-  {
-    name: "Gaspare's Pizza House & Italian Restaurant",
-    address: "5546 Geary Boulevard, San Francisco",
-    key: "ChIJPeOeSBCHhYARVLTDHMhc1N4",
-    image_attribution: null
-  },
-  {
     name: "Howard's Cafe",
     address: "1309 9th Ave, San Francisco",
     key: "ChIJrdYeS1yHhYAROU5YyBs2elE",
@@ -25947,6 +26547,12 @@ const SFPlaces = [
     name: "Chavita's #1",
     address: "3006 Mission Street, San Francisco",
     key: "ChIJHfNuq0Z-j4ARFepT-v__Z1o",
+    image_attribution: null
+  },
+  {
+    name: "The Game Parlour",
+    address: "1342 Irving St, San Francisco",
+    key: "ChIJD3HFtPGHhYARlXU4EVIM-As",
     image_attribution: null
   },
   {
@@ -25980,9 +26586,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Nob Hill Cafe",
-    address: "1152 Taylor Street, San Francisco",
-    key: "ChIJXXxDVY2AhYARdCEREpkRDKg",
+    name: "Cafe Elena",
+    address: "1 Market St, San Francisco",
+    key: "ChIJmXW9f4aAhYARFsYXHTCuU80",
     image_attribution: null
   },
   {
@@ -25992,9 +26598,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe Elena",
-    address: "1 Market St, San Francisco",
-    key: "ChIJmXW9f4aAhYARFsYXHTCuU80",
+    name: "Nob Hill Cafe",
+    address: "1152 Taylor Street, San Francisco",
+    key: "ChIJXXxDVY2AhYARdCEREpkRDKg",
     image_attribution: null
   },
   {
@@ -26022,6 +26628,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Eddie's Cafe",
+    address: "800 Divisadero St, San Francisco",
+    key: "ChIJr4F0NbCAhYARSZVavq8xsPw",
+    image_attribution: null
+  },
+  {
     name: "Chico's Pizza",
     address: "131 6th Street, San Francisco",
     key: "ChIJ03s7DISAhYARph7tTgMR9Eo",
@@ -26031,18 +26643,6 @@ const SFPlaces = [
     name: "Morning Due Cafe",
     address: "3698 17th St, San Francisco",
     key: "ChIJf4CVbBl-j4ARi0b2b0NIX6I",
-    image_attribution: null
-  },
-  {
-    name: "Eddie's Cafe",
-    address: "800 Divisadero St, San Francisco",
-    key: "ChIJr4F0NbCAhYARSZVavq8xsPw",
-    image_attribution: null
-  },
-  {
-    name: "OPA",
-    address: "2401 Post Street, San Francisco",
-    key: "ChIJ9-Kw-7WAhYAR3edBmWNNZdU",
     image_attribution: null
   },
   {
@@ -26124,15 +26724,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Big Fish Little Fish",
-    address: "121 Spear Street, San Francisco",
-    key: "ChIJZTOLAWWAhYARv7FqGoIEOhQ",
-    image_attribution: null
-  },
-  {
     name: "Paramount Superstars",
     address: "939 Clement Street, San Francisco",
     key: "ChIJmQ_PkkeHhYARZia_X0S2jAw",
+    image_attribution: null
+  },
+  {
+    name: "Big Fish Little Fish",
+    address: "121 Spear Street, San Francisco",
+    key: "ChIJZTOLAWWAhYARv7FqGoIEOhQ",
     image_attribution: null
   },
   {
@@ -26223,7 +26823,7 @@ const SFPlaces = [
     name: "Tacolicious",
     address: "1548 Stockton St, San Francisco",
     key: "ChIJT3RrbPGAhYARcOEzbz81smM",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "Whole Cakes",
@@ -26247,12 +26847,6 @@ const SFPlaces = [
     name: "Sweet Things",
     address: "3585 California Street, San Francisco",
     key: "ChIJPVKoRDGHhYARNvctAMocRd0",
-    image_attribution: null
-  },
-  {
-    name: "Southside Spirit House",
-    address: "575 Howard St, San Francisco",
-    key: "ChIJHzz-wXyAhYARha8nlCgjEYw",
     image_attribution: null
   },
   {
@@ -26295,7 +26889,7 @@ const SFPlaces = [
     name: "MICHAEL MINA",
     address: "252 California Street, San Francisco",
     key: "ChIJX5_Yk2GAhYARaRwC-z9Xig8",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "Giorgio's Pizzeria",
@@ -26406,6 +27000,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Bini's Kitchen",
+    address: "McKesson Plaza, 1 Post St, San Francisco",
+    key: "ChIJJeslOIiAhYARvE2j-HiJrBA",
+    image_attribution: ""
+  },
+  {
     name: "Caffe Sapore",
     address: "790 Lombard St, San Francisco",
     key: "ChIJe1OKZeWAhYAR4e5VTgSTIQk",
@@ -26415,12 +27015,6 @@ const SFPlaces = [
     name: "The Brixton",
     address: "2140 Union Street, San Francisco",
     key: "ChIJr066l9qAhYARBzcA3aD1zXM",
-    image_attribution: null
-  },
-  {
-    name: "Bini's Kitchen",
-    address: "McKesson Plaza, 1 Post St, San Francisco",
-    key: "ChIJJeslOIiAhYARvE2j-HiJrBA",
     image_attribution: null
   },
   {
@@ -26436,15 +27030,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Memphis Minnie's BBQ Joint",
-    address: "576 Haight Street, San Francisco",
-    key: "ChIJU8wGk6aAhYARW4WqEGx2HNE",
-    image_attribution: null
-  },
-  {
     name: "Ristorante Milano",
     address: "1448 Pacific Avenue, San Francisco",
     key: "ChIJi8Cx-uuAhYAR5mErmzNUU1U",
+    image_attribution: null
+  },
+  {
+    name: "Memphis Minnie's BBQ Joint",
+    address: "576 Haight Street, San Francisco",
+    key: "ChIJU8wGk6aAhYARW4WqEGx2HNE",
     image_attribution: null
   },
   {
@@ -26484,18 +27078,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Le Marais Bakery",
-    address: "498 Sanchez Street, San Francisco",
-    key: "ChIJ8RGRMxp-j4ARRBNEAtU1o24",
-    image_attribution: ""
-  },
-  {
-    name: "George and Lennie",
-    address: "277 Golden Gate Ave, San Francisco",
-    key: "ChIJCb5K8pqAhYARbo_vWrly8O4",
-    image_attribution: null
-  },
-  {
     name: "Il Canto Cafe",
     address: "475 Sacramento St, San Francisco",
     key: "ChIJ5YnUxWGAhYAR8vacC6u0YTY",
@@ -26505,12 +27087,6 @@ const SFPlaces = [
     name: "Zante Pizza & Indian Cuisine",
     address: "3489 Mission Street, San Francisco",
     key: "ChIJI7jYal1-j4AR1pznnmOttiU",
-    image_attribution: null
-  },
-  {
-    name: "Outer Orbit",
-    address: "3215 Mission Street, San Francisco",
-    key: "ChIJX_Jx2ll-j4ARNTDpNphFDAY",
     image_attribution: null
   },
   {
@@ -26604,12 +27180,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Tepa Taqueria",
-    address: "2198 Folsom Street, San Francisco",
-    key: "ChIJ9caW5Dp-j4ARlzpdLczkHgk",
-    image_attribution: null
-  },
-  {
     name: "La Trappe",
     address: "800 Greenwich Street, San Francisco",
     key: "ChIJE31P4u-AhYAR5d4ox5DkrZ8",
@@ -26628,21 +27198,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Onigilly Kearney street",
-    address: "343 Kearny St, San Francisco",
-    key: "ChIJ4YAz04uAhYAR4AvyrioIa1k",
+    name: "Golden Crab House",
+    address: "1830 Irving Street, San Francisco",
+    key: "ChIJ1a-k4tmHhYARXJbH-XvaSZA",
     image_attribution: null
   },
   {
     name: "Union Larder",
     address: "1945 Hyde Street, San Francisco",
     key: "ChIJZd1m2uiAhYARk5JTFH6_c8Q",
-    image_attribution: null
-  },
-  {
-    name: "Golden Crab House",
-    address: "1830 Irving Street, San Francisco",
-    key: "ChIJ1a-k4tmHhYARXJbH-XvaSZA",
     image_attribution: null
   },
   {
@@ -26712,12 +27276,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Thorough Bread & Pastry",
-    address: "248 Church Street, San Francisco",
-    key: "ChIJk3LmiB5-j4AR9FpkIdlcvjE",
-    image_attribution: null
-  },
-  {
     name: "Victoria Pastry",
     address: "700 Filbert Street, San Francisco",
     key: "ChIJU7cbw_OAhYARwCWkwaDtR6M",
@@ -26727,12 +27285,6 @@ const SFPlaces = [
     name: "Helmand Palace",
     address: "2424 Van Ness Avenue, San Francisco",
     key: "ChIJX7bEI-iAhYARfah0yYqooBs",
-    image_attribution: null
-  },
-  {
-    name: "Buckhorn Grill - Temp Closed",
-    address: "135 4th Street FC5 SF Metreon, San Francisco",
-    key: "ChIJd-WuoIeAhYARJHN2CGw0HgI",
     image_attribution: null
   },
   {
@@ -26802,21 +27354,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Boba Guys Potrero",
-    address: "1002 16th Street, San Francisco",
-    key: "ChIJuT8zOMx_j4ARhxpaSG8VGrk",
-    image_attribution: ""
-  },
-  {
     name: "Peasant Pies Cafe & Catering Mission Bay",
     address: "550, Gene Friend Way, San Francisco",
     key: "ChIJpUjOgMV_j4ARdBfiex_ccMc",
     image_attribution: null
   },
   {
-    name: "Alamo Drafthouse Cinema New Mission",
-    address: "2550 Mission Street, San Francisco",
-    key: "ChIJFyM_zj5-j4ARVy4Crc6cSdM",
+    name: "Boba Guys Potrero",
+    address: "1002 16th Street, San Francisco",
+    key: "ChIJuT8zOMx_j4ARhxpaSG8VGrk",
+    image_attribution: ""
+  },
+  {
+    name: "Hazel's Kitchen",
+    address: "1319 18th Street, San Francisco",
+    key: "ChIJy8eq1Mt_j4ARrs7tDdhQ-cw",
     image_attribution: null
   },
   {
@@ -26829,18 +27381,6 @@ const SFPlaces = [
     name: "Firetrail Pizza",
     address: "601 Mission Bay Boulevard North, San Francisco",
     key: "ChIJUcfd3c9_j4ARtnW4cycte3U",
-    image_attribution: null
-  },
-  {
-    name: "Hazel's Kitchen",
-    address: "1319 18th Street, San Francisco",
-    key: "ChIJy8eq1Mt_j4ARrs7tDdhQ-cw",
-    image_attribution: null
-  },
-  {
-    name: "Jasmine Garden",
-    address: "708 14th Street, San Francisco",
-    key: "ChIJqy5Qcx5-j4AR7eN99aAxDsI",
     image_attribution: null
   },
   {
@@ -26898,33 +27438,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "American Oak",
-    address: "2319 Santa Clara Ave, Alameda",
-    key: "ChIJf2W7i5WGj4ARAPbHRxUhVdw",
-    image_attribution: null
-  },
-  {
-    name: "Sauced BBQ & Spirits - Walnut Creek",
-    address: "1410 Locust St, Walnut Creek",
-    key: "ChIJfWJkvephhYAR4akI3qwufGI",
-    image_attribution: null
-  },
-  {
-    name: "Best Burritos",
-    address: "10390 San Pablo Ave, El Cerrito",
-    key: "ChIJYY9fEBx5hYAR-ser35SMDpo",
-    image_attribution: null
-  },
-  {
-    name: "Bonchon - San Leandro",
-    address: "1275 Washington Ave, San Leandro",
-    key: "ChIJaazAoGiPj4ARTT2e_x6luoo",
-    image_attribution: null
-  },
-  {
     name: "Shan Dong",
     address: "328 10th St #101, Oakland",
     key: "ChIJDWHUxrWAj4ARP4aX5a3hCkE",
+    image_attribution: null
+  },
+  {
+    name: "American Oak",
+    address: "2319 Santa Clara Ave, Alameda",
+    key: "ChIJf2W7i5WGj4ARAPbHRxUhVdw",
     image_attribution: null
   },
   {
@@ -26934,9 +27456,27 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Sauced BBQ & Spirits - Walnut Creek",
+    address: "1410 Locust St, Walnut Creek",
+    key: "ChIJfWJkvephhYAR4akI3qwufGI",
+    image_attribution: null
+  },
+  {
     name: "Molcajete Cocina Mexicana",
     address: "1734 Webster St, Oakland",
     key: "ChIJYzpjPrOAj4ARIoDxY7qo50k",
+    image_attribution: null
+  },
+  {
+    name: "Bonchon - San Leandro",
+    address: "1275 Washington Ave, San Leandro",
+    key: "ChIJaazAoGiPj4ARTT2e_x6luoo",
+    image_attribution: null
+  },
+  {
+    name: "Best Burritos",
+    address: "10390 San Pablo Ave, El Cerrito",
+    key: "ChIJYY9fEBx5hYAR-ser35SMDpo",
     image_attribution: null
   },
   {
@@ -26946,9 +27486,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Champa Garden",
-    address: "2102 8th Ave, Oakland",
-    key: "ChIJlR2uPT2Hj4ARR5ZnMyJykmE",
+    name: "San Gaspar",
+    address: "201 E 14th St, San Leandro",
+    key: "ChIJg6I-yoKPj4ARFin1hmKEggQ",
     image_attribution: null
   },
   {
@@ -26958,15 +27498,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "El Taco Zamorano",
-    address: "4256 CA-185, Oakland",
-    key: "ChIJlX31_GOGj4ARAW4bEaCXwPk",
-    image_attribution: null
-  },
-  {
-    name: "San Gaspar",
-    address: "201 E 14th St, San Leandro",
-    key: "ChIJg6I-yoKPj4ARFin1hmKEggQ",
+    name: "The Pork Exchange",
+    address: "807 Ellis Street, San Francisco",
+    key: "ChIJEcpPIJeAhYAR8kxB_XQYwVY",
     image_attribution: null
   },
   {
@@ -26976,15 +27510,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "The Pork Exchange",
-    address: "807 Ellis Street, San Francisco",
-    key: "ChIJEcpPIJeAhYAR8kxB_XQYwVY",
+    name: "Champa Garden",
+    address: "2102 8th Ave, Oakland",
+    key: "ChIJlR2uPT2Hj4ARR5ZnMyJykmE",
     image_attribution: null
   },
   {
     name: "Tacos El Autlense",
     address: "601 San Pablo Ave #2, Albany",
     key: "ChIJbVBNRSV5hYARTG3jkSPV7CQ",
+    image_attribution: null
+  },
+  {
+    name: "El Taco Zamorano",
+    address: "4256 CA-185, Oakland",
+    key: "ChIJlX31_GOGj4ARAW4bEaCXwPk",
     image_attribution: null
   },
   {
@@ -27054,12 +27594,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Flywheel Coffee Roasters",
-    address: "672 Stanyan St, San Francisco",
-    key: "ChIJYYkIlFGHhYARN9qc7jwIQEs",
-    image_attribution: null
-  },
-  {
     name: "Nizario's Pizza The Castro",
     address: "4077 18th Street, San Francisco",
     key: "ChIJ8WEdJRt-j4AR2JYjQiNUL54",
@@ -27069,6 +27603,12 @@ const SFPlaces = [
     name: "Green Island Restaurant",
     address: "4012 Geary Boulevard, San Francisco",
     key: "ChIJn7pQPjmHhYARKW5TVICDj5g",
+    image_attribution: null
+  },
+  {
+    name: "Flywheel Coffee Roasters",
+    address: "672 Stanyan St, San Francisco",
+    key: "ChIJYYkIlFGHhYARN9qc7jwIQEs",
     image_attribution: null
   },
   {
@@ -27114,21 +27654,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Rolling Out Cafe",
-    address: "1722 Taraval Street, San Francisco",
-    key: "ChIJ9eh-yYR9j4ARtjAxjOePnB8",
-    image_attribution: null
-  },
-  {
     name: "Cafe R\u00e9veille",
     address: "201 Steiner St, San Francisco",
     key: "ChIJ74VF-qaAhYARb0YeIN1ZqEA",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "Zanze's Cheesecake",
     address: "2405 Ocean Avenue, San Francisco",
     key: "ChIJVaXle7h9j4AROQGRgHfjDPU",
+    image_attribution: null
+  },
+  {
+    name: "Rolling Out Cafe",
+    address: "1722 Taraval Street, San Francisco",
+    key: "ChIJ9eh-yYR9j4ARtjAxjOePnB8",
     image_attribution: null
   },
   {
@@ -27210,6 +27750,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Fiery Hot Pot Buffet",
+    address: "1626 Taraval Street, San Francisco",
+    key: "ChIJ87D21IR9j4ARC_OJ-dVMcJM",
+    image_attribution: null
+  },
+  {
     name: "Steep",
     address: "240 Ritch Street, San Francisco",
     key: "ChIJ3b5iS3-AhYARtz-Mmo2rrOc",
@@ -27225,12 +27771,6 @@ const SFPlaces = [
     name: "Dos Pi\u00f1as",
     address: "251 Rhode Island Street, San Francisco",
     key: "ChIJe6JAvjJ-j4ARe84LQ9gSGH8",
-    image_attribution: null
-  },
-  {
-    name: "Fiery Hot Pot Buffet",
-    address: "1626 Taraval Street, San Francisco",
-    key: "ChIJ87D21IR9j4ARC_OJ-dVMcJM",
     image_attribution: null
   },
   {
@@ -27306,16 +27846,16 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Coffee Cultures",
-    address: "1301 Mission St, San Francisco",
-    key: "ChIJ-ZN845yAhYAR7dzTtqNi5nk",
-    image_attribution: ""
-  },
-  {
     name: "Boulibar",
     address: "One Ferry Building #35, San Francisco",
     key: "ChIJwYiykmaAhYARqmQYvykpCWo",
     image_attribution: null
+  },
+  {
+    name: "Coffee Cultures",
+    address: "1301 Mission St, San Francisco",
+    key: "ChIJ-ZN845yAhYAR7dzTtqNi5nk",
+    image_attribution: ""
   },
   {
     name: "Morton's The Steakhouse",
@@ -27565,15 +28105,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Old Siam",
-    address: "201 Ellis Street, San Francisco",
-    key: "ChIJjb_qeY-AhYARJ6Swopw9ggg",
-    image_attribution: null
-  },
-  {
     name: "House of Tadu Ethiopian Kitchen",
     address: "1130 4th Street, San Francisco",
     key: "ChIJJSIN89B_j4ARtEi-QMd9SKo",
+    image_attribution: null
+  },
+  {
+    name: "Old Siam",
+    address: "201 Ellis Street, San Francisco",
+    key: "ChIJjb_qeY-AhYARJ6Swopw9ggg",
     image_attribution: null
   },
   {
@@ -27583,9 +28123,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fog Lifter Cafe",
-    address: "1901 Ocean Ave #2721, San Francisco",
-    key: "ChIJey3VGMx9j4ARwgxO8IrzmXw",
+    name: "Bernal Heights Pizzeria",
+    address: "1361 Church Street, San Francisco",
+    key: "ChIJb_z3TF1-j4ARPcRblUMnl_o",
     image_attribution: null
   },
   {
@@ -27607,9 +28147,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Bernal Heights Pizzeria",
-    address: "1361 Church Street, San Francisco",
-    key: "ChIJb_z3TF1-j4ARPcRblUMnl_o",
+    name: "Fog Lifter Cafe",
+    address: "1901 Ocean Ave #2721, San Francisco",
+    key: "ChIJey3VGMx9j4ARwgxO8IrzmXw",
     image_attribution: null
   },
   {
@@ -27718,7 +28258,7 @@ const SFPlaces = [
     name: "Zuni Caf\u00e9",
     address: "1658 Market St, San Francisco",
     key: "ChIJO7u9q5-AhYARiSSXyWv9eJ8",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "Club Waziema",
@@ -27901,10 +28441,10 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "My Tofu House",
-    address: "4627 Geary Boulevard, San Francisco",
-    key: "ChIJtbIk_j2HhYARssBAcjU143g",
-    image_attribution: null
+    name: "R\u00e9veille Coffee Co.",
+    address: "200 Columbus Ave, San Francisco",
+    key: "ChIJsU3K7vSAhYARv8bNtVUBHYo",
+    image_attribution: ""
   },
   {
     name: "SusieCakes",
@@ -27913,15 +28453,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Red Tavern",
-    address: "2229 Clement Street, San Francisco",
-    key: "ChIJp6whdAWHhYARTfyDgK6VLFA",
+    name: "My Tofu House",
+    address: "4627 Geary Boulevard, San Francisco",
+    key: "ChIJtbIk_j2HhYARssBAcjU143g",
     image_attribution: null
   },
   {
-    name: "R\u00e9veille Coffee Co.",
-    address: "200 Columbus Ave, San Francisco",
-    key: "ChIJsU3K7vSAhYARv8bNtVUBHYo",
+    name: "Red Tavern",
+    address: "2229 Clement Street, San Francisco",
+    key: "ChIJp6whdAWHhYARTfyDgK6VLFA",
     image_attribution: null
   },
   {
@@ -28039,12 +28579,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Delfina Restaurant",
-    address: "3621 18th Street, San Francisco",
-    key: "ChIJiTq-JTl_j4ARwOAfsYxMuKs",
-    image_attribution: null
-  },
-  {
     name: "Woods Outbound",
     address: "4045 Judah Street, San Francisco",
     key: "ChIJ5_WxL5eHhYARNm5x9Roa_yc",
@@ -28055,6 +28589,12 @@ const SFPlaces = [
     address: "1899 Irving Street, San Francisco",
     key: "ChIJK0T_fmWHhYARkA_5M7S8JDQ",
     image_attribution: null
+  },
+  {
+    name: "Delfina Restaurant",
+    address: "3621 18th Street, San Francisco",
+    key: "ChIJiTq-JTl_j4ARwOAfsYxMuKs",
+    image_attribution: ""
   },
   {
     name: "Enjoy Vegetarian Restaurant",
@@ -28081,39 +28621,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "La Stazione Coffee & Wine Bar",
-    address: "701 Pennsylvania Ave, San Francisco",
-    key: "ChIJ5W7237Z_j4ARP4cGKK6fpQU",
-    image_attribution: null
-  },
-  {
-    name: "Noon All Day",
-    address: "690 Indiana St, San Francisco",
-    key: "ChIJiVHFIch_j4ARwfxSiusbugY",
-    image_attribution: null
-  },
-  {
-    name: "Chez maman east",
-    address: "1401 18th Street, San Francisco",
-    key: "ChIJ3Z-klTX2MhURU5oSfoXRWaw",
-    image_attribution: null
-  },
-  {
-    name: "Flour + Water",
-    address: "2401 Harrison St, San Francisco",
-    key: "ChIJDVaCXjd-j4AR4AOGUS0kLGc",
-    image_attribution: null
-  },
-  {
-    name: "Joe & Pat's Bakery & Coffee",
-    address: "2499 Folsom St, San Francisco",
-    key: "ChIJAbo0sTl-j4ARY3-u5MKU0nA",
-    image_attribution: null
-  },
-  {
     name: "Foreign Cinema",
     address: "2534 Mission St, San Francisco",
     key: "ChIJPwvLyD5-j4AR2fM8C0bbVC8",
+    image_attribution: ""
+  },
+  {
+    name: "La Stazione Coffee & Wine Bar",
+    address: "701 Pennsylvania Ave, San Francisco",
+    key: "ChIJ5W7237Z_j4ARP4cGKK6fpQU",
     image_attribution: null
   },
   {
@@ -28147,12 +28663,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Fillmore Street Cafe",
-    address: "1301 Fillmore St, San Francisco",
-    key: "ChIJ7W7BzLuAhYARXfF75-6UmfY",
-    image_attribution: null
-  },
-  {
     name: "Kama Sushi Soma",
     address: "294 9th Street, San Francisco",
     key: "ChIJvUgOECh-j4ARxX8sRUOCLqo",
@@ -28171,15 +28681,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Caffe Centro",
-    address: "102 S Park St, San Francisco",
-    key: "ChIJL02H3XiAhYARL2baz9yQBxE",
-    image_attribution: null
-  },
-  {
     name: "Union Street Coffee Roastery",
     address: "2191 Union St, San Francisco",
     key: "ChIJ_2mTn9qAhYAR6Upoqz_I5Q0",
+    image_attribution: null
+  },
+  {
+    name: "Caffe Centro",
+    address: "102 S Park St, San Francisco",
+    key: "ChIJL02H3XiAhYARL2baz9yQBxE",
     image_attribution: null
   },
   {
@@ -28201,9 +28711,9 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "All Seasons Restaurant",
-    address: "5238 Diamond Heights Boulevard, San Francisco",
-    key: "ChIJReXqoHN-j4ARnN60TCzh4Nw",
+    name: "Chili Cha Cha 2",
+    address: "3166 24th Street, San Francisco",
+    key: "ChIJv7RrCEd-j4ARN1UqS5B6LhU",
     image_attribution: null
   },
   {
@@ -28234,12 +28744,6 @@ const SFPlaces = [
     name: "D'Yar",
     address: "2511 Durant Ave, Berkeley",
     key: "ChIJMZ3yQC98hYARrUtLlpS1Cn8",
-    image_attribution: null
-  },
-  {
-    name: "Chili Cha Cha 2",
-    address: "3166 24th Street, San Francisco",
-    key: "ChIJv7RrCEd-j4ARN1UqS5B6LhU",
     image_attribution: null
   },
   {
@@ -28435,6 +28939,12 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Taza Smoothies and Wraps",
+    address: "750 Font Boulevard, San Francisco",
+    key: "ChIJNUsZm699j4ARkJ209QXc0xs",
+    image_attribution: null
+  },
+  {
     name: "Aloha Hawaiian Barbecue",
     address: "4935 Mission Street, San Francisco",
     key: "ChIJCStQ24R-j4ARhacSzyKFNP8",
@@ -28450,12 +28960,6 @@ const SFPlaces = [
     name: "Taqueria Guadalajara",
     address: "4798 Mission Street, San Francisco",
     key: "ChIJf3amCYV-j4ARZR_MXDE4xoE",
-    image_attribution: null
-  },
-  {
-    name: "Taza Smoothies and Wraps",
-    address: "750 Font Boulevard, San Francisco",
-    key: "ChIJNUsZm699j4ARkJ209QXc0xs",
     image_attribution: null
   },
   {
@@ -28615,21 +29119,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Zaya Cafe",
+    address: "1768 Broadway, Oakland",
+    key: "ChIJ2zI2aLKAj4AROnN64NJ1RC8",
+    image_attribution: null
+  },
+  {
     name: "The Well Organic Kitchen",
     address: "5443 Telegraph Ave, Oakland",
     key: "ChIJnaa6M959hYARoeUP3qzT4pY",
-    image_attribution: null
-  },
-  {
-    name: "Hot Pot Fusion",
-    address: "3288 Pierce St, Richmond",
-    key: "ChIJcekCarZ5hYARw2qbU9bQW84",
-    image_attribution: null
-  },
-  {
-    name: "Kimchee Tofu House",
-    address: "3288 Pierce St a103, Richmond",
-    key: "ChIJo7WGqiF5hYARo8yMFUDXdZo",
     image_attribution: null
   },
   {
@@ -28663,9 +29161,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Zaya Cafe",
-    address: "1768 Broadway, Oakland",
-    key: "ChIJ2zI2aLKAj4AROnN64NJ1RC8",
+    name: "Hot Pot Fusion",
+    address: "3288 Pierce St, Richmond",
+    key: "ChIJcekCarZ5hYARw2qbU9bQW84",
+    image_attribution: null
+  },
+  {
+    name: "Kimchee Tofu House",
+    address: "3288 Pierce St a103, Richmond",
+    key: "ChIJo7WGqiF5hYARo8yMFUDXdZo",
     image_attribution: null
   },
   {
@@ -28681,18 +29185,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Tashi Delek Cuisine",
-    address: "11224 San Pablo Ave, El Cerrito",
-    key: "ChIJDce1f-55hYAR-BnZ22sa9uo",
-    image_attribution: null
-  },
-  {
-    name: "Orbit Coffee & Doughnuts",
-    address: "1225 7th St suite c, Oakland",
-    key: "ChIJMWJkHWuBj4ARY1PtK_JauS4",
-    image_attribution: null
-  },
-  {
     name: "Millennium",
     address: "5912 College Ave, Oakland",
     key: "ChIJ6XYD2ZGAhYARhDX0sVfc6Cc",
@@ -28702,6 +29194,18 @@ const SFPlaces = [
     name: "1951 Coffee Company Rockridge",
     address: "6023 College Ave, Oakland",
     key: "ChIJv2Fssht9hYAR6nsQhBWDPQw",
+    image_attribution: null
+  },
+  {
+    name: "Tashi Delek Cuisine",
+    address: "11224 San Pablo Ave, El Cerrito",
+    key: "ChIJDce1f-55hYAR-BnZ22sa9uo",
+    image_attribution: null
+  },
+  {
+    name: "Orbit Coffee & Doughnuts",
+    address: "1225 7th St suite c, Oakland",
+    key: "ChIJMWJkHWuBj4ARY1PtK_JauS4",
     image_attribution: null
   },
   {
@@ -28903,12 +29407,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Italian Colors",
-    address: "2220 Mountain Blvd #100, Oakland",
-    key: "ChIJPalNz5CHj4ARRebMJXi016I",
-    image_attribution: null
-  },
-  {
     name: "Taqueria Reynoso",
     address: "3329 Foothill Blvd, Oakland",
     key: "ChIJ8c4iyfeGj4ARoRT5QCurGnQ",
@@ -28921,15 +29419,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lao Tae",
-    address: "6516 Moraga Ave, Oakland",
-    key: "ChIJo5T36duHj4ARSEyhtbbTWMY",
-    image_attribution: null
-  },
-  {
     name: "Luis's Coffee Shop",
     address: "5390 Bancroft Ave, Oakland",
     key: "ChIJ4664cHKGj4ARIRPhjLEpk9Q",
+    image_attribution: null
+  },
+  {
+    name: "Italian Colors",
+    address: "2220 Mountain Blvd #100, Oakland",
+    key: "ChIJPalNz5CHj4ARRebMJXi016I",
     image_attribution: null
   },
   {
@@ -28951,27 +29449,33 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Taqueria Las Comadres",
-    address: "2081 Mountain Blvd, Oakland",
-    key: "ChIJRdZCvJqHj4ARWoTMbnL-8GY",
-    image_attribution: null
-  },
-  {
     name: "The Terrace Room Restaurant",
     address: "1800 Madison St, Oakland",
     key: "ChIJsaiOpkuHj4ARzbveucfsu4U",
     image_attribution: null
   },
   {
-    name: "Flippers Gourmet Burgers",
-    address: "2062 Mountain Blvd, Oakland",
-    key: "ChIJpzWcr5qHj4ARQVmcBf-vcp4",
-    image_attribution: null
-  },
-  {
     name: "Tay Ho Oakland Restaurant & Bar",
     address: "344 12th St, Oakland",
     key: "ChIJ23p8SLSAj4ARF5gf1163jU8",
+    image_attribution: null
+  },
+  {
+    name: "Lao Tae",
+    address: "6516 Moraga Ave, Oakland",
+    key: "ChIJo5T36duHj4ARSEyhtbbTWMY",
+    image_attribution: null
+  },
+  {
+    name: "Taqueria Las Comadres",
+    address: "2081 Mountain Blvd, Oakland",
+    key: "ChIJRdZCvJqHj4ARWoTMbnL-8GY",
+    image_attribution: null
+  },
+  {
+    name: "Flippers Gourmet Burgers",
+    address: "2062 Mountain Blvd, Oakland",
+    key: "ChIJpzWcr5qHj4ARQVmcBf-vcp4",
     image_attribution: null
   },
   {
@@ -29170,7 +29674,7 @@ const SFPlaces = [
     name: "Cafe R\u00e9veille",
     address: "760 Hearst Ave #102, Berkeley",
     key: "ChIJU4dMfyZ_hYAR03zYTFRoQw4",
-    image_attribution: null
+    image_attribution: ""
   },
   {
     name: "Henry's",
@@ -29215,12 +29719,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Viks Chaat",
-    address: "2390 Fourth St, Berkeley",
-    key: "ChIJfbzMc-h-hYARG3cEXmb1XRU",
-    image_attribution: null
-  },
-  {
     name: "La Marcha Tapas Bar",
     address: "2026 San Pablo Ave, Berkeley",
     key: "ChIJZSVa58F-hYAR9fvuy-pr6Rg",
@@ -29248,6 +29746,12 @@ const SFPlaces = [
     name: "Mountain Mike's Pizza",
     address: "1610 San Pablo Ave, Berkeley",
     key: "ChIJ-9Sf1MV-hYARqYqd4TKyUkU",
+    image_attribution: null
+  },
+  {
+    name: "Viks Chaat",
+    address: "2390 Fourth St, Berkeley",
+    key: "ChIJfbzMc-h-hYARG3cEXmb1XRU",
     image_attribution: null
   },
   {
@@ -29467,12 +29971,6 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Cafe 382",
-    address: "382 Grand Ave, South San Francisco",
-    key: "ChIJF_7tuqh5j4ARRMB9_pg0WZE",
-    image_attribution: null
-  },
-  {
     name: "Root",
     address: "744 El Camino Real, South San Francisco",
     key: "ChIJWfKeMJx5j4AR_K7VB597lFQ",
@@ -29491,9 +29989,21 @@ const SFPlaces = [
     image_attribution: null
   },
   {
+    name: "Cafe 382",
+    address: "382 Grand Ave, South San Francisco",
+    key: "ChIJF_7tuqh5j4ARRMB9_pg0WZE",
+    image_attribution: null
+  },
+  {
     name: "Red Lobster",
     address: "1210 El Camino Real, San Bruno",
     key: "ChIJB5Xmlr95j4ARSHNIkt0dGsw",
+    image_attribution: null
+  },
+  {
+    name: "Lighthouse Bar & Grill",
+    address: "475 E Strawberry Dr, Mill Valley",
+    key: "ChIJDQaDYSOFhYAR0-rTx72qsm8",
     image_attribution: null
   },
   {
@@ -29563,21 +30073,15 @@ const SFPlaces = [
     image_attribution: null
   },
   {
-    name: "Lighthouse Bar & Grill",
-    address: "475 E Strawberry Dr, Mill Valley",
-    key: "ChIJDQaDYSOFhYAR0-rTx72qsm8",
+    name: "Salito's Crab House & Prime Rib",
+    address: "1200 Bridgeway, Sausalito",
+    key: "ChIJufk2blGEhYARQhL7isHlYtA",
     image_attribution: null
   },
   {
     name: "Tea Fountain",
     address: "363 Miller Ave, Mill Valley",
     key: "ChIJrX1A-aeahYARNfYm3MmVn6c",
-    image_attribution: null
-  },
-  {
-    name: "Salito's Crab House & Prime Rib",
-    address: "1200 Bridgeway, Sausalito",
-    key: "ChIJufk2blGEhYARQhL7isHlYtA",
     image_attribution: null
   },
   {
