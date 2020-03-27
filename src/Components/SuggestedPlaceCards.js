@@ -15,6 +15,7 @@ export class SuggestedPlaceCards extends React.Component {
             style={{
               backgroundSize: "cover",
               position: "relative",
+              backgroundPosition: "center center",
               backgroundImage: "url(" + suggestion.imageURL + ")",
               minHeight: "80px"
             }}
