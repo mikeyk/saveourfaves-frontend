@@ -45,7 +45,7 @@ function FAQModal(props) {
     {
       title: "What is SaveOurFaves?",
       body:
-        "SaveOurFaves is a directory of Bay Area restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town."
+        "SaveOurFaves is a directory of Bay Area restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town. We also link to staff donation sites, if they are available."
     },
     {
       title: "Why isn’t my favorite business on your site?",
@@ -58,7 +58,8 @@ function FAQModal(props) {
       title:
         "How else can I support our local businesses beyond purchasing a gift card?",
       body:
-        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup during the pandemic so check their websites and social media to see what’s available. <br />" +
+        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " + renderLink("https://projects.sfchronicle.com/2020/restaurant-delivery/", "San Francisco Chronicle's list") +
+        " of Bay Area restaurants offering takeout. <br />" +
         "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />" +
         "Encourage the government to get involved. Sign this " +
         renderLink("http://chng.it/jM97Sbf9ct", "San Francisco petition") +
@@ -81,7 +82,7 @@ function FAQModal(props) {
     {
       title: "Who built this? And why?",
       body:
-        "We’re Kaitlyn & Mike Krieger -- a husband and wife duo in San Francisco. We’re no longer going out because of COVID-19 (San Francisco is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite cafes and restaurants during this unpredictable time. SaveOurFaves is our simple way to make it easier for people to help local businesses through this difficult time. We got help and advice from some great friends and local business owners, in particular Phil Levin, Zack Schwab, Kristen Berman, Stefanie Krieger, Melissa Dyrdahl, Laura Buhler, and Paul Einbund. You can contact us with any questions about the site at " +
+        "We’re Kaitlyn & Mike Krieger -- a husband and wife duo in San Francisco. We’re no longer going out because of COVID-19 (San Francisco is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite cafes and restaurants during this unpredictable time. SaveOurFaves is our simple way to make it easier for people to help local businesses through this difficult time. We got help and advice from some great friends and local business owners, in particular Phil Levin, Zack Schwab, Kristen Berman, Stefanie Krieger, Melissa Dyrdahl, Laura Buhler, Paul Einbund, and Eddie Hernandez. You can contact us with any questions about the site at " +
         renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org") +
         " and see more about why we decided to start it " +
         renderLink(
@@ -103,6 +104,13 @@ function FAQModal(props) {
       title:
         "My business offers gift certificates, but your site says we don’t",
       body: "Please let us know the details " + addPlaceLink("here") + "."
+    },
+    {
+      title:
+        "I'm running a GoFundMe for my staff, and I'd like to list it on your site",
+      body:
+        "Please drop us a note via email at " +
+        renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org")
     },
     {
       title: "How can I start offering online gift cards?",

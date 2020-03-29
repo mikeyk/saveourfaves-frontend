@@ -112,6 +112,20 @@ h4 {
 .header-button {
   color: $primary-color;
   background-color: white;
+  position: relative;
+  bottom: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-share-link {
+    display: none !important;
+  }
+}
+
+.header-link {
+  color: white;
+  display: inline;
+  margin-right: 20px;
 }
 
 .secondary-button {
@@ -264,6 +278,77 @@ div.header-sans {
   font-weight: 600;
   font-size: 0.8em;
   font-variant: small-caps;
+}
+
+.suggested-place .extra-button-container {
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.place-result .extra-button-container {
+  max-width: 210px;
+}
+
+.extra-action-button {
+  background-color: white;
+  height: 8px;
+  border-radius: 20px;
+  padding: 0px 6px 16px 6px;
+  font-variant: small-caps;
+  color: $primary-color;
+  font-family: "Open Sans";
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.suggested-place .extra-action-button {
+  box-shadow: 0 0 4px darkslategray;
+  border: 1px solid transparent;
+}
+
+.place-result .extra-action-button {
+  border: 1px solid $primary-color;
+  padding: 0px 8px 16px 8px;
+}
+
+.extra-action-button:hover {
+  border: 1px solid $primary-color;
+}
+
+.extra-action-button:active {
+  background-color: $tertiary-color;
+}
+
+.extra-action-button-1 {
+  float: right;
+}
+@media only screen and (max-width: 900px) {
+  .extra-action-button-1 {
+    float: left !important;
+  }
+  .extra-action-button-2 {
+    float: left !important;
+    margin-left: 0px !important;
+    clear: both;
+  }
+}
+
+.place-result .extra-action-button-1 {
+  float: left !important;
+}
+
+.extra-action-button-2 {
+  float: left;
+}
+
+.place-result .extra-action-button-1 {
+  float: left !important;
+  margin-right: 8px;
 }
 
 .add-link-modal-input {
