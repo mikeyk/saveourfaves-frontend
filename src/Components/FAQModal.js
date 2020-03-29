@@ -54,9 +54,14 @@ function FAQModal(props) {
         addPlaceLink("here")
     },
     {
-      title: "How else can I support our local businesses beyond purchasing a gift card?",
+      title:
+        "How else can I support our local businesses beyond purchasing a gift card?",
       body:
-        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " + renderLink("https://projects.sfchronicle.com/2020/restaurant-delivery/", "San Francisco Chronicle's list") +
+        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " +
+        renderLink(
+          "https://projects.sfchronicle.com/2020/restaurant-delivery/",
+          "San Francisco Chronicle's list"
+        ) +
         " of Bay Area restaurants offering takeout. <br />" +
         "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />"
     },
@@ -64,8 +69,8 @@ function FAQModal(props) {
       title: "Are there similar resources for other cities?",
       body:
         "Yes! There are other great sites you can find here: " +
-        renderLink("https://saveourfaves.org/", "SaveOurFaves") + 
-        ", " + 
+        renderLink("https://saveourfaves.org/", "SaveOurFaves") +
+        ", " +
         renderLink("https://helpmainstreet.com/", "Help Main Street") +
         ", " +
         renderLink("https://givelocal.co/", "GiveLocal") +
@@ -79,21 +84,20 @@ function FAQModal(props) {
     {
       title: "Are you going to expand to other Seattle area cities?",
       body:
-      "Depending on demand for our resource, we will consider expanding further in the Seattle metro area. Stay tuned!"
-    }
-    
+        "Depending on demand for our resource, we will consider expanding further in the Seattle metro area. Stay tuned!"
+    },
+
     {
       title: "Who built this? And why?",
       body:
-        "We’re a volunteer engineering team of employees/friends from Microsoft. We’re no longer going out because of COVID-19 (Seattle is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite local businesses during this unpredictable time. SupportSeattle is our simple way to make it easier for people to help local businesses through this difficult time. We based this site off of the open source code provided by Mike Krieger, the co-founder of SaveOurFaves in San Francisco." 
+        "We’re a volunteer engineering team of employees/friends from Microsoft. We’re no longer going out because of COVID-19 (Seattle is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite local businesses during this unpredictable time. SupportSeattle is our simple way to make it easier for people to help local businesses through this difficult time. We based this site off of the open source code provided by Mike Krieger, the co-founder of SaveOurFaves in San Francisco."
     }
   ];
   const bizFAQs = [
     {
       title: "Why isn’t my business showing up in your search results?",
       body:
-        "Please help us add your Seattle local business " +
-        addPlaceLink("here")
+        "Please help us add your Seattle local business " + addPlaceLink("here")
     },
     {
       title:
@@ -103,9 +107,7 @@ function FAQModal(props) {
     {
       title:
         "I'm running a GoFundMe for my staff, and I'd like to list it on your site",
-      body:
-        "Please drop us a note via email at " +
-        renderLink("___", "___")
+      body: "Please drop us a note via email at " + renderLink("___", "___")
     },
     {
       title: "How can I start offering online gift cards?",
@@ -116,11 +118,11 @@ function FAQModal(props) {
       title: "How can I encourage customers to buy gift cards?",
       body:
         "People are looking for ways they can support their favorite businesses, so don’t be afraid to let them know that gift cards will help. Reach out to your community on Facebook, Twitter, and Instagram, and use your email list to get in touch with your customers. Ask them to consider buying a gift card for one month of spending to help you weather this storm and keep paying staff, so that you can continue offering great food/coffee/etc. for years to come."
-    }
+    },
     {
       title: "How can I edit the information presented about my business?",
       body:
-      "To edit your business' information, please feel free to reach out to us at    and we can help!"
+        "To edit your business' information, please feel free to reach out to us at    and we can help!"
     }
   ];
   return (
