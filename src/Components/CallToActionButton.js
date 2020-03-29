@@ -8,7 +8,7 @@ export class CallToActionButton extends React.Component {
     var place = this.props.place;
     var size = this.props.size;
     const emailBody =
-      "Hi there! I was on SaveYourFave.org and saw that " +
+      "Hi there! I was on SaveYourPlaces.org and saw that " +
       place.name +
       " offers gift certificates over email. I want to support you all, so please let me know how to proceed. Thanks, and stay healthy.";
     const className =

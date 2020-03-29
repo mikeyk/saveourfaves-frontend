@@ -37,6 +37,10 @@ h4 {
   }
 }
 
+.partners {
+  height: 60px;
+}
+
 .app {
   text-align: center;
   overscroll-behavior: none;
@@ -85,7 +89,8 @@ h4 {
   margin-top: 24px;
 }
 
-.footer-content h3 {
+.footer-content h3,
+.footer-content h1 {
   color: $tertiary-text !important;
 }
 

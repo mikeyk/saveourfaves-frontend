@@ -33,7 +33,7 @@ class App extends React.Component {
     super(props);
     // TODO this is janktown routing
     const path = window.location.pathname.slice(1).toLowerCase();
-    const currentArea = Areas[path] ? path : "sf";
+    const currentArea = Areas[path] ? path : "centrallondon";
 
     this.state = {
       faqVisible: false,
@@ -91,7 +91,7 @@ class App extends React.Component {
                 <Row className="top-header">
                   <Col span={24} offset={0}>
                     <Title style={{ float: "left", color: "white" }} level={4}>
-                      SaveOurFaves
+                      SaveYourVenue
                     </Title>
                     <div style={{ float: "right" }}>
                       <a href="#">
@@ -128,7 +128,7 @@ class App extends React.Component {
                     level={1}
                     style={{ color: "white", textAlign: "center" }}
                   >
-                    Your favorite Bay Area restaurant might close forever. Help
+                    Your favourite London restaurant might close forever. Help
                     save it.
                   </Title>
                   <div className="header-sans">
