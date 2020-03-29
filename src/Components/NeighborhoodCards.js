@@ -44,9 +44,6 @@ export class NeighborhoodCards extends React.Component {
         [array[i], array[j]] = [array[j], array[i]];
       }
     }
-    console.log(Neighborhoods);
-    console.log("area:");
-    console.log(area);
     const neighborhoods = Neighborhoods[area];
     if (neighborhoods.length < 7) {
       return neighborhoods;

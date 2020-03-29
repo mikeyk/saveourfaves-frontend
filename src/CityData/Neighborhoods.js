@@ -9,15 +9,13 @@ const Neighborhoods = {
     },
     { name: "Fremont", key: "fremont", image: null },
     { name: "Downtown", key: "downtown", image: null },
-    {name: "Belltown", key:"belltown", image: null},
-    {name: "Downtown", key: "downtown", image: null},
-    {name: "Central District", key: "centraldist", image: null},
-    {name: "Queen Anne", key:"queen_anne", image: null},
-    {name: "Pioneer Square", key: "pioneer_square", image: null},
-    {name: "South Lake Union", key: "slu", image: null},
-    {name: "University District", key: "udistrict", image: null},
-    {name: "Wallingford", key: "wallingford", image: null}
-
+    { name: "Belltown", key: "belltown", image: null },
+    { name: "Central District", key: "centraldist", image: null },
+    { name: "Queen Anne", key: "queen_anne", image: null },
+    { name: "Pioneer Square", key: "pioneer_square", image: null },
+    { name: "South Lake Union", key: "slu", image: null },
+    { name: "University District", key: "udistrict", image: null },
+    { name: "Wallingford", key: "wallingford", image: null }
   ]
   //sf: [
   //  { name: "Mission & Bernal", key: "mission_n_bernal", image: null },
