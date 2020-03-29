@@ -117,6 +117,11 @@ function FAQModal(props) {
       body:
         "People are looking for ways they can support their favorite businesses, so don’t be afraid to let them know that gift cards will help. Reach out to your community on Facebook, Twitter, and Instagram, and use your email list to get in touch with your customers. Ask them to consider buying a gift card for one month of spending to help you weather this storm and keep paying staff, so that you can continue offering great food/coffee/etc. for years to come."
     }
+    {
+      title: "How can I edit the information presented about my business?",
+      body:
+      "To edit your business' information, please feel free to reach out to us at    and we can help!"
+    }
   ];
   return (
     <Modal
