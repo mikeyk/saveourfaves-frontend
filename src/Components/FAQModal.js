@@ -43,32 +43,29 @@ function FAQModal(props) {
 
   const consumerFAQs = [
     {
-      title: "What is SaveOurFaves?",
+      title: "What is SupportSeattle?",
       body:
-        "SaveOurFaves is a directory of Bay Area restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town. We also link to staff donation sites, if they are available."
+        "SupportSeattle is a directory of Seattle area restaurants, coffee shops, and local businesses and their delivery/takeout information and gift card purchase options . It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favorite places in town. We also link to staff donation sites, if they are available."
     },
     {
       title: "Why isn’t my favorite business on your site?",
       body:
-        "Please help us add your fave Bay Area food & beverages spots " +
-        addPlaceLink("here") +
-        ". We're open to adding more small business categories if this catches on."
+        "Please help us add your favorite Seattle business (including restaurants, coffee shops, breweries, hairdressers, boutiques, etc) " +
+        addPlaceLink("here")
     },
     {
-      title:
-        "How else can I support our local businesses beyond purchasing a gift card?",
+      title: "How else can I support our local businesses beyond purchasing a gift card?",
       body:
         "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " + renderLink("https://projects.sfchronicle.com/2020/restaurant-delivery/", "San Francisco Chronicle's list") +
         " of Bay Area restaurants offering takeout. <br />" +
-        "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />" +
-        "Encourage the government to get involved. Sign this " +
-        renderLink("http://chng.it/jM97Sbf9ct", "San Francisco petition") +
-        " to encourage lawmakers to offer emergency small business loans. Please call your US Representative and your Senators. You can be connected to the capitol switchboard at 202-224-3121. Demand that small businesses are part the federal stimulus plan."
+        "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />"
     },
     {
-      title: "Why is this just for the Bay Area? Can you do this for my city?",
+      title: "Are there similar resources for other cities?",
       body:
-        "As San Francisco natives, we started this project for our community. Over the past days, people have launched similar tools for their specific cities, or even nationally. Check out " +
+        "Yes! There are other great sites you can find here: " +
+        renderLink("https://saveourfaves.org/", "SaveOurFaves") + 
+        ", " + 
         renderLink("https://helpmainstreet.com/", "Help Main Street") +
         ", " +
         renderLink("https://givelocal.co/", "GiveLocal") +
@@ -80,25 +77,23 @@ function FAQModal(props) {
         "."
     },
     {
+      title: "Are you going to expand to other Seattle area cities?",
+      body:
+      "Depending on demand for our resource, we will consider expanding further in the Seattle metro area. Stay tuned!"
+    }
+    
+    {
       title: "Who built this? And why?",
       body:
-        "We’re Kaitlyn & Mike Krieger -- a husband and wife duo in San Francisco. We’re no longer going out because of COVID-19 (San Francisco is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite cafes and restaurants during this unpredictable time. SaveOurFaves is our simple way to make it easier for people to help local businesses through this difficult time. We got help and advice from some great friends and local business owners, in particular Phil Levin, Zack Schwab, Kristen Berman, Stefanie Krieger, Melissa Dyrdahl, Laura Buhler, Paul Einbund, and Eddie Hernandez. You can contact us with any questions about the site at " +
-        renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org") +
-        " and see more about why we decided to start it " +
-        renderLink(
-          "https://medium.com/@mikekrieger/launching-saveourfaves-lets-support-restaurants-with-gift-cards-c4fb3e1828cf",
-          "here"
-        ) +
-        "."
+        "We’re a volunteer engineering team of employees/friends from Microsoft. We’re no longer going out because of COVID-19 (Seattle is under a “shelter in place” ordinance), so we started buying gift cards to help support our favorite local businesses during this unpredictable time. SupportSeattle is our simple way to make it easier for people to help local businesses through this difficult time. We based this site off of the open source code provided by Mike Krieger, the co-founder of SaveOurFaves in San Francisco." 
     }
   ];
   const bizFAQs = [
     {
       title: "Why isn’t my business showing up in your search results?",
       body:
-        "Please help us add your Bay Area food/beverage business " +
-        addPlaceLink("here") +
-        ". We're open to adding more small business categories if this catches on."
+        "Please help us add your Seattle local business " +
+        addPlaceLink("here")
     },
     {
       title:
@@ -110,7 +105,7 @@ function FAQModal(props) {
         "I'm running a GoFundMe for my staff, and I'd like to list it on your site",
       body:
         "Please drop us a note via email at " +
-        renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org")
+        renderLink("___", "___")
     },
     {
       title: "How can I start offering online gift cards?",
