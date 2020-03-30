@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "antd";
 import axios from "axios";
 import { LogEngagementEvent } from "../Logging";
-import Config from "../Config";
+// import Config from "../Config";
 import useScript from "../lib/useScript";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 // If you want to use the provided css
@@ -17,11 +17,11 @@ export function AddNewPlaceModal(props) {
   const [email, setEmail] = useState("");
   const [error, setError] = useState(null);
   const [placeDetails, setPlaceDetails] = useState(null);
-  var googleURL =
-    "https://maps.googleapis.com/maps/api/js?key=" +
-    Config.GoogleAPIKey +
-    "&libraries=places";
-  const [scriptLoaded] = useScript(googleURL);
+  // var googleURL =
+  //   "https://maps.googleapis.com/maps/api/js?key=" +
+  //   Config.GoogleAPIKey +
+  //   "&libraries=places";
+  // const [scriptLoaded] = useScript(googleURL);
 
   const [hasSubmitted, setHasSubmitted] = useState(false);
   // this Counter is a hack so we can have two 'pages' in this Modal
@@ -90,7 +90,7 @@ export function AddNewPlaceModal(props) {
           possible.
         </div>
       )}
-      {!scriptLoaded && <div>Loading...</div>}
+      {/* {!scriptLoaded && <div>Loading...</div>}
       {scriptLoaded && !hasSubmitted && (
         <div>
           <GooglePlacesAutocomplete
@@ -150,7 +150,7 @@ export function AddNewPlaceModal(props) {
           </div>
           {error && <div style={{ marginTop: 8 }}>{error}</div>}
         </div>
-      )}
+      )} */}
     </Modal>
   );
 }
