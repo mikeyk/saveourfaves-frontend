@@ -143,7 +143,7 @@ class App extends React.Component {
                     save it.
                   </Title>
                   <div className="header-sans">
-                    Gift cards help "flatten the curve" of lost income from
+                    Gift cards and donations help "flatten the curve" of lost income from
                     COVID-19.
                   </div>
                 </Col>
