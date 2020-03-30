@@ -53,7 +53,7 @@ export class SuggestedPlaceCards extends React.Component {
     return (
       <div ref={this.props.passRef}>
         <section className="suggestions-container">
-          <Row style={{ justifyContent: "center" }}>{suggestedPlaceCards}</Row>
+          <Row style={{ justifyContent: "center", minWidth:0 }}>{suggestedPlaceCards}</Row>
         </section>
         {this.props.moreAvailable && (
           <div style={{ textAlign: "center" }}>
