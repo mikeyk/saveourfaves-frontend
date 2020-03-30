@@ -1,0 +1,6 @@
+const Config = {
+    GoogleAPIKey: "{{GOOGLE_API_KEY}}",
+    GoogleAnalyticsID: "{{GOOGLE_ANALYTICS_ID}}"
+};
+
+export default Config;

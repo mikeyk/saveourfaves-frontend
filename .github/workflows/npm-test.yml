@@ -27,6 +27,8 @@ jobs:
         node-version: ${{ env.NODE_VERSION }}
     - name: npm install, build, and test
       run: |
+        # Create src/Config.js
+        sed -e 's/{{GOOGLE_API_KEY}}/${{ secrets.GOOGLE_API_KEY }}/g' -e 's/{{GOOGLE_ANALYTICS_ID}}/${{ secrets.GOOGLE_ANALYTICS_ID }}/g' src/Config.js.template > src/Configs.js
         # Build and test the project, then
         # deploy to Azure Web App.
         npm install
