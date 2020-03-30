@@ -1,8 +1,9 @@
 const Areas = {
-  sf: "San Francisco",
-  eastbay: "East Bay",
-  southbay: "South Bay",
-  marin: "Marin"
+  centrallondon: "Central London",
+  southlondon: "Soutch London",
+  eastlondon: "East London",
+  northlondon: "North London",
+  westlondon: "West London",
 };
 
 export default Areas;

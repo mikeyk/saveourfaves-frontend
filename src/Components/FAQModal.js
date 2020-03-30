@@ -45,7 +45,7 @@ function FAQModal(props) {
     {
       title: "What is SaveYourVenue?",
       body:
-        "SaveYourVenue is a directory of London restaurants and coffee shops that offer online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favourite places in town."
+        "SaveYourVenue is a directory of London restaurants and coffee shops that offer donations and online gift cards for purchase. It’s our hope that by providing this resource, we’ll be able to mobilize loyal customers to provide much-needed support for their favourite places in town. We also link to staff donation sites, if they are available."
     },
     {
       title: "Why isn’t my favourite business on your site?",
@@ -58,7 +58,8 @@ function FAQModal(props) {
       title:
         "How else can I support our local businesses beyond purchasing a gift card?",
       body:
-        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup during the pandemic so check their websites and social media to see what’s available. <br />" +
+        "Delivery and pickup are great options! Some restaurants that don’t normally offer delivery have started to offer curbside pickup, and others have closed temporarily. Check their website or social media for the latest info, or browse the " + renderLink("https://projects.sfchronicle.com/2020/restaurant-delivery/", "San Francisco Chronicle's list") +
+        " of Bay Area restaurants offering takeout. <br />" +
         "Tip generously if you can (even for delivery/pickup), since employees are doing extra work and putting their health at risk. <br />" +
         "Encourage the government to get involved. Sign this " +
         renderLink("https://www.change.org/p/boris-johnson-call-to-the-government-to-support-uk-s-hospitality-industry-through-the-coronavirus-crisis-1d701225-9896-4089-a0fc-ce6ffde93203", "petition") +
@@ -96,6 +97,13 @@ function FAQModal(props) {
       title:
         "My business offers gift certificates, but your site says we don’t",
       body: "Please let us know the details " + addPlaceLink("here") + "."
+    },
+    {
+      title:
+        "I'm running a GoFundMe for my staff, and I'd like to list it on your site",
+      body:
+        "Please drop us a note via email at " +
+        renderLink("mailto:info@saveourfaves.org", "info@saveourfaves.org")
     },
     {
       title: "How can I start offering online gift cards?",

@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col } from "antd";
 import { AddLinkModal } from "./AddLinkModal";
 import { CallToActionButton } from "./CallToActionButton";
+import { ExtraActionButtons } from "./ExtraActionButtons";
 export class PlaceResultMain extends React.Component {
   constructor(props) {
     super(props);
@@ -17,18 +18,21 @@ export class PlaceResultMain extends React.Component {
   render() {
     var place = this.props.place;
     if (!place) {
+      return null;
       place = {
         name: "The Snug",
         address: "2301 Fillmore Street",
-        //"giftCardURL": "https://www.toasttab.com/the-snug-san-francisco/giftcards",
-        giftCardURL: null,
+        giftCardURL:
+          "https://www.toasttab.com/the-snug-san-francisco/giftcards",
+        donationURL:
+          "https://www.toasttab.com/the-snug-san-francisco/giftcards",
+        takeoutURL: null,
         placeURL: null,
         emailContact: null,
         imageURL:
           "https://lh3.googleusercontent.com/p/AF1QipM09mIPRVymgGeEM5ZSYH21AhYHk-uZQPKrC8c=s1600-w800",
         placeID: "ChIJ-_7qDsaAhYARKG4Gj6yw2ho"
       };
-      return null;
     }
     return (
       <Row className="place-result">
@@ -48,6 +52,7 @@ export class PlaceResultMain extends React.Component {
         <Col
           xs={24}
           sm={24}
+          jjkk
           md={16}
           lg={16}
           xl={16}
@@ -61,6 +66,11 @@ export class PlaceResultMain extends React.Component {
               <div style={{ textAlign: "right" }} className="place-address">
                 {place.address.split(",")[0]}
               </div>
+            </Col>
+          </Row>
+          <Row align="center">
+            <Col span={24} className="flex-vertical">
+              <ExtraActionButtons place={place} />
             </Col>
           </Row>
           <Row style={{ minHeight: 80 }} align="bottom">

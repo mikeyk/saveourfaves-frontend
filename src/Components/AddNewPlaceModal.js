@@ -12,6 +12,8 @@ import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 
 export function AddNewPlaceModal(props) {
   const [giftLink, setGiftLink] = useState("");
+  const [donationLink, setDonationLink] = useState("");
+  const [showDonationInput, setShowDonationInput] = useState("");
   const [email, setEmail] = useState("");
   const [error, setError] = useState(null);
   const [placeDetails, setPlaceDetails] = useState(null);
@@ -48,7 +50,8 @@ export function AddNewPlaceModal(props) {
       .post("/api/places/submit_new_place", {
         place_details: placeDetails,
         email: email,
-        gift_card_url: giftLink
+        gift_card_url: giftLink,
+        donation_url: donationLink
       })
       .then(response => {
         closeSoon();
@@ -125,6 +128,26 @@ export function AddNewPlaceModal(props) {
             placeholder="Contact Email (optional)"
             value={email}
           />
+          <div style={{ marginTop: 8 }}>
+            <a
+              style={{ display: showDonationInput ? "none" : "inline" }}
+              onClick={e => {
+                setShowDonationInput(true);
+              }}
+            >
+              [+] Add a donation/GoFundMe link
+            </a>
+            <input
+              className="add-link-modal-input"
+              onChange={event => {
+                setDonationLink(event.target.value);
+              }}
+              style={{ display: showDonationInput ? "block" : "none" }}
+              type="text"
+              placeholder="Donation/GoFundMe Link"
+              value={donationLink}
+            />
+          </div>
           {error && <div style={{ marginTop: 8 }}>{error}</div>}
         </div>
       )}
