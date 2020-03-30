@@ -28,13 +28,14 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ env.NODE_VERSION }}
-    - name: npm install, build, and test
+    - name: Generate src/Config.js
       run: |
-        # Create src/Config.js
-        sed -e 's/{{GOOGLE_API_KEY}}/${{ secrets.GOOGLE_API_KEY }}/g' -e 's/{{GOOGLE_ANALYTICS_ID}}/${{ secrets.GOOGLE_ANALYTICS_ID }}/g' src/Config.js.template > src/Configs.js
-        # Build and test the project, then
-        # deploy to Azure Web App.
+        sed -e 's/{{GOOGLE_API_KEY}}/${{ secrets.GOOGLE_API_KEY }}/g' -e 's/{{GOOGLE_ANALYTICS_ID}}/${{ secrets.GOOGLE_ANALYTICS_ID }}/g' src/Config.js.template > src/Configs.js 
+    - name: npm install
+      run: |
         npm install
+    - name: npm build
+      run: |
         npm run build --if-present
         # Removing test temporarily
         # npm run test --if-present
