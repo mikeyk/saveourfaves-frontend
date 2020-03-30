@@ -11,7 +11,7 @@ function GoogleAnalyticsTag(props) {
     };
     window.gtag("js", new Date());
 
-    window.gtag("config", "UA-157264978-1");
+    window.gtag("config", props.analyticsID);
   } else {
     window.gtag = function() {};
     window.ga = function() {};
