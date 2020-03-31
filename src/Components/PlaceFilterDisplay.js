@@ -17,12 +17,15 @@ export class PlaceFilterDisplay extends React.Component {
     };
     this.elementRef = React.createRef();
 
-    const placeKey = window.location.pathname.slice(1);
-    const currentPlace = SFPlaces.find(
-      placeKey => this.key = placeKey
-    )
-    if(currentPlace)
-      this.fetchPlaceInfo(this.elementRef, placeKey);
+    const params = window.location.pathname.slice(1).split("/");
+    if(params[0] === 'place'){
+      const placeKey = params[1];
+      const currentPlace = SFPlaces.find(
+        placeKey => this.key = placeKey
+      )
+      if(currentPlace)
+        this.fetchPlaceInfo(this.elementRef, placeKey);
+    }
   }
 
   updateAreaFromPlace = place => {

@@ -36,7 +36,7 @@ export class ExtraPlaceButtons extends React.Component {
                 "share",
                 place.placeID
               );
-              this.copyToClipboard(window.location.origin + "/" + place.placeID)
+              this.copyToClipboard(window.location.origin + "/place/" + place.placeID)
             }}
           >
           </Button>
