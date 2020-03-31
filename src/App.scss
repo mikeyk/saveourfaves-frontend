@@ -162,6 +162,16 @@ h4.place-title {
   color: darkgray;
 }
 
+.place-buttons {
+  align-self: flex-end;
+  margin: -5px 0 5px 0;
+}
+
+.ant-tooltip-inner,
+.ant-tooltip-arrow::before {
+  background-color: $primary-color;
+}
+
 h4.suggestion-title {
   color: $text-color;
   margin-bottom: 0;

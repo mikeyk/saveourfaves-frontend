@@ -4,6 +4,7 @@ import { NearbySpots } from "./NearbySpots";
 import { PlaceResultMain } from "./PlaceResultMain";
 import { PlaceAutosuggestion } from "./PlacesAutosuggestion";
 import Areas from "../CityData/Areas";
+import SFPlaces from "../CityData/Places";
 
 export class PlaceFilterDisplay extends React.Component {
   constructor(props) {
@@ -15,6 +16,13 @@ export class PlaceFilterDisplay extends React.Component {
       suggestedPlaces: null
     };
     this.elementRef = React.createRef();
+
+    const placeKey = window.location.pathname.slice(1);
+    const currentPlace = SFPlaces.find(
+      placeKey => this.key = placeKey
+    )
+    if(currentPlace)
+      this.fetchPlaceInfo(this.elementRef, placeKey);
   }
 
   updateAreaFromPlace = place => {
