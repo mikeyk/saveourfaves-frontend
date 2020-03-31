@@ -1,0 +1,4 @@
+#! /bin/bash
+npm run build
+scp -r build /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/staged
+sudo stat /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/staged && sudo rm -rf /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/last && sudo mv /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/current /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/last && sudo mv /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/staged /Users/chrisciszak/Documents/Projects/saveourplaces.org/saveourfaves-server/nginx/build/current && sudo docker exec saveourfaves-server_frontend_1 nginx -s reload

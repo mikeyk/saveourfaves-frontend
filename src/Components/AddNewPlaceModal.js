@@ -72,7 +72,7 @@ export function AddNewPlaceModal(props) {
   }
   return (
     <Modal
-      title={<span>Add a New Bay Area Small Business</span>}
+      title={<span>Add a New London Small Business</span>}
       visible={props.shouldShow}
       onOk={args => {
         counter === 0 ? handleLinkSubmission() : resetAndClose();
@@ -105,7 +105,7 @@ export function AddNewPlaceModal(props) {
               location: { lat: 37.2865732484, lng: -121.8287260832 },
               radius: 5000,
               componentRestrictions: {
-                country: "us"
+                country: "uk"
               }
             }}
             types={["establishment"]}
