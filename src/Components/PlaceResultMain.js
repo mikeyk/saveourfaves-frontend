@@ -3,6 +3,8 @@ import { Row, Col } from "antd";
 import { AddLinkModal } from "./AddLinkModal";
 import { CallToActionButton } from "./CallToActionButton";
 import { ExtraActionButtons } from "./ExtraActionButtons";
+import { ExtraPlaceButtons } from "./ExtraPlaceButtons";
+
 export class PlaceResultMain extends React.Component {
   constructor(props) {
     super(props);
@@ -63,6 +65,7 @@ export class PlaceResultMain extends React.Component {
               <h2 className="place-title">{place.name}</h2>
             </Col>
             <Col span={10} className="flex-vertical">
+              <ExtraPlaceButtons place={place} />
               <div style={{ textAlign: "right" }} className="place-address">
                 {place.address.split(",")[0]}
               </div>
