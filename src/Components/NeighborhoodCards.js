@@ -48,10 +48,8 @@ export class NeighborhoodCards extends React.Component {
       }
     }
     const neighborhoods = Neighborhoods[area];
-    const firstBatch = neighborhoods.slice(0, 6);
-    const rest = neighborhoods.slice(6);
-    shuffleArray(rest);
-    return firstBatch.concat(rest);
+    shuffleArray(neighborhoods);
+    return neighborhoods;
   };
   componentDidMount = () => {
     this.updateWindowDimensions();
