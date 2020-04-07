@@ -1,5 +1,5 @@
 import React from "react";
-import SFPlaces from "../CityData/Places";
+import SeattlePlaces from "../CityData/Places";
 import Autosuggest from "react-autosuggest";
 import { LogEngagementEvent } from "../Logging";
 import { AddNewPlaceModal } from "./AddNewPlaceModal";
@@ -27,7 +27,7 @@ export class PlaceAutosuggestion extends React.Component {
     if (inputLength < 3) {
       return [];
     } else {
-      const results = SFPlaces.filter(
+      const results = SeattlePlaces.filter(
         place => this.sanitizeInput(place.name).indexOf(inputValue) !== -1
       ).slice(0, this.maxSuggestions);
       if (results.length === 0) {
