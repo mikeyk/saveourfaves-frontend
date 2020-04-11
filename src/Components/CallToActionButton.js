@@ -1,7 +1,9 @@
 import React from "react";
 import { Button } from "antd";
 import { EmailSubscription } from "./EmailSubscription";
+import { GooglePlacesLink } from "./GooglePlacesLink";
 import { LogEngagementEvent } from "../Logging";
+import Config from "../Config";
 
 export class CallToActionButton extends React.Component {
   render() {
@@ -29,8 +31,11 @@ export class CallToActionButton extends React.Component {
             Get Gift Card
           </Button>
         )}
-        {!place.giftCardURL && (
+        {!place.giftCardURL && !Config.DisableEmailRequests && (
           <EmailSubscription place={this.props.place} buttonClass={className} />
+        )}
+        {!place.giftCardURL && Config.DisableEmailRequests && (
+          <GooglePlacesLink place={this.props.place} buttonClass={className} />
         )}
       </div>
     );

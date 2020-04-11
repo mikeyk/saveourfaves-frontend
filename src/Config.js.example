@@ -1,6 +1,7 @@
 const Config = {
   GoogleAPIKey: "",
-  GoogleAnalyticsID: "UA-XXXXXX"
+  GoogleAnalyticsID: "UA-XXXXXX",
+  DisableEmailRequests: false
 };
 
 export default Config;
