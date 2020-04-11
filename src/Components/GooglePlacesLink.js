@@ -20,7 +20,7 @@ export function GooglePlacesLink(props) {
   return (
     <Button
       shape="round"
-      size="default"
+      size={props.buttonSize}
       className={props.buttonClass}
       type="default"
       onClick={clickHandler}

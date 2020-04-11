@@ -35,7 +35,11 @@ export class CallToActionButton extends React.Component {
           <EmailSubscription place={this.props.place} buttonClass={className} />
         )}
         {!place.giftCardURL && Config.DisableEmailRequests && (
-          <GooglePlacesLink place={this.props.place} buttonClass={className} />
+          <GooglePlacesLink
+            place={this.props.place}
+            buttonClass={className}
+            buttonSize={size}
+          />
         )}
       </div>
     );
